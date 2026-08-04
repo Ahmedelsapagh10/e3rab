@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:new_strucuture/core/content_validation/content_validation_service.dart';
+import 'package:new_strucuture/features/curriculum/data/data_source/local_curriculum_data_source.dart';
 import 'package:new_strucuture/features/curriculum/data/local_content_pack_catalog_repository.dart';
 import 'package:new_strucuture/features/curriculum/data/local_curriculum_matrix_repository.dart';
 import 'package:new_strucuture/features/curriculum/data/model/content_review_status.dart';
@@ -64,6 +65,20 @@ void main() {
       expect(batch.reviewStatus, ContentReviewStatus.aiAssistedDraft);
       expect(batch.seedEnabled, isTrue);
       expect(batch.learnerEnabled, isFalse);
+
+      final learnerSource = AssetCurriculumDataSource(
+        bundle: rootBundle,
+        assetPaths: catalog.packs
+            .where((pack) => pack.learnerEnabled)
+            .map((pack) => pack.assetPath)
+            .toList(),
+      );
+      await learnerSource.load();
+      expect(learnerSource.lessons, hasLength(3));
+      expect(
+        learnerSource.lessons.map((lesson) => lesson.id),
+        isNot(contains('jussive-answer-request-v1')),
+      );
     },
   );
 

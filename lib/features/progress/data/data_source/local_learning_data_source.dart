@@ -131,6 +131,16 @@ class LocalLearningDataSource {
     _changes.add(_key(owner));
   }
 
+  Future<void> resetProgress(LearningDataOwner owner) async {
+    final data = _read(owner)
+      ..remove('progress')
+      ..remove('attempts')
+      ..remove('mastery')
+      ..remove('reviews');
+    await _preferences.setString(_key(owner), jsonEncode(data));
+    _changes.add(_key(owner));
+  }
+
   List<T> _values<T>(
     LearningDataOwner owner,
     String collection,

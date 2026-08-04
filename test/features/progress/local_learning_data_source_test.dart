@@ -76,4 +76,44 @@ void main() {
     expect(source.getAttempts(owner), [attempt]);
     await source.dispose();
   });
+
+  test('progress reset preserves private bookmarks', () async {
+    SharedPreferences.setMockInitialValues({});
+    final source = LocalLearningDataSource(
+      await SharedPreferences.getInstance(),
+    );
+    final owner = LearningDataOwner.guest('guest');
+    final now = DateTime.utc(2026, 8, 4);
+    await source.saveProgress(
+      owner,
+      LessonProgressModel(
+        lessonId: 'lesson',
+        contentVersion: '1.0.0',
+        status: LessonProgressStatus.inProgress,
+        completedSectionIds: const [],
+        attemptCount: 0,
+        bestScore: 0,
+        masteryScore: 0,
+        updatedAt: now,
+        schemaVersion: 1,
+      ),
+    );
+    await source.saveBookmark(
+      owner,
+      BookmarkModel(
+        id: 'lesson',
+        targetType: 'lesson',
+        targetId: 'lesson',
+        contentVersion: '1.0.0',
+        createdAt: now,
+        updatedAt: now,
+      ),
+    );
+
+    await source.resetProgress(owner);
+
+    expect(source.getProgress(owner), isEmpty);
+    expect(source.getBookmarks(owner), hasLength(1));
+    await source.dispose();
+  });
 }

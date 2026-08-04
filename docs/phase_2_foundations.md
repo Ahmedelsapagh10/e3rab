@@ -38,8 +38,10 @@ e3rab_users/{uid}
 ```
 
 The checked-in rules require the authenticated UID to equal the path UID.
-Exercise attempts are append-only. Bookmarks and notes use updateable documents
-so Phase 3 can implement tombstones and conflict preservation.
+Exercise attempts cannot be updated during normal learning. Owner-only deletion
+is permitted solely for the implemented privacy reset and account-deletion
+flows. Bookmarks and notes use updateable documents for tombstones and conflict
+preservation.
 
 The `learningRole` field is a learning preference, not an authorization role.
 Client writes cannot add an `authorizationRole` field.

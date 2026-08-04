@@ -130,6 +130,29 @@ class FirestoreLearningDataSource {
     });
   }
 
+  Future<void> resetProgress(String uid) async {
+    for (final collection in const [
+      'lesson_progress',
+      'exercise_attempts',
+      'skill_mastery',
+      'review_items',
+    ]) {
+      await _deleteCollection(uid, collection);
+    }
+  }
+
+  Future<void> _deleteCollection(String uid, String collection) async {
+    while (true) {
+      final snapshot = await _collection(uid, collection).limit(400).get();
+      if (snapshot.docs.isEmpty) return;
+      final batch = _firestore.batch();
+      for (final document in snapshot.docs) {
+        batch.delete(document.reference);
+      }
+      await batch.commit();
+    }
+  }
+
   DocumentReference<Map<String, dynamic>> _doc(
     String uid,
     String collection,

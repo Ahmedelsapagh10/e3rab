@@ -1,11 +1,11 @@
 {
-    "name": "X STORE",
-    "short_name": "X STORE",
+    "name": "E3rab — إعراب",
+    "short_name": "إعراب",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#F5F7FE",
-    "theme_color": "#31538E",
-    "description": "A new Flutter project.",
+    "background_color": "#FFF9F2",
+    "theme_color": "#E77813",
+    "description": "منصة عربية محلية أولًا لتعلّم النحو والإعراب وتطبيقهما.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -23,5 +23,9 @@ abstract class AuthRepository {
 
   Future<Either<Failure, Unit>> sendPasswordResetEmail(String email);
 
+  Future<Either<Failure, Unit>> reauthenticate(String password);
+
+  Future<Either<Failure, Unit>> deleteCurrentAccount();
+
   Future<Either<Failure, Unit>> signOut();
 }

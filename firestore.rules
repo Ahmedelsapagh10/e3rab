@@ -253,32 +253,38 @@ service cloud.firestore {
         allow read: if ownsUser(uid);
         allow create, update: if ownsUser(uid)
           && validLessonProgress(lessonId);
+        allow delete: if ownsUser(uid);
       }
 
       match /exercise_attempts/{attemptId} {
         allow read: if ownsUser(uid);
         allow create: if ownsUser(uid) && validExerciseAttempt(attemptId);
+        allow delete: if ownsUser(uid);
       }
 
       match /skill_mastery/{skillId} {
         allow read: if ownsUser(uid);
         allow create, update: if ownsUser(uid) && validSkillMastery(skillId);
+        allow delete: if ownsUser(uid);
       }
 
       match /review_items/{reviewItemId} {
         allow read: if ownsUser(uid);
         allow create, update: if ownsUser(uid)
           && validReviewItem(reviewItemId);
+        allow delete: if ownsUser(uid);
       }
 
       match /bookmarks/{bookmarkId} {
         allow read: if ownsUser(uid);
         allow create, update: if ownsUser(uid) && validBookmark(bookmarkId);
+        allow delete: if ownsUser(uid);
       }
 
       match /notes/{noteId} {
         allow read: if ownsUser(uid);
         allow create, update: if ownsUser(uid) && validNote(noteId);
+        allow delete: if ownsUser(uid);
       }
     }
 

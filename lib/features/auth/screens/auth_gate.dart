@@ -60,7 +60,7 @@ class AuthGate extends StatelessWidget {
     final owner = isGuest
         ? LearningDataOwner.guest('local-guest')
         : LearningDataOwner.account(uid!);
-    final shell = E3rabShellScreen(isGuest: isGuest);
+    final shell = E3rabShellScreen(isGuest: isGuest, uid: uid);
     return MultiBlocProvider(
       key: ValueKey('${owner.type.name}-${owner.id}'),
       providers: [

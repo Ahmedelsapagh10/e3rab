@@ -113,6 +113,21 @@ class LocalFirstProgressRepository implements ProgressRepository {
     LearningDataOwner owner,
   ) => _read(() => _local.getReviews(owner));
 
+  @override
+  Future<Either<Failure, Unit>> resetProgress(LearningDataOwner owner) async {
+    try {
+      if (owner.type == LearningDataOwnerType.account) {
+        final cloud = _cloud;
+        if (cloud == null) return Left(ServerFailure());
+        await cloud.resetProgress(owner.id);
+      }
+      await _local.resetProgress(owner);
+      return const Right(unit);
+    } catch (_) {
+      return Left(ServerFailure());
+    }
+  }
+
   Future<void> _recalculate(
     LearningDataOwner owner,
     List<String> skillIds,

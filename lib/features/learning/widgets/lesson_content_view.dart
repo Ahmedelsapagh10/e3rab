@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../curriculum/data/model/content_reference_model.dart';
+import '../../curriculum/data/model/content_review_status.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 import 'parsed_example_card.dart';
 
@@ -40,7 +41,13 @@ class LessonContentView extends StatelessWidget {
                     spacing: E3rabSpacing.small,
                     children: [
                       Chip(label: Text('${lesson.estimatedMinutes} دقيقة')),
-                      const Chip(label: Text('مسودة قيد المراجعة')),
+                      Chip(
+                        label: Text(
+                          lesson.reviewStatus == ContentReviewStatus.approved
+                              ? 'محتوى معتمد'
+                              : 'مسودة قيد المراجعة',
+                        ),
+                      ),
                     ],
                   ),
                   const SizedBox(height: E3rabSpacing.large),

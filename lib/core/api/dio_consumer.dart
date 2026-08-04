@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:developer';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
@@ -131,27 +130,14 @@ class DioConsumer implements BaseApiConsumer {
   }
 
   Future<Options> _getOptions() async {
-    final token = await _getToken();
     final lang = await Preferences.instance.getSavedLang();
-    log('myToken=>$token');
     return Options(
       headers: {
-        'Authorization': ?token,
         'Connection': 'keep-alive',
         'Accept': '*/*',
         'Accept-Language': lang,
       },
     );
-  }
-
-  Future<String?> _getToken() async {
-    final userModel = await Preferences.instance.getUserModel();
-
-    if (userModel.data != null) {
-      return userModel.data?.accessToken;
-    } else {
-      return null;
-    }
   }
 
   Future<dynamic> _makeRequest(Future<Response> Function() request) async {

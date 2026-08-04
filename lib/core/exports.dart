@@ -14,5 +14,4 @@ export '../../../core/error/failures.dart';
 export 'package:dartz/dartz.dart' hide State;
 export '../../../core/api/end_points.dart';
 export '../../../core/error/exceptions.dart';
-export '../features/login/data/model/login_model.dart';
 export 'package:auto_size_text/auto_size_text.dart';

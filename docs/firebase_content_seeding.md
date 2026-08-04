@@ -47,7 +47,7 @@ Each pack write is idempotent. If its Firestore document already has the same co
 - Content admins may read draft packs.
 - Signed-in students may read a pack only when its parent `reviewStatus` is `approved`.
 - Guests continue to use local assets and have no Firestore access.
-- A catalog entry records local publication intent with `learnerEnabled`. The current learner repository still loads only the established vertical slice; multi-pack loading must consult this field when it is introduced after review.
+- The local learner data source loads only catalog entries with `learnerEnabled: true`. Draft batches can therefore be seedable for administrators while remaining absent from student lessons, search, and practice.
 - Current packs are `aiAssistedDraft`, so uploading them does not make them readable or authoritative for students.
 
 The normal startup path never uploads content: without the explicit debug define, `ContentSeeder` exits before reading Firebase or the catalog.

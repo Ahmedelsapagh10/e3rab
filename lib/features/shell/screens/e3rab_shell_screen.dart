@@ -2,18 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../core/widgets/e3rab_adaptive_scaffold.dart';
+import '../../../injector.dart';
+import '../../account/cubit/account_settings_cubit.dart';
+import '../../account/data/account_management_repository.dart';
+import '../../account/screens/account_settings_screen.dart';
 import '../../auth/cubit/auth_cubit.dart';
+import '../../learning/cubit/learning_cubit.dart';
 import '../../learning/widgets/learning_catalog_view.dart';
 import '../../learning/widgets/reference_search_view.dart';
 import '../../learning/widgets/review_center_view.dart';
 import '../../parsing/widgets/parsing_lab_view.dart';
+import '../../progress/data/model/learning_progress_models.dart';
 import '../cubit/shell_cubit.dart';
 import '../widgets/e3rab_home_view.dart';
 
 class E3rabShellScreen extends StatelessWidget {
-  const E3rabShellScreen({super.key, required this.isGuest});
+  const E3rabShellScreen({super.key, required this.isGuest, this.uid});
 
   final bool isGuest;
+  final String? uid;
 
   static const _destinations = [
     E3rabNavigationDestination(
@@ -56,6 +63,11 @@ class E3rabShellScreen extends StatelessWidget {
             appBar: AppBar(
               title: const Text('إعراب'),
               actions: [
+                IconButton(
+                  onPressed: () => _openSettings(context),
+                  tooltip: 'الخصوصية والبيانات',
+                  icon: const Icon(Icons.settings_outlined),
+                ),
                 TextButton.icon(
                   onPressed: () => _accountAction(context),
                   icon: Icon(
@@ -88,5 +100,28 @@ class E3rabShellScreen extends StatelessWidget {
     } else {
       authCubit.signOut();
     }
+  }
+
+  void _openSettings(BuildContext context) {
+    final learningCubit = context.read<LearningCubit>();
+    final owner = isGuest
+        ? LearningDataOwner.guest('local-guest')
+        : LearningDataOwner.account(uid!);
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => MultiBlocProvider(
+          providers: [
+            BlocProvider.value(value: learningCubit),
+            BlocProvider(
+              create: (_) => AccountSettingsCubit(
+                serviceLocator<AccountManagementRepository>(),
+                owner,
+              ),
+            ),
+          ],
+          child: AccountSettingsScreen(isGuest: isGuest),
+        ),
+      ),
+    );
   }
 }

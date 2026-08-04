@@ -57,24 +57,6 @@ class AppConstance {
 
   static const String mobilePrefixNo = "966";
 
-  static const String supportTicketsToken =
-      "EAAUgm6XzF64BO1amwALx6ZCgc3P7rqj5JWh5kqOO7bRQNeOXE4uSHMXwDd5ZCubiXTGMVYXZCzaLJkBzZB1Lq5Skpw2x63W7df998ZAiO1o6VgcHe9znKXuRAMOXvDTsjZAilBIlYtDp1INZButQPifZBSzGJgJH1EdprPzYdyvwvGohNaulKGiJ55D8ZBsOjZARQD";
-  //! AMAZON
-  static const String accessKey = 'DO801HV9G3RTD2NM9Q6N';
-  static const String secretKey = '2cSJwWHR2S9E/8w+Kfa2q5XU9tWL3o+J5KXNVHRpTBQ';
-  static const String region = 'blr1';
-  static const String bucketName = 'rdapps';
-  static const String endpoint = 'https://blr1.digitaloceanspaces.com/';
-  static const String destinationPath = 'Uploads/Reports/inspection';
-  Future<Map<String, String>> getHeader({bool isToken = true}) async {
-    return {
-      "Accept": "application/json",
-      "Accept-Language": await MySecureStorage.getLanguage(),
-      if (isToken)
-        "Authorization": "Bearer ${await MySecureStorage.getToken()}",
-    };
-  }
-
   Future<String> genralErrorMessage() async {
     return await MySecureStorage.getLanguage() == "ar"
         ? "حدث خطا ما من فضلك حاول مجددا"

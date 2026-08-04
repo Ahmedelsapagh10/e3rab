@@ -15,6 +15,8 @@ class FakeAuthRepository implements AuthRepository {
   @override
   AuthUserModel? currentUser;
   int signInCalls = 0;
+  int reauthenticateCalls = 0;
+  int deleteCalls = 0;
   Completer<void>? signInGate;
   final StreamController<AuthUserModel?> controller =
       StreamController<AuthUserModel?>.broadcast();
@@ -49,6 +51,19 @@ class FakeAuthRepository implements AuthRepository {
   }
 
   @override
+  Future<Either<Failure, Unit>> reauthenticate(String password) async {
+    reauthenticateCalls++;
+    return const Right(unit);
+  }
+
+  @override
+  Future<Either<Failure, Unit>> deleteCurrentAccount() async {
+    deleteCalls++;
+    currentUser = null;
+    return const Right(unit);
+  }
+
+  @override
   Future<Either<Failure, Unit>> signOut() async {
     currentUser = null;
     return const Right(unit);
@@ -60,6 +75,7 @@ class FakeAuthRepository implements AuthRepository {
 class FakeUserProfileRepository implements UserProfileRepository {
   E3rabUserProfile profile = testProfile;
   int repairCalls = 0;
+  int deleteCalls = 0;
 
   @override
   Future<Either<Failure, E3rabUserProfile>> createOrRepairProfile(
@@ -71,6 +87,7 @@ class FakeUserProfileRepository implements UserProfileRepository {
 
   @override
   Future<Either<Failure, Unit>> deleteProfile(String uid) async {
+    deleteCalls++;
     return const Right(unit);
   }
 

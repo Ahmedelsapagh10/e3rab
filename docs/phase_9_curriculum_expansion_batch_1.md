@@ -19,7 +19,7 @@ This batch therefore makes one narrow, evidence-backed placement claim only. The
 - `e3rab_curriculum_matrix_egypt_2025_2026_v1.json` stores the dated mapping separately from canonical grammar concepts.
 - `e3rab_content_catalog_v1.json` registers immutable pack IDs, content and curriculum versions, seed eligibility, and learner publication eligibility.
 - `e3rab_egypt_secondary2_term1_batch1_v1.json` contains one lesson and ten exercises with stable IDs and per-option feedback.
-- The existing learner repository continues to load only the current vertical slice. The new batch cannot appear in student search, lessons, progress, or teacher presentation by accident.
+- The learner data source reads the catalog and combines only `learnerEnabled` packs after validating each pack and rejecting cross-pack ID collisions. The new batch cannot appear in student search, lessons, progress, or teacher presentation while its publication flag remains false.
 - The controlled Firebase seeder reads every `seedEnabled` catalog entry, validates it, hashes it, and performs idempotent writes behind the existing debug, Firebase, signed-in, and trusted-claim gates.
 
 Opening a normal build does not upload curriculum content.

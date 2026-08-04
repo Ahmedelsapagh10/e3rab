@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../../../auth/data/model/auth_user_model.dart';
 import '../model/e3rab_user_profile.dart';
+import 'firestore_user_data_purger.dart';
 
 abstract class FirestoreUserDataSource {
   Stream<E3rabUserProfile?> watchProfile(String uid);
@@ -16,10 +17,12 @@ abstract class FirestoreUserDataSource {
 }
 
 class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
-  FirestoreUserDataSourceImpl(this._firestore);
+  FirestoreUserDataSourceImpl(this._firestore)
+    : _purger = FirestoreUserDataPurger(_firestore);
 
   static const _collection = 'e3rab_users';
   final FirebaseFirestore _firestore;
+  final FirestoreUserDataPurger _purger;
 
   @override
   Stream<E3rabUserProfile?> watchProfile(String uid) {
@@ -63,7 +66,10 @@ class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
   }
 
   @override
-  Future<void> deleteProfile(String uid) => _reference(uid).delete();
+  Future<void> deleteProfile(String uid) async {
+    await _purger.purgeSubcollections(uid);
+    await _reference(uid).delete();
+  }
 
   DocumentReference<Map<String, dynamic>> _reference(String uid) {
     return _firestore.collection(_collection).doc(uid);

@@ -1,10 +1,6 @@
-import 'dart:developer';
-
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import '../../features/splash/screens/splash_screen.dart';
-import '../preferences/preferences.dart';
+
 import '../utils/app_strings.dart';
 
 class AppInterceptors extends Interceptor {
@@ -21,27 +17,13 @@ class AppInterceptors extends Interceptor {
       'RESPONSE[${response.statusCode}] => PATH: ${response.requestOptions.path}',
     );
     super.onResponse(response, handler);
-    if (response.statusCode == 401) {
-      Preferences.instance.clearUser().then((value) {
-        Get.to(const SplashScreen());
-      });
-    }
   }
 
   @override
   void onError(DioException err, ErrorInterceptorHandler handler) {
-    log('errrrrrrrrrrrrrrrror......................................');
     debugPrint(
       'ERROR[${err.response?.statusCode}] => PATH: ${err.requestOptions.path}',
     );
-    if (err.response!.statusCode == 401 || err.response!.statusCode == 407) {
-      Preferences.instance.clearUser().then((value) {
-        Get.to(const SplashScreen());
-      });
-    }
-    log('......................................');
-
-    ///
     super.onError(err, handler);
   }
 }

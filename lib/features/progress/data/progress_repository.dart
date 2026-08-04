@@ -52,4 +52,6 @@ abstract class ProgressRepository {
   Future<Either<Failure, List<ReviewItemModel>>> getReviewItems(
     LearningDataOwner owner,
   );
+
+  Future<Either<Failure, Unit>> resetProgress(LearningDataOwner owner);
 }

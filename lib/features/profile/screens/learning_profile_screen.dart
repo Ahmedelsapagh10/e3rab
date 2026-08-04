@@ -36,7 +36,7 @@ class LearningProfileScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: E3rabSpacing.small),
                     Text(
-                      'يمكنك تعديل هذه الاختيارات لاحقًا. اختبار تحديد المستوى اختياري وسيُضاف مع محتوى التعلّم.',
+                      'اختر المستوى الأقرب لك الآن، ويمكنك تعديل هذه الاختيارات لاحقًا من ملف التعلم.',
                       style: Theme.of(
                         context,
                       ).textTheme.bodyLarge?.copyWith(height: 1.7),

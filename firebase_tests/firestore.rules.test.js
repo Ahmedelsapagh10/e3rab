@@ -7,6 +7,7 @@ const {
   initializeTestEnvironment,
 } = require('@firebase/rules-unit-testing');
 const {
+  deleteDoc,
   doc,
   getDoc,
   serverTimestamp,
@@ -104,6 +105,17 @@ test('exercise attempts are append-only', async () => {
 
   await assertSucceeds(setDoc(reference, validAttempt('attempt-1')));
   await assertFails(updateDoc(reference, {isCorrect: false}));
+});
+
+test('owner can delete learning data for privacy reset but others cannot', async () => {
+  await seedProfile('owner');
+  const owner = environment.authenticatedContext('owner').firestore();
+  const other = environment.authenticatedContext('other').firestore();
+  const path = 'e3rab_users/owner/exercise_attempts/attempt-1';
+  await setDoc(doc(owner, path), validAttempt('attempt-1'));
+
+  await assertFails(deleteDoc(doc(other, path)));
+  await assertSucceeds(deleteDoc(doc(owner, path)));
 });
 
 test('owner can access every permitted learning subcollection', async () => {

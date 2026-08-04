@@ -20,6 +20,10 @@ abstract class FirebaseAuthDataSource {
 
   Future<void> sendPasswordResetEmail(String email);
 
+  Future<void> reauthenticate(String password);
+
+  Future<void> deleteCurrentAccount();
+
   Future<void> signOut();
 }
 
@@ -68,6 +72,27 @@ class FirebaseAuthDataSourceImpl implements FirebaseAuthDataSource {
   @override
   Future<void> sendPasswordResetEmail(String email) {
     return _firebaseAuth.sendPasswordResetEmail(email: email);
+  }
+
+  @override
+  Future<void> reauthenticate(String password) async {
+    final user = _firebaseAuth.currentUser;
+    final email = user?.email;
+    if (user == null || email == null) {
+      throw FirebaseAuthException(code: 'requires-recent-login');
+    }
+    final credential = EmailAuthProvider.credential(
+      email: email,
+      password: password,
+    );
+    await user.reauthenticateWithCredential(credential);
+  }
+
+  @override
+  Future<void> deleteCurrentAccount() async {
+    final user = _firebaseAuth.currentUser;
+    if (user == null) throw FirebaseAuthException(code: 'user-not-found');
+    await user.delete();
   }
 
   @override

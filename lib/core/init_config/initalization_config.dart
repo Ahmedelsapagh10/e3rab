@@ -6,7 +6,6 @@ import 'package:new_strucuture/core/utils/system_ui.dart';
 import 'package:new_strucuture/firebase_options.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:new_strucuture/injector.dart' as injector;
 import '../preferences/preferences.dart';
@@ -45,18 +44,10 @@ Future<void> initializationClass() async {
   await EasyLocalization.ensureInitialized();
   await ScreenUtil.ensureScreenSize();
 
-  AndroidOptions getAndroidOptions() => const AndroidOptions();
-  IOSOptions getIOSOptions() =>
-      const IOSOptions(accessibility: KeychainAccessibility.first_unlock);
-
   prefs = await SharedPreferences.getInstance();
   SystemUiStyle.overlayStyle();
   await ConnectivityHandler().checkConnection();
 
-  secureStorage = FlutterSecureStorage(
-    aOptions: getAndroidOptions(),
-    iOptions: getIOSOptions(),
-  );
   if (isFirebaseInitialized) {
     try {
       await notificationService.initialize();

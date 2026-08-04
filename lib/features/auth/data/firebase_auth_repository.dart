@@ -55,6 +55,16 @@ class FirebaseAuthRepository implements AuthRepository {
   }
 
   @override
+  Future<Either<Failure, Unit>> reauthenticate(String password) {
+    return _runUnit(() => _dataSource!.reauthenticate(password));
+  }
+
+  @override
+  Future<Either<Failure, Unit>> deleteCurrentAccount() {
+    return _runUnit(() => _dataSource!.deleteCurrentAccount());
+  }
+
+  @override
   Future<Either<Failure, Unit>> signOut() {
     return _runUnit(() => _dataSource!.signOut());
   }

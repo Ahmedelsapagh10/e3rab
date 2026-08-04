@@ -24,24 +24,49 @@ class AssetCurriculumDataSource implements LocalCurriculumDataSource {
     required AssetBundle bundle,
     ContentValidationService validator = const ContentValidationService(),
     this.assetPath = 'assets/content/e3rab_vertical_slice_v1.json',
+    this.assetPaths,
   }) : _bundle = bundle,
        _validator = validator;
 
   final AssetBundle _bundle;
   final ContentValidationService _validator;
   final String assetPath;
+  final List<String>? assetPaths;
   Map<String, dynamic>? _pack;
 
   @override
   Future<void> load() async {
     if (_pack != null) return;
-    final decoded = jsonDecode(await _bundle.loadString(assetPath));
-    final pack = Map<String, dynamic>.from(decoded as Map);
-    final report = _validator.validate(pack);
-    if (!report.isValid) {
-      throw FormatException('Invalid E3rab content pack: ${report.errors}');
+    final combined = <String, dynamic>{
+      for (final key in const [
+        'modules',
+        'units',
+        'lessons',
+        'exercises',
+        'references',
+      ])
+        key: <dynamic>[],
+    };
+    final entityIds = <String>{};
+    for (final path in assetPaths ?? [assetPath]) {
+      final decoded = jsonDecode(await _bundle.loadString(path));
+      final pack = Map<String, dynamic>.from(decoded as Map);
+      final report = _validator.validate(pack);
+      if (!report.isValid) {
+        throw FormatException('Invalid E3rab content pack: ${report.errors}');
+      }
+      for (final key in combined.keys) {
+        for (final value in pack[key] as List) {
+          final item = Map<String, dynamic>.from(value as Map);
+          final id = item['id'] as String;
+          if (!entityIds.add(id)) {
+            throw FormatException('Duplicate cross-pack entity ID: $id');
+          }
+          (combined[key] as List).add(item);
+        }
+      }
     }
-    _pack = pack;
+    _pack = combined;
   }
 
   @override

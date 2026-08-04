@@ -11,8 +11,6 @@ class Routes {
   static const String loginRoute = '/login';
   static const String mainRoute = '/main';
   static const String forgotPasswordEmailRoute = '/forgot-password/email';
-  static const String forgotPasswordOtpRoute = '/forgot-password/otp';
-  static const String forgotPasswordResetRoute = '/forgot-password/reset';
   static const String onboardingPageScreenRoute = '/onboardingPageScreenRoute';
 }
 
@@ -24,14 +22,6 @@ class AppRoutes {
       case Routes.initialRoute:
         return MaterialPageRoute(builder: (context) => const AuthGate());
 
-      // case Routes.detailsRoute:
-      //   final service = settings.arguments as ServicesModel;
-      //   return MaterialPageRoute(
-      //     // Extract the service model argument from the settings arguments map
-      //
-      //     builder: (context) => Details(service: service),
-      //   );
-      //
       case Routes.loginRoute:
         return PageTransition(
           child: const LoginScreen(),
@@ -61,17 +51,6 @@ class AppRoutes {
           alignment: Alignment.center,
           duration: const Duration(milliseconds: 400),
         );
-      //
-      // case Routes.resultOfLessonExam:
-      //   ResponseOfApplyLessonExmamData model =
-      //       settings.arguments as ResponseOfApplyLessonExmamData;
-      //   return PageTransition(
-      //     child: ResultExamLessonScreen(model: model),
-      //     type: PageTransitionType.fade,
-      //     alignment: Alignment.center,
-      //     duration: const Duration(milliseconds: 800),
-      //   );
-
       default:
         return undefinedRoute();
     }

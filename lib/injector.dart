@@ -11,6 +11,8 @@ import 'core/api/base_api_consumer.dart';
 import 'core/api/dio_consumer.dart';
 import 'core/firebase/firebase_platform_support.dart';
 import 'core/init_config/initalization_config.dart';
+import 'features/account/data/account_management_repository.dart';
+import 'features/account/data/firebase_account_management_repository.dart';
 import 'features/auth/cubit/auth_cubit.dart';
 import 'features/auth/data/auth_repository.dart';
 import 'features/auth/data/data_source/firebase_auth_data_source.dart';
@@ -89,8 +91,20 @@ Future<void> setupRepo() async {
           FirebaseAuth.instance,
         )
       : null;
+  final contentCatalogRepository = LocalContentPackCatalogRepository(
+    bundle: rootBundle,
+  );
+  final catalog = await contentCatalogRepository.getCatalog();
+  final learnerAssets = catalog.fold<List<String>>(
+    (_) => const [],
+    (value) => value.packs
+        .where((pack) => pack.learnerEnabled)
+        .map((pack) => pack.assetPath)
+        .toList(growable: false),
+  );
   final localCurriculumDataSource = AssetCurriculumDataSource(
     bundle: rootBundle,
+    assetPaths: learnerAssets.isEmpty ? null : learnerAssets,
   );
   final localParsingDataSource = AssetParsingDataSource(bundle: rootBundle);
   final localLearningDataSource = LocalLearningDataSource(
@@ -114,7 +128,7 @@ Future<void> setupRepo() async {
     () => LocalCurriculumRepository(serviceLocator()),
   );
   serviceLocator.registerLazySingleton<ContentPackCatalogRepository>(
-    () => LocalContentPackCatalogRepository(bundle: rootBundle),
+    () => contentCatalogRepository,
   );
   serviceLocator.registerLazySingleton<CurriculumMatrixRepository>(
     () => LocalCurriculumMatrixRepository(bundle: rootBundle),
@@ -141,6 +155,14 @@ Future<void> setupRepo() async {
   );
   serviceLocator.registerLazySingleton<ProgressRepository>(
     () => progressRepository,
+  );
+  serviceLocator.registerLazySingleton<AccountManagementRepository>(
+    () => FirebaseAccountManagementRepository(
+      serviceLocator(),
+      serviceLocator(),
+      progressRepository,
+      localLearningDataSource,
+    ),
   );
   serviceLocator.registerLazySingleton<SyncRepository>(
     () => LocalFirstSyncRepository(
