@@ -22,8 +22,8 @@ Future<void> initializationClass() async {
     if (options.apiKey.isNotEmpty && options.appId.isNotEmpty) {
       isFirebaseConfigured = true;
     }
-  } catch (e) {
-    debugPrint("Firebase options are not fully configured: $e");
+  } catch (_) {
+    debugPrint('Firebase options are not configured for this platform.');
   }
 
   if (isFirebaseConfigured) {
@@ -32,8 +32,10 @@ Future<void> initializationClass() async {
         options: DefaultFirebaseOptions.currentPlatform,
       );
       isFirebaseInitialized = true;
-    } catch (e) {
-      debugPrint("Error initializing Firebase: $e");
+    } catch (_) {
+      debugPrint(
+        'Firebase initialization failed; guest mode remains available.',
+      );
     }
   } else {
     debugPrint("Firebase is not configured or setup. Skipping initialization.");
@@ -55,11 +57,17 @@ Future<void> initializationClass() async {
     aOptions: getAndroidOptions(),
     iOptions: getIOSOptions(),
   );
-  await notificationService.initialize();
+  if (isFirebaseInitialized) {
+    try {
+      await notificationService.initialize();
+    } catch (_) {
+      debugPrint('Notifications are unavailable; app startup will continue.');
+    }
+  }
 
   await injector.setupDependencyInjection();
-  await injector.setupCubit();
   await injector.setupRepo();
+  await injector.setupCubit();
   Bloc.observer = AppBlocObserver();
 
   await ConnectivityHandler().checkConnection();

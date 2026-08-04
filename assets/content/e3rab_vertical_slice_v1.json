@@ -1,0 +1,2153 @@
+{
+  "manifest": {
+    "packId": "e3rab-vertical-slice-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "egypt-2025-2026-draft-mapping-v1",
+    "locale": "ar",
+    "entityIds": [
+      "foundation-module",
+      "sentence-module",
+      "advanced-module",
+      "word-foundations-unit",
+      "nominal-sentence-unit",
+      "sentence-position-unit",
+      "parts-of-speech",
+      "nominal-sentence",
+      "sentences-with-syntactic-position",
+      "parts-of-speech-ex-1",
+      "parts-of-speech-ex-2",
+      "parts-of-speech-ex-3",
+      "parts-of-speech-ex-4",
+      "parts-of-speech-ex-5",
+      "parts-of-speech-ex-6",
+      "parts-of-speech-ex-7",
+      "parts-of-speech-ex-8",
+      "parts-of-speech-ex-9",
+      "parts-of-speech-ex-10",
+      "nominal-sentence-ex-1",
+      "nominal-sentence-ex-2",
+      "nominal-sentence-ex-3",
+      "nominal-sentence-ex-4",
+      "nominal-sentence-ex-5",
+      "nominal-sentence-ex-6",
+      "nominal-sentence-ex-7",
+      "nominal-sentence-ex-8",
+      "nominal-sentence-ex-9",
+      "nominal-sentence-ex-10",
+      "sentences-with-syntactic-position-ex-1",
+      "sentences-with-syntactic-position-ex-2",
+      "sentences-with-syntactic-position-ex-3",
+      "sentences-with-syntactic-position-ex-4",
+      "sentences-with-syntactic-position-ex-5",
+      "sentences-with-syntactic-position-ex-6",
+      "sentences-with-syntactic-position-ex-7",
+      "sentences-with-syntactic-position-ex-8",
+      "sentences-with-syntactic-position-ex-9",
+      "sentences-with-syntactic-position-ex-10"
+    ],
+    "checksum": "generated-e3rab-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "aiAssistedDraft"
+  },
+  "modules": [
+    {
+      "id": "foundation-module",
+      "slug": "foundation",
+      "title": "تأسيس الكلمة",
+      "unitIds": [
+        "word-foundations-unit"
+      ],
+      "order": 1
+    },
+    {
+      "id": "sentence-module",
+      "slug": "nominal-sentence",
+      "title": "بناء الجملة الاسمية",
+      "unitIds": [
+        "nominal-sentence-unit"
+      ],
+      "order": 2
+    },
+    {
+      "id": "advanced-module",
+      "slug": "sentence-position",
+      "title": "الإعراب المتقدم",
+      "unitIds": [
+        "sentence-position-unit"
+      ],
+      "order": 3
+    }
+  ],
+  "units": [
+    {
+      "id": "word-foundations-unit",
+      "moduleId": "foundation-module",
+      "slug": "word-foundations-unit",
+      "title": "الكلمة وأقسامها",
+      "lessonIds": [
+        "parts-of-speech"
+      ],
+      "order": 1
+    },
+    {
+      "id": "nominal-sentence-unit",
+      "moduleId": "sentence-module",
+      "slug": "nominal-sentence-unit",
+      "title": "الجملة الاسمية",
+      "lessonIds": [
+        "nominal-sentence"
+      ],
+      "order": 2
+    },
+    {
+      "id": "sentence-position-unit",
+      "moduleId": "advanced-module",
+      "slug": "sentence-position-unit",
+      "title": "محل الجملة من الإعراب",
+      "lessonIds": [
+        "sentences-with-syntactic-position"
+      ],
+      "order": 3
+    }
+  ],
+  "lessons": [
+    {
+      "id": "parts-of-speech",
+      "title": "أقسام الكلمة",
+      "unitId": "word-foundations-unit",
+      "stage": "foundation",
+      "grade": "general",
+      "opening": "كل جملة عربية تُبنى من كلمات، وفهم نوع كل كلمة هو أول مفتاح للإعراب.",
+      "explanation": "الكلمة في العربية اسم أو فعل أو حرف. الاسم يدل على معنى في نفسه غير مقترن بزمن، والفعل يدل على حدث مقترن بزمن، والحرف يظهر معناه مع غيره.",
+      "rule": "أقسام الكلمة ثلاثة: اسم وفعل وحرف. نعرف الاسم بعلامات مثل الجر والتنوين والنداء وأل، ونعرف الفعل من زمنه وعلاماته، وما عدا ذلك قد يكون حرفًا.",
+      "reasoning": "التقسيم يعتمد على المعنى والعلامة معًا؛ فلا نحكم من شكل الكلمة وحده.",
+      "detection": "اقرأ السياق، اسأل هل تدل الكلمة على زمن، جرّب علامات الاسم، ثم حدّد إن كانت تربط بين كلمات ولا يستقل معناها.",
+      "comparison": "قد تأتي «مَن» اسم استفهام أو اسم موصول، بينما «مِن» حرف جر؛ الحركة والسياق يفرقان بينهما.",
+      "misconception": "ليس كل ما لا يدل على شخص حرفًا؛ فكلمات المعاني مثل العلم والجمال أسماء.",
+      "summary": "حدّد المعنى والزمن والعلامة، ثم صنّف الكلمة اسمًا أو فعلًا أو حرفًا.",
+      "tags": [
+        "الكلمة",
+        "الاسم",
+        "الفعل",
+        "الحرف",
+        "علامات الاسم"
+      ],
+      "references": [
+        "ref-moe-primary6"
+      ],
+      "slug": "parts-of-speech",
+      "shortTitle": "أقسام الكلمة",
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز المفهوم النحوي في السياق.",
+        "تحديد العلامة أو الموقع مع ذكر السبب.",
+        "تطبيق القاعدة على مثال جديد."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {
+          "id": "parts-of-speech-sec-1",
+          "type": "opening",
+          "title": "مدخل الدرس",
+          "body": "كل جملة عربية تُبنى من كلمات، وفهم نوع كل كلمة هو أول مفتاح للإعراب.",
+          "order": 1,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-2",
+          "type": "explanation",
+          "title": "الفكرة الأساسية",
+          "body": "الكلمة في العربية اسم أو فعل أو حرف. الاسم يدل على معنى في نفسه غير مقترن بزمن، والفعل يدل على حدث مقترن بزمن، والحرف يظهر معناه مع غيره.",
+          "order": 2,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "أقسام الكلمة ثلاثة: اسم وفعل وحرف. نعرف الاسم بعلامات مثل الجر والتنوين والنداء وأل، ونعرف الفعل من زمنه وعلاماته، وما عدا ذلك قد يكون حرفًا.",
+          "order": 3,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-4",
+          "type": "reasoning",
+          "title": "لماذا؟",
+          "body": "التقسيم يعتمد على المعنى والعلامة معًا؛ فلا نحكم من شكل الكلمة وحده.",
+          "order": 4,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "اقرأ السياق، اسأل هل تدل الكلمة على زمن، جرّب علامات الاسم، ثم حدّد إن كانت تربط بين كلمات ولا يستقل معناها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-6",
+          "type": "comparison",
+          "title": "قارن وانتبه",
+          "body": "قد تأتي «مَن» اسم استفهام أو اسم موصول، بينما «مِن» حرف جر؛ الحركة والسياق يفرقان بينهما.",
+          "order": 6,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-7",
+          "type": "misconceptions",
+          "title": "خطأ شائع",
+          "body": "ليس كل ما لا يدل على شخص حرفًا؛ فكلمات المعاني مثل العلم والجمال أسماء.",
+          "order": 7,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "parts-of-speech-sec-8",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "حدّد المعنى والزمن والعلامة، ثم صنّف الكلمة اسمًا أو فعلًا أو حرفًا.",
+          "order": 8,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "parts-of-speech-example-1",
+          "sentence": "العلم نور",
+          "fullyDiacritizedSentence": "العِلْمُ نُورٌ",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "explanation": "قَبِلَت «العلم» أل، ودلت على معنى غير مقترن بزمن؛ فهي اسم.",
+              "startIndex": 0,
+              "endIndex": 5
+            }
+          ],
+          "explanation": "قَبِلَت «العلم» أل، ودلت على معنى غير مقترن بزمن؛ فهي اسم.",
+          "referenceIds": []
+        },
+        {
+          "id": "parts-of-speech-example-2",
+          "sentence": "يكتب الطالب",
+          "fullyDiacritizedSentence": "يَكْتُبُ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
+              "startIndex": 0,
+              "endIndex": 4
+            }
+          ],
+          "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
+          "referenceIds": []
+        }
+      ],
+      "exerciseIds": [
+        "parts-of-speech-ex-1",
+        "parts-of-speech-ex-2",
+        "parts-of-speech-ex-3",
+        "parts-of-speech-ex-4",
+        "parts-of-speech-ex-5",
+        "parts-of-speech-ex-6",
+        "parts-of-speech-ex-7",
+        "parts-of-speech-ex-8",
+        "parts-of-speech-ex-9",
+        "parts-of-speech-ex-10"
+      ],
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "estimatedMinutes": 18,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft"
+    },
+    {
+      "id": "nominal-sentence",
+      "title": "المبتدأ والخبر",
+      "unitId": "nominal-sentence-unit",
+      "stage": "preparatory",
+      "grade": "grade-7",
+      "opening": "حين نقول «العلم نافع» نبدأ باسم نتحدث عنه، ثم نذكر المعلومة التي نريد إثباتها له.",
+      "explanation": "المبتدأ اسم مرفوع نبدأ به غالبًا، والخبر هو الجزء الذي يتمم المعنى مع المبتدأ، وقد يكون مفردًا أو جملة أو شبه جملة.",
+      "rule": "الأصل في المبتدأ والخبر الرفع. الخبر المفرد ليس معناه كلمة واحدة بالضرورة، بل ما ليس جملة ولا شبه جملة.",
+      "reasoning": "العلاقة إسنادية: ننسب معنى الخبر إلى المبتدأ، وباجتماعهما تتم الفائدة.",
+      "detection": "ابحث عن الاسم المتحدث عنه، ثم اسأل ماذا قلنا عنه، وحدد نوع الخبر وعلامة رفع كل طرف.",
+      "comparison": "في «في الفصل طلاب» الخبر شبه الجملة متقدم، و«طلاب» مبتدأ مؤخر؛ لا تجعل أول كلمة دائمًا مبتدأ.",
+      "misconception": "المبتدأ ليس دائمًا أول كلمة، والخبر الجملة يحتاج رابطًا يعود على المبتدأ.",
+      "summary": "عيّن طرفي الإسناد، تحقق من تمام المعنى، ثم حدّد نوع الخبر وعلامة الرفع.",
+      "tags": [
+        "المبتدأ",
+        "الخبر",
+        "الجملة الاسمية",
+        "الرفع",
+        "الخبر المقدم"
+      ],
+      "references": [
+        "ref-moe-primary6"
+      ],
+      "slug": "nominal-sentence",
+      "shortTitle": "المبتدأ والخبر",
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "objectives": [
+        "تمييز المفهوم النحوي في السياق.",
+        "تحديد العلامة أو الموقع مع ذكر السبب.",
+        "تطبيق القاعدة على مثال جديد."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {
+          "id": "nominal-sentence-sec-1",
+          "type": "opening",
+          "title": "مدخل الدرس",
+          "body": "حين نقول «العلم نافع» نبدأ باسم نتحدث عنه، ثم نذكر المعلومة التي نريد إثباتها له.",
+          "order": 1,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-2",
+          "type": "explanation",
+          "title": "الفكرة الأساسية",
+          "body": "المبتدأ اسم مرفوع نبدأ به غالبًا، والخبر هو الجزء الذي يتمم المعنى مع المبتدأ، وقد يكون مفردًا أو جملة أو شبه جملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الأصل في المبتدأ والخبر الرفع. الخبر المفرد ليس معناه كلمة واحدة بالضرورة، بل ما ليس جملة ولا شبه جملة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-4",
+          "type": "reasoning",
+          "title": "لماذا؟",
+          "body": "العلاقة إسنادية: ننسب معنى الخبر إلى المبتدأ، وباجتماعهما تتم الفائدة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "ابحث عن الاسم المتحدث عنه، ثم اسأل ماذا قلنا عنه، وحدد نوع الخبر وعلامة رفع كل طرف.",
+          "order": 5,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-6",
+          "type": "comparison",
+          "title": "قارن وانتبه",
+          "body": "في «في الفصل طلاب» الخبر شبه الجملة متقدم، و«طلاب» مبتدأ مؤخر؛ لا تجعل أول كلمة دائمًا مبتدأ.",
+          "order": 6,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-7",
+          "type": "misconceptions",
+          "title": "خطأ شائع",
+          "body": "المبتدأ ليس دائمًا أول كلمة، والخبر الجملة يحتاج رابطًا يعود على المبتدأ.",
+          "order": 7,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        },
+        {
+          "id": "nominal-sentence-sec-8",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "عيّن طرفي الإسناد، تحقق من تمام المعنى، ثم حدّد نوع الخبر وعلامة الرفع.",
+          "order": 8,
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-sentence-example-1",
+          "sentence": "الطالب مجتهد",
+          "fullyDiacritizedSentence": "الطَّالِبُ مُجْتَهِدٌ",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "explanation": "«الطالب» اسم مرفوع وقع طرف الإسناد الأول، و«مجتهد» أتم الفائدة خبرًا.",
+              "startIndex": 0,
+              "endIndex": 6
+            }
+          ],
+          "explanation": "«الطالب» اسم مرفوع وقع طرف الإسناد الأول، و«مجتهد» أتم الفائدة خبرًا.",
+          "referenceIds": []
+        },
+        {
+          "id": "nominal-sentence-example-2",
+          "sentence": "في الفصل طلاب",
+          "fullyDiacritizedSentence": "فِي الفَصْلِ طُلَّابٌ",
+          "parsedWords": [
+            {
+              "word": "طلاب",
+              "normalizedWord": "طلاب",
+              "wordType": "اسم",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "جمع تكسير",
+              "explanation": "شبه الجملة «في الفصل» خبر مقدم، و«طلاب» مبتدأ مؤخر مرفوع.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "شبه الجملة «في الفصل» خبر مقدم، و«طلاب» مبتدأ مؤخر مرفوع.",
+          "referenceIds": []
+        }
+      ],
+      "exerciseIds": [
+        "nominal-sentence-ex-1",
+        "nominal-sentence-ex-2",
+        "nominal-sentence-ex-3",
+        "nominal-sentence-ex-4",
+        "nominal-sentence-ex-5",
+        "nominal-sentence-ex-6",
+        "nominal-sentence-ex-7",
+        "nominal-sentence-ex-8",
+        "nominal-sentence-ex-9",
+        "nominal-sentence-ex-10"
+      ],
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "estimatedMinutes": 18,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft"
+    },
+    {
+      "id": "sentences-with-syntactic-position",
+      "title": "الجمل التي لها محل من الإعراب",
+      "unitId": "sentence-position-unit",
+      "stage": "secondary",
+      "grade": "grade-12",
+      "opening": "قد تشغل جملة كاملة موقعًا يشغله اسم مفرد؛ عندئذ نقول إن لها محلًا من الإعراب.",
+      "explanation": "للجملة محل حين تقع موقع مفرد: خبرًا أو حالًا أو صفة أو مفعولًا به أو مضافًا إليه أو جوابًا لشرط جازم مقترنًا بالفاء أو تابعة لجملة لها محل.",
+      "rule": "لا نعرب الجملة بعلامة ظاهرة، بل نقول: جملة في محل رفع أو نصب أو جر أو جزم وفق موقعها.",
+      "reasoning": "اختبر إمكان تأويل الجملة بمفرد يؤدي وظيفتها، ثم حدّد العامل والموقع قبل تسمية المحل.",
+      "detection": "حدّد حدود الجملة، وابحث عما قبلها، واسأل أي وظيفة تؤديها، ثم ميّزها من الجمل المستأنفة وصلة الموصول والاعتراضية.",
+      "comparison": "جملة الصلة لا محل لها، أما الجملة الواقعة صفة بعد نكرة فلها محل يتبع الموصوف.",
+      "misconception": "وجود رابط وحده لا يكفي؛ لا بد من تحديد الوظيفة التي تشغلها الجملة في التركيب.",
+      "summary": "المحل للجملة التابعة لموقع نحوي، ويُعرف من وظيفتها لا من نوعها الاسمي أو الفعلي وحده.",
+      "tags": [
+        "محل الجملة",
+        "جملة الخبر",
+        "جملة الحال",
+        "جملة الصفة",
+        "جواب الشرط"
+      ],
+      "references": [
+        "ref-moe-secondary-model"
+      ],
+      "slug": "sentences-with-syntactic-position",
+      "shortTitle": "الجمل التي لها محل من الإعراب",
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "objectives": [
+        "تمييز المفهوم النحوي في السياق.",
+        "تحديد العلامة أو الموقع مع ذكر السبب.",
+        "تطبيق القاعدة على مثال جديد."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {
+          "id": "sentences-with-syntactic-position-sec-1",
+          "type": "opening",
+          "title": "مدخل الدرس",
+          "body": "قد تشغل جملة كاملة موقعًا يشغله اسم مفرد؛ عندئذ نقول إن لها محلًا من الإعراب.",
+          "order": 1,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-2",
+          "type": "explanation",
+          "title": "الفكرة الأساسية",
+          "body": "للجملة محل حين تقع موقع مفرد: خبرًا أو حالًا أو صفة أو مفعولًا به أو مضافًا إليه أو جوابًا لشرط جازم مقترنًا بالفاء أو تابعة لجملة لها محل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "لا نعرب الجملة بعلامة ظاهرة، بل نقول: جملة في محل رفع أو نصب أو جر أو جزم وفق موقعها.",
+          "order": 3,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-4",
+          "type": "reasoning",
+          "title": "لماذا؟",
+          "body": "اختبر إمكان تأويل الجملة بمفرد يؤدي وظيفتها، ثم حدّد العامل والموقع قبل تسمية المحل.",
+          "order": 4,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدّد حدود الجملة، وابحث عما قبلها، واسأل أي وظيفة تؤديها، ثم ميّزها من الجمل المستأنفة وصلة الموصول والاعتراضية.",
+          "order": 5,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-6",
+          "type": "comparison",
+          "title": "قارن وانتبه",
+          "body": "جملة الصلة لا محل لها، أما الجملة الواقعة صفة بعد نكرة فلها محل يتبع الموصوف.",
+          "order": 6,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-7",
+          "type": "misconceptions",
+          "title": "خطأ شائع",
+          "body": "وجود رابط وحده لا يكفي؛ لا بد من تحديد الوظيفة التي تشغلها الجملة في التركيب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        },
+        {
+          "id": "sentences-with-syntactic-position-sec-8",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المحل للجملة التابعة لموقع نحوي، ويُعرف من وظيفتها لا من نوعها الاسمي أو الفعلي وحده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentences-with-syntactic-position-example-1",
+          "sentence": "العلم ينفع صاحبه",
+          "fullyDiacritizedSentence": "العِلْمُ يَنْفَعُ صَاحِبَهُ",
+          "parsedWords": [
+            {
+              "word": "ينفع",
+              "normalizedWord": "ينفع",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "بداية جملة فعلية خبر",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "محل الجملة",
+              "signReason": "الجملة وقعت خبرًا للمبتدأ",
+              "explanation": "الجملة الفعلية «ينفع صاحبه» في محل رفع خبر للمبتدأ «العلم».",
+              "startIndex": 6,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الجملة الفعلية «ينفع صاحبه» في محل رفع خبر للمبتدأ «العلم».",
+          "referenceIds": []
+        },
+        {
+          "id": "sentences-with-syntactic-position-example-2",
+          "sentence": "جاء الطالب يبتسم",
+          "fullyDiacritizedSentence": "جَاءَ الطَّالِبُ يَبْتَسِمُ",
+          "parsedWords": [
+            {
+              "word": "يبتسم",
+              "normalizedWord": "يبتسم",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "بداية جملة حالية",
+              "grammaticalState": "في محل نصب",
+              "grammaticalSign": "محل الجملة",
+              "signReason": "الجملة بينت هيئة الطالب عند المجيء",
+              "explanation": "الجملة الفعلية «يبتسم» في محل نصب حال، وصاحب الحال «الطالب».",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "الجملة الفعلية «يبتسم» في محل نصب حال، وصاحب الحال «الطالب».",
+          "referenceIds": []
+        }
+      ],
+      "exerciseIds": [
+        "sentences-with-syntactic-position-ex-1",
+        "sentences-with-syntactic-position-ex-2",
+        "sentences-with-syntactic-position-ex-3",
+        "sentences-with-syntactic-position-ex-4",
+        "sentences-with-syntactic-position-ex-5",
+        "sentences-with-syntactic-position-ex-6",
+        "sentences-with-syntactic-position-ex-7",
+        "sentences-with-syntactic-position-ex-8",
+        "sentences-with-syntactic-position-ex-9",
+        "sentences-with-syntactic-position-ex-10"
+      ],
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "estimatedMinutes": 18,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "parts-of-speech-ex-1",
+      "lessonId": "parts-of-speech",
+      "type": "multipleChoice",
+      "prompt": "ما نوع كلمة «العِلْمُ»؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-1-o1",
+          "text": "اسم",
+          "feedback": "صحيح؛ «العلم» اسم لأنه دل على معنى وقَبِل أل."
+        },
+        {
+          "id": "parts-of-speech-ex-1-o2",
+          "text": "فعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تقبل أل ولا تدل على زمن». «العلم» اسم لأنه دل على معنى وقَبِل أل."
+        },
+        {
+          "id": "parts-of-speech-ex-1-o3",
+          "text": "حرف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تقبل أل ولا تدل على زمن». «العلم» اسم لأنه دل على معنى وقَبِل أل."
+        },
+        {
+          "id": "parts-of-speech-ex-1-o4",
+          "text": "جملة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تقبل أل ولا تدل على زمن». «العلم» اسم لأنه دل على معنى وقَبِل أل."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-1-o1"
+      ],
+      "explanation": "«العلم» اسم لأنه دل على معنى وقَبِل أل.",
+      "hint": "تقبل أل ولا تدل على زمن",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-2",
+      "lessonId": "parts-of-speech",
+      "type": "multipleChoice",
+      "prompt": "ما نوع «كَتَبَ»؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-2-o1",
+          "text": "اسم",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الحدث وقع قبل زمن الكلام». «كتب» فعل ماض لدلالته على حدث وزمن ماض."
+        },
+        {
+          "id": "parts-of-speech-ex-2-o2",
+          "text": "فعل ماض",
+          "feedback": "صحيح؛ «كتب» فعل ماض لدلالته على حدث وزمن ماض."
+        },
+        {
+          "id": "parts-of-speech-ex-2-o3",
+          "text": "حرف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الحدث وقع قبل زمن الكلام». «كتب» فعل ماض لدلالته على حدث وزمن ماض."
+        },
+        {
+          "id": "parts-of-speech-ex-2-o4",
+          "text": "فعل أمر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الحدث وقع قبل زمن الكلام». «كتب» فعل ماض لدلالته على حدث وزمن ماض."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-2-o2"
+      ],
+      "explanation": "«كتب» فعل ماض لدلالته على حدث وزمن ماض.",
+      "hint": "الحدث وقع قبل زمن الكلام",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-3",
+      "lessonId": "parts-of-speech",
+      "type": "classification",
+      "prompt": "صنّف «فِي» في «في البيت»",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-3-o1",
+          "text": "اسم",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تجر الاسم بعدها». «في» حرف جر يظهر معناه مع متعلقه."
+        },
+        {
+          "id": "parts-of-speech-ex-3-o2",
+          "text": "فعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تجر الاسم بعدها». «في» حرف جر يظهر معناه مع متعلقه."
+        },
+        {
+          "id": "parts-of-speech-ex-3-o3",
+          "text": "حرف جر",
+          "feedback": "صحيح؛ «في» حرف جر يظهر معناه مع متعلقه."
+        },
+        {
+          "id": "parts-of-speech-ex-3-o4",
+          "text": "ظرف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تجر الاسم بعدها». «في» حرف جر يظهر معناه مع متعلقه."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-3-o3"
+      ],
+      "explanation": "«في» حرف جر يظهر معناه مع متعلقه.",
+      "hint": "تجر الاسم بعدها",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-4",
+      "lessonId": "parts-of-speech",
+      "type": "multipleChoice",
+      "prompt": "أي الكلمات فعل مضارع؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-4-o1",
+          "text": "كتاب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تدل على حدث متجدد». «يقرأ» فعل مضارع يدل على الحال أو الاستقبال."
+        },
+        {
+          "id": "parts-of-speech-ex-4-o2",
+          "text": "يقرأ",
+          "feedback": "صحيح؛ «يقرأ» فعل مضارع يدل على الحال أو الاستقبال."
+        },
+        {
+          "id": "parts-of-speech-ex-4-o3",
+          "text": "إلى",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تدل على حدث متجدد». «يقرأ» فعل مضارع يدل على الحال أو الاستقبال."
+        },
+        {
+          "id": "parts-of-speech-ex-4-o4",
+          "text": "قارئ",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تدل على حدث متجدد». «يقرأ» فعل مضارع يدل على الحال أو الاستقبال."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-4-o2"
+      ],
+      "explanation": "«يقرأ» فعل مضارع يدل على الحال أو الاستقبال.",
+      "hint": "تدل على حدث متجدد",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-5",
+      "lessonId": "parts-of-speech",
+      "type": "guidedParsing",
+      "prompt": "ما نوع «اجتهدْ»؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-5-o1",
+          "text": "اسم",
+          "feedback": "هذا الاختيار لا يطابق الدليل «يدل على طلب وقوع الفعل». «اجتهد» فعل أمر مبني يدل على الطلب."
+        },
+        {
+          "id": "parts-of-speech-ex-5-o2",
+          "text": "فعل ماض",
+          "feedback": "هذا الاختيار لا يطابق الدليل «يدل على طلب وقوع الفعل». «اجتهد» فعل أمر مبني يدل على الطلب."
+        },
+        {
+          "id": "parts-of-speech-ex-5-o3",
+          "text": "فعل أمر",
+          "feedback": "صحيح؛ «اجتهد» فعل أمر مبني يدل على الطلب."
+        },
+        {
+          "id": "parts-of-speech-ex-5-o4",
+          "text": "حرف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «يدل على طلب وقوع الفعل». «اجتهد» فعل أمر مبني يدل على الطلب."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-5-o3"
+      ],
+      "explanation": "«اجتهد» فعل أمر مبني يدل على الطلب.",
+      "hint": "يدل على طلب وقوع الفعل",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-6",
+      "lessonId": "parts-of-speech",
+      "type": "classification",
+      "prompt": "أي علامة تدل غالبًا على الاسم؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-6-o1",
+          "text": "سوف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جرّب وضع تنوين». التنوين من علامات الاسم."
+        },
+        {
+          "id": "parts-of-speech-ex-6-o2",
+          "text": "التنوين",
+          "feedback": "صحيح؛ التنوين من علامات الاسم."
+        },
+        {
+          "id": "parts-of-speech-ex-6-o3",
+          "text": "قد مع الماضي",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جرّب وضع تنوين». التنوين من علامات الاسم."
+        },
+        {
+          "id": "parts-of-speech-ex-6-o4",
+          "text": "تاء التأنيث الساكنة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جرّب وضع تنوين». التنوين من علامات الاسم."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-6-o2"
+      ],
+      "explanation": "التنوين من علامات الاسم.",
+      "hint": "جرّب وضع تنوين",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-7",
+      "lessonId": "parts-of-speech",
+      "type": "multipleChoice",
+      "prompt": "صنّف «هٰذا»",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-7-o1",
+          "text": "اسم إشارة",
+          "feedback": "صحيح؛ «هذا» اسم إشارة مبني."
+        },
+        {
+          "id": "parts-of-speech-ex-7-o2",
+          "text": "حرف تنبيه فقط",
+          "feedback": "هذا الاختيار لا يطابق الدليل «يشير إلى مسمى». «هذا» اسم إشارة مبني."
+        },
+        {
+          "id": "parts-of-speech-ex-7-o3",
+          "text": "فعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «يشير إلى مسمى». «هذا» اسم إشارة مبني."
+        },
+        {
+          "id": "parts-of-speech-ex-7-o4",
+          "text": "حرف جر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «يشير إلى مسمى». «هذا» اسم إشارة مبني."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-7-o1"
+      ],
+      "explanation": "«هذا» اسم إشارة مبني.",
+      "hint": "يشير إلى مسمى",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-8",
+      "lessonId": "parts-of-speech",
+      "type": "multipleChoice",
+      "prompt": "في «مَنْ حضر؟» ما نوع «مَن»؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-8-o1",
+          "text": "حرف جر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تطلب تعيين العاقل». «مَن» اسم استفهام للعاقل، وتختلف عن «مِن» الجارة."
+        },
+        {
+          "id": "parts-of-speech-ex-8-o2",
+          "text": "اسم استفهام",
+          "feedback": "صحيح؛ «مَن» اسم استفهام للعاقل، وتختلف عن «مِن» الجارة."
+        },
+        {
+          "id": "parts-of-speech-ex-8-o3",
+          "text": "فعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تطلب تعيين العاقل». «مَن» اسم استفهام للعاقل، وتختلف عن «مِن» الجارة."
+        },
+        {
+          "id": "parts-of-speech-ex-8-o4",
+          "text": "حرف عطف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تطلب تعيين العاقل». «مَن» اسم استفهام للعاقل، وتختلف عن «مِن» الجارة."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-8-o2"
+      ],
+      "explanation": "«مَن» اسم استفهام للعاقل، وتختلف عن «مِن» الجارة.",
+      "hint": "تطلب تعيين العاقل",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-9",
+      "lessonId": "parts-of-speech",
+      "type": "classification",
+      "prompt": "أي مجموعة تضم الأقسام الثلاثة بالترتيب: اسم، فعل، حرف؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-9-o1",
+          "text": "طالب، يكتب، في",
+          "feedback": "صحيح؛ «طالب» اسم، و«يكتب» فعل، و«في» حرف."
+        },
+        {
+          "id": "parts-of-speech-ex-9-o2",
+          "text": "يكتب، طالب، في",
+          "feedback": "هذا الاختيار لا يطابق الدليل «اختبر الزمن وعلامات الاسم». «طالب» اسم، و«يكتب» فعل، و«في» حرف."
+        },
+        {
+          "id": "parts-of-speech-ex-9-o3",
+          "text": "في، طالب، يكتب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «اختبر الزمن وعلامات الاسم». «طالب» اسم، و«يكتب» فعل، و«في» حرف."
+        },
+        {
+          "id": "parts-of-speech-ex-9-o4",
+          "text": "طالب، في، يكتب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «اختبر الزمن وعلامات الاسم». «طالب» اسم، و«يكتب» فعل، و«في» حرف."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-9-o1"
+      ],
+      "explanation": "«طالب» اسم، و«يكتب» فعل، و«في» حرف.",
+      "hint": "اختبر الزمن وعلامات الاسم",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "parts-of-speech-ex-10",
+      "lessonId": "parts-of-speech",
+      "type": "guidedParsing",
+      "prompt": "لماذا «الجمال» اسم؟",
+      "skillIds": [
+        "parts-of-speech-core"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "parts-of-speech-ex-10-o1",
+          "text": "لأنه يدل على زمن",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المعاني المجردة قد تكون أسماء». «الجمال» اسم معنى يقبل أل ولا يقترن بزمن."
+        },
+        {
+          "id": "parts-of-speech-ex-10-o2",
+          "text": "لأنه يقبل أل ويدل على معنى",
+          "feedback": "صحيح؛ «الجمال» اسم معنى يقبل أل ولا يقترن بزمن."
+        },
+        {
+          "id": "parts-of-speech-ex-10-o3",
+          "text": "لأنه يجر ما بعده",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المعاني المجردة قد تكون أسماء». «الجمال» اسم معنى يقبل أل ولا يقترن بزمن."
+        },
+        {
+          "id": "parts-of-speech-ex-10-o4",
+          "text": "لأنه يطلب فعلًا",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المعاني المجردة قد تكون أسماء». «الجمال» اسم معنى يقبل أل ولا يقترن بزمن."
+        }
+      ],
+      "correctAnswerIds": [
+        "parts-of-speech-ex-10-o2"
+      ],
+      "explanation": "«الجمال» اسم معنى يقبل أل ولا يقترن بزمن.",
+      "hint": "المعاني المجردة قد تكون أسماء",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-1",
+      "lessonId": "nominal-sentence",
+      "type": "multipleChoice",
+      "prompt": "حدّد المبتدأ في «العلم نافع»",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-1-o1",
+          "text": "العلم",
+          "feedback": "صحيح؛ «العلم» مبتدأ مرفوع و«نافع» خبره."
+        },
+        {
+          "id": "nominal-sentence-ex-1-o2",
+          "text": "نافع",
+          "feedback": "هذا الاختيار لا يطابق الدليل «من المتحدث عنه؟». «العلم» مبتدأ مرفوع و«نافع» خبره."
+        },
+        {
+          "id": "nominal-sentence-ex-1-o3",
+          "text": "الجملة كلها",
+          "feedback": "هذا الاختيار لا يطابق الدليل «من المتحدث عنه؟». «العلم» مبتدأ مرفوع و«نافع» خبره."
+        },
+        {
+          "id": "nominal-sentence-ex-1-o4",
+          "text": "لا يوجد",
+          "feedback": "هذا الاختيار لا يطابق الدليل «من المتحدث عنه؟». «العلم» مبتدأ مرفوع و«نافع» خبره."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-1-o1"
+      ],
+      "explanation": "«العلم» مبتدأ مرفوع و«نافع» خبره.",
+      "hint": "من المتحدث عنه؟",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-2",
+      "lessonId": "nominal-sentence",
+      "type": "classification",
+      "prompt": "ما إعراب «مجتهد» في «الطالب مجتهد»؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-2-o1",
+          "text": "مبتدأ",
+          "feedback": "هذا الاختيار لا يطابق الدليل «أتمت الفائدة عن الطالب». «مجتهد» خبر مرفوع بالضمة."
+        },
+        {
+          "id": "nominal-sentence-ex-2-o2",
+          "text": "خبر مرفوع",
+          "feedback": "صحيح؛ «مجتهد» خبر مرفوع بالضمة."
+        },
+        {
+          "id": "nominal-sentence-ex-2-o3",
+          "text": "حال منصوب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «أتمت الفائدة عن الطالب». «مجتهد» خبر مرفوع بالضمة."
+        },
+        {
+          "id": "nominal-sentence-ex-2-o4",
+          "text": "فاعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «أتمت الفائدة عن الطالب». «مجتهد» خبر مرفوع بالضمة."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-2-o2"
+      ],
+      "explanation": "«مجتهد» خبر مرفوع بالضمة.",
+      "hint": "أتمت الفائدة عن الطالب",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-3",
+      "lessonId": "nominal-sentence",
+      "type": "multipleChoice",
+      "prompt": "علامة رفع «الطالبان» في «الطالبان مجتهدان»",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-3-o1",
+          "text": "الضمة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المثنى يرفع بعلامة فرعية». «الطالبان» مبتدأ مرفوع بالألف لأنه مثنى."
+        },
+        {
+          "id": "nominal-sentence-ex-3-o2",
+          "text": "الواو",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المثنى يرفع بعلامة فرعية». «الطالبان» مبتدأ مرفوع بالألف لأنه مثنى."
+        },
+        {
+          "id": "nominal-sentence-ex-3-o3",
+          "text": "الألف",
+          "feedback": "صحيح؛ «الطالبان» مبتدأ مرفوع بالألف لأنه مثنى."
+        },
+        {
+          "id": "nominal-sentence-ex-3-o4",
+          "text": "الياء",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المثنى يرفع بعلامة فرعية». «الطالبان» مبتدأ مرفوع بالألف لأنه مثنى."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-3-o3"
+      ],
+      "explanation": "«الطالبان» مبتدأ مرفوع بالألف لأنه مثنى.",
+      "hint": "المثنى يرفع بعلامة فرعية",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-4",
+      "lessonId": "nominal-sentence",
+      "type": "multipleChoice",
+      "prompt": "علامة رفع «المعلمون»",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-4-o1",
+          "text": "الواو",
+          "feedback": "صحيح؛ يرفع جمع المذكر السالم بالواو."
+        },
+        {
+          "id": "nominal-sentence-ex-4-o2",
+          "text": "الألف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جمع المذكر السالم». يرفع جمع المذكر السالم بالواو."
+        },
+        {
+          "id": "nominal-sentence-ex-4-o3",
+          "text": "الضمة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جمع المذكر السالم». يرفع جمع المذكر السالم بالواو."
+        },
+        {
+          "id": "nominal-sentence-ex-4-o4",
+          "text": "الياء",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جمع المذكر السالم». يرفع جمع المذكر السالم بالواو."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-4-o1"
+      ],
+      "explanation": "يرفع جمع المذكر السالم بالواو.",
+      "hint": "جمع المذكر السالم",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-5",
+      "lessonId": "nominal-sentence",
+      "type": "guidedParsing",
+      "prompt": "في «في الفصل طلاب» ما الخبر؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-5-o1",
+          "text": "طلاب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «شبه الجملة يخبر عن مكان الطلاب». «في الفصل» شبه جملة في محل خبر مقدم."
+        },
+        {
+          "id": "nominal-sentence-ex-5-o2",
+          "text": "في الفصل",
+          "feedback": "صحيح؛ «في الفصل» شبه جملة في محل خبر مقدم."
+        },
+        {
+          "id": "nominal-sentence-ex-5-o3",
+          "text": "الفصل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «شبه الجملة يخبر عن مكان الطلاب». «في الفصل» شبه جملة في محل خبر مقدم."
+        },
+        {
+          "id": "nominal-sentence-ex-5-o4",
+          "text": "لا يوجد",
+          "feedback": "هذا الاختيار لا يطابق الدليل «شبه الجملة يخبر عن مكان الطلاب». «في الفصل» شبه جملة في محل خبر مقدم."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-5-o2"
+      ],
+      "explanation": "«في الفصل» شبه جملة في محل خبر مقدم.",
+      "hint": "شبه الجملة يخبر عن مكان الطلاب",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-6",
+      "lessonId": "nominal-sentence",
+      "type": "multipleChoice",
+      "prompt": "ما موقع «طلاب» في «في الفصل طلاب»؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-6-o1",
+          "text": "فاعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «هو المتحدث عنه بعد الخبر المقدم». «طلاب» مبتدأ مؤخر مرفوع."
+        },
+        {
+          "id": "nominal-sentence-ex-6-o2",
+          "text": "خبر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «هو المتحدث عنه بعد الخبر المقدم». «طلاب» مبتدأ مؤخر مرفوع."
+        },
+        {
+          "id": "nominal-sentence-ex-6-o3",
+          "text": "مبتدأ مؤخر",
+          "feedback": "صحيح؛ «طلاب» مبتدأ مؤخر مرفوع."
+        },
+        {
+          "id": "nominal-sentence-ex-6-o4",
+          "text": "مفعول به",
+          "feedback": "هذا الاختيار لا يطابق الدليل «هو المتحدث عنه بعد الخبر المقدم». «طلاب» مبتدأ مؤخر مرفوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-6-o3"
+      ],
+      "explanation": "«طلاب» مبتدأ مؤخر مرفوع.",
+      "hint": "هو المتحدث عنه بعد الخبر المقدم",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-7",
+      "lessonId": "nominal-sentence",
+      "type": "multipleChoice",
+      "prompt": "أي جملة خبرها جملة فعلية؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-7-o1",
+          "text": "العلم نافع",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الخبر يحتوي فعلًا وفاعلًا». «يقرأ كتابه» جملة فعلية في محل رفع خبر، وبها رابط مستتر يعود على الطالب."
+        },
+        {
+          "id": "nominal-sentence-ex-7-o2",
+          "text": "الطالب يقرأ كتابه",
+          "feedback": "صحيح؛ «يقرأ كتابه» جملة فعلية في محل رفع خبر، وبها رابط مستتر يعود على الطالب."
+        },
+        {
+          "id": "nominal-sentence-ex-7-o3",
+          "text": "في البيت ضيف",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الخبر يحتوي فعلًا وفاعلًا». «يقرأ كتابه» جملة فعلية في محل رفع خبر، وبها رابط مستتر يعود على الطالب."
+        },
+        {
+          "id": "nominal-sentence-ex-7-o4",
+          "text": "الجو جميل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الخبر يحتوي فعلًا وفاعلًا». «يقرأ كتابه» جملة فعلية في محل رفع خبر، وبها رابط مستتر يعود على الطالب."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-7-o2"
+      ],
+      "explanation": "«يقرأ كتابه» جملة فعلية في محل رفع خبر، وبها رابط مستتر يعود على الطالب.",
+      "hint": "الخبر يحتوي فعلًا وفاعلًا",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-8",
+      "lessonId": "nominal-sentence",
+      "type": "classification",
+      "prompt": "ما الرابط في خبر «الطالب أخلاقه كريمة»؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-8-o1",
+          "text": "أل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «ضمير يعود على المبتدأ». الهاء في «أخلاقه» تربط جملة الخبر بالمبتدأ."
+        },
+        {
+          "id": "nominal-sentence-ex-8-o2",
+          "text": "الهاء في أخلاقه",
+          "feedback": "صحيح؛ الهاء في «أخلاقه» تربط جملة الخبر بالمبتدأ."
+        },
+        {
+          "id": "nominal-sentence-ex-8-o3",
+          "text": "التنوين",
+          "feedback": "هذا الاختيار لا يطابق الدليل «ضمير يعود على المبتدأ». الهاء في «أخلاقه» تربط جملة الخبر بالمبتدأ."
+        },
+        {
+          "id": "nominal-sentence-ex-8-o4",
+          "text": "لا رابط",
+          "feedback": "هذا الاختيار لا يطابق الدليل «ضمير يعود على المبتدأ». الهاء في «أخلاقه» تربط جملة الخبر بالمبتدأ."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-8-o2"
+      ],
+      "explanation": "الهاء في «أخلاقه» تربط جملة الخبر بالمبتدأ.",
+      "hint": "ضمير يعود على المبتدأ",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-9",
+      "lessonId": "nominal-sentence",
+      "type": "multipleChoice",
+      "prompt": "أي عبارة صحيحة؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-9-o1",
+          "text": "المبتدأ منصوب دائمًا",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تذكر الأصل الإعرابي». الأصل أن المبتدأ والخبر مرفوعان، وقد تتنوع صورة الخبر."
+        },
+        {
+          "id": "nominal-sentence-ex-9-o2",
+          "text": "الخبر مجرور دائمًا",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تذكر الأصل الإعرابي». الأصل أن المبتدأ والخبر مرفوعان، وقد تتنوع صورة الخبر."
+        },
+        {
+          "id": "nominal-sentence-ex-9-o3",
+          "text": "الأصل رفع المبتدأ والخبر",
+          "feedback": "صحيح؛ الأصل أن المبتدأ والخبر مرفوعان، وقد تتنوع صورة الخبر."
+        },
+        {
+          "id": "nominal-sentence-ex-9-o4",
+          "text": "الخبر كلمة واحدة دائمًا",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تذكر الأصل الإعرابي». الأصل أن المبتدأ والخبر مرفوعان، وقد تتنوع صورة الخبر."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-9-o3"
+      ],
+      "explanation": "الأصل أن المبتدأ والخبر مرفوعان، وقد تتنوع صورة الخبر.",
+      "hint": "تذكر الأصل الإعرابي",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-sentence-ex-10",
+      "lessonId": "nominal-sentence",
+      "type": "guidedParsing",
+      "prompt": "لماذا لا نعرب أول كلمة مبتدأ دائمًا؟",
+      "skillIds": [
+        "nominal-sentence-core"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "grade-7"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "nominal-sentence-ex-10-o1",
+          "text": "لأن المبتدأ فعل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تأمل «في الفصل طلاب»». قد يتقدم الخبر، خاصة شبه الجملة، ويتأخر المبتدأ."
+        },
+        {
+          "id": "nominal-sentence-ex-10-o2",
+          "text": "لأن الخبر قد يتقدم",
+          "feedback": "صحيح؛ قد يتقدم الخبر، خاصة شبه الجملة، ويتأخر المبتدأ."
+        },
+        {
+          "id": "nominal-sentence-ex-10-o3",
+          "text": "لأن الخبر منصوب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تأمل «في الفصل طلاب»». قد يتقدم الخبر، خاصة شبه الجملة، ويتأخر المبتدأ."
+        },
+        {
+          "id": "nominal-sentence-ex-10-o4",
+          "text": "لأن الجملة لا ترتيب لها",
+          "feedback": "هذا الاختيار لا يطابق الدليل «تأمل «في الفصل طلاب»». قد يتقدم الخبر، خاصة شبه الجملة، ويتأخر المبتدأ."
+        }
+      ],
+      "correctAnswerIds": [
+        "nominal-sentence-ex-10-o2"
+      ],
+      "explanation": "قد يتقدم الخبر، خاصة شبه الجملة، ويتأخر المبتدأ.",
+      "hint": "تأمل «في الفصل طلاب»",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-1",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "classification",
+      "prompt": "ما محل «ينفع صاحبه» في «العلم ينفع صاحبه»؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-1-o1",
+          "text": "رفع خبر",
+          "feedback": "صحيح؛ الجملة الفعلية في محل رفع خبر للمبتدأ."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-1-o2",
+          "text": "نصب حال",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الجملة أتمت الخبر عن العلم». الجملة الفعلية في محل رفع خبر للمبتدأ."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-1-o3",
+          "text": "جر مضاف إليه",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الجملة أتمت الخبر عن العلم». الجملة الفعلية في محل رفع خبر للمبتدأ."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-1-o4",
+          "text": "لا محل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الجملة أتمت الخبر عن العلم». الجملة الفعلية في محل رفع خبر للمبتدأ."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-1-o1"
+      ],
+      "explanation": "الجملة الفعلية في محل رفع خبر للمبتدأ.",
+      "hint": "الجملة أتمت الخبر عن العلم",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-2",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "multipleChoice",
+      "prompt": "ما محل «يبتسم» في «جاء الطالب يبتسم»؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-2-o1",
+          "text": "رفع خبر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «بينت هيئة الطالب عند المجيء». الجملة الفعلية في محل نصب حال."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-2-o2",
+          "text": "نصب حال",
+          "feedback": "صحيح؛ الجملة الفعلية في محل نصب حال."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-2-o3",
+          "text": "جر صفة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «بينت هيئة الطالب عند المجيء». الجملة الفعلية في محل نصب حال."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-2-o4",
+          "text": "لا محل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «بينت هيئة الطالب عند المجيء». الجملة الفعلية في محل نصب حال."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-2-o2"
+      ],
+      "explanation": "الجملة الفعلية في محل نصب حال.",
+      "hint": "بينت هيئة الطالب عند المجيء",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-3",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "multipleChoice",
+      "prompt": "في «رأيت طالبًا يقرأ» ما محل «يقرأ»؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-3-o1",
+          "text": "رفع",
+          "feedback": "هذا الاختيار لا يطابق الدليل «وقعت بعد نكرة منصوبة ووصفتها». الجملة الفعلية في محل نصب صفة لـ«طالبًا»."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-3-o2",
+          "text": "نصب صفة",
+          "feedback": "صحيح؛ الجملة الفعلية في محل نصب صفة لـ«طالبًا»."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-3-o3",
+          "text": "جر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «وقعت بعد نكرة منصوبة ووصفتها». الجملة الفعلية في محل نصب صفة لـ«طالبًا»."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-3-o4",
+          "text": "لا محل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «وقعت بعد نكرة منصوبة ووصفتها». الجملة الفعلية في محل نصب صفة لـ«طالبًا»."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-3-o2"
+      ],
+      "explanation": "الجملة الفعلية في محل نصب صفة لـ«طالبًا».",
+      "hint": "وقعت بعد نكرة منصوبة ووصفتها",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-4",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "classification",
+      "prompt": "في «مررت بطالب يقرأ» ما محل الجملة؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-4-o1",
+          "text": "رفع خبر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «وصفت نكرة مجرورة». «يقرأ» في محل جر صفة لـ«طالب»."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-4-o2",
+          "text": "نصب حال",
+          "feedback": "هذا الاختيار لا يطابق الدليل «وصفت نكرة مجرورة». «يقرأ» في محل جر صفة لـ«طالب»."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-4-o3",
+          "text": "جر صفة",
+          "feedback": "صحيح؛ «يقرأ» في محل جر صفة لـ«طالب»."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-4-o4",
+          "text": "لا محل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «وصفت نكرة مجرورة». «يقرأ» في محل جر صفة لـ«طالب»."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-4-o3"
+      ],
+      "explanation": "«يقرأ» في محل جر صفة لـ«طالب».",
+      "hint": "وصفت نكرة مجرورة",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-5",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "guidedParsing",
+      "prompt": "ما محل جملة «نجحت» في «سررت حين نجحت»؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-5-o1",
+          "text": "رفع",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جاءت بعد ظرف يضاف إلى الجمل». الجملة بعد «حين» في محل جر مضاف إليه."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-5-o2",
+          "text": "نصب",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جاءت بعد ظرف يضاف إلى الجمل». الجملة بعد «حين» في محل جر مضاف إليه."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-5-o3",
+          "text": "جر مضاف إليه",
+          "feedback": "صحيح؛ الجملة بعد «حين» في محل جر مضاف إليه."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-5-o4",
+          "text": "جزم",
+          "feedback": "هذا الاختيار لا يطابق الدليل «جاءت بعد ظرف يضاف إلى الجمل». الجملة بعد «حين» في محل جر مضاف إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-5-o3"
+      ],
+      "explanation": "الجملة بعد «حين» في محل جر مضاف إليه.",
+      "hint": "جاءت بعد ظرف يضاف إلى الجمل",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-6",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "multipleChoice",
+      "prompt": "أي جملة لا محل لها؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-6-o1",
+          "text": "جملة الخبر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الصلة تتم معنى الاسم الموصول دون أن تشغل موقع مفرد». صلة الموصول من الجمل التي لا محل لها."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-6-o2",
+          "text": "جملة الحال",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الصلة تتم معنى الاسم الموصول دون أن تشغل موقع مفرد». صلة الموصول من الجمل التي لا محل لها."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-6-o3",
+          "text": "صلة الموصول",
+          "feedback": "صحيح؛ صلة الموصول من الجمل التي لا محل لها."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-6-o4",
+          "text": "جملة الصفة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «الصلة تتم معنى الاسم الموصول دون أن تشغل موقع مفرد». صلة الموصول من الجمل التي لا محل لها."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-6-o3"
+      ],
+      "explanation": "صلة الموصول من الجمل التي لا محل لها.",
+      "hint": "الصلة تتم معنى الاسم الموصول دون أن تشغل موقع مفرد",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-7",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "classification",
+      "prompt": "في «قلت: الحق واضح» ما وظيفة مقول القول؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-7-o1",
+          "text": "خبر",
+          "feedback": "هذا الاختيار لا يطابق الدليل «هو الشيء الذي قيل». جملة مقول القول تسد مسد مفعول به في هذا التحليل المدرسي."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-7-o2",
+          "text": "حال",
+          "feedback": "هذا الاختيار لا يطابق الدليل «هو الشيء الذي قيل». جملة مقول القول تسد مسد مفعول به في هذا التحليل المدرسي."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-7-o3",
+          "text": "مفعول به",
+          "feedback": "صحيح؛ جملة مقول القول تسد مسد مفعول به في هذا التحليل المدرسي."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-7-o4",
+          "text": "صفة",
+          "feedback": "هذا الاختيار لا يطابق الدليل «هو الشيء الذي قيل». جملة مقول القول تسد مسد مفعول به في هذا التحليل المدرسي."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-7-o3"
+      ],
+      "explanation": "جملة مقول القول تسد مسد مفعول به في هذا التحليل المدرسي.",
+      "hint": "هو الشيء الذي قيل",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-8",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "multipleChoice",
+      "prompt": "متى يكون جواب الشرط في محل جزم؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-8-o1",
+          "text": "دائمًا",
+          "feedback": "هذا الاختيار لا يطابق الدليل «ابحث عن أداة جازمة وفاء رابطة». جواب الشرط الجازم المقترن بالفاء يكون في محل جزم."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-8-o2",
+          "text": "إذا اقترن بالفاء بعد أداة جازمة",
+          "feedback": "صحيح؛ جواب الشرط الجازم المقترن بالفاء يكون في محل جزم."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-8-o3",
+          "text": "إذا بدأ باسم فقط",
+          "feedback": "هذا الاختيار لا يطابق الدليل «ابحث عن أداة جازمة وفاء رابطة». جواب الشرط الجازم المقترن بالفاء يكون في محل جزم."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-8-o4",
+          "text": "لا يكون",
+          "feedback": "هذا الاختيار لا يطابق الدليل «ابحث عن أداة جازمة وفاء رابطة». جواب الشرط الجازم المقترن بالفاء يكون في محل جزم."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-8-o2"
+      ],
+      "explanation": "جواب الشرط الجازم المقترن بالفاء يكون في محل جزم.",
+      "hint": "ابحث عن أداة جازمة وفاء رابطة",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-9",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "multipleChoice",
+      "prompt": "ما أول خطوة لتحديد محل جملة؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-9-o1",
+          "text": "البحث عن التنوين",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المحل يتبع الموقع». نحدد وظيفة الجملة في التركيب قبل تسمية محلها."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-9-o2",
+          "text": "تحديد الوظيفة التي تشغلها",
+          "feedback": "صحيح؛ نحدد وظيفة الجملة في التركيب قبل تسمية محلها."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-9-o3",
+          "text": "عد الكلمات",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المحل يتبع الموقع». نحدد وظيفة الجملة في التركيب قبل تسمية محلها."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-9-o4",
+          "text": "تحويلها إلى ماض",
+          "feedback": "هذا الاختيار لا يطابق الدليل «المحل يتبع الموقع». نحدد وظيفة الجملة في التركيب قبل تسمية محلها."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-9-o2"
+      ],
+      "explanation": "نحدد وظيفة الجملة في التركيب قبل تسمية محلها.",
+      "hint": "المحل يتبع الموقع",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentences-with-syntactic-position-ex-10",
+      "lessonId": "sentences-with-syntactic-position",
+      "type": "guidedParsing",
+      "prompt": "أي عبارة أدق؟",
+      "skillIds": [
+        "sentences-with-syntactic-position-core"
+      ],
+      "stageIds": [
+        "secondary"
+      ],
+      "gradeIds": [
+        "grade-12"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "sentences-with-syntactic-position-ex-10-o1",
+          "text": "كل جملة فعلية لها محل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «قارن الخبر والصلة وهما قد يكونان فعليين». نوع الجملة لا يحسم المحل؛ الوظيفة النحوية هي الأساس."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-10-o2",
+          "text": "كل جملة اسمية لا محل لها",
+          "feedback": "هذا الاختيار لا يطابق الدليل «قارن الخبر والصلة وهما قد يكونان فعليين». نوع الجملة لا يحسم المحل؛ الوظيفة النحوية هي الأساس."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-10-o3",
+          "text": "المحل تحدده الوظيفة لا نوع الجملة وحده",
+          "feedback": "صحيح؛ نوع الجملة لا يحسم المحل؛ الوظيفة النحوية هي الأساس."
+        },
+        {
+          "id": "sentences-with-syntactic-position-ex-10-o4",
+          "text": "الرابط يكفي لتحديد المحل",
+          "feedback": "هذا الاختيار لا يطابق الدليل «قارن الخبر والصلة وهما قد يكونان فعليين». نوع الجملة لا يحسم المحل؛ الوظيفة النحوية هي الأساس."
+        }
+      ],
+      "correctAnswerIds": [
+        "sentences-with-syntactic-position-ex-10-o3"
+      ],
+      "explanation": "نوع الجملة لا يحسم المحل؛ الوظيفة النحوية هي الأساس.",
+      "hint": "قارن الخبر والصلة وهما قد يكونان فعليين",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-moe-primary6",
+      "title": "كتاب الطالب في اللغة العربية — الصف السادس الابتدائي — الفصل الأول",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني المصرية",
+      "url": "https://moe.gov.eg/ar/elearningenterypage/e-learning/?contentTypeId=7597&pageIndex=0&schoolStageId=1582&schoolSubjectId=7701&schoolTermId=1584&schoolYearId=1935&sortBy=0",
+      "checkedAt": "2026-08-04"
+    },
+    {
+      "id": "ref-moe-secondary-model",
+      "title": "النموذج الاسترشادي الثالث للثانوية العامة — اللغة العربية 2025/2026",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني المصرية",
+      "url": "https://ellibrary.moe.gov.eg/sec3guideforms/publish3/Arabic_Model_3.pdf",
+      "checkedAt": "2026-08-04"
+    }
+  ]
+}

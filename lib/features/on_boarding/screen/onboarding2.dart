@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/utils/assets_manager.dart';
 import 'onboarding1.dart';
 
 class OnBoarding2 extends StatelessWidget {
@@ -9,10 +8,10 @@ class OnBoarding2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const OnboardingPageContent(
-      image: ImageAssets.onboardingImage2,
-      titleKey: 'onboarding_two_title',
-      descriptionKey: 'onboarding_two_description',
-      imageAlignment: Alignment.center,
+      icon: Icons.account_tree_outlined,
+      title: 'شاهد الإعراب خطوة بخطوة',
+      description:
+          'ميّز نوع الكلمة ودورها وحالتها وعلامتها وسبب العلامة داخل المثال نفسه.',
     );
   }
 }
@@ -23,10 +22,9 @@ class OnBoarding3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const OnboardingPageContent(
-      image: ImageAssets.onboardingImage3,
-      titleKey: 'onboarding_three_title',
-      descriptionKey: 'onboarding_three_description',
-      imageAlignment: Alignment.center,
+      icon: Icons.task_alt_rounded,
+      title: 'تدرّب بطريقتك',
+      description: 'ابدأ كضيف دون حساب، أو سجّل لتحتفظ بتقدمك وتزامنه بأمان.',
     );
   }
 }

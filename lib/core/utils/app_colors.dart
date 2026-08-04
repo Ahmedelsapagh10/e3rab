@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'hex_color.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFF31538E); //#F5F7FE
+  static const Color primary = Color(0xFFE77813);
 
-  static const Color primary49 = Color(0xFF152949);
-  static const Color secondPrimary = Color.fromARGB(255, 19, 198, 198);
+  static const Color primary49 = Color(0xFF1F1A17);
+  static const Color secondPrimary = Color(0xFFF6C100);
 
-  static const Color primary8e = Color(0xFF31538E);
-  static const Color success = Color(0xFF31538E);
-  static const Color primaryfd = Color(0xFFF4F6FD);
+  static const Color primary8e = primary;
+  static const Color success = Color(0xFF2E7D32);
+  static const Color primaryfd = Color(0xFFFFF9F2);
   static const Color grey = Colors.grey;
   static const Color gray = Colors.grey;
   static const Color secondary = Color(0xFFF5F7FE);
@@ -96,8 +96,9 @@ class AppColors {
     assert(amount >= 0 && amount <= 1);
 
     final hsl = HSLColor.fromColor(HexColor(color));
-    final hslLight =
-        hsl.withLightness((hsl.lightness + amount).clamp(0.0, 1.0));
+    final hslLight = hsl.withLightness(
+      (hsl.lightness + amount).clamp(0.0, 1.0),
+    );
 
     return hslLight.toColor();
   }

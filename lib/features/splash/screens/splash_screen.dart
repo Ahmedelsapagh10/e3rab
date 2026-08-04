@@ -37,9 +37,8 @@ class _SplashScreenState extends State<SplashScreen>
   }
 
   Future<void> _getStoreUser() async {
-    Navigator.pushReplacementNamed(context, Routes.loginRoute);
-
     SharedPreferences prefs = await SharedPreferences.getInstance();
+    if (!mounted) return;
     if (prefs.getBool('onBoarding') == true) {
       //! un comment this case u make user mode
       //! and store it in locl and want use it

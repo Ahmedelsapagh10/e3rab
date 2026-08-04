@@ -1,0 +1,321 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function ownsUser(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    function isContentAdmin() {
+      return isSignedIn()
+        && request.auth.token.keys().hasAny(['contentAdmin'])
+        && request.auth.token.contentAdmin == true;
+    }
+
+    function isApprovedContentPack(packId) {
+      return get(
+        /databases/$(database)/documents/e3rab_content_packs/$(packId)
+      ).data.reviewStatus == 'approved';
+    }
+
+    function canReadContentPack(packId) {
+      return isContentAdmin()
+        || (isSignedIn() && isApprovedContentPack(packId));
+    }
+
+    function validContentPack(packId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'packId', 'schemaVersion', 'contentVersion', 'curriculumVersion',
+          'locale', 'entityIds', 'checksum', 'minimumAppVersion',
+          'reviewStatus', 'seededBy', 'seededAt'
+        ])
+        && data.keys().hasOnly([
+          'packId', 'schemaVersion', 'contentVersion', 'curriculumVersion',
+          'locale', 'entityIds', 'checksum', 'minimumAppVersion',
+          'reviewStatus', 'seededBy', 'seededAt'
+        ])
+        && data.packId == packId
+        && data.schemaVersion is int
+        && data.contentVersion is string
+        && data.curriculumVersion is string
+        && data.locale == 'ar'
+        && data.entityIds is list
+        && data.checksum is string
+        && data.minimumAppVersion is string
+        && data.reviewStatus in [
+          'draft', 'aiAssistedDraft', 'inReview', 'changesRequested',
+          'approved', 'archived'
+        ]
+        && data.seededBy == request.auth.uid
+        && data.seededAt == request.time;
+    }
+
+    function validContentEntity(entityId) {
+      return request.resource.data.id == entityId;
+    }
+
+    function optionalString(data, field) {
+      return !(field in data) || data[field] == null || data[field] is string;
+    }
+
+    function validUserProfile(uid) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'uid', 'learningRole', 'countryCode', 'preferredLocale',
+          'onboardingCompleted', 'profileSchemaVersion', 'createdAt', 'updatedAt'
+        ])
+        && data.keys().hasOnly([
+          'uid', 'email', 'displayName', 'photoUrl', 'authProviders',
+          'learningRole', 'countryCode', 'curriculumId',
+          'curriculumVersionId', 'stageId', 'gradeId', 'grammarLevel',
+          'learningGoal', 'dailyGoalMinutes', 'preferredLocale', 'onboardingCompleted',
+          'profileSchemaVersion', 'createdAt', 'updatedAt'
+        ])
+        && data.uid == uid
+        && data.uid == request.auth.uid
+        && optionalString(data, 'email')
+        && optionalString(data, 'displayName')
+        && optionalString(data, 'photoUrl')
+        && optionalString(data, 'curriculumId')
+        && optionalString(data, 'curriculumVersionId')
+        && optionalString(data, 'stageId')
+        && optionalString(data, 'gradeId')
+        && optionalString(data, 'grammarLevel')
+        && optionalString(data, 'learningGoal')
+        && data.authProviders is list
+        && data.learningRole in [
+          'student', 'teacher', 'parent', 'independentLearner'
+        ]
+        && data.countryCode is string
+        && data.preferredLocale is string
+        && data.onboardingCompleted is bool
+        && data.profileSchemaVersion is int
+        && (!(data.keys().hasAny(['dailyGoalMinutes']))
+          || data.dailyGoalMinutes == null
+          || data.dailyGoalMinutes is int)
+        && data.updatedAt == request.time;
+    }
+
+    function validProfileCreate(uid) {
+      return validUserProfile(uid)
+        && request.resource.data.createdAt == request.time;
+    }
+
+    function validProfileUpdate(uid) {
+      return validUserProfile(uid)
+        && (request.resource.data.createdAt == resource.data.createdAt
+          || (!('createdAt' in resource.data)
+            && request.resource.data.createdAt == request.time))
+        && request.resource.data.uid == resource.data.uid;
+    }
+
+    function validLessonProgress(lessonId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'lessonId', 'contentVersion', 'status', 'completedSectionIds',
+          'attemptCount', 'bestScore', 'masteryScore', 'updatedAt',
+          'schemaVersion'
+        ])
+        && data.keys().hasOnly([
+          'lessonId', 'contentVersion', 'status', 'startedAt', 'completedAt',
+          'lastOpenedAt', 'completedSectionIds', 'attemptCount', 'bestScore',
+          'masteryScore', 'updatedAt', 'schemaVersion'
+        ])
+        && data.lessonId == lessonId
+        && data.contentVersion is string
+        && data.status in ['notStarted', 'inProgress', 'completed']
+        && data.completedSectionIds is list
+        && data.attemptCount is int
+        && data.bestScore is number
+        && data.masteryScore is number
+        && data.schemaVersion is int
+        && data.updatedAt == request.time;
+    }
+
+    function validExerciseAttempt(attemptId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'attemptId', 'exerciseId', 'lessonId', 'skillIds', 'contentVersion',
+          'selectedAnswer', 'isCorrect', 'scoreWeight', 'hintUsed',
+          'attemptNumber', 'durationMilliseconds', 'clientCreatedAt',
+          'serverCreatedAt', 'schemaVersion'
+        ])
+        && data.keys().hasOnly([
+          'attemptId', 'exerciseId', 'lessonId', 'skillIds', 'contentVersion',
+          'selectedAnswer', 'isCorrect', 'scoreWeight', 'hintUsed',
+          'attemptNumber', 'durationMilliseconds', 'clientCreatedAt',
+          'serverCreatedAt', 'schemaVersion'
+        ])
+        && data.attemptId == attemptId
+        && data.exerciseId is string
+        && data.lessonId is string
+        && data.skillIds is list
+        && data.contentVersion is string
+        && data.isCorrect is bool
+        && data.scoreWeight is number
+        && data.hintUsed is bool
+        && data.attemptNumber is int
+        && data.durationMilliseconds is int
+        && data.schemaVersion is int
+        && data.serverCreatedAt == request.time;
+    }
+
+    function validSkillMastery(skillId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'skillId', 'score', 'state', 'scoredAttemptCount',
+          'unhintedCorrectCount', 'lastPracticedAt', 'nextReviewAt',
+          'algorithmVersion', 'updatedAt'
+        ])
+        && data.keys().hasOnly([
+          'skillId', 'score', 'state', 'scoredAttemptCount',
+          'unhintedCorrectCount', 'lastPracticedAt', 'nextReviewAt',
+          'algorithmVersion', 'updatedAt'
+        ])
+        && data.skillId == skillId
+        && data.score is number
+        && data.score >= 0
+        && data.score <= 1
+        && data.state in ['newSkill', 'learning', 'needsReview', 'mastered']
+        && data.scoredAttemptCount is int
+        && data.unhintedCorrectCount is int
+        && data.algorithmVersion is int
+        && data.updatedAt == request.time;
+    }
+
+    function validReviewItem(reviewItemId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'targetType', 'targetId', 'dueAt', 'intervalLevel', 'lastResult',
+          'updatedAt', 'algorithmVersion'
+        ])
+        && data.keys().hasOnly([
+          'targetType', 'targetId', 'dueAt', 'intervalLevel', 'lastResult',
+          'updatedAt', 'algorithmVersion'
+        ])
+        && reviewItemId.size() > 0
+        && data.targetType is string
+        && data.targetId is string
+        && data.intervalLevel is int
+        && data.lastResult is string
+        && data.algorithmVersion is int
+        && data.updatedAt == request.time;
+    }
+
+    function validBookmark(bookmarkId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'bookmarkId', 'targetType', 'targetId', 'contentVersion',
+          'createdAt', 'updatedAt'
+        ])
+        && data.keys().hasOnly([
+          'bookmarkId', 'targetType', 'targetId', 'contentVersion',
+          'createdAt', 'updatedAt', 'deletedAt'
+        ])
+        && data.bookmarkId == bookmarkId
+        && data.targetType is string
+        && data.targetId is string
+        && data.contentVersion is string
+        && data.updatedAt == request.time;
+    }
+
+    function validNote(noteId) {
+      let data = request.resource.data;
+      return data.keys().hasAll([
+          'noteId', 'targetType', 'targetId', 'text', 'localVersion',
+          'updatedAt', 'schemaVersion'
+        ])
+        && data.keys().hasOnly([
+          'noteId', 'targetType', 'targetId', 'text', 'localVersion',
+          'updatedAt', 'deletedAt', 'schemaVersion'
+        ])
+        && data.noteId == noteId
+        && data.targetType is string
+        && data.targetId is string
+        && data.text is string
+        && data.text.size() <= 10000
+        && data.localVersion is int
+        && data.schemaVersion is int
+        && data.updatedAt == request.time;
+    }
+
+    match /e3rab_users/{uid} {
+      allow create: if ownsUser(uid) && validProfileCreate(uid);
+      allow read, delete: if ownsUser(uid);
+      allow update: if ownsUser(uid) && validProfileUpdate(uid);
+
+      match /lesson_progress/{lessonId} {
+        allow read: if ownsUser(uid);
+        allow create, update: if ownsUser(uid)
+          && validLessonProgress(lessonId);
+      }
+
+      match /exercise_attempts/{attemptId} {
+        allow read: if ownsUser(uid);
+        allow create: if ownsUser(uid) && validExerciseAttempt(attemptId);
+      }
+
+      match /skill_mastery/{skillId} {
+        allow read: if ownsUser(uid);
+        allow create, update: if ownsUser(uid) && validSkillMastery(skillId);
+      }
+
+      match /review_items/{reviewItemId} {
+        allow read: if ownsUser(uid);
+        allow create, update: if ownsUser(uid)
+          && validReviewItem(reviewItemId);
+      }
+
+      match /bookmarks/{bookmarkId} {
+        allow read: if ownsUser(uid);
+        allow create, update: if ownsUser(uid) && validBookmark(bookmarkId);
+      }
+
+      match /notes/{noteId} {
+        allow read: if ownsUser(uid);
+        allow create, update: if ownsUser(uid) && validNote(noteId);
+      }
+    }
+
+    match /e3rab_content_packs/{packId} {
+      allow read: if canReadContentPack(packId);
+      allow create, update: if isContentAdmin()
+        && validContentPack(packId);
+
+      match /modules/{entityId} {
+        allow read: if canReadContentPack(packId);
+        allow create, update: if isContentAdmin()
+          && validContentEntity(entityId);
+      }
+
+      match /units/{entityId} {
+        allow read: if canReadContentPack(packId);
+        allow create, update: if isContentAdmin()
+          && validContentEntity(entityId);
+      }
+
+      match /lessons/{entityId} {
+        allow read: if canReadContentPack(packId);
+        allow create, update: if isContentAdmin()
+          && validContentEntity(entityId);
+      }
+
+      match /exercises/{entityId} {
+        allow read: if canReadContentPack(packId);
+        allow create, update: if isContentAdmin()
+          && validContentEntity(entityId);
+      }
+
+      match /references/{entityId} {
+        allow read: if canReadContentPack(packId);
+        allow create, update: if isContentAdmin()
+          && validContentEntity(entityId);
+      }
+    }
+  }
+}

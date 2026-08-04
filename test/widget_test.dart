@@ -1,18 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:new_strucuture/config/themes/app_theme.dart';
 import 'package:new_strucuture/core/widgets/custom_button.dart';
 import 'package:new_strucuture/features/login/screens/login_screen.dart';
+import 'package:new_strucuture/features/auth/cubit/auth_cubit.dart';
+
+import 'features/auth/auth_test_fakes.dart';
 
 void main() {
   testWidgets('login screen builds successfully', (WidgetTester tester) async {
+    final auth = FakeAuthRepository();
+    final cubit = AuthCubit(auth, FakeUserProfileRepository());
+    addTearDown(cubit.close);
+    addTearDown(auth.close);
     await tester.pumpWidget(
-      MaterialApp(theme: AppTheme.lightTheme, home: const LoginScreen()),
+      BlocProvider.value(
+        value: cubit,
+        child: MaterialApp(
+          theme: AppTheme.lightTheme,
+          home: const LoginScreen(),
+        ),
+      ),
     );
 
     expect(find.byType(LoginScreen), findsOneWidget);
     expect(find.byType(TextFormField), findsNWidgets(2));
-    expect(find.byType(ElevatedButton), findsOneWidget);
+    expect(find.text('المتابعة كضيف'), findsOneWidget);
   });
 
   testWidgets('custom button keeps long Arabic text visible', (

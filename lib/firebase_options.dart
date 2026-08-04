@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -28,15 +25,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,19 +41,50 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    storageBucket: '',
+    apiKey: 'AIzaSyC2u_2_yR4qupC9G2USLt_tCAE2SEtFDGY',
+    appId: '1:803402655691:android:adb01b443b0a5ef1db784e',
+    messagingSenderId: '803402655691',
+    projectId: 'lmtnaapplication',
+    storageBucket: 'lmtnaapplication.firebasestorage.app',
+  );
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyClK0YvJ1Re6L326lSc_cYb3ftA9mrdPc4',
+    appId: '1:803402655691:ios:b125cab0064d3047db784e',
+    messagingSenderId: '803402655691',
+    projectId: 'lmtnaapplication',
+    storageBucket: 'lmtnaapplication.firebasestorage.app',
+    iosClientId:
+        '803402655691-rvodm29b44rvf3q03mruni8au7fc978h.apps.googleusercontent.com',
+    iosBundleId: 'com.example.newStrucuture',
+  );
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyBCHNpvTFsyJT9MM5tytD4vh03w0SavzME',
+    appId: '1:803402655691:web:c0f32795978a5877db784e',
+    messagingSenderId: '803402655691',
+    projectId: 'lmtnaapplication',
+    authDomain: 'lmtnaapplication.firebaseapp.com',
+    storageBucket: 'lmtnaapplication.firebasestorage.app',
+    measurementId: 'G-E9MZWB7TP4',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    storageBucket: '',
-    iosBundleId: '',
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyClK0YvJ1Re6L326lSc_cYb3ftA9mrdPc4',
+    appId: '1:803402655691:ios:b125cab0064d3047db784e',
+    messagingSenderId: '803402655691',
+    projectId: 'lmtnaapplication',
+    storageBucket: 'lmtnaapplication.firebasestorage.app',
+    iosClientId:
+        '803402655691-rvodm29b44rvf3q03mruni8au7fc978h.apps.googleusercontent.com',
+    iosBundleId: 'com.example.newStrucuture',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBCHNpvTFsyJT9MM5tytD4vh03w0SavzME',
+    appId: '1:803402655691:web:74b5fa1c6b2dd8d1db784e',
+    messagingSenderId: '803402655691',
+    projectId: 'lmtnaapplication',
+    authDomain: 'lmtnaapplication.firebaseapp.com',
+    storageBucket: 'lmtnaapplication.firebasestorage.app',
+    measurementId: 'G-WPLHDM5QGD',
   );
 }

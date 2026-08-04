@@ -1,0 +1,423 @@
+{
+  "manifest": {
+    "packId": "egypt-secondary2-term1-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "egypt-national-2025-2026",
+    "locale": "ar",
+    "entityIds": [
+      "secondary-syntax-module-v1",
+      "jussive-answer-request-unit-v1",
+      "jussive-answer-request-v1",
+      "jussive-answer-request-v1-ex-1",
+      "jussive-answer-request-v1-ex-2",
+      "jussive-answer-request-v1-ex-3",
+      "jussive-answer-request-v1-ex-4",
+      "jussive-answer-request-v1-ex-5",
+      "jussive-answer-request-v1-ex-6",
+      "jussive-answer-request-v1-ex-7",
+      "jussive-answer-request-v1-ex-8",
+      "jussive-answer-request-v1-ex-9",
+      "jussive-answer-request-v1-ex-10"
+    ],
+    "checksum": "generated-at-seed-time",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "aiAssistedDraft"
+  },
+  "modules": [
+    {
+      "id": "secondary-syntax-module-v1",
+      "slug": "secondary-syntax-v1",
+      "title": "نحو المرحلة الثانوية",
+      "unitIds": ["jussive-answer-request-unit-v1"],
+      "order": 1
+    }
+  ],
+  "units": [
+    {
+      "id": "jussive-answer-request-unit-v1",
+      "moduleId": "secondary-syntax-module-v1",
+      "slug": "jussive-answer-request-unit-v1",
+      "title": "جزم المضارع في جواب الطلب",
+      "lessonIds": ["jussive-answer-request-v1"],
+      "order": 1
+    }
+  ],
+  "lessons": [
+    {
+      "id": "jussive-answer-request-v1",
+      "unitId": "jussive-answer-request-unit-v1",
+      "slug": "jussive-present-answer-request",
+      "title": "جزم المضارع في جواب الطلب",
+      "shortTitle": "جواب الطلب",
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "objectives": [
+        "تمييز فعل الطلب من الفعل المضارع الواقع جوابًا له.",
+        "التحقق من صحة معنى الشرط قبل جزم جواب الطلب.",
+        "تحديد علامة الجزم الأصلية أو الفرعية مع ذكر السبب."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {
+          "id": "jussive-answer-request-v1-sec-1",
+          "type": "opening",
+          "title": "مدخل الدرس",
+          "body": "في قولنا «اجتهدْ تنجحْ» يطلب المتكلم الاجتهاد، ويجعل النجاح نتيجة مترتبة عليه.",
+          "order": 1,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-2",
+          "type": "explanation",
+          "title": "الفكرة الأساسية",
+          "body": "قد يُجزم المضارع إذا وقع جوابًا لطلب قبله، مثل الأمر أو النهي، وكان معنى الجواب نتيجة مترتبة على تنفيذ الطلب.",
+          "order": 2,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يُجزم المضارع في جواب الطلب إذا سبق بطلب، وصح أن نضع قبلهما أداة شرط جازمة مع بقاء المعنى المقصود، نحو: اجتهدْ تنجحْ؛ أي إن تجتهدْ تنجحْ.",
+          "order": 3,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-4",
+          "type": "reasoning",
+          "title": "لماذا يُجزم؟",
+          "body": "الطلب يؤدي معنى الشرط؛ فالجواب متعلق بتحقق الطلب. الجزم هنا يكشف هذه العلاقة، وليس كل مضارع بعد طلب جوابًا مجزومًا.",
+          "order": 4,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدّد أسلوب الطلب، ثم عيّن المضارع التالي، واختبر إمكان تحويل التركيب إلى شرط، وبعدها حدّد علامة الجزم: السكون، أو حذف حرف العلة، أو حذف النون.",
+          "order": 5,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-6",
+          "type": "comparison",
+          "title": "قارن وانتبه",
+          "body": "في «اجتهدْ تنجحْ» المضارع جواب طلب مجزوم، أما «اجتهدْ فستنجحُ» فالفعل مرفوع لوجود الفاء والسين، وليس جواب طلب مجزومًا مباشرة.",
+          "order": 6,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-7",
+          "type": "misconceptions",
+          "title": "خطأ شائع",
+          "body": "لا تجزم أي مضارع يأتي بعد أمر أو نهي آليًا؛ يجب أن يكون الجواب نتيجة للطلب، وأن يصح معنى الشرط.",
+          "order": 7,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-sec-8",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "طلب ثم نتيجة، مع صحة تحويل المعنى إلى شرط: عندئذ يُجزم المضارع، وتُحدَّد العلامة بحسب آخر الفعل واتصاله.",
+          "order": 8,
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        }
+      ],
+      "examples": [
+        {
+          "id": "jussive-answer-request-v1-example-1",
+          "sentence": "اجتهد تنجح",
+          "fullyDiacritizedSentence": "اِجْتَهِدْ تَنْجَحْ",
+          "parsedWords": [
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "جواب الطلب",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "فعل مضارع صحيح الآخر",
+              "explanation": "وقع نتيجة للأمر «اجتهد»، وصح تقدير الشرط: إن تجتهدْ تنجحْ.",
+              "startIndex": 6,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "النجاح نتيجة الاجتهاد؛ لذلك جُزم المضارع في جواب الطلب.",
+          "referenceIds": []
+        },
+        {
+          "id": "jussive-answer-request-v1-example-2",
+          "sentence": "اسع في الخير ترق",
+          "fullyDiacritizedSentence": "اِسْعَ فِي الخَيْرِ تَرْقَ",
+          "parsedWords": [
+            {
+              "word": "ترق",
+              "normalizedWord": "ترق",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "جواب الطلب",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "حذف حرف العلة",
+              "signReason": "فعل مضارع معتل الآخر",
+              "explanation": "الفعل أصله «ترقى»، وجُزم بحذف حرف العلة لأنه جواب للأمر.",
+              "startIndex": 13,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "صح معنى الشرط: إن تسعَ في الخير ترقَ.",
+          "referenceIds": []
+        }
+      ],
+      "exerciseIds": [
+        "jussive-answer-request-v1-ex-1",
+        "jussive-answer-request-v1-ex-2",
+        "jussive-answer-request-v1-ex-3",
+        "jussive-answer-request-v1-ex-4",
+        "jussive-answer-request-v1-ex-5",
+        "jussive-answer-request-v1-ex-6",
+        "jussive-answer-request-v1-ex-7",
+        "jussive-answer-request-v1-ex-8",
+        "jussive-answer-request-v1-ex-9",
+        "jussive-answer-request-v1-ex-10"
+      ],
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "tags": ["جواب الطلب", "جزم المضارع", "الأمر", "النهي", "علامات الجزم"],
+      "estimatedMinutes": 20,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "jussive-answer-request-v1-ex-1",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "عيّن جواب الطلب في: «اجتهدْ تنجحْ».",
+      "skillIds": ["answer-to-request-detection"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "اجتهدْ", "feedback": "هذا فعل الأمر الذي أنشأ الطلب، وليس جوابه."},
+        {"id": "b", "text": "تنجحْ", "feedback": "صحيح؛ النجاح نتيجة مترتبة على الاجتهاد."},
+        {"id": "c", "text": "الجملة كلها", "feedback": "المطلوب فعل الجواب نفسه، وهو المضارع «تنجحْ»."}
+      ],
+      "correctAnswerIds": ["b"],
+      "explanation": "«تنجحْ» مضارع مجزوم وقع جوابًا للأمر «اجتهدْ».",
+      "hint": "ابحث عن النتيجة المترتبة على الطلب.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-2",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "ما علامة جزم «تنجحْ» في المثال السابق؟",
+      "skillIds": ["jussive-sign"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "السكون", "feedback": "صحيح؛ الفعل صحيح الآخر ولم يتصل به ما يغيّر علامته."},
+        {"id": "b", "text": "حذف النون", "feedback": "حذف النون يخص الأفعال الخمسة، و«تنجح» ليست منها."},
+        {"id": "c", "text": "حذف حرف العلة", "feedback": "الفعل صحيح الآخر، فلا يوجد حرف علة يُحذف."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "علامة جزم المضارع الصحيح الآخر هي السكون.",
+      "hint": "انظر إلى آخر الفعل ونوعه.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-3",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "متى يُجزم المضارع بعد الطلب؟",
+      "skillIds": ["answer-to-request-condition"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "كلما جاء بعد أمر", "feedback": "ليس كل مضارع بعد الأمر جوابًا له."},
+        {"id": "b", "text": "إذا كان نتيجة للطلب وصح معنى الشرط", "feedback": "صحيح؛ هذان هما دليلا العلاقة."},
+        {"id": "c", "text": "إذا سبقته الفاء", "feedback": "وجود الفاء قد ينقل التركيب إلى باب آخر، ولا يثبت الجزم وحده."}
+      ],
+      "correctAnswerIds": ["b"],
+      "explanation": "يشترط ترتب النتيجة وصحة تقدير أداة شرط جازمة.",
+      "hint": "جرّب أن تقول: إن تفعل الطلب يحدث الجواب.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-4",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "اختر التركيب الذي يشتمل على جواب طلب مجزوم.",
+      "skillIds": ["answer-to-request-detection"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "احفظْ وقتَكَ تستفدْ.", "feedback": "صحيح؛ الاستفادة نتيجة حفظ الوقت، وصح معنى الشرط."},
+        {"id": "b", "text": "احفظْ وقتَكَ فسوف تستفيدُ.", "feedback": "الفعل هنا مسبوق بالفاء وسوف ومرفوع، وليس جوابًا مجزومًا مباشرة."},
+        {"id": "c", "text": "الطالبُ يحفظُ وقتَه.", "feedback": "هذه جملة خبرية لا طلب فيها."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«تستفدْ» جواب أمر مجزوم بالسكون.",
+      "hint": "ابحث عن طلب ونتيجة بلا فاصل يغيّر الحكم.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-5",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "comparison",
+      "prompt": "لماذا رُفع «ستنجحُ» في: «اجتهدْ فستنجحُ»؟",
+      "skillIds": ["answer-to-request-comparison"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "لأنه فعل ماضٍ", "feedback": "«ستنجح» فعل مضارع دلّت السين على استقباله."},
+        {"id": "b", "text": "لأنه ليس جواب طلب مجزومًا مباشرة", "feedback": "صحيح؛ الفاء والسين فصلتا صيغة الجواب المباشر."},
+        {"id": "c", "text": "لأن الأمر لا جواب له", "feedback": "قد يكون للأمر جواب مجزوم إذا تحققت الشروط."}
+      ],
+      "correctAnswerIds": ["b"],
+      "explanation": "لا تظهر هنا صورة جواب الطلب المجزوم المباشر، فبقي المضارع مرفوعًا.",
+      "hint": "قارنها بـ«اجتهدْ تنجحْ».",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-6",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "أي تقدير شرطي يثبت صحة: «اجتهدْ تنجحْ»؟",
+      "skillIds": ["answer-to-request-condition"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "إن تجتهدْ تنجحْ.", "feedback": "صحيح؛ حافظ التقدير على علاقة السبب والنتيجة."},
+        {"id": "b", "text": "لن تجتهدَ حتى تنجحَ.", "feedback": "هذا تركيب نصب وغاية، وليس التقدير الشرطي المطلوب."},
+        {"id": "c", "text": "تجتهدُ ثم تنجحُ.", "feedback": "هذا إخبار بالعطف ولا يختبر معنى الشرط."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "إمكان تقدير الشرط دليل أساسي على صحة جزم جواب الطلب.",
+      "hint": "استخدم أداة شرط جازمة.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-7",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "errorCorrection",
+      "prompt": "صحّح ضبط جواب الطلب: «اجتهدْ تنجحُ».",
+      "skillIds": ["jussive-ending"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "تنجحْ", "feedback": "صحيح؛ جواب الطلب مجزوم بالسكون."},
+        {"id": "b", "text": "تنجحَ", "feedback": "الفتحة علامة نصب، ولا يوجد ناصب هنا."},
+        {"id": "c", "text": "تنجحُ", "feedback": "الضمة لا تناسب المضارع المجزوم في هذا التركيب."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "يُسكَّن آخر المضارع الصحيح الآخر عند جزمه.",
+      "hint": "الفعل صحيح الآخر وجوابه نتيجة للأمر.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-8",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "ما علامة جزم «ترقَ» في: «اسعَ في الخيرِ ترقَ»؟",
+      "skillIds": ["jussive-sign"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "السكون", "feedback": "الفعل معتل الآخر، فلا تكون علامته السكون الظاهر هنا."},
+        {"id": "b", "text": "حذف حرف العلة", "feedback": "صحيح؛ أصل الفعل «ترقى» فحُذفت الألف المقصورة للجزم."},
+        {"id": "c", "text": "حذف النون", "feedback": "الفعل ليس من الأفعال الخمسة."}
+      ],
+      "correctAnswerIds": ["b"],
+      "explanation": "المضارع المعتل الآخر يُجزم بحذف حرف العلة.",
+      "hint": "استعد الصورة الأصلية للفعل: ترقى.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-9",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "classification",
+      "prompt": "صنّف «تكتبوا» بعد تصحيحها في: «ثابروا تكتبوا بإتقان».",
+      "skillIds": ["jussive-sign"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "تكتبون: مرفوع بثبوت النون", "feedback": "هذا الضبط لا يظهر جزم جواب الطلب."},
+        {"id": "b", "text": "تكتبوا: مجزوم بحذف النون", "feedback": "صحيح؛ الفعل من الأفعال الخمسة وحُذفت نونه للجزم."},
+        {"id": "c", "text": "تكتبوا: مجزوم بالسكون", "feedback": "علامة الأفعال الخمسة حذف النون لا السكون."}
+      ],
+      "correctAnswerIds": ["b"],
+      "explanation": "جواب الأمر من الأفعال الخمسة، فعلامة جزمه حذف النون.",
+      "hint": "حدّد هل الفعل من الأفعال الخمسة.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    },
+    {
+      "id": "jussive-answer-request-v1-ex-10",
+      "lessonId": "jussive-answer-request-v1",
+      "type": "multipleChoice",
+      "prompt": "لماذا لا يصح جزم «تحترق» على أنه جواب في: «لا تقتربْ من النار تحترقُ»؟",
+      "skillIds": ["answer-to-request-condition"],
+      "stageIds": ["secondary"],
+      "gradeIds": ["grade-11"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "لأنه فعل ماضٍ", "feedback": "«تحترق» فعل مضارع."},
+        {"id": "b", "text": "لأن الاحتراق ليس نتيجة عدم الاقتراب", "feedback": "صحيح؛ لا يستقيم التقدير: إن لا تقتربْ تحترقْ."},
+        {"id": "c", "text": "لأن النهي لا جواب له", "feedback": "قد يكون للنهي جواب مجزوم إذا صحت علاقة الشرط."}
+      ],
+      "correctAnswerIds": ["b"],
+      "explanation": "النتيجة يجب أن تترتب على مضمون الطلب نفسه؛ وهذا الشرط غير متحقق هنا.",
+      "hint": "اختبر معنى الشرط، لا مجرد ترتيب الفعلين.",
+      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-moe-secondary2-week6-2025-2026",
+      "title": "اللغة العربية — الصف الثاني الثانوي — الأسبوع السادس — الفصل الأول 2025/2026",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني المصرية — مكتب مستشار اللغة العربية",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/content/2026/Secondry/Secondry2/Term1/ClassrHomeAssessmentsTest/Arabic_language_Secondary2_TR1_C-W6.pdf",
+      "checkedAt": "2026-08-04"
+    }
+  ]
+}

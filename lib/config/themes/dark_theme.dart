@@ -7,6 +7,7 @@ class DarkTheme {
   DarkTheme._();
 
   static final ThemeData theme = ThemeData(
+    fontFamily: 'Alexandria',
     dividerColor: Colors.transparent, // This removes the dividers
     useMaterial3: true,
     brightness: Brightness.dark,

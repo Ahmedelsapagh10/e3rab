@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "curriculum": {
+    "id": "egypt-national-2025-2026",
+    "countryCode": "EG",
+    "authority": "وزارة التربية والتعليم والتعليم الفني المصرية",
+    "academicYear": "2025-2026",
+    "version": "1.0.0-draft",
+    "reviewStatus": "aiAssistedDraft",
+    "sourceIds": [
+      "moe-year-plan-2025-2026",
+      "moe-secondary2-week6-2025-2026"
+    ]
+  },
+  "mappings": [
+    {
+      "id": "eg-2025-2026-secondary2-term1-answer-request",
+      "stageId": "secondary",
+      "gradeId": "grade-11",
+      "termId": "term-1",
+      "officialUnit": "الأسبوع السادس — النحو",
+      "officialOutcome": "جزم المضارع في جواب الطلب",
+      "grammarConceptIds": [
+        "present-jussive",
+        "answer-to-request"
+      ],
+      "source": {
+        "id": "moe-secondary2-week6-2025-2026",
+        "title": "اللغة العربية — الصف الثاني الثانوي — الأسبوع السادس — الفصل الأول 2025/2026",
+        "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/content/2026/Secondry/Secondry2/Term1/ClassrHomeAssessmentsTest/Arabic_language_Secondary2_TR1_C-W6.pdf",
+        "checkedAt": "2026-08-04"
+      },
+      "version": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "reviewer": null
+    }
+  ]
+}

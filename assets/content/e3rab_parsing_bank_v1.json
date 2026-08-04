@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "locale": "ar",
+  "reviewStatus": "aiAssistedDraft",
+  "samples": [
+    {
+      "id": "parse-nominal-science-light",
+      "sentence": "العلم نور",
+      "fullyDiacritizedSentence": "العِلْمُ نُورٌ",
+      "targetText": "العلم",
+      "steps": [
+        {
+          "id": "sentence-type",
+          "title": "نوع الجملة",
+          "prompt": "ما نوع الجملة؟",
+          "options": [
+            {"id": "nominal", "text": "جملة اسمية", "feedback": "بدأت باسم، وهذا هو الدليل الأول."},
+            {"id": "verbal", "text": "جملة فعلية", "feedback": "لا يوجد فعل بدأت به الجملة."}
+          ],
+          "correctOptionId": "nominal",
+          "explanation": "الجملة اسمية لأنها بدأت بالاسم «العلم»."
+        },
+        {
+          "id": "anchor",
+          "title": "الركن الأساسي",
+          "prompt": "ما طرف الإسناد الأول؟",
+          "options": [
+            {"id": "science", "text": "العلم", "feedback": "هو الاسم المتحدث عنه."},
+            {"id": "light", "text": "نور", "feedback": "هذه المعلومة المسندة إلى العلم."}
+          ],
+          "correctOptionId": "science",
+          "explanation": "«العلم» هو المبتدأ الذي نُسند إليه الخبر."
+        },
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع كلمة «العلم»؟",
+          "options": [
+            {"id": "noun", "text": "اسم", "feedback": "تقبل «أل» وتدل على معنى بلا زمن."},
+            {"id": "verb", "text": "فعل", "feedback": "لا تدل الكلمة على حدث وزمن."},
+            {"id": "particle", "text": "حرف", "feedback": "لها معنى مستقل في هذا السياق."}
+          ],
+          "correctOptionId": "noun",
+          "explanation": "«العلم» اسم معرف بـ«أل»."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما موقع «العلم»؟",
+          "options": [
+            {"id": "subject", "text": "مبتدأ", "feedback": "هو الاسم المتحدث عنه في أول الجملة."},
+            {"id": "predicate", "text": "خبر", "feedback": "الخبر هنا هو «نور»."}
+          ],
+          "correctOptionId": "subject",
+          "explanation": "وقع «العلم» مبتدأ في الجملة الاسمية."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة المبتدأ؟",
+          "options": [
+            {"id": "nominative", "text": "مرفوع", "feedback": "الأصل في المبتدأ الرفع."},
+            {"id": "accusative", "text": "منصوب", "feedback": "لا يوجد ناسخ ينصبه هنا."}
+          ],
+          "correctOptionId": "nominative",
+          "explanation": "المبتدأ مرفوع."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة رفع «العلم»؟",
+          "options": [
+            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "ظهرت الضمة على آخر الاسم."},
+            {"id": "waw", "text": "الواو", "feedback": "الاسم ليس جمع مذكر سالمًا ولا من الأسماء الخمسة."}
+          ],
+          "correctOptionId": "damma",
+          "explanation": "علامة رفعه الضمة الظاهرة على آخره."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا كانت العلامة الضمة؟",
+          "options": [
+            {"id": "singular", "text": "لأنه اسم مفرد صحيح الآخر", "feedback": "وهذا موضع الضمة الأصلية."},
+            {"id": "dual", "text": "لأنه مثنى", "feedback": "المثنى يرفع بالألف، والكلمة ليست مثنى."}
+          ],
+          "correctOptionId": "singular",
+          "explanation": "الاسم المفرد الصحيح الآخر يرفع بالضمة الأصلية."
+        }
+      ],
+      "parsedWords": [
+        {
+          "word": "العلم",
+          "normalizedWord": "العلم",
+          "wordType": "اسم",
+          "grammaticalRole": "مبتدأ",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الضمة الظاهرة",
+          "signReason": "اسم مفرد صحيح الآخر",
+          "explanation": "اسم بدأت به الجملة وأسند إليه الخبر.",
+          "startIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "word": "نور",
+          "normalizedWord": "نور",
+          "wordType": "اسم",
+          "grammaticalRole": "خبر",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الضمة الظاهرة",
+          "signReason": "اسم مفرد صحيح الآخر",
+          "explanation": "أتم معنى الجملة مع المبتدأ.",
+          "startIndex": 6,
+          "endIndex": 9
+        }
+      ],
+      "summary": "العلم: مبتدأ مرفوع وعلامة رفعه الضمة الظاهرة؛ نور: خبر مرفوع وعلامة رفعه الضمة الظاهرة.",
+      "alternatives": [],
+      "relatedLessonId": "nominal-sentence",
+      "referenceIds": ["ref-moe-primary6"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "parse-fronted-predicate-class",
+      "sentence": "في الفصل طلاب",
+      "fullyDiacritizedSentence": "فِي الفَصْلِ طُلَّابٌ",
+      "targetText": "في الفصل",
+      "steps": [
+        {
+          "id": "sentence-type",
+          "title": "نوع الجملة",
+          "prompt": "ما نوع التركيب الكامل؟",
+          "options": [
+            {"id": "nominal", "text": "جملة اسمية", "feedback": "شبه الجملة خبر، و«طلاب» مبتدأ مؤخر."},
+            {"id": "verbal", "text": "جملة فعلية", "feedback": "لا يوجد فعل في التركيب."}
+          ],
+          "correctOptionId": "nominal",
+          "explanation": "الجملة اسمية تقدم فيها الخبر شبه الجملة."
+        },
+        {
+          "id": "anchor",
+          "title": "الركن الأساسي",
+          "prompt": "أين الاسم المسند إليه؟",
+          "options": [
+            {"id": "students", "text": "طلاب", "feedback": "هو المبتدأ المؤخر."},
+            {"id": "class", "text": "الفصل", "feedback": "اسم مجرور داخل شبه الجملة."}
+          ],
+          "correctOptionId": "students",
+          "explanation": "«طلاب» مبتدأ مؤخر، وشبه الجملة قبله خبر مقدم."
+        },
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «في»؟",
+          "options": [
+            {"id": "particle", "text": "حرف جر", "feedback": "يدخل على الاسم فيجره."},
+            {"id": "noun", "text": "اسم", "feedback": "لا يقبل علامات الاسم هنا."}
+          ],
+          "correctOptionId": "particle",
+          "explanation": "«في» حرف جر مبني."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفة «في الفصل» في الجملة؟",
+          "options": [
+            {"id": "fronted-predicate", "text": "خبر مقدم", "feedback": "أخبر عن وجود الطلاب في الفصل."},
+            {"id": "delayed-subject", "text": "مبتدأ مؤخر", "feedback": "المبتدأ المؤخر هو «طلاب»."}
+          ],
+          "correctOptionId": "fronted-predicate",
+          "explanation": "شبه الجملة متعلق بمحذوف في محل رفع خبر مقدم."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما محل شبه الجملة؟",
+          "options": [
+            {"id": "nominative", "text": "في محل رفع", "feedback": "لأنه وقع خبرًا."},
+            {"id": "genitive", "text": "في محل جر", "feedback": "«الفصل» وحده مجرور، أما شبه الجملة فخبر."}
+          ],
+          "correctOptionId": "nominative",
+          "explanation": "الخبر في محل رفع، وإن كان الاسم داخله مجرورًا."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "كيف نعبر عن علامة شبه الجملة؟",
+          "options": [
+            {"id": "local", "text": "محل رفع بلا علامة ظاهرة", "feedback": "شبه الجملة لا تظهر عليه حركة الخبر."},
+            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "لا تظهر الضمة على تركيب جار ومجرور."}
+          ],
+          "correctOptionId": "local",
+          "explanation": "نقول: شبه الجملة في محل رفع خبر مقدم."
+        },
+        {
+          "id": "reason",
+          "title": "سبب الحكم",
+          "prompt": "لماذا تقدم الخبر؟",
+          "options": [
+            {"id": "indefinite", "text": "لأن المبتدأ نكرة وسوّغ تقديم شبه الجملة الابتداء به", "feedback": "هذا هو السياق المألوف للتقديم."},
+            {"id": "verb", "text": "لأن الجملة بدأت بفعل", "feedback": "لا فعل في الجملة."}
+          ],
+          "correctOptionId": "indefinite",
+          "explanation": "تقدم شبه الجملة، وتأخر المبتدأ النكرة «طلاب»."
+        }
+      ],
+      "parsedWords": [
+        {
+          "word": "في الفصل",
+          "normalizedWord": "في الفصل",
+          "wordType": "شبه جملة: جار ومجرور",
+          "grammaticalRole": "خبر مقدم",
+          "grammaticalState": "في محل رفع",
+          "grammaticalSign": "محلي؛ لا تظهر حركة على التركيب",
+          "signReason": "شبه الجملة تعلق بمحذوف خبر",
+          "explanation": "يجوز التعبير بأنه جار ومجرور متعلقان بمحذوف خبر مقدم.",
+          "startIndex": 0,
+          "endIndex": 8
+        },
+        {
+          "word": "طلاب",
+          "normalizedWord": "طلاب",
+          "wordType": "اسم",
+          "grammaticalRole": "مبتدأ مؤخر",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الضمة الظاهرة",
+          "signReason": "جمع تكسير",
+          "explanation": "الاسم المسند إليه وقد تأخر عن الخبر.",
+          "startIndex": 9,
+          "endIndex": 13
+        }
+      ],
+      "summary": "في: حرف جر؛ الفصل: اسم مجرور؛ وشبه الجملة متعلق بمحذوف خبر مقدم، وطلاب مبتدأ مؤخر مرفوع.",
+      "alternatives": [
+        {"title": "تعبير بالمحل", "explanation": "شبه الجملة «في الفصل» في محل رفع خبر مقدم."},
+        {"title": "تعبير بالتعلّق", "explanation": "الجار والمجرور متعلقان بمحذوف تقديره «كائن» خبر مقدم."}
+      ],
+      "relatedLessonId": "nominal-sentence",
+      "referenceIds": ["ref-moe-primary6"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "parse-clause-as-predicate",
+      "sentence": "الطالب يكتب درسه",
+      "fullyDiacritizedSentence": "الطَّالِبُ يَكْتُبُ دَرْسَهُ",
+      "targetText": "يكتب درسه",
+      "steps": [
+        {
+          "id": "sentence-type",
+          "title": "نوع الجملة الكبرى",
+          "prompt": "ما نوع الجملة الكبرى؟",
+          "options": [
+            {"id": "nominal", "text": "اسمية", "feedback": "بدأت باسم هو «الطالب»."},
+            {"id": "verbal", "text": "فعلية", "feedback": "الجملة الكبرى لم تبدأ بالفعل."}
+          ],
+          "correctOptionId": "nominal",
+          "explanation": "الجملة الكبرى اسمية، وخبرها جملة فعلية."
+        },
+        {
+          "id": "anchor",
+          "title": "الركن الأساسي",
+          "prompt": "ما المبتدأ؟",
+          "options": [
+            {"id": "student", "text": "الطالب", "feedback": "هو الاسم المتحدث عنه."},
+            {"id": "writes", "text": "يكتب", "feedback": "هذا فعل الجملة الواقعة خبرًا."}
+          ],
+          "correctOptionId": "student",
+          "explanation": "«الطالب» مبتدأ، والجملة بعده تخبر عنه."
+        },
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «يكتب»؟",
+          "options": [
+            {"id": "present-verb", "text": "فعل مضارع", "feedback": "يدل على حدث يقع في الزمن الحاضر أو المستقبل."},
+            {"id": "noun", "text": "اسم", "feedback": "تسبق الكلمة بزمن وتقبل علامات الفعل المضارع."}
+          ],
+          "correctOptionId": "present-verb",
+          "explanation": "«يكتب» فعل مضارع."
+        },
+        {
+          "id": "role",
+          "title": "موقع الجملة الصغرى",
+          "prompt": "ما موقع «يكتب درسه»؟",
+          "options": [
+            {"id": "predicate-clause", "text": "جملة فعلية في محل رفع خبر", "feedback": "أتمت الفائدة مع المبتدأ."},
+            {"id": "no-position", "text": "لا محل لها", "feedback": "الجملة هنا وقعت خبرًا لمبتدأ."}
+          ],
+          "correctOptionId": "predicate-clause",
+          "explanation": "الجملة الفعلية وقعت خبرًا للمبتدأ «الطالب»."
+        },
+        {
+          "id": "state",
+          "title": "حالة الفعل",
+          "prompt": "ما حالة «يكتب»؟",
+          "options": [
+            {"id": "nominative", "text": "مرفوع", "feedback": "لم يسبقه ناصب ولا جازم."},
+            {"id": "accusative", "text": "منصوب", "feedback": "لا توجد أداة نصب قبله."}
+          ],
+          "correctOptionId": "nominative",
+          "explanation": "الفعل المضارع مرفوع لتجرده من الناصب والجازم."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الفعل",
+          "prompt": "ما علامة رفع «يكتب»؟",
+          "options": [
+            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "الفعل صحيح الآخر ولم يتصل به ما يغير العلامة."},
+            {"id": "nun", "text": "ثبوت النون", "feedback": "ليس من الأفعال الخمسة هنا."}
+          ],
+          "correctOptionId": "damma",
+          "explanation": "علامة رفعه الضمة الظاهرة."
+        },
+        {
+          "id": "reason",
+          "title": "الرابط والسبب",
+          "prompt": "ما الرابط بين جملة الخبر والمبتدأ؟",
+          "options": [
+            {"id": "hidden-pronoun", "text": "الضمير المستتر «هو» فاعل يكتب", "feedback": "يعود الضمير على الطالب ويربط الخبر به."},
+            {"id": "lesson-pronoun", "text": "الهاء في «درسه» فقط", "feedback": "الهاء تعود عليه، لكن العمدة في الإسناد فاعل «يكتب» المستتر."}
+          ],
+          "correctOptionId": "hidden-pronoun",
+          "explanation": "فاعل «يكتب» ضمير مستتر تقديره هو يعود على المبتدأ."
+        }
+      ],
+      "parsedWords": [
+        {
+          "word": "يكتب",
+          "normalizedWord": "يكتب",
+          "wordType": "فعل مضارع",
+          "grammaticalRole": "فعل الجملة الواقعة خبرًا",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الضمة الظاهرة",
+          "signReason": "لم يسبقه ناصب ولا جازم",
+          "explanation": "فاعله ضمير مستتر تقديره هو يعود على الطالب.",
+          "startIndex": 7,
+          "endIndex": 11
+        }
+      ],
+      "summary": "الطالب مبتدأ مرفوع، وجملة «يكتب درسه» في محل رفع خبر، والرابط ضمير مستتر تقديره هو.",
+      "alternatives": [],
+      "relatedLessonId": "sentences-with-syntactic-position",
+      "referenceIds": ["ref-moe-secondary-model"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "aiAssistedDraft",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ]
+}

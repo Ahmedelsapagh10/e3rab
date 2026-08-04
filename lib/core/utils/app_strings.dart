@@ -1,5 +1,5 @@
 class AppStrings {
-  static const String appName = 'X STORE';
+  static const String appName = 'إعراب';
 
   static const String fontFamily = 'Alexandria';
   static const String noRouteFound = 'No Route Found';

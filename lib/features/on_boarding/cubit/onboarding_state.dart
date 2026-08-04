@@ -1,10 +1,12 @@
 part of 'onboarding_cubit.dart';
 
 @immutable
-abstract class OnboardingState {}
+sealed class OnboardingState {}
 
-class OnboardingInitial extends OnboardingState {}
+final class OnboardingChecking extends OnboardingState {}
 
-class OnBoardingInitial extends OnboardingState {}
+final class OnboardingRequired extends OnboardingState {}
 
-class ChangingPagesState extends OnboardingState {}
+final class OnboardingReady extends OnboardingState {}
+
+final class OnboardingPageChanged extends OnboardingState {}

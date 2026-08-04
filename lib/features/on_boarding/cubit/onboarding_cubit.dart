@@ -1,22 +1,30 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../data/onboarding_repository.dart';
 
 part 'onboarding_state.dart';
 
 class OnboardingCubit extends Cubit<OnboardingState> {
-  OnboardingCubit() : super(OnboardingInitial());
-  PageController pageController = PageController(initialPage: 0);
-  int numPages = 3;
-  double currentPage = 0;
+  OnboardingCubit(this._repository) : super(OnboardingChecking());
 
-  void changePages() {
-    currentPage = pageController.page!;
-    emit(ChangingPagesState());
+  final OnboardingRepository _repository;
+  final PageController pageController = PageController();
+  static const numPages = 3;
+  int currentPage = 0;
+
+  void restore() {
+    emit(_repository.isCompleted ? OnboardingReady() : OnboardingRequired());
   }
 
   void onPageChanged(int page) {
-    currentPage = page.toDouble();
-    emit(ChangingPagesState());
+    currentPage = page;
+    emit(OnboardingPageChanged());
+  }
+
+  Future<void> complete() async {
+    await _repository.complete();
+    emit(OnboardingReady());
   }
 
   @override

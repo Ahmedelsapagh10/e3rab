@@ -33,6 +33,10 @@ CLAUDE.local.md
 .pub-cache/
 .pub/
 /build/
+/firebase_tests/node_modules/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
 
 # Symbolication related
 app.*.symbols

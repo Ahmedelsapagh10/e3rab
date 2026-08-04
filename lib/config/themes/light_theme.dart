@@ -6,6 +6,7 @@ class LightTheme {
   LightTheme._();
 
   static final ThemeData theme = ThemeData(
+    fontFamily: 'Alexandria',
     dividerColor: Colors.transparent,
 
     useMaterial3: true,
@@ -25,8 +26,8 @@ class LightTheme {
 
     // App bar
     appBarTheme: AppBarTheme(
-      backgroundColor: AppColorsExtension.light.primary,
-      foregroundColor: Colors.white,
+      backgroundColor: AppColorsExtension.light.surface,
+      foregroundColor: AppColorsExtension.light.textPrimary,
       elevation: 0,
     ),
 

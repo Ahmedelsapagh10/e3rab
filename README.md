@@ -46,7 +46,7 @@
 | 🛍️ Demo feature | Product catalog, category filters, staggered grid, horizontal list, details sheet, loading/error/retry states |
 | 🔑 Auth UI | Login form, validation, password visibility, and forgot-password email/OTP/reset screens |
 | 🎞️ Splash | Lottie splash animation and external portfolio link |
-| 🧭 Onboarding | Three responsive photographic pages, localized product copy, completion persistence, and a Hero transition into login |
+| 🧭 Onboarding | Arabic E3rab introduction plus account learning-profile setup |
 | 🎯 App icons | One-source launcher-icon generation for Android, iOS, Web, Windows, and macOS |
 | 🗂️ Device services | Image/file picking, sharing, phone/email/WhatsApp/browser/maps launchers, and image viewing |
 | ☁️ Uploads | S3-compatible/DigitalOcean Spaces upload helper using AWS Signature V4 |
@@ -60,14 +60,14 @@ Knowing what is wired and what is only an example prevents future developers fro
 |---|---|---|
 | Splash routing | ✅ Working | Checks onboarding completion after the 8.5-second splash delay |
 | Portfolio link | ✅ Working | Opens an external browser |
-| Product catalog | ✅ Working demo | Reads products from Fake Store API |
+| Product catalog | ⚠️ Legacy/unreachable | Old Fake Store files remain temporarily but are no longer routed or registered |
 | Language switching | ✅ Working | Arabic/English; restarts the widget tree after switching |
 | Theme switching | ✅ Working | Choice is stored securely |
-| Login UI | 🧪 Demo/scaffold | Simulates success; it does **not** call `LoginRepo` yet |
+| Login UI | ✅ E3rab | Firebase email/password sign-in and account creation with guest fallback |
 | Login repository | 🧩 Available | POST request and model parsing are implemented |
-| Forgot-password UI/Cubit | 🧪 Demo/scaffold | Cubit currently simulates success with delays |
-| Forgot-password repository | 🧩 Available | Endpoints exist, with local fallback behavior; connect the Cubit before production |
-| Firebase Messaging | ⚙️ Configuration required | Firebase option values are blank, so initialization is intentionally skipped |
+| Password reset | ✅ E3rab | Sends a Firebase reset email with security-conscious Arabic feedback |
+| Legacy password repository | ⚠️ Unreachable | Replaced by Firebase password-reset email |
+| Firebase foundation | ✅ Phase 3 | Auth and profile access are isolated behind repositories and `e3rab_users/{uid}` |
 | Local notifications | 🧩 Initialized | Notification channel identifiers are placeholders and tap navigation is not connected |
 | Onboarding | ✅ Working | Three pages, named route, Arabic/English content, Skip/Get Started persistence, and Hero logo transition to login |
 | Launcher icons | ✅ Configured | Uses `assets/images/app_icon.png` for Android, iOS, Web, Windows, and macOS |
@@ -132,7 +132,7 @@ lib/
 ├── main.dart                         # Application entry point
 ├── app.dart                          # Root providers, localization, theme, routes
 ├── injector.dart                     # GetIt registrations
-├── firebase_options.dart             # Firebase platform options (currently blank)
+├── firebase_options.dart             # Generated FlutterFire platform options
 ├── config/
 │   ├── routes/                       # Named routes and transitions
 │   └── themes/                       # Light/dark themes and ThemeCubit
@@ -241,7 +241,7 @@ The launcher-icon configuration lives directly in `pubspec.yaml` and uses one so
 assets/images/app_icon.png
 ```
 
-The source is a 512×512 RGB PNG. Icon generation is enabled for Android, iOS, Web, Windows, and macOS. Android uses the `launcher_icon` resource name, iOS removes the alpha channel, and the Web theme/background colors follow the application palette.
+The current E3rab source artwork is a 2000×2000 PNG. Icon generation is enabled for Android, iOS, Web, Windows, and macOS, but a compact mark and whitespace-safe app-icon crop must be prepared before regeneration.
 
 Regenerate every configured platform icon after replacing the source image:
 
@@ -258,12 +258,12 @@ dart run flutter_launcher_icons -f pubspec.yaml
 
 | Method | URL/path | Used by | State |
 |---|---|---|---|
-| `POST` | `https://elsapaghtest.net/api/auth/login` | `LoginRepo.login` | Repository exists; UI is not connected |
+| `POST` | `https://elsapaghtest.net/api/auth/login` | `LoginRepo.login` | Legacy and unreachable |
 | `GET` | `https://elsapaghtest.net/api/home` | Endpoint constant only | Not currently called |
-| `POST` | `https://elsapaghtest.net/api/auth/forgot-password` | `ForgetPasswordRepo.sendCode` | Repository exists; Cubit is simulated |
-| `POST` | `https://elsapaghtest.net/api/auth/verify-code` | `ForgetPasswordRepo.verifyCode` | Repository exists; Cubit is simulated |
-| `POST` | `https://elsapaghtest.net/api/auth/reset-password` | `ForgetPasswordRepo.resetPassword` | Repository exists; Cubit is simulated |
-| `GET` | `https://fakestoreapi.com/products` | `MainRepo.getProducts` | Active demo endpoint |
+| `POST` | `https://elsapaghtest.net/api/auth/forgot-password` | `ForgetPasswordRepo.sendCode` | Legacy and unreachable |
+| `POST` | `https://elsapaghtest.net/api/auth/verify-code` | `ForgetPasswordRepo.verifyCode` | Legacy and unreachable |
+| `POST` | `https://elsapaghtest.net/api/auth/reset-password` | `ForgetPasswordRepo.resetPassword` | Legacy and unreachable |
+| `GET` | `https://fakestoreapi.com/products` | `MainRepo.getProducts` | Legacy and unreachable |
 | `PUT` | S3-compatible object URL | `UploadImagesToS3Api.uploadFiles` | Helper available; requires secure server-issued credentials |
 
 Keep new application endpoints in `lib/core/api/end_points.dart`. Avoid defining feature URLs inline.
@@ -368,7 +368,7 @@ flowchart LR
 
 ### Firebase setup
 
-The checked-in `firebase_options.dart` contains empty values. Until configured, startup logs a message and safely skips Firebase/FCM initialization; local-notification initialization still runs.
+FlutterFire configuration is present for Android, iOS, macOS, Web, and Windows. Linux remains unconfigured, and startup safely skips Firebase where options are unsupported or unavailable. E3rab accounts are enabled on configured Android, iOS, macOS, and Web builds; Windows and Linux retain complete guest entry.
 
 Configure Firebase for the target platforms:
 
@@ -427,7 +427,7 @@ Current validation baseline:
 
 Recommended next tests:
 
-- Cubit state sequences for products, login, and password reset.
+- Cubit state sequences for auth restoration, sign-in, duplicate submission, profile setup, and password reset.
 - Repository success/error mapping with a fake `BaseApiConsumer`.
 - Model JSON serialization/deserialization.
 - Token attachment and 401 session-clearing behavior.

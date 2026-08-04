@@ -174,14 +174,14 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
 
   /// Dark theme colors
   static const AppColorsExtension dark = AppColorsExtension(
-    primary: Color(0xFFffffff),
-    secondary: Color(0xFFB0BEC5),
-    background: Color(0xFF151F30),
-    backgroundAppBar: Color(0xFF1B2639),
-    background2: Color(0xFF151F30),
-    surface: Color(0xFF1B2639),
-    cardColor: Color(0xFF1B2639),
-    borderColor: Color(0xFF223048),
+    primary: Color(0xFFE77813),
+    secondary: Color(0xFFF6C100),
+    background: Color(0xFF1F1A17),
+    backgroundAppBar: Color(0xFF2B2521),
+    background2: Color(0xFF1F1A17),
+    surface: Color(0xFF2B2521),
+    cardColor: Color(0xFF2B2521),
+    borderColor: Color(0xFF4A4039),
     textPrimary: Color(0xFFECEFF1),
     textSecondary: Color(0xFFB0BEC5),
     success: Color(0xFF66BB6A),
