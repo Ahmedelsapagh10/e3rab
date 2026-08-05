@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../learning/cubit/learning_cubit.dart';
+import '../../auth/cubit/auth_cubit.dart';
+import '../../auth/cubit/auth_state.dart';
 import '../cubit/account_settings_cubit.dart';
 import '../cubit/account_settings_state.dart';
 import '../widgets/delete_account_dialog.dart';
@@ -112,6 +114,35 @@ class AccountSettingsScreen extends StatelessWidget {
   }
 
   Future<void> _confirmDeletion(BuildContext context) async {
+    final authState = context.read<AuthCubit>().state;
+    final providers = authState is AuthAuthenticated
+        ? authState.profile.authProviders
+        : const <String>[];
+    if (!providers.contains('password')) {
+      final confirmed = await showDialog<bool>(
+        context: context,
+        builder: (dialogContext) => AlertDialog(
+          title: const Text('حذف الحساب نهائيًا؟'),
+          content: const Text(
+            'سنطلب تأكيد Google أو Apple، ثم نحذف الحساب وكل بيانات التعلّم.',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(dialogContext, false),
+              child: const Text('إلغاء'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.pop(dialogContext, true),
+              child: const Text('متابعة الحذف'),
+            ),
+          ],
+        ),
+      );
+      if (confirmed == true && context.mounted) {
+        await context.read<AccountSettingsCubit>().deleteAccount('');
+      }
+      return;
+    }
     final password = await showDialog<String>(
       context: context,
       builder: (_) => const DeleteAccountDialog(),

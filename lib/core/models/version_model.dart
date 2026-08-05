@@ -5,12 +5,13 @@ class VersionModel {
   final String androidLink;
   final String description;
 
-  VersionModel(
-      {required this.version,
-      required this.isForce,
-      required this.iosLink,
-      required this.androidLink,
-      required this.description});
+  VersionModel({
+    required this.version,
+    required this.isForce,
+    required this.iosLink,
+    required this.androidLink,
+    required this.description,
+  });
 
   // Factory constructor to create an instance from JSON
   factory VersionModel.fromJson(Map<String, dynamic> json) {

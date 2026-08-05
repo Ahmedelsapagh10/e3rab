@@ -34,7 +34,9 @@ class FirebaseAccountManagementRepository
     if (owner.type != LearningDataOwnerType.account) {
       return Left(AuthFailure(code: 'guest', message: 'لا يوجد حساب لحذفه.'));
     }
-    final reauthentication = await _auth.reauthenticate(password);
+    final reauthentication = password.isEmpty
+        ? await _auth.reauthenticateWithProvider()
+        : await _auth.reauthenticate(password);
     final reauthenticationFailure = reauthentication.fold<Failure?>(
       (failure) => failure,
       (_) => null,

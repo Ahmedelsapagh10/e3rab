@@ -7,20 +7,28 @@ import '../../account/cubit/account_settings_cubit.dart';
 import '../../account/data/account_management_repository.dart';
 import '../../account/screens/account_settings_screen.dart';
 import '../../auth/cubit/auth_cubit.dart';
+import '../../auth/cubit/auth_state.dart';
 import '../../learning/cubit/learning_cubit.dart';
-import '../../learning/widgets/learning_catalog_view.dart';
+import '../../learning/widgets/learning_hub_view.dart';
 import '../../learning/widgets/reference_search_view.dart';
 import '../../learning/widgets/review_center_view.dart';
+import '../../parsing/cubit/parsing_cubit.dart';
 import '../../parsing/widgets/parsing_lab_view.dart';
 import '../../progress/data/model/learning_progress_models.dart';
+import '../../profile/cubit/profile_cubit.dart';
+import '../../profile/data/user_profile_repository.dart';
+import '../../profile/screens/learning_preferences_screen.dart';
+import '../../reference/cubit/reference_cubit.dart';
 import '../cubit/shell_cubit.dart';
 import '../widgets/e3rab_home_view.dart';
+import '../widgets/shell_app_bar.dart';
+import '../widgets/shell_body_transition.dart';
+import '../widgets/student_account_view.dart';
 
 class E3rabShellScreen extends StatelessWidget {
-  const E3rabShellScreen({super.key, required this.isGuest, this.uid});
+  const E3rabShellScreen({super.key, required this.uid});
 
-  final bool isGuest;
-  final String? uid;
+  final String uid;
 
   static const _destinations = [
     E3rabNavigationDestination(
@@ -39,14 +47,9 @@ class E3rabShellScreen extends StatelessWidget {
       selectedIcon: Icon(Icons.edit_note_rounded),
     ),
     E3rabNavigationDestination(
-      label: 'المرجع',
-      icon: Icon(Icons.menu_book_outlined),
-      selectedIcon: Icon(Icons.menu_book_rounded),
-    ),
-    E3rabNavigationDestination(
-      label: 'المعمل',
-      icon: Icon(Icons.science_outlined),
-      selectedIcon: Icon(Icons.science_rounded),
+      label: 'حسابي',
+      icon: Icon(Icons.person_outline_rounded),
+      selectedIcon: Icon(Icons.person_rounded),
     ),
   ];
 
@@ -60,53 +63,66 @@ class E3rabShellScreen extends StatelessWidget {
             selectedIndex: selectedIndex,
             destinations: _destinations,
             onDestinationSelected: context.read<ShellCubit>().selectDestination,
-            appBar: AppBar(
-              title: const Text('إعراب'),
-              actions: [
-                IconButton(
-                  onPressed: () => _openSettings(context),
-                  tooltip: 'الخصوصية والبيانات',
-                  icon: const Icon(Icons.settings_outlined),
-                ),
-                TextButton.icon(
-                  onPressed: () => _accountAction(context),
-                  icon: Icon(
-                    isGuest ? Icons.login_rounded : Icons.logout_rounded,
-                  ),
-                  label: Text(isGuest ? 'تسجيل الدخول' : 'تسجيل الخروج'),
-                ),
-                const SizedBox(width: 8),
-              ],
+            appBar: ShellAppBar(
+              selectedIndex: selectedIndex,
+              onAccountTap: () => context.read<ShellCubit>().selectDestination(
+                _destinations.length - 1,
+              ),
             ),
-            body: _body(selectedIndex),
+            body: ShellBodyTransition(
+              selectedIndex: selectedIndex,
+              child: _body(context, selectedIndex),
+            ),
           );
         },
       ),
     );
   }
 
-  Widget _body(int index) => switch (index) {
-    0 => E3rabHomeView(isGuest: isGuest),
-    1 => const LearningCatalogView(),
+  Widget _body(BuildContext context, int index) => switch (index) {
+    0 => const E3rabHomeView(),
+    1 => LearningHubView(
+      onOpenReference: () => _openReference(context),
+      onOpenParsingLab: () => _openParsingLab(context),
+    ),
     2 => const ReviewCenterView(),
-    3 => const ReferenceSearchView(),
-    _ => const ParsingLabView(),
+    _ => StudentAccountView(
+      onOpenSettings: () => _openSettings(context),
+      onOpenLearningPreferences: () => _openLearningPreferences(context),
+    ),
   };
 
-  void _accountAction(BuildContext context) {
-    final authCubit = context.read<AuthCubit>();
-    if (isGuest) {
-      authCubit.restoreSession();
-    } else {
-      authCubit.signOut();
-    }
+  void _openReference(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => BlocProvider.value(
+          value: context.read<ReferenceCubit>(),
+          child: const Scaffold(
+            appBar: _SectionAppBar(title: 'المرجع النحوي'),
+            body: ReferenceSearchView(),
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _openParsingLab(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => BlocProvider.value(
+          value: context.read<ParsingCubit>(),
+          child: const Scaffold(
+            appBar: _SectionAppBar(title: 'معمل الإعراب'),
+            body: ParsingLabView(),
+          ),
+        ),
+      ),
+    );
   }
 
   void _openSettings(BuildContext context) {
     final learningCubit = context.read<LearningCubit>();
-    final owner = isGuest
-        ? LearningDataOwner.guest('local-guest')
-        : LearningDataOwner.account(uid!);
+    final owner = LearningDataOwner.account(uid);
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (_) => MultiBlocProvider(
@@ -119,9 +135,37 @@ class E3rabShellScreen extends StatelessWidget {
               ),
             ),
           ],
-          child: AccountSettingsScreen(isGuest: isGuest),
+          child: const AccountSettingsScreen(isGuest: false),
         ),
       ),
     );
   }
+
+  void _openLearningPreferences(BuildContext context) {
+    final authState = context.read<AuthCubit>().state;
+    if (authState is! AuthAuthenticated) return;
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => BlocProvider(
+          create: (_) => ProfileCubit(
+            serviceLocator<UserProfileRepository>(),
+            authState.profile,
+          ),
+          child: const LearningPreferencesScreen(),
+        ),
+      ),
+    );
+  }
+}
+
+class _SectionAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const _SectionAppBar({required this.title});
+
+  final String title;
+
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+
+  @override
+  Widget build(BuildContext context) => AppBar(title: Text(title));
 }

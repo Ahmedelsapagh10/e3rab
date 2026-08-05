@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'dart:convert';
 
 enum LearningRole { student, teacher, parent, independentLearner }
 
@@ -66,6 +67,13 @@ class E3rabUserProfile extends Equatable {
     'createdAt': createdAt.toUtc().toIso8601String(),
     'updatedAt': updatedAt.toUtc().toIso8601String(),
   };
+
+  String toJsonString() => jsonEncode(toLocalJson());
+
+  factory E3rabUserProfile.fromJsonString(String source) =>
+      E3rabUserProfile.fromLocalJson(
+        Map<String, dynamic>.from(jsonDecode(source) as Map),
+      );
 
   factory E3rabUserProfile.fromLocalJson(Map<String, dynamic> json) {
     return E3rabUserProfile(

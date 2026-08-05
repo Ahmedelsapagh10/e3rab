@@ -16,8 +16,10 @@ String replaceToArabicDate(String input) {
   }
   var dateAr = StringBuffer();
   for (var element in newDate) {
-    dateAr.write("${replaceToArabicNumber(element)}"
-        "${element.length != 4 ? " - " : ""}");
+    dateAr.write(
+      "${replaceToArabicNumber(element)}"
+      "${element.length != 4 ? " - " : ""}",
+    );
   }
   return dateAr.toString();
 }

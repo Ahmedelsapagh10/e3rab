@@ -5,5 +5,9 @@ class GetStatuesInfo {
   final Color textColor;
   final String textValue;
 
-  GetStatuesInfo({required this.bgColor, required this.textColor, required this.textValue});
+  GetStatuesInfo({
+    required this.bgColor,
+    required this.textColor,
+    required this.textValue,
+  });
 }

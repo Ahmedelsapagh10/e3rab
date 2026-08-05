@@ -1,8 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../curriculum/data/curriculum_repository.dart';
+import '../../curriculum/data/grammar_coverage_repository.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 import '../../curriculum/data/model/exercise_model.dart';
+import '../../curriculum/data/model/grammar_coverage_model.dart';
 import '../../practice/domain/practice_queue_builder.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../progress/data/model/learning_support_models.dart';
@@ -15,12 +17,15 @@ class LearningCubit extends Cubit<LearningState> {
     this._progress,
     this.owner, {
     PracticeQueueBuilder queueBuilder = const PracticeQueueBuilder(),
+    GrammarCoverageRepository? coverageRepository,
   }) : _queueBuilder = queueBuilder,
+       _coverageRepository = coverageRepository,
        super(const LearningState());
 
   final CurriculumRepository _curriculum;
   final ProgressRepository _progress;
   final PracticeQueueBuilder _queueBuilder;
+  final GrammarCoverageRepository? _coverageRepository;
   final LearningDataOwner owner;
 
   List<ExerciseModel> reviewQueue({int limit = 10}) {
@@ -85,6 +90,7 @@ class LearningCubit extends Cubit<LearningState> {
     final references = (await _curriculum.getReferences()).getOrElse(
       () => const [],
     );
+    final coverageTracks = await _loadCoverage();
     emit(
       LearningState(
         status: LearningStatus.ready,
@@ -96,8 +102,17 @@ class LearningCubit extends Cubit<LearningState> {
         mastery: mastery,
         reviews: reviews,
         references: references,
+        coverageTracks: coverageTracks,
       ),
     );
+  }
+
+  Future<List<GrammarCoverageTrack>> _loadCoverage() async {
+    try {
+      return await _coverageRepository?.getTracks() ?? const [];
+    } catch (_) {
+      return const [];
+    }
   }
 
   Future<void> search(String query) async {
@@ -120,6 +135,32 @@ class LearningCubit extends Cubit<LearningState> {
       deletedAt: existing == null || existing.isDeleted ? null : now,
     );
     await _progress.saveBookmark(owner, bookmark);
+    await load();
+  }
+
+  Future<void> markLessonStep(LessonModel lesson, String stepId) async {
+    final existing = state.progressFor(lesson.id);
+    final now = DateTime.now().toUtc();
+    final completed = {...?existing?.completedSectionIds, stepId}.toList();
+    await _progress.saveLessonProgress(
+      owner,
+      LessonProgressModel(
+        lessonId: lesson.id,
+        contentVersion: lesson.contentVersion,
+        status: existing?.status == LessonProgressStatus.completed
+            ? LessonProgressStatus.completed
+            : LessonProgressStatus.inProgress,
+        startedAt: existing?.startedAt ?? now,
+        completedAt: existing?.completedAt,
+        lastOpenedAt: now,
+        completedSectionIds: completed,
+        attemptCount: existing?.attemptCount ?? 0,
+        bestScore: existing?.bestScore ?? 0,
+        masteryScore: existing?.masteryScore ?? 0,
+        updatedAt: now,
+        schemaVersion: 2,
+      ),
+    );
     await load();
   }
 

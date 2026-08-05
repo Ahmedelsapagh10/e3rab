@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:dartz/dartz.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../core/error/failures.dart';
@@ -24,7 +25,7 @@ class AuthCubit extends Cubit<AuthState> {
     if (!accountsAvailable) {
       emit(
         const AuthUnavailable(
-          'الحسابات غير متاحة على هذا الجهاز حاليًا. يمكنك المتابعة كضيف.',
+          'يلزم الاتصال لتسجيل الدخول على هذا الجهاز. تحقق من الشبكة ثم أعد المحاولة.',
         ),
       );
       return;
@@ -71,6 +72,28 @@ class AuthCubit extends Cubit<AuthState> {
     _isSubmitting = false;
   }
 
+  Future<void> signInWithGoogle() => _signInWithProvider(
+    action: 'google',
+    operation: _authRepository.signInWithGoogle,
+  );
+
+  Future<void> signInWithApple() => _signInWithProvider(
+    action: 'apple',
+    operation: _authRepository.signInWithApple,
+  );
+
+  Future<void> _signInWithProvider({
+    required String action,
+    required Future<Either<Failure, AuthUserModel>> Function() operation,
+  }) async {
+    if (_isSubmitting) return;
+    _isSubmitting = true;
+    emit(AuthSubmitting(action));
+    final result = await operation();
+    await result.fold(_emitFailure, _completeAuthentication);
+    _isSubmitting = false;
+  }
+
   Future<void> sendPasswordResetEmail(String email) async {
     if (_isSubmitting) return;
     _isSubmitting = true;
@@ -87,8 +110,6 @@ class AuthCubit extends Cubit<AuthState> {
     }, (_) => _emitResetSent());
     _isSubmitting = false;
   }
-
-  void enterGuest() => emit(const AuthGuest());
 
   Future<void> signOut() async {
     if (_isSubmitting) return;

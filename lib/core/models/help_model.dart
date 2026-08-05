@@ -1,18 +1,15 @@
 class HelpModel {
   final String message;
-  final HelpData ?data;
+  final HelpData? data;
 
   HelpModel({required this.message, required this.data});
 
   factory HelpModel.fromJson(Map<String, dynamic> json) => HelpModel(
-        message: json["message"],
-        data: json["data"] == null ? null : HelpData.fromJson(json["data"]),
-      );
+    message: json["message"],
+    data: json["data"] == null ? null : HelpData.fromJson(json["data"]),
+  );
 
-  Map<String, dynamic> toJson() => {
-        "message": message,
-        "data": data?.toJson(),
-      };
+  Map<String, dynamic> toJson() => {"message": message, "data": data?.toJson()};
 }
 
 class HelpData {

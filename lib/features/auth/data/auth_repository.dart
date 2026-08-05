@@ -21,9 +21,15 @@ abstract class AuthRepository {
     required String password,
   });
 
+  Future<Either<Failure, AuthUserModel>> signInWithGoogle();
+
+  Future<Either<Failure, AuthUserModel>> signInWithApple();
+
   Future<Either<Failure, Unit>> sendPasswordResetEmail(String email);
 
   Future<Either<Failure, Unit>> reauthenticate(String password);
+
+  Future<Either<Failure, Unit>> reauthenticateWithProvider();
 
   Future<Either<Failure, Unit>> deleteCurrentAccount();
 

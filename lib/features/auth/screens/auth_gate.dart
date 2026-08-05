@@ -7,6 +7,7 @@ import '../../../injector.dart';
 import '../../login/screens/login_screen.dart';
 import '../../curriculum/data/curriculum_repository.dart';
 import '../../learning/cubit/learning_cubit.dart';
+import '../../curriculum/data/grammar_coverage_repository.dart';
 import '../../on_boarding/cubit/onboarding_cubit.dart';
 import '../../on_boarding/screen/onboarding_screen.dart';
 import '../../parsing/cubit/parsing_cubit.dart';
@@ -36,7 +37,6 @@ class AuthGate extends StatelessWidget {
       builder: (context, state) {
         return switch (state) {
           AuthInitial() || AuthRestoring() => const _LaunchView(),
-          AuthGuest() => _learningShell(isGuest: true),
           AuthAuthenticated authenticated => _authenticated(authenticated),
           _ => _signedOut(),
         };
@@ -46,7 +46,7 @@ class AuthGate extends StatelessWidget {
 
   Widget _authenticated(AuthAuthenticated state) {
     if (!state.needsOnboarding) {
-      return _learningShell(isGuest: false, uid: state.user.uid);
+      return _learningShell(uid: state.user.uid);
     }
     return BlocProvider(
       key: ValueKey(state.user.uid),
@@ -56,11 +56,10 @@ class AuthGate extends StatelessWidget {
     );
   }
 
-  Widget _learningShell({required bool isGuest, String? uid}) {
-    final owner = isGuest
-        ? LearningDataOwner.guest('local-guest')
-        : LearningDataOwner.account(uid!);
-    final shell = E3rabShellScreen(isGuest: isGuest, uid: uid);
+  Widget _learningShell({required String uid}) {
+    final owner = LearningDataOwner.account(uid);
+    final guestOwner = LearningDataOwner.guest('local-guest');
+    final shell = E3rabShellScreen(uid: uid);
     return MultiBlocProvider(
       key: ValueKey('${owner.type.name}-${owner.id}'),
       providers: [
@@ -69,6 +68,7 @@ class AuthGate extends StatelessWidget {
             serviceLocator<CurriculumRepository>(),
             serviceLocator<ProgressRepository>(),
             owner,
+            coverageRepository: serviceLocator<GrammarCoverageRepository>(),
           )..load(),
         ),
         BlocProvider(
@@ -93,16 +93,12 @@ class AuthGate extends StatelessWidget {
           )..load(),
         ),
       ],
-      child: isGuest
-          ? shell
-          : BlocProvider(
-              create: (_) => SyncCubit(
-                serviceLocator<SyncRepository>(),
-                LearningDataOwner.guest('local-guest'),
-                owner,
-              )..check(),
-              child: GuestMergeListener(child: shell),
-            ),
+      child: BlocProvider(
+        create: (_) =>
+            SyncCubit(serviceLocator<SyncRepository>(), guestOwner, owner)
+              ..check(),
+        child: GuestMergeListener(child: shell),
+      ),
     );
   }
 

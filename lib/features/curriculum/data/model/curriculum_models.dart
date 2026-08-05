@@ -52,6 +52,25 @@ class LearningPathModel extends Equatable {
   List<Object?> get props => [id, slug, title, moduleIds, isFreeOrder];
 }
 
+class GrammarTrackModel extends Equatable {
+  const GrammarTrackModel({
+    required this.id,
+    required this.slug,
+    required this.title,
+    required this.moduleIds,
+    required this.order,
+  });
+
+  final String id;
+  final String slug;
+  final String title;
+  final List<String> moduleIds;
+  final int order;
+
+  @override
+  List<Object?> get props => [id, slug, title, moduleIds, order];
+}
+
 class GrammarModuleModel extends Equatable {
   const GrammarModuleModel({
     required this.id,

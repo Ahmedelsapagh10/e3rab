@@ -15,9 +15,10 @@ class ConnectivityHandler {
   }
 
   Future<void> checkConnection() async {
-    List<ConnectivityResult> connections =
-        await Connectivity().checkConnectivity();
-    hasConnection =
-        connections.any((connection) => connection != ConnectivityResult.none);
+    List<ConnectivityResult> connections = await Connectivity()
+        .checkConnectivity();
+    hasConnection = connections.any(
+      (connection) => connection != ConnectivityResult.none,
+    );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_strucuture/core/utils/app_constants.dart';
+import '../../core/design_system/e3rab_design_tokens.dart';
 import 'app_colors_extension.dart';
 
 class DarkTheme {
@@ -28,17 +29,20 @@ class DarkTheme {
 
     // App bar
     appBarTheme: AppBarTheme(
-      backgroundColor: AppColorsExtension.dark.primary,
-      foregroundColor: Colors.white,
+      backgroundColor: AppColorsExtension.dark.background,
+      foregroundColor: AppColorsExtension.dark.textPrimary,
       elevation: 0,
+      centerTitle: false,
     ),
 
     // Card theme
     cardTheme: CardThemeData(
       color: AppColorsExtension.dark.cardColor,
       elevation: 1,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: Colors.black.withValues(alpha: 0.2),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(AppConstance.radiusTiny),
+        borderRadius: BorderRadius.circular(E3rabRadii.medium),
         side: BorderSide(
           color: AppColorsExtension.dark.borderColor.withValues(alpha: 0.3),
         ),
@@ -96,6 +100,35 @@ class DarkTheme {
           vertical: AppConstance.vPadding,
           horizontal: 24,
         ),
+      ),
+    ),
+
+    filledButtonTheme: FilledButtonThemeData(
+      style: FilledButton.styleFrom(
+        minimumSize: const Size(48, 52),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppConstance.radiusTiny),
+        ),
+      ),
+    ),
+    navigationBarTheme: NavigationBarThemeData(
+      height: 72,
+      elevation: 3,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: Colors.black.withValues(alpha: 0.25),
+      backgroundColor: AppColorsExtension.dark.surface,
+      indicatorColor: const Color(0xFF29466B),
+    ),
+    navigationRailTheme: NavigationRailThemeData(
+      backgroundColor: AppColorsExtension.dark.surface,
+      indicatorColor: const Color(0xFF29466B),
+      indicatorShape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(E3rabRadii.medium),
+      ),
+      selectedIconTheme: IconThemeData(color: AppColorsExtension.dark.primary),
+      selectedLabelTextStyle: TextStyle(
+        color: AppColorsExtension.dark.primary,
+        fontWeight: FontWeight.w700,
       ),
     ),
 

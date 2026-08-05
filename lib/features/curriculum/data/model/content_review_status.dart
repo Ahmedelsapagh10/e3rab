@@ -3,6 +3,8 @@ enum ContentReviewStatus {
   aiAssistedDraft,
   inReview,
   changesRequested,
+  sourceDocumented,
+  humanReviewed,
   approved,
   archived,
 }

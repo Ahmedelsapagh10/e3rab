@@ -7,7 +7,7 @@
       "assetPath": "assets/content/e3rab_vertical_slice_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "egypt-2025-2026-draft-mapping-v1",
-      "reviewStatus": "aiAssistedDraft",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
       "learnerEnabled": true
     },

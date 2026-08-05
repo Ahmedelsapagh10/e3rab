@@ -29,7 +29,7 @@ void main() {
         isTrue,
       );
       expect(
-        lessons.every((lesson) => lesson['reviewStatus'] == 'aiAssistedDraft'),
+        lessons.every((lesson) => lesson['reviewStatus'] == 'sourceDocumented'),
         isTrue,
       );
       expect(

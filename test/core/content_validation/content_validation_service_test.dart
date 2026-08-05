@@ -30,6 +30,42 @@ void main() {
     expect(codes, contains('missing_human_review'));
     expect(codes, contains('invalid_correct_answer'));
   });
+
+  test('accepts source-documented content without claiming human review', () {
+    final pack = _validPack();
+    final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
+    lesson.addAll({
+      'reviewStatus': 'sourceDocumented',
+      'objectives': ['تمييز أقسام الكلمة.'],
+      'examples': [
+        <String, dynamic>{'id': 'example-1'},
+      ],
+      'exerciseIds': ['exercise-1'],
+      'referenceIds': ['reference-1'],
+      'prerequisiteIds': <String>[],
+    });
+
+    final report = validator.validate(pack);
+
+    expect(
+      report.errors.map((issue) => issue.code),
+      isNot(contains('missing_human_review')),
+    );
+    expect(report.isValid, isTrue, reason: report.errors.toString());
+  });
+
+  test('rejects cyclic lesson prerequisites', () {
+    final pack = _validPack();
+    final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
+    lesson['prerequisiteIds'] = ['lesson-1'];
+
+    final report = validator.validate(pack);
+
+    expect(
+      report.errors.map((issue) => issue.code),
+      contains('cyclic_prerequisite'),
+    );
+  });
 }
 
 Map<String, dynamic> _validPack() => {

@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:new_strucuture/core/utils/app_colors.dart';
@@ -15,7 +14,9 @@ class SystemUiStyle {
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
     );
-    await SystemChrome.setPreferredOrientations(
-        [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+    await SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
   }
 }

@@ -2,20 +2,18 @@ import 'package:dartz/dartz.dart';
 
 import '../../../core/error/failures.dart';
 import '../domain/mastery_calculator.dart';
-import 'data_source/firestore_learning_data_source.dart';
+import 'data_source/cloud_learning_data_source.dart';
 import 'data_source/local_learning_data_source.dart';
 import 'model/learning_progress_models.dart';
 import 'model/learning_support_models.dart';
 import 'progress_repository.dart';
 
 class LocalFirstProgressRepository implements ProgressRepository {
-  LocalFirstProgressRepository(
-    this._local, {
-    FirestoreLearningDataSource? cloud,
-  }) : _cloud = cloud;
+  LocalFirstProgressRepository(this._local, {CloudLearningDataSource? cloud})
+    : _cloud = cloud;
 
   final LocalLearningDataSource _local;
-  final FirestoreLearningDataSource? _cloud;
+  final CloudLearningDataSource? _cloud;
 
   @override
   Stream<List<LessonProgressModel>> watchLessonProgress(

@@ -4,12 +4,14 @@ import '../model/learning_progress_models.dart';
 import '../model/learning_support_models.dart';
 import 'firestore_learning_mapper.dart';
 import 'local_learning_data_source.dart';
+import 'cloud_learning_data_source.dart';
 
-class FirestoreLearningDataSource {
+class FirestoreLearningDataSource implements CloudLearningDataSource {
   FirestoreLearningDataSource(this._firestore);
 
   final FirebaseFirestore _firestore;
 
+  @override
   Future<LearningSnapshot> fetch(String uid) async {
     final results = await Future.wait([
       _collection(uid, 'lesson_progress').get(),
@@ -41,6 +43,7 @@ class FirestoreLearningDataSource {
     );
   }
 
+  @override
   Future<void> saveProgress(String uid, LessonProgressModel item) {
     return _doc(uid, 'lesson_progress', item.lessonId).set({
       'lessonId': item.lessonId,
@@ -58,6 +61,7 @@ class FirestoreLearningDataSource {
     });
   }
 
+  @override
   Future<void> appendAttempt(String uid, ExerciseAttemptModel item) async {
     final reference = _doc(uid, 'exercise_attempts', item.attemptId);
     if ((await reference.get()).exists) return;
@@ -79,6 +83,7 @@ class FirestoreLearningDataSource {
     });
   }
 
+  @override
   Future<void> saveMastery(String uid, SkillMasteryModel item) {
     return _doc(uid, 'skill_mastery', item.skillId).set({
       'skillId': item.skillId,
@@ -93,6 +98,7 @@ class FirestoreLearningDataSource {
     });
   }
 
+  @override
   Future<void> saveReview(String uid, ReviewItemModel item) {
     return _doc(uid, 'review_items', item.id).set({
       'targetType': item.targetType,
@@ -105,6 +111,7 @@ class FirestoreLearningDataSource {
     });
   }
 
+  @override
   Future<void> saveBookmark(String uid, BookmarkModel item) {
     return _doc(uid, 'bookmarks', item.id).set({
       'bookmarkId': item.id,
@@ -117,6 +124,7 @@ class FirestoreLearningDataSource {
     });
   }
 
+  @override
   Future<void> saveNote(String uid, LearningNoteModel item) {
     return _doc(uid, 'notes', item.id).set({
       'noteId': item.id,
@@ -130,6 +138,7 @@ class FirestoreLearningDataSource {
     });
   }
 
+  @override
   Future<void> resetProgress(String uid) async {
     for (final collection in const [
       'lesson_progress',

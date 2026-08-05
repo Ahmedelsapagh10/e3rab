@@ -2,139 +2,144 @@ import 'package:flutter/material.dart';
 
 import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../curriculum/data/model/content_reference_model.dart';
-import '../../curriculum/data/model/content_review_status.dart';
+import '../../curriculum/data/model/exercise_model.dart';
 import '../../curriculum/data/model/lesson_model.dart';
-import 'parsed_example_card.dart';
+import 'lesson_journey_step.dart';
 
-class LessonContentView extends StatelessWidget {
+class LessonContentView extends StatefulWidget {
   const LessonContentView({
     super.key,
     required this.lesson,
     required this.references,
     required this.onReference,
+    this.quickCheck,
+    this.onStartPractice,
+    this.initialStepIndex = 0,
+    this.onStepCompleted,
   });
 
   final LessonModel lesson;
   final List<ContentReferenceModel> references;
   final ValueChanged<ContentReferenceModel> onReference;
+  final ExerciseModel? quickCheck;
+  final VoidCallback? onStartPractice;
+  final int initialStepIndex;
+  final ValueChanged<String>? onStepCompleted;
+
+  @override
+  State<LessonContentView> createState() => _LessonContentViewState();
+}
+
+class _LessonContentViewState extends State<LessonContentView> {
+  late final PageController _controller;
+  late int _index;
+
+  List<LessonJourneyStepData> get _steps => buildLessonJourney(
+    lesson: widget.lesson,
+    quickCheck: widget.quickCheck,
+    references: widget.references,
+  );
+
+  @override
+  void initState() {
+    super.initState();
+    _index = widget.initialStepIndex.clamp(0, _steps.length - 1);
+    _controller = PageController(initialPage: _index);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return SelectionArea(
-      child: ListView(
-        padding: const EdgeInsets.all(E3rabSpacing.large),
-        children: [
-          Center(
-            child: ConstrainedBox(
-              constraints: const BoxConstraints(
-                maxWidth: E3rabReadingMetrics.maxContentWidth,
+    final steps = _steps;
+    return Column(
+      children: [
+        LinearProgressIndicator(
+          value: (_index + 1) / steps.length,
+          semanticsLabel: 'تقدم الدرس: الخطوة ${_index + 1} من ${steps.length}',
+        ),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(24, 12, 24, 4),
+          child: Row(
+            children: [
+              Text(
+                'الخطوة ${_index + 1} من ${steps.length}',
+                style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                  color: Theme.of(context).colorScheme.primary,
+                ),
               ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    lesson.title,
-                    style: Theme.of(context).textTheme.headlineMedium,
-                  ),
-                  const SizedBox(height: E3rabSpacing.small),
-                  Wrap(
-                    spacing: E3rabSpacing.small,
-                    children: [
-                      Chip(label: Text('${lesson.estimatedMinutes} دقيقة')),
-                      Chip(
-                        label: Text(
-                          lesson.reviewStatus == ContentReviewStatus.approved
-                              ? 'محتوى معتمد'
-                              : 'مسودة قيد المراجعة',
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: E3rabSpacing.large),
-                  _Objectives(objectives: lesson.objectives),
-                  ...lesson.sections.map(
-                    (section) => _Section(section: section),
-                  ),
-                  Text(
-                    'أمثلة معرَبة',
-                    style: Theme.of(context).textTheme.headlineSmall,
-                  ),
-                  const SizedBox(height: E3rabSpacing.small),
-                  ...lesson.examples.map(
-                    (example) => ParsedExampleCard(example: example),
-                  ),
-                  const SizedBox(height: E3rabSpacing.large),
-                  Text(
-                    'المراجع',
-                    style: Theme.of(context).textTheme.headlineSmall,
-                  ),
-                  ...references.map(
-                    (reference) => ListTile(
-                      contentPadding: EdgeInsets.zero,
-                      leading: const Icon(Icons.open_in_new),
-                      title: Text(reference.title),
-                      subtitle: Text(reference.publisher),
-                      onTap: () => onReference(reference),
-                    ),
-                  ),
-                  const SizedBox(height: 112),
-                ],
+              const Spacer(),
+              Text(
+                steps[_index].label,
+                style: Theme.of(context).textTheme.labelLarge,
               ),
+            ],
+          ),
+        ),
+        Expanded(
+          child: PageView.builder(
+            controller: _controller,
+            physics: const NeverScrollableScrollPhysics(),
+            onPageChanged: (value) => setState(() => _index = value),
+            itemCount: steps.length,
+            itemBuilder: (context, index) => LessonJourneyStep(
+              data: steps[index],
+              onReference: widget.onReference,
             ),
           ),
-        ],
-      ),
-    );
-  }
-}
-
-class _Objectives extends StatelessWidget {
-  const _Objectives({required this.objectives});
-
-  final List<String> objectives;
-
-  @override
-  Widget build(BuildContext context) => Card(
-    color: Theme.of(context).colorScheme.primaryContainer,
-    child: Padding(
-      padding: const EdgeInsets.all(E3rabSpacing.large),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'بعد هذا الدرس ستستطيع:',
-            style: Theme.of(context).textTheme.titleMedium,
-          ),
-          ...objectives.map(
-            (objective) =>
-                Text('• $objective', style: const TextStyle(height: 1.8)),
-          ),
-        ],
-      ),
-    ),
-  );
-}
-
-class _Section extends StatelessWidget {
-  const _Section({required this.section});
-
-  final LessonSectionModel section;
-
-  @override
-  Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.symmetric(vertical: E3rabSpacing.medium),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(section.title, style: Theme.of(context).textTheme.headlineSmall),
-        const SizedBox(height: E3rabSpacing.small),
-        Text(
-          section.body,
-          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-            height: E3rabReadingMetrics.paragraphHeight,
+        ),
+        SafeArea(
+          top: false,
+          minimum: const EdgeInsets.all(E3rabSpacing.medium),
+          child: Row(
+            children: [
+              if (_index > 0)
+                OutlinedButton(
+                  onPressed: _previous,
+                  child: const Text('السابق'),
+                ),
+              if (_index > 0) const SizedBox(width: E3rabSpacing.small),
+              Expanded(
+                child: FilledButton.icon(
+                  onPressed: _index == steps.length - 1
+                      ? _startPractice
+                      : _next,
+                  icon: Icon(
+                    _index == steps.length - 1
+                        ? Icons.task_alt_rounded
+                        : Icons.arrow_back_rounded,
+                  ),
+                  label: Text(
+                    _index == steps.length - 1 ? 'ابدأ التدريب' : 'فهمت، تابع',
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ],
-    ),
+    );
+  }
+
+  Future<void> _next() async {
+    widget.onStepCompleted?.call(_steps[_index].id);
+    await _controller.nextPage(
+      duration: const Duration(milliseconds: 260),
+      curve: Curves.easeOutCubic,
+    );
+  }
+
+  Future<void> _previous() => _controller.previousPage(
+    duration: const Duration(milliseconds: 220),
+    curve: Curves.easeOutCubic,
   );
+
+  void _startPractice() {
+    widget.onStepCompleted?.call(_steps[_index].id);
+    widget.onStartPractice?.call();
+  }
 }

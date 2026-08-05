@@ -52,15 +52,21 @@ class LessonScreen extends StatelessWidget {
             lesson: lesson,
             references: references,
             onReference: _openReference,
-          ),
-          floatingActionButton: FloatingActionButton.extended(
-            onPressed: () => _practice(context, state),
-            icon: const Icon(Icons.play_arrow),
-            label: const Text('ابدأ التدريب'),
+            quickCheck: (state.exercises[lesson.id] ?? const []).firstOrNull,
+            onStartPractice: () => _practice(context, state),
+            initialStepIndex: _initialStep(state),
+            onStepCompleted: (stepId) =>
+                context.read<LearningCubit>().markLessonStep(lesson, stepId),
           ),
         );
       },
     );
+  }
+
+  int _initialStep(LearningState state) {
+    final completed =
+        state.progressFor(lesson.id)?.completedSectionIds.length ?? 0;
+    return completed.clamp(0, 5);
   }
 
   Future<void> _editNote(BuildContext context, LearningState state) async {

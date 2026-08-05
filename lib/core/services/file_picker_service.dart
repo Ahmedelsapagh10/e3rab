@@ -4,9 +4,7 @@ import 'package:image_picker/image_picker.dart';
 class FilePickerService {
   static Future<String?> pickFile({required FileType type}) async {
     try {
-      FilePickerResult? result = await FilePicker.pickFiles(
-        type: type,
-      );
+      FilePickerResult? result = await FilePicker.pickFiles(type: type);
       if (result != null) {
         String filePath = result.files.single.path!;
         return filePath;

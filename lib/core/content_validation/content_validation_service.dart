@@ -11,6 +11,8 @@ class ContentValidationService {
     'aiAssistedDraft',
     'inReview',
     'changesRequested',
+    'sourceDocumented',
+    'humanReviewed',
     'approved',
     'archived',
   };
@@ -57,6 +59,7 @@ class ContentValidationService {
       _validateApprovedLesson(lesson, exerciseIds, referenceIds, issues);
       _rejectHtml(lesson, 'title', 'lessons', issues);
     }
+    _validatePrerequisiteGraph(lessons, lessonIds, issues);
     for (final exercise in exercises) {
       _requireReference(exercise, 'lessonId', lessonIds, 'exercises', issues);
       _validateReviewStatus(exercise, 'exercises', issues);

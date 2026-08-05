@@ -1,6 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 import 'content_review_status.dart';
+import 'lesson_step_model.dart';
 
 class LessonModel extends Equatable {
   const LessonModel({
@@ -21,6 +22,8 @@ class LessonModel extends Equatable {
     required this.estimatedMinutes,
     required this.contentVersion,
     required this.reviewStatus,
+    this.steps = const [],
+    this.citations = const [],
     this.reviewedBy,
     this.reviewedAt,
   });
@@ -42,6 +45,8 @@ class LessonModel extends Equatable {
   final int estimatedMinutes;
   final String contentVersion;
   final ContentReviewStatus reviewStatus;
+  final List<LessonStepModel> steps;
+  final List<CitationModel> citations;
   final String? reviewedBy;
   final DateTime? reviewedAt;
 
@@ -64,6 +69,8 @@ class LessonModel extends Equatable {
     estimatedMinutes,
     contentVersion,
     reviewStatus,
+    steps,
+    citations,
     reviewedBy,
     reviewedAt,
   ];

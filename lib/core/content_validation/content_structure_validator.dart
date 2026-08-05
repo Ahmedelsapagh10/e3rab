@@ -140,4 +140,53 @@ extension _ContentStructureValidator on ContentValidationService {
       );
     }
   }
+
+  void _validatePrerequisiteGraph(
+    List<Map<String, dynamic>> lessons,
+    Set<String> lessonIds,
+    List<ValidationIssue> issues,
+  ) {
+    final graph = <String, List<String>>{};
+    for (final lesson in lessons) {
+      final id = lesson['id'];
+      if (id is! String) continue;
+      final prerequisites = _stringList(lesson['prerequisiteIds']);
+      graph[id] = prerequisites;
+      if (!lessonIds.containsAll(prerequisites)) {
+        issues.add(
+          ValidationIssue(
+            code: 'unknown_prerequisite',
+            message: 'A prerequisite references an unknown lesson.',
+            path: 'lessons.$id.prerequisiteIds',
+          ),
+        );
+      }
+    }
+    final visiting = <String>{};
+    final visited = <String>{};
+    bool visit(String id) {
+      if (visiting.contains(id)) return false;
+      if (visited.contains(id)) return true;
+      visiting.add(id);
+      for (final dependency in graph[id] ?? const []) {
+        if (graph.containsKey(dependency) && !visit(dependency)) return false;
+      }
+      visiting.remove(id);
+      visited.add(id);
+      return true;
+    }
+
+    for (final id in graph.keys) {
+      if (!visit(id)) {
+        issues.add(
+          ValidationIssue(
+            code: 'cyclic_prerequisite',
+            message: 'Lesson prerequisites must not contain a cycle.',
+            path: 'lessons.$id.prerequisiteIds',
+          ),
+        );
+        break;
+      }
+    }
+  }
 }

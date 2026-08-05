@@ -39,6 +39,31 @@ void main() {
     expect(find.text('بعد هذا الدرس ستستطيع:'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
+
+  testWidgets('lesson advances one clear step and reports saved progress', (
+    tester,
+  ) async {
+    String? completedStep;
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: LessonContentView(
+            lesson: _lesson,
+            references: const [],
+            onReference: (_) {},
+            onStepCompleted: (value) => completedStep = value,
+          ),
+        ),
+      ),
+    );
+
+    await tester.tap(find.text('فهمت، تابع'));
+    await tester.pumpAndSettle();
+
+    expect(completedStep, 'parts-of-speech-journey-introduction');
+    expect(find.text('القاعدة ببساطة'), findsOneWidget);
+    expect(find.text('الخطوة 2 من 5'), findsOneWidget);
+  });
 }
 
 const _lesson = LessonModel(

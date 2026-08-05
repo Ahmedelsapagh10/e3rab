@@ -3,6 +3,7 @@ import '../model/content_reference_model.dart';
 import '../model/curriculum_models.dart';
 import '../model/exercise_model.dart';
 import '../model/lesson_model.dart';
+import '../model/lesson_step_model.dart';
 
 abstract final class ContentPackMapper {
   static ContentReferenceModel reference(Map<String, dynamic> json) {
@@ -55,10 +56,53 @@ abstract final class ContentPackMapper {
       estimatedMinutes: json['estimatedMinutes'] as int,
       contentVersion: json['contentVersion'] as String,
       reviewStatus: contentReviewStatusFromJson(json['reviewStatus'] as String),
+      steps: _optionalMaps(json['steps']).map(lessonStep).toList(),
+      citations: _optionalMaps(json['citations']).map(citation).toList(),
       reviewedBy: json['reviewedBy'] as String?,
       reviewedAt: json['reviewedAt'] == null
           ? null
           : DateTime.parse(json['reviewedAt'] as String),
+    );
+  }
+
+  static LessonStepModel lessonStep(Map<String, dynamic> json) {
+    return LessonStepModel(
+      id: json['id'] as String,
+      type: LessonStepType.values.byName(json['type'] as String),
+      title: json['title'] as String,
+      order: json['order'] as int,
+      blocks: _optionalMaps(json['blocks']).map(contentBlock).toList(),
+      quickCheck: json['quickCheck'] is Map
+          ? quickCheck(Map<String, dynamic>.from(json['quickCheck'] as Map))
+          : null,
+    );
+  }
+
+  static ContentBlockModel contentBlock(Map<String, dynamic> json) {
+    return ContentBlockModel(
+      id: json['id'] as String,
+      type: ContentBlockType.values.byName(json['type'] as String),
+      title: json['title'] as String?,
+      body: json['body'] as String,
+      citationIds: _optionalStrings(json['citationIds']),
+    );
+  }
+
+  static QuickCheckModel quickCheck(Map<String, dynamic> json) {
+    return QuickCheckModel(
+      prompt: json['prompt'] as String,
+      options: Map<String, String>.from(json['options'] as Map),
+      correctOptionId: json['correctOptionId'] as String,
+      explanation: json['explanation'] as String,
+    );
+  }
+
+  static CitationModel citation(Map<String, dynamic> json) {
+    return CitationModel(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      locator: json['locator'] as String,
+      referenceId: json['referenceId'] as String,
     );
   }
 
@@ -134,4 +178,15 @@ abstract final class ContentPackMapper {
   static List<Map<String, dynamic>> _maps(Object? value) {
     return (value as List).cast<Map<String, dynamic>>();
   }
+
+  static List<String> _optionalStrings(Object? value) =>
+      value is List ? value.whereType<String>().toList() : const [];
+
+  static List<Map<String, dynamic>> _optionalMaps(Object? value) =>
+      value is List
+      ? value
+            .whereType<Map>()
+            .map((item) => Map<String, dynamic>.from(item))
+            .toList()
+      : const [];
 }

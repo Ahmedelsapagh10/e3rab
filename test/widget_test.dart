@@ -26,7 +26,9 @@ void main() {
 
     expect(find.byType(LoginScreen), findsOneWidget);
     expect(find.byType(TextFormField), findsNWidgets(2));
-    expect(find.text('المتابعة كضيف'), findsOneWidget);
+    expect(find.text('المتابعة كضيف'), findsNothing);
+    expect(find.text('Google'), findsOneWidget);
+    expect(find.text('Apple'), findsOneWidget);
   });
 
   testWidgets('custom button keeps long Arabic text visible', (

@@ -1,4 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 import '../model/auth_user_model.dart';
 
@@ -18,9 +20,15 @@ abstract class FirebaseAuthDataSource {
     required String password,
   });
 
+  Future<AuthUserModel> signInWithGoogle();
+
+  Future<AuthUserModel> signInWithApple();
+
   Future<void> sendPasswordResetEmail(String email);
 
   Future<void> reauthenticate(String password);
+
+  Future<void> reauthenticateWithProvider();
 
   Future<void> deleteCurrentAccount();
 
@@ -70,6 +78,28 @@ class FirebaseAuthDataSourceImpl implements FirebaseAuthDataSource {
   }
 
   @override
+  Future<AuthUserModel> signInWithGoogle() async {
+    UserCredential credential;
+    if (kIsWeb) {
+      credential = await _firebaseAuth.signInWithPopup(GoogleAuthProvider());
+    } else {
+      credential = await _firebaseAuth.signInWithCredential(
+        await _googleCredential(),
+      );
+    }
+    return _requiredUser(credential.user);
+  }
+
+  @override
+  Future<AuthUserModel> signInWithApple() async {
+    final provider = AppleAuthProvider();
+    final credential = kIsWeb
+        ? await _firebaseAuth.signInWithPopup(provider)
+        : await _firebaseAuth.signInWithProvider(provider);
+    return _requiredUser(credential.user);
+  }
+
+  @override
   Future<void> sendPasswordResetEmail(String email) {
     return _firebaseAuth.sendPasswordResetEmail(email: email);
   }
@@ -89,6 +119,31 @@ class FirebaseAuthDataSourceImpl implements FirebaseAuthDataSource {
   }
 
   @override
+  Future<void> reauthenticateWithProvider() async {
+    final user = _firebaseAuth.currentUser;
+    if (user == null) throw FirebaseAuthException(code: 'user-not-found');
+    final providers = user.providerData.map((item) => item.providerId).toSet();
+    if (providers.contains('apple.com')) {
+      final provider = AppleAuthProvider();
+      if (kIsWeb) {
+        await user.reauthenticateWithPopup(provider);
+      } else {
+        await user.reauthenticateWithProvider(provider);
+      }
+      return;
+    }
+    if (providers.contains('google.com')) {
+      if (kIsWeb) {
+        await user.reauthenticateWithPopup(GoogleAuthProvider());
+      } else {
+        await user.reauthenticateWithCredential(await _googleCredential());
+      }
+      return;
+    }
+    throw FirebaseAuthException(code: 'requires-recent-login');
+  }
+
+  @override
   Future<void> deleteCurrentAccount() async {
     final user = _firebaseAuth.currentUser;
     if (user == null) throw FirebaseAuthException(code: 'user-not-found');
@@ -104,6 +159,23 @@ class FirebaseAuthDataSourceImpl implements FirebaseAuthDataSource {
       throw StateError('Firebase did not return an authenticated user.');
     }
     return mapped;
+  }
+
+  Future<OAuthCredential> _googleCredential() async {
+    final GoogleSignInAccount account;
+    try {
+      account = await GoogleSignIn.instance.authenticate();
+    } on GoogleSignInException catch (error) {
+      throw FirebaseAuthException(
+        code: error.code == GoogleSignInExceptionCode.canceled
+            ? 'sign-in-cancelled'
+            : 'network-request-failed',
+        message: error.description,
+      );
+    }
+    return GoogleAuthProvider.credential(
+      idToken: account.authentication.idToken,
+    );
   }
 
   AuthUserModel? _mapUser(User? user) {

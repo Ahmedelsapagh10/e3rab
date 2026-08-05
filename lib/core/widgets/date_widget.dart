@@ -27,19 +27,16 @@ class DatePickerField extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(
-            height: 10.sp,
-          ),
+          SizedBox(height: 10.sp),
           Text(
             title,
             style: TextStyle(
-                fontSize: 16.sp,
-                color: AppColors.black,
-                fontWeight: FontWeight.bold),
+              fontSize: 16.sp,
+              color: AppColors.black,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-          SizedBox(
-            height: 10.sp,
-          ),
+          SizedBox(height: 10.sp),
           GestureDetector(
             onTap: onTab,
             child: Container(
@@ -54,8 +51,8 @@ class DatePickerField extends StatelessWidget {
                   Text(
                     selectedDate != null
                         ? isWithTime
-                            ? '${selectedDate!.day}/${selectedDate!.month}/${selectedDate!.year}\n${selectedDate!.hour}:${selectedDate!.minute}'
-                            : '${selectedDate!.day}/${selectedDate!.month}/${selectedDate!.year}'
+                              ? '${selectedDate!.day}/${selectedDate!.month}/${selectedDate!.year}\n${selectedDate!.hour}:${selectedDate!.minute}'
+                              : '${selectedDate!.day}/${selectedDate!.month}/${selectedDate!.year}'
                         : "data_filter".tr(),
                     style: TextStyle(fontSize: 16.sp),
                   ),

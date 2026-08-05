@@ -23,8 +23,9 @@ class OnBoarding3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return const OnboardingPageContent(
       icon: Icons.task_alt_rounded,
-      title: 'تدرّب بطريقتك',
-      description: 'ابدأ كضيف دون حساب، أو سجّل لتحتفظ بتقدمك وتزامنه بأمان.',
+      title: 'تقدّمك محفوظ دائمًا',
+      description:
+          'أنشئ حسابًا بسيطًا لتكمل من آخر خطوة وتحفظ دروسك واختباراتك على أجهزتك.',
     );
   }
 }

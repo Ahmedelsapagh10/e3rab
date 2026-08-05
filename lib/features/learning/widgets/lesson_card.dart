@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/design_system/e3rab_design_tokens.dart';
+import '../../curriculum/data/model/content_review_status.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 import '../../progress/data/model/learning_progress_models.dart';
+import 'lesson_card_support.dart';
 
 class LessonCard extends StatelessWidget {
   const LessonCard({
@@ -20,8 +22,10 @@ class LessonCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final completed = progress?.status == LessonProgressStatus.completed;
+    final status = progress?.status ?? LessonProgressStatus.notStarted;
+    final completed = status == LessonProgressStatus.completed;
     return Card(
+      margin: EdgeInsets.zero,
       clipBehavior: Clip.antiAlias,
       child: InkWell(
         onTap: onOpen,
@@ -31,44 +35,41 @@ class LessonCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(
-                    completed
-                        ? Icons.check_circle
-                        : Icons.auto_stories_outlined,
-                    color: completed
-                        ? Colors.green
-                        : E3rabBrandColors.primaryOrange,
-                  ),
-                  const SizedBox(width: E3rabSpacing.small),
+                  _LessonIcon(completed: completed),
+                  const SizedBox(width: E3rabSpacing.medium),
                   Expanded(
                     child: Text(
                       lesson.title,
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
                   ),
                   if (bookmarked)
-                    const Icon(Icons.bookmark, semanticLabel: 'محفوظ'),
+                    const Icon(Icons.bookmark_rounded, semanticLabel: 'محفوظ'),
                 ],
               ),
               const SizedBox(height: E3rabSpacing.medium),
               Text(
                 lesson.objectives.first,
-                maxLines: 2,
+                maxLines: 3,
                 overflow: TextOverflow.ellipsis,
                 style: Theme.of(
                   context,
                 ).textTheme.bodyMedium?.copyWith(height: 1.6),
               ),
+              const SizedBox(height: E3rabSpacing.medium),
+              if (_isDocumented(lesson.reviewStatus))
+                const LessonDocumentedLabel(),
               const Spacer(),
-              Wrap(
-                spacing: E3rabSpacing.small,
-                runSpacing: E3rabSpacing.small,
-                children: [
-                  Chip(label: Text('${lesson.estimatedMinutes} دقيقة')),
-                  Chip(label: Text('${lesson.exerciseIds.length} تمارين')),
-                  Chip(label: Text(completed ? 'مكتمل' : 'ابدأ الآن')),
-                ],
+              Divider(color: Theme.of(context).colorScheme.outlineVariant),
+              const SizedBox(height: E3rabSpacing.small),
+              LessonCardFooter(
+                minutes: lesson.estimatedMinutes,
+                exerciseCount: lesson.exerciseIds.length,
+                status: status,
               ),
             ],
           ),
@@ -76,4 +77,31 @@ class LessonCard extends StatelessWidget {
       ),
     );
   }
+
+  bool _isDocumented(ContentReviewStatus status) =>
+      status == ContentReviewStatus.sourceDocumented ||
+      status == ContentReviewStatus.humanReviewed ||
+      status == ContentReviewStatus.approved;
+}
+
+class _LessonIcon extends StatelessWidget {
+  const _LessonIcon({required this.completed});
+
+  final bool completed;
+
+  @override
+  Widget build(BuildContext context) => Container(
+    width: 48,
+    height: 48,
+    decoration: BoxDecoration(
+      color: completed ? const Color(0xFFE8F7EE) : E3rabBrandColors.sky,
+      borderRadius: BorderRadius.circular(E3rabRadii.medium),
+    ),
+    child: Icon(
+      completed ? Icons.check_rounded : Icons.auto_stories_outlined,
+      color: completed
+          ? E3rabBrandColors.success
+          : E3rabBrandColors.primaryBlue,
+    ),
+  );
 }

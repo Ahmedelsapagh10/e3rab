@@ -50,6 +50,16 @@ class FirebaseAuthRepository implements AuthRepository {
   }
 
   @override
+  Future<Either<Failure, AuthUserModel>> signInWithGoogle() {
+    return _runUser(() => _dataSource!.signInWithGoogle());
+  }
+
+  @override
+  Future<Either<Failure, AuthUserModel>> signInWithApple() {
+    return _runUser(() => _dataSource!.signInWithApple());
+  }
+
+  @override
   Future<Either<Failure, Unit>> sendPasswordResetEmail(String email) {
     return _runUnit(() => _dataSource!.sendPasswordResetEmail(email));
   }
@@ -57,6 +67,11 @@ class FirebaseAuthRepository implements AuthRepository {
   @override
   Future<Either<Failure, Unit>> reauthenticate(String password) {
     return _runUnit(() => _dataSource!.reauthenticate(password));
+  }
+
+  @override
+  Future<Either<Failure, Unit>> reauthenticateWithProvider() {
+    return _runUnit(() => _dataSource!.reauthenticateWithProvider());
   }
 
   @override
@@ -117,6 +132,6 @@ class FirebaseAuthRepository implements AuthRepository {
   }
 
   FirebaseUnavailableFailure _unavailable() => FirebaseUnavailableFailure(
-    message: 'الحسابات غير متاحة على هذا الجهاز حاليًا. يمكنك المتابعة كضيف.',
+    message: 'تسجيل الدخول غير متاح الآن. تحقق من الاتصال ثم أعد المحاولة.',
   );
 }

@@ -7,13 +7,31 @@ import 'package:new_strucuture/features/auth/cubit/auth_state.dart';
 import 'auth_test_fakes.dart';
 
 void main() {
-  test('restoration exposes guest-safe unavailable state', () async {
-    final auth = FakeAuthRepository(isAvailable: false);
-    final cubit = AuthCubit(auth, FakeUserProfileRepository());
+  test(
+    'restoration blocks access when mandatory accounts are unavailable',
+    () async {
+      final auth = FakeAuthRepository(isAvailable: false);
+      final cubit = AuthCubit(auth, FakeUserProfileRepository());
 
-    await cubit.restoreSession();
+      await cubit.restoreSession();
 
-    expect(cubit.state, isA<AuthUnavailable>());
+      expect(cubit.state, isA<AuthUnavailable>());
+      await cubit.close();
+      await auth.close();
+    },
+  );
+
+  test('Google and Apple sign-in complete the same profile flow', () async {
+    final auth = FakeAuthRepository();
+    final profiles = FakeUserProfileRepository();
+    final cubit = AuthCubit(auth, profiles);
+
+    await cubit.signInWithGoogle();
+    expect(cubit.state, isA<AuthAuthenticated>());
+
+    await cubit.signInWithApple();
+    expect(cubit.state, isA<AuthAuthenticated>());
+    expect(profiles.repairCalls, 2);
     await cubit.close();
     await auth.close();
   });

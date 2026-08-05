@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:dartz/dartz.dart';
 
 import '../../../core/error/failures.dart';
-import '../../progress/data/data_source/firestore_learning_data_source.dart';
+import '../../progress/data/data_source/cloud_learning_data_source.dart';
 import '../../progress/data/data_source/local_learning_data_source.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../progress/data/model/learning_support_models.dart';
@@ -16,12 +16,12 @@ class LocalFirstSyncRepository implements SyncRepository {
   LocalFirstSyncRepository(
     this._local,
     this._progress, {
-    FirestoreLearningDataSource? cloud,
+    CloudLearningDataSource? cloud,
   }) : _cloud = cloud;
 
   final LocalLearningDataSource _local;
   final ProgressRepository _progress;
-  final FirestoreLearningDataSource? _cloud;
+  final CloudLearningDataSource? _cloud;
   final StreamController<SyncStatus> _status = StreamController.broadcast();
 
   @override

@@ -19,7 +19,9 @@ service cloud.firestore {
     function isApprovedContentPack(packId) {
       return get(
         /databases/$(database)/documents/e3rab_content_packs/$(packId)
-      ).data.reviewStatus == 'approved';
+      ).data.reviewStatus in [
+        'sourceDocumented', 'humanReviewed', 'approved'
+      ];
     }
 
     function canReadContentPack(packId) {
@@ -49,7 +51,7 @@ service cloud.firestore {
         && data.minimumAppVersion is string
         && data.reviewStatus in [
           'draft', 'aiAssistedDraft', 'inReview', 'changesRequested',
-          'approved', 'archived'
+          'sourceDocumented', 'humanReviewed', 'approved', 'archived'
         ]
         && data.seededBy == request.auth.uid
         && data.seededAt == request.time;

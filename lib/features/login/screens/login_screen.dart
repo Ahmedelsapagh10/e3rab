@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../config/routes/app_routes.dart';
 import '../../../core/design_system/e3rab_design_tokens.dart';
+import '../../../core/firebase/firebase_platform_support.dart';
 import '../../../core/utils/assets_manager.dart';
 import '../../auth/cubit/auth_cubit.dart';
 import '../../auth/cubit/auth_state.dart';
@@ -51,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Text(
                           _isCreateAccount
                               ? 'احفظ تقدمك وتابع تعلمك على أجهزتك.'
-                              : 'سجّل الدخول أو واصل التعلّم كضيف.',
+                              : 'سجّل الدخول لتكمل من آخر خطوة وصلت إليها.',
                           textAlign: TextAlign.center,
                         ),
                         const SizedBox(height: E3rabSpacing.large),
@@ -67,6 +68,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             Routes.forgotPasswordEmailRoute,
                           ),
                         ),
+                        const SizedBox(height: E3rabSpacing.large),
+                        const _SocialAuthButtons(),
                         const SizedBox(height: E3rabSpacing.medium),
                         TextButton(
                           onPressed: () => setState(
@@ -77,11 +80,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                 ? 'لديك حساب؟ سجّل الدخول'
                                 : 'ليس لديك حساب؟ أنشئ حسابًا',
                           ),
-                        ),
-                        OutlinedButton.icon(
-                          onPressed: context.read<AuthCubit>().enterGuest,
-                          icon: const Icon(Icons.person_outline_rounded),
-                          label: const Text('المتابعة كضيف'),
                         ),
                       ],
                     ),
@@ -109,13 +107,65 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void _listenToAuth(BuildContext context, AuthState state) {
-    if (state is AuthAuthenticated || state is AuthGuest) {
+    if (state is AuthAuthenticated) {
       Navigator.pushNamedAndRemoveUntil(
         context,
         Routes.initialRoute,
         (_) => false,
       );
     }
+  }
+}
+
+class _SocialAuthButtons extends StatelessWidget {
+  const _SocialAuthButtons();
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<AuthCubit, AuthState>(
+      builder: (context, state) {
+        if (!FirebasePlatformSupport.supportsSocialAuth) {
+          return const SizedBox.shrink();
+        }
+        final enabled =
+            context.read<AuthCubit>().accountsAvailable &&
+            state is! AuthSubmitting;
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(
+              children: [
+                const Expanded(child: Divider()),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Text(
+                    'أو تابع باستخدام',
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                ),
+                const Expanded(child: Divider()),
+              ],
+            ),
+            const SizedBox(height: E3rabSpacing.medium),
+            OutlinedButton.icon(
+              onPressed: enabled
+                  ? context.read<AuthCubit>().signInWithGoogle
+                  : null,
+              icon: const Icon(Icons.g_mobiledata_rounded, size: 28),
+              label: const Text('Google'),
+            ),
+            const SizedBox(height: E3rabSpacing.small),
+            OutlinedButton.icon(
+              onPressed: enabled
+                  ? context.read<AuthCubit>().signInWithApple
+                  : null,
+              icon: const Icon(Icons.apple_rounded),
+              label: const Text('Apple'),
+            ),
+          ],
+        );
+      },
+    );
   }
 }
 
@@ -137,7 +187,15 @@ class _AuthStateNotice extends StatelessWidget {
           child: MaterialBanner(
             padding: const EdgeInsets.all(E3rabSpacing.medium),
             content: Text(message),
-            actions: const [SizedBox.shrink()],
+            actions: [
+              if (state is AuthUnavailable)
+                TextButton(
+                  onPressed: context.read<AuthCubit>().restoreSession,
+                  child: const Text('إعادة المحاولة'),
+                )
+              else
+                const SizedBox.shrink(),
+            ],
           ),
         );
       },

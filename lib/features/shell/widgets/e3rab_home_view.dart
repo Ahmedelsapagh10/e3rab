@@ -5,13 +5,13 @@ import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../learning/cubit/learning_cubit.dart';
 import '../../learning/cubit/learning_state.dart';
 import '../../learning/widgets/learning_status_view.dart';
-import '../../progress/data/model/learning_progress_models.dart';
-import '../../teacher/widgets/teacher_mode_entry_card.dart';
+import 'home_hero_card.dart';
+import 'home_progress_widgets.dart';
+import 'home_reveal.dart';
+import 'home_today_plan.dart';
 
 class E3rabHomeView extends StatelessWidget {
-  const E3rabHomeView({super.key, required this.isGuest});
-
-  final bool isGuest;
+  const E3rabHomeView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,44 +23,25 @@ class E3rabHomeView extends StatelessWidget {
           children: [
             Center(
               child: ConstrainedBox(
-                constraints: const BoxConstraints(
-                  maxWidth: E3rabReadingMetrics.maxContentWidth,
-                ),
+                constraints: const BoxConstraints(maxWidth: 820),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    Text(
-                      isGuest ? 'أهلًا بك في إعراب' : 'مرحبًا بعودتك إلى إعراب',
-                      style: Theme.of(context).textTheme.headlineSmall
-                          ?.copyWith(fontWeight: FontWeight.w800),
-                    ),
-                    const SizedBox(height: E3rabSpacing.small),
-                    const Text(
-                      'افهم القاعدة، شاهدها في مثال، أعربها خطوة بخطوة، ثم طبّقها بنفسك.',
-                      style: TextStyle(height: 1.7),
-                    ),
+                    HomeReveal(child: HomeHeroCard(state: state)),
                     const SizedBox(height: E3rabSpacing.large),
-                    _ProgressSummary(state: state),
+                    HomeReveal(delay: 0.12, child: HomeTodayPlan(state: state)),
                     const SizedBox(height: E3rabSpacing.large),
-                    const TeacherModeEntryCard(),
-                    const SizedBox(height: E3rabSpacing.large),
-                    Text(
-                      'ابدأ من مستواك',
-                      style: Theme.of(context).textTheme.titleLarge,
+                    HomeReveal(
+                      delay: 0.24,
+                      child: HomeProgressSummary(state: state),
                     ),
-                    const SizedBox(height: E3rabSpacing.medium),
-                    ...state.lessons.map(
-                      (lesson) => Card(
-                        child: ListTile(
-                          leading: const Icon(Icons.auto_stories_outlined),
-                          title: Text(lesson.title),
-                          subtitle: Text(
-                            '${lesson.estimatedMinutes} دقيقة • ${lesson.exerciseIds.length} تمارين',
-                          ),
-                          trailing: _statusIcon(state.progressFor(lesson.id)),
-                        ),
+                    if (state.mastery.isNotEmpty) ...[
+                      const SizedBox(height: E3rabSpacing.large),
+                      HomeReveal(
+                        delay: 0.34,
+                        child: HomeWeakSkill(state: state),
                       ),
-                    ),
+                    ],
                   ],
                 ),
               ),
@@ -70,72 +51,4 @@ class E3rabHomeView extends StatelessWidget {
       ),
     );
   }
-
-  Widget _statusIcon(LessonProgressModel? progress) {
-    if (progress?.status == LessonProgressStatus.completed) {
-      return const Icon(
-        Icons.check_circle,
-        color: Colors.green,
-        semanticLabel: 'مكتمل',
-      );
-    }
-    return const Icon(Icons.arrow_back, semanticLabel: 'متاح للتعلّم');
-  }
-}
-
-class _ProgressSummary extends StatelessWidget {
-  const _ProgressSummary({required this.state});
-
-  final LearningState state;
-
-  @override
-  Widget build(BuildContext context) {
-    final completed = state.progress
-        .where((item) => item.status == LessonProgressStatus.completed)
-        .length;
-    final mastered = state.mastery
-        .where((item) => item.state == MasteryState.mastered)
-        .length;
-    return Card(
-      color: Theme.of(context).colorScheme.primaryContainer,
-      child: Padding(
-        padding: const EdgeInsets.all(E3rabSpacing.large),
-        child: Wrap(
-          spacing: E3rabSpacing.xLarge,
-          runSpacing: E3rabSpacing.medium,
-          children: [
-            _Metric(
-              label: 'الدروس المكتملة',
-              value: '$completed/${state.lessons.length}',
-            ),
-            _Metric(label: 'المهارات المتقنة', value: '$mastered'),
-            _Metric(
-              label: 'المحفوظات',
-              value:
-                  '${state.bookmarks.where((item) => !item.isDeleted).length}',
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _Metric extends StatelessWidget {
-  const _Metric({required this.label, required this.value});
-
-  final String label;
-  final String value;
-
-  @override
-  Widget build(BuildContext context) => SizedBox(
-    width: 150,
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(value, style: Theme.of(context).textTheme.headlineSmall),
-        Text(label),
-      ],
-    ),
-  );
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_strucuture/core/utils/app_constants.dart';
+import '../../core/design_system/e3rab_design_tokens.dart';
 import 'app_colors_extension.dart';
 
 class LightTheme {
@@ -26,17 +27,20 @@ class LightTheme {
 
     // App bar
     appBarTheme: AppBarTheme(
-      backgroundColor: AppColorsExtension.light.surface,
+      backgroundColor: AppColorsExtension.light.background,
       foregroundColor: AppColorsExtension.light.textPrimary,
       elevation: 0,
+      centerTitle: false,
     ),
 
     // Card theme
     cardTheme: CardThemeData(
       color: AppColorsExtension.light.cardColor,
       elevation: 1,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: const Color(0xFF17324D).withValues(alpha: 0.08),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(AppConstance.radiusTiny),
+        borderRadius: BorderRadius.circular(E3rabRadii.medium),
         side: BorderSide(
           color: AppColorsExtension.light.borderColor.withValues(alpha: 0.3),
         ),
@@ -94,6 +98,45 @@ class LightTheme {
           vertical: AppConstance.vPadding,
           horizontal: 24,
         ),
+      ),
+    ),
+
+    filledButtonTheme: FilledButtonThemeData(
+      style: FilledButton.styleFrom(
+        minimumSize: const Size(48, 52),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppConstance.radiusTiny),
+        ),
+      ),
+    ),
+    navigationBarTheme: NavigationBarThemeData(
+      height: 72,
+      elevation: 3,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: const Color(0xFF17324D).withValues(alpha: 0.1),
+      backgroundColor: AppColorsExtension.light.surface,
+      indicatorColor: const Color(0xFFEAF2FF),
+      labelTextStyle: WidgetStateProperty.resolveWith(
+        (states) => TextStyle(
+          color: states.contains(WidgetState.selected)
+              ? AppColorsExtension.light.primary
+              : AppColorsExtension.light.textSecondary,
+          fontWeight: states.contains(WidgetState.selected)
+              ? FontWeight.w700
+              : FontWeight.w500,
+        ),
+      ),
+    ),
+    navigationRailTheme: NavigationRailThemeData(
+      backgroundColor: AppColorsExtension.light.surface,
+      indicatorColor: const Color(0xFFEAF2FF),
+      indicatorShape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(E3rabRadii.medium),
+      ),
+      selectedIconTheme: IconThemeData(color: AppColorsExtension.light.primary),
+      selectedLabelTextStyle: TextStyle(
+        color: AppColorsExtension.light.primary,
+        fontWeight: FontWeight.w700,
       ),
     ),
 

@@ -206,6 +206,20 @@ test('signed-in students can read approved seeded content but guests cannot', as
   await assertFails(getDoc(doc(guest, lessonPath)));
 });
 
+test('signed-in students can read source-documented content', async () => {
+  const admin = environment.authenticatedContext('admin', {
+    contentAdmin: true,
+  }).firestore();
+  const student = environment.authenticatedContext('student').firestore();
+  const packPath = 'e3rab_content_packs/pack-1';
+  await setDoc(
+    doc(admin, packPath),
+    validContentPack('admin', 'sourceDocumented'),
+  );
+
+  await assertSucceeds(getDoc(doc(student, packPath)));
+});
+
 async function seedProfile(uid) {
   await environment.withSecurityRulesDisabled(async (context) => {
     await setDoc(doc(context.firestore(), 'e3rab_users', uid), {

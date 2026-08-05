@@ -4,6 +4,7 @@ import '../../curriculum/data/model/exercise_model.dart';
 import '../../curriculum/data/model/content_reference_model.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 import '../../curriculum/data/model/search_result_model.dart';
+import '../../curriculum/data/model/grammar_coverage_model.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../progress/data/model/learning_support_models.dart';
 
@@ -21,6 +22,7 @@ class LearningState extends Equatable {
     this.reviews = const [],
     this.searchResults = const [],
     this.references = const [],
+    this.coverageTracks = const [],
     this.message,
   });
 
@@ -34,6 +36,7 @@ class LearningState extends Equatable {
   final List<ReviewItemModel> reviews;
   final List<SearchResultModel> searchResults;
   final List<ContentReferenceModel> references;
+  final List<GrammarCoverageTrack> coverageTracks;
   final String? message;
 
   LearningState copyWith({
@@ -47,6 +50,7 @@ class LearningState extends Equatable {
     List<ReviewItemModel>? reviews,
     List<SearchResultModel>? searchResults,
     List<ContentReferenceModel>? references,
+    List<GrammarCoverageTrack>? coverageTracks,
     String? message,
   }) {
     return LearningState(
@@ -60,6 +64,7 @@ class LearningState extends Equatable {
       reviews: reviews ?? this.reviews,
       searchResults: searchResults ?? this.searchResults,
       references: references ?? this.references,
+      coverageTracks: coverageTracks ?? this.coverageTracks,
       message: message,
     );
   }
@@ -92,6 +97,7 @@ class LearningState extends Equatable {
     reviews,
     searchResults,
     references,
+    coverageTracks,
     message,
   ];
 }

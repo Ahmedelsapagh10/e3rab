@@ -46,12 +46,30 @@ class FakeAuthRepository implements AuthRepository {
   }
 
   @override
+  Future<Either<Failure, AuthUserModel>> signInWithGoogle() async {
+    currentUser = testUser;
+    return Right(currentUser!);
+  }
+
+  @override
+  Future<Either<Failure, AuthUserModel>> signInWithApple() async {
+    currentUser = testUser;
+    return Right(currentUser!);
+  }
+
+  @override
   Future<Either<Failure, Unit>> sendPasswordResetEmail(String email) async {
     return const Right(unit);
   }
 
   @override
   Future<Either<Failure, Unit>> reauthenticate(String password) async {
+    reauthenticateCalls++;
+    return const Right(unit);
+  }
+
+  @override
+  Future<Either<Failure, Unit>> reauthenticateWithProvider() async {
     reauthenticateCalls++;
     return const Right(unit);
   }

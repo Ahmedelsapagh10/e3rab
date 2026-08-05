@@ -7,7 +7,13 @@ extension _ContentItemValidator on ContentValidationService {
     Set<String> referenceIds,
     List<ValidationIssue> issues,
   ) {
-    if (lesson['reviewStatus'] != 'approved') return;
+    if (!const {
+      'sourceDocumented',
+      'humanReviewed',
+      'approved',
+    }.contains(lesson['reviewStatus'])) {
+      return;
+    }
     final requiredLists = [
       'objectives',
       'examples',
@@ -25,8 +31,9 @@ extension _ContentItemValidator on ContentValidationService {
         );
       }
     }
-    if ((lesson['reviewedBy'] as String?)?.trim().isEmpty != false ||
-        lesson['reviewedAt'] == null) {
+    if (const {'humanReviewed', 'approved'}.contains(lesson['reviewStatus']) &&
+        ((lesson['reviewedBy'] as String?)?.trim().isEmpty != false ||
+            lesson['reviewedAt'] == null)) {
       issues.add(
         ValidationIssue(
           code: 'missing_human_review',
@@ -38,6 +45,67 @@ extension _ContentItemValidator on ContentValidationService {
     }
     _validateIdList(lesson, 'exerciseIds', exerciseIds, issues);
     _validateIdList(lesson, 'referenceIds', referenceIds, issues);
+    _validatePrerequisiteShape(lesson, issues);
+    _validateLessonSteps(lesson, referenceIds, issues);
+  }
+
+  void _validatePrerequisiteShape(
+    Map<String, dynamic> lesson,
+    List<ValidationIssue> issues,
+  ) {
+    if (lesson['prerequisiteIds'] is! List) {
+      issues.add(
+        ValidationIssue(
+          code: 'invalid_prerequisites',
+          message: 'prerequisiteIds must be a list.',
+          path: 'lessons.${lesson['id']}.prerequisiteIds',
+        ),
+      );
+    }
+  }
+
+  void _validateLessonSteps(
+    Map<String, dynamic> lesson,
+    Set<String> referenceIds,
+    List<ValidationIssue> issues,
+  ) {
+    final steps = _stringIdMaps(lesson['steps']);
+    if (lesson.containsKey('steps') && steps.isEmpty) {
+      issues.add(
+        ValidationIssue(
+          code: 'empty_lesson_steps',
+          message: 'A documented steps field must contain lesson steps.',
+          path: 'lessons.${lesson['id']}.steps',
+        ),
+      );
+    }
+    final citationIds = _stringIdMaps(
+      lesson['citations'],
+    ).map((item) => item['id']).whereType<String>().toSet();
+    for (final citation in _stringIdMaps(lesson['citations'])) {
+      if (!referenceIds.contains(citation['referenceId'])) {
+        issues.add(
+          ValidationIssue(
+            code: 'unknown_citation_reference',
+            message: 'Citation must point to a packaged reference.',
+            path: 'lessons.${lesson['id']}.citations.${citation['id']}',
+          ),
+        );
+      }
+    }
+    for (final step in steps) {
+      for (final block in _stringIdMaps(step['blocks'])) {
+        if (!citationIds.containsAll(_stringList(block['citationIds']))) {
+          issues.add(
+            ValidationIssue(
+              code: 'unknown_block_citation',
+              message: 'Content block contains an unknown citation.',
+              path: 'lessons.${lesson['id']}.steps.${step['id']}',
+            ),
+          );
+        }
+      }
+    }
   }
 
   void _validateExercise(
