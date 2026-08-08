@@ -8,6 +8,7 @@ class ParsingState extends Equatable {
   const ParsingState({
     this.status = ParsingLabStatus.initial,
     this.samples = const [],
+    this.allSamples = const [],
     this.sampleIndex = 0,
     this.stepIndex = 0,
     this.correctCount = 0,
@@ -18,10 +19,13 @@ class ParsingState extends Equatable {
     this.reportSaved = false,
     this.selectedOptionId,
     this.message,
+    this.selectedTrackId,
+    this.selectedDifficulty,
   });
 
   final ParsingLabStatus status;
   final List<ParsingSampleModel> samples;
+  final List<ParsingSampleModel> allSamples;
   final int sampleIndex;
   final int stepIndex;
   final int correctCount;
@@ -32,6 +36,8 @@ class ParsingState extends Equatable {
   final bool reportSaved;
   final String? selectedOptionId;
   final String? message;
+  final String? selectedTrackId;
+  final int? selectedDifficulty;
 
   ParsingSampleModel get currentSample => samples[sampleIndex];
   ParsingStepModel get currentStep => currentSample.steps[stepIndex];
@@ -44,6 +50,7 @@ class ParsingState extends Equatable {
   ParsingState copyWith({
     ParsingLabStatus? status,
     List<ParsingSampleModel>? samples,
+    List<ParsingSampleModel>? allSamples,
     int? sampleIndex,
     int? stepIndex,
     int? correctCount,
@@ -55,10 +62,15 @@ class ParsingState extends Equatable {
     String? selectedOptionId,
     bool clearSelection = false,
     String? message,
+    String? selectedTrackId,
+    int? selectedDifficulty,
+    bool clearTrack = false,
+    bool clearDifficulty = false,
   }) {
     return ParsingState(
       status: status ?? this.status,
       samples: samples ?? this.samples,
+      allSamples: allSamples ?? this.allSamples,
       sampleIndex: sampleIndex ?? this.sampleIndex,
       stepIndex: stepIndex ?? this.stepIndex,
       correctCount: correctCount ?? this.correctCount,
@@ -71,6 +83,12 @@ class ParsingState extends Equatable {
           ? null
           : selectedOptionId ?? this.selectedOptionId,
       message: message,
+      selectedTrackId: clearTrack
+          ? null
+          : selectedTrackId ?? this.selectedTrackId,
+      selectedDifficulty: clearDifficulty
+          ? null
+          : selectedDifficulty ?? this.selectedDifficulty,
     );
   }
 
@@ -78,6 +96,7 @@ class ParsingState extends Equatable {
   List<Object?> get props => [
     status,
     samples,
+    allSamples,
     sampleIndex,
     stepIndex,
     correctCount,
@@ -88,5 +107,7 @@ class ParsingState extends Equatable {
     reportSaved,
     selectedOptionId,
     message,
+    selectedTrackId,
+    selectedDifficulty,
   ];
 }

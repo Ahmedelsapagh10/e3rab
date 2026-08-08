@@ -21,12 +21,21 @@ void main() {
 
     expect(
       result.getOrElse(() => throw StateError('Expected seed results.')),
-      const [ContentSeedWriteResult.seeded, ContentSeedWriteResult.seeded],
+      const [
+        ContentSeedWriteResult.seeded,
+        ContentSeedWriteResult.seeded,
+        ContentSeedWriteResult.seeded,
+        ContentSeedWriteResult.seeded,
+      ],
     );
     expect(dataSource.packs[0]['lessons'], hasLength(3));
     expect(dataSource.packs[0]['exercises'], hasLength(30));
     expect(dataSource.packs[1]['lessons'], hasLength(1));
     expect(dataSource.packs[1]['exercises'], hasLength(10));
+    expect(dataSource.packs[2]['lessons'], hasLength(5));
+    expect(dataSource.packs[2]['exercises'], hasLength(50));
+    expect(dataSource.packs[3]['lessons'], hasLength(1));
+    expect(dataSource.packs[3]['exercises'], hasLength(10));
     for (final pack in dataSource.packs) {
       final manifest = pack['manifest'] as Map<String, dynamic>;
       expect(manifest['checksum'], matches(RegExp(r'^[a-f0-9]{64}$')));

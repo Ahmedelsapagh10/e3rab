@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'hex_color.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFF2F6FED);
+  static const Color primary = Color(0xFF0F5C4D);
 
-  static const Color primary49 = Color(0xFF17324D);
-  static const Color secondPrimary = Color(0xFF8BB8FF);
+  static const Color primary49 = Color(0xFF173B34);
+  static const Color secondPrimary = Color(0xFFC9973E);
 
   static const Color primary8e = primary;
   static const Color success = Color(0xFF2E7D32);
-  static const Color primaryfd = Color(0xFFF7F9FC);
+  static const Color primaryfd = Color(0xFFFAF7F0);
   static const Color grey = Colors.grey;
   static const Color gray = Colors.grey;
   static const Color secondary = Color(0xFFF5F7FE);

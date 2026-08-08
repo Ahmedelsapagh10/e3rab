@@ -1,0 +1,155 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-signs-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-signs-module-v1",
+      "original-signs-unit-v1",
+      "original-signs-v1",
+      "original-signs-v1-ex-1",
+      "original-signs-v1-ex-2",
+      "original-signs-v1-ex-3",
+      "original-signs-v1-ex-4",
+      "original-signs-v1-ex-5",
+      "original-signs-v1-ex-6",
+      "original-signs-v1-ex-7",
+      "original-signs-v1-ex-8",
+      "original-signs-v1-ex-9",
+      "original-signs-v1-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "general-signs-module-v1",
+      "slug": "general-signs-v1",
+      "title": "علامات الإعراب",
+      "unitIds": ["original-signs-unit-v1"],
+      "order": 2
+    }
+  ],
+  "units": [
+    {
+      "id": "original-signs-unit-v1",
+      "moduleId": "general-signs-module-v1",
+      "slug": "original-signs-unit-v1",
+      "title": "العلامات الأصلية",
+      "lessonIds": ["original-signs-v1"],
+      "order": 100
+    }
+  ],
+  "lessons": [
+    {
+      "id": "original-signs-v1",
+      "topicId": "signs.original-signs",
+      "order": 100,
+      "unitId": "original-signs-unit-v1",
+      "slug": "original-grammatical-signs",
+      "title": "الضمة والفتحة والكسرة والسكون",
+      "shortTitle": "العلامات الأصلية",
+      "stageIds": ["foundation", "preparatory", "secondary"],
+      "gradeIds": ["general"],
+      "objectives": [
+        "ربط الرفع والنصب والجر والجزم بعلاماتها الأصلية.",
+        "اختيار العلامة بعد تحديد نوع الكلمة والعامل والحالة.",
+        "التمييز بين السكون علامة جزم والسكون علامة بناء."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {"id": "original-signs-v1-sec-1", "type": "opening", "title": "أربع حالات وأربع علامات", "body": "الأسماء ترفع وتنصب وتجر، والمضارع المعرب يرفع وينصب ويجزم. وفي الصورة الأصلية يكون الرفع بالضمة، والنصب بالفتحة، والجر بالكسرة، والجزم بالسكون.", "order": 1, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-2", "type": "explanation", "title": "الحالة قبل العلامة", "body": "الرفع والنصب والجر والجزم أحكام نحوية، أما الحركات والسكون فعلامات تكشفها. نحدد الموقع والعامل والحالة أولًا، ثم نختار العلامة.", "order": 2, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-3", "type": "rule", "title": "القاعدة", "body": "الضمة علامة الرفع الأصلية، والفتحة علامة النصب الأصلية، والكسرة علامة الجر الأصلية، والسكون علامة الجزم الأصلية في المضارع الصحيح الآخر.", "order": 3, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-4", "type": "details", "title": "الاسم والفعل", "body": "الاسم يقبل الرفع والنصب والجر ولا يجزم. والمضارع المعرب يقبل الرفع والنصب والجزم ولا يجر. والماضي والأمر مبنيان.", "order": 4, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-5", "type": "detection", "title": "خطوات الاختيار", "body": "حدد نوع الكلمة ثم موقعها ثم العامل ثم الحالة. افحص هل هي اسم مفرد أو جمع تكسير أو مضارع صحيح الآخر؛ عندئذ تظهر العلامة الأصلية غالبًا.", "order": 5, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-6", "type": "reasoning", "title": "ابن الإعراب كاملًا", "body": "في «رأيت الطالبَ»: الطالب اسم، مفعول به، عامله الفعل المتعدي، حالته النصب، علامته الفتحة، وسببها أنه مفرد صحيح الآخر.", "order": 6, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-7", "type": "comparison", "title": "سكون الجزم والبناء", "body": "في «لم يهملْ» السكون علامة جزم لمضارع معرب. وفي «اكتبْ» السكون علامة بناء لفعل أمر. تشابه الحركة لا يعني تشابه الحكم.", "order": 7, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-8", "type": "warning", "title": "قد تتغير صورة العلامة", "body": "قد تقدر العلامة الأصلية مثل ضمة «الفتى»، وقد تنوب عنها علامة فرعية مثل ألف رفع المثنى؛ لذلك افحص نوع الكلمة قبل الحكم.", "order": 8, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-9", "type": "misconceptions", "title": "أخطاء شائعة", "body": "السكون ليس جزمًا دائمًا، والضمة لا ترفع الكلمة بنفسها؛ العامل يطلب الحكم والعلامة تدل عليه.", "order": 9, "referenceIds": ["ref-general-signs-v1"]},
+        {"id": "original-signs-v1-sec-10", "type": "summary", "title": "الخلاصة", "body": "رفع ← ضمة، نصب ← فتحة، جر ← كسرة، جزم ← سكون في الصورة الأصلية، بعد تحديد النوع والموقع والعامل.", "order": 10, "referenceIds": ["ref-general-signs-v1"]}
+      ],
+      "examples": [
+        {
+          "id": "original-signs-v1-example-1",
+          "sentence": "حضر الطالب",
+          "fullyDiacritizedSentence": "حَضَرَ الطَّالِبُ",
+          "parsedWords": [
+            {"word": "حضر", "normalizedWord": "حضر", "wordType": "فعل ماض", "grammaticalRole": "فعل الجملة", "grammaticalState": "مبني لا محل له", "grammaticalSign": "مبني على الفتح الظاهر", "signReason": "فعل ماض", "grammaticalAgent": "البناء أصل في الماضي", "sentencePosition": "صدر الجملة الفعلية", "explanation": "فعل ماض مبني على الفتح.", "startIndex": 0, "endIndex": 3},
+            {"word": "الطالب", "normalizedWord": "الطالب", "wordType": "اسم معرب", "grammaticalRole": "فاعل", "grammaticalState": "مرفوع", "grammaticalSign": "الضمة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "الفعل «حضر»", "sentencePosition": "فاعل الجملة الفعلية", "explanation": "فاعل مرفوع بالضمة الأصلية.", "startIndex": 4, "endIndex": 10}
+          ],
+          "explanation": "الضمة علامة الرفع الأصلية للاسم المفرد.",
+          "referenceIds": ["ref-general-signs-v1"]
+        },
+        {
+          "id": "original-signs-v1-example-2",
+          "sentence": "رأيت الطالب",
+          "fullyDiacritizedSentence": "رَأَيْتُ الطَّالِبَ",
+          "parsedWords": [
+            {"word": "رأيت", "normalizedWord": "رايت", "wordType": "فعل ماض متصل بتاء الفاعل", "grammaticalRole": "فعل وفاعل", "grammaticalState": "الفعل مبني والتاء في محل رفع", "grammaticalSign": "مبني على السكون لاتصاله بالتاء", "signReason": "اتصال الفعل بضمير رفع متحرك", "grammaticalAgent": "البناء أصل في الماضي", "sentencePosition": "فعل الجملة وفاعله", "explanation": "فعل ماض والتاء فاعل.", "startIndex": 0, "endIndex": 4},
+            {"word": "الطالب", "normalizedWord": "الطالب", "wordType": "اسم معرب", "grammaticalRole": "مفعول به", "grammaticalState": "منصوب", "grammaticalSign": "الفتحة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "الفعل المتعدي «رأيت»", "sentencePosition": "مفعول به", "explanation": "مفعول به منصوب بالفتحة الأصلية.", "startIndex": 5, "endIndex": 11}
+          ],
+          "explanation": "الفتحة علامة النصب الأصلية للاسم المفرد.",
+          "referenceIds": ["ref-general-signs-v1"]
+        },
+        {
+          "id": "original-signs-v1-example-3",
+          "sentence": "مررت في الفصل",
+          "fullyDiacritizedSentence": "مَرَرْتُ فِي الفَصْلِ",
+          "parsedWords": [
+            {"word": "مررت", "normalizedWord": "مررت", "wordType": "فعل ماض متصل بتاء الفاعل", "grammaticalRole": "فعل وفاعل", "grammaticalState": "الفعل مبني والتاء في محل رفع", "grammaticalSign": "مبني على السكون لاتصاله بالتاء", "signReason": "اتصال الفعل بضمير رفع متحرك", "grammaticalAgent": "البناء أصل في الماضي", "sentencePosition": "فعل الجملة وفاعله", "explanation": "فعل ماض والتاء فاعل.", "startIndex": 0, "endIndex": 4},
+            {"word": "في", "normalizedWord": "في", "wordType": "حرف جر", "grammaticalRole": "عامل الجر", "grammaticalState": "مبني لا محل له", "grammaticalSign": "مبني على السكون", "signReason": "الحروف مبنية", "grammaticalAgent": "البناء أصل في الحروف", "sentencePosition": "رأس شبه الجملة", "explanation": "حرف جر عمل في الاسم بعده.", "startIndex": 5, "endIndex": 7},
+            {"word": "الفصل", "normalizedWord": "الفصل", "wordType": "اسم معرب", "grammaticalRole": "اسم مجرور", "grammaticalState": "مجرور", "grammaticalSign": "الكسرة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "حرف الجر «في»", "sentencePosition": "اسم داخل شبه الجملة", "explanation": "اسم مجرور بالكسرة الأصلية.", "startIndex": 8, "endIndex": 13}
+          ],
+          "explanation": "الكسرة علامة الجر الأصلية للاسم المفرد.",
+          "referenceIds": ["ref-general-signs-v1"]
+        },
+        {
+          "id": "original-signs-v1-example-4",
+          "sentence": "لم يهمل الطالب",
+          "fullyDiacritizedSentence": "لَمْ يُهْمِلْ الطَّالِبُ",
+          "parsedWords": [
+            {"word": "لم", "normalizedWord": "لم", "wordType": "حرف جزم", "grammaticalRole": "عامل جزم المضارع", "grammaticalState": "مبني لا محل له", "grammaticalSign": "مبني على السكون", "signReason": "الحروف مبنية", "grammaticalAgent": "البناء أصل في الحروف", "sentencePosition": "أداة قبل المضارع", "explanation": "حرف جزم عمل في الفعل بعده.", "startIndex": 0, "endIndex": 2},
+            {"word": "يهمل", "normalizedWord": "يهمل", "wordType": "فعل مضارع معرب", "grammaticalRole": "فعل الجملة", "grammaticalState": "مجزوم", "grammaticalSign": "السكون الظاهر", "signReason": "مضارع صحيح الآخر", "grammaticalAgent": "حرف الجزم «لم»", "sentencePosition": "فعل بعد أداة جزم", "explanation": "مضارع مجزوم بالسكون الأصلي.", "startIndex": 3, "endIndex": 7},
+            {"word": "الطالب", "normalizedWord": "الطالب", "wordType": "اسم معرب", "grammaticalRole": "فاعل", "grammaticalState": "مرفوع", "grammaticalSign": "الضمة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "الفعل «يهمل»", "sentencePosition": "فاعل الجملة الفعلية", "explanation": "فاعل مرفوع بالضمة.", "startIndex": 8, "endIndex": 14}
+          ],
+          "explanation": "السكون علامة الجزم الأصلية للمضارع الصحيح الآخر.",
+          "referenceIds": ["ref-general-signs-v1"]
+        }
+      ],
+      "exerciseIds": ["original-signs-v1-ex-1", "original-signs-v1-ex-2", "original-signs-v1-ex-3", "original-signs-v1-ex-4", "original-signs-v1-ex-5", "original-signs-v1-ex-6", "original-signs-v1-ex-7", "original-signs-v1-ex-8", "original-signs-v1-ex-9", "original-signs-v1-ex-10"],
+      "masteryExerciseIds": ["original-signs-v1-ex-2", "original-signs-v1-ex-4", "original-signs-v1-ex-6", "original-signs-v1-ex-8", "original-signs-v1-ex-10"],
+      "referenceIds": ["ref-general-signs-v1"],
+      "tags": ["الضمة", "الفتحة", "الكسرة", "السكون", "العلامات الأصلية"],
+      "estimatedMinutes": 24,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {"id": "original-signs-v1-ex-1", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما العلامة الأصلية للرفع؟", "skillIds": ["original-nominative-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 1, "options": [{"id": "a", "text": "الضمة", "feedback": "صحيح؛ هي علامة الرفع الأصلية."}, {"id": "b", "text": "الفتحة", "feedback": "الفتحة علامة النصب الأصلية."}], "correctAnswerIds": ["a"], "explanation": "الأصل في الرفع الضمة.", "hint": "تذكر آخر الفاعل المفرد.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-2", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما علامة رفع «الطالب» في «حضر الطالب»؟", "skillIds": ["noun-nominative-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 1, "options": [{"id": "a", "text": "الضمة الظاهرة", "feedback": "صحيح؛ الاسم مفرد صحيح الآخر."}, {"id": "b", "text": "الألف", "feedback": "الألف علامة فرعية للمثنى."}], "correctAnswerIds": ["a"], "explanation": "الفاعل المفرد مرفوع بالضمة.", "hint": "حدد نوع الاسم.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-3", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما العلامة الأصلية للنصب؟", "skillIds": ["original-accusative-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 1, "options": [{"id": "a", "text": "الفتحة", "feedback": "صحيح؛ هي علامة النصب الأصلية."}, {"id": "b", "text": "الكسرة", "feedback": "الكسرة علامة الجر الأصلية."}], "correctAnswerIds": ["a"], "explanation": "الأصل في النصب الفتحة.", "hint": "تذكر المفعول به المفرد.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-4", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما علامة نصب «الطالب» في «رأيت الطالب»؟", "skillIds": ["noun-accusative-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 2, "options": [{"id": "a", "text": "الفتحة الظاهرة", "feedback": "صحيح؛ وقع مفعولًا به."}, {"id": "b", "text": "الضمة", "feedback": "الضمة لا تناسب النصب."}], "correctAnswerIds": ["a"], "explanation": "المفعول المفرد منصوب بالفتحة.", "hint": "الموقع ثم الحالة ثم العلامة.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-5", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما العلامة الأصلية للجر؟", "skillIds": ["original-genitive-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 2, "options": [{"id": "a", "text": "الكسرة", "feedback": "صحيح؛ هي علامة الجر الأصلية."}, {"id": "b", "text": "السكون", "feedback": "السكون علامة الجزم الأصلية."}], "correctAnswerIds": ["a"], "explanation": "الأصل في الجر الكسرة.", "hint": "تذكر الاسم بعد حرف الجر.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-6", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما علامة جر «الفصل» في «مررت في الفصل»؟", "skillIds": ["noun-genitive-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 2, "options": [{"id": "a", "text": "الكسرة الظاهرة", "feedback": "صحيح؛ جره حرف الجر."}, {"id": "b", "text": "الياء", "feedback": "الياء علامة فرعية لأنواع أخرى."}], "correctAnswerIds": ["a"], "explanation": "الاسم المفرد مجرور بالكسرة.", "hint": "حدد العامل ونوع الاسم.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-7", "lessonId": "original-signs-v1", "type": "multipleChoice", "prompt": "ما العلامة الأصلية للجزم؟", "skillIds": ["original-jussive-sign"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 2, "options": [{"id": "a", "text": "السكون", "feedback": "صحيح؛ هو علامة الجزم الأصلية."}, {"id": "b", "text": "الفتحة", "feedback": "الفتحة علامة النصب الأصلية."}], "correctAnswerIds": ["a"], "explanation": "يجزم المضارع الصحيح بالسكون.", "hint": "تذكر «لم يهملْ».", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-8", "lessonId": "original-signs-v1", "type": "comparison", "prompt": "ما الفرق بين سكون «لم يهملْ» وسكون «اكتبْ»؟", "skillIds": ["jussive-vs-building"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 3, "options": [{"id": "a", "text": "الأول علامة جزم والثاني علامة بناء", "feedback": "صحيح؛ اختلف نوع الفعل."}, {"id": "b", "text": "كلاهما جزم", "feedback": "فعل الأمر مبني."}], "correctAnswerIds": ["a"], "explanation": "السكون قد يكون جزمًا أو بناء.", "hint": "حدد نوع الفعل أولًا.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-9", "lessonId": "original-signs-v1", "type": "errorCorrection", "prompt": "صحح: «كل مرفوع علامته ضمة ظاهرة».", "skillIds": ["original-sign-limit"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 3, "options": [{"id": "a", "text": "قد تقدر الضمة أو تنوب عنها علامة فرعية", "feedback": "صحيح؛ نوع الكلمة يحدد الصورة."}, {"id": "b", "text": "العبارة صحيحة دائمًا", "feedback": "المثنى والمقصور مثالان مضادان."}], "correctAnswerIds": ["a"], "explanation": "الضمة أصل الرفع وليست صورته الوحيدة.", "hint": "تذكر الفتى والمعلمين.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1},
+    {"id": "original-signs-v1-ex-10", "lessonId": "original-signs-v1", "type": "comparison", "prompt": "أي خريطة صحيحة؟", "skillIds": ["original-signs-map"], "stageIds": ["foundation"], "gradeIds": ["general"], "difficulty": 3, "options": [{"id": "a", "text": "رفع ضمة، نصب فتحة، جر كسرة، جزم سكون", "feedback": "صحيح؛ هذه العلامات الأصلية."}, {"id": "b", "text": "رفع فتحة، نصب ضمة، جر سكون، جزم كسرة", "feedback": "الخريطة غير صحيحة."}], "correctAnswerIds": ["a"], "explanation": "تطبق الخريطة بعد فحص نوع الكلمة.", "hint": "اربط كل حالة بمثال.", "referenceIds": ["ref-general-signs-v1"], "contentVersion": "1.0.0", "reviewStatus": "inReview", "schemaVersion": 1}
+  ],
+  "references": [
+    {
+      "id": "ref-general-signs-v1",
+      "title": "كتاب الطالب في اللغة العربية — الصف السادس الابتدائي — الفصل الأول",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني المصرية",
+      "url": "https://moe.gov.eg/ar/elearningenterypage/e-learning/?contentTypeId=7597&pageIndex=0&schoolStageId=1582&schoolSubjectId=7701&schoolTermId=1584&schoolYearId=1935&sortBy=0",
+      "checkedAt": "2026-08-04"
+    }
+  ]
+}

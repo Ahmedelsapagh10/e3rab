@@ -9,45 +9,45 @@ class LessonOverviewView extends StatelessWidget {
     super.key,
     required this.lesson,
     required this.suggestedPhase,
-    required this.onExplanation,
-    required this.onExamples,
-    required this.onExercises,
-    required this.onExam,
+    required this.onPhaseSelected,
   });
 
   final LessonModel lesson;
   final int suggestedPhase;
-  final VoidCallback onExplanation;
-  final VoidCallback onExamples;
-  final VoidCallback onExercises;
-  final VoidCallback onExam;
+  final ValueChanged<int> onPhaseSelected;
 
   @override
   Widget build(BuildContext context) {
     final phases = [
       (
         Icons.menu_book_outlined,
-        'الشرح',
-        'افهم القاعدة بكلمات واضحة.',
-        onExplanation,
+        '١. افهم',
+        'تعرّف إلى المعنى والقاعدة بلغة واضحة.',
       ),
       (
-        Icons.lightbulb_outline_rounded,
-        'الأمثلة',
-        'شاهد ثلاثة أمثلة مشروحة خطوة بخطوة.',
-        onExamples,
+        Icons.search_rounded,
+        '٢. اكتشف',
+        'تعلّم كيف تتعرّف إلى الوظيفة النحوية.',
+      ),
+      (
+        Icons.visibility_outlined,
+        '٣. شاهد الإعراب',
+        'شاهد أمثلة محللة كلمةً كلمة.',
+      ),
+      (
+        Icons.assistant_outlined,
+        '٤. جرّب معي',
+        'ابنِ الإعراب بالترتيب مع توجيه واضح.',
       ),
       (
         Icons.edit_note_rounded,
-        'تدريبات موجّهة',
-        'طبّق بهدوء مع تلميحات وشرح فوري.',
-        onExercises,
+        '٥. تدرّب وحدك',
+        'حل عشرة تدريبات مع شرح بعد كل إجابة.',
       ),
       (
         Icons.fact_check_outlined,
-        'اختبار الدرس',
-        'خمسة أسئلة بلا مؤقت، والنتيجة في النهاية.',
-        onExam,
+        '٦. اختبر إتقانك',
+        'خمسة أسئلة بلا مؤقت؛ النجاح من ٤ إجابات.',
       ),
     ];
     return ListView(
@@ -79,7 +79,7 @@ class LessonOverviewView extends StatelessWidget {
                     icon: phases[index].$1,
                     title: phases[index].$2,
                     subtitle: phases[index].$3,
-                    onTap: phases[index].$4,
+                    onTap: () => onPhaseSelected(index),
                     recommended: index == suggestedPhase,
                   ),
                   if (index < phases.length - 1)

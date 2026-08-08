@@ -19,6 +19,7 @@ class ExerciseState extends Equatable {
     this.selectedOptionId,
     this.remainingSeconds,
     this.message,
+    this.missedSkillIds = const [],
   });
 
   final List<ExerciseModel> exercises;
@@ -35,6 +36,7 @@ class ExerciseState extends Equatable {
   final String? selectedOptionId;
   final int? remainingSeconds;
   final String? message;
+  final List<String> missedSkillIds;
 
   ExerciseModel get current => exercises[index];
   bool get isCorrect =>
@@ -58,6 +60,7 @@ class ExerciseState extends Equatable {
     int? remainingSeconds,
     bool clearSelection = false,
     String? message,
+    List<String>? missedSkillIds,
   }) {
     return ExerciseState(
       exercises: exercises,
@@ -76,6 +79,7 @@ class ExerciseState extends Equatable {
           : selectedOptionId ?? this.selectedOptionId,
       remainingSeconds: remainingSeconds ?? this.remainingSeconds,
       message: message,
+      missedSkillIds: missedSkillIds ?? this.missedSkillIds,
     );
   }
 
@@ -95,5 +99,6 @@ class ExerciseState extends Equatable {
     selectedOptionId,
     remainingSeconds,
     message,
+    missedSkillIds,
   ];
 }

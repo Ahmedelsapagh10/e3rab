@@ -4,12 +4,25 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../cubit/learning_cubit.dart';
 import '../cubit/learning_state.dart';
-import '../screens/lesson_screen.dart';
+import 'curriculum_track_list.dart';
 import 'learning_status_view.dart';
-import 'lesson_card.dart';
 
-class LearningHubView extends StatelessWidget {
+class LearningHubView extends StatefulWidget {
   const LearningHubView({super.key});
+
+  @override
+  State<LearningHubView> createState() => _LearningHubViewState();
+}
+
+class _LearningHubViewState extends State<LearningHubView> {
+  final _searchController = TextEditingController();
+  String _query = '';
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -26,36 +39,27 @@ class LearningHubView extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Text(
-                      'الدروس',
+                      'تعلّم النحو والإعراب',
                       style: Theme.of(context).textTheme.headlineMedium
                           ?.copyWith(fontWeight: FontWeight.w800),
                     ),
                     const SizedBox(height: E3rabSpacing.small),
                     const Text(
-                      'اختر الدرس، ثم تنقّل بوضوح بين الشرح والأمثلة والتطبيق.',
+                      'ابدأ من نوع الكلمة، ثم تعلّم موقعها وعاملها وحالتها وعلامة إعرابها.',
                       style: TextStyle(height: 1.7),
                     ),
-                    const SizedBox(height: E3rabSpacing.xLarge),
-                    ...state.lessons.map(
-                      (lesson) => Padding(
-                        padding: const EdgeInsets.only(
-                          bottom: E3rabSpacing.medium,
-                        ),
-                        child: LessonCard(
-                          lesson: lesson,
-                          progress: state.progressFor(lesson.id),
-                          bookmarked: state.isBookmarked(lesson.id),
-                          onOpen: () => Navigator.of(context).push(
-                            MaterialPageRoute<void>(
-                              builder: (_) => BlocProvider.value(
-                                value: context.read<LearningCubit>(),
-                                child: LessonScreen(lesson: lesson),
-                              ),
-                            ),
-                          ),
-                        ),
+                    const SizedBox(height: E3rabSpacing.large),
+                    TextField(
+                      controller: _searchController,
+                      onChanged: (value) =>
+                          setState(() => _query = value.trim().toLowerCase()),
+                      decoration: const InputDecoration(
+                        labelText: 'ابحث: مفعول به، نعت، مبتدأ وخبر…',
+                        prefixIcon: Icon(Icons.search_rounded),
                       ),
                     ),
+                    const SizedBox(height: E3rabSpacing.xLarge),
+                    CurriculumTrackList(state: state, query: _query),
                   ],
                 ),
               ),

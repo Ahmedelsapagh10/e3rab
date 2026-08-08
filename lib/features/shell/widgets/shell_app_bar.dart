@@ -92,7 +92,7 @@ class ShellAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 }
 
-const _labels = ['الرئيسية', 'تعلّم', 'تدرّب', 'حسابي'];
+const _labels = ['الرئيسية', 'تعلّم', 'أعرب', 'حسابي'];
 
 class _BrandMark extends StatelessWidget {
   const _BrandMark();

@@ -41,7 +41,9 @@ void main() {
     );
     await tester.pump();
 
-    expect(find.text('تعلّم بثلاث خطوات'), findsOneWidget);
+    expect(find.text('كيف تبني الإعراب؟'), findsOneWidget);
+    expect(find.textContaining('نوع الكلمة ← موقعها'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('الدروس'), 300);
     expect(find.text('الدروس'), findsOneWidget);
     expect(find.textContaining('٪'), findsNothing);
     expect(find.textContaining('إحصائ'), findsNothing);

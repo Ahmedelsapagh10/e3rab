@@ -22,6 +22,11 @@ class ParsingBankValidator {
     if (!_hasText(id) || !ids.add(id as String) || !_hasSampleText(sample)) {
       return false;
     }
+    if (!_hasText(sample['trackId']) ||
+        sample['difficulty'] is! int ||
+        sample['order'] is! int) {
+      return false;
+    }
     if (steps is! List || steps.isEmpty || !steps.every(_validStep)) {
       return false;
     }

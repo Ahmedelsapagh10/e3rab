@@ -8,6 +8,7 @@ extension _ContentItemValidator on ContentValidationService {
     List<ValidationIssue> issues,
   ) {
     if (!const {
+      'inReview',
       'sourceDocumented',
       'humanReviewed',
       'approved',
@@ -45,6 +46,7 @@ extension _ContentItemValidator on ContentValidationService {
     }
     _validateIdList(lesson, 'exerciseIds', exerciseIds, issues);
     _validateIdList(lesson, 'referenceIds', referenceIds, issues);
+    _validateLearnerReadyLesson(lesson, exerciseIds, referenceIds, issues);
     _validatePrerequisiteShape(lesson, issues);
     _validateLessonSteps(lesson, referenceIds, issues);
   }

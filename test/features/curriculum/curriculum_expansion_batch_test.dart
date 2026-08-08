@@ -49,7 +49,7 @@ void main() {
   );
 
   test(
-    'catalog marks the new draft learner-disabled but seed-enabled',
+    'catalog marks the reviewed batch learner-disabled but seed-enabled',
     () async {
       final result = await LocalContentPackCatalogRepository(
         bundle: rootBundle,
@@ -58,11 +58,11 @@ void main() {
         () => throw StateError('Expected a valid content catalog.'),
       );
 
-      expect(catalog.packs.map((pack) => pack.packId).toSet(), hasLength(2));
+      expect(catalog.packs.map((pack) => pack.packId).toSet(), hasLength(3));
       final batch = catalog.packs.singleWhere(
         (pack) => pack.packId == batchPackId,
       );
-      expect(batch.reviewStatus, ContentReviewStatus.aiAssistedDraft);
+      expect(batch.reviewStatus, ContentReviewStatus.inReview);
       expect(batch.seedEnabled, isTrue);
       expect(batch.learnerEnabled, isFalse);
 
@@ -82,53 +82,51 @@ void main() {
     },
   );
 
-  test(
-    'secondary batch is valid and contains ten feedback-rich exercises',
-    () async {
-      final raw = await rootBundle.loadString(
-        'assets/content/e3rab_egypt_secondary2_term1_batch1_v1.json',
-      );
-      final pack = Map<String, dynamic>.from(jsonDecode(raw) as Map);
-      final report = const ContentValidationService().validate(pack);
+  test('secondary batch is structurally ready for specialist review', () async {
+    final raw = await rootBundle.loadString(
+      'assets/content/e3rab_egypt_secondary2_term1_batch1_v1.json',
+    );
+    final pack = Map<String, dynamic>.from(jsonDecode(raw) as Map);
+    final report = const ContentValidationService().validate(pack);
 
-      expect(report.issues, isEmpty, reason: report.issues.join('\n'));
-      expect((pack['manifest'] as Map)['packId'], batchPackId);
-      expect((pack['modules'] as List), hasLength(1));
-      expect((pack['units'] as List), hasLength(1));
-      expect((pack['lessons'] as List), hasLength(1));
+    expect(report.issues, isEmpty, reason: report.issues.join('\n'));
+    expect((pack['manifest'] as Map)['packId'], batchPackId);
+    expect((pack['modules'] as List), hasLength(1));
+    expect((pack['units'] as List), hasLength(1));
+    expect((pack['lessons'] as List), hasLength(1));
 
-      final lesson = Map<String, dynamic>.from(
-        (pack['lessons'] as List).single as Map,
-      );
-      final exercises = (pack['exercises'] as List)
-          .map((value) => Map<String, dynamic>.from(value as Map))
-          .toList();
-      expect(exercises, hasLength(10));
-      expect(lesson['reviewStatus'], 'aiAssistedDraft');
-      expect(lesson['reviewedBy'], isNull);
-      expect(lesson['reviewedAt'], isNull);
-      expect((lesson['examples'] as List), hasLength(3));
-      expect(
-        exercises.every(
-          (exercise) => exercise['reviewStatus'] == 'aiAssistedDraft',
+    final lesson = Map<String, dynamic>.from(
+      (pack['lessons'] as List).single as Map,
+    );
+    final exercises = (pack['exercises'] as List)
+        .map((value) => Map<String, dynamic>.from(value as Map))
+        .toList();
+    expect(exercises, hasLength(10));
+    expect(lesson['reviewStatus'], 'inReview');
+    expect(lesson['reviewedBy'], isNull);
+    expect(lesson['reviewedAt'], isNull);
+    expect((lesson['examples'] as List), hasLength(4));
+    expect((lesson['masteryExerciseIds'] as List), hasLength(5));
+    expect(lesson['topicId'], 'majzoumat.answer-to-request');
+    expect(
+      exercises.every(
+        (exercise) => exercise['reviewStatus'] == 'aiAssistedDraft',
+      ),
+      isTrue,
+    );
+    expect(
+      exercises.every(
+        (exercise) => (exercise['options'] as List).every(
+          (option) => ((option as Map)['feedback'] as String).trim().isNotEmpty,
         ),
-        isTrue,
-      );
-      expect(
-        exercises.every(
-          (exercise) => (exercise['options'] as List).every(
-            (option) =>
-                ((option as Map)['feedback'] as String).trim().isNotEmpty,
-          ),
-        ),
-        isTrue,
-      );
+      ),
+      isTrue,
+    );
 
-      final reference = Map<String, dynamic>.from(
-        (pack['references'] as List).single as Map,
-      );
-      expect(reference['url'], officialSourceUrl);
-      expect(reference['checkedAt'], '2026-08-04');
-    },
-  );
+    final reference = Map<String, dynamic>.from(
+      (pack['references'] as List).single as Map,
+    );
+    expect(reference['url'], officialSourceUrl);
+    expect(reference['checkedAt'], '2026-08-04');
+  });
 }

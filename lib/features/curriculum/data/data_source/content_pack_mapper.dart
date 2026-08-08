@@ -51,11 +51,14 @@ abstract final class ContentPackMapper {
       sections: _maps(json['sections']).map(section).toList(),
       examples: _maps(json['examples']).map(example).toList(),
       exerciseIds: _strings(json['exerciseIds']),
+      masteryExerciseIds: _optionalStrings(json['masteryExerciseIds']),
       referenceIds: _strings(json['referenceIds']),
       tags: _strings(json['tags']),
       estimatedMinutes: json['estimatedMinutes'] as int,
       contentVersion: json['contentVersion'] as String,
       reviewStatus: contentReviewStatusFromJson(json['reviewStatus'] as String),
+      topicId: json['topicId'] as String?,
+      order: json['order'] as int? ?? 0,
       steps: _optionalMaps(json['steps']).map(lessonStep).toList(),
       citations: _optionalMaps(json['citations']).map(citation).toList(),
       reviewedBy: json['reviewedBy'] as String?,
@@ -140,6 +143,8 @@ abstract final class ContentPackMapper {
       explanation: json['explanation'] as String,
       startIndex: json['startIndex'] as int,
       endIndex: json['endIndex'] as int,
+      grammaticalAgent: json['grammaticalAgent'] as String? ?? '',
+      sentencePosition: json['sentencePosition'] as String? ?? '',
     );
   }
 

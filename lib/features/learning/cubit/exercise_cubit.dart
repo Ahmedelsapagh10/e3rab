@@ -122,6 +122,9 @@ class ExerciseCubit extends Cubit<ExerciseState> {
           earnedWeight:
               state.earnedWeight +
               (prepared.score.isCorrect ? prepared.score.weight : 0),
+          missedSkillIds: prepared.score.isCorrect
+              ? state.missedSkillIds
+              : {...state.missedSkillIds, ...state.current.skillIds}.toList(),
         ),
       ),
     );
@@ -173,13 +176,23 @@ class ExerciseCubit extends Cubit<ExerciseState> {
   Future<void> _completeSession() async {
     _timer?.cancel();
     if (lesson != null && config.mode == PracticeMode.lesson) {
-      await _completionService.complete(
+      await _completionService.completePractice(
         repository: _progress,
         owner: owner,
         lesson: lesson!,
         correctCount: state.correctCount,
         earnedWeight: state.earnedWeight,
         exerciseCount: state.exercises.length,
+        now: _now(),
+      );
+    } else if (lesson != null && config.mode == PracticeMode.lessonExam) {
+      await _completionService.completeMasteryCheck(
+        repository: _progress,
+        owner: owner,
+        lesson: lesson!,
+        correctCount: state.correctCount,
+        exerciseCount: state.exercises.length,
+        missedSkillIds: state.missedSkillIds,
         now: _now(),
       );
     }

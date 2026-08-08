@@ -5,6 +5,7 @@ import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../cubit/parsing_cubit.dart';
 import '../cubit/parsing_state.dart';
 import 'parsing_empty_view.dart';
+import 'parsing_filters_bar.dart';
 import 'parsing_report_dialog.dart';
 import 'parsing_result_view.dart';
 import 'parsing_step_view.dart';
@@ -34,6 +35,13 @@ class ParsingLabView extends StatelessWidget {
         ParsingLabStatus.ready => Column(
           children: [
             if (state.previewMode) const _DraftPreviewBanner(),
+            ParsingFiltersBar(
+              state: state,
+              onTrackChanged: context.read<ParsingCubit>().selectTrack,
+              onDifficultyChanged: context
+                  .read<ParsingCubit>()
+                  .selectDifficulty,
+            ),
             _ParsingToolbar(state: state),
             Expanded(
               child: state.completed

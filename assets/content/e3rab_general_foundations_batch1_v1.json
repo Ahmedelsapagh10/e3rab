@@ -1,0 +1,2912 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-foundations-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.4.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-foundations-module-v1",
+      "inflection-building-unit-v1",
+      "inflection-building-v1",
+      "inflection-building-v1-ex-1",
+      "inflection-building-v1-ex-2",
+      "inflection-building-v1-ex-3",
+      "inflection-building-v1-ex-4",
+      "inflection-building-v1-ex-5",
+      "inflection-building-v1-ex-6",
+      "inflection-building-v1-ex-7",
+      "inflection-building-v1-ex-8",
+      "inflection-building-v1-ex-9",
+      "inflection-building-v1-ex-10",
+      "inflection-forms-unit-v1",
+      "inflection-forms-v1",
+      "inflection-forms-v1-ex-1",
+      "inflection-forms-v1-ex-2",
+      "inflection-forms-v1-ex-3",
+      "inflection-forms-v1-ex-4",
+      "inflection-forms-v1-ex-5",
+      "inflection-forms-v1-ex-6",
+      "inflection-forms-v1-ex-7",
+      "inflection-forms-v1-ex-8",
+      "inflection-forms-v1-ex-9",
+      "inflection-forms-v1-ex-10",
+      "grammatical-governance-unit-v1",
+      "grammatical-governance-v1",
+      "grammatical-governance-v1-ex-1",
+      "grammatical-governance-v1-ex-2",
+      "grammatical-governance-v1-ex-3",
+      "grammatical-governance-v1-ex-4",
+      "grammatical-governance-v1-ex-5",
+      "grammatical-governance-v1-ex-6",
+      "grammatical-governance-v1-ex-7",
+      "grammatical-governance-v1-ex-8",
+      "grammatical-governance-v1-ex-9",
+      "grammatical-governance-v1-ex-10",
+      "sentence-types-unit-v1",
+      "sentence-types-v1",
+      "sentence-types-v1-ex-1",
+      "sentence-types-v1-ex-2",
+      "sentence-types-v1-ex-3",
+      "sentence-types-v1-ex-4",
+      "sentence-types-v1-ex-5",
+      "sentence-types-v1-ex-6",
+      "sentence-types-v1-ex-7",
+      "sentence-types-v1-ex-8",
+      "sentence-types-v1-ex-9",
+      "sentence-types-v1-ex-10",
+      "speech-expression-unit-v1",
+      "speech-expression-v1",
+      "speech-expression-v1-ex-1",
+      "speech-expression-v1-ex-2",
+      "speech-expression-v1-ex-3",
+      "speech-expression-v1-ex-4",
+      "speech-expression-v1-ex-5",
+      "speech-expression-v1-ex-6",
+      "speech-expression-v1-ex-7",
+      "speech-expression-v1-ex-8",
+      "speech-expression-v1-ex-9",
+      "speech-expression-v1-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "general-foundations-module-v1",
+      "slug": "general-foundations-v1",
+      "title": "أساسيات النحو والإعراب",
+      "unitIds": [
+        "speech-expression-unit-v1",
+        "inflection-building-unit-v1",
+        "inflection-forms-unit-v1",
+        "grammatical-governance-unit-v1",
+        "sentence-types-unit-v1"
+      ],
+      "order": 1
+    }
+  ],
+  "units": [
+    {
+      "id": "speech-expression-unit-v1",
+      "moduleId": "general-foundations-module-v1",
+      "slug": "speech-expression-unit-v1",
+      "title": "الكلام والكلم والقول",
+      "lessonIds": ["speech-expression-v1"],
+      "order": 0
+    },
+    {
+      "id": "inflection-building-unit-v1",
+      "moduleId": "general-foundations-module-v1",
+      "slug": "inflection-building-unit-v1",
+      "title": "المعرب والمبني",
+      "lessonIds": ["inflection-building-v1"],
+      "order": 1
+    },
+    {
+      "id": "inflection-forms-unit-v1",
+      "moduleId": "general-foundations-module-v1",
+      "slug": "inflection-forms-unit-v1",
+      "title": "الإعراب الظاهر والمقدّر والمحلي",
+      "lessonIds": ["inflection-forms-v1"],
+      "order": 2
+    },
+    {
+      "id": "grammatical-governance-unit-v1",
+      "moduleId": "general-foundations-module-v1",
+      "slug": "grammatical-governance-unit-v1",
+      "title": "العامل والمعمول",
+      "lessonIds": ["grammatical-governance-v1"],
+      "order": 3
+    },
+    {
+      "id": "sentence-types-unit-v1",
+      "moduleId": "general-foundations-module-v1",
+      "slug": "sentence-types-unit-v1",
+      "title": "أنواع الجمل",
+      "lessonIds": ["sentence-types-v1"],
+      "order": 4
+    }
+  ],
+  "lessons": [
+    {
+      "id": "speech-expression-v1",
+      "topicId": "foundations.speech-word-expression",
+      "order": 0,
+      "unitId": "speech-expression-unit-v1",
+      "slug": "speech-word-and-saying",
+      "title": "الكلام والكلم والقول",
+      "shortTitle": "الكلام والكلم والقول",
+      "stageIds": ["foundation", "preparatory", "secondary"],
+      "gradeIds": ["general"],
+      "objectives": [
+        "التمييز بين الكلمة والكلام والكلم والقول.",
+        "اختبار تمام الفائدة بدل الاعتماد على عدد الكلمات وحده.",
+        "فهم اجتماع المصطلحات أو افتراقها في أمثلة حقيقية."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {
+          "id": "speech-expression-v1-sec-1",
+          "type": "opening",
+          "title": "ليست المصطلحات مترادفة",
+          "body": "«كتاب» كلمة، و«العلم نور» كلام مفيد، و«إن ينجح الطالب» ثلاث كلمات لكنها لا تتم فائدتها قبل ذكر جواب الشرط. لذلك يفرق النحو بين الكلمة والكلام والكلم والقول.",
+          "order": 1,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-2",
+          "type": "explanation",
+          "title": "الكلمة والكلام",
+          "body": "الكلمة لفظ واحد يدل على معنى، مثل «علم». والكلام تركيب مسند يفيد معنى تامًا يحسن السكوت عليه، مثل «العلم نافع» أو فعل الأمر «اكتب» مع فاعله المستتر.",
+          "order": 2,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-3",
+          "type": "rule",
+          "title": "الكلم والقول",
+          "body": "الكلم ما تركب من ثلاث كلمات فأكثر، سواء أفاد معنى تامًا أم لم يفد. والقول أعم: يشمل اللفظ المفرد والمركب، المفيد وغير المفيد؛ فكل كلام قول، وليس كل قول كلامًا.",
+          "order": 3,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-4",
+          "type": "details",
+          "title": "متى تجتمع الأسماء؟",
+          "body": "«العلم نور نافع» ثلاث كلمات ومعناه تام؛ فهو كلام وكلم وقول. أما «العلم نور» فكلام وقول، وليس كلمًا اصطلاحًا لأنه أقل من ثلاث كلمات.",
+          "order": 4,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-5",
+          "type": "detection",
+          "title": "خطوات التمييز",
+          "body": "عد الكلمات أولًا لتعرف إمكان كونه كلمًا، ثم ابحث عن الإسناد وتمام الفائدة لتعرف هل هو كلام، وأطلق القول على كل لفظ مستعمل. وإذا كان لفظًا واحدًا فهو كلمة من جهة الصورة.",
+          "order": 5,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-6",
+          "type": "reasoning",
+          "title": "الفائدة أهم من الطول",
+          "body": "قد يكون التركيب طويلًا ولا يتم معناه، مثل «إن ينجح الطالب» لأنه ينتظر جواب الشرط. وقد يكون مكتوبًا في كلمة واحدة ويعطي معنى تامًا، مثل «اكتب»؛ لأن فاعله ضمير مستتر تقديره أنت.",
+          "order": 6,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-7",
+          "type": "comparison",
+          "title": "مثال مضاد",
+          "body": "«في الفصل» كلمتان وشبه جملة، لكنه لا يحدد وحده مَن أو ما الموجود في الفصل؛ فهو قول مركب غير تام، ولا يصبح كلامًا إلا داخل تركيب مثل «في الفصل طلاب».",
+          "order": 7,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-8",
+          "type": "warning",
+          "title": "الكلمة النحوية ليست الحرف المكتوب",
+          "body": "نعد الوحدات ذات المعنى، لا حروف الهجاء. «بالبيت» تشتمل صرفيًا على الباء و«البيت»، لكن طريقة العد المدرسية تتبع الكلمات في السياق والغرض من السؤال.",
+          "order": 8,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-9",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "ليس كل تركيب كلامًا، وليس كل كلام ثلاث كلمات، ولا يعني «الكلم» جمعًا عاديًا للكلمة فقط في هذا الباب؛ بل هو مصطلح لتركيب من ثلاث كلمات فأكثر.",
+          "order": 9,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-sec-10",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الكلمة لفظ واحد، والكلام تركيب مفيد تام، والكلم ثلاث كلمات فأكثر أفادت أو لم تفد، والقول يشمل الجميع. اختبر العدد والإسناد وتمام المعنى بهذا الترتيب.",
+          "order": 10,
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "examples": [
+        {
+          "id": "speech-expression-v1-example-1",
+          "sentence": "كتاب",
+          "fullyDiacritizedSentence": "كِتَابٌ",
+          "parsedWords": [
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم وكلمة مفردة",
+              "grammaticalRole": "لفظ مفرد خارج تركيب إسنادي",
+              "grammaticalState": "يتحدد حكمه عند دخوله في جملة",
+              "grammaticalSign": "تتحدد العلامة بحسب السياق",
+              "signReason": "لم يسند إلى شيء ولم يسبقه عامل في المثال المفرد",
+              "grammaticalAgent": "لا عامل إعرابي قبل وضعه في جملة",
+              "sentencePosition": "كلمة وقول مفرد، وليس كلامًا أو كلمًا",
+              "explanation": "دل على معنى واحد من غير تركيب يفيد فائدة تامة.",
+              "startIndex": 0,
+              "endIndex": 4
+            }
+          ],
+          "explanation": "مثال للكلمة والقول المفرد.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-example-2",
+          "sentence": "العلم نور",
+          "fullyDiacritizedSentence": "العِلْمُ نُورٌ",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "المسند إليه في جملة اسمية",
+              "explanation": "اسم أخبرنا عنه بالنور.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإسناد إلى المبتدأ",
+              "sentencePosition": "المسند في جملة اسمية",
+              "explanation": "أتم الفائدة مع المبتدأ.",
+              "startIndex": 6,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "تركيب مفيد من كلمتين؛ فهو كلام وقول، وليس كلمًا اصطلاحًا.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-example-3",
+          "sentence": "العلم نور نافع",
+          "fullyDiacritizedSentence": "العِلْمُ نُورٌ نَافِعٌ",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "مبتدأ الجملة الاسمية",
+              "explanation": "مبتدأ مرفوع بالضمة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإسناد إلى المبتدأ",
+              "sentencePosition": "خبر الجملة الاسمية",
+              "explanation": "خبر مرفوع أتم أصل الفائدة.",
+              "startIndex": 6,
+              "endIndex": 9
+            },
+            {
+              "word": "نافع",
+              "normalizedWord": "نافع",
+              "wordType": "اسم مشتق معرب",
+              "grammaticalRole": "نعت للخبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تبع المنعوت المرفوع وهو اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "التبعية للمنعوت «نور»",
+              "sentencePosition": "وصف متمم للخبر",
+              "explanation": "نعت مرفوع تبع الخبر في رفعه.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "ثلاث كلمات ومعنى تام؛ فهو كلام وكلم وقول.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-example-4",
+          "sentence": "إن ينجح الطالب",
+          "fullyDiacritizedSentence": "إِنْ يَنْجَحْ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط جازم",
+              "grammaticalRole": "أداة تربط فعل الشرط بجوابه",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر تركيب شرطي غير مكتمل",
+              "explanation": "أداة شرط تحتاج فعل شرط وجوابًا يتم به المعنى.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "ينجح",
+              "normalizedWord": "ينجح",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "فعل مضارع صحيح الآخر",
+              "grammaticalAgent": "أداة الشرط الجازمة «إن»",
+              "sentencePosition": "فعل الشرط في تركيب ينتظر الجواب",
+              "explanation": "فعل مضارع مجزوم بإن الشرطية.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «ينجح»",
+              "sentencePosition": "فاعل فعل الشرط",
+              "explanation": "فاعل مرفوع بالضمة.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "ثلاث كلمات فهو كلم وقول، لكنه ليس كلامًا تامًا لأنه ينتظر جواب الشرط.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-example-5",
+          "sentence": "اكتب",
+          "fullyDiacritizedSentence": "اُكْتُبْ",
+          "parsedWords": [
+            {
+              "word": "اكتب",
+              "normalizedWord": "اكتب",
+              "wordType": "فعل أمر",
+              "grammaticalRole": "فعل، وفاعله ضمير مستتر وجوبًا تقديره أنت",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "فعل أمر صحيح الآخر لم يتصل به شيء",
+              "grammaticalAgent": "البناء أصل في فعل الأمر",
+              "sentencePosition": "جملة فعلية تامة الإسناد بفاعل مستتر",
+              "explanation": "مع أنه كلمة مكتوبة واحدة، فقد أفاد طلب الكتابة من المخاطب.",
+              "startIndex": 0,
+              "endIndex": 4
+            }
+          ],
+          "explanation": "مثال مضاد: كلمة واحدة في الكتابة، لكنها كلام مفيد بسبب الفاعل المستتر.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "speech-expression-v1-example-6",
+          "sentence": "في الفصل",
+          "fullyDiacritizedSentence": "فِي الفَصْلِ",
+          "parsedWords": [
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "رأس شبه جملة غير مكتملة وحدها",
+              "explanation": "حرف جر يحتاج اسمًا بعده.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "الفصل",
+              "normalizedWord": "الفصل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حرف الجر «في»",
+              "sentencePosition": "داخل شبه الجملة",
+              "explanation": "اسم مجرور بالكسرة، والتركيب ينتظر ما يتم معناه.",
+              "startIndex": 3,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "قول مركب من كلمتين، لكنه ليس كلامًا تامًا ولا كلمًا اصطلاحًا.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "exerciseIds": [
+        "speech-expression-v1-ex-1",
+        "speech-expression-v1-ex-2",
+        "speech-expression-v1-ex-3",
+        "speech-expression-v1-ex-4",
+        "speech-expression-v1-ex-5",
+        "speech-expression-v1-ex-6",
+        "speech-expression-v1-ex-7",
+        "speech-expression-v1-ex-8",
+        "speech-expression-v1-ex-9",
+        "speech-expression-v1-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "speech-expression-v1-ex-2",
+        "speech-expression-v1-ex-4",
+        "speech-expression-v1-ex-6",
+        "speech-expression-v1-ex-8",
+        "speech-expression-v1-ex-10"
+      ],
+      "referenceIds": ["ref-general-foundations-v1"],
+      "tags": ["الكلمة", "الكلام", "الكلم", "القول", "تمام الفائدة"],
+      "estimatedMinutes": 22,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "inflection-building-v1",
+      "topicId": "foundations.inflection-building",
+      "order": 2,
+      "unitId": "inflection-building-unit-v1",
+      "slug": "inflection-and-building",
+      "title": "المعرب والمبني",
+      "shortTitle": "المعرب والمبني",
+      "stageIds": ["foundation", "preparatory", "secondary"],
+      "gradeIds": ["general"],
+      "objectives": [
+        "التمييز بين الكلمة المعربة والكلمة المبنية.",
+        "ملاحظة تغير آخر المعرب بتغير العامل.",
+        "ذكر المحل الإعرابي للكلمة المبنية حين يكون لها محل."
+      ],
+      "prerequisiteIds": [],
+      "sections": [
+        {
+          "id": "inflection-building-v1-sec-1",
+          "type": "opening",
+          "title": "مدخل الدرس",
+          "body": "نقول: حضر محمدٌ، ورأيت محمدًا، وسلمت على محمدٍ. تغير آخر الاسم لأن موقعه والعامل قبله تغيرا.",
+          "order": 1,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-2",
+          "type": "explanation",
+          "title": "الفكرة الأساسية",
+          "body": "المعرب تتغير علامة آخره بحسب موقعه والعامل فيه، أما المبني فيلزم آخره صورة واحدة، وقد تكون له وظيفة نعبر عنها بقولنا: في محل رفع أو نصب أو جر.",
+          "order": 2,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الأصل في الأسماء الإعراب، وتبنى طوائف مثل الضمائر وأكثر أسماء الإشارة والأسماء الموصولة. والفعل الماضي والأمر مبنيان في الأصل، والمضارع معرب في الأصل إلا إذا اتصلت به نون النسوة أو نون التوكيد اتصالًا مباشرًا.",
+          "order": 3,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-4",
+          "type": "reasoning",
+          "title": "لماذا يهم هذا الفرق؟",
+          "body": "قبل اختيار الضمة أو الفتحة أو الكسرة يجب أن تعرف هل الكلمة معربة فتظهر عليها علامة، أم مبنية فتلزم صورة واحدة ويكون الحكم على محلها.",
+          "order": 4,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "غيّر موقع الكلمة في أكثر من جملة، وراقب آخرها. إن تغيرت العلامة فهي معربة، وإن لزمت صورة واحدة فابحث هل هي من أنواع المبنيات، ثم حدّد محلها إن كان لها محل.",
+          "order": 5,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-6",
+          "type": "comparison",
+          "title": "قارن وانتبه",
+          "body": "«الطالبُ، الطالبَ، الطالبِ» اسم معرب تغير آخره، أما «هذا» في: هذا طالب، ورأيت هذا، ومررت بهذا؛ فبقي مبنيًا وتغير محله فقط.",
+          "order": 6,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-7",
+          "type": "misconceptions",
+          "title": "خطأ شائع",
+          "body": "المبني ليس بلا إعراب دائمًا؛ فقد يكون مبنيًا وله محل إعرابي، مثل «هذا» اسم إشارة مبني في محل رفع مبتدأ.",
+          "order": 7,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-sec-8",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المعرب: تتغير علامة آخره. المبني: يلزم صورة واحدة. وبعد تحديد النوع نذكر العلامة للمعرب، أو علامة البناء والمحل للمبني.",
+          "order": 8,
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "examples": [
+        {
+          "id": "inflection-building-v1-example-1",
+          "sentence": "حضر محمد",
+          "fullyDiacritizedSentence": "حَضَرَ مُحَمَّدٌ",
+          "parsedWords": [
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "جزء من الجملة الفعلية",
+              "explanation": "تغير آخر «محمد» إلى الضمة لأنه وقع فاعلًا.",
+              "startIndex": 4,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "ظهر الإعراب على آخر الاسم بالضمة بسبب موقع الفاعل.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-example-2",
+          "sentence": "رأيت محمدًا",
+          "fullyDiacritizedSentence": "رَأَيْتُ مُحَمَّدًا",
+          "parsedWords": [
+            {
+              "word": "محمدًا",
+              "normalizedWord": "محمدا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل المتعدي «رأيت»",
+              "sentencePosition": "جزء من الجملة الفعلية",
+              "explanation": "تغير آخر الاسم إلى الفتحة لأنه وقع مفعولًا به.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الكلمة نفسها تغيرت علامتها حين تغير موقعها من فاعل إلى مفعول به.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-example-3",
+          "sentence": "هذا طالب",
+          "fullyDiacritizedSentence": "هَذَا طَالِبٌ",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "اسم إشارة مبني",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم الإشارة من الأسماء المبنية",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "الركن الأول في الجملة الاسمية",
+              "explanation": "لزم آخر «هذا» صورة واحدة، لكن له محل رفع لأنه مبتدأ.",
+              "startIndex": 0,
+              "endIndex": 3
+            }
+          ],
+          "explanation": "البناء لا يمنع وجود المحل الإعرابي.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-building-v1-example-4",
+          "sentence": "كتب الطالب",
+          "fullyDiacritizedSentence": "كَتَبَ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "فعل ماض مبني",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "الفتح الظاهر",
+              "signReason": "فعل ماض لم يتصل به ما يغير بناءه",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "لا محل له من الإعراب",
+              "explanation": "الفعل الماضي مبني، وهنا بني على الفتح الظاهر.",
+              "startIndex": 0,
+              "endIndex": 3
+            }
+          ],
+          "explanation": "يبين المثال أن البناء لا يقتصر على بعض الأسماء، فالفعل الماضي مبني أيضًا.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "exerciseIds": [
+        "inflection-building-v1-ex-1",
+        "inflection-building-v1-ex-2",
+        "inflection-building-v1-ex-3",
+        "inflection-building-v1-ex-4",
+        "inflection-building-v1-ex-5",
+        "inflection-building-v1-ex-6",
+        "inflection-building-v1-ex-7",
+        "inflection-building-v1-ex-8",
+        "inflection-building-v1-ex-9",
+        "inflection-building-v1-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "inflection-building-v1-ex-2",
+        "inflection-building-v1-ex-4",
+        "inflection-building-v1-ex-6",
+        "inflection-building-v1-ex-8",
+        "inflection-building-v1-ex-10"
+      ],
+      "referenceIds": ["ref-general-foundations-v1"],
+      "tags": ["المعرب", "المبني", "الإعراب", "البناء", "المحل الإعرابي"],
+      "estimatedMinutes": 20,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "inflection-forms-v1",
+      "topicId": "foundations.inflection-forms",
+      "order": 3,
+      "unitId": "inflection-forms-unit-v1",
+      "slug": "visible-estimated-local-inflection",
+      "title": "الإعراب الظاهر والمقدّر والمحلي",
+      "shortTitle": "صور الإعراب",
+      "stageIds": ["foundation", "preparatory", "secondary"],
+      "gradeIds": ["general"],
+      "objectives": [
+        "التمييز بين العلامة الظاهرة والعلامة المقدّرة والمحل الإعرابي.",
+        "تحديد سبب تقدير الحركة: التعذر أو الثقل أو اشتغال المحل.",
+        "صياغة إعراب كامل للكلمة المعربة والمبنية دون خلط بين العلامة والمحل."
+      ],
+      "prerequisiteIds": ["inflection-building-v1"],
+      "sections": [
+        {
+          "id": "inflection-forms-v1-sec-1",
+          "type": "opening",
+          "title": "لماذا لا نرى الحركة دائمًا؟",
+          "body": "تظهر الضمة في «حضر الطالبُ»، لكنها لا تظهر في «حضر الفتى». الكلمتان مرفوعتان، والفرق أن علامة الأولى ظاهرة وعلامة الثانية مقدّرة.",
+          "order": 1,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-2",
+          "type": "explanation",
+          "title": "ثلاث صور يجب فصلها",
+          "body": "الإعراب الظاهر نرى علامته على آخر الكلمة، والمقدّر نثبت علامته ولا تظهر لعائق صوتي، أما الإعراب المحلي فنستعمله مع المبني الذي يشغل موقعًا نحويًا أو مع جملة لها محل.",
+          "order": 2,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "تظهر الحركة إذا أمكن النطق بها على آخر المعرب. وتقدّر الحركات على الاسم المقصور للتعذر، وتقدّر الضمة والكسرة على الاسم المنقوص للثقل وتظهر عليه الفتحة، وتقدّر الحركة على ما قبل ياء المتكلم لاشتغال المحل بحركة المناسبة. ويذكر المحل مع المبني بحسب وظيفته: في محل رفع أو نصب أو جر.",
+          "order": 3,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-4",
+          "type": "reasoning",
+          "title": "العامل قبل العلامة",
+          "body": "نحدد الوظيفة والعامل أولًا؛ فالفاعل مرفوع والمفعول به منصوب. بعد ذلك نسأل: هل يمكن أن تظهر العلامة على آخر الكلمة، أم يمنعها التعذر أو الثقل، أم أن الكلمة مبنية فنذكر محلها؟",
+          "order": 4,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدّد نوع الكلمة ووظيفتها والعامل وحالتها، ثم افحص آخرها: حركة منطوقة فهي ظاهرة؛ ألف لازمة في اسم مقصور فالحركة مقدّرة للتعذر؛ ياء لازمة في اسم منقوص فقد تقدّر الضمة أو الكسرة للثقل؛ كلمة مبنية فالحكم على محلها.",
+          "order": 5,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-6",
+          "type": "details",
+          "title": "تنبيه مهم",
+          "body": "ليست كل حركة في الاسم المنقوص مقدّرة؛ فالفتحة تظهر لخفتها، فنقول: «رأيت القاضيَ» مفعول به منصوب بالفتحة الظاهرة.",
+          "order": 6,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-7",
+          "type": "comparison",
+          "title": "مثال مضاد",
+          "body": "في «جاء القاضي» الضمة مقدّرة للثقل، لكن في «رأيت القاضيَ» الفتحة ظاهرة. وجود الياء وحده لا يعني أن كل العلامات مقدّرة.",
+          "order": 7,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تقل إن «الفتى» مبني لأن الحركة لم تظهر؛ فهو اسم معرب وعلامته مقدّرة. ولا تقل إن «هذا» مرفوع بضمة مقدّرة؛ فهو مبني في محل رفع.",
+          "order": 8,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الظاهر: علامة منطوقة على آخر المعرب. المقدّر: علامة موجودة حكمًا منع ظهورها عائق. المحلي: حكم الموقع الذي شغلته كلمة مبنية أو جملة.",
+          "order": 9,
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "examples": [
+        {
+          "id": "inflection-forms-v1-example-1",
+          "sentence": "حضر الطالب",
+          "fullyDiacritizedSentence": "حَضَرَ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح الظاهر",
+              "signReason": "فعل ماض لم يتصل به ما يغيّر بناءه",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل ماض مبني على الفتح الظاهر.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "فاعل الجملة الفعلية",
+              "explanation": "ظهرت الضمة على آخر الاسم بلا مانع.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "مثال مباشر للعلامة الإعرابية الظاهرة.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-example-2",
+          "sentence": "جاء الفتى",
+          "fullyDiacritizedSentence": "جَاءَ الفَتَى",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح الظاهر",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل ماض مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الفتى",
+              "normalizedWord": "الفتى",
+              "wordType": "اسم مقصور معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة المقدّرة على الألف",
+              "signReason": "منع من ظهورها التعذر",
+              "grammaticalAgent": "الفعل «جاء»",
+              "sentencePosition": "فاعل الجملة الفعلية",
+              "explanation": "ثبت الرفع، وتعذر ظهور الضمة على الألف اللازمة.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "«الفتى» معرب رغم عدم ظهور الضمة.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-example-3",
+          "sentence": "رأيت الفتى",
+          "fullyDiacritizedSentence": "رَأَيْتُ الفَتَى",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "فعل ماض متصل بتاء الفاعل",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "الفعل مبني والضمير في محل رفع",
+              "grammaticalSign": "مبني على السكون لاتصاله بتاء الفاعل",
+              "signReason": "اتصال الفعل بضمير رفع متحرك",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "فعل الجملة وفاعله",
+              "explanation": "رأى فعل ماض، والتاء ضمير متصل في محل رفع فاعل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الفتى",
+              "normalizedWord": "الفتى",
+              "wordType": "اسم مقصور معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة المقدّرة على الألف",
+              "signReason": "منع من ظهورها التعذر",
+              "grammaticalAgent": "الفعل المتعدي «رأيت»",
+              "sentencePosition": "مفعول به في الجملة الفعلية",
+              "explanation": "تعذر ظهور الفتحة على ألف الاسم المقصور.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "تقدّر الحركات الثلاث على ألف الاسم المقصور للتعذر.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-example-4",
+          "sentence": "جاء القاضي",
+          "fullyDiacritizedSentence": "جَاءَ القَاضِي",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح الظاهر",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل ماض مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "القاضي",
+              "normalizedWord": "القاضي",
+              "wordType": "اسم منقوص معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة المقدّرة على الياء",
+              "signReason": "منع من ظهورها الثقل",
+              "grammaticalAgent": "الفعل «جاء»",
+              "sentencePosition": "فاعل الجملة الفعلية",
+              "explanation": "ثقل نطق الضمة على ياء الاسم المنقوص.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "تقدّر الضمة على ياء الاسم المنقوص للثقل.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-example-5",
+          "sentence": "رأيت القاضي",
+          "fullyDiacritizedSentence": "رَأَيْتُ القَاضِيَ",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "فعل ماض متصل بتاء الفاعل",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "الفعل مبني والضمير في محل رفع",
+              "grammaticalSign": "مبني على السكون لاتصاله بتاء الفاعل",
+              "signReason": "اتصال الفعل بضمير رفع متحرك",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "فعل الجملة وفاعله",
+              "explanation": "الفعل مبني على السكون، والتاء فاعل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "القاضي",
+              "normalizedWord": "القاضي",
+              "wordType": "اسم منقوص معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة على الياء",
+              "signReason": "ظهرت الفتحة لخفتها",
+              "grammaticalAgent": "الفعل المتعدي «رأيت»",
+              "sentencePosition": "مفعول به في الجملة الفعلية",
+              "explanation": "الفتحة خفيفة فتظهر على ياء الاسم المنقوص.",
+              "startIndex": 5,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "مثال مضاد يثبت أن الفتحة تظهر على الاسم المنقوص.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "inflection-forms-v1-example-6",
+          "sentence": "هذا مجتهد",
+          "fullyDiacritizedSentence": "هَذَا مُجْتَهِدٌ",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "اسم إشارة مبني",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم الإشارة من الأسماء المبنية",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "الركن الأول في الجملة الاسمية",
+              "explanation": "المحل رفع لأن اسم الإشارة وقع مبتدأ.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "مجتهد",
+              "normalizedWord": "مجتهد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «هذا»",
+              "sentencePosition": "خبر الجملة الاسمية",
+              "explanation": "خبر مرفوع وعلامة رفعه الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "المحل الإعرابي يصف وظيفة المبني، ولا يحوله إلى كلمة معربة.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "exerciseIds": [
+        "inflection-forms-v1-ex-1",
+        "inflection-forms-v1-ex-2",
+        "inflection-forms-v1-ex-3",
+        "inflection-forms-v1-ex-4",
+        "inflection-forms-v1-ex-5",
+        "inflection-forms-v1-ex-6",
+        "inflection-forms-v1-ex-7",
+        "inflection-forms-v1-ex-8",
+        "inflection-forms-v1-ex-9",
+        "inflection-forms-v1-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "inflection-forms-v1-ex-2",
+        "inflection-forms-v1-ex-4",
+        "inflection-forms-v1-ex-6",
+        "inflection-forms-v1-ex-8",
+        "inflection-forms-v1-ex-10"
+      ],
+      "referenceIds": ["ref-general-foundations-v1"],
+      "tags": ["الإعراب الظاهر", "الإعراب المقدّر", "الإعراب المحلي", "المقصور", "المنقوص"],
+      "estimatedMinutes": 24,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "grammatical-governance-v1",
+      "topicId": "foundations.governor-governed",
+      "order": 4,
+      "unitId": "grammatical-governance-unit-v1",
+      "slug": "grammatical-governor-and-governed",
+      "title": "العامل والمعمول",
+      "shortTitle": "العامل والمعمول",
+      "stageIds": ["foundation", "preparatory", "secondary"],
+      "gradeIds": ["general"],
+      "objectives": [
+        "تحديد العامل الذي طلب الرفع أو النصب أو الجر أو الجزم.",
+        "ربط المعمول بوظيفته وحالته وعلامته وسببها.",
+        "التمييز بين العامل اللفظي والعامل المعنوي في الأمثلة الأساسية."
+      ],
+      "prerequisiteIds": ["inflection-forms-v1"],
+      "sections": [
+        {
+          "id": "grammatical-governance-v1-sec-1",
+          "type": "opening",
+          "title": "لماذا تغير الحكم؟",
+          "body": "في «كتب الطالبُ الدرسَ» رفع الفعل فاعله ونصب مفعوله. وفي «مررت في الحديقةِ» جر حرف الجر الاسم بعده. معرفة العامل تفسر الحكم بدل حفظ الحركة وحدها.",
+          "order": 1,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-2",
+          "type": "explanation",
+          "title": "ما العامل وما المعمول؟",
+          "body": "العامل هو اللفظ أو المعنى الذي يطلب حكمًا إعرابيًا، والمعمول هو الكلمة التي ظهر فيها هذا الحكم. نقول مثلًا: الفعل عامل، والفاعل والمفعول به معمولان له.",
+          "order": 2,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الفعل يرفع فاعله وينصب مفعوله إن كان متعديًا، وحرف الجر يجر الاسم بعده، وإنّ وأخواتها تنصب الاسم وترفع الخبر، ولن تنصب المضارع، ولم تجزمه. ويرفع الابتداء المبتدأ بوصفه عاملًا معنويًا.",
+          "order": 3,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-4",
+          "type": "details",
+          "title": "عامل لفظي وعامل معنوي",
+          "body": "العامل اللفظي كلمة ظاهرة مثل الفعل وحرف الجر والناسخ. والعامل المعنوي معنى يفهم من التركيب، مثل الابتداء في رفع المبتدأ، وتجرد المضارع من الناصب والجازم في رفعه.",
+          "order": 4,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-5",
+          "type": "detection",
+          "title": "كيف تكتشف العامل؟",
+          "body": "حدّد الوظيفة أولًا، ثم ابحث عما طلبها: فعل قبل الفاعل أو المفعول، حرف جر قبل المجرور، ناسخ دخل على الجملة، أداة نصب أو جزم قبل المضارع، أو ابتداء في الجملة الاسمية الخالية من الناسخ.",
+          "order": 5,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-6",
+          "type": "reasoning",
+          "title": "سلسلة الإعراب الصحيحة",
+          "body": "نوع الكلمة ← موقعها ← العامل ← الحالة الإعرابية ← العلامة ← سبب العلامة. لا تختَر الضمة أو الفتحة قبل أن تعرف الوظيفة والعامل.",
+          "order": 6,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-7",
+          "type": "warning",
+          "title": "الأقرب ليس العامل دائمًا",
+          "body": "في «إن العلم نور» لا ترفع «نور» لمجرد قربها من «العلم»؛ العامل هو «إنّ» التي نصبت اسمها ورفعت خبرها. ابحث عن العلاقة النحوية لا عن أقرب كلمة فقط.",
+          "order": 7,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-8",
+          "type": "comparison",
+          "title": "قارن بين لن ولم",
+          "body": "في «لن يهملَ» نصبت «لن» المضارع بالفتحة، وفي «لم يهملْ» جزمت «لم» المضارع بالسكون. الفعل واحد، لكن العامل تغير فتغيرت الحالة والعلامة.",
+          "order": 8,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-9",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تقل إن الحركة نفسها هي العامل، ولا تجعل كل كلمة سابقة عاملًا. العامل يفسر الحكم النحوي، والعلامة دليل هذا الحكم على آخر المعمول.",
+          "order": 9,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-sec-10",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "العامل يطلب الحكم، والمعمول يحمله، والعلامة تكشفه. ابدأ دائمًا بالوظيفة ثم العامل، وبعدهما سمّ الحالة والعلامة والسبب.",
+          "order": 10,
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "examples": [
+        {
+          "id": "grammatical-governance-v1-example-1",
+          "sentence": "كتب الطالب الدرس",
+          "fullyDiacritizedSentence": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+          "parsedWords": [
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة والعامل في الفاعل والمفعول",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح الظاهر",
+              "signReason": "فعل ماض لم يتصل به ما يغير بناءه",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "الفعل هو العامل اللفظي الذي رفع الفاعل ونصب المفعول.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «كتب»",
+              "sentencePosition": "فاعل الجملة الفعلية",
+              "explanation": "رفعه الفعل لأنه القائم بالكتابة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل المتعدي «كتب»",
+              "sentencePosition": "مفعول به في الجملة الفعلية",
+              "explanation": "نصبه الفعل لأنه وقع عليه فعل الكتابة.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "عامل واحد رفع فاعله ونصب مفعوله بحسب وظيفة كل معمول.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-example-2",
+          "sentence": "مررت في الحديقة",
+          "fullyDiacritizedSentence": "مَرَرْتُ فِي الحَدِيقَةِ",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل ماض متصل بتاء الفاعل",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "الفعل مبني والتاء في محل رفع",
+              "grammaticalSign": "مبني على السكون لاتصاله بتاء الفاعل",
+              "signReason": "اتصال الفعل بضمير رفع متحرك",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "فعل الجملة وفاعله",
+              "explanation": "مر فعل ماض، والتاء ضمير في محل رفع فاعل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر مبني",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "رأس شبه الجملة",
+              "explanation": "حرف جر عامل فيما بعده.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "الحديقة",
+              "normalizedWord": "الحديقة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حرف الجر «في»",
+              "sentencePosition": "اسم داخل شبه الجملة",
+              "explanation": "جره حرف الجر «في» وظهرت الكسرة على آخره.",
+              "startIndex": 8,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "حرف الجر عامل لفظي، والاسم بعده معمول مجرور.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-example-3",
+          "sentence": "إن العلم نور",
+          "fullyDiacritizedSentence": "إِنَّ العِلْمَ نُورٌ",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف توكيد ونصب",
+              "grammaticalRole": "ناسخ وعامل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "ناسخ في صدر الجملة الاسمية",
+              "explanation": "نصبت الاسم ورفعت الخبر.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم إن",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الحرف الناسخ «إن»",
+              "sentencePosition": "اسم الناسخ",
+              "explanation": "نصبته «إن» فظهرت الفتحة على آخره.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر إن",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الحرف الناسخ «إن»",
+              "sentencePosition": "خبر الناسخ",
+              "explanation": "رفعته «إن» بوصفه خبرها.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الناسخ عامل في ركني الجملة: ينصب الاسم ويرفع الخبر.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-example-4",
+          "sentence": "الطالب مجتهد",
+          "fullyDiacritizedSentence": "الطَّالِبُ مُجْتَهِدٌ",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء، وهو عامل معنوي",
+              "sentencePosition": "الركن الأول في الجملة الاسمية",
+              "explanation": "رفعه الابتداء في جملة خالية من الناسخ.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "مجتهد",
+              "normalizedWord": "مجتهد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ وما ينشأ عنه من الإسناد",
+              "sentencePosition": "الركن المتمم للجملة الاسمية",
+              "explanation": "خبر أتم الفائدة مع المبتدأ وهو مرفوع.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الابتداء مثال لعامل معنوي لا يظهر في صورة كلمة مستقلة.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-example-5",
+          "sentence": "لن يهمل الطالب",
+          "fullyDiacritizedSentence": "لَنْ يُهْمِلَ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "لن",
+              "normalizedWord": "لن",
+              "wordType": "حرف نفي ونصب واستقبال",
+              "grammaticalRole": "عامل نصب المضارع",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "أداة قبل الفعل المضارع",
+              "explanation": "حرف نصب غيّر حالة الفعل بعده.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يهمل",
+              "normalizedWord": "يهمل",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "فعل مضارع صحيح الآخر لم يتصل به شيء",
+              "grammaticalAgent": "أداة النصب «لن»",
+              "sentencePosition": "فعل مضارع في جملة فعلية",
+              "explanation": "نصبته «لن» بالفتحة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يهمل»",
+              "sentencePosition": "فاعل الجملة الفعلية",
+              "explanation": "رفعه الفعل المضارع لأنه القائم بالفعل.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "«لن» عامل نصب في المضارع، والفعل نفسه عامل رفع في فاعله.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "grammatical-governance-v1-example-6",
+          "sentence": "لم يهمل الطالب",
+          "fullyDiacritizedSentence": "لَمْ يُهْمِلْ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "لم",
+              "normalizedWord": "لم",
+              "wordType": "حرف نفي وجزم وقلب",
+              "grammaticalRole": "عامل جزم المضارع",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "أداة قبل الفعل المضارع",
+              "explanation": "حرف جزم غيّر حالة الفعل بعده.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يهمل",
+              "normalizedWord": "يهمل",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "فعل مضارع صحيح الآخر",
+              "grammaticalAgent": "أداة الجزم «لم»",
+              "sentencePosition": "فعل مضارع في جملة فعلية",
+              "explanation": "جزمته «لم» بالسكون الظاهر.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يهمل»",
+              "sentencePosition": "فاعل الجملة الفعلية",
+              "explanation": "فاعل مرفوع بالضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "تغير العامل من «لن» إلى «لم» فانتقل المضارع من النصب إلى الجزم.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "exerciseIds": [
+        "grammatical-governance-v1-ex-1",
+        "grammatical-governance-v1-ex-2",
+        "grammatical-governance-v1-ex-3",
+        "grammatical-governance-v1-ex-4",
+        "grammatical-governance-v1-ex-5",
+        "grammatical-governance-v1-ex-6",
+        "grammatical-governance-v1-ex-7",
+        "grammatical-governance-v1-ex-8",
+        "grammatical-governance-v1-ex-9",
+        "grammatical-governance-v1-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "grammatical-governance-v1-ex-2",
+        "grammatical-governance-v1-ex-4",
+        "grammatical-governance-v1-ex-6",
+        "grammatical-governance-v1-ex-8",
+        "grammatical-governance-v1-ex-10"
+      ],
+      "referenceIds": ["ref-general-foundations-v1"],
+      "tags": ["العامل", "المعمول", "العامل اللفظي", "العامل المعنوي", "الحكم الإعرابي"],
+      "estimatedMinutes": 26,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-types-v1",
+      "topicId": "foundations.sentence-types",
+      "order": 5,
+      "unitId": "sentence-types-unit-v1",
+      "slug": "arabic-sentence-types",
+      "title": "أنواع الجمل",
+      "shortTitle": "أنواع الجمل",
+      "stageIds": ["foundation", "preparatory", "secondary"],
+      "gradeIds": ["general"],
+      "objectives": [
+        "التمييز بين الجملة الاسمية والجملة الفعلية من أركانهما.",
+        "تمييز الخبر المفرد والخبر الجملة والخبر شبه الجملة.",
+        "التعرف على الجملة الكبرى والجملة الصغرى دون اعتبار شبه الجملة جملة مستقلة."
+      ],
+      "prerequisiteIds": ["grammatical-governance-v1"],
+      "sections": [
+        {
+          "id": "sentence-types-v1-sec-1",
+          "type": "opening",
+          "title": "ابحث عن الإسناد",
+          "body": "الجملة بناء يربط مسندًا بمسند إليه ليعطي معنى. في «العلم نور» أسندنا النور إلى العلم، وفي «يقرأ الطفل» أسندنا القراءة إلى الطفل.",
+          "order": 1,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-2",
+          "type": "explanation",
+          "title": "اسمية أم فعلية؟",
+          "body": "الجملة الاسمية أصلها مبتدأ وخبر، والجملة الفعلية أصلها فعل وفاعل وقد تحتاج مفعولًا أو متممات. نحدد النوع من البناء والأركان، لا من الحركة أو عدد الكلمات.",
+          "order": 2,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "إذا كان الإسناد الأصلي بين مبتدأ وخبر فالجملة اسمية، وإذا كان بين فعل وفاعله فالجملة فعلية. وقد يأتي الخبر مفردًا أو جملة اسمية أو فعلية أو شبه جملة من جار ومجرور أو ظرف.",
+          "order": 3,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-4",
+          "type": "details",
+          "title": "الجملة الكبرى والصغرى",
+          "body": "الجملة الكبرى جملة اسمية خبرها جملة، مثل «الحديقة أزهارها جميلة». والجملة الصغرى هي الجملة الواقعة خبرًا، وهي هنا «أزهارها جميلة» في محل رفع خبر للمبتدأ الأول.",
+          "order": 4,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-5",
+          "type": "detection",
+          "title": "خطوات تحديد النوع",
+          "body": "حدّد الكلمات، ثم ابحث عن الركنين المسند والمسند إليه. إن وجدت فعلًا أسند إلى فاعل فالبناء فعلي، وإن وجدت اسمًا أخبر عنه بخبر فالبناء اسمي. بعد ذلك حدّد صورة الخبر وهل يحتوي جملة أخرى.",
+          "order": 5,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-6",
+          "type": "reasoning",
+          "title": "شبه الجملة ليس جملة مستقلة",
+          "body": "«في الفصل» جار ومجرور يسمى شبه جملة لأنه لا يشتمل وحده على إسناد كامل. لكنه قد يؤدي وظيفة الخبر، كما في «في الفصل طلاب» حيث الخبر مقدم والمبتدأ مؤخر.",
+          "order": 6,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-7",
+          "type": "warning",
+          "title": "لا تعتمد على أول كلمة وحدها",
+          "body": "«في الفصل طلاب» بدأت بحرف جر، لكنها جملة اسمية؛ لأن ركنيها خبر مقدم ومبتدأ مؤخر. و«لن يهمل الطالب» بدأت بحرف، لكنها جملة فعلية لأن الإسناد بين الفعل وفاعله.",
+          "order": 7,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-8",
+          "type": "comparison",
+          "title": "قارن صور الخبر",
+          "body": "«الطالب مجتهد»: خبر مفرد. «الطالب يقرأ»: جملة فعلية في محل رفع خبر. «العصفور فوق الشجرة»: شبه جملة متعلق بمحذوف في محل رفع خبر.",
+          "order": 8,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-9",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تسم كل تركيب يبدأ باسم جملة اسمية قبل فحص الإسناد، ولا تسم الجار والمجرور جملة كاملة، ولا تنس أن الجملة الواقعة خبرًا تحتاج رابطًا يعود إلى المبتدأ إذا لم يكن هو فاعلها المستتر.",
+          "order": 9,
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-sec-10",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "حدد الإسناد والأركان لتعرف النوع. الاسمية مبتدأ وخبر، والفعلية فعل وفاعل، والخبر قد يكون مفردًا أو جملة أو شبه جملة، وقد تحتوي الجملة الكبرى جملة صغرى خبرًا.",
+          "order": 10,
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-types-v1-example-1",
+          "sentence": "العلم نور",
+          "fullyDiacritizedSentence": "العِلْمُ نُورٌ",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "المسند إليه في الجملة الاسمية",
+              "explanation": "اسم أخبرنا عنه فوقع مبتدأ.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإسناد إلى المبتدأ",
+              "sentencePosition": "المسند في الجملة الاسمية",
+              "explanation": "أتم الفائدة مع المبتدأ فوقع خبرًا.",
+              "startIndex": 6,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "جملة اسمية بسيطة من مبتدأ وخبر مفرد.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-example-2",
+          "sentence": "يقرأ الطفل القصة",
+          "fullyDiacritizedSentence": "يَقْرَأُ الطِّفْلُ القِصَّةَ",
+          "parsedWords": [
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرا",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرده من الناصب والجازم وصحة آخره",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل مضارع مرفوع بدأ به الإسناد الفعلي.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطفل",
+              "normalizedWord": "الطفل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يقرأ»",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
+              "explanation": "هو القائم بفعل القراءة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "القصة",
+              "normalizedWord": "القصة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل المتعدي «يقرأ»",
+              "sentencePosition": "مفعول به داخل الجملة الفعلية",
+              "explanation": "وقع عليه فعل القراءة.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "جملة فعلية من فعل وفاعل ومفعول به.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-example-3",
+          "sentence": "الطالب يقرأ",
+          "fullyDiacritizedSentence": "الطَّالِبُ يَقْرَأُ",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "مبتدأ الجملة الكبرى",
+              "explanation": "اسم أخبرنا عنه بجملة فعلية.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرا",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل، وفاعله ضمير مستتر يعود إلى الطالب",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرده من الناصب والجازم وصحة آخره",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "الجملة الفعلية في محل رفع خبر",
+              "explanation": "الفعل وفاعله المستتر كوّنا جملة خبرية للمبتدأ.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "الجملة كلها اسمية، وخبرها جملة فعلية في محل رفع.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-example-4",
+          "sentence": "العصفور فوق الشجرة",
+          "fullyDiacritizedSentence": "العُصْفُورُ فَوْقَ الشَّجَرَةِ",
+          "parsedWords": [
+            {
+              "word": "العصفور",
+              "normalizedWord": "العصفور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "المسند إليه في الجملة الاسمية",
+              "explanation": "المبتدأ الذي أخبرنا عن مكانه.",
+              "startIndex": 0,
+              "endIndex": 7
+            },
+            {
+              "word": "فوق",
+              "normalizedWord": "فوق",
+              "wordType": "ظرف مكان معرب",
+              "grammaticalRole": "ظرف متعلق بمحذوف خبر",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "ظرف مفرد صحيح الآخر",
+              "grammaticalAgent": "العامل المحذوف المقدر بـ«مستقر»",
+              "sentencePosition": "شبه جملة في محل رفع خبر",
+              "explanation": "الظرف مع مضافه إليه كوّن شبه جملة خبرية.",
+              "startIndex": 8,
+              "endIndex": 11
+            },
+            {
+              "word": "الشجرة",
+              "normalizedWord": "الشجرة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة إلى الظرف «فوق»",
+              "sentencePosition": "داخل شبه الجملة الظرفية",
+              "explanation": "مضاف إليه مجرور بالكسرة.",
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "جملة اسمية خبرها شبه جملة ظرفية.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-example-5",
+          "sentence": "في الفصل طلاب",
+          "fullyDiacritizedSentence": "فِي الفَصْلِ طُلَّابٌ",
+          "parsedWords": [
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "رأس شبه الجملة الخبرية",
+              "explanation": "حرف جر دخل على «الفصل».",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "الفصل",
+              "normalizedWord": "الفصل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حرف الجر «في»",
+              "sentencePosition": "مع حرف الجر في شبه جملة خبر مقدم",
+              "explanation": "اسم مجرور، وشبه الجملة في محل رفع خبر مقدم.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "طلاب",
+              "normalizedWord": "طلاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "جمع تكسير",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "المسند إليه المؤخر في الجملة الاسمية",
+              "explanation": "مبتدأ مؤخر مرفوع بالضمة.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "مثال مضاد: بدأت بحرف، لكنها جملة اسمية ذات خبر مقدم ومبتدأ مؤخر.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        },
+        {
+          "id": "sentence-types-v1-example-6",
+          "sentence": "الحديقة أزهارها جميلة",
+          "fullyDiacritizedSentence": "الحَدِيقَةُ أَزْهَارُهَا جَمِيلَةٌ",
+          "parsedWords": [
+            {
+              "word": "الحديقة",
+              "normalizedWord": "الحديقة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ أول",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "مبتدأ الجملة الكبرى",
+              "explanation": "أخبرنا عنه بجملة اسمية صغرى.",
+              "startIndex": 0,
+              "endIndex": 7
+            },
+            {
+              "word": "أزهارها",
+              "normalizedWord": "ازهارها",
+              "wordType": "اسم معرب مضاف إلى ضمير",
+              "grammaticalRole": "مبتدأ ثان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة على آخر الاسم قبل الضمير",
+              "signReason": "جمع تكسير، والهاء ضمير في محل جر مضاف إليه",
+              "grammaticalAgent": "الابتداء داخل الجملة الصغرى",
+              "sentencePosition": "مبتدأ الجملة الاسمية الواقعة خبرًا",
+              "explanation": "الهاء رابط يعود إلى «الحديقة».",
+              "startIndex": 8,
+              "endIndex": 15
+            },
+            {
+              "word": "جميلة",
+              "normalizedWord": "جميلة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر المبتدأ الثاني",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإسناد إلى المبتدأ الثاني «أزهارها»",
+              "sentencePosition": "خبر داخل الجملة الصغرى",
+              "explanation": "أتم معنى الجملة الصغرى.",
+              "startIndex": 16,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "الجملة الكبرى «الحديقة أزهارها جميلة»، والصغرى «أزهارها جميلة» في محل رفع خبر.",
+          "referenceIds": ["ref-general-foundations-v1"]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-types-v1-ex-1",
+        "sentence-types-v1-ex-2",
+        "sentence-types-v1-ex-3",
+        "sentence-types-v1-ex-4",
+        "sentence-types-v1-ex-5",
+        "sentence-types-v1-ex-6",
+        "sentence-types-v1-ex-7",
+        "sentence-types-v1-ex-8",
+        "sentence-types-v1-ex-9",
+        "sentence-types-v1-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-types-v1-ex-2",
+        "sentence-types-v1-ex-4",
+        "sentence-types-v1-ex-6",
+        "sentence-types-v1-ex-8",
+        "sentence-types-v1-ex-10"
+      ],
+      "referenceIds": ["ref-general-foundations-v1"],
+      "tags": ["الجملة الاسمية", "الجملة الفعلية", "شبه الجملة", "الجملة الكبرى", "الجملة الصغرى"],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "inflection-building-v1-ex-1",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "ما معنى أن الكلمة معربة؟",
+      "skillIds": ["inflection-definition"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "يتغير آخرها بتغير العامل أو الموقع", "feedback": "صحيح؛ هذا هو الأصل في الإعراب."},
+        {"id": "b", "text": "يلزم آخرها صورة واحدة دائمًا", "feedback": "هذا وصف الكلمة المبنية."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "المعرب تتغير علامة آخره بسبب تغير العامل أو الموقع.",
+      "hint": "قارن: محمدٌ، محمدًا، محمدٍ.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-2",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "أي الكلمات الآتية معربة في الأصل؟",
+      "skillIds": ["inflection-detection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "الطالب", "feedback": "صحيح؛ الأصل في الأسماء الإعراب."},
+        {"id": "b", "text": "هذا", "feedback": "اسم الإشارة «هذا» مبني."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«الطالب» اسم معرب تتغير علامته بحسب موقعه.",
+      "hint": "جرّب تغيير موقع الكلمة في جمل مختلفة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-3",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح لـ«هذا» في: «هذا طالب»؟",
+      "skillIds": ["building-local-position"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "اسم إشارة مبني في محل رفع مبتدأ", "feedback": "صحيح؛ جمع الحكم بين البناء والمحل."},
+        {"id": "b", "text": "اسم مرفوع بالضمة", "feedback": "لا تظهر الضمة على اسم الإشارة المبني."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "اسم الإشارة مبني، وله محل رفع لأنه مبتدأ.",
+      "hint": "فرّق بين علامة البناء والمحل الإعرابي.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-4",
+      "lessonId": "inflection-building-v1",
+      "type": "comparison",
+      "prompt": "لماذا تغير آخر «محمد» بين «حضر محمدٌ» و«رأيت محمدًا»؟",
+      "skillIds": ["inflection-agent"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "لتغير موقعه من فاعل إلى مفعول به", "feedback": "صحيح؛ تغير الموقع والعامل فظهرت علامة أخرى."},
+        {"id": "b", "text": "لأن الكلمة مبنية", "feedback": "لو كانت مبنية لما تغير آخرها بهذا السبب."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "رفع الفعل فاعله ونصب مفعوله، فتغيرت علامة الاسم المعرب.",
+      "hint": "حدّد وظيفة الاسم في كل جملة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-5",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "أي الأفعال مبني في الأصل؟",
+      "skillIds": ["verb-building"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "الفعل الماضي", "feedback": "صحيح؛ الماضي مبني في الأصل."},
+        {"id": "b", "text": "الفعل المضارع دائمًا", "feedback": "المضارع معرب في الأصل وله حالات يستثنى فيها."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الفعل الماضي والأمر مبنيان في الأصل.",
+      "hint": "تذكر الزمنين الماضي والطلب المباشر.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-6",
+      "lessonId": "inflection-building-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح العبارة: «الكلمة المبنية لا محل لها دائمًا».",
+      "skillIds": ["building-local-position"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "قد يكون للمبني محل إعرابي بحسب وظيفته", "feedback": "صحيح؛ مثل الضمير أو اسم الإشارة حين يشغل موقعًا نحويًا."},
+        {"id": "b", "text": "كل مبني مرفوع", "feedback": "المحل يتغير بحسب الوظيفة، وقد يكون رفعًا أو نصبًا أو جرًا."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "نبين بناء الكلمة ثم نذكر محلها إذا شغلت وظيفة نحوية.",
+      "hint": "تذكر إعراب «هذا» حين يقع مبتدأ.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-7",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "ما إعراب «كتب» في: «كتب الطالب»؟",
+      "skillIds": ["verb-building"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "فعل ماض مبني على الفتح", "feedback": "صحيح؛ لم يتصل به ما يغير علامة بنائه."},
+        {"id": "b", "text": "فعل ماض مرفوع بالضمة", "feedback": "الماضي مبني ولا يوصف بالرفع هنا."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الفعل الماضي «كتب» مبني على الفتح الظاهر.",
+      "hint": "حدد أولًا هل الفعل معرب أم مبني.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-8",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "أي وصف أدق لكلمة «الطالبِ» في: «مررت بالطالبِ»؟",
+      "skillIds": ["inflection-state"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "اسم معرب مجرور بالكسرة", "feedback": "صحيح؛ أثر فيه حرف الجر وظهرت الكسرة."},
+        {"id": "b", "text": "اسم مبني على الكسرة", "feedback": "الكسرة هنا علامة إعراب تتغير بتغير الموقع."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "حرف الجر عامل الجر، والكسرة علامة ظهرت على الاسم المعرب.",
+      "hint": "هل تتغير حركة «الطالب» في جملة أخرى؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-9",
+      "lessonId": "inflection-building-v1",
+      "type": "multipleChoice",
+      "prompt": "متى يكون الفعل المضارع مبنيًا؟",
+      "skillIds": ["present-verb-building"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "عند اتصاله بنون النسوة أو نون التوكيد اتصالًا مباشرًا", "feedback": "صحيح؛ وهما أشهر حالتي بناء المضارع."},
+        {"id": "b", "text": "كلما سبقته أداة نصب", "feedback": "عندئذ يكون معربًا منصوبًا، لا مبنيًا."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "يبنى المضارع مع نون النسوة أو نون التوكيد المباشرة، ويبقى معربًا في الأصل.",
+      "hint": "ابحث عن نون تتصل بآخر الفعل.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-building-v1-ex-10",
+      "lessonId": "inflection-building-v1",
+      "type": "comparison",
+      "prompt": "ما الفرق بين «الطالبُ» و«هذا» إذا وقع كل منهما مبتدأ؟",
+      "skillIds": ["inflection-building-comparison"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "الطالب معرب مرفوع، وهذا مبني في محل رفع", "feedback": "صحيح؛ اتفقت الوظيفة واختلف التعبير عن العلامة والبناء."},
+        {"id": "b", "text": "كلاهما مبني على الضم", "feedback": "«الطالب» اسم معرب تظهر عليه الضمة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "نقول في المعرب: مرفوع وعلامة رفعه، وفي المبني: مبني في محل رفع.",
+      "hint": "فرّق بين حركة ظاهرة ثابتة وعلامة تتغير.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-1",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "ما نوع العلامة في «حضر الطالبُ»؟",
+      "skillIds": ["visible-inflection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "ضمة ظاهرة", "feedback": "صحيح؛ نرى الضمة على آخر الاسم وننطقها."},
+        {"id": "b", "text": "ضمة مقدّرة", "feedback": "لا يوجد مانع يمنع ظهور الضمة على آخر «الطالب»."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الطالب فاعل مرفوع بالضمة الظاهرة.",
+      "hint": "انظر إلى آخر الاسم الصحيح الآخر.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-2",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "ما إعراب «الفتى» في «جاء الفتى»؟",
+      "skillIds": ["estimated-inflection", "maqsur-inflection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "فاعل مرفوع بضمة مقدّرة للتعذر", "feedback": "صحيح؛ الألف لا تقبل الحركة."},
+        {"id": "b", "text": "فاعل مبني في محل رفع", "feedback": "«الفتى» اسم معرب مقصور، وليس من المبنيات."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الفتى اسم مقصور معرب، والضمة مقدّرة على ألفه للتعذر.",
+      "hint": "عدم ظهور الحركة لا يعني البناء.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-3",
+      "lessonId": "inflection-forms-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح: «كل كلمة لا تظهر عليها الحركة تكون مبنية».",
+      "skillIds": ["estimated-vs-local"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "قد تكون معربة بعلامة مقدّرة", "feedback": "صحيح؛ مثل الاسم المقصور والمنقوص."},
+        {"id": "b", "text": "العبارة صحيحة دائمًا", "feedback": "تغفل العبارة الإعراب التقديري."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "نميز بين ثبات آخر المبني وتعذر أو ثقل ظهور علامة المعرب.",
+      "hint": "تذكر «جاء الفتى».",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-4",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "ما علامة نصب «الفتى» في «رأيت الفتى»؟",
+      "skillIds": ["maqsur-inflection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "فتحة مقدّرة للتعذر", "feedback": "صحيح؛ كل الحركات تقدّر على ألف المقصور."},
+        {"id": "b", "text": "فتحة ظاهرة", "feedback": "الألف اللازمة لا تقبل ظهور الفتحة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الاسم المقصور تقدر على ألفه حركات الرفع والنصب والجر للتعذر.",
+      "hint": "هل تستطيع الألف حمل حركة؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-5",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "لماذا قدرت الضمة في «جاء القاضي»؟",
+      "skillIds": ["manqus-inflection", "estimation-reason"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "للثقل على الياء", "feedback": "صحيح؛ الضمة ثقيلة على ياء المنقوص."},
+        {"id": "b", "text": "للتعذر على الألف", "feedback": "الكلمة منقوصة منتهية بياء، وليست مقصورة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "تقدر الضمة والكسرة على ياء الاسم المنقوص للثقل.",
+      "hint": "ميّز بين نهاية المقصور ونهاية المنقوص.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-6",
+      "lessonId": "inflection-forms-v1",
+      "type": "comparison",
+      "prompt": "لماذا ظهرت الفتحة في «رأيت القاضيَ»؟",
+      "skillIds": ["manqus-inflection", "counterexample"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "لخفة الفتحة على الياء", "feedback": "صحيح؛ لذلك تظهر فتحة نصب المنقوص."},
+        {"id": "b", "text": "لأن الاسم صار صحيح الآخر", "feedback": "يبقى الاسم منقوصًا، لكن الفتحة تظهر لخفتها."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "المنقوص يرفع ويجر بعلامة مقدّرة، وينصب بالفتحة الظاهرة.",
+      "hint": "قارن بين الضمة والفتحة من حيث الخفة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-7",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "كيف نعرب «هذا» في «هذا مجتهد»؟",
+      "skillIds": ["local-inflection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "اسم إشارة مبني في محل رفع مبتدأ", "feedback": "صحيح؛ ذكرنا البناء ثم المحل."},
+        {"id": "b", "text": "مبتدأ مرفوع بضمة مقدّرة", "feedback": "اسم الإشارة مبني، فلا نصفه بعلامة إعراب مقدّرة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الإعراب المحلي يبين الموقع الذي شغله الاسم المبني.",
+      "hint": "هل «هذا» معرب أم مبني؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-8",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "أي تحليل كامل صحيح لـ«القاضي» في «جاء القاضي»؟",
+      "skillIds": ["complete-inflection", "manqus-inflection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "فاعل مرفوع بضمة مقدّرة على الياء للثقل", "feedback": "صحيح؛ اكتملت الوظيفة والحالة والعلامة والسبب."},
+        {"id": "b", "text": "فاعل مبني على الياء", "feedback": "القاضي اسم معرب منقوص وليس مبنيًا."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الإعراب الكامل يذكر الموقع والحالة والعلامة ومكانها وسبب تقديرها.",
+      "hint": "ابن الإجابة: وظيفة ثم حالة ثم علامة ثم سبب.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-9",
+      "lessonId": "inflection-forms-v1",
+      "type": "multipleChoice",
+      "prompt": "ما سبب تقدير الحركة على ما قبل ياء المتكلم في «كتابي مفيد»؟",
+      "skillIds": ["occupied-ending"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "اشتغال المحل بحركة المناسبة", "feedback": "صحيح؛ الكسرة تناسب ياء المتكلم."},
+        {"id": "b", "text": "التعذر على الألف", "feedback": "لا تنتهي الكلمة بألف مقصورة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "تقدر الحركة على ما قبل ياء المتكلم لاشتغال المحل بالكسرة المناسبة للياء.",
+      "hint": "لاحظ الكسرة اللازمة قبل ياء المتكلم.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "inflection-forms-v1-ex-10",
+      "lessonId": "inflection-forms-v1",
+      "type": "comparison",
+      "prompt": "ما الفرق بين «الفتى» و«هذا» إذا وقع كل منهما فاعلًا؟",
+      "skillIds": ["estimated-vs-local", "complete-inflection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "الفتى معرب بضمة مقدّرة، وهذا مبني في محل رفع", "feedback": "صحيح؛ فرقت بين التقدير والمحل."},
+        {"id": "b", "text": "كلاهما مرفوع بضمة مقدّرة", "feedback": "«هذا» مبني ولا توصف حركته بأنها علامة إعراب مقدّرة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "التقدير يخص علامة كلمة معربة، أما المحل فيخص موقع كلمة مبنية.",
+      "hint": "اسأل أولًا: هل الكلمة معربة أم مبنية؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-1",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "ما العامل النحوي؟",
+      "skillIds": ["governor-definition"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "لفظ أو معنى يطلب حكمًا إعرابيًا", "feedback": "صحيح؛ ونسمي الكلمة التي تحمل الحكم معمولًا."},
+        {"id": "b", "text": "الحركة المكتوبة على آخر الكلمة", "feedback": "الحركة علامة الحكم وليست العامل نفسه."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "العامل يفسر لماذا أخذ المعمول حكم الرفع أو النصب أو الجر أو الجزم.",
+      "hint": "فرّق بين سبب الحكم وعلامته.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-2",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "ما العامل في رفع «الطالب» في «كتب الطالب الدرس»؟",
+      "skillIds": ["verb-governor", "subject-governed"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "الفعل «كتب»", "feedback": "صحيح؛ الفعل يرفع فاعله."},
+        {"id": "b", "text": "المفعول «الدرس»", "feedback": "المفعول معمول آخر للفعل ولا يرفع الفاعل."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«كتب» عامل لفظي، و«الطالب» فاعل معمول له مرفوع.",
+      "hint": "اسأل: من طلب وجود الفاعل؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-3",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "ما العامل في جر «الحديقة» في «مررت في الحديقة»؟",
+      "skillIds": ["preposition-governor"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "حرف الجر «في»", "feedback": "صحيح؛ جر الاسم بعده."},
+        {"id": "b", "text": "الفعل «مررت» مباشرة", "feedback": "الجر الظاهر هنا عمل حرف الجر «في»."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "حرف الجر عامل لفظي، والاسم المجرور معموله.",
+      "hint": "انظر إلى الكلمة التي سبقت الاسم مباشرة وحدد نوعها.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-4",
+      "lessonId": "grammatical-governance-v1",
+      "type": "comparison",
+      "prompt": "كيف عملت «إن» في «إن العلم نور»؟",
+      "skillIds": ["particle-governor", "inna-governance"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "نصبت الاسم ورفعت الخبر", "feedback": "صحيح؛ العلم اسمها ونور خبرها."},
+        {"id": "b", "text": "رفعت الاسم ونصبت الخبر", "feedback": "هذا يعكس عمل «إن» وأخواتها."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«إن» ناسخ عامل في ركني الجملة الاسمية.",
+      "hint": "تذكر ترتيب: إن + اسم منصوب + خبر مرفوع.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-5",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "ما نوع العامل في رفع «الطالب» في «الطالب مجتهد»؟",
+      "skillIds": ["semantic-governor", "initial-position"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "الابتداء، وهو عامل معنوي", "feedback": "صحيح؛ لا توجد كلمة ناسخة ظاهرة قبله."},
+        {"id": "b", "text": "حرف جر محذوف", "feedback": "لا دليل على حرف جر، والمبتدأ مرفوع بالابتداء."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "يرفع الابتداء المبتدأ في الجملة الاسمية المجردة من الناسخ.",
+      "hint": "هل ترى فعلًا أو حرفًا ناسخًا قبل المبتدأ؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-6",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "ما أثر «لن» في «لن يهمل الطالب»؟",
+      "skillIds": ["accusative-particle", "present-verb-state"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "نصبت المضارع بالفتحة", "feedback": "صحيح؛ «لن» عامل نصب."},
+        {"id": "b", "text": "جزمت المضارع بالسكون", "feedback": "الجزم عمل «لم» لا «لن»."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«لن» حرف نصب، و«يهمل» معمولها منصوب بالفتحة الظاهرة.",
+      "hint": "قارن صوت آخر الفعل في «لن يهملَ» و«لم يهملْ».",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-7",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "ما أثر «لم» في «لم يهمل الطالب»؟",
+      "skillIds": ["jussive-particle", "present-verb-state"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "جزمت المضارع بالسكون", "feedback": "صحيح؛ الفعل صحيح الآخر."},
+        {"id": "b", "text": "نصبت المضارع بالفتحة", "feedback": "«لم» أداة جزم وليست أداة نصب."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«لم» عامل جزم، و«يهمل» فعل مضارع مجزوم بالسكون.",
+      "hint": "حدد نوع الأداة قبل اختيار العلامة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-8",
+      "lessonId": "grammatical-governance-v1",
+      "type": "comparison",
+      "prompt": "لماذا تغير آخر «يهمل» بين «لن يهملَ» و«لم يهملْ»؟",
+      "skillIds": ["governor-comparison", "present-verb-state"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "لتغير العامل من ناصب إلى جازم", "feedback": "صحيح؛ تغير العامل فتغير الحكم والعلامة."},
+        {"id": "b", "text": "لأن الفعل صار مبنيًا", "feedback": "الفعل معرب في المثالين: منصوب ثم مجزوم."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "«لن» تنصب و«لم» تجزم، فظهرت الفتحة ثم السكون.",
+      "hint": "ابدأ باسم الأداة وعملها.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-9",
+      "lessonId": "grammatical-governance-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح: «العامل هو أقرب كلمة تسبق المعمول دائمًا».",
+      "skillIds": ["governor-detection", "common-mistake"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "العامل تحدده العلاقة النحوية لا القرب وحده", "feedback": "صحيح؛ نبحث عن الفعل أو الحرف أو المعنى الذي طلب الحكم."},
+        {"id": "b", "text": "العبارة صحيحة بلا استثناء", "feedback": "القرب وحده قد يقود إلى عامل خاطئ."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "اكتشاف العامل يعتمد على الوظيفة وبنية التركيب.",
+      "hint": "فكر في عمل «إن» في اسمها وخبرها.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "grammatical-governance-v1-ex-10",
+      "lessonId": "grammatical-governance-v1",
+      "type": "multipleChoice",
+      "prompt": "أي تحليل كامل صحيح لـ«الدرس» في «كتب الطالب الدرس»؟",
+      "skillIds": ["complete-governance-chain", "object-governed"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "مفعول به نصبه الفعل كتب، وعلامة نصبه الفتحة", "feedback": "صحيح؛ ذكرت الموقع والعامل والحالة والعلامة."},
+        {"id": "b", "text": "فاعل رفعه الطالب، وعلامة رفعه الضمة", "feedback": "«الدرس» وقع عليه الفعل، وليس قائمًا به."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الدرس اسم معرب، مفعول به، عامله الفعل المتعدي، منصوب بالفتحة الظاهرة.",
+      "hint": "رتب الإجابة: الموقع ثم العامل ثم الحالة ثم العلامة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-1",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما الأصل في بناء الجملة الاسمية؟",
+      "skillIds": ["nominal-sentence-definition"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "مبتدأ وخبر", "feedback": "صحيح؛ هما ركنا الإسناد الاسمي."},
+        {"id": "b", "text": "فعل وفاعل", "feedback": "هذان أصل الجملة الفعلية."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "تقوم الجملة الاسمية على مسند إليه هو المبتدأ ومسند هو الخبر.",
+      "hint": "تذكر: عمّن نتحدث، وماذا نقول عنه؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-2",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما نوع «يقرأ الطفل القصة»؟",
+      "skillIds": ["verbal-sentence-detection"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "جملة فعلية", "feedback": "صحيح؛ الإسناد بين الفعل «يقرأ» وفاعله «الطفل»."},
+        {"id": "b", "text": "جملة اسمية", "feedback": "لم يبدأ البناء بمبتدأ يخبر عنه."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الفعل وفاعله هما ركنا الجملة الفعلية.",
+      "hint": "ابحث عن الحدث والقائم به.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-3",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما نوع الجملة الكاملة «الطالب يقرأ»؟",
+      "skillIds": ["nominal-with-verbal-predicate"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "اسمية خبرها جملة فعلية", "feedback": "صحيح؛ «الطالب» مبتدأ والجملة «يقرأ» خبره."},
+        {"id": "b", "text": "فعلية فقط", "feedback": "الجملة الفعلية جزء واقع خبرًا داخل الجملة الاسمية الكبرى."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "نحدد نوع الجملة الكاملة من الإسناد الخارجي بين المبتدأ وخبره.",
+      "hint": "ميّز بين الجملة كلها والجملة الواقعة خبرًا.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-4",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما محل الجملة الفعلية «يقرأ» في «الطالب يقرأ»؟",
+      "skillIds": ["clause-predicate-position"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "في محل رفع خبر", "feedback": "صحيح؛ أدت الجملة وظيفة خبر المبتدأ."},
+        {"id": "b", "text": "لا محل لها دائمًا", "feedback": "الجملة قد يكون لها محل حين تؤدي وظيفة مفرد."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الجملة الفعلية مع فاعلها المستتر خبر للمبتدأ «الطالب».",
+      "hint": "اسأل: ما الذي أتم الفائدة مع المبتدأ؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-5",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما الوصف الصحيح لـ«فوق الشجرة» في «العصفور فوق الشجرة»؟",
+      "skillIds": ["predicate-phrase"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "شبه جملة في محل رفع خبر", "feedback": "صحيح؛ الظرف متعلق بمحذوف تقديره مستقر."},
+        {"id": "b", "text": "جملة فعلية", "feedback": "لا يوجد فعل وفاعل في هذا التركيب."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الظرف مع المضاف إليه شبه جملة يؤدي وظيفة الخبر.",
+      "hint": "هل يوجد إسناد كامل داخل «فوق الشجرة»؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-6",
+      "lessonId": "sentence-types-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح: «في الفصل طلاب جملة غير اسمية لأنها بدأت بحرف جر».",
+      "skillIds": ["fronted-predicate", "sentence-type-counterexample"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "هي اسمية: شبه الجملة خبر مقدم وطلاب مبتدأ مؤخر", "feedback": "صحيح؛ العبرة ببناء الإسناد."},
+        {"id": "b", "text": "هي فعلية لأن أولها ليس اسمًا", "feedback": "لا يوجد فعل أصلًا في التركيب."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "قد يتقدم الخبر شبه الجملة على المبتدأ فتبدأ الجملة بحرف جر.",
+      "hint": "ابحث عن الاسم الذي أخبرنا عن وجوده.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-7",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما الجملة الصغرى في «الحديقة أزهارها جميلة»؟",
+      "skillIds": ["major-minor-sentence"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "أزهارها جميلة", "feedback": "صحيح؛ وقعت خبرًا للمبتدأ الأول."},
+        {"id": "b", "text": "الحديقة وحدها", "feedback": "«الحديقة» مبتدأ مفرد وليست جملة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الجملة الاسمية الداخلية خبر للمبتدأ «الحديقة».",
+      "hint": "حدد الجملة التي يمكن استبدالها بخبر مفرد.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-8",
+      "lessonId": "sentence-types-v1",
+      "type": "multipleChoice",
+      "prompt": "ما الرابط في الجملة الخبرية «أزهارها جميلة»؟",
+      "skillIds": ["predicate-clause-link"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "الهاء في «أزهارها»", "feedback": "صحيح؛ تعود إلى المبتدأ الأول «الحديقة»."},
+        {"id": "b", "text": "أل في «الحديقة»", "feedback": "أل للتعريف وليست الرابط داخل جملة الخبر."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الضمير يربط جملة الخبر بالمبتدأ الأول.",
+      "hint": "ابحث عن ضمير يعود إلى الحديقة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-9",
+      "lessonId": "sentence-types-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح: «نعرف نوع الجملة من أول كلمة فقط».",
+      "skillIds": ["sentence-type-detection", "common-mistake"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "نحدد النوع من الإسناد والأركان مع مراعاة الأدوات والتقديم", "feedback": "صحيح؛ هذه الطريقة تتعامل مع الحالات غير المباشرة."},
+        {"id": "b", "text": "القاعدة صحيحة حتى مع تقديم الخبر", "feedback": "«في الفصل طلاب» تنقض الاعتماد على أول كلمة وحدها."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "أول كلمة دليل مبدئي، لكن الحكم النهائي لبنية الجملة.",
+      "hint": "تذكر الجملة التي بدأت بـ«في».",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-types-v1-ex-10",
+      "lessonId": "sentence-types-v1",
+      "type": "comparison",
+      "prompt": "ما الفرق بين «العلم نور» و«الطالب يقرأ»؟",
+      "skillIds": ["predicate-form-comparison"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "كلتاهما اسمية؛ خبر الأولى مفرد وخبر الثانية جملة فعلية", "feedback": "صحيح؛ اختلفت صورة الخبر ولم يتغير النوع الخارجي."},
+        {"id": "b", "text": "الأولى اسمية والثانية فعلية فقط", "feedback": "الجملة الفعلية في الثانية وقعت خبرًا داخل جملة اسمية."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "قد يكون خبر الجملة الاسمية مفردًا أو جملة كاملة لها محل.",
+      "hint": "حدد المبتدأ في كل مثال قبل الحكم.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-1",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "ما التصنيف الأدق للفظ «كتاب» منفردًا؟",
+      "skillIds": ["word-definition"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "كلمة وقول مفرد", "feedback": "صحيح؛ لفظ واحد يدل على معنى ولم يكوّن إسنادًا تامًا."},
+        {"id": "b", "text": "كلام وكلم", "feedback": "لا يوجد تركيب مفيد ولا ثلاث كلمات."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الكلمة لفظ مفرد، والقول يشمل اللفظ المفرد.",
+      "hint": "اختبر عدد الكلمات وتمام الفائدة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-2",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "ما التصنيف الصحيح لـ«العلم نور»؟",
+      "skillIds": ["complete-speech", "term-overlap"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "كلام وقول، وليس كلمًا", "feedback": "صحيح؛ معناه تام لكنه من كلمتين."},
+        {"id": "b", "text": "كلم فقط", "feedback": "الكلم اصطلاحًا يحتاج ثلاث كلمات فأكثر."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الجملة مفيدة تامة فهي كلام، وكل كلام قول.",
+      "hint": "عد الكلمات ثم اختبر الفائدة.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-3",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "ما التصنيف الصحيح لـ«العلم نور نافع»؟",
+      "skillIds": ["term-overlap", "word-count"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 1,
+      "options": [
+        {"id": "a", "text": "كلام وكلم وقول", "feedback": "صحيح؛ ثلاث كلمات ومعنى تام."},
+        {"id": "b", "text": "كلم غير مفيد فقط", "feedback": "المعنى تام، لذلك هو كلام أيضًا."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "اجتمع شرط العدد للكلم وشرط الفائدة للكلام.",
+      "hint": "قد تجتمع المصطلحات في مثال واحد.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-4",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "لماذا لا يعد «إن ينجح الطالب» كلامًا تامًا؟",
+      "skillIds": ["complete-meaning", "incomplete-expression"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "لأنه ينتظر جواب الشرط", "feedback": "صحيح؛ لم تكتمل الفائدة بعد."},
+        {"id": "b", "text": "لأنه أقل من ثلاث كلمات", "feedback": "هو ثلاث كلمات، والمشكلة في تمام المعنى لا العدد."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "هو كلم وقول، لكنه لا يصبح كلامًا قبل اكتمال جواب الشرط.",
+      "hint": "اسأل: ماذا يحدث إن ينجح الطالب؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-5",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "كيف يكون «اكتب» كلامًا مفيدًا وهو كلمة مكتوبة واحدة؟",
+      "skillIds": ["implicit-subject", "complete-speech"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "لأن فاعله ضمير مستتر تقديره أنت", "feedback": "صحيح؛ اكتمل الإسناد بالفعل والفاعل المستتر."},
+        {"id": "b", "text": "لأن كل كلمة منفردة كلام", "feedback": "أكثر الكلمات المفردة لا تعطي إسنادًا تامًا."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "فعل الأمر يتضمن فاعلًا مستترًا، فيفيد طلبًا تامًا.",
+      "hint": "من المطلوب منه أن يكتب؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-6",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "ما حكم «في الفصل» إذا قيلت وحدها بلا سياق؟",
+      "skillIds": ["phrase-vs-speech", "complete-meaning"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "قول مركب غير تام، وليس كلامًا", "feedback": "صحيح؛ ينتظر ما يتم المعنى مثل «طلاب»."},
+        {"id": "b", "text": "كلام تام لمجرد وجود كلمتين", "feedback": "عدد الكلمات لا يكفي من دون إسناد وفائدة تامة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الجار والمجرور شبه جملة، ولا يتم الإسناد به وحده.",
+      "hint": "اسأل: ما الذي في الفصل؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-7",
+      "lessonId": "speech-expression-v1",
+      "type": "multipleChoice",
+      "prompt": "أي المصطلحات أعم؟",
+      "skillIds": ["saying-definition", "term-relation"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 2,
+      "options": [
+        {"id": "a", "text": "القول", "feedback": "صحيح؛ يشمل المفرد والمركب والمفيد وغير المفيد."},
+        {"id": "b", "text": "الكلام", "feedback": "الكلام مقيد بالتركيب والفائدة التامة."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "كل كلام قول، وليس كل قول كلامًا.",
+      "hint": "اختر المصطلح الذي يقبل أكبر عدد من الصور.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-8",
+      "lessonId": "speech-expression-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح: «كل كلم كلام».",
+      "skillIds": ["word-collection-definition", "term-relation"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "قد يكون الكلم غير مفيد فلا يكون كلامًا", "feedback": "صحيح؛ مثل تركيب شرطي لم يذكر جوابه."},
+        {"id": "b", "text": "العبارة صحيحة لأن ثلاث كلمات تكفي", "feedback": "الكلام يحتاج تمام الفائدة بالإضافة إلى التركيب."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "الكلم يراعي العدد، والكلام يراعي الفائدة التامة.",
+      "hint": "قارن «العلم نور نافع» و«إن ينجح الطالب».",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-9",
+      "lessonId": "speech-expression-v1",
+      "type": "errorCorrection",
+      "prompt": "صحح: «كل كلام يجب أن يكون ثلاث كلمات فأكثر».",
+      "skillIds": ["complete-speech", "common-mistake"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "قد يكون الكلام كلمتين أو فعلًا مع فاعل مستتر", "feedback": "صحيح؛ العبرة بتمام الإسناد والفائدة."},
+        {"id": "b", "text": "العبارة صحيحة بلا استثناء", "feedback": "«العلم نور» و«اكتب» مثالان مضادان."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "عدد ثلاث كلمات شرط للكلم لا للكلام.",
+      "hint": "تذكر المثال ذي الكلمتين والمثال ذي الفاعل المستتر.",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "speech-expression-v1-ex-10",
+      "lessonId": "speech-expression-v1",
+      "type": "comparison",
+      "prompt": "ما الفرق الأساسي بين الكلام والكلم؟",
+      "skillIds": ["complete-speech", "word-collection-definition"],
+      "stageIds": ["foundation"],
+      "gradeIds": ["general"],
+      "difficulty": 3,
+      "options": [
+        {"id": "a", "text": "الكلام يشترط الفائدة، والكلم يشترط ثلاث كلمات فأكثر", "feedback": "صحيح؛ وقد يجتمع الشرطان أو يفترقان."},
+        {"id": "b", "text": "لا فرق بينهما", "feedback": "لكل مصطلح معيار مختلف."}
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "نختبر الفائدة للكلام والعدد للكلم، والقول يشملهما.",
+      "hint": "ضع أمام كل مصطلح سؤاله: هل تم المعنى؟ كم كلمة؟",
+      "referenceIds": ["ref-general-foundations-v1"],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-foundations-v1",
+      "title": "كتاب الطالب في اللغة العربية — الصف السادس الابتدائي — الفصل الأول",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني المصرية",
+      "url": "https://moe.gov.eg/ar/elearningenterypage/e-learning/?contentTypeId=7597&pageIndex=0&schoolStageId=1582&schoolSubjectId=7701&schoolTermId=1584&schoolYearId=1935&sortBy=0",
+      "checkedAt": "2026-08-04"
+    }
+  ]
+}

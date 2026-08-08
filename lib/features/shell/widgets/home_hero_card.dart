@@ -5,8 +5,9 @@ import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 import '../../learning/cubit/learning_cubit.dart';
 import '../../learning/cubit/learning_state.dart';
+import '../../learning/domain/next_learning_action.dart';
+import '../../learning/navigation/lesson_phase_navigator.dart';
 import '../../learning/screens/lesson_screen.dart';
-import '../../progress/data/model/learning_progress_models.dart';
 
 class HomeHeroCard extends StatelessWidget {
   const HomeHeroCard({super.key, required this.state});
@@ -15,11 +16,11 @@ class HomeHeroCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final lesson = state.lessons.firstWhere(
-      (item) =>
-          state.progressFor(item.id)?.status != LessonProgressStatus.completed,
-      orElse: () => state.lessons.first,
+    final action = const NextLearningActionResolver().resolve(
+      lessons: state.lessons,
+      progress: state.progress,
     );
+    final lesson = action.lesson ?? state.lessons.first;
     final started = state.progressFor(lesson.id) != null;
     return Card(
       margin: EdgeInsets.zero,
@@ -32,7 +33,8 @@ class HomeHeroCard extends StatelessWidget {
             title: lesson.title,
             minutes: lesson.estimatedMinutes,
             started: started,
-            onPressed: () => _openLesson(context, lesson),
+            phaseLabel: _phaseLabel(action),
+            onPressed: () => _openAction(context, lesson, action),
           );
           const illustration = _HeroIllustration();
           return compact
@@ -56,7 +58,20 @@ class HomeHeroCard extends StatelessWidget {
     );
   }
 
-  void _openLesson(BuildContext context, LessonModel lesson) {
+  void _openAction(
+    BuildContext context,
+    LessonModel lesson,
+    NextLearningAction action,
+  ) {
+    if (action.phase != null) {
+      LessonPhaseNavigator.open(
+        context,
+        lesson: lesson,
+        state: state,
+        phase: action.phase!,
+      );
+      return;
+    }
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => BlocProvider.value(
@@ -66,6 +81,23 @@ class HomeHeroCard extends StatelessWidget {
       ),
     );
   }
+
+  String _phaseLabel(NextLearningAction action) {
+    if (action.type == NextLearningActionType.remediation) {
+      return 'راجع الأمثلة التي أخطأت فيها';
+    }
+    return switch (action.phase) {
+      null => 'أكملت المسار المتاح',
+      final phase => const [
+        'افهم القاعدة',
+        'اكتشف العلامات',
+        'شاهد الإعراب',
+        'جرّب معي',
+        'تدرّب وحدك',
+        'اختبر إتقانك',
+      ][phase.index],
+    };
+  }
 }
 
 class _HeroContent extends StatelessWidget {
@@ -73,12 +105,14 @@ class _HeroContent extends StatelessWidget {
     required this.title,
     required this.minutes,
     required this.started,
+    required this.phaseLabel,
     required this.onPressed,
   });
 
   final String title;
   final int minutes;
   final bool started;
+  final String phaseLabel;
   final VoidCallback onPressed;
 
   @override
@@ -104,7 +138,7 @@ class _HeroContent extends StatelessWidget {
             ),
             const SizedBox(height: E3rabSpacing.small),
             Text(
-              '$title • $minutes دقائق',
+              '$title • $phaseLabel • $minutes دقائق',
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(

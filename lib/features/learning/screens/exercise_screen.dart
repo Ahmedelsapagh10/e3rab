@@ -78,8 +78,11 @@ class _CompletionView extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               isExam
-                  ? 'نتيجتك ${(state.score * 100).round()}٪'
+                  ? state.score >= .8
+                        ? 'أحسنت، أتقنت الدرس: ${state.correctCount} من ${state.exercises.length}'
+                        : 'أجبت ${state.correctCount} من ${state.exercises.length}. راجع الأمثلة ثم حاول مرة أخرى.'
                   : 'الإجابات الصحيحة ${(state.score * 100).round()}٪',
+              textAlign: TextAlign.center,
             ),
             if (!isExam) ...[
               Text('الدرجة الموزونة ${(state.weightedScore * 100).round()}٪'),

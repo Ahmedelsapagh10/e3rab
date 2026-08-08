@@ -3,11 +3,18 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:new_strucuture/features/parsing/cubit/parsing_state.dart';
 import 'package:new_strucuture/features/parsing/data/data_source/local_parsing_data_source.dart';
+import 'package:new_strucuture/features/parsing/data/model/parsing_models.dart';
 import 'package:new_strucuture/features/parsing/widgets/parsing_empty_view.dart';
+import 'package:new_strucuture/features/parsing/widgets/parsing_filters_bar.dart';
 import 'package:new_strucuture/features/parsing/widgets/parsing_step_view.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+  late List<ParsingSampleModel> samples;
+
+  setUpAll(() async {
+    samples = await AssetParsingDataSource(bundle: rootBundle).loadSamples();
+  });
 
   testWidgets('empty lab explains specialist review gate in RTL', (
     tester,
@@ -28,9 +35,7 @@ void main() {
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    final sample = (await AssetParsingDataSource(
-      bundle: rootBundle,
-    ).loadSamples()).first;
+    final sample = samples.first;
     final selected = sample.steps.first.correctOptionId;
     final state = ParsingState(
       status: ParsingLabStatus.ready,
@@ -54,6 +59,36 @@ void main() {
 
     expect(find.text('اختيار صحيح'), findsOneWidget);
     expect(find.byIcon(Icons.check_circle), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('chapter and level filters fit narrow large-text screens', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(360, 900);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    final sample = samples.last;
+    final state = ParsingState(
+      status: ParsingLabStatus.ready,
+      samples: [sample],
+      allSamples: [sample],
+    );
+
+    await tester.pumpWidget(
+      _TestApp(
+        textScale: 1.8,
+        child: ParsingFiltersBar(
+          state: state,
+          onTrackChanged: (_) {},
+          onDifficultyChanged: (_) {},
+        ),
+      ),
+    );
+
+    expect(find.text('الباب'), findsOneWidget);
+    expect(find.text('المستوى'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 }

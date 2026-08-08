@@ -17,11 +17,14 @@ class LessonModel extends Equatable {
     required this.sections,
     required this.examples,
     required this.exerciseIds,
+    this.masteryExerciseIds = const [],
     required this.referenceIds,
     required this.tags,
     required this.estimatedMinutes,
     required this.contentVersion,
     required this.reviewStatus,
+    this.topicId,
+    this.order = 0,
     this.steps = const [],
     this.citations = const [],
     this.reviewedBy,
@@ -40,11 +43,14 @@ class LessonModel extends Equatable {
   final List<LessonSectionModel> sections;
   final List<GrammarExampleModel> examples;
   final List<String> exerciseIds;
+  final List<String> masteryExerciseIds;
   final List<String> referenceIds;
   final List<String> tags;
   final int estimatedMinutes;
   final String contentVersion;
   final ContentReviewStatus reviewStatus;
+  final String? topicId;
+  final int order;
   final List<LessonStepModel> steps;
   final List<CitationModel> citations;
   final String? reviewedBy;
@@ -64,11 +70,14 @@ class LessonModel extends Equatable {
     sections,
     examples,
     exerciseIds,
+    masteryExerciseIds,
     referenceIds,
     tags,
     estimatedMinutes,
     contentVersion,
     reviewStatus,
+    topicId,
+    order,
     steps,
     citations,
     reviewedBy,
@@ -137,6 +146,8 @@ class ParsedWordModel extends Equatable {
     required this.explanation,
     required this.startIndex,
     required this.endIndex,
+    this.grammaticalAgent = '',
+    this.sentencePosition = '',
   });
 
   final String word;
@@ -149,6 +160,8 @@ class ParsedWordModel extends Equatable {
   final String explanation;
   final int startIndex;
   final int endIndex;
+  final String grammaticalAgent;
+  final String sentencePosition;
 
   @override
   List<Object?> get props => [
@@ -162,5 +175,7 @@ class ParsedWordModel extends Equatable {
     explanation,
     startIndex,
     endIndex,
+    grammaticalAgent,
+    sentencePosition,
   ];
 }

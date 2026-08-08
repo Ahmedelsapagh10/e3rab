@@ -11,7 +11,6 @@ import '../../auth/cubit/auth_state.dart';
 import '../../learning/cubit/learning_cubit.dart';
 import '../../learning/widgets/learning_hub_view.dart';
 import '../../learning/widgets/reference_search_view.dart';
-import '../../parsing/cubit/parsing_cubit.dart';
 import '../../parsing/widgets/parsing_lab_view.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../profile/cubit/profile_cubit.dart';
@@ -31,9 +30,14 @@ const e3rabShellDestinations = [
     selectedIcon: Icon(Icons.home_rounded),
   ),
   E3rabNavigationDestination(
-    label: 'الدروس',
+    label: 'تعلّم',
     icon: Icon(Icons.school_outlined),
     selectedIcon: Icon(Icons.school_rounded),
+  ),
+  E3rabNavigationDestination(
+    label: 'أعرب',
+    icon: Icon(Icons.edit_note_outlined),
+    selectedIcon: Icon(Icons.edit_note_rounded),
   ),
   E3rabNavigationDestination(
     label: 'حسابي',
@@ -77,9 +81,10 @@ class E3rabShellScreen extends StatelessWidget {
     0 => E3rabHomeView(
       onOpenLessons: () => context.read<ShellCubit>().selectDestination(1),
       onOpenReference: () => _openReference(context),
-      onOpenParsingLab: () => _openParsingLab(context),
+      onOpenParsingLab: () => context.read<ShellCubit>().selectDestination(2),
     ),
     1 => const LearningHubView(),
+    2 => const ParsingLabView(),
     _ => StudentAccountView(
       onOpenSettings: () => _openSettings(context),
       onOpenLearningPreferences: () => _openLearningPreferences(context),
@@ -94,20 +99,6 @@ class E3rabShellScreen extends StatelessWidget {
           child: const Scaffold(
             appBar: _SectionAppBar(title: 'المرجع النحوي'),
             body: ReferenceSearchView(),
-          ),
-        ),
-      ),
-    );
-  }
-
-  void _openParsingLab(BuildContext context) {
-    Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (_) => BlocProvider.value(
-          value: context.read<ParsingCubit>(),
-          child: const Scaffold(
-            appBar: _SectionAppBar(title: 'معمل الإعراب'),
-            body: ParsingLabView(),
           ),
         ),
       ),

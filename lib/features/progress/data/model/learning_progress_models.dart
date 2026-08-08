@@ -6,6 +6,27 @@ enum LessonProgressStatus { notStarted, inProgress, completed }
 
 enum MasteryState { newSkill, learning, needsReview, mastered }
 
+enum LearningPhaseType {
+  understand,
+  detect,
+  workedExamples,
+  guidedParsing,
+  independentPractice,
+  masteryCheck,
+}
+
+enum LessonMasteryStatus { notStarted, learning, needsRemediation, mastered }
+
+class LessonPhaseProgress extends Equatable {
+  const LessonPhaseProgress({required this.phase, required this.completedAt});
+
+  final LearningPhaseType phase;
+  final DateTime completedAt;
+
+  @override
+  List<Object?> get props => [phase, completedAt];
+}
+
 class LearningDataOwner extends Equatable {
   const LearningDataOwner._({required this.id, required this.type});
 
@@ -33,6 +54,12 @@ class LessonProgressModel extends Equatable {
     required this.masteryScore,
     required this.updatedAt,
     required this.schemaVersion,
+    this.currentPhase = LearningPhaseType.understand,
+    this.completedPhases = const [],
+    this.masteryStatus = LessonMasteryStatus.notStarted,
+    this.checkpointScore = 0,
+    this.missedSkillIds = const [],
+    this.masteredAt,
     this.startedAt,
     this.completedAt,
     this.lastOpenedAt,
@@ -50,6 +77,12 @@ class LessonProgressModel extends Equatable {
   final double masteryScore;
   final DateTime updatedAt;
   final int schemaVersion;
+  final LearningPhaseType currentPhase;
+  final List<LearningPhaseType> completedPhases;
+  final LessonMasteryStatus masteryStatus;
+  final double checkpointScore;
+  final List<String> missedSkillIds;
+  final DateTime? masteredAt;
 
   @override
   List<Object?> get props => [
@@ -65,6 +98,12 @@ class LessonProgressModel extends Equatable {
     masteryScore,
     updatedAt,
     schemaVersion,
+    currentPhase,
+    completedPhases,
+    masteryStatus,
+    checkpointScore,
+    missedSkillIds,
+    masteredAt,
   ];
 }
 

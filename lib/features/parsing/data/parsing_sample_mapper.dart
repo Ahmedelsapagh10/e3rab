@@ -19,6 +19,9 @@ abstract final class ParsingSampleMapper {
       referenceIds: List<String>.from(json['referenceIds'] as List),
       contentVersion: json['contentVersion'] as String,
       reviewStatus: contentReviewStatusFromJson(json['reviewStatus'] as String),
+      trackId: json['trackId'] as String,
+      difficulty: json['difficulty'] as int,
+      order: json['order'] as int,
       reviewedBy: json['reviewedBy'] as String?,
       reviewedAt: json['reviewedAt'] == null
           ? null

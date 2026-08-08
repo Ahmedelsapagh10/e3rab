@@ -120,17 +120,17 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   static const AppColorsExtension light = AppColorsExtension(
     primary: AppColors.primary,
     secondary: AppColors.secondPrimary, //0xFF98A2B3
-    background: Color(0xFFF7F9FC),
+    background: Color(0xFFFAF7F0),
     backgroundAppBar: AppColors.primary,
-    background2: Color(0xFFF4F5F7),
+    background2: Color(0xFFF4F0E7),
     surface: Color(0xFFFFFFFF),
     cardColor: Color(0xFFFFFFFF),
-    borderColor: Color(0xFFD6DEEA),
-    textPrimary: Color(0xFF17212B),
-    textSecondary: Color(0xFF667085),
-    success: Color(0xFF15803D),
-    warning: Color(0xFFB7791F),
-    error: Color(0xFFC2413B),
+    borderColor: Color(0xFFD8DED9),
+    textPrimary: Color(0xFF1F2926),
+    textSecondary: Color(0xFF66736E),
+    success: Color(0xFF2E7D5B),
+    warning: Color(0xFFA56A1E),
+    error: Color(0xFFB4453F),
     grey85: AppColors.secondPrimary,
     white: Color(0xFFFFFFFF),
     black: Color(0xFF000000),
@@ -174,14 +174,14 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
 
   /// Dark theme colors
   static const AppColorsExtension dark = AppColorsExtension(
-    primary: Color(0xFF8BB8FF),
-    secondary: Color(0xFF5E91F2),
-    background: Color(0xFF0E1724),
-    backgroundAppBar: Color(0xFF172338),
-    background2: Color(0xFF0E1724),
-    surface: Color(0xFF172338),
-    cardColor: Color(0xFF172338),
-    borderColor: Color(0xFF30415A),
+    primary: Color(0xFF79C8B1),
+    secondary: Color(0xFFD8B66F),
+    background: Color(0xFF101B18),
+    backgroundAppBar: Color(0xFF182824),
+    background2: Color(0xFF101B18),
+    surface: Color(0xFF182824),
+    cardColor: Color(0xFF182824),
+    borderColor: Color(0xFF355047),
     textPrimary: Color(0xFFECEFF1),
     textSecondary: Color(0xFFB0BEC5),
     success: Color(0xFF66BB6A),
@@ -223,7 +223,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     // Darker version
     greyBB: Color(0xFFB0BEC5),
     // Darker version
-    primaryBackground: Color(0xFF1A2530),
+    primaryBackground: Color(0xFF173B34),
     // Darker version of primary for dark mode
     onPrimaryBackground: Color(0xFFECEFF1),
     // Light text on dark primary background

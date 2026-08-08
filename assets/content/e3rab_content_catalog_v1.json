@@ -5,7 +5,7 @@
     {
       "packId": "e3rab-vertical-slice-ar-v1",
       "assetPath": "assets/content/e3rab_vertical_slice_v1.json",
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.2.0",
       "curriculumVersion": "egypt-2025-2026-draft-mapping-v1",
       "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
@@ -14,9 +14,27 @@
     {
       "packId": "egypt-secondary2-term1-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_egypt_secondary2_term1_batch1_v1.json",
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.2.0",
       "curriculumVersion": "egypt-national-2025-2026",
-      "reviewStatus": "aiAssistedDraft",
+      "reviewStatus": "inReview",
+      "seedEnabled": true,
+      "learnerEnabled": false
+    },
+    {
+      "packId": "e3rab-general-foundations-batch1-ar-v1",
+      "assetPath": "assets/content/e3rab_general_foundations_batch1_v1.json",
+      "contentVersion": "1.4.0",
+      "curriculumVersion": "e3rab-general-arabic-v1",
+      "reviewStatus": "inReview",
+      "seedEnabled": true,
+      "learnerEnabled": false
+    },
+    {
+      "packId": "e3rab-general-signs-batch1-ar-v1",
+      "assetPath": "assets/content/e3rab_general_signs_batch1_v1.json",
+      "contentVersion": "1.0.0",
+      "curriculumVersion": "e3rab-general-arabic-v1",
+      "reviewStatus": "inReview",
       "seedEnabled": true,
       "learnerEnabled": false
     }

@@ -5,7 +5,7 @@ import 'package:new_strucuture/features/curriculum/data/model/lesson_model.dart'
 import 'package:new_strucuture/features/learning/widgets/lesson_overview_view.dart';
 
 void main() {
-  testWidgets('lesson overview exposes four open phases and recommendation', (
+  testWidgets('lesson overview exposes six open phases and recommendation', (
     tester,
   ) async {
     await tester.pumpWidget(
@@ -14,21 +14,20 @@ void main() {
           body: LessonOverviewView(
             lesson: _lesson,
             suggestedPhase: 1,
-            onExplanation: () {},
-            onExamples: () {},
-            onExercises: () {},
-            onExam: () {},
+            onPhaseSelected: (_) {},
           ),
         ),
       ),
     );
 
-    expect(find.text('الشرح'), findsOneWidget);
-    expect(find.text('الأمثلة'), findsOneWidget);
-    expect(find.text('تدريبات موجّهة'), findsOneWidget);
-    expect(find.text('اختبار الدرس'), findsOneWidget);
+    expect(find.text('١. افهم'), findsOneWidget);
+    expect(find.text('٢. اكتشف'), findsOneWidget);
+    expect(find.text('٣. شاهد الإعراب'), findsOneWidget);
+    expect(find.text('٤. جرّب معي'), findsOneWidget);
+    expect(find.text('٥. تدرّب وحدك'), findsOneWidget);
+    expect(find.text('٦. اختبر إتقانك'), findsOneWidget);
     expect(find.text('الخطوة المقترحة'), findsOneWidget);
-    expect(find.byType(InkWell), findsNWidgets(4));
+    expect(find.byType(InkWell), findsNWidgets(6));
   });
 
   testWidgets('lesson overview supports narrow RTL layout and large text', (
@@ -54,10 +53,7 @@ void main() {
           body: LessonOverviewView(
             lesson: _lesson,
             suggestedPhase: 0,
-            onExplanation: () {},
-            onExamples: () {},
-            onExercises: () {},
-            onExam: () {},
+            onPhaseSelected: (_) {},
           ),
         ),
       ),

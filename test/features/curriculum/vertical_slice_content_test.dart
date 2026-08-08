@@ -29,8 +29,32 @@ void main() {
         isTrue,
       );
       expect(
-        lessons.every((lesson) => (lesson['examples'] as List).length >= 3),
+        lessons.every((lesson) => (lesson['examples'] as List).length >= 4),
         isTrue,
+      );
+      expect(
+        lessons.every(
+          (lesson) => (lesson['masteryExerciseIds'] as List).length == 5,
+        ),
+        isTrue,
+      );
+      expect(
+        lessons.every(
+          (lesson) => (lesson['examples'] as List).every(
+            (example) => ((example as Map)['referenceIds'] as List).isNotEmpty,
+          ),
+        ),
+        isTrue,
+      );
+      expect(
+        lessons.every(
+          (lesson) => (lesson['examples'] as List).every(
+            (example) => ((example as Map)['parsedWords'] as List).length >= 2,
+          ),
+        ),
+        isTrue,
+        reason:
+            'Learner examples must parse the sentence, not one target only.',
       );
       expect(
         lessons.every((lesson) => lesson['reviewStatus'] == 'sourceDocumented'),

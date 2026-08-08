@@ -9,6 +9,7 @@ import '../../practice/domain/practice_queue_builder.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../progress/data/model/learning_support_models.dart';
 import '../../progress/data/progress_repository.dart';
+import '../domain/next_learning_action.dart';
 import 'learning_state.dart';
 
 class LearningCubit extends Cubit<LearningState> {
@@ -27,6 +28,13 @@ class LearningCubit extends Cubit<LearningState> {
   final PracticeQueueBuilder _queueBuilder;
   final GrammarCoverageRepository? _coverageRepository;
   final LearningDataOwner owner;
+
+  NextLearningAction nextLearningAction() {
+    return const NextLearningActionResolver().resolve(
+      lessons: state.lessons,
+      progress: state.progress,
+    );
+  }
 
   List<ExerciseModel> reviewQueue({int limit = 10}) {
     return _queueBuilder.reviewQueue(
@@ -138,10 +146,14 @@ class LearningCubit extends Cubit<LearningState> {
     await load();
   }
 
-  Future<void> markLessonStep(LessonModel lesson, String stepId) async {
+  Future<void> markPhase(LessonModel lesson, LearningPhaseType phase) async {
     final existing = state.progressFor(lesson.id);
     final now = DateTime.now().toUtc();
-    final completed = {...?existing?.completedSectionIds, stepId}.toList();
+    final completed = {...?existing?.completedPhases, phase};
+    final currentPhase = LearningPhaseType.values.firstWhere(
+      (item) => !completed.contains(item),
+      orElse: () => LearningPhaseType.masteryCheck,
+    );
     await _progress.saveLessonProgress(
       owner,
       LessonProgressModel(
@@ -153,12 +165,20 @@ class LearningCubit extends Cubit<LearningState> {
         startedAt: existing?.startedAt ?? now,
         completedAt: existing?.completedAt,
         lastOpenedAt: now,
-        completedSectionIds: completed,
+        completedSectionIds: existing?.completedSectionIds ?? const [],
         attemptCount: existing?.attemptCount ?? 0,
         bestScore: existing?.bestScore ?? 0,
         masteryScore: existing?.masteryScore ?? 0,
+        currentPhase: currentPhase,
+        completedPhases: completed.toList(),
+        masteryStatus: existing?.masteryStatus == LessonMasteryStatus.mastered
+            ? LessonMasteryStatus.mastered
+            : LessonMasteryStatus.learning,
+        checkpointScore: existing?.checkpointScore ?? 0,
+        missedSkillIds: existing?.missedSkillIds ?? const [],
+        masteredAt: existing?.masteredAt,
         updatedAt: now,
-        schemaVersion: 2,
+        schemaVersion: 3,
       ),
     );
     await load();

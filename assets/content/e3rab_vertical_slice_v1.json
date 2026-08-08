@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "e3rab-vertical-slice-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.1.0",
+    "contentVersion": "1.2.0",
     "curriculumVersion": "egypt-2025-2026-draft-mapping-v1",
     "locale": "ar",
     "entityIds": [
@@ -114,6 +114,8 @@
   "lessons": [
     {
       "id": "parts-of-speech",
+      "topicId": "foundations.parts-of-speech",
+      "order": 1,
       "title": "أقسام الكلمة",
       "unitId": "word-foundations-unit",
       "stage": "foundation",
@@ -249,10 +251,24 @@
               "explanation": "قَبِلَت «العلم» أل، ودلت على معنى غير مقترن بزمن؛ فهي اسم.",
               "startIndex": 0,
               "endIndex": 5
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «العلم»",
+              "sentencePosition": "الركن المتمم للجملة الاسمية",
+              "explanation": "«نور» خبر مرفوع أتم الفائدة مع المبتدأ.",
+              "startIndex": 6,
+              "endIndex": 9
             }
           ],
           "explanation": "قَبِلَت «العلم» أل، ودلت على معنى غير مقترن بزمن؛ فهي اسم.",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-primary6"]
         },
         {
           "id": "parts-of-speech-example-2",
@@ -270,10 +286,24 @@
               "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
               "startIndex": 0,
               "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يكتب»",
+              "sentencePosition": "جزء من الجملة الفعلية",
+              "explanation": "«الطالب» فاعل مرفوع أسند إليه فعل الكتابة.",
+              "startIndex": 5,
+              "endIndex": 11
             }
           ],
           "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-primary6"]
         },
         {
           "id": "parts-of-speech-example-3",
@@ -291,10 +321,89 @@
               "explanation": "«في» لا تدل على معنى كامل وحدها، بل تربط المكتبة بالمدرسة؛ فهي حرف جر.",
               "startIndex": 0,
               "endIndex": 2
+            },
+            {
+              "word": "المدرسة",
+              "normalizedWord": "المدرسة",
+              "wordType": "اسم",
+              "grammaticalRole": "اسم مجرور بحرف الجر",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد سبق بحرف الجر «في»",
+              "grammaticalAgent": "حرف الجر «في»",
+              "sentencePosition": "الجار والمجرور متعلقان بمحذوف خبر مقدم",
+              "explanation": "«المدرسة» اسم مجرور بـ«في»، وشبه الجملة خبر مقدم.",
+              "startIndex": 3,
+              "endIndex": 10
+            },
+            {
+              "word": "مكتبة",
+              "normalizedWord": "مكتبة",
+              "wordType": "اسم",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "الركن المسند إليه في الجملة الاسمية",
+              "explanation": "«مكتبة» مبتدأ مؤخر مرفوع بعد الخبر شبه الجملة.",
+              "startIndex": 11,
+              "endIndex": 16
             }
           ],
           "explanation": "«في» حرف جر يظهر معناه مع غيره، ويجر الاسم بعده.",
           "referenceIds": ["ref-moe-primary6"]
+        },
+        {
+          "id": "parts-of-speech-example-4",
+          "sentence": "هل حضر محمد",
+          "fullyDiacritizedSentence": "هَلْ حَضَرَ مُحَمَّدٌ؟",
+          "parsedWords": [
+            {
+              "word": "هل",
+              "normalizedWord": "هل",
+              "wordType": "حرف استفهام",
+              "grammaticalRole": "أداة استفهام",
+              "grammaticalState": "مبني لا محل له من الإعراب",
+              "grammaticalSign": "البناء",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "يدخل على الجملة لطلب التصديق",
+              "sentencePosition": "لا محل له من الإعراب",
+              "explanation": "«هل» حرف؛ لأنه يدل على معنى الاستفهام مع الجملة ولا يقبل علامات الاسم أو الفعل.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني",
+              "grammaticalSign": "الفتح الظاهر",
+              "signReason": "فعل ماض لم يتصل به شيء",
+              "grammaticalAgent": "البناء أصل في الفعل الماضي",
+              "sentencePosition": "لا محل له منفردًا",
+              "explanation": "«حضر» فعل ماض دل على حدث وقع قبل زمن الكلام.",
+              "startIndex": 3,
+              "endIndex": 6
+            },
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم علم",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "جزء من الجملة الفعلية",
+              "explanation": "«محمد» اسم علم أسند إليه فعل الحضور؛ لذلك يعرب فاعلًا.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "يبين المثال الفرق بين حرف الاستفهام والفعل الماضي والاسم الذي وقع فاعلًا.",
+          "referenceIds": ["ref-moe-primary6", "ref-jami-durus"]
         }
       ],
       "exerciseIds": [
@@ -309,17 +418,26 @@
         "parts-of-speech-ex-9",
         "parts-of-speech-ex-10"
       ],
+      "masteryExerciseIds": [
+        "parts-of-speech-ex-2",
+        "parts-of-speech-ex-4",
+        "parts-of-speech-ex-6",
+        "parts-of-speech-ex-8",
+        "parts-of-speech-ex-10"
+      ],
       "referenceIds": [
         "ref-moe-primary6",
         "ref-qatr-alnada",
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.1.0",
+      "contentVersion": "1.2.0",
       "reviewStatus": "sourceDocumented"
     },
     {
       "id": "nominal-sentence",
+      "topicId": "nominal.subject-predicate",
+      "order": 2,
       "title": "المبتدأ والخبر",
       "unitId": "nominal-sentence-unit",
       "stage": "preparatory",
@@ -355,7 +473,7 @@
         "تحديد العلامة أو الموقع مع ذكر السبب.",
         "تطبيق القاعدة على مثال جديد."
       ],
-      "prerequisiteIds": [],
+      "prerequisiteIds": ["parts-of-speech"],
       "sections": [
         {
           "id": "nominal-sentence-sec-1",
@@ -455,16 +573,44 @@
               "explanation": "«الطالب» اسم مرفوع وقع طرف الإسناد الأول، و«مجتهد» أتم الفائدة خبرًا.",
               "startIndex": 0,
               "endIndex": 6
+            },
+            {
+              "word": "مجتهد",
+              "normalizedWord": "مجتهد",
+              "wordType": "اسم",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الطالب»",
+              "sentencePosition": "الركن المتمم للجملة الاسمية",
+              "explanation": "«مجتهد» خبر مرفوع أتم الفائدة مع المبتدأ.",
+              "startIndex": 7,
+              "endIndex": 12
             }
           ],
           "explanation": "«الطالب» اسم مرفوع وقع طرف الإسناد الأول، و«مجتهد» أتم الفائدة خبرًا.",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-primary6"]
         },
         {
           "id": "nominal-sentence-example-2",
           "sentence": "في الفصل طلاب",
           "fullyDiacritizedSentence": "فِي الفَصْلِ طُلَّابٌ",
           "parsedWords": [
+            {
+              "word": "في الفصل",
+              "normalizedWord": "في الفصل",
+              "wordType": "شبه جملة: جار ومجرور",
+              "grammaticalRole": "خبر مقدم",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "محلي؛ لا تظهر حركة على التركيب",
+              "signReason": "تعلق الجار والمجرور بمحذوف تقديره كائن",
+              "grammaticalAgent": "التعلق بمحذوف الخبر",
+              "sentencePosition": "خبر مقدم في الجملة الاسمية",
+              "explanation": "شبه الجملة «في الفصل» متعلق بمحذوف خبر مقدم.",
+              "startIndex": 0,
+              "endIndex": 8
+            },
             {
               "word": "طلاب",
               "normalizedWord": "طلاب",
@@ -479,7 +625,7 @@
             }
           ],
           "explanation": "شبه الجملة «في الفصل» خبر مقدم، و«طلاب» مبتدأ مؤخر مرفوع.",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-primary6"]
         },
         {
           "id": "nominal-sentence-example-3",
@@ -513,6 +659,43 @@
           ],
           "explanation": "المبتدأ والخبر مثنيان مرفوعان بالألف.",
           "referenceIds": ["ref-moe-primary6"]
+        },
+        {
+          "id": "nominal-sentence-example-4",
+          "sentence": "المعلمون مخلصون",
+          "fullyDiacritizedSentence": "المُعَلِّمُونَ مُخْلِصُونَ",
+          "parsedWords": [
+            {
+              "word": "المعلمون",
+              "normalizedWord": "المعلمون",
+              "wordType": "اسم جمع مذكر سالم",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو",
+              "signReason": "لأنه جمع مذكر سالم",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "الركن الأول في الجملة الاسمية",
+              "explanation": "«المعلمون» مبتدأ مرفوع، وعلامة رفعه الواو نيابةً عن الضمة.",
+              "startIndex": 0,
+              "endIndex": 8
+            },
+            {
+              "word": "مخلصون",
+              "normalizedWord": "مخلصون",
+              "wordType": "اسم جمع مذكر سالم",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو",
+              "signReason": "لأنه جمع مذكر سالم",
+              "grammaticalAgent": "المبتدأ «المعلمون»",
+              "sentencePosition": "الركن المتمم لمعنى الجملة الاسمية",
+              "explanation": "«مخلصون» خبر مرفوع أتم معنى الجملة، وعلامة رفعه الواو.",
+              "startIndex": 9,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "المبتدأ والخبر جمعا مذكر سالم؛ لذلك كانت علامة رفع كل منهما الواو.",
+          "referenceIds": ["ref-moe-primary6", "ref-jami-durus"]
         }
       ],
       "exerciseIds": [
@@ -527,17 +710,26 @@
         "nominal-sentence-ex-9",
         "nominal-sentence-ex-10"
       ],
+      "masteryExerciseIds": [
+        "nominal-sentence-ex-2",
+        "nominal-sentence-ex-4",
+        "nominal-sentence-ex-6",
+        "nominal-sentence-ex-8",
+        "nominal-sentence-ex-10"
+      ],
       "referenceIds": [
         "ref-moe-primary6",
         "ref-qatr-alnada",
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.1.0",
+      "contentVersion": "1.2.0",
       "reviewStatus": "sourceDocumented"
     },
     {
       "id": "sentences-with-syntactic-position",
+      "topicId": "sentence-positions.with-position",
+      "order": 3,
       "title": "الجمل التي لها محل من الإعراب",
       "unitId": "sentence-position-unit",
       "stage": "secondary",
@@ -573,7 +765,7 @@
         "تحديد العلامة أو الموقع مع ذكر السبب.",
         "تطبيق القاعدة على مثال جديد."
       ],
-      "prerequisiteIds": [],
+      "prerequisiteIds": ["nominal-sentence"],
       "sections": [
         {
           "id": "sentences-with-syntactic-position-sec-1",
@@ -663,6 +855,20 @@
           "fullyDiacritizedSentence": "العِلْمُ يَنْفَعُ صَاحِبَهُ",
           "parsedWords": [
             {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "الركن الأول في الجملة الاسمية",
+              "explanation": "«العلم» مبتدأ مرفوع، والجملة الفعلية بعده خبره.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
               "word": "ينفع",
               "normalizedWord": "ينفع",
               "wordType": "فعل مضارع",
@@ -673,16 +879,58 @@
               "explanation": "الجملة الفعلية «ينفع صاحبه» في محل رفع خبر للمبتدأ «العلم».",
               "startIndex": 6,
               "endIndex": 10
+            },
+            {
+              "word": "صاحبه",
+              "normalizedWord": "صاحبه",
+              "wordType": "اسم متصل بضمير",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة على «صاحب»",
+              "signReason": "اسم مفرد وقع عليه فعل النفع",
+              "grammaticalAgent": "الفعل المتعدي «ينفع»",
+              "sentencePosition": "داخل جملة الخبر الفعلية",
+              "explanation": "«صاحب» مفعول به منصوب وهو مضاف، والهاء مضاف إليه.",
+              "startIndex": 11,
+              "endIndex": 16
             }
           ],
           "explanation": "الجملة الفعلية «ينفع صاحبه» في محل رفع خبر للمبتدأ «العلم».",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-secondary-model"]
         },
         {
           "id": "sentences-with-syntactic-position-example-2",
           "sentence": "جاء الطالب يبتسم",
           "fullyDiacritizedSentence": "جَاءَ الطَّالِبُ يَبْتَسِمُ",
           "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "الفتح الظاهر",
+              "signReason": "فعل ماض لم يتصل به ما يغير بناءه",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "بداية الجملة الفعلية",
+              "explanation": "«جاء» فعل ماض مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم",
+              "grammaticalRole": "فاعل وصاحب الحال",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد أسند إليه فعل المجيء",
+              "grammaticalAgent": "الفعل «جاء»",
+              "sentencePosition": "صاحب الجملة الحالية بعده",
+              "explanation": "«الطالب» فاعل مرفوع، وهو صاحب الحال «يبتسم».",
+              "startIndex": 4,
+              "endIndex": 10
+            },
             {
               "word": "يبتسم",
               "normalizedWord": "يبتسم",
@@ -697,13 +945,41 @@
             }
           ],
           "explanation": "الجملة الفعلية «يبتسم» في محل نصب حال، وصاحب الحال «الطالب».",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-secondary-model"]
         },
         {
           "id": "sentences-with-syntactic-position-example-3",
           "sentence": "رأيت طالبًا يقرأ",
           "fullyDiacritizedSentence": "رَأَيْتُ طَالِبًا يَقْرَأُ",
           "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "فعل ماض متصل بتاء الفاعل",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "السكون لاتصاله بتاء الفاعل",
+              "signReason": "اتصلت به تاء الفاعل المتحركة",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "بداية الجملة الفعلية",
+              "explanation": "«رأيت» فعل ماض مبني على السكون، والتاء ضمير في محل رفع فاعل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طالبًا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم نكرة",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد وقع عليه فعل الرؤية",
+              "grammaticalAgent": "الفعل المتعدي «رأيت»",
+              "sentencePosition": "موصوف بالجملة الفعلية بعده",
+              "explanation": "«طالبًا» مفعول به منصوب، وجملة «يقرأ» صفة له.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
             {
               "word": "يقرأ",
               "normalizedWord": "يقرا",
@@ -719,6 +995,57 @@
           ],
           "explanation": "جملة «يقرأ» وصفت اسمًا نكرة منصوبًا؛ لذلك هي في محل نصب صفة.",
           "referenceIds": ["ref-moe-secondary-model"]
+        },
+        {
+          "id": "sentences-with-syntactic-position-example-4",
+          "sentence": "هذا طالب يقرأ",
+          "fullyDiacritizedSentence": "هَذَا طَالِبٌ يَقْرَأُ",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "اسم إشارة",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "البناء على السكون",
+              "signReason": "اسم الإشارة مبني",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "الركن الأول في الجملة الاسمية",
+              "explanation": "«هذا» اسم إشارة مبني في محل رفع مبتدأ.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم نكرة",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «هذا»",
+              "sentencePosition": "خبر الجملة الاسمية",
+              "explanation": "«طالب» خبر مرفوع، وهو اسم نكرة وصفته الجملة بعده.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرا",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل جملة الصفة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "الجملة الفعلية في محل رفع صفة لـ«طالب»",
+              "explanation": "«يقرأ» فعل مضارع، وفاعله ضمير مستتر، والجملة في محل رفع صفة.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "وقعت جملة «يقرأ» بعد اسم نكرة مرفوع فوصفته؛ لذلك هي في محل رفع صفة.",
+          "referenceIds": ["ref-moe-secondary-model", "ref-ibn-aqil"]
         }
       ],
       "exerciseIds": [
@@ -733,13 +1060,20 @@
         "sentences-with-syntactic-position-ex-9",
         "sentences-with-syntactic-position-ex-10"
       ],
+      "masteryExerciseIds": [
+        "sentences-with-syntactic-position-ex-2",
+        "sentences-with-syntactic-position-ex-4",
+        "sentences-with-syntactic-position-ex-6",
+        "sentences-with-syntactic-position-ex-8",
+        "sentences-with-syntactic-position-ex-10"
+      ],
       "referenceIds": [
         "ref-moe-secondary-model",
         "ref-ibn-aqil",
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.1.0",
+      "contentVersion": "1.2.0",
       "reviewStatus": "sourceDocumented"
     }
   ],

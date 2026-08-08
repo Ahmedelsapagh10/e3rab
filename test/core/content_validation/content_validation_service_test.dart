@@ -34,13 +34,25 @@ void main() {
   test('accepts source-documented content without claiming human review', () {
     final pack = _validPack();
     final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
+    final exercises = pack['exercises'] as List;
+    final entityIds = (pack['manifest'] as Map)['entityIds'] as List;
+    for (var index = 2; index <= 10; index++) {
+      final exercise = Map<String, dynamic>.from(
+        exercises.first as Map<String, dynamic>,
+      )..['id'] = 'exercise-$index';
+      exercises.add(exercise);
+      entityIds.add('exercise-$index');
+    }
     lesson.addAll({
       'reviewStatus': 'sourceDocumented',
       'objectives': ['تمييز أقسام الكلمة.'],
-      'examples': [
-        <String, dynamic>{'id': 'example-1'},
-      ],
-      'exerciseIds': ['exercise-1'],
+      'sections': _documentedSections,
+      'examples': List.generate(4, _documentedExample),
+      'exerciseIds': List.generate(10, (index) => 'exercise-${index + 1}'),
+      'masteryExerciseIds': List.generate(
+        5,
+        (index) => 'exercise-${index + 1}',
+      ),
       'referenceIds': ['reference-1'],
       'prerequisiteIds': <String>[],
     });
@@ -67,6 +79,35 @@ void main() {
     );
   });
 }
+
+const _documentedSections = [
+  {'id': 'section-1', 'type': 'explanation'},
+  {'id': 'section-2', 'type': 'rule'},
+  {'id': 'section-3', 'type': 'detection'},
+  {'id': 'section-4', 'type': 'misconceptions'},
+  {'id': 'section-5', 'type': 'summary'},
+];
+
+Map<String, dynamic> _documentedExample(int index) => {
+  'id': 'example-${index + 1}',
+  'sentence': 'العلم نور',
+  'fullyDiacritizedSentence': 'العِلْمُ نُورٌ',
+  'referenceIds': ['reference-1'],
+  'parsedWords': [
+    <String, dynamic>{
+      'word': 'العلم',
+      'normalizedWord': 'العلم',
+      'wordType': 'اسم',
+      'grammaticalRole': 'مبتدأ',
+      'grammaticalState': 'مرفوع',
+      'grammaticalSign': 'الضمة',
+      'signReason': 'مفرد',
+      'explanation': 'مبتدأ مرفوع.',
+      'startIndex': 0,
+      'endIndex': 5,
+    },
+  ],
+};
 
 Map<String, dynamic> _validPack() => {
   'manifest': <String, dynamic>{

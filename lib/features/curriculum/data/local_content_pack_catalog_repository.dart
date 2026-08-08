@@ -72,8 +72,18 @@ class LocalContentPackCatalogRepository
               entry.assetPath.startsWith('assets/content/') &&
               entry.assetPath.endsWith('.json') &&
               _hasText(entry.contentVersion) &&
-              _hasText(entry.curriculumVersion),
+              _hasText(entry.curriculumVersion) &&
+              _isSafeForLearners(entry),
         );
+  }
+
+  bool _isSafeForLearners(ContentPackCatalogEntry entry) {
+    if (!entry.learnerEnabled) return true;
+    return const {
+      ContentReviewStatus.sourceDocumented,
+      ContentReviewStatus.humanReviewed,
+      ContentReviewStatus.approved,
+    }.contains(entry.reviewStatus);
   }
 
   bool _hasText(Object? value) => value is String && value.trim().isNotEmpty;

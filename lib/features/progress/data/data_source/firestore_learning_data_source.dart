@@ -58,6 +58,14 @@ class FirestoreLearningDataSource implements CloudLearningDataSource {
       'masteryScore': item.masteryScore,
       'updatedAt': FieldValue.serverTimestamp(),
       'schemaVersion': item.schemaVersion,
+      'currentPhase': item.currentPhase.name,
+      'completedPhases': item.completedPhases
+          .map((phase) => phase.name)
+          .toList(),
+      'masteryStatus': item.masteryStatus.name,
+      'checkpointScore': item.checkpointScore,
+      'missedSkillIds': item.missedSkillIds,
+      'masteredAt': _timestamp(item.masteredAt),
     });
   }
 

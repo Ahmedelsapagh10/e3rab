@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "egypt-secondary2-term1-batch1-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.1.0",
+    "contentVersion": "1.2.0",
     "curriculumVersion": "egypt-national-2025-2026",
     "locale": "ar",
     "entityIds": [
@@ -22,7 +22,7 @@
     ],
     "checksum": "generated-at-seed-time",
     "minimumAppVersion": "1.0.0",
-    "reviewStatus": "aiAssistedDraft"
+    "reviewStatus": "inReview"
   },
   "modules": [
     {
@@ -46,6 +46,8 @@
   "lessons": [
     {
       "id": "jussive-answer-request-v1",
+      "topicId": "majzoumat.answer-to-request",
+      "order": 90,
       "unitId": "jussive-answer-request-unit-v1",
       "slug": "jussive-present-answer-request",
       "title": "جزم المضارع في جواب الطلب",
@@ -144,7 +146,7 @@
             }
           ],
           "explanation": "النجاح نتيجة الاجتهاد؛ لذلك جُزم المضارع في جواب الطلب.",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
         },
         {
           "id": "jussive-answer-request-v1-example-2",
@@ -165,7 +167,7 @@
             }
           ],
           "explanation": "صح معنى الشرط: إن تسعَ في الخير ترقَ.",
-          "referenceIds": []
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
         },
         {
           "id": "jussive-answer-request-v1-example-3",
@@ -187,6 +189,29 @@
           ],
           "explanation": "«تنجحْ» جواب للنهي «لا تهملْ»، وهو نتيجة مترتبة على الامتثال للطلب.",
           "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
+        },
+        {
+          "id": "jussive-answer-request-v1-example-4",
+          "sentence": "احفظوا الوقت تفوزوا",
+          "fullyDiacritizedSentence": "اِحْفَظُوا الوَقْتَ تَفُوزُوا",
+          "parsedWords": [
+            {
+              "word": "تفوزوا",
+              "normalizedWord": "تفوزوا",
+              "wordType": "فعل مضارع من الأفعال الخمسة",
+              "grammaticalRole": "جواب الطلب",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "حذف النون",
+              "signReason": "لأنه من الأفعال الخمسة ووقع جوابًا للأمر",
+              "grammaticalAgent": "الطلب بالفعل «احفظوا» مع ترتب الفوز عليه",
+              "sentencePosition": "جملة جواب الطلب لا محل لها من الإعراب",
+              "explanation": "الفوز نتيجة حفظ الوقت، ويصح تقدير الشرط: إن تحفظوا الوقت تفوزوا.",
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "جُزم «تفوزوا» بحذف النون لأنه من الأفعال الخمسة ووقع جوابًا للأمر.",
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
         }
       ],
       "exerciseIds": [
@@ -201,11 +226,18 @@
         "jussive-answer-request-v1-ex-9",
         "jussive-answer-request-v1-ex-10"
       ],
+      "masteryExerciseIds": [
+        "jussive-answer-request-v1-ex-2",
+        "jussive-answer-request-v1-ex-4",
+        "jussive-answer-request-v1-ex-6",
+        "jussive-answer-request-v1-ex-8",
+        "jussive-answer-request-v1-ex-10"
+      ],
       "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
       "tags": ["جواب الطلب", "جزم المضارع", "الأمر", "النهي", "علامات الجزم"],
       "estimatedMinutes": 20,
-      "contentVersion": "1.1.0",
-      "reviewStatus": "aiAssistedDraft",
+      "contentVersion": "1.2.0",
+      "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
     }

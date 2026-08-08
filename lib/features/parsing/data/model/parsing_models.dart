@@ -73,6 +73,9 @@ class ParsingSampleModel extends Equatable {
     required this.referenceIds,
     required this.contentVersion,
     required this.reviewStatus,
+    required this.trackId,
+    required this.difficulty,
+    required this.order,
     this.reviewedBy,
     this.reviewedAt,
   });
@@ -89,6 +92,9 @@ class ParsingSampleModel extends Equatable {
   final List<String> referenceIds;
   final String contentVersion;
   final ContentReviewStatus reviewStatus;
+  final String trackId;
+  final int difficulty;
+  final int order;
   final String? reviewedBy;
   final DateTime? reviewedAt;
 
@@ -108,6 +114,9 @@ class ParsingSampleModel extends Equatable {
     referenceIds,
     contentVersion,
     reviewStatus,
+    trackId,
+    difficulty,
+    order,
     reviewedBy,
     reviewedAt,
   ];

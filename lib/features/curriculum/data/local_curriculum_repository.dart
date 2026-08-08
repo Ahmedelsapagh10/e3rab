@@ -43,7 +43,11 @@ class LocalCurriculumRepository implements CurriculumRepository {
 
   @override
   Future<Either<Failure, List<LessonModel>>> getAllLessons() {
-    return _run(() => _dataSource.lessons);
+    return _run(() {
+      final lessons = [..._dataSource.lessons];
+      lessons.sort((a, b) => a.order.compareTo(b.order));
+      return lessons;
+    });
   }
 
   @override

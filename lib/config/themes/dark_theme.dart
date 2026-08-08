@@ -38,9 +38,9 @@ class DarkTheme {
     // Card theme
     cardTheme: CardThemeData(
       color: AppColorsExtension.dark.cardColor,
-      elevation: 1,
+      elevation: 0,
       surfaceTintColor: Colors.transparent,
-      shadowColor: Colors.black.withValues(alpha: 0.2),
+      shadowColor: Colors.transparent,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(E3rabRadii.medium),
         side: BorderSide(
@@ -117,11 +117,11 @@ class DarkTheme {
       surfaceTintColor: Colors.transparent,
       shadowColor: Colors.black.withValues(alpha: 0.25),
       backgroundColor: AppColorsExtension.dark.surface,
-      indicatorColor: const Color(0xFF29466B),
+      indicatorColor: const Color(0xFF24473E),
     ),
     navigationRailTheme: NavigationRailThemeData(
       backgroundColor: AppColorsExtension.dark.surface,
-      indicatorColor: const Color(0xFF29466B),
+      indicatorColor: const Color(0xFF24473E),
       indicatorShape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(E3rabRadii.medium),
       ),

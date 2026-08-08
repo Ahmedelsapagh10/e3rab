@@ -51,6 +51,37 @@ void main() {
       );
     },
   );
+
+  test('guided bank filters by grammar track and difficulty', () async {
+    final fixture = await _fixture(allowDraftPreview: true);
+    addTearDown(fixture.dispose);
+
+    await fixture.cubit.load();
+    await fixture.cubit.selectTrack('sentence_positions');
+    await fixture.cubit.selectDifficulty(3);
+
+    expect(fixture.cubit.state.samples, hasLength(1));
+    expect(fixture.cubit.state.currentSample.trackId, 'sentence_positions');
+    expect(fixture.cubit.state.currentSample.difficulty, 3);
+  });
+
+  test('foundations filter exposes ordered beginner samples', () async {
+    final fixture = await _fixture(allowDraftPreview: true);
+    addTearDown(fixture.dispose);
+
+    await fixture.cubit.load();
+    await fixture.cubit.selectTrack('foundations');
+    await fixture.cubit.selectDifficulty(1);
+
+    expect(fixture.cubit.state.samples, hasLength(5));
+    expect(fixture.cubit.state.samples.map((sample) => sample.id), [
+      'parse-built-demonstrative-subject',
+      'parse-estimated-maqsur-subject',
+      'parse-verb-governs-object',
+      'parse-preposition-governs-noun',
+      'parse-imperative-complete-speech',
+    ]);
+  });
 }
 
 Future<_ParsingFixture> _fixture({required bool allowDraftPreview}) async {

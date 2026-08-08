@@ -51,11 +51,39 @@ class ParsingCubit extends Cubit<ParsingState> {
           ParsingState(
             status: ParsingLabStatus.ready,
             samples: samples,
+            allSamples: samples,
             saved: saved,
             previewMode: _allowDraftPreview && !samples.first.isApproved,
           ),
         );
       },
+    );
+  }
+
+  Future<void> selectTrack(String? trackId) async {
+    await _applyFilters(trackId: trackId, difficulty: state.selectedDifficulty);
+  }
+
+  Future<void> selectDifficulty(int? difficulty) async {
+    await _applyFilters(trackId: state.selectedTrackId, difficulty: difficulty);
+  }
+
+  Future<void> _applyFilters({String? trackId, int? difficulty}) async {
+    final filtered = state.allSamples.where((sample) {
+      return (trackId == null || sample.trackId == trackId) &&
+          (difficulty == null || sample.difficulty == difficulty);
+    }).toList()..sort((a, b) => a.order.compareTo(b.order));
+    if (filtered.isEmpty) return;
+    emit(
+      ParsingState(
+        status: ParsingLabStatus.ready,
+        samples: filtered,
+        allSamples: state.allSamples,
+        selectedTrackId: trackId,
+        selectedDifficulty: difficulty,
+        saved: await _isSaved(filtered.first.id),
+        previewMode: _allowDraftPreview && !filtered.first.isApproved,
+      ),
     );
   }
 
@@ -95,9 +123,12 @@ class ParsingCubit extends Cubit<ParsingState> {
       ParsingState(
         status: ParsingLabStatus.ready,
         samples: state.samples,
+        allSamples: state.allSamples,
         sampleIndex: index,
         saved: await _isSaved(sample.id),
         previewMode: _allowDraftPreview && !sample.isApproved,
+        selectedTrackId: state.selectedTrackId,
+        selectedDifficulty: state.selectedDifficulty,
       ),
     );
   }

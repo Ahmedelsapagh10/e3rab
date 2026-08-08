@@ -36,9 +36,9 @@ class LightTheme {
     // Card theme
     cardTheme: CardThemeData(
       color: AppColorsExtension.light.cardColor,
-      elevation: 1,
+      elevation: 0,
       surfaceTintColor: Colors.transparent,
-      shadowColor: const Color(0xFF17324D).withValues(alpha: 0.08),
+      shadowColor: Colors.transparent,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(E3rabRadii.medium),
         side: BorderSide(
@@ -115,7 +115,7 @@ class LightTheme {
       surfaceTintColor: Colors.transparent,
       shadowColor: const Color(0xFF17324D).withValues(alpha: 0.1),
       backgroundColor: AppColorsExtension.light.surface,
-      indicatorColor: const Color(0xFFEAF2FF),
+      indicatorColor: const Color(0xFFE7F0EB),
       labelTextStyle: WidgetStateProperty.resolveWith(
         (states) => TextStyle(
           color: states.contains(WidgetState.selected)
@@ -129,7 +129,7 @@ class LightTheme {
     ),
     navigationRailTheme: NavigationRailThemeData(
       backgroundColor: AppColorsExtension.light.surface,
-      indicatorColor: const Color(0xFFEAF2FF),
+      indicatorColor: const Color(0xFFE7F0EB),
       indicatorShape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(E3rabRadii.medium),
       ),

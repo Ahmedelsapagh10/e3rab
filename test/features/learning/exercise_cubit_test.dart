@@ -10,7 +10,7 @@ import 'package:new_strucuture/features/progress/data/model/learning_progress_mo
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
-  test('hinted correct answer receives 0.7 and completes lesson', () async {
+  test('guided practice preserves progress without mastering lesson', () async {
     SharedPreferences.setMockInitialValues({});
     final local = LocalLearningDataSource(
       await SharedPreferences.getInstance(),
@@ -37,9 +37,13 @@ void main() {
     expect(cubit.state.completed, isTrue);
     expect(
       local.getProgress(owner).single.status,
-      LessonProgressStatus.completed,
+      LessonProgressStatus.inProgress,
     );
     expect(local.getProgress(owner).single.masteryScore, .7);
+    expect(
+      local.getProgress(owner).single.completedPhases,
+      contains(LearningPhaseType.independentPractice),
+    );
   });
 
   test('revealed answer is stored with zero weight', () async {
@@ -89,7 +93,7 @@ void main() {
   });
 
   test(
-    'lesson exam stores answers without hints or completing lesson',
+    'lesson exam stores answers without hints and applies mastery threshold',
     () async {
       SharedPreferences.setMockInitialValues({});
       final local = LocalLearningDataSource(
@@ -114,7 +118,14 @@ void main() {
       expect(cubit.state.hintUsed, isFalse);
       expect(cubit.state.completed, isTrue);
       expect(local.getAttempts(owner), hasLength(1));
-      expect(local.getProgress(owner), isEmpty);
+      expect(
+        local.getProgress(owner).single.status,
+        LessonProgressStatus.completed,
+      );
+      expect(
+        local.getProgress(owner).single.masteryStatus,
+        LessonMasteryStatus.mastered,
+      );
     },
   );
 }

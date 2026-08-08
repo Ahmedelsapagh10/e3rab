@@ -1,6 +1,7 @@
 import 'validation_report.dart';
 
 part 'content_item_validator.dart';
+part 'content_readiness_validator.dart';
 part 'content_structure_validator.dart';
 
 class ContentValidationService {
