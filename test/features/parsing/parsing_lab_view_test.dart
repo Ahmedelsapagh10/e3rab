@@ -74,6 +74,7 @@ void main() {
       status: ParsingLabStatus.ready,
       samples: [sample],
       allSamples: [sample],
+      selectedTrackId: sample.trackId,
     );
 
     await tester.pumpWidget(
@@ -89,6 +90,7 @@ void main() {
 
     expect(find.text('الباب'), findsOneWidget);
     expect(find.text('المستوى'), findsOneWidget);
+    expect(find.text('علامات الإعراب'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 }

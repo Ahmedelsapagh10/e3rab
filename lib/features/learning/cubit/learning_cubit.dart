@@ -2,10 +2,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../curriculum/data/curriculum_repository.dart';
 import '../../curriculum/data/grammar_coverage_repository.dart';
-import '../../curriculum/data/model/lesson_model.dart';
 import '../../curriculum/data/model/exercise_model.dart';
+import '../../curriculum/data/model/lesson_model.dart';
 import '../../curriculum/data/model/grammar_coverage_model.dart';
-import '../../practice/domain/practice_queue_builder.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../progress/data/model/learning_support_models.dart';
 import '../../progress/data/progress_repository.dart';
@@ -17,15 +16,12 @@ class LearningCubit extends Cubit<LearningState> {
     this._curriculum,
     this._progress,
     this.owner, {
-    PracticeQueueBuilder queueBuilder = const PracticeQueueBuilder(),
     GrammarCoverageRepository? coverageRepository,
-  }) : _queueBuilder = queueBuilder,
-       _coverageRepository = coverageRepository,
+  }) : _coverageRepository = coverageRepository,
        super(const LearningState());
 
   final CurriculumRepository _curriculum;
   final ProgressRepository _progress;
-  final PracticeQueueBuilder _queueBuilder;
   final GrammarCoverageRepository? _coverageRepository;
   final LearningDataOwner owner;
 
@@ -34,34 +30,6 @@ class LearningCubit extends Cubit<LearningState> {
       lessons: state.lessons,
       progress: state.progress,
     );
-  }
-
-  List<ExerciseModel> reviewQueue({int limit = 10}) {
-    return _queueBuilder.reviewQueue(
-      exercises: state.exercises.values.expand((items) => items).toList(),
-      mastery: state.mastery,
-      reviews: state.reviews,
-      now: DateTime.now().toUtc(),
-      limit: limit,
-    );
-  }
-
-  List<ExerciseModel> cumulativeQueue({int limit = 15}) {
-    return _queueBuilder.cumulativeQueue(
-      exercisesByLesson: state.exercises,
-      limit: limit,
-    );
-  }
-
-  String skillLabel(String skillId) {
-    final exercise = state.exercises.values
-        .expand((items) => items)
-        .where((item) => item.skillIds.contains(skillId))
-        .firstOrNull;
-    final lesson = state.lessons
-        .where((item) => item.id == exercise?.lessonId)
-        .firstOrNull;
-    return lesson?.title ?? skillId;
   }
 
   Future<void> load() async {
@@ -150,10 +118,16 @@ class LearningCubit extends Cubit<LearningState> {
     final existing = state.progressFor(lesson.id);
     final now = DateTime.now().toUtc();
     final completed = {...?existing?.completedPhases, phase};
-    final currentPhase = LearningPhaseType.values.firstWhere(
-      (item) => !completed.contains(item),
-      orElse: () => LearningPhaseType.masteryCheck,
-    );
+    final needsRemediation =
+        existing?.masteryStatus == LessonMasteryStatus.needsRemediation;
+    final currentPhase = needsRemediation
+        ? phase == LearningPhaseType.workedExamples
+              ? LearningPhaseType.independentPractice
+              : existing!.currentPhase
+        : LearningPhaseType.values.firstWhere(
+            (item) => !completed.contains(item),
+            orElse: () => LearningPhaseType.masteryCheck,
+          );
     await _progress.saveLessonProgress(
       owner,
       LessonProgressModel(
@@ -171,9 +145,12 @@ class LearningCubit extends Cubit<LearningState> {
         masteryScore: existing?.masteryScore ?? 0,
         currentPhase: currentPhase,
         completedPhases: completed.toList(),
-        masteryStatus: existing?.masteryStatus == LessonMasteryStatus.mastered
-            ? LessonMasteryStatus.mastered
-            : LessonMasteryStatus.learning,
+        masteryStatus: switch (existing?.masteryStatus) {
+          LessonMasteryStatus.mastered => LessonMasteryStatus.mastered,
+          LessonMasteryStatus.needsRemediation =>
+            LessonMasteryStatus.needsRemediation,
+          _ => LessonMasteryStatus.learning,
+        },
         checkpointScore: existing?.checkpointScore ?? 0,
         missedSkillIds: existing?.missedSkillIds ?? const [],
         masteredAt: existing?.masteredAt,

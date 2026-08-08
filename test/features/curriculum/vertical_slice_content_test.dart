@@ -57,6 +57,18 @@ void main() {
             'Learner examples must parse the sentence, not one target only.',
       );
       expect(
+        lessons.every(
+          (lesson) => (lesson['examples'] as List).every(
+            (example) => ((example as Map)['parsedWords'] as List).every(
+              (word) =>
+                  ((word as Map)['grammaticalAgent'] as String).isNotEmpty &&
+                  (word['sentencePosition'] as String).isNotEmpty,
+            ),
+          ),
+        ),
+        isTrue,
+      );
+      expect(
         lessons.every((lesson) => lesson['reviewStatus'] == 'sourceDocumented'),
         isTrue,
       );

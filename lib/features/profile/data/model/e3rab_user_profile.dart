@@ -3,6 +3,11 @@ import 'dart:convert';
 
 enum LearningRole { student, teacher, parent, independentLearner }
 
+LearningRole learningRoleFromStored(Object? value) {
+  return LearningRole.values.where((role) => role.name == value).firstOrNull ??
+      LearningRole.independentLearner;
+}
+
 class E3rabUserProfile extends Equatable {
   const E3rabUserProfile({
     required this.uid,
@@ -82,20 +87,21 @@ class E3rabUserProfile extends Equatable {
       displayName: json['displayName'] as String?,
       photoUrl: json['photoUrl'] as String?,
       authProviders: List<String>.from(json['authProviders'] as List? ?? []),
-      learningRole: LearningRole.values.byName(json['learningRole'] as String),
-      countryCode: json['countryCode'] as String,
+      learningRole: learningRoleFromStored(json['learningRole']),
+      countryCode: json['countryCode'] as String? ?? 'GLOBAL',
       curriculumId: json['curriculumId'] as String?,
       curriculumVersionId: json['curriculumVersionId'] as String?,
       stageId: json['stageId'] as String?,
       gradeId: json['gradeId'] as String?,
       grammarLevel: json['grammarLevel'] as String?,
       learningGoal: json['learningGoal'] as String?,
-      dailyGoalMinutes: json['dailyGoalMinutes'] as int?,
-      preferredLocale: json['preferredLocale'] as String,
-      onboardingCompleted: json['onboardingCompleted'] as bool,
-      profileSchemaVersion: json['profileSchemaVersion'] as int,
-      createdAt: DateTime.parse(json['createdAt'] as String),
-      updatedAt: DateTime.parse(json['updatedAt'] as String),
+      dailyGoalMinutes: (json['dailyGoalMinutes'] as num?)?.toInt(),
+      preferredLocale: json['preferredLocale'] as String? ?? 'ar',
+      onboardingCompleted: json['onboardingCompleted'] as bool? ?? false,
+      profileSchemaVersion:
+          (json['profileSchemaVersion'] as num?)?.toInt() ?? 1,
+      createdAt: _storedDate(json['createdAt']),
+      updatedAt: _storedDate(json['updatedAt']),
     );
   }
 
@@ -158,4 +164,10 @@ class E3rabUserProfile extends Equatable {
     createdAt,
     updatedAt,
   ];
+}
+
+DateTime _storedDate(Object? value) {
+  if (value is DateTime) return value;
+  if (value is String) return DateTime.tryParse(value) ?? DateTime.utc(1970);
+  return DateTime.utc(1970);
 }

@@ -68,11 +68,11 @@ class ShellAppBar extends StatelessWidget implements PreferredSizeWidget {
                   onTap: onAccountTap,
                   child: CircleAvatar(
                     radius: 21,
-                    backgroundColor: E3rabBrandColors.sky,
+                    backgroundColor: E3rabBrandColors.primaryContainer,
                     child: Text(
                       _initial(name),
                       style: const TextStyle(
-                        color: E3rabBrandColors.navy,
+                        color: E3rabBrandColors.heading,
                         fontWeight: FontWeight.w800,
                       ),
                     ),
@@ -100,11 +100,11 @@ class _BrandMark extends StatelessWidget {
   @override
   Widget build(BuildContext context) => DecoratedBox(
     decoration: BoxDecoration(
-      color: E3rabBrandColors.primaryBlue,
+      color: E3rabBrandColors.primary,
       borderRadius: BorderRadius.circular(E3rabRadii.small),
       boxShadow: [
         BoxShadow(
-          color: E3rabBrandColors.primaryBlue.withValues(alpha: 0.2),
+          color: E3rabBrandColors.primary.withValues(alpha: 0.2),
           blurRadius: 14,
           offset: const Offset(0, 5),
         ),

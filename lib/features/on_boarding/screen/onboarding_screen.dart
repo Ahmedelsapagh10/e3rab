@@ -56,8 +56,8 @@ class OnBoardingScreen extends StatelessWidget {
                               controller: cubit.pageController,
                               count: OnboardingCubit.numPages,
                               effect: const WormEffect(
-                                activeDotColor: E3rabBrandColors.primaryOrange,
-                                dotColor: E3rabBrandColors.softOrange,
+                                activeDotColor: E3rabBrandColors.primary,
+                                dotColor: E3rabBrandColors.primaryContainer,
                                 dotHeight: 8,
                                 dotWidth: 8,
                               ),

@@ -5,6 +5,7 @@ import 'package:new_strucuture/core/error/failures.dart';
 import 'package:new_strucuture/features/curriculum/data/content_seed_repository.dart';
 import 'package:new_strucuture/features/curriculum/data/data_source/firestore_content_seed_data_source.dart';
 import 'package:new_strucuture/features/curriculum/data/firebase_content_seed_repository.dart';
+import 'package:new_strucuture/features/curriculum/data/local_content_pack_catalog_repository.dart';
 import 'package:new_strucuture/features/curriculum/services/content_seeder.dart';
 
 void main() {
@@ -18,25 +19,23 @@ void main() {
     );
 
     final result = await repository.seedConfiguredPacks();
-
-    expect(
-      result.getOrElse(() => throw StateError('Expected seed results.')),
-      const [
-        ContentSeedWriteResult.seeded,
-        ContentSeedWriteResult.seeded,
-        ContentSeedWriteResult.seeded,
-        ContentSeedWriteResult.seeded,
-      ],
+    final catalogResult = await LocalContentPackCatalogRepository(
+      bundle: rootBundle,
+    ).getCatalog();
+    final catalog = catalogResult.getOrElse(
+      () => throw StateError('Expected content catalog.'),
     );
-    expect(dataSource.packs[0]['lessons'], hasLength(3));
-    expect(dataSource.packs[0]['exercises'], hasLength(30));
-    expect(dataSource.packs[1]['lessons'], hasLength(1));
-    expect(dataSource.packs[1]['exercises'], hasLength(10));
-    expect(dataSource.packs[2]['lessons'], hasLength(5));
-    expect(dataSource.packs[2]['exercises'], hasLength(50));
-    expect(dataSource.packs[3]['lessons'], hasLength(1));
-    expect(dataSource.packs[3]['exercises'], hasLength(10));
+    final seededPacks = catalog.packs.where((pack) => pack.seedEnabled);
+
+    expect(result.getOrElse(() => const []), [
+      for (final _ in seededPacks) ContentSeedWriteResult.seeded,
+    ]);
+    expect(dataSource.packs, hasLength(seededPacks.length));
     for (final pack in dataSource.packs) {
+      final lessons = pack['lessons'] as List;
+      final exercises = pack['exercises'] as List;
+      expect(lessons, isNotEmpty);
+      expect(exercises.length, greaterThanOrEqualTo(lessons.length * 10));
       final manifest = pack['manifest'] as Map<String, dynamic>;
       expect(manifest['checksum'], matches(RegExp(r'^[a-f0-9]{64}$')));
     }

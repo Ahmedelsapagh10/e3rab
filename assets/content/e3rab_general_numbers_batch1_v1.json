@@ -1,0 +1,5601 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-numbers-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "numbers-module-v1",
+      "numbers-simple-unit",
+      "numbers-simple",
+      "numbers-simple-ex-1",
+      "numbers-simple-ex-2",
+      "numbers-simple-ex-3",
+      "numbers-simple-ex-4",
+      "numbers-simple-ex-5",
+      "numbers-simple-ex-6",
+      "numbers-simple-ex-7",
+      "numbers-simple-ex-8",
+      "numbers-simple-ex-9",
+      "numbers-simple-ex-10",
+      "numbers-one-two-unit",
+      "numbers-one-two",
+      "numbers-one-two-ex-1",
+      "numbers-one-two-ex-2",
+      "numbers-one-two-ex-3",
+      "numbers-one-two-ex-4",
+      "numbers-one-two-ex-5",
+      "numbers-one-two-ex-6",
+      "numbers-one-two-ex-7",
+      "numbers-one-two-ex-8",
+      "numbers-one-two-ex-9",
+      "numbers-one-two-ex-10",
+      "numbers-compound-unit",
+      "numbers-compound",
+      "numbers-compound-ex-1",
+      "numbers-compound-ex-2",
+      "numbers-compound-ex-3",
+      "numbers-compound-ex-4",
+      "numbers-compound-ex-5",
+      "numbers-compound-ex-6",
+      "numbers-compound-ex-7",
+      "numbers-compound-ex-8",
+      "numbers-compound-ex-9",
+      "numbers-compound-ex-10",
+      "numbers-decades-unit",
+      "numbers-decades",
+      "numbers-decades-ex-1",
+      "numbers-decades-ex-2",
+      "numbers-decades-ex-3",
+      "numbers-decades-ex-4",
+      "numbers-decades-ex-5",
+      "numbers-decades-ex-6",
+      "numbers-decades-ex-7",
+      "numbers-decades-ex-8",
+      "numbers-decades-ex-9",
+      "numbers-decades-ex-10",
+      "numbers-coordinated-unit",
+      "numbers-coordinated",
+      "numbers-coordinated-ex-1",
+      "numbers-coordinated-ex-2",
+      "numbers-coordinated-ex-3",
+      "numbers-coordinated-ex-4",
+      "numbers-coordinated-ex-5",
+      "numbers-coordinated-ex-6",
+      "numbers-coordinated-ex-7",
+      "numbers-coordinated-ex-8",
+      "numbers-coordinated-ex-9",
+      "numbers-coordinated-ex-10",
+      "numbers-specification-unit",
+      "numbers-specification",
+      "numbers-specification-ex-1",
+      "numbers-specification-ex-2",
+      "numbers-specification-ex-3",
+      "numbers-specification-ex-4",
+      "numbers-specification-ex-5",
+      "numbers-specification-ex-6",
+      "numbers-specification-ex-7",
+      "numbers-specification-ex-8",
+      "numbers-specification-ex-9",
+      "numbers-specification-ex-10",
+      "numbers-euphemisms-unit",
+      "numbers-euphemisms",
+      "numbers-euphemisms-ex-1",
+      "numbers-euphemisms-ex-2",
+      "numbers-euphemisms-ex-3",
+      "numbers-euphemisms-ex-4",
+      "numbers-euphemisms-ex-5",
+      "numbers-euphemisms-ex-6",
+      "numbers-euphemisms-ex-7",
+      "numbers-euphemisms-ex-8",
+      "numbers-euphemisms-ex-9",
+      "numbers-euphemisms-ex-10"
+    ],
+    "externalPrerequisiteIds": [
+      "diptotes-poetic-necessity"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "numbers-module-v1",
+      "slug": "general-numbers-v1",
+      "title": "العدد",
+      "unitIds": [
+        "numbers-simple-unit",
+        "numbers-one-two-unit",
+        "numbers-compound-unit",
+        "numbers-decades-unit",
+        "numbers-coordinated-unit",
+        "numbers-specification-unit",
+        "numbers-euphemisms-unit"
+      ],
+      "order": 16
+    }
+  ],
+  "units": [
+    {
+      "id": "numbers-simple-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-simple-unit",
+      "title": "الأعداد المفردة من ثلاثة إلى عشرة",
+      "lessonIds": [
+        "numbers-simple"
+      ],
+      "order": 1500
+    },
+    {
+      "id": "numbers-one-two-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-one-two-unit",
+      "title": "الواحد والاثنان",
+      "lessonIds": [
+        "numbers-one-two"
+      ],
+      "order": 1510
+    },
+    {
+      "id": "numbers-compound-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-compound-unit",
+      "title": "الأعداد المركبة",
+      "lessonIds": [
+        "numbers-compound"
+      ],
+      "order": 1520
+    },
+    {
+      "id": "numbers-decades-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-decades-unit",
+      "title": "ألفاظ العقود",
+      "lessonIds": [
+        "numbers-decades"
+      ],
+      "order": 1530
+    },
+    {
+      "id": "numbers-coordinated-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-coordinated-unit",
+      "title": "الأعداد المعطوفة",
+      "lessonIds": [
+        "numbers-coordinated"
+      ],
+      "order": 1540
+    },
+    {
+      "id": "numbers-specification-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-specification-unit",
+      "title": "تمييز العدد",
+      "lessonIds": [
+        "numbers-specification"
+      ],
+      "order": 1550
+    },
+    {
+      "id": "numbers-euphemisms-unit",
+      "moduleId": "numbers-module-v1",
+      "slug": "numbers-euphemisms-unit",
+      "title": "كنايات العدد",
+      "lessonIds": [
+        "numbers-euphemisms"
+      ],
+      "order": 1560
+    }
+  ],
+  "lessons": [
+    {
+      "id": "numbers-simple",
+      "topicId": "numbers.simple",
+      "order": 1500,
+      "unitId": "numbers-simple-unit",
+      "slug": "numbers-simple",
+      "title": "الأعداد المفردة من ثلاثة إلى عشرة",
+      "shortTitle": "الأعداد المفردة من ثلاثة إلى عشرة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الأعداد المفردة من ثلاثة إلى عشرة.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "diptotes-poetic-necessity"
+      ],
+      "sections": [
+        {
+          "id": "numbers-simple-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الأعداد المفردة من ثلاثة إلى عشرة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-simple-example-1",
+          "sentence": "حضر ثلاثة طلاب",
+          "fullyDiacritizedSentence": "حضر ثلاثة طلاب",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "ثلاثة",
+              "normalizedWord": "ثلاثة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "طلاب",
+              "normalizedWord": "طلاب",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-example-2",
+          "sentence": "قرأت ثلاث قصص",
+          "fullyDiacritizedSentence": "قرأت ثلاث قصص",
+          "parsedWords": [
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرات",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "ثلاث",
+              "normalizedWord": "ثلاث",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "قصص",
+              "normalizedWord": "قصص",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 10,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-example-3",
+          "sentence": "مررت بخمسة رجال",
+          "fullyDiacritizedSentence": "مررت بخمسة رجال",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بخمسة",
+              "normalizedWord": "بخمسة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "رجال",
+              "normalizedWord": "رجال",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-simple-example-4",
+          "sentence": "نجحت سبع طالبات",
+          "fullyDiacritizedSentence": "نجحت سبع طالبات",
+          "parsedWords": [
+            {
+              "word": "نجحت",
+              "normalizedWord": "نجحت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "سبع",
+              "normalizedWord": "سبع",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "طالبات",
+              "normalizedWord": "طالبات",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 9,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-simple-ex-1",
+        "numbers-simple-ex-2",
+        "numbers-simple-ex-3",
+        "numbers-simple-ex-4",
+        "numbers-simple-ex-5",
+        "numbers-simple-ex-6",
+        "numbers-simple-ex-7",
+        "numbers-simple-ex-8",
+        "numbers-simple-ex-9",
+        "numbers-simple-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-simple-ex-2",
+        "numbers-simple-ex-4",
+        "numbers-simple-ex-6",
+        "numbers-simple-ex-8",
+        "numbers-simple-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "الأعداد المفردة من ثلاثة إلى عشرة",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "numbers-one-two",
+      "topicId": "numbers.one-two",
+      "order": 1510,
+      "unitId": "numbers-one-two-unit",
+      "slug": "numbers-one-two",
+      "title": "الواحد والاثنان",
+      "shortTitle": "الواحد والاثنان",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الواحد والاثنان.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "numbers-simple"
+      ],
+      "sections": [
+        {
+          "id": "numbers-one-two-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الواحد والاثنان.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-one-two-example-1",
+          "sentence": "حضر طالب واحد",
+          "fullyDiacritizedSentence": "حضر طالب واحد",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "واحد",
+              "normalizedWord": "واحد",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-example-2",
+          "sentence": "حضرت طالبة واحدة",
+          "fullyDiacritizedSentence": "حضرت طالبة واحدة",
+          "parsedWords": [
+            {
+              "word": "حضرت",
+              "normalizedWord": "حضرت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طالبة",
+              "normalizedWord": "طالبة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "واحدة",
+              "normalizedWord": "واحدة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-example-3",
+          "sentence": "جاء طالبان اثنان",
+          "fullyDiacritizedSentence": "جاء طالبان اثنان",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالبان",
+              "normalizedWord": "طالبان",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "اثنان",
+              "normalizedWord": "اثنان",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-one-two-example-4",
+          "sentence": "جاءت طالبتان اثنتان",
+          "fullyDiacritizedSentence": "جاءت طالبتان اثنتان",
+          "parsedWords": [
+            {
+              "word": "جاءت",
+              "normalizedWord": "جاءت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طالبتان",
+              "normalizedWord": "طالبتان",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 12
+            },
+            {
+              "word": "اثنتان",
+              "normalizedWord": "اثنتان",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 13,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-one-two-ex-1",
+        "numbers-one-two-ex-2",
+        "numbers-one-two-ex-3",
+        "numbers-one-two-ex-4",
+        "numbers-one-two-ex-5",
+        "numbers-one-two-ex-6",
+        "numbers-one-two-ex-7",
+        "numbers-one-two-ex-8",
+        "numbers-one-two-ex-9",
+        "numbers-one-two-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-one-two-ex-2",
+        "numbers-one-two-ex-4",
+        "numbers-one-two-ex-6",
+        "numbers-one-two-ex-8",
+        "numbers-one-two-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "الواحد والاثنان",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "numbers-compound",
+      "topicId": "numbers.compound",
+      "order": 1520,
+      "unitId": "numbers-compound-unit",
+      "slug": "numbers-compound",
+      "title": "الأعداد المركبة",
+      "shortTitle": "الأعداد المركبة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الأعداد المركبة.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "numbers-one-two"
+      ],
+      "sections": [
+        {
+          "id": "numbers-compound-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الأعداد المركبة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-compound-example-1",
+          "sentence": "حضر أحد عشر طالبا",
+          "fullyDiacritizedSentence": "حضر أحد عشر طالبا",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "أحد",
+              "normalizedWord": "احد",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 7
+            },
+            {
+              "word": "عشر",
+              "normalizedWord": "عشر",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 8,
+              "endIndex": 11
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-example-2",
+          "sentence": "حضرت إحدى عشرة طالبة",
+          "fullyDiacritizedSentence": "حضرت إحدى عشرة طالبة",
+          "parsedWords": [
+            {
+              "word": "حضرت",
+              "normalizedWord": "حضرت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إحدى",
+              "normalizedWord": "احدى",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "عشرة",
+              "normalizedWord": "عشرة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 10,
+              "endIndex": 14
+            },
+            {
+              "word": "طالبة",
+              "normalizedWord": "طالبة",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 15,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-example-3",
+          "sentence": "رأيت ثلاثة عشر رجلا",
+          "fullyDiacritizedSentence": "رأيت ثلاثة عشر رجلا",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "ثلاثة",
+              "normalizedWord": "ثلاثة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "عشر",
+              "normalizedWord": "عشر",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 11,
+              "endIndex": 14
+            },
+            {
+              "word": "رجلا",
+              "normalizedWord": "رجلا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 15,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-compound-example-4",
+          "sentence": "نجحت ثلاث عشرة طالبة",
+          "fullyDiacritizedSentence": "نجحت ثلاث عشرة طالبة",
+          "parsedWords": [
+            {
+              "word": "نجحت",
+              "normalizedWord": "نجحت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "ثلاث",
+              "normalizedWord": "ثلاث",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "عشرة",
+              "normalizedWord": "عشرة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 10,
+              "endIndex": 14
+            },
+            {
+              "word": "طالبة",
+              "normalizedWord": "طالبة",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 15,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-compound-ex-1",
+        "numbers-compound-ex-2",
+        "numbers-compound-ex-3",
+        "numbers-compound-ex-4",
+        "numbers-compound-ex-5",
+        "numbers-compound-ex-6",
+        "numbers-compound-ex-7",
+        "numbers-compound-ex-8",
+        "numbers-compound-ex-9",
+        "numbers-compound-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-compound-ex-2",
+        "numbers-compound-ex-4",
+        "numbers-compound-ex-6",
+        "numbers-compound-ex-8",
+        "numbers-compound-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "الأعداد المركبة",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "numbers-decades",
+      "topicId": "numbers.decades",
+      "order": 1530,
+      "unitId": "numbers-decades-unit",
+      "slug": "numbers-decades",
+      "title": "ألفاظ العقود",
+      "shortTitle": "ألفاظ العقود",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم ألفاظ العقود.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "numbers-compound"
+      ],
+      "sections": [
+        {
+          "id": "numbers-decades-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم ألفاظ العقود.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-decades-example-1",
+          "sentence": "حضر عشرون طالبا",
+          "fullyDiacritizedSentence": "حضر عشرون طالبا",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "عشرون",
+              "normalizedWord": "عشرون",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-example-2",
+          "sentence": "رأيت ثلاثين طالبا",
+          "fullyDiacritizedSentence": "رأيت ثلاثين طالبا",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "ثلاثين",
+              "normalizedWord": "ثلاثين",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-example-3",
+          "sentence": "مررت بأربعين طالبا",
+          "fullyDiacritizedSentence": "مررت بأربعين طالبا",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بأربعين",
+              "normalizedWord": "باربعين",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 12
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 13,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-decades-example-4",
+          "sentence": "نجح تسعون طالبا",
+          "fullyDiacritizedSentence": "نجح تسعون طالبا",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "تسعون",
+              "normalizedWord": "تسعون",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-decades-ex-1",
+        "numbers-decades-ex-2",
+        "numbers-decades-ex-3",
+        "numbers-decades-ex-4",
+        "numbers-decades-ex-5",
+        "numbers-decades-ex-6",
+        "numbers-decades-ex-7",
+        "numbers-decades-ex-8",
+        "numbers-decades-ex-9",
+        "numbers-decades-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-decades-ex-2",
+        "numbers-decades-ex-4",
+        "numbers-decades-ex-6",
+        "numbers-decades-ex-8",
+        "numbers-decades-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "ألفاظ العقود",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "numbers-coordinated",
+      "topicId": "numbers.coordinated",
+      "order": 1540,
+      "unitId": "numbers-coordinated-unit",
+      "slug": "numbers-coordinated",
+      "title": "الأعداد المعطوفة",
+      "shortTitle": "الأعداد المعطوفة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الأعداد المعطوفة.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "numbers-decades"
+      ],
+      "sections": [
+        {
+          "id": "numbers-coordinated-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الأعداد المعطوفة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-coordinated-example-1",
+          "sentence": "حضر واحد وعشرون طالبا",
+          "fullyDiacritizedSentence": "حضر واحد وعشرون طالبا",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "واحد",
+              "normalizedWord": "واحد",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "وعشرون",
+              "normalizedWord": "وعشرون",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 9,
+              "endIndex": 15
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 16,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-example-2",
+          "sentence": "حضرت إحدى وعشرون طالبة",
+          "fullyDiacritizedSentence": "حضرت إحدى وعشرون طالبة",
+          "parsedWords": [
+            {
+              "word": "حضرت",
+              "normalizedWord": "حضرت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إحدى",
+              "normalizedWord": "احدى",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "وعشرون",
+              "normalizedWord": "وعشرون",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 10,
+              "endIndex": 16
+            },
+            {
+              "word": "طالبة",
+              "normalizedWord": "طالبة",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 17,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-example-3",
+          "sentence": "رأيت ثلاثة وعشرين طالبا",
+          "fullyDiacritizedSentence": "رأيت ثلاثة وعشرين طالبا",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "ثلاثة",
+              "normalizedWord": "ثلاثة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "وعشرين",
+              "normalizedWord": "وعشرين",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 11,
+              "endIndex": 17
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 18,
+              "endIndex": 23
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-coordinated-example-4",
+          "sentence": "مررت بخمس وعشرين طالبة",
+          "fullyDiacritizedSentence": "مررت بخمس وعشرين طالبة",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بخمس",
+              "normalizedWord": "بخمس",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "وعشرين",
+              "normalizedWord": "وعشرين",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 10,
+              "endIndex": 16
+            },
+            {
+              "word": "طالبة",
+              "normalizedWord": "طالبة",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 17,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-coordinated-ex-1",
+        "numbers-coordinated-ex-2",
+        "numbers-coordinated-ex-3",
+        "numbers-coordinated-ex-4",
+        "numbers-coordinated-ex-5",
+        "numbers-coordinated-ex-6",
+        "numbers-coordinated-ex-7",
+        "numbers-coordinated-ex-8",
+        "numbers-coordinated-ex-9",
+        "numbers-coordinated-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-coordinated-ex-2",
+        "numbers-coordinated-ex-4",
+        "numbers-coordinated-ex-6",
+        "numbers-coordinated-ex-8",
+        "numbers-coordinated-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "الأعداد المعطوفة",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "numbers-specification",
+      "topicId": "numbers.specification",
+      "order": 1550,
+      "unitId": "numbers-specification-unit",
+      "slug": "numbers-specification",
+      "title": "تمييز العدد",
+      "shortTitle": "تمييز العدد",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم تمييز العدد.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "numbers-coordinated"
+      ],
+      "sections": [
+        {
+          "id": "numbers-specification-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم تمييز العدد.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-specification-example-1",
+          "sentence": "عندي ثلاثة كتب",
+          "fullyDiacritizedSentence": "عندي ثلاثة كتب",
+          "parsedWords": [
+            {
+              "word": "عندي",
+              "normalizedWord": "عندي",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "ثلاثة",
+              "normalizedWord": "ثلاثة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 11,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-example-2",
+          "sentence": "قرأت أحد عشر كتابا",
+          "fullyDiacritizedSentence": "قرأت أحد عشر كتابا",
+          "parsedWords": [
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرات",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "أحد",
+              "normalizedWord": "احد",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "عشر",
+              "normalizedWord": "عشر",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 9,
+              "endIndex": 12
+            },
+            {
+              "word": "كتابا",
+              "normalizedWord": "كتابا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 13,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-example-3",
+          "sentence": "حضر عشرون طالبا",
+          "fullyDiacritizedSentence": "حضر عشرون طالبا",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "عشرون",
+              "normalizedWord": "عشرون",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-specification-example-4",
+          "sentence": "اشتريت مئة كتاب",
+          "fullyDiacritizedSentence": "اشتريت مئة كتاب",
+          "parsedWords": [
+            {
+              "word": "اشتريت",
+              "normalizedWord": "اشتريت",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "مئة",
+              "normalizedWord": "مئة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-specification-ex-1",
+        "numbers-specification-ex-2",
+        "numbers-specification-ex-3",
+        "numbers-specification-ex-4",
+        "numbers-specification-ex-5",
+        "numbers-specification-ex-6",
+        "numbers-specification-ex-7",
+        "numbers-specification-ex-8",
+        "numbers-specification-ex-9",
+        "numbers-specification-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-specification-ex-2",
+        "numbers-specification-ex-4",
+        "numbers-specification-ex-6",
+        "numbers-specification-ex-8",
+        "numbers-specification-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "تمييز العدد",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "numbers-euphemisms",
+      "topicId": "numbers.euphemisms",
+      "order": 1560,
+      "unitId": "numbers-euphemisms-unit",
+      "slug": "numbers-euphemisms",
+      "title": "كنايات العدد",
+      "shortTitle": "كنايات العدد",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم كنايات العدد.",
+        "إعراب العدد بحسب موقعه.",
+        "إعراب المعدود أو تمييز العدد وضبط المطابقة."
+      ],
+      "prerequisiteIds": [
+        "numbers-specification"
+      ],
+      "sections": [
+        {
+          "id": "numbers-euphemisms-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم كنايات العدد.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يفصل التحليل بين قيمة العدد وموقعه وبين جنس المعدود وحكمه.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-4",
+          "type": "details",
+          "title": "المطابقة والتمييز",
+          "body": "يفحص المفرد والمركب والعقد والمعطوف، ثم يحدد إن كان المعدود جمعًا مجرورًا أو تمييزًا مفردًا منصوبًا أو مجرورًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الصيغ المذكرة والمؤنثة وحركات العدد في الرفع والنصب والجر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد يكون العدد مبنيًا جزئيًا أو معربًا بالحروف؛ لا تنقل حكمًا من باب إلى آخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المعدود وترك العدد، أو الحكم على الجنس من اللفظ الظاهر دون رد المعدود إلى مفرده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب. أعرب العدد والمعدود كليهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "numbers-euphemisms-example-1",
+          "sentence": "جاء كم طالبا",
+          "fullyDiacritizedSentence": "جاء كم طالبا",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "كم",
+              "normalizedWord": "كم",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 6
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-example-2",
+          "sentence": "كم كتاب قرأت",
+          "fullyDiacritizedSentence": "كم كتاب قرأت",
+          "parsedWords": [
+            {
+              "word": "كم",
+              "normalizedWord": "كم",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرات",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 8,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-example-3",
+          "sentence": "حضر كذا طالبا",
+          "fullyDiacritizedSentence": "حضر كذا طالبا",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "كذا",
+              "normalizedWord": "كذا",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 4,
+              "endIndex": 7
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        },
+        {
+          "id": "numbers-euphemisms-example-4",
+          "sentence": "عندي بضعة كتب",
+          "fullyDiacritizedSentence": "عندي بضعة كتب",
+          "parsedWords": [
+            {
+              "word": "عندي",
+              "normalizedWord": "عندي",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "عامل أو ركن في الجملة",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بضعة",
+              "normalizedWord": "بضعة",
+              "wordType": "عدد أو جزء عدد",
+              "grammaticalRole": "عدد معرب أو مبني بحسب بابه",
+              "grammaticalState": "بحسب موقع العدد",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد إعراب العدد من موقعه وتركيبه.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "اسم معدود أو عامل",
+              "grammaticalRole": "معدود أو تمييز العدد",
+              "grammaticalState": "مجرور أو منصوب أو تابع بحسب قاعدة الباب",
+              "grammaticalSign": "العلامة المناسبة للصيغة والموقع",
+              "signReason": "باب العدد وموقعه ونوع المعدود",
+              "grammaticalAgent": "العامل في الجملة أو العدد",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد حكم المعدود من باب العدد.",
+              "startIndex": 10,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يعرب المثال العدد من موقعه، ثم المعدود أو التمييز مع بيان المطابقة أو المخالفة.",
+          "referenceIds": [
+            "ref-general-numbers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "numbers-euphemisms-ex-1",
+        "numbers-euphemisms-ex-2",
+        "numbers-euphemisms-ex-3",
+        "numbers-euphemisms-ex-4",
+        "numbers-euphemisms-ex-5",
+        "numbers-euphemisms-ex-6",
+        "numbers-euphemisms-ex-7",
+        "numbers-euphemisms-ex-8",
+        "numbers-euphemisms-ex-9",
+        "numbers-euphemisms-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "numbers-euphemisms-ex-2",
+        "numbers-euphemisms-ex-4",
+        "numbers-euphemisms-ex-6",
+        "numbers-euphemisms-ex-8",
+        "numbers-euphemisms-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "tags": [
+        "العدد",
+        "كنايات العدد",
+        "تمييز العدد"
+      ],
+      "estimatedMinutes": 33,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "numbers-simple-ex-1",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر ثلاثة طلاب».",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-2",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «قرأت ثلاث قصص».",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-3",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «مررت بخمسة رجال».",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-4",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «نجحت سبع طالبات».",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-5",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المفردة من ثلاثة إلى عشرة.",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-6",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المفردة من ثلاثة إلى عشرة.",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-7",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المفردة من ثلاثة إلى عشرة.",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-8",
+      "lessonId": "numbers-simple",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المفردة من ثلاثة إلى عشرة.",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-9",
+      "lessonId": "numbers-simple",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المفردة من ثلاثة إلى عشرة.",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-simple-ex-10",
+      "lessonId": "numbers-simple",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المفردة من ثلاثة إلى عشرة.",
+      "skillIds": [
+        "numbers.simple"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المفردة من ثلاثة إلى عشرة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-1",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر طالب واحد».",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-2",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضرت طالبة واحدة».",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-3",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «جاء طالبان اثنان».",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-4",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «جاءت طالبتان اثنتان».",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-5",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الواحد والاثنان.",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-6",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الواحد والاثنان.",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-7",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الواحد والاثنان.",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-8",
+      "lessonId": "numbers-one-two",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الواحد والاثنان.",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-9",
+      "lessonId": "numbers-one-two",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الواحد والاثنان.",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-one-two-ex-10",
+      "lessonId": "numbers-one-two",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الواحد والاثنان.",
+      "skillIds": [
+        "numbers.one-two"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الواحد والاثنان يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-1",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر أحد عشر طالبا».",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-2",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضرت إحدى عشرة طالبة».",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-3",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «رأيت ثلاثة عشر رجلا».",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-4",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «نجحت ثلاث عشرة طالبة».",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-5",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المركبة.",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-6",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المركبة.",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-7",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المركبة.",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-8",
+      "lessonId": "numbers-compound",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المركبة.",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-9",
+      "lessonId": "numbers-compound",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المركبة.",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-compound-ex-10",
+      "lessonId": "numbers-compound",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المركبة.",
+      "skillIds": [
+        "numbers.compound"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المركبة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-1",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر عشرون طالبا».",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-2",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «رأيت ثلاثين طالبا».",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-3",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «مررت بأربعين طالبا».",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-4",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «نجح تسعون طالبا».",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-5",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في ألفاظ العقود.",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-6",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في ألفاظ العقود.",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-7",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في ألفاظ العقود.",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-8",
+      "lessonId": "numbers-decades",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في ألفاظ العقود.",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-9",
+      "lessonId": "numbers-decades",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في ألفاظ العقود.",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-decades-ex-10",
+      "lessonId": "numbers-decades",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في ألفاظ العقود.",
+      "skillIds": [
+        "numbers.decades"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في ألفاظ العقود يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-1",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر واحد وعشرون طالبا».",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-2",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضرت إحدى وعشرون طالبة».",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-3",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «رأيت ثلاثة وعشرين طالبا».",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-4",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «مررت بخمس وعشرين طالبة».",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-5",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المعطوفة.",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-6",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المعطوفة.",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-7",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المعطوفة.",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-8",
+      "lessonId": "numbers-coordinated",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المعطوفة.",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-9",
+      "lessonId": "numbers-coordinated",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المعطوفة.",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-coordinated-ex-10",
+      "lessonId": "numbers-coordinated",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في الأعداد المعطوفة.",
+      "skillIds": [
+        "numbers.coordinated"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في الأعداد المعطوفة يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-1",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «عندي ثلاثة كتب».",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-2",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «قرأت أحد عشر كتابا».",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-3",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر عشرون طالبا».",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-4",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «اشتريت مئة كتاب».",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-5",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في تمييز العدد.",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-6",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في تمييز العدد.",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-7",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في تمييز العدد.",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-8",
+      "lessonId": "numbers-specification",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في تمييز العدد.",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-9",
+      "lessonId": "numbers-specification",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في تمييز العدد.",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-specification-ex-10",
+      "lessonId": "numbers-specification",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في تمييز العدد.",
+      "skillIds": [
+        "numbers.specification"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في تمييز العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-1",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «جاء كم طالبا».",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-2",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «كم كتاب قرأت».",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-3",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «حضر كذا طالبا».",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-4",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "أعرب العدد والمعدود في «عندي بضعة كتب».",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-5",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في كنايات العدد.",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-6",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في كنايات العدد.",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-7",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في كنايات العدد.",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-8",
+      "lessonId": "numbers-euphemisms",
+      "type": "multipleChoice",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في كنايات العدد.",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-9",
+      "lessonId": "numbers-euphemisms",
+      "type": "errorCorrection",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في كنايات العدد.",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "numbers-euphemisms-ex-10",
+      "lessonId": "numbers-euphemisms",
+      "type": "comparison",
+      "prompt": "اختر قاعدة العدد والمعدود الصحيحة في كنايات العدد.",
+      "skillIds": [
+        "numbers.euphemisms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد باب العدد وموقعه ثم جنس المعدود وحكم تمييزه.",
+          "feedback": "صحيح؛ شمل العدد والمعدود."
+        },
+        {
+          "id": "b",
+          "text": "يعرب المعدود فقط ولا يتأثر العدد بموقعه.",
+          "feedback": "العدد نفسه يحتاج إلى إعراب أو بيان بناء."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في كنايات العدد يحدد تركيب العدد حكمه الإعرابي، ويضبط جنس العدد والمعدود وصورة التمييز وفق قاعدة الباب.",
+      "hint": "حدد العدد كاملًا وقيمته، ثم موقعه وجنس المعدود، وطبق المطابقة أو المخالفة ثم حكم التمييز.",
+      "referenceIds": [
+        "ref-general-numbers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-numbers-v1",
+      "title": "النحو الواضح في قواعد اللغة العربية",
+      "publisher": "دار المعارف",
+      "url": "https://www.hindawi.org/books/92463613/",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

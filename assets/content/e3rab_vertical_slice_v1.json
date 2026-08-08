@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "e3rab-vertical-slice-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.2.0",
+    "contentVersion": "1.4.0",
     "curriculumVersion": "egypt-2025-2026-draft-mapping-v1",
     "locale": "ar",
     "entityIds": [
@@ -250,7 +250,9 @@
               "signReason": "اسم مفرد صحيح الآخر",
               "explanation": "قَبِلَت «العلم» أل، ودلت على معنى غير مقترن بزمن؛ فهي اسم.",
               "startIndex": 0,
-              "endIndex": 5
+              "endIndex": 5,
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
             },
             {
               "word": "نور",
@@ -268,7 +270,9 @@
             }
           ],
           "explanation": "قَبِلَت «العلم» أل، ودلت على معنى غير مقترن بزمن؛ فهي اسم.",
-          "referenceIds": ["ref-moe-primary6"]
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
         },
         {
           "id": "parts-of-speech-example-2",
@@ -285,7 +289,9 @@
               "signReason": "لم يسبقه ناصب أو جازم",
               "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
               "startIndex": 0,
-              "endIndex": 4
+              "endIndex": 4,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
             },
             {
               "word": "الطالب",
@@ -303,7 +309,9 @@
             }
           ],
           "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
-          "referenceIds": ["ref-moe-primary6"]
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
         },
         {
           "id": "parts-of-speech-example-3",
@@ -320,7 +328,9 @@
               "signReason": "الحروف مبنية",
               "explanation": "«في» لا تدل على معنى كامل وحدها، بل تربط المكتبة بالمدرسة؛ فهي حرف جر.",
               "startIndex": 0,
-              "endIndex": 2
+              "endIndex": 2,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع حرف يربط المعنى في الجملة"
             },
             {
               "word": "المدرسة",
@@ -352,7 +362,9 @@
             }
           ],
           "explanation": "«في» حرف جر يظهر معناه مع غيره، ويجر الاسم بعده.",
-          "referenceIds": ["ref-moe-primary6"]
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
         },
         {
           "id": "parts-of-speech-example-4",
@@ -403,7 +415,10 @@
             }
           ],
           "explanation": "يبين المثال الفرق بين حرف الاستفهام والفعل الماضي والاسم الذي وقع فاعلًا.",
-          "referenceIds": ["ref-moe-primary6", "ref-jami-durus"]
+          "referenceIds": [
+            "ref-moe-primary6",
+            "ref-jami-durus"
+          ]
         }
       ],
       "exerciseIds": [
@@ -431,13 +446,13 @@
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.2.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented"
     },
     {
       "id": "nominal-sentence",
       "topicId": "nominal.subject-predicate",
-      "order": 2,
+      "order": 200,
       "title": "المبتدأ والخبر",
       "unitId": "nominal-sentence-unit",
       "stage": "preparatory",
@@ -473,7 +488,9 @@
         "تحديد العلامة أو الموقع مع ذكر السبب.",
         "تطبيق القاعدة على مثال جديد."
       ],
-      "prerequisiteIds": ["parts-of-speech"],
+      "prerequisiteIds": [
+        "parts-of-speech"
+      ],
       "sections": [
         {
           "id": "nominal-sentence-sec-1",
@@ -572,7 +589,9 @@
               "signReason": "اسم مفرد صحيح الآخر",
               "explanation": "«الطالب» اسم مرفوع وقع طرف الإسناد الأول، و«مجتهد» أتم الفائدة خبرًا.",
               "startIndex": 0,
-              "endIndex": 6
+              "endIndex": 6,
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
             },
             {
               "word": "مجتهد",
@@ -590,7 +609,9 @@
             }
           ],
           "explanation": "«الطالب» اسم مرفوع وقع طرف الإسناد الأول، و«مجتهد» أتم الفائدة خبرًا.",
-          "referenceIds": ["ref-moe-primary6"]
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
         },
         {
           "id": "nominal-sentence-example-2",
@@ -621,11 +642,15 @@
               "signReason": "جمع تكسير",
               "explanation": "شبه الجملة «في الفصل» خبر مقدم، و«طلاب» مبتدأ مؤخر مرفوع.",
               "startIndex": 9,
-              "endIndex": 13
+              "endIndex": 13,
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
             }
           ],
           "explanation": "شبه الجملة «في الفصل» خبر مقدم، و«طلاب» مبتدأ مؤخر مرفوع.",
-          "referenceIds": ["ref-moe-primary6"]
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
         },
         {
           "id": "nominal-sentence-example-3",
@@ -642,7 +667,9 @@
               "signReason": "لأنه مثنى",
               "explanation": "«الطالبان» مبتدأ مرفوع، وعلامة رفعه الألف لأنه مثنى.",
               "startIndex": 0,
-              "endIndex": 8
+              "endIndex": 8,
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
             },
             {
               "word": "مجتهدان",
@@ -654,11 +681,15 @@
               "signReason": "لأنه مثنى",
               "explanation": "«مجتهدان» خبر مرفوع أتم المعنى، وعلامة رفعه الألف.",
               "startIndex": 9,
-              "endIndex": 16
+              "endIndex": 16,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية"
             }
           ],
           "explanation": "المبتدأ والخبر مثنيان مرفوعان بالألف.",
-          "referenceIds": ["ref-moe-primary6"]
+          "referenceIds": [
+            "ref-moe-primary6"
+          ]
         },
         {
           "id": "nominal-sentence-example-4",
@@ -695,7 +726,10 @@
             }
           ],
           "explanation": "المبتدأ والخبر جمعا مذكر سالم؛ لذلك كانت علامة رفع كل منهما الواو.",
-          "referenceIds": ["ref-moe-primary6", "ref-jami-durus"]
+          "referenceIds": [
+            "ref-moe-primary6",
+            "ref-jami-durus"
+          ]
         }
       ],
       "exerciseIds": [
@@ -723,13 +757,13 @@
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.2.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented"
     },
     {
       "id": "sentences-with-syntactic-position",
       "topicId": "sentence-positions.with-position",
-      "order": 3,
+      "order": 1200,
       "title": "الجمل التي لها محل من الإعراب",
       "unitId": "sentence-position-unit",
       "stage": "secondary",
@@ -765,7 +799,9 @@
         "تحديد العلامة أو الموقع مع ذكر السبب.",
         "تطبيق القاعدة على مثال جديد."
       ],
-      "prerequisiteIds": ["nominal-sentence"],
+      "prerequisiteIds": [
+        "nominal-sentence"
+      ],
       "sections": [
         {
           "id": "sentences-with-syntactic-position-sec-1",
@@ -878,7 +914,9 @@
               "signReason": "الجملة وقعت خبرًا للمبتدأ",
               "explanation": "الجملة الفعلية «ينفع صاحبه» في محل رفع خبر للمبتدأ «العلم».",
               "startIndex": 6,
-              "endIndex": 10
+              "endIndex": 10,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية"
             },
             {
               "word": "صاحبه",
@@ -896,7 +934,9 @@
             }
           ],
           "explanation": "الجملة الفعلية «ينفع صاحبه» في محل رفع خبر للمبتدأ «العلم».",
-          "referenceIds": ["ref-moe-secondary-model"]
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
         },
         {
           "id": "sentences-with-syntactic-position-example-2",
@@ -941,11 +981,15 @@
               "signReason": "الجملة بينت هيئة الطالب عند المجيء",
               "explanation": "الجملة الفعلية «يبتسم» في محل نصب حال، وصاحب الحال «الطالب».",
               "startIndex": 11,
-              "endIndex": 16
+              "endIndex": 16,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "موقع بداية جملة حالية في الجملة"
             }
           ],
           "explanation": "الجملة الفعلية «يبتسم» في محل نصب حال، وصاحب الحال «الطالب».",
-          "referenceIds": ["ref-moe-secondary-model"]
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
         },
         {
           "id": "sentences-with-syntactic-position-example-3",
@@ -990,11 +1034,15 @@
               "signReason": "وقعت الجملة بعد نكرة منصوبة ووصفتها",
               "explanation": "الجملة الفعلية «يقرأ» في محل نصب صفة لـ«طالبًا».",
               "startIndex": 12,
-              "endIndex": 16
+              "endIndex": 16,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "موقع بداية جملة فعلية صفة في الجملة"
             }
           ],
           "explanation": "جملة «يقرأ» وصفت اسمًا نكرة منصوبًا؛ لذلك هي في محل نصب صفة.",
-          "referenceIds": ["ref-moe-secondary-model"]
+          "referenceIds": [
+            "ref-moe-secondary-model"
+          ]
         },
         {
           "id": "sentences-with-syntactic-position-example-4",
@@ -1045,7 +1093,10 @@
             }
           ],
           "explanation": "وقعت جملة «يقرأ» بعد اسم نكرة مرفوع فوصفته؛ لذلك هي في محل رفع صفة.",
-          "referenceIds": ["ref-moe-secondary-model", "ref-ibn-aqil"]
+          "referenceIds": [
+            "ref-moe-secondary-model",
+            "ref-ibn-aqil"
+          ]
         }
       ],
       "exerciseIds": [
@@ -1073,7 +1124,7 @@
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.2.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented"
     }
   ],
@@ -1123,7 +1174,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1172,7 +1223,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1221,7 +1272,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1270,7 +1321,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1319,7 +1370,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1368,7 +1419,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1417,7 +1468,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1466,7 +1517,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1515,7 +1566,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1564,7 +1615,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1613,7 +1664,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1662,7 +1713,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1711,7 +1762,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1760,7 +1811,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1809,7 +1860,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1858,7 +1909,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1907,7 +1958,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -1956,7 +2007,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2005,7 +2056,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2054,7 +2105,7 @@
       "referenceIds": [
         "ref-moe-primary6"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2103,7 +2154,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2152,7 +2203,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2201,7 +2252,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2250,7 +2301,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2299,7 +2350,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2348,7 +2399,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2397,7 +2448,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2446,7 +2497,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2495,7 +2546,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
@@ -2544,7 +2595,7 @@
       "referenceIds": [
         "ref-moe-secondary-model"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.4.0",
       "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     }

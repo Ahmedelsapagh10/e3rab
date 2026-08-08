@@ -144,15 +144,17 @@ extension _ContentStructureValidator on ContentValidationService {
   void _validatePrerequisiteGraph(
     List<Map<String, dynamic>> lessons,
     Set<String> lessonIds,
+    Set<String> externalPrerequisiteIds,
     List<ValidationIssue> issues,
   ) {
+    final knownIds = {...lessonIds, ...externalPrerequisiteIds};
     final graph = <String, List<String>>{};
     for (final lesson in lessons) {
       final id = lesson['id'];
       if (id is! String) continue;
       final prerequisites = _stringList(lesson['prerequisiteIds']);
       graph[id] = prerequisites;
-      if (!lessonIds.containsAll(prerequisites)) {
+      if (!knownIds.containsAll(prerequisites)) {
         issues.add(
           ValidationIssue(
             code: 'unknown_prerequisite',

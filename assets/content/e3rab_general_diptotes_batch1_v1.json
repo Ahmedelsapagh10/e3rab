@@ -1,0 +1,4603 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-diptotes-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "diptotes-module-v1",
+      "diptotes-proper-cause-unit",
+      "diptotes-proper-cause",
+      "diptotes-proper-cause-ex-1",
+      "diptotes-proper-cause-ex-2",
+      "diptotes-proper-cause-ex-3",
+      "diptotes-proper-cause-ex-4",
+      "diptotes-proper-cause-ex-5",
+      "diptotes-proper-cause-ex-6",
+      "diptotes-proper-cause-ex-7",
+      "diptotes-proper-cause-ex-8",
+      "diptotes-proper-cause-ex-9",
+      "diptotes-proper-cause-ex-10",
+      "diptotes-adjective-cause-unit",
+      "diptotes-adjective-cause",
+      "diptotes-adjective-cause-ex-1",
+      "diptotes-adjective-cause-ex-2",
+      "diptotes-adjective-cause-ex-3",
+      "diptotes-adjective-cause-ex-4",
+      "diptotes-adjective-cause-ex-5",
+      "diptotes-adjective-cause-ex-6",
+      "diptotes-adjective-cause-ex-7",
+      "diptotes-adjective-cause-ex-8",
+      "diptotes-adjective-cause-ex-9",
+      "diptotes-adjective-cause-ex-10",
+      "diptotes-ultimate-plural-unit",
+      "diptotes-ultimate-plural",
+      "diptotes-ultimate-plural-ex-1",
+      "diptotes-ultimate-plural-ex-2",
+      "diptotes-ultimate-plural-ex-3",
+      "diptotes-ultimate-plural-ex-4",
+      "diptotes-ultimate-plural-ex-5",
+      "diptotes-ultimate-plural-ex-6",
+      "diptotes-ultimate-plural-ex-7",
+      "diptotes-ultimate-plural-ex-8",
+      "diptotes-ultimate-plural-ex-9",
+      "diptotes-ultimate-plural-ex-10",
+      "diptotes-feminine-ending-unit",
+      "diptotes-feminine-ending",
+      "diptotes-feminine-ending-ex-1",
+      "diptotes-feminine-ending-ex-2",
+      "diptotes-feminine-ending-ex-3",
+      "diptotes-feminine-ending-ex-4",
+      "diptotes-feminine-ending-ex-5",
+      "diptotes-feminine-ending-ex-6",
+      "diptotes-feminine-ending-ex-7",
+      "diptotes-feminine-ending-ex-8",
+      "diptotes-feminine-ending-ex-9",
+      "diptotes-feminine-ending-ex-10",
+      "diptotes-genitive-unit",
+      "diptotes-genitive",
+      "diptotes-genitive-ex-1",
+      "diptotes-genitive-ex-2",
+      "diptotes-genitive-ex-3",
+      "diptotes-genitive-ex-4",
+      "diptotes-genitive-ex-5",
+      "diptotes-genitive-ex-6",
+      "diptotes-genitive-ex-7",
+      "diptotes-genitive-ex-8",
+      "diptotes-genitive-ex-9",
+      "diptotes-genitive-ex-10",
+      "diptotes-poetic-necessity-unit",
+      "diptotes-poetic-necessity",
+      "diptotes-poetic-necessity-ex-1",
+      "diptotes-poetic-necessity-ex-2",
+      "diptotes-poetic-necessity-ex-3",
+      "diptotes-poetic-necessity-ex-4",
+      "diptotes-poetic-necessity-ex-5",
+      "diptotes-poetic-necessity-ex-6",
+      "diptotes-poetic-necessity-ex-7",
+      "diptotes-poetic-necessity-ex-8",
+      "diptotes-poetic-necessity-ex-9",
+      "diptotes-poetic-necessity-ex-10"
+    ],
+    "externalPrerequisiteIds": [
+      "semi-sentences-ellipsis-estimation"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "diptotes-module-v1",
+      "slug": "general-diptotes-v1",
+      "title": "الممنوع من الصرف",
+      "unitIds": [
+        "diptotes-proper-cause-unit",
+        "diptotes-adjective-cause-unit",
+        "diptotes-ultimate-plural-unit",
+        "diptotes-feminine-ending-unit",
+        "diptotes-genitive-unit",
+        "diptotes-poetic-necessity-unit"
+      ],
+      "order": 15
+    }
+  ],
+  "units": [
+    {
+      "id": "diptotes-proper-cause-unit",
+      "moduleId": "diptotes-module-v1",
+      "slug": "diptotes-proper-cause-unit",
+      "title": "العلمية مع علة أخرى",
+      "lessonIds": [
+        "diptotes-proper-cause"
+      ],
+      "order": 1400
+    },
+    {
+      "id": "diptotes-adjective-cause-unit",
+      "moduleId": "diptotes-module-v1",
+      "slug": "diptotes-adjective-cause-unit",
+      "title": "الوصفية مع علة أخرى",
+      "lessonIds": [
+        "diptotes-adjective-cause"
+      ],
+      "order": 1410
+    },
+    {
+      "id": "diptotes-ultimate-plural-unit",
+      "moduleId": "diptotes-module-v1",
+      "slug": "diptotes-ultimate-plural-unit",
+      "title": "صيغة منتهى الجموع",
+      "lessonIds": [
+        "diptotes-ultimate-plural"
+      ],
+      "order": 1420
+    },
+    {
+      "id": "diptotes-feminine-ending-unit",
+      "moduleId": "diptotes-module-v1",
+      "slug": "diptotes-feminine-ending-unit",
+      "title": "ألف التأنيث",
+      "lessonIds": [
+        "diptotes-feminine-ending"
+      ],
+      "order": 1430
+    },
+    {
+      "id": "diptotes-genitive-unit",
+      "moduleId": "diptotes-module-v1",
+      "slug": "diptotes-genitive-unit",
+      "title": "جر الممنوع من الصرف",
+      "lessonIds": [
+        "diptotes-genitive"
+      ],
+      "order": 1440
+    },
+    {
+      "id": "diptotes-poetic-necessity-unit",
+      "moduleId": "diptotes-module-v1",
+      "slug": "diptotes-poetic-necessity-unit",
+      "title": "صرف الممنوع للضرورة الشعرية",
+      "lessonIds": [
+        "diptotes-poetic-necessity"
+      ],
+      "order": 1450
+    }
+  ],
+  "lessons": [
+    {
+      "id": "diptotes-proper-cause",
+      "topicId": "diptotes.proper-cause",
+      "order": 1400,
+      "unitId": "diptotes-proper-cause-unit",
+      "slug": "diptotes-proper-cause",
+      "title": "العلمية مع علة أخرى",
+      "shortTitle": "العلمية مع علة أخرى",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم العلمية مع علة أخرى.",
+        "اكتشاف علة منع الصرف.",
+        "اختيار علامة الجر مع أل والإضافة."
+      ],
+      "prerequisiteIds": [
+        "semi-sentences-ellipsis-estimation"
+      ],
+      "sections": [
+        {
+          "id": "diptotes-proper-cause-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم العلمية مع علة أخرى ضمن الممنوع من الصرف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "الصرف هنا التنوين والجر بالكسرة، ومنعه حكم مضبوط بعلل لا بمجرد شكل الكلمة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-4",
+          "type": "details",
+          "title": "العلل والشروط",
+          "body": "يفحص الاسم علمًا أو وصفًا أو صيغة جمع أو مختومًا بعلامة تأنيث، ثم تفحص أل والإضافة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الاسم مجردًا من أل والإضافة بحاله مع أحدهما لتلاحظ عودة الكسرة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "الفتحة علامة جر فرعية هنا وليست نصبًا؛ العامل يثبت الحالة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ منع كل علم أو كل جمع، أو إبقاء الفتحة مع أل والإضافة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف. اذكر العلة وسبب العلامة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "diptotes-proper-cause-example-1",
+          "sentence": "جاء أحمد",
+          "fullyDiacritizedSentence": "جاء أحمد",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "أحمد",
+              "normalizedWord": "احمد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 4,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-example-2",
+          "sentence": "مررت بعمر",
+          "fullyDiacritizedSentence": "مررت بعمر",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بعمر",
+              "normalizedWord": "بعمر",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-example-3",
+          "sentence": "سافرت إلى دمشق",
+          "fullyDiacritizedSentence": "سافرت إلى دمشق",
+          "parsedWords": [
+            {
+              "word": "سافرت",
+              "normalizedWord": "سافرت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "الى",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 6,
+              "endIndex": 9
+            },
+            {
+              "word": "دمشق",
+              "normalizedWord": "دمشق",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-proper-cause-example-4",
+          "sentence": "سلمت على إبراهيم",
+          "fullyDiacritizedSentence": "سلمت على إبراهيم",
+          "parsedWords": [
+            {
+              "word": "سلمت",
+              "normalizedWord": "سلمت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "إبراهيم",
+              "normalizedWord": "ابراهيم",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 9,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "diptotes-proper-cause-ex-1",
+        "diptotes-proper-cause-ex-2",
+        "diptotes-proper-cause-ex-3",
+        "diptotes-proper-cause-ex-4",
+        "diptotes-proper-cause-ex-5",
+        "diptotes-proper-cause-ex-6",
+        "diptotes-proper-cause-ex-7",
+        "diptotes-proper-cause-ex-8",
+        "diptotes-proper-cause-ex-9",
+        "diptotes-proper-cause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "diptotes-proper-cause-ex-2",
+        "diptotes-proper-cause-ex-4",
+        "diptotes-proper-cause-ex-6",
+        "diptotes-proper-cause-ex-8",
+        "diptotes-proper-cause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "tags": [
+        "الممنوع من الصرف",
+        "العلمية مع علة أخرى"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "diptotes-adjective-cause",
+      "topicId": "diptotes.adjective-cause",
+      "order": 1410,
+      "unitId": "diptotes-adjective-cause-unit",
+      "slug": "diptotes-adjective-cause",
+      "title": "الوصفية مع علة أخرى",
+      "shortTitle": "الوصفية مع علة أخرى",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الوصفية مع علة أخرى.",
+        "اكتشاف علة منع الصرف.",
+        "اختيار علامة الجر مع أل والإضافة."
+      ],
+      "prerequisiteIds": [
+        "diptotes-proper-cause"
+      ],
+      "sections": [
+        {
+          "id": "diptotes-adjective-cause-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الوصفية مع علة أخرى ضمن الممنوع من الصرف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "الصرف هنا التنوين والجر بالكسرة، ومنعه حكم مضبوط بعلل لا بمجرد شكل الكلمة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-4",
+          "type": "details",
+          "title": "العلل والشروط",
+          "body": "يفحص الاسم علمًا أو وصفًا أو صيغة جمع أو مختومًا بعلامة تأنيث، ثم تفحص أل والإضافة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الاسم مجردًا من أل والإضافة بحاله مع أحدهما لتلاحظ عودة الكسرة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "الفتحة علامة جر فرعية هنا وليست نصبًا؛ العامل يثبت الحالة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ منع كل علم أو كل جمع، أو إبقاء الفتحة مع أل والإضافة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف. اذكر العلة وسبب العلامة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "diptotes-adjective-cause-example-1",
+          "sentence": "مررت برجل أحمر",
+          "fullyDiacritizedSentence": "مررت برجل أحمر",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "برجل",
+              "normalizedWord": "برجل",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "أحمر",
+              "normalizedWord": "احمر",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-example-2",
+          "sentence": "تحدثت مع عطشان",
+          "fullyDiacritizedSentence": "تحدثت مع عطشان",
+          "parsedWords": [
+            {
+              "word": "تحدثت",
+              "normalizedWord": "تحدثت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "مع",
+              "normalizedWord": "مع",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 6,
+              "endIndex": 8
+            },
+            {
+              "word": "عطشان",
+              "normalizedWord": "عطشان",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 9,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-example-3",
+          "sentence": "نظرت إلى آخر",
+          "fullyDiacritizedSentence": "نظرت إلى آخر",
+          "parsedWords": [
+            {
+              "word": "نظرت",
+              "normalizedWord": "نظرت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "الى",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "آخر",
+              "normalizedWord": "اخر",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-adjective-cause-example-4",
+          "sentence": "هذا رجل غضبان",
+          "fullyDiacritizedSentence": "هذا رجل غضبان",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "رجل",
+              "normalizedWord": "رجل",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 4,
+              "endIndex": 7
+            },
+            {
+              "word": "غضبان",
+              "normalizedWord": "غضبان",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "diptotes-adjective-cause-ex-1",
+        "diptotes-adjective-cause-ex-2",
+        "diptotes-adjective-cause-ex-3",
+        "diptotes-adjective-cause-ex-4",
+        "diptotes-adjective-cause-ex-5",
+        "diptotes-adjective-cause-ex-6",
+        "diptotes-adjective-cause-ex-7",
+        "diptotes-adjective-cause-ex-8",
+        "diptotes-adjective-cause-ex-9",
+        "diptotes-adjective-cause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "diptotes-adjective-cause-ex-2",
+        "diptotes-adjective-cause-ex-4",
+        "diptotes-adjective-cause-ex-6",
+        "diptotes-adjective-cause-ex-8",
+        "diptotes-adjective-cause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "tags": [
+        "الممنوع من الصرف",
+        "الوصفية مع علة أخرى"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "diptotes-ultimate-plural",
+      "topicId": "diptotes.ultimate-plural",
+      "order": 1420,
+      "unitId": "diptotes-ultimate-plural-unit",
+      "slug": "diptotes-ultimate-plural",
+      "title": "صيغة منتهى الجموع",
+      "shortTitle": "صيغة منتهى الجموع",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم صيغة منتهى الجموع.",
+        "اكتشاف علة منع الصرف.",
+        "اختيار علامة الجر مع أل والإضافة."
+      ],
+      "prerequisiteIds": [
+        "diptotes-adjective-cause"
+      ],
+      "sections": [
+        {
+          "id": "diptotes-ultimate-plural-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم صيغة منتهى الجموع ضمن الممنوع من الصرف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "الصرف هنا التنوين والجر بالكسرة، ومنعه حكم مضبوط بعلل لا بمجرد شكل الكلمة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-4",
+          "type": "details",
+          "title": "العلل والشروط",
+          "body": "يفحص الاسم علمًا أو وصفًا أو صيغة جمع أو مختومًا بعلامة تأنيث، ثم تفحص أل والإضافة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الاسم مجردًا من أل والإضافة بحاله مع أحدهما لتلاحظ عودة الكسرة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "الفتحة علامة جر فرعية هنا وليست نصبًا؛ العامل يثبت الحالة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ منع كل علم أو كل جمع، أو إبقاء الفتحة مع أل والإضافة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف. اذكر العلة وسبب العلامة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "diptotes-ultimate-plural-example-1",
+          "sentence": "مررت بمساجد",
+          "fullyDiacritizedSentence": "مررت بمساجد",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بمساجد",
+              "normalizedWord": "بمساجد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-example-2",
+          "sentence": "صليت في مساجد",
+          "fullyDiacritizedSentence": "صليت في مساجد",
+          "parsedWords": [
+            {
+              "word": "صليت",
+              "normalizedWord": "صليت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "مساجد",
+              "normalizedWord": "مساجد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-example-3",
+          "sentence": "نظرت إلى مصابيح",
+          "fullyDiacritizedSentence": "نظرت إلى مصابيح",
+          "parsedWords": [
+            {
+              "word": "نظرت",
+              "normalizedWord": "نظرت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "الى",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "مصابيح",
+              "normalizedWord": "مصابيح",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 9,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-ultimate-plural-example-4",
+          "sentence": "سرت في حدائق",
+          "fullyDiacritizedSentence": "سرت في حدائق",
+          "parsedWords": [
+            {
+              "word": "سرت",
+              "normalizedWord": "سرت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 4,
+              "endIndex": 6
+            },
+            {
+              "word": "حدائق",
+              "normalizedWord": "حدائق",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "diptotes-ultimate-plural-ex-1",
+        "diptotes-ultimate-plural-ex-2",
+        "diptotes-ultimate-plural-ex-3",
+        "diptotes-ultimate-plural-ex-4",
+        "diptotes-ultimate-plural-ex-5",
+        "diptotes-ultimate-plural-ex-6",
+        "diptotes-ultimate-plural-ex-7",
+        "diptotes-ultimate-plural-ex-8",
+        "diptotes-ultimate-plural-ex-9",
+        "diptotes-ultimate-plural-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "diptotes-ultimate-plural-ex-2",
+        "diptotes-ultimate-plural-ex-4",
+        "diptotes-ultimate-plural-ex-6",
+        "diptotes-ultimate-plural-ex-8",
+        "diptotes-ultimate-plural-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "tags": [
+        "الممنوع من الصرف",
+        "صيغة منتهى الجموع"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "diptotes-feminine-ending",
+      "topicId": "diptotes.feminine-ending",
+      "order": 1430,
+      "unitId": "diptotes-feminine-ending-unit",
+      "slug": "diptotes-feminine-ending",
+      "title": "ألف التأنيث",
+      "shortTitle": "ألف التأنيث",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم ألف التأنيث.",
+        "اكتشاف علة منع الصرف.",
+        "اختيار علامة الجر مع أل والإضافة."
+      ],
+      "prerequisiteIds": [
+        "diptotes-ultimate-plural"
+      ],
+      "sections": [
+        {
+          "id": "diptotes-feminine-ending-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم ألف التأنيث ضمن الممنوع من الصرف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "الصرف هنا التنوين والجر بالكسرة، ومنعه حكم مضبوط بعلل لا بمجرد شكل الكلمة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-4",
+          "type": "details",
+          "title": "العلل والشروط",
+          "body": "يفحص الاسم علمًا أو وصفًا أو صيغة جمع أو مختومًا بعلامة تأنيث، ثم تفحص أل والإضافة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الاسم مجردًا من أل والإضافة بحاله مع أحدهما لتلاحظ عودة الكسرة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "الفتحة علامة جر فرعية هنا وليست نصبًا؛ العامل يثبت الحالة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ منع كل علم أو كل جمع، أو إبقاء الفتحة مع أل والإضافة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف. اذكر العلة وسبب العلامة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "diptotes-feminine-ending-example-1",
+          "sentence": "هذه صحراء واسعة",
+          "fullyDiacritizedSentence": "هذه صحراء واسعة",
+          "parsedWords": [
+            {
+              "word": "هذه",
+              "normalizedWord": "هذه",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "صحراء",
+              "normalizedWord": "صحراء",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "واسعة",
+              "normalizedWord": "واسعة",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-example-2",
+          "sentence": "سرت في صحراء",
+          "fullyDiacritizedSentence": "سرت في صحراء",
+          "parsedWords": [
+            {
+              "word": "سرت",
+              "normalizedWord": "سرت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 4,
+              "endIndex": 6
+            },
+            {
+              "word": "صحراء",
+              "normalizedWord": "صحراء",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-example-3",
+          "sentence": "رأيت سلمى",
+          "fullyDiacritizedSentence": "رأيت سلمى",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "سلمى",
+              "normalizedWord": "سلمى",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-feminine-ending-example-4",
+          "sentence": "مررت بسلمى",
+          "fullyDiacritizedSentence": "مررت بسلمى",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بسلمى",
+              "normalizedWord": "بسلمى",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "diptotes-feminine-ending-ex-1",
+        "diptotes-feminine-ending-ex-2",
+        "diptotes-feminine-ending-ex-3",
+        "diptotes-feminine-ending-ex-4",
+        "diptotes-feminine-ending-ex-5",
+        "diptotes-feminine-ending-ex-6",
+        "diptotes-feminine-ending-ex-7",
+        "diptotes-feminine-ending-ex-8",
+        "diptotes-feminine-ending-ex-9",
+        "diptotes-feminine-ending-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "diptotes-feminine-ending-ex-2",
+        "diptotes-feminine-ending-ex-4",
+        "diptotes-feminine-ending-ex-6",
+        "diptotes-feminine-ending-ex-8",
+        "diptotes-feminine-ending-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "tags": [
+        "الممنوع من الصرف",
+        "ألف التأنيث"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "diptotes-genitive",
+      "topicId": "diptotes.genitive",
+      "order": 1440,
+      "unitId": "diptotes-genitive-unit",
+      "slug": "diptotes-genitive",
+      "title": "جر الممنوع من الصرف",
+      "shortTitle": "جر الممنوع من الصرف",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم جر الممنوع من الصرف.",
+        "اكتشاف علة منع الصرف.",
+        "اختيار علامة الجر مع أل والإضافة."
+      ],
+      "prerequisiteIds": [
+        "diptotes-feminine-ending"
+      ],
+      "sections": [
+        {
+          "id": "diptotes-genitive-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم جر الممنوع من الصرف ضمن الممنوع من الصرف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "الصرف هنا التنوين والجر بالكسرة، ومنعه حكم مضبوط بعلل لا بمجرد شكل الكلمة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-4",
+          "type": "details",
+          "title": "العلل والشروط",
+          "body": "يفحص الاسم علمًا أو وصفًا أو صيغة جمع أو مختومًا بعلامة تأنيث، ثم تفحص أل والإضافة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الاسم مجردًا من أل والإضافة بحاله مع أحدهما لتلاحظ عودة الكسرة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "الفتحة علامة جر فرعية هنا وليست نصبًا؛ العامل يثبت الحالة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ منع كل علم أو كل جمع، أو إبقاء الفتحة مع أل والإضافة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف. اذكر العلة وسبب العلامة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "diptotes-genitive-example-1",
+          "sentence": "مررت بمساجد",
+          "fullyDiacritizedSentence": "مررت بمساجد",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بمساجد",
+              "normalizedWord": "بمساجد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-example-2",
+          "sentence": "صليت في المساجد",
+          "fullyDiacritizedSentence": "صليت في المساجد",
+          "parsedWords": [
+            {
+              "word": "صليت",
+              "normalizedWord": "صليت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "المساجد",
+              "normalizedWord": "المساجد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 8,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-example-3",
+          "sentence": "صليت في مساجد المدينة",
+          "fullyDiacritizedSentence": "صليت في مساجد المدينة",
+          "parsedWords": [
+            {
+              "word": "صليت",
+              "normalizedWord": "صليت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "مساجد",
+              "normalizedWord": "مساجد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 8,
+              "endIndex": 13
+            },
+            {
+              "word": "المدينة",
+              "normalizedWord": "المدينة",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 14,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-genitive-example-4",
+          "sentence": "سلمت على أحمد",
+          "fullyDiacritizedSentence": "سلمت على أحمد",
+          "parsedWords": [
+            {
+              "word": "سلمت",
+              "normalizedWord": "سلمت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "أحمد",
+              "normalizedWord": "احمد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "diptotes-genitive-ex-1",
+        "diptotes-genitive-ex-2",
+        "diptotes-genitive-ex-3",
+        "diptotes-genitive-ex-4",
+        "diptotes-genitive-ex-5",
+        "diptotes-genitive-ex-6",
+        "diptotes-genitive-ex-7",
+        "diptotes-genitive-ex-8",
+        "diptotes-genitive-ex-9",
+        "diptotes-genitive-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "diptotes-genitive-ex-2",
+        "diptotes-genitive-ex-4",
+        "diptotes-genitive-ex-6",
+        "diptotes-genitive-ex-8",
+        "diptotes-genitive-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "tags": [
+        "الممنوع من الصرف",
+        "جر الممنوع من الصرف"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "diptotes-poetic-necessity",
+      "topicId": "diptotes.poetic-necessity",
+      "order": 1450,
+      "unitId": "diptotes-poetic-necessity-unit",
+      "slug": "diptotes-poetic-necessity",
+      "title": "صرف الممنوع للضرورة الشعرية",
+      "shortTitle": "صرف الممنوع للضرورة الشعرية",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم صرف الممنوع للضرورة الشعرية.",
+        "اكتشاف علة منع الصرف.",
+        "اختيار علامة الجر مع أل والإضافة."
+      ],
+      "prerequisiteIds": [
+        "diptotes-genitive"
+      ],
+      "sections": [
+        {
+          "id": "diptotes-poetic-necessity-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم صرف الممنوع للضرورة الشعرية ضمن الممنوع من الصرف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "الصرف هنا التنوين والجر بالكسرة، ومنعه حكم مضبوط بعلل لا بمجرد شكل الكلمة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-4",
+          "type": "details",
+          "title": "العلل والشروط",
+          "body": "يفحص الاسم علمًا أو وصفًا أو صيغة جمع أو مختومًا بعلامة تأنيث، ثم تفحص أل والإضافة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن الاسم مجردًا من أل والإضافة بحاله مع أحدهما لتلاحظ عودة الكسرة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "الفتحة علامة جر فرعية هنا وليست نصبًا؛ العامل يثبت الحالة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ منع كل علم أو كل جمع، أو إبقاء الفتحة مع أل والإضافة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف. اذكر العلة وسبب العلامة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "diptotes-poetic-necessity-example-1",
+          "sentence": "رب شاعر أبدع",
+          "fullyDiacritizedSentence": "رب شاعر أبدع",
+          "parsedWords": [
+            {
+              "word": "رب",
+              "normalizedWord": "رب",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "شاعر",
+              "normalizedWord": "شاعر",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "أبدع",
+              "normalizedWord": "ابدع",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 8,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-example-2",
+          "sentence": "هذا أحمد حاضر",
+          "fullyDiacritizedSentence": "هذا أحمد حاضر",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "أحمد",
+              "normalizedWord": "احمد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "حاضر",
+              "normalizedWord": "حاضر",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-example-3",
+          "sentence": "مررت بأحمد",
+          "fullyDiacritizedSentence": "مررت بأحمد",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بأحمد",
+              "normalizedWord": "باحمد",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        },
+        {
+          "id": "diptotes-poetic-necessity-example-4",
+          "sentence": "قرأت شعرا فصيحا",
+          "fullyDiacritizedSentence": "قرأت شعرا فصيحا",
+          "parsedWords": [
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرات",
+              "wordType": "فعل أو أداة أو اسم",
+              "grammaticalRole": "عامل أو ركن أول",
+              "grammaticalState": "بحسب النوع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "شعرا",
+              "normalizedWord": "شعرا",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "فصيحا",
+              "normalizedWord": "فصيحا",
+              "wordType": "اسم معرب أو وصف",
+              "grammaticalRole": "اسم في التركيب أو تابع",
+              "grammaticalState": "مرفوع أو منصوب أو مجرور بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة أو المقدرة المناسبة",
+              "signReason": "نوع الاسم وتحقق منع الصرف أو زواله",
+              "grammaticalAgent": "العامل السابق أو الابتداء",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يفحص سبب منع الصرف قبل اختيار التنوين والكسرة أو الفتحة.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يوضح المثال علة المنع وحالة الاسم وعلامته وشروط عودة الكسرة.",
+          "referenceIds": [
+            "ref-general-diptotes-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "diptotes-poetic-necessity-ex-1",
+        "diptotes-poetic-necessity-ex-2",
+        "diptotes-poetic-necessity-ex-3",
+        "diptotes-poetic-necessity-ex-4",
+        "diptotes-poetic-necessity-ex-5",
+        "diptotes-poetic-necessity-ex-6",
+        "diptotes-poetic-necessity-ex-7",
+        "diptotes-poetic-necessity-ex-8",
+        "diptotes-poetic-necessity-ex-9",
+        "diptotes-poetic-necessity-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "diptotes-poetic-necessity-ex-2",
+        "diptotes-poetic-necessity-ex-4",
+        "diptotes-poetic-necessity-ex-6",
+        "diptotes-poetic-necessity-ex-8",
+        "diptotes-poetic-necessity-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "tags": [
+        "الممنوع من الصرف",
+        "صرف الممنوع للضرورة الشعرية"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "diptotes-proper-cause-ex-1",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «جاء أحمد».",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-2",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «مررت بعمر».",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-3",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «سافرت إلى دمشق».",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-4",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «سلمت على إبراهيم».",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-5",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في العلمية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-6",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في العلمية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-7",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في العلمية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-8",
+      "lessonId": "diptotes-proper-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في العلمية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-9",
+      "lessonId": "diptotes-proper-cause",
+      "type": "errorCorrection",
+      "prompt": "اختر القاعدة الصحيحة في العلمية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-proper-cause-ex-10",
+      "lessonId": "diptotes-proper-cause",
+      "type": "comparison",
+      "prompt": "اختر القاعدة الصحيحة في العلمية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.proper-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب العلمية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-1",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «مررت برجل أحمر».",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-2",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «تحدثت مع عطشان».",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-3",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «نظرت إلى آخر».",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-4",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «هذا رجل غضبان».",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-5",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في الوصفية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-6",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في الوصفية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-7",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في الوصفية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-8",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في الوصفية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-9",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "errorCorrection",
+      "prompt": "اختر القاعدة الصحيحة في الوصفية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-adjective-cause-ex-10",
+      "lessonId": "diptotes-adjective-cause",
+      "type": "comparison",
+      "prompt": "اختر القاعدة الصحيحة في الوصفية مع علة أخرى.",
+      "skillIds": [
+        "diptotes.adjective-cause"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب الوصفية مع علة أخرى، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-1",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «مررت بمساجد».",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-2",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «صليت في مساجد».",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-3",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «نظرت إلى مصابيح».",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-4",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «سرت في حدائق».",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-5",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صيغة منتهى الجموع.",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-6",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صيغة منتهى الجموع.",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-7",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صيغة منتهى الجموع.",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-8",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صيغة منتهى الجموع.",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-9",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "errorCorrection",
+      "prompt": "اختر القاعدة الصحيحة في صيغة منتهى الجموع.",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-ultimate-plural-ex-10",
+      "lessonId": "diptotes-ultimate-plural",
+      "type": "comparison",
+      "prompt": "اختر القاعدة الصحيحة في صيغة منتهى الجموع.",
+      "skillIds": [
+        "diptotes.ultimate-plural"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صيغة منتهى الجموع، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-1",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «هذه صحراء واسعة».",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-2",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «سرت في صحراء».",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-3",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «رأيت سلمى».",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-4",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «مررت بسلمى».",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-5",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في ألف التأنيث.",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-6",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في ألف التأنيث.",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-7",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في ألف التأنيث.",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-8",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في ألف التأنيث.",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-9",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "errorCorrection",
+      "prompt": "اختر القاعدة الصحيحة في ألف التأنيث.",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-feminine-ending-ex-10",
+      "lessonId": "diptotes-feminine-ending",
+      "type": "comparison",
+      "prompt": "اختر القاعدة الصحيحة في ألف التأنيث.",
+      "skillIds": [
+        "diptotes.feminine-ending"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب ألف التأنيث، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-1",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «مررت بمساجد».",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-2",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «صليت في المساجد».",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-3",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «صليت في مساجد المدينة».",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-4",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «سلمت على أحمد».",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-5",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في جر الممنوع من الصرف.",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-6",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في جر الممنوع من الصرف.",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-7",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في جر الممنوع من الصرف.",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-8",
+      "lessonId": "diptotes-genitive",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في جر الممنوع من الصرف.",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-9",
+      "lessonId": "diptotes-genitive",
+      "type": "errorCorrection",
+      "prompt": "اختر القاعدة الصحيحة في جر الممنوع من الصرف.",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-genitive-ex-10",
+      "lessonId": "diptotes-genitive",
+      "type": "comparison",
+      "prompt": "اختر القاعدة الصحيحة في جر الممنوع من الصرف.",
+      "skillIds": [
+        "diptotes.genitive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب جر الممنوع من الصرف، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-1",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «رب شاعر أبدع».",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-2",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «هذا أحمد حاضر».",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-3",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «مررت بأحمد».",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-4",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "حلل الاسم في «قرأت شعرا فصيحا».",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-5",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صرف الممنوع للضرورة الشعرية.",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-6",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صرف الممنوع للضرورة الشعرية.",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-7",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صرف الممنوع للضرورة الشعرية.",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-8",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "multipleChoice",
+      "prompt": "اختر القاعدة الصحيحة في صرف الممنوع للضرورة الشعرية.",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-9",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "errorCorrection",
+      "prompt": "اختر القاعدة الصحيحة في صرف الممنوع للضرورة الشعرية.",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "diptotes-poetic-necessity-ex-10",
+      "lessonId": "diptotes-poetic-necessity",
+      "type": "comparison",
+      "prompt": "اختر القاعدة الصحيحة في صرف الممنوع للضرورة الشعرية.",
+      "skillIds": [
+        "diptotes.poetic-necessity"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحدد علة المنع ثم العامل والحالة وأثر أل أو الإضافة.",
+          "feedback": "صحيح؛ اكتملت خطوات الحكم."
+        },
+        {
+          "id": "b",
+          "text": "كل اسم بلا تنوين يجر بالفتحة دائمًا.",
+          "feedback": "قد يكون مبنيًا أو مضافًا، وقد تعود الكسرة للممنوع."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يمنع الاسم من الصرف إذا تحققت علة معتبرة في باب صرف الممنوع للضرورة الشعرية، فلا ينون ويجر بالفتحة ما لم يعرف بأل أو يضف.",
+      "hint": "حدد نوع الاسم والعلة، ثم العامل والحالة، ثم تحقق من أل والإضافة قبل العلامة.",
+      "referenceIds": [
+        "ref-general-diptotes-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-diptotes-v1",
+      "title": "النحو الواضح في قواعد اللغة العربية",
+      "publisher": "دار المعارف",
+      "url": "https://www.hindawi.org/books/92463613/",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

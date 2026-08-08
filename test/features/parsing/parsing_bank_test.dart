@@ -9,17 +9,18 @@ import 'package:new_strucuture/features/parsing/data/parsing_bank_validator.dart
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('parsing bank contains sixteen gated guided samples', () async {
+  test('parsing bank contains twenty-two gated guided samples', () async {
     final raw = await rootBundle.loadString(
       'assets/content/e3rab_parsing_bank_v1.json',
     );
     final bank = Map<String, dynamic>.from(jsonDecode(raw) as Map);
     final samples = await AssetParsingDataSource(
       bundle: rootBundle,
+      assetPath: 'assets/content/e3rab_parsing_bank_v1.json',
     ).loadSamples();
 
     expect(const ParsingBankValidator().isValid(bank), isTrue);
-    expect(samples, hasLength(16));
+    expect(samples, hasLength(22));
     expect(samples.every((sample) => sample.steps.length == 7), isTrue);
     expect(samples.every((sample) => !sample.isApproved), isTrue);
     expect(samples.every((sample) => sample.parsedWords.isNotEmpty), isTrue);
@@ -45,6 +46,24 @@ void main() {
       'reason',
       'sentence-position',
     ];
+    expect(
+      samples.every(
+        (sample) =>
+            sample.steps.map((step) => step.id).toList().join('|') ==
+            decisionStepIds.join('|'),
+      ),
+      isTrue,
+    );
+    expect(
+      samples.every(
+        (sample) => sample.parsedWords.every(
+          (word) =>
+              word.grammaticalAgent.isNotEmpty &&
+              word.sentencePosition.isNotEmpty,
+        ),
+      ),
+      isTrue,
+    );
     expect(inflectionSamples, hasLength(3));
     expect(
       inflectionSamples.every((sample) {
@@ -110,18 +129,45 @@ void main() {
       }),
       isTrue,
     );
+    final signsSamples = samples
+        .where((sample) => sample.trackId == 'signs')
+        .toList(growable: false);
+    expect(signsSamples, hasLength(6));
+    expect(
+      signsSamples.map((sample) => sample.order),
+      orderedEquals([17, 18, 19, 20, 21, 22]),
+    );
+    expect(
+      signsSamples.every((sample) {
+        final ids = sample.steps.map((step) => step.id).toList();
+        return ids.length == decisionStepIds.length &&
+            Iterable<int>.generate(
+              ids.length,
+            ).every((index) => ids[index] == decisionStepIds[index]);
+      }),
+      isTrue,
+    );
+    expect(
+      signsSamples.where(
+        (sample) => sample.relatedLessonId == 'secondary-signs-v1',
+      ),
+      hasLength(3),
+    );
   });
 
   test('student service hides every unapproved parsing sample', () async {
     final service = LocalGrammarAnalysisService(
-      AssetParsingDataSource(bundle: rootBundle),
+      AssetParsingDataSource(
+        bundle: rootBundle,
+        assetPath: 'assets/content/e3rab_parsing_bank_v1.json',
+      ),
     );
 
     final studentSamples = await service.getSamples();
     final previewSamples = await service.getSamples(includeDrafts: true);
 
     expect(studentSamples.getOrElse(() => const []), isEmpty);
-    expect(previewSamples.getOrElse(() => const []), hasLength(16));
+    expect(previewSamples.getOrElse(() => const []), hasLength(22));
   });
 
   test('approved samples require reviewer identity and review date', () {

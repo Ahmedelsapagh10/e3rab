@@ -1,0 +1,3913 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-majrourat-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-majrourat-module-v1",
+      "majrourat-preposition-unit",
+      "majrourat-preposition",
+      "majrourat-preposition-ex-1",
+      "majrourat-preposition-ex-2",
+      "majrourat-preposition-ex-3",
+      "majrourat-preposition-ex-4",
+      "majrourat-preposition-ex-5",
+      "majrourat-preposition-ex-6",
+      "majrourat-preposition-ex-7",
+      "majrourat-preposition-ex-8",
+      "majrourat-preposition-ex-9",
+      "majrourat-preposition-ex-10",
+      "majrourat-genitive-construction-unit",
+      "majrourat-genitive-construction",
+      "majrourat-genitive-construction-ex-1",
+      "majrourat-genitive-construction-ex-2",
+      "majrourat-genitive-construction-ex-3",
+      "majrourat-genitive-construction-ex-4",
+      "majrourat-genitive-construction-ex-5",
+      "majrourat-genitive-construction-ex-6",
+      "majrourat-genitive-construction-ex-7",
+      "majrourat-genitive-construction-ex-8",
+      "majrourat-genitive-construction-ex-9",
+      "majrourat-genitive-construction-ex-10",
+      "majrourat-genitive-follower-unit",
+      "majrourat-genitive-follower",
+      "majrourat-genitive-follower-ex-1",
+      "majrourat-genitive-follower-ex-2",
+      "majrourat-genitive-follower-ex-3",
+      "majrourat-genitive-follower-ex-4",
+      "majrourat-genitive-follower-ex-5",
+      "majrourat-genitive-follower-ex-6",
+      "majrourat-genitive-follower-ex-7",
+      "majrourat-genitive-follower-ex-8",
+      "majrourat-genitive-follower-ex-9",
+      "majrourat-genitive-follower-ex-10",
+      "majrourat-preposition-meanings-unit",
+      "majrourat-preposition-meanings",
+      "majrourat-preposition-meanings-ex-1",
+      "majrourat-preposition-meanings-ex-2",
+      "majrourat-preposition-meanings-ex-3",
+      "majrourat-preposition-meanings-ex-4",
+      "majrourat-preposition-meanings-ex-5",
+      "majrourat-preposition-meanings-ex-6",
+      "majrourat-preposition-meanings-ex-7",
+      "majrourat-preposition-meanings-ex-8",
+      "majrourat-preposition-meanings-ex-9",
+      "majrourat-preposition-meanings-ex-10",
+      "majrourat-genitive-types-unit",
+      "majrourat-genitive-types",
+      "majrourat-genitive-types-ex-1",
+      "majrourat-genitive-types-ex-2",
+      "majrourat-genitive-types-ex-3",
+      "majrourat-genitive-types-ex-4",
+      "majrourat-genitive-types-ex-5",
+      "majrourat-genitive-types-ex-6",
+      "majrourat-genitive-types-ex-7",
+      "majrourat-genitive-types-ex-8",
+      "majrourat-genitive-types-ex-9",
+      "majrourat-genitive-types-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "mansoubat-inna-name-kana-predicate"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-majrourat-module-v1",
+      "slug": "general-majrourat-v1",
+      "title": "المجرورات",
+      "unitIds": [
+        "majrourat-preposition-unit",
+        "majrourat-genitive-construction-unit",
+        "majrourat-genitive-follower-unit",
+        "majrourat-preposition-meanings-unit",
+        "majrourat-genitive-types-unit"
+      ],
+      "order": 8
+    }
+  ],
+  "units": [
+    {
+      "id": "majrourat-preposition-unit",
+      "moduleId": "general-majrourat-module-v1",
+      "slug": "majrourat-preposition-unit",
+      "title": "الجر بالحرف",
+      "lessonIds": [
+        "majrourat-preposition"
+      ],
+      "order": 700
+    },
+    {
+      "id": "majrourat-genitive-construction-unit",
+      "moduleId": "general-majrourat-module-v1",
+      "slug": "majrourat-genitive-construction-unit",
+      "title": "الجر بالإضافة",
+      "lessonIds": [
+        "majrourat-genitive-construction"
+      ],
+      "order": 710
+    },
+    {
+      "id": "majrourat-genitive-follower-unit",
+      "moduleId": "general-majrourat-module-v1",
+      "slug": "majrourat-genitive-follower-unit",
+      "title": "التابع للمجرور",
+      "lessonIds": [
+        "majrourat-genitive-follower"
+      ],
+      "order": 720
+    },
+    {
+      "id": "majrourat-preposition-meanings-unit",
+      "moduleId": "general-majrourat-module-v1",
+      "slug": "majrourat-preposition-meanings-unit",
+      "title": "معاني حروف الجر",
+      "lessonIds": [
+        "majrourat-preposition-meanings"
+      ],
+      "order": 730
+    },
+    {
+      "id": "majrourat-genitive-types-unit",
+      "moduleId": "general-majrourat-module-v1",
+      "slug": "majrourat-genitive-types-unit",
+      "title": "الإضافة اللفظية والمعنوية",
+      "lessonIds": [
+        "majrourat-genitive-types"
+      ],
+      "order": 740
+    }
+  ],
+  "lessons": [
+    {
+      "id": "majrourat-preposition",
+      "topicId": "majrourat.preposition",
+      "order": 700,
+      "unitId": "majrourat-preposition-unit",
+      "slug": "majrourat-preposition",
+      "title": "الجر بالحرف",
+      "shortTitle": "حرف الجر وعمله",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز حرف الجر.",
+        "تحديد الاسم المجرور.",
+        "اختيار علامة الجر وسببها."
+      ],
+      "prerequisiteIds": [
+        "mansoubat-inna-name-kana-predicate"
+      ],
+      "sections": [
+        {
+          "id": "majrourat-preposition-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تدخل حروف الجر على الأسماء فتربطها بما قبلها وتطلب منها حالة الجر.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "الاسم المجرور بالحرف اسم سبقه حرف جر أصلي أو زائد، ويكون الحرف هو العامل في جره.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "علامة الجر الأصلية الكسرة، وتنوب عنها الياء في المثنى وجمع المذكر السالم والأسماء الخمسة، والفتحة في الممنوع من الصرف بشروطه.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدد الحرف، ثم الاسم الذي دخل عليه، وافحص نوع الاسم قبل اختيار علامة الجر.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-5",
+          "type": "details",
+          "title": "العلامة وسببها",
+          "body": "قد يتصل حرف الجر بالاسم كالـباء واللام والكاف، ويبقى لكل منهما تحليله ووظيفته.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "حرف الجر ← الاسم ← نوعه ← حالة الجر ← العلامة وسببها ← تعلق شبه الجملة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل حرف الجر جزءًا من الاسم في الإعراب، ولا تختر الكسرة قبل فحص المثنى والجمع والممنوع من الصرف.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «حضر الطالب» الطالب فاعل مرفوع؛ لم يسبقه حرف جر.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الحرف عامل الجر، ونوع الاسم يحدد الكسرة أو العلامة النائبة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majrourat-preposition-example-1",
+          "sentence": "ذهبت إلى المدرسة",
+          "fullyDiacritizedSentence": "ذهبت إلى المدرسة",
+          "parsedWords": [
+            {
+              "word": "ذهبت",
+              "normalizedWord": "ذهبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "إلى",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد انتهاء الغاية",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد انتهاء الغاية؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "المدرسة",
+              "normalizedWord": "المدرسة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "إلى",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "إلى جر المدرسة بالكسرة.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-example-2",
+          "sentence": "مررت بالطالبين",
+          "fullyDiacritizedSentence": "مررت بالطالبين",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بالطالبين",
+              "normalizedWord": "بالطالبين",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "اسم مجرور بالباء",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الياء نيابة عن الكسرة",
+              "signReason": "مثنى",
+              "grammaticalAgent": "الباء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "الطالبين اسم مجرور بالباء وعلامة جره الياء لأنه مثنى.",
+              "startIndex": 5,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "المثنى مجرور بالياء.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-example-3",
+          "sentence": "سلمت على المعلمين",
+          "fullyDiacritizedSentence": "سلمت على المعلمين",
+          "parsedWords": [
+            {
+              "word": "سلمت",
+              "normalizedWord": "سلمت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد الاستعلاء المجازي",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد الاستعلاء المجازي؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "المعلمين",
+              "normalizedWord": "المعلمين",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الياء نيابة عن الكسرة",
+              "signReason": "جمع مذكر سالم",
+              "grammaticalAgent": "على",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الياء نيابة عن الكسرة.",
+              "startIndex": 9,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "جمع المذكر مجرور بالياء.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-example-4",
+          "sentence": "جلست في الفصل",
+          "fullyDiacritizedSentence": "جلست في الفصل",
+          "parsedWords": [
+            {
+              "word": "جلست",
+              "normalizedWord": "جلست",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد الظرفية",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد الظرفية؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "الفصل",
+              "normalizedWord": "الفصل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "في",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "في للظرفية والفصل مجرور.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majrourat-preposition-ex-1",
+        "majrourat-preposition-ex-2",
+        "majrourat-preposition-ex-3",
+        "majrourat-preposition-ex-4",
+        "majrourat-preposition-ex-5",
+        "majrourat-preposition-ex-6",
+        "majrourat-preposition-ex-7",
+        "majrourat-preposition-ex-8",
+        "majrourat-preposition-ex-9",
+        "majrourat-preposition-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majrourat-preposition-ex-2",
+        "majrourat-preposition-ex-4",
+        "majrourat-preposition-ex-6",
+        "majrourat-preposition-ex-8",
+        "majrourat-preposition-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "tags": [
+        "حروف الجر",
+        "الاسم المجرور",
+        "علامة الجر"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majrourat-genitive-construction",
+      "topicId": "majrourat.genitive-construction",
+      "order": 710,
+      "unitId": "majrourat-genitive-construction-unit",
+      "slug": "majrourat-genitive-construction",
+      "title": "الجر بالإضافة",
+      "shortTitle": "المضاف والمضاف إليه",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز تركيب الإضافة.",
+        "إعراب المضاف إليه.",
+        "معرفة أثر الإضافة في الطرفين."
+      ],
+      "prerequisiteIds": [
+        "majrourat-preposition"
+      ],
+      "sections": [
+        {
+          "id": "majrourat-genitive-construction-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تربط الإضافة اسمين مباشرة، فيتخصص الأول أو يتعرف بالثاني.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "المضاف اسم ينسب إلى اسم بعده يسمى المضاف إليه، والمضاف إليه مجرور دائمًا.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يجر المضاف إليه بالكسرة أو العلامة الفرعية، ويحذف التنوين من المضاف وتحذف نون المثنى والجمع عند إضافتهما.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "ابحث عن اسمين متجاورين يصح بينهما معنى اللام أو من أو في، ولا يفصل بينهما في الأصل.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-5",
+          "type": "details",
+          "title": "العلامة وسببها",
+          "body": "المضاف يعرب بحسب موقعه في الجملة، أما الإضافة نفسها فلا تفرض عليه حالة واحدة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الاسم الأول وموقعه ← كونه مضافًا ← الاسم الثاني ← الجر ← العلامة والسبب.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجر المضاف لمجرد الإضافة، ولا تدخل أل أو التنوين على المضاف في الإضافة المعنوية.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الطالب المجتهد» الثاني نعت لا مضاف إليه؛ لأنه يصف الأول ويطابقه.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المضاف يتبع موقعه، والمضاف إليه مجرور، والإضافة تؤثر في تعريف الأول أو تخصيصه.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majrourat-genitive-construction-example-1",
+          "sentence": "كتاب الطالب مفيد",
+          "fullyDiacritizedSentence": "كتاب الطالب مفيد",
+          "parsedWords": [
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مرفوع وهو مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ مرفوع وهو مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "مفيد",
+              "normalizedWord": "مفيد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "الطالب مضاف إليه مجرور.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-example-2",
+          "sentence": "باب المدرسة مفتوح",
+          "fullyDiacritizedSentence": "باب المدرسة مفتوح",
+          "parsedWords": [
+            {
+              "word": "باب",
+              "normalizedWord": "باب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مرفوع وهو مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ مرفوع وهو مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "المدرسة",
+              "normalizedWord": "المدرسة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 11
+            },
+            {
+              "word": "مفتوح",
+              "normalizedWord": "مفتوح",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "المدرسة خصصت الباب.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-example-3",
+          "sentence": "حدائق المدينة جميلة",
+          "fullyDiacritizedSentence": "حدائق المدينة جميلة",
+          "parsedWords": [
+            {
+              "word": "حدائق",
+              "normalizedWord": "حدائق",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مرفوع وهو مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "جمع تكسير",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ مرفوع وهو مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "المدينة",
+              "normalizedWord": "المدينة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 13
+            },
+            {
+              "word": "جميلة",
+              "normalizedWord": "جميلة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 14,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "المدينة مضاف إليه.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-construction-example-4",
+          "sentence": "معلما الفصل حاضران",
+          "fullyDiacritizedSentence": "معلما الفصل حاضران",
+          "parsedWords": [
+            {
+              "word": "معلما",
+              "normalizedWord": "معلما",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مرفوع وهو مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف نيابة عن الضمة",
+              "signReason": "مثنى حذفت نونه للإضافة",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ مرفوع وهو مضاف؛ مرفوع، وعلامته الألف نيابة عن الضمة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "الفصل",
+              "normalizedWord": "الفصل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 11
+            },
+            {
+              "word": "حاضران",
+              "normalizedWord": "حاضران",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف نيابة عن الضمة",
+              "signReason": "مثنى",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ مرفوع، وعلامته الألف نيابة عن الضمة.",
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "حذفت نون المثنى من المضاف.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majrourat-genitive-construction-ex-1",
+        "majrourat-genitive-construction-ex-2",
+        "majrourat-genitive-construction-ex-3",
+        "majrourat-genitive-construction-ex-4",
+        "majrourat-genitive-construction-ex-5",
+        "majrourat-genitive-construction-ex-6",
+        "majrourat-genitive-construction-ex-7",
+        "majrourat-genitive-construction-ex-8",
+        "majrourat-genitive-construction-ex-9",
+        "majrourat-genitive-construction-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majrourat-genitive-construction-ex-2",
+        "majrourat-genitive-construction-ex-4",
+        "majrourat-genitive-construction-ex-6",
+        "majrourat-genitive-construction-ex-8",
+        "majrourat-genitive-construction-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "tags": [
+        "الإضافة",
+        "المضاف",
+        "المضاف إليه"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majrourat-genitive-follower",
+      "topicId": "majrourat.genitive-follower",
+      "order": 720,
+      "unitId": "majrourat-genitive-follower-unit",
+      "slug": "majrourat-genitive-follower",
+      "title": "التابع للمجرور",
+      "shortTitle": "نعت وعطف وتوكيد وبدل",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز أنواع التوابع.",
+        "مطابقة التابع لمتبوعه في الجر.",
+        "اختيار علامة التابع."
+      ],
+      "prerequisiteIds": [
+        "majrourat-genitive-construction"
+      ],
+      "sections": [
+        {
+          "id": "majrourat-genitive-follower-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "يتبع النعت والعطف والتوكيد والبدل الاسم قبله في حالته الإعرابية، ومنها الجر.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "التابع كلمة تشارك ما قبلها في الإعراب مع وظيفة معنوية خاصة بكل باب.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "إذا كان المتبوع مجرورًا كان تابعه مجرورًا، لكن علامة كل منهما قد تختلف باختلاف نوع الكلمة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدد المتبوع وعامل جره أولًا، ثم نوع العلاقة: وصف أو عطف أو توكيد أو بدل.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-5",
+          "type": "details",
+          "title": "العلامة وسببها",
+          "body": "الاتباع في الحالة لا يلزم منه اتحاد العلامة؛ فقد يجر المثنى بالياء ويتبعه مفرد بالكسرة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "العامل في المتبوع ← حالة الجر ← نوع التابع ← علامة التابع وسببها.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل التابع مجرورًا بحرف الجر مباشرة في كل تحليل، ولا تخلط النعت بالمضاف إليه.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «كتاب الطالب» الطالب مضاف إليه لا تابع؛ العلاقة إضافة لا وصف ولا عطف.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "التابع يأخذ الجر من متبوعه، وتحدد بنيته علامة الجر الخاصة به.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majrourat-genitive-follower-example-1",
+          "sentence": "مررت بالطالب المجتهد",
+          "fullyDiacritizedSentence": "مررت بالطالب المجتهد",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بالطالب",
+              "normalizedWord": "بالطالب",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "اسم مجرور بالباء",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الباء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم مجرور بالباء؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 12
+            },
+            {
+              "word": "المجتهد",
+              "normalizedWord": "المجتهد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نعت مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطالب",
+              "sentencePosition": "بعد المنعوت",
+              "explanation": "نعت مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 13,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "المجتهد نعت مجرور.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-example-2",
+          "sentence": "سلمت على محمد وعلي",
+          "fullyDiacritizedSentence": "سلمت على محمد وعلي",
+          "parsedWords": [
+            {
+              "word": "سلمت",
+              "normalizedWord": "سلمت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد الجر؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "على",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 13
+            },
+            {
+              "word": "وعلي",
+              "normalizedWord": "وعلي",
+              "wordType": "واو عطف واسم معطوف",
+              "grammaticalRole": "معطوف مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة المقدرة",
+              "signReason": "اسم مقصور",
+              "grammaticalAgent": "العطف على محمد",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "معطوف مجرور؛ مجرور، وعلامته الكسرة المقدرة.",
+              "startIndex": 14,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "علي معطوف مجرور.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-example-3",
+          "sentence": "نظرت إلى المعلم نفسه",
+          "fullyDiacritizedSentence": "نظرت إلى المعلم نفسه",
+          "parsedWords": [
+            {
+              "word": "نظرت",
+              "normalizedWord": "نظرت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "إلى",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد الجر؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "المعلم",
+              "normalizedWord": "المعلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "إلى",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 15
+            },
+            {
+              "word": "نفسه",
+              "normalizedWord": "نفسه",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "توكيد معنوي مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع المعلم",
+              "sentencePosition": "بعد المؤكد",
+              "explanation": "توكيد معنوي مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 16,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "نفسه توكيد معنوي مجرور.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-follower-example-4",
+          "sentence": "مررت بأخيك خالد",
+          "fullyDiacritizedSentence": "مررت بأخيك خالد",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بأخيك",
+              "normalizedWord": "بأخيك",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "اسم مجرور بالباء",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الياء نيابة عن الكسرة",
+              "signReason": "من الأسماء الخمسة",
+              "grammaticalAgent": "الباء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم مجرور بالباء؛ مجرور، وعلامته الياء نيابة عن الكسرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "خالد",
+              "normalizedWord": "خالد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "بدل مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع أخيك",
+              "sentencePosition": "بعد المبدل منه",
+              "explanation": "بدل مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "خالد بدل مجرور.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majrourat-genitive-follower-ex-1",
+        "majrourat-genitive-follower-ex-2",
+        "majrourat-genitive-follower-ex-3",
+        "majrourat-genitive-follower-ex-4",
+        "majrourat-genitive-follower-ex-5",
+        "majrourat-genitive-follower-ex-6",
+        "majrourat-genitive-follower-ex-7",
+        "majrourat-genitive-follower-ex-8",
+        "majrourat-genitive-follower-ex-9",
+        "majrourat-genitive-follower-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majrourat-genitive-follower-ex-2",
+        "majrourat-genitive-follower-ex-4",
+        "majrourat-genitive-follower-ex-6",
+        "majrourat-genitive-follower-ex-8",
+        "majrourat-genitive-follower-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "tags": [
+        "التابع للمجرور",
+        "النعت",
+        "العطف",
+        "التوكيد",
+        "البدل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majrourat-preposition-meanings",
+      "topicId": "majrourat.preposition-meanings",
+      "order": 730,
+      "unitId": "majrourat-preposition-meanings-unit",
+      "slug": "majrourat-preposition-meanings",
+      "title": "معاني حروف الجر",
+      "shortTitle": "المعنى داخل السياق",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "ربط الحرف بمعناه السياقي.",
+        "تمييز أشهر معاني من وإلى والباء واللام.",
+        "منع التفسير الآلي للحرف."
+      ],
+      "prerequisiteIds": [
+        "majrourat-genitive-follower"
+      ],
+      "sections": [
+        {
+          "id": "majrourat-preposition-meanings-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "لا يضيف حرف الجر حركة فقط؛ بل يبني علاقة مثل الابتداء والانتهاء والاستعانة والملك.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "معنى حرف الجر هو العلاقة التي ينشئها بين الاسم المجرور ومتعلقه، وقد تتعدد معاني الحرف بحسب السياق.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "من للابتداء غالبًا، وإلى للانتهاء، والباء للإلصاق أو الاستعانة، واللام للملك أو الاختصاص، وعلى للاستعلاء، وفي للظرفية.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "اقرأ الفعل والاسم معًا، ثم اختر المعنى الذي يستقيم في السياق بدل حفظ معنى واحد لكل حرف.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-5",
+          "type": "details",
+          "title": "العلامة وسببها",
+          "body": "قد يستعمل الحرف استعمالًا مجازيًا، وقد تتقارب الحروف دون أن تكون مترادفة في كل موضع.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الحرف ← متعلقه ← الاسم المجرور ← العلاقة السياقية ← المعنى الأنسب.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تقل إن الباء للاستعانة دائمًا أو إن من للتبعيض في كل سياق.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الباء في «مررت بالبيت» للإلصاق المجازي، لا للاستعانة كما في «كتبت بالقلم».",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "إعراب الحرف ثابت، أما معناه فيحدده السياق وعلاقته بالفعل أو الوصف.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majrourat-preposition-meanings-example-1",
+          "sentence": "خرجت من البيت",
+          "fullyDiacritizedSentence": "خرجت من البيت",
+          "parsedWords": [
+            {
+              "word": "خرجت",
+              "normalizedWord": "خرجت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد ابتداء الغاية",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد ابتداء الغاية؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "البيت",
+              "normalizedWord": "البيت",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "من",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "من لابتداء الغاية.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-example-2",
+          "sentence": "ذهبت إلى المدرسة",
+          "fullyDiacritizedSentence": "ذهبت إلى المدرسة",
+          "parsedWords": [
+            {
+              "word": "ذهبت",
+              "normalizedWord": "ذهبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "إلى",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يفيد انتهاء الغاية",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل الاسم المجرور",
+              "explanation": "حرف يفيد انتهاء الغاية؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "المدرسة",
+              "normalizedWord": "المدرسة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "إلى",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "إلى لانتهاء الغاية.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-example-3",
+          "sentence": "كتبت بالقلم",
+          "fullyDiacritizedSentence": "كتبت بالقلم",
+          "parsedWords": [
+            {
+              "word": "كتبت",
+              "normalizedWord": "كتبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بالقلم",
+              "normalizedWord": "بالقلم",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "اسم مجرور بالباء",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الباء للاستعانة",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم مجرور بالباء؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "الباء للاستعانة.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-preposition-meanings-example-4",
+          "sentence": "الكتاب للطالب",
+          "fullyDiacritizedSentence": "الكتاب للطالب",
+          "parsedWords": [
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "للطالب",
+              "normalizedWord": "للطالب",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "خبر شبه جملة",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "الكسرة على الاسم",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "اللام للملك",
+              "sentencePosition": "خبر الجملة",
+              "explanation": "خبر شبه جملة؛ في محل رفع، وعلامته الكسرة على الاسم.",
+              "startIndex": 7,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "اللام للملك.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majrourat-preposition-meanings-ex-1",
+        "majrourat-preposition-meanings-ex-2",
+        "majrourat-preposition-meanings-ex-3",
+        "majrourat-preposition-meanings-ex-4",
+        "majrourat-preposition-meanings-ex-5",
+        "majrourat-preposition-meanings-ex-6",
+        "majrourat-preposition-meanings-ex-7",
+        "majrourat-preposition-meanings-ex-8",
+        "majrourat-preposition-meanings-ex-9",
+        "majrourat-preposition-meanings-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majrourat-preposition-meanings-ex-2",
+        "majrourat-preposition-meanings-ex-4",
+        "majrourat-preposition-meanings-ex-6",
+        "majrourat-preposition-meanings-ex-8",
+        "majrourat-preposition-meanings-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "tags": [
+        "معاني حروف الجر",
+        "من",
+        "إلى",
+        "الباء",
+        "اللام"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majrourat-genitive-types",
+      "topicId": "majrourat.genitive-types",
+      "order": 740,
+      "unitId": "majrourat-genitive-types-unit",
+      "slug": "majrourat-genitive-types",
+      "title": "الإضافة اللفظية والمعنوية",
+      "shortTitle": "هل تفيد تعريفًا أم تخفيفًا؟",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز نوعي الإضافة.",
+        "فهم أثر كل نوع.",
+        "تحليل المشتق المضاف إلى معموله."
+      ],
+      "prerequisiteIds": [
+        "majrourat-preposition-meanings"
+      ],
+      "sections": [
+        {
+          "id": "majrourat-genitive-types-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "ليست كل إضافة للتعريف أو التخصيص؛ فقد تأتي لتخفيف اللفظ مع بقاء المضاف في معنى الفعل.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "الإضافة المعنوية تفيد تعريف المضاف أو تخصيصه، واللفظية تكون غالبًا إضافة وصف عامل إلى معموله للتخفيف.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "المعنوية محضة ويقدر فيها اللام أو من أو في، واللفظية غير محضة ولا تكسب المضاف تعريفًا في الأصل.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "افحص الأول: إن كان اسمًا عاديًا دل على ملك أو جنس أو ظرف فالإضافة معنوية، وإن كان وصفًا عاملًا دالًا على الحال أو الاستقبال فغالبًا لفظية.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-5",
+          "type": "details",
+          "title": "العلامة وسببها",
+          "body": "المضاف إليه مجرور في النوعين، لكن أثر الإضافة في تعريف المضاف وقبول أل يختلف.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "نوع المضاف ← العلاقة ← عمل المشتق إن وجد ← نوع الإضافة ← أثرها.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تسم كل إضافة إلى معمول لفظية دون تحقق وصف عامل وزمن مناسب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "«كتاب الطالب» معنوية؛ كلمة كتاب ليست وصفًا عاملًا أضيف إلى معموله.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المعنوية تبني علاقة تعريف أو تخصيص، واللفظية تخفف وصفًا عاملًا، والجر ثابت في النوعين.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majrourat-genitive-types-example-1",
+          "sentence": "كتاب الطالب جديد",
+          "fullyDiacritizedSentence": "كتاب الطالب جديد",
+          "parsedWords": [
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ وهو مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ وهو مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة المعنوية",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "جديد",
+              "normalizedWord": "جديد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "إضافة معنوية تفيد التعريف.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-example-2",
+          "sentence": "باب خشب متين",
+          "fullyDiacritizedSentence": "باب خشب متين",
+          "parsedWords": [
+            {
+              "word": "باب",
+              "normalizedWord": "باب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ وهو مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ وهو مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "خشب",
+              "normalizedWord": "خشب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة المعنوية",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 7
+            },
+            {
+              "word": "متين",
+              "normalizedWord": "متين",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "إضافة معنوية تقدر بمن.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-example-3",
+          "sentence": "محمد محب الخير",
+          "fullyDiacritizedSentence": "محمد محب الخير",
+          "parsedWords": [
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "محب",
+              "normalizedWord": "محب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر وهو وصف عامل مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر وهو وصف عامل مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "الخير",
+              "normalizedWord": "الخير",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه لفظا معمول للوصف",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "إضافة لفظية",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "مضاف إليه لفظا معمول للوصف؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "إضافة اسم الفاعل إلى معموله لفظية.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        },
+        {
+          "id": "majrourat-genitive-types-example-4",
+          "sentence": "الطالب حسن الخلق",
+          "fullyDiacritizedSentence": "الطالب حسن الخلق",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "حسن",
+              "normalizedWord": "حسن",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر وهو وصف مضاف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر وهو وصف مضاف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "الخلق",
+              "normalizedWord": "الخلق",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه لفظا",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة اللفظية",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "مضاف إليه لفظا؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "إضافة الصفة المشبهة إلى معمولها لفظية.",
+          "referenceIds": [
+            "ref-general-majrourat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majrourat-genitive-types-ex-1",
+        "majrourat-genitive-types-ex-2",
+        "majrourat-genitive-types-ex-3",
+        "majrourat-genitive-types-ex-4",
+        "majrourat-genitive-types-ex-5",
+        "majrourat-genitive-types-ex-6",
+        "majrourat-genitive-types-ex-7",
+        "majrourat-genitive-types-ex-8",
+        "majrourat-genitive-types-ex-9",
+        "majrourat-genitive-types-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majrourat-genitive-types-ex-2",
+        "majrourat-genitive-types-ex-4",
+        "majrourat-genitive-types-ex-6",
+        "majrourat-genitive-types-ex-8",
+        "majrourat-genitive-types-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "tags": [
+        "الإضافة المعنوية",
+        "الإضافة اللفظية",
+        "المشتق العامل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "majrourat-preposition-ex-1",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: عامل الجر بالحرف؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "حرف الجر",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عامل الجر بالحرف: حرف الجر.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-2",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: العلامة الأصلية؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الكسرة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العلامة الأصلية: الكسرة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-3",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: جر المثنى؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "بالياء",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جر المثنى: بالياء.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-4",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: جر جمع المذكر؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "بالياء",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جر جمع المذكر: بالياء.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-5",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: جر الممنوع من الصرف؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بالفتحة بشروطه",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جر الممنوع من الصرف: بالفتحة بشروطه.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-6",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: في؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "للظرفية غالبا",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في: للظرفية غالبا.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-7",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الاسم بعد إلى؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الاسم بعد إلى: مجرور.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-8",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: قبل العلامة؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نفحص نوع الاسم",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "قبل العلامة: نفحص نوع الاسم.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-9",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: شبه الجملة؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يتعلق بما قبله",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "شبه الجملة: يتعلق بما قبله.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-ex-10",
+      "lessonId": "majrourat-preposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الحرف؟",
+      "skillIds": [
+        "majrourat.preposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحرف: مبني.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-1",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضاف إليه؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور دائما",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضاف إليه: مجرور دائما.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-2",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضاف؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يعرب حسب موقعه",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضاف: يعرب حسب موقعه.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-3",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: تنوين المضاف؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحذف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تنوين المضاف: يحذف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-4",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: نون المثنى المضاف؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحذف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نون المثنى المضاف: تحذف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-5",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الإضافة؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تربط اسمين",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإضافة: تربط اسمين.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-6",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: تقدير شائع للعلاقة؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "اللام أو من أو في",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تقدير شائع للعلاقة: اللام أو من أو في.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-7",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الطالب في كتاب الطالب؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضاف إليه",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الطالب في كتاب الطالب: مضاف إليه.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-8",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كتاب في المثال؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضاف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كتاب في المثال: مضاف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-9",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضاف إليه المثنى؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجر بالياء",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضاف إليه المثنى: يجر بالياء.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-construction-ex-10",
+      "lessonId": "majrourat-genitive-construction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الطالب المجتهد؟",
+      "skillIds": [
+        "majrourat.genitive-construction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليس إضافة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الطالب المجتهد: ليس إضافة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-1",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: التابع للمجرور؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "التابع للمجرور: مجرور.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-2",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المجتهد بعد الطالب؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعت",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المجتهد بعد الطالب: نعت.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-3",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: بعد واو العطف؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "معطوف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بعد واو العطف: معطوف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-4",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: نفسه؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "توكيد معنوي",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نفسه: توكيد معنوي.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-5",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خالد بعد أخيك؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بدل",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خالد بعد أخيك: بدل.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-6",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: العامل في التابع؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الاتباع",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل في التابع: الاتباع.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-7",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: علامة كل تابع؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تتبع نوع الكلمة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "علامة كل تابع: تتبع نوع الكلمة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-8",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: التابع والمتبوع؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يتفقان في الحالة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "التابع والمتبوع: يتفقان في الحالة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-9",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضاف إليه؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليس تابعا",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضاف إليه: ليس تابعا.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-follower-ex-10",
+      "lessonId": "majrourat-genitive-follower",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: أول خطوة؟",
+      "skillIds": [
+        "majrourat.genitive-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد المتبوع",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أول خطوة: تحديد المتبوع.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-1",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: من في خرجت من البيت؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ابتداء الغاية",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "من في خرجت من البيت: ابتداء الغاية.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-2",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: إلى؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "انتهاء الغاية",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إلى: انتهاء الغاية.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-3",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الباء في كتبت بالقلم؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الاستعانة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الباء في كتبت بالقلم: الاستعانة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-4",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اللام في الكتاب للطالب؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الملك",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اللام في الكتاب للطالب: الملك.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-5",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: في؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الظرفية",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "في: الظرفية.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-6",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: على؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الاستعلاء",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "على: الاستعلاء.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-7",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المعنى؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدده السياق",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المعنى: يحدده السياق.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-8",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الباء؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليست للاستعانة دائما",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الباء: ليست للاستعانة دائما.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-9",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الحرف يتعلق؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "بفعل أو وصف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحرف يتعلق: بفعل أو وصف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-preposition-meanings-ex-10",
+      "lessonId": "majrourat-preposition-meanings",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: إعراب الحرف؟",
+      "skillIds": [
+        "majrourat.preposition-meanings"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني لا محل له",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إعراب الحرف: مبني لا محل له.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-1",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الإضافة المعنوية؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تفيد التعريف أو التخصيص",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإضافة المعنوية: تفيد التعريف أو التخصيص.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-2",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الإضافة اللفظية؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تفيد التخفيف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإضافة اللفظية: تفيد التخفيف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-3",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الوصف العامل المضاف لمعموله؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "إضافة لفظية غالبا",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الوصف العامل المضاف لمعموله: إضافة لفظية غالبا.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-4",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كتاب الطالب؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "إضافة معنوية",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كتاب الطالب: إضافة معنوية.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-5",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضاف إليه في النوعين؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضاف إليه في النوعين: مجرور.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-6",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المعنوية؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إضافة محضة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المعنوية: إضافة محضة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-7",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اللفظية؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "غير محضة",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اللفظية: غير محضة.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-8",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: باب خشب؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يقدر بمن",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "باب خشب: يقدر بمن.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-9",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: تحديد النوع؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يبدأ بنوع المضاف",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع: يبدأ بنوع المضاف.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majrourat-genitive-types-ex-10",
+      "lessonId": "majrourat-genitive-types",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ليس كل وصف مضاف؟",
+      "skillIds": [
+        "majrourat.genitive-types"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إضافة لفظية دون شروط",
+          "feedback": "صحيح؛ يوافق العامل والحالة."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع العامل ونوع الاسم وعلامة الجر."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ليس كل وصف مضاف: إضافة لفظية دون شروط.",
+      "hint": "حدد العامل ثم نوع الاسم قبل العلامة.",
+      "referenceIds": [
+        "ref-general-majrourat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-majrourat-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

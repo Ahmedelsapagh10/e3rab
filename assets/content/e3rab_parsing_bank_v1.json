@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1.5.0",
+  "contentVersion": "1.7.0",
   "locale": "ar",
   "reviewStatus": "aiAssistedDraft",
   "samples": [
@@ -14,35 +14,25 @@
       "targetText": "العلم",
       "steps": [
         {
-          "id": "sentence-type",
-          "title": "نوع الجملة",
-          "prompt": "ما نوع الجملة؟",
-          "options": [
-            {"id": "nominal", "text": "جملة اسمية", "feedback": "بدأت باسم، وهذا هو الدليل الأول."},
-            {"id": "verbal", "text": "جملة فعلية", "feedback": "لا يوجد فعل بدأت به الجملة."}
-          ],
-          "correctOptionId": "nominal",
-          "explanation": "الجملة اسمية لأنها بدأت بالاسم «العلم»."
-        },
-        {
-          "id": "anchor",
-          "title": "الركن الأساسي",
-          "prompt": "ما طرف الإسناد الأول؟",
-          "options": [
-            {"id": "science", "text": "العلم", "feedback": "هو الاسم المتحدث عنه."},
-            {"id": "light", "text": "نور", "feedback": "هذه المعلومة المسندة إلى العلم."}
-          ],
-          "correctOptionId": "science",
-          "explanation": "«العلم» هو المبتدأ الذي نُسند إليه الخبر."
-        },
-        {
           "id": "word-type",
           "title": "نوع الكلمة",
           "prompt": "ما نوع كلمة «العلم»؟",
           "options": [
-            {"id": "noun", "text": "اسم", "feedback": "تقبل «أل» وتدل على معنى بلا زمن."},
-            {"id": "verb", "text": "فعل", "feedback": "لا تدل الكلمة على حدث وزمن."},
-            {"id": "particle", "text": "حرف", "feedback": "لها معنى مستقل في هذا السياق."}
+            {
+              "id": "noun",
+              "text": "اسم",
+              "feedback": "تقبل «أل» وتدل على معنى بلا زمن."
+            },
+            {
+              "id": "verb",
+              "text": "فعل",
+              "feedback": "لا تدل الكلمة على حدث وزمن."
+            },
+            {
+              "id": "particle",
+              "text": "حرف",
+              "feedback": "لها معنى مستقل في هذا السياق."
+            }
           ],
           "correctOptionId": "noun",
           "explanation": "«العلم» اسم معرف بـ«أل»."
@@ -52,19 +42,54 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما موقع «العلم»؟",
           "options": [
-            {"id": "subject", "text": "مبتدأ", "feedback": "هو الاسم المتحدث عنه في أول الجملة."},
-            {"id": "predicate", "text": "خبر", "feedback": "الخبر هنا هو «نور»."}
+            {
+              "id": "subject",
+              "text": "مبتدأ",
+              "feedback": "هو الاسم المتحدث عنه في أول الجملة."
+            },
+            {
+              "id": "predicate",
+              "text": "خبر",
+              "feedback": "الخبر هنا هو «نور»."
+            }
           ],
           "correctOptionId": "subject",
           "explanation": "وقع «العلم» مبتدأ في الجملة الاسمية."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل للكلمة «العلم»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "الابتداء",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "لا عامل لها في السياق",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "العامل: الابتداء."
         },
         {
           "id": "state",
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة المبتدأ؟",
           "options": [
-            {"id": "nominative", "text": "مرفوع", "feedback": "الأصل في المبتدأ الرفع."},
-            {"id": "accusative", "text": "منصوب", "feedback": "لا يوجد ناسخ ينصبه هنا."}
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "الأصل في المبتدأ الرفع."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "لا يوجد ناسخ ينصبه هنا."
+            }
           ],
           "correctOptionId": "nominative",
           "explanation": "المبتدأ مرفوع."
@@ -74,8 +99,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة رفع «العلم»؟",
           "options": [
-            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "ظهرت الضمة على آخر الاسم."},
-            {"id": "waw", "text": "الواو", "feedback": "الاسم ليس جمع مذكر سالمًا ولا من الأسماء الخمسة."}
+            {
+              "id": "damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "ظهرت الضمة على آخر الاسم."
+            },
+            {
+              "id": "waw",
+              "text": "الواو",
+              "feedback": "الاسم ليس جمع مذكر سالمًا ولا من الأسماء الخمسة."
+            }
           ],
           "correctOptionId": "damma",
           "explanation": "علامة رفعه الضمة الظاهرة على آخره."
@@ -85,11 +118,38 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة الضمة؟",
           "options": [
-            {"id": "singular", "text": "لأنه اسم مفرد صحيح الآخر", "feedback": "وهذا موضع الضمة الأصلية."},
-            {"id": "dual", "text": "لأنه مثنى", "feedback": "المثنى يرفع بالألف، والكلمة ليست مثنى."}
+            {
+              "id": "singular",
+              "text": "لأنه اسم مفرد صحيح الآخر",
+              "feedback": "وهذا موضع الضمة الأصلية."
+            },
+            {
+              "id": "dual",
+              "text": "لأنه مثنى",
+              "feedback": "المثنى يرفع بالألف، والكلمة ليست مثنى."
+            }
           ],
           "correctOptionId": "singular",
           "explanation": "الاسم المفرد الصحيح الآخر يرفع بالضمة الأصلية."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما الموقع داخل الجملة للكلمة «العلم»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "طرف الإسناد الأول في الجملة الاسمية",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "خارج تركيب الجملة",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "الموقع داخل الجملة: طرف الإسناد الأول في الجملة الاسمية."
         }
       ],
       "parsedWords": [
@@ -103,7 +163,9 @@
           "signReason": "اسم مفرد صحيح الآخر",
           "explanation": "اسم بدأت به الجملة وأسند إليه الخبر.",
           "startIndex": 0,
-          "endIndex": 5
+          "endIndex": 5,
+          "grammaticalAgent": "الابتداء",
+          "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
         },
         {
           "word": "نور",
@@ -115,14 +177,18 @@
           "signReason": "اسم مفرد صحيح الآخر",
           "explanation": "أتم معنى الجملة مع المبتدأ.",
           "startIndex": 6,
-          "endIndex": 9
+          "endIndex": 9,
+          "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+          "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية"
         }
       ],
       "summary": "العلم: مبتدأ مرفوع وعلامة رفعه الضمة الظاهرة؛ نور: خبر مرفوع وعلامة رفعه الضمة الظاهرة.",
       "alternatives": [],
       "relatedLessonId": "nominal-sentence",
-      "referenceIds": ["ref-moe-primary6"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "aiAssistedDraft",
       "reviewedBy": null,
       "reviewedAt": null
@@ -137,34 +203,20 @@
       "targetText": "في الفصل",
       "steps": [
         {
-          "id": "sentence-type",
-          "title": "نوع الجملة",
-          "prompt": "ما نوع التركيب الكامل؟",
-          "options": [
-            {"id": "nominal", "text": "جملة اسمية", "feedback": "شبه الجملة خبر، و«طلاب» مبتدأ مؤخر."},
-            {"id": "verbal", "text": "جملة فعلية", "feedback": "لا يوجد فعل في التركيب."}
-          ],
-          "correctOptionId": "nominal",
-          "explanation": "الجملة اسمية تقدم فيها الخبر شبه الجملة."
-        },
-        {
-          "id": "anchor",
-          "title": "الركن الأساسي",
-          "prompt": "أين الاسم المسند إليه؟",
-          "options": [
-            {"id": "students", "text": "طلاب", "feedback": "هو المبتدأ المؤخر."},
-            {"id": "class", "text": "الفصل", "feedback": "اسم مجرور داخل شبه الجملة."}
-          ],
-          "correctOptionId": "students",
-          "explanation": "«طلاب» مبتدأ مؤخر، وشبه الجملة قبله خبر مقدم."
-        },
-        {
           "id": "word-type",
           "title": "نوع الكلمة",
           "prompt": "ما نوع «في»؟",
           "options": [
-            {"id": "particle", "text": "حرف جر", "feedback": "يدخل على الاسم فيجره."},
-            {"id": "noun", "text": "اسم", "feedback": "لا يقبل علامات الاسم هنا."}
+            {
+              "id": "particle",
+              "text": "حرف جر",
+              "feedback": "يدخل على الاسم فيجره."
+            },
+            {
+              "id": "noun",
+              "text": "اسم",
+              "feedback": "لا يقبل علامات الاسم هنا."
+            }
           ],
           "correctOptionId": "particle",
           "explanation": "«في» حرف جر مبني."
@@ -174,19 +226,54 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «في الفصل» في الجملة؟",
           "options": [
-            {"id": "fronted-predicate", "text": "خبر مقدم", "feedback": "أخبر عن وجود الطلاب في الفصل."},
-            {"id": "delayed-subject", "text": "مبتدأ مؤخر", "feedback": "المبتدأ المؤخر هو «طلاب»."}
+            {
+              "id": "fronted-predicate",
+              "text": "خبر مقدم",
+              "feedback": "أخبر عن وجود الطلاب في الفصل."
+            },
+            {
+              "id": "delayed-subject",
+              "text": "مبتدأ مؤخر",
+              "feedback": "المبتدأ المؤخر هو «طلاب»."
+            }
           ],
           "correctOptionId": "fronted-predicate",
           "explanation": "شبه الجملة متعلق بمحذوف في محل رفع خبر مقدم."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل للكلمة «في الفصل»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "العامل النحوي الذي يقتضيه الموقع",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "لا عامل لها في السياق",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "العامل: العامل النحوي الذي يقتضيه الموقع."
         },
         {
           "id": "state",
           "title": "الحالة الإعرابية",
           "prompt": "ما محل شبه الجملة؟",
           "options": [
-            {"id": "nominative", "text": "في محل رفع", "feedback": "لأنه وقع خبرًا."},
-            {"id": "genitive", "text": "في محل جر", "feedback": "«الفصل» وحده مجرور، أما شبه الجملة فخبر."}
+            {
+              "id": "nominative",
+              "text": "في محل رفع",
+              "feedback": "لأنه وقع خبرًا."
+            },
+            {
+              "id": "genitive",
+              "text": "في محل جر",
+              "feedback": "«الفصل» وحده مجرور، أما شبه الجملة فخبر."
+            }
           ],
           "correctOptionId": "nominative",
           "explanation": "الخبر في محل رفع، وإن كان الاسم داخله مجرورًا."
@@ -196,8 +283,16 @@
           "title": "علامة الإعراب",
           "prompt": "كيف نعبر عن علامة شبه الجملة؟",
           "options": [
-            {"id": "local", "text": "محل رفع بلا علامة ظاهرة", "feedback": "شبه الجملة لا تظهر عليه حركة الخبر."},
-            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "لا تظهر الضمة على تركيب جار ومجرور."}
+            {
+              "id": "local",
+              "text": "محل رفع بلا علامة ظاهرة",
+              "feedback": "شبه الجملة لا تظهر عليه حركة الخبر."
+            },
+            {
+              "id": "damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "لا تظهر الضمة على تركيب جار ومجرور."
+            }
           ],
           "correctOptionId": "local",
           "explanation": "نقول: شبه الجملة في محل رفع خبر مقدم."
@@ -207,11 +302,38 @@
           "title": "سبب الحكم",
           "prompt": "لماذا تقدم الخبر؟",
           "options": [
-            {"id": "indefinite", "text": "لأن المبتدأ نكرة وسوّغ تقديم شبه الجملة الابتداء به", "feedback": "هذا هو السياق المألوف للتقديم."},
-            {"id": "verb", "text": "لأن الجملة بدأت بفعل", "feedback": "لا فعل في الجملة."}
+            {
+              "id": "indefinite",
+              "text": "لأن المبتدأ نكرة وسوّغ تقديم شبه الجملة الابتداء به",
+              "feedback": "هذا هو السياق المألوف للتقديم."
+            },
+            {
+              "id": "verb",
+              "text": "لأن الجملة بدأت بفعل",
+              "feedback": "لا فعل في الجملة."
+            }
           ],
           "correctOptionId": "indefinite",
           "explanation": "تقدم شبه الجملة، وتأخر المبتدأ النكرة «طلاب»."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما الموقع داخل الجملة للكلمة «في الفصل»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "طرف الإسناد المكمل في الجملة الاسمية",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "خارج تركيب الجملة",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "الموقع داخل الجملة: طرف الإسناد المكمل في الجملة الاسمية."
         }
       ],
       "parsedWords": [
@@ -225,7 +347,9 @@
           "signReason": "شبه الجملة تعلق بمحذوف خبر",
           "explanation": "يجوز التعبير بأنه جار ومجرور متعلقان بمحذوف خبر مقدم.",
           "startIndex": 0,
-          "endIndex": 8
+          "endIndex": 8,
+          "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+          "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية"
         },
         {
           "word": "طلاب",
@@ -237,17 +361,27 @@
           "signReason": "جمع تكسير",
           "explanation": "الاسم المسند إليه وقد تأخر عن الخبر.",
           "startIndex": 9,
-          "endIndex": 13
+          "endIndex": 13,
+          "grammaticalAgent": "الابتداء",
+          "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
         }
       ],
       "summary": "في: حرف جر؛ الفصل: اسم مجرور؛ وشبه الجملة متعلق بمحذوف خبر مقدم، وطلاب مبتدأ مؤخر مرفوع.",
       "alternatives": [
-        {"title": "تعبير بالمحل", "explanation": "شبه الجملة «في الفصل» في محل رفع خبر مقدم."},
-        {"title": "تعبير بالتعلّق", "explanation": "الجار والمجرور متعلقان بمحذوف تقديره «كائن» خبر مقدم."}
+        {
+          "title": "تعبير بالمحل",
+          "explanation": "شبه الجملة «في الفصل» في محل رفع خبر مقدم."
+        },
+        {
+          "title": "تعبير بالتعلّق",
+          "explanation": "الجار والمجرور متعلقان بمحذوف تقديره «كائن» خبر مقدم."
+        }
       ],
       "relatedLessonId": "nominal-sentence",
-      "referenceIds": ["ref-moe-primary6"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-moe-primary6"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "aiAssistedDraft",
       "reviewedBy": null,
       "reviewedAt": null
@@ -262,34 +396,20 @@
       "targetText": "يكتب درسه",
       "steps": [
         {
-          "id": "sentence-type",
-          "title": "نوع الجملة الكبرى",
-          "prompt": "ما نوع الجملة الكبرى؟",
-          "options": [
-            {"id": "nominal", "text": "اسمية", "feedback": "بدأت باسم هو «الطالب»."},
-            {"id": "verbal", "text": "فعلية", "feedback": "الجملة الكبرى لم تبدأ بالفعل."}
-          ],
-          "correctOptionId": "nominal",
-          "explanation": "الجملة الكبرى اسمية، وخبرها جملة فعلية."
-        },
-        {
-          "id": "anchor",
-          "title": "الركن الأساسي",
-          "prompt": "ما المبتدأ؟",
-          "options": [
-            {"id": "student", "text": "الطالب", "feedback": "هو الاسم المتحدث عنه."},
-            {"id": "writes", "text": "يكتب", "feedback": "هذا فعل الجملة الواقعة خبرًا."}
-          ],
-          "correctOptionId": "student",
-          "explanation": "«الطالب» مبتدأ، والجملة بعده تخبر عنه."
-        },
-        {
           "id": "word-type",
           "title": "نوع الكلمة",
           "prompt": "ما نوع «يكتب»؟",
           "options": [
-            {"id": "present-verb", "text": "فعل مضارع", "feedback": "يدل على حدث يقع في الزمن الحاضر أو المستقبل."},
-            {"id": "noun", "text": "اسم", "feedback": "تسبق الكلمة بزمن وتقبل علامات الفعل المضارع."}
+            {
+              "id": "present-verb",
+              "text": "فعل مضارع",
+              "feedback": "يدل على حدث يقع في الزمن الحاضر أو المستقبل."
+            },
+            {
+              "id": "noun",
+              "text": "اسم",
+              "feedback": "تسبق الكلمة بزمن وتقبل علامات الفعل المضارع."
+            }
           ],
           "correctOptionId": "present-verb",
           "explanation": "«يكتب» فعل مضارع."
@@ -299,19 +419,54 @@
           "title": "موقع الجملة الصغرى",
           "prompt": "ما موقع «يكتب درسه»؟",
           "options": [
-            {"id": "predicate-clause", "text": "جملة فعلية في محل رفع خبر", "feedback": "أتمت الفائدة مع المبتدأ."},
-            {"id": "no-position", "text": "لا محل لها", "feedback": "الجملة هنا وقعت خبرًا لمبتدأ."}
+            {
+              "id": "predicate-clause",
+              "text": "جملة فعلية في محل رفع خبر",
+              "feedback": "أتمت الفائدة مع المبتدأ."
+            },
+            {
+              "id": "no-position",
+              "text": "لا محل لها",
+              "feedback": "الجملة هنا وقعت خبرًا لمبتدأ."
+            }
           ],
           "correctOptionId": "predicate-clause",
           "explanation": "الجملة الفعلية وقعت خبرًا للمبتدأ «الطالب»."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل للكلمة «يكتب درسه»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "العامل النحوي الذي يقتضيه الموقع",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "لا عامل لها في السياق",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "العامل: العامل النحوي الذي يقتضيه الموقع."
         },
         {
           "id": "state",
           "title": "حالة الفعل",
           "prompt": "ما حالة «يكتب»؟",
           "options": [
-            {"id": "nominative", "text": "مرفوع", "feedback": "لم يسبقه ناصب ولا جازم."},
-            {"id": "accusative", "text": "منصوب", "feedback": "لا توجد أداة نصب قبله."}
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "لم يسبقه ناصب ولا جازم."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "لا توجد أداة نصب قبله."
+            }
           ],
           "correctOptionId": "nominative",
           "explanation": "الفعل المضارع مرفوع لتجرده من الناصب والجازم."
@@ -321,8 +476,16 @@
           "title": "علامة الفعل",
           "prompt": "ما علامة رفع «يكتب»؟",
           "options": [
-            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "الفعل صحيح الآخر ولم يتصل به ما يغير العلامة."},
-            {"id": "nun", "text": "ثبوت النون", "feedback": "ليس من الأفعال الخمسة هنا."}
+            {
+              "id": "damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "الفعل صحيح الآخر ولم يتصل به ما يغير العلامة."
+            },
+            {
+              "id": "nun",
+              "text": "ثبوت النون",
+              "feedback": "ليس من الأفعال الخمسة هنا."
+            }
           ],
           "correctOptionId": "damma",
           "explanation": "علامة رفعه الضمة الظاهرة."
@@ -332,11 +495,38 @@
           "title": "الرابط والسبب",
           "prompt": "ما الرابط بين جملة الخبر والمبتدأ؟",
           "options": [
-            {"id": "hidden-pronoun", "text": "الضمير المستتر «هو» فاعل يكتب", "feedback": "يعود الضمير على الطالب ويربط الخبر به."},
-            {"id": "lesson-pronoun", "text": "الهاء في «درسه» فقط", "feedback": "الهاء تعود عليه، لكن العمدة في الإسناد فاعل «يكتب» المستتر."}
+            {
+              "id": "hidden-pronoun",
+              "text": "الضمير المستتر «هو» فاعل يكتب",
+              "feedback": "يعود الضمير على الطالب ويربط الخبر به."
+            },
+            {
+              "id": "lesson-pronoun",
+              "text": "الهاء في «درسه» فقط",
+              "feedback": "الهاء تعود عليه، لكن العمدة في الإسناد فاعل «يكتب» المستتر."
+            }
           ],
           "correctOptionId": "hidden-pronoun",
           "explanation": "فاعل «يكتب» ضمير مستتر تقديره هو يعود على المبتدأ."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما الموقع داخل الجملة للكلمة «يكتب درسه»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "طرف الإسناد المكمل في الجملة الاسمية",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "خارج تركيب الجملة",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "الموقع داخل الجملة: طرف الإسناد المكمل في الجملة الاسمية."
         }
       ],
       "parsedWords": [
@@ -350,14 +540,18 @@
           "signReason": "لم يسبقه ناصب ولا جازم",
           "explanation": "فاعله ضمير مستتر تقديره هو يعود على الطالب.",
           "startIndex": 7,
-          "endIndex": 11
+          "endIndex": 11,
+          "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+          "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية"
         }
       ],
       "summary": "الطالب مبتدأ مرفوع، وجملة «يكتب درسه» في محل رفع خبر، والرابط ضمير مستتر تقديره هو.",
       "alternatives": [],
       "relatedLessonId": "sentences-with-syntactic-position",
-      "referenceIds": ["ref-moe-secondary-model"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-moe-secondary-model"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "aiAssistedDraft",
       "reviewedBy": null,
       "reviewedAt": null
@@ -372,34 +566,20 @@
       "targetText": "تنجح",
       "steps": [
         {
-          "id": "sentence-type",
-          "title": "نوع التركيب",
-          "prompt": "ما نوع التركيب في بدايته؟",
-          "options": [
-            {"id": "request", "text": "أسلوب نهي", "feedback": "بدأ بـ«لا» الناهية ثم فعل مضارع مجزوم."},
-            {"id": "negation", "text": "نفي مجرد", "feedback": "المقصود طلب الكف عن الإهمال، لا الإخبار بنفيه."}
-          ],
-          "correctOptionId": "request",
-          "explanation": "«لا تهملْ» نهي يتضمن طلب الكف عن الإهمال."
-        },
-        {
-          "id": "anchor",
-          "title": "الطلب والنتيجة",
-          "prompt": "ما النتيجة المترتبة على النهي؟",
-          "options": [
-            {"id": "success", "text": "تنجحْ", "feedback": "النجاح نتيجة الامتثال للنهي."},
-            {"id": "homework", "text": "واجبك", "feedback": "هذا مفعول به للفعل «تهمل»، وليس النتيجة."}
-          ],
-          "correctOptionId": "success",
-          "explanation": "الفعل «تنجحْ» يبين النتيجة المتوقعة إذا لم يقع الإهمال."
-        },
-        {
           "id": "word-type",
           "title": "نوع الكلمة",
           "prompt": "ما نوع «تنجح»؟",
           "options": [
-            {"id": "present", "text": "فعل مضارع", "feedback": "يقبل أدوات النصب والجزم ويدل على الحال أو الاستقبال."},
-            {"id": "command", "text": "فعل أمر", "feedback": "الأمر في المعنى السابق، أما «تنجح» فمضارع."}
+            {
+              "id": "present",
+              "text": "فعل مضارع",
+              "feedback": "يقبل أدوات النصب والجزم ويدل على الحال أو الاستقبال."
+            },
+            {
+              "id": "command",
+              "text": "فعل أمر",
+              "feedback": "الأمر في المعنى السابق، أما «تنجح» فمضارع."
+            }
           ],
           "correctOptionId": "present",
           "explanation": "«تنجح» فعل مضارع صحيح الآخر."
@@ -409,19 +589,54 @@
           "title": "الموقع النحوي",
           "prompt": "ما وظيفة «تنجحْ» في التركيب؟",
           "options": [
-            {"id": "answer", "text": "جواب الطلب", "feedback": "وقع نتيجة للنهي وصح تقدير الشرط."},
-            {"id": "adjective", "text": "صفة", "feedback": "لم يقع بعد اسم نكرة ليصفه."}
+            {
+              "id": "answer",
+              "text": "جواب الطلب",
+              "feedback": "وقع نتيجة للنهي وصح تقدير الشرط."
+            },
+            {
+              "id": "adjective",
+              "text": "صفة",
+              "feedback": "لم يقع بعد اسم نكرة ليصفه."
+            }
           ],
           "correctOptionId": "answer",
           "explanation": "«تنجحْ» جواب للنهي «لا تهملْ»."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل للكلمة «تنجح»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "الطلب بالنهي «لا تهملْ»",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "لا عامل لها في السياق",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "العامل: الطلب بالنهي «لا تهملْ»."
         },
         {
           "id": "state",
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «تنجحْ»؟",
           "options": [
-            {"id": "jussive", "text": "مجزوم", "feedback": "جُزم لوقوعه جوابًا للطلب مع تحقق الشرط."},
-            {"id": "nominative", "text": "مرفوع", "feedback": "علاقة الطلب والنتيجة نقلته من الرفع إلى الجزم."}
+            {
+              "id": "jussive",
+              "text": "مجزوم",
+              "feedback": "جُزم لوقوعه جوابًا للطلب مع تحقق الشرط."
+            },
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "علاقة الطلب والنتيجة نقلته من الرفع إلى الجزم."
+            }
           ],
           "correctOptionId": "jussive",
           "explanation": "المضارع الواقع جوابًا للطلب يُجزم إذا ترتب معناه على الطلب."
@@ -431,8 +646,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة جزم «تنجحْ»؟",
           "options": [
-            {"id": "sukoon", "text": "السكون الظاهر", "feedback": "الفعل صحيح الآخر، فعلامة جزمه السكون."},
-            {"id": "delete-nun", "text": "حذف النون", "feedback": "حذف النون يخص الأفعال الخمسة."}
+            {
+              "id": "sukoon",
+              "text": "السكون الظاهر",
+              "feedback": "الفعل صحيح الآخر، فعلامة جزمه السكون."
+            },
+            {
+              "id": "delete-nun",
+              "text": "حذف النون",
+              "feedback": "حذف النون يخص الأفعال الخمسة."
+            }
           ],
           "correctOptionId": "sukoon",
           "explanation": "علامة جزم المضارع الصحيح الآخر السكون."
@@ -442,11 +665,38 @@
           "title": "السبب ومحل الجملة",
           "prompt": "أي تعليل كامل هو الصحيح؟",
           "options": [
-            {"id": "conditional", "text": "النجاح نتيجة ترك الإهمال، وجملة الجواب لا محل لها", "feedback": "اكتمل السبب مع بيان محل جملة الجواب."},
-            {"id": "after-verb", "text": "جُزم لمجرد مجيئه بعد فعل", "feedback": "المجاورة وحدها لا تكفي؛ لا بد من ترتب النتيجة وصحة معنى الشرط."}
+            {
+              "id": "conditional",
+              "text": "النجاح نتيجة ترك الإهمال، وجملة الجواب لا محل لها",
+              "feedback": "اكتمل السبب مع بيان محل جملة الجواب."
+            },
+            {
+              "id": "after-verb",
+              "text": "جُزم لمجرد مجيئه بعد فعل",
+              "feedback": "المجاورة وحدها لا تكفي؛ لا بد من ترتب النتيجة وصحة معنى الشرط."
+            }
           ],
           "correctOptionId": "conditional",
           "explanation": "يصح التقدير: إن لا تهملْ واجبك تنجحْ، وجملة جواب الطلب لا محل لها من الإعراب."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما الموقع داخل الجملة للكلمة «تنجح»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "جملة جواب الطلب لا محل لها من الإعراب",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "خارج تركيب الجملة",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "الموقع داخل الجملة: جملة جواب الطلب لا محل لها من الإعراب."
         }
       ],
       "parsedWords": [
@@ -467,11 +717,16 @@
       ],
       "summary": "لا: ناهية جازمة؛ تهمل: مضارع مجزوم؛ واجبك: مفعول به؛ تنجح: مضارع مجزوم في جواب الطلب بالسكون، وجملة الجواب لا محل لها.",
       "alternatives": [
-        {"title": "اختبار الشرط", "explanation": "يصح تحويل المعنى إلى: إن لا تهملْ واجبك تنجحْ."}
+        {
+          "title": "اختبار الشرط",
+          "explanation": "يصح تحويل المعنى إلى: إن لا تهملْ واجبك تنجحْ."
+        }
       ],
       "relatedLessonId": "jussive-answer-request-v1",
-      "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-moe-secondary2-week6-2025-2026"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -486,34 +741,20 @@
       "targetText": "هذا",
       "steps": [
         {
-          "id": "sentence-type",
-          "title": "نوع الجملة",
-          "prompt": "ما نوع الجملة؟",
-          "options": [
-            {"id": "nominal", "text": "جملة اسمية", "feedback": "بدأت باسم الإشارة «هذا»."},
-            {"id": "verbal", "text": "جملة فعلية", "feedback": "لا يوجد فعل بدأت به الجملة."}
-          ],
-          "correctOptionId": "nominal",
-          "explanation": "الجملة اسمية لأنها بدأت باسم."
-        },
-        {
-          "id": "anchor",
-          "title": "الركن الأساسي",
-          "prompt": "عمّن نتحدث في الجملة؟",
-          "options": [
-            {"id": "this", "text": "هذا", "feedback": "هو المشار إليه الذي أخبرنا عنه."},
-            {"id": "student", "text": "طالب", "feedback": "هذه المعلومة التي أتمت الفائدة."}
-          ],
-          "correctOptionId": "this",
-          "explanation": "«هذا» هو المسند إليه، و«طالب» خبر عنه."
-        },
-        {
           "id": "word-type",
           "title": "نوع الكلمة",
           "prompt": "ما نوع «هذا»؟",
           "options": [
-            {"id": "demonstrative", "text": "اسم إشارة", "feedback": "صحيح؛ يستعمل للإشارة إلى مفرد مذكر قريب."},
-            {"id": "particle", "text": "حرف", "feedback": "«هذا» اسم يشغل موقعًا نحويًا في الجملة."}
+            {
+              "id": "demonstrative",
+              "text": "اسم إشارة",
+              "feedback": "صحيح؛ يستعمل للإشارة إلى مفرد مذكر قريب."
+            },
+            {
+              "id": "particle",
+              "text": "حرف",
+              "feedback": "«هذا» اسم يشغل موقعًا نحويًا في الجملة."
+            }
           ],
           "correctOptionId": "demonstrative",
           "explanation": "«هذا» اسم إشارة للمفرد المذكر القريب."
@@ -523,19 +764,54 @@
           "title": "الموقع النحوي",
           "prompt": "ما وظيفة «هذا»؟",
           "options": [
-            {"id": "subject", "text": "مبتدأ", "feedback": "هو الاسم الذي بدأنا به وأسندنا إليه الخبر."},
-            {"id": "predicate", "text": "خبر", "feedback": "الخبر هو «طالب» لأنه أتم الفائدة."}
+            {
+              "id": "subject",
+              "text": "مبتدأ",
+              "feedback": "هو الاسم الذي بدأنا به وأسندنا إليه الخبر."
+            },
+            {
+              "id": "predicate",
+              "text": "خبر",
+              "feedback": "الخبر هو «طالب» لأنه أتم الفائدة."
+            }
           ],
           "correctOptionId": "subject",
           "explanation": "وقع اسم الإشارة مبتدأ."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل للكلمة «هذا»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "الابتداء",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "لا عامل لها في السياق",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "العامل: الابتداء."
         },
         {
           "id": "state",
           "title": "الحالة والمحل",
           "prompt": "كيف نعبر عن حالة «هذا»؟",
           "options": [
-            {"id": "local-nominative", "text": "في محل رفع", "feedback": "لأنه مبني وشغل موقع المبتدأ المرفوع."},
-            {"id": "visible-damma", "text": "مرفوع بالضمة الظاهرة", "feedback": "اسم الإشارة مبني فلا تظهر عليه ضمة إعراب."}
+            {
+              "id": "local-nominative",
+              "text": "في محل رفع",
+              "feedback": "لأنه مبني وشغل موقع المبتدأ المرفوع."
+            },
+            {
+              "id": "visible-damma",
+              "text": "مرفوع بالضمة الظاهرة",
+              "feedback": "اسم الإشارة مبني فلا تظهر عليه ضمة إعراب."
+            }
           ],
           "correctOptionId": "local-nominative",
           "explanation": "نذكر المحل مع الاسم المبني: في محل رفع مبتدأ."
@@ -545,8 +821,16 @@
           "title": "علامة البناء",
           "prompt": "على ماذا بُني «هذا»؟",
           "options": [
-            {"id": "sukoon", "text": "على السكون", "feedback": "هذا هو التعبير المعتمد في إعراب اسم الإشارة «هذا»."},
-            {"id": "damma", "text": "على الضم", "feedback": "لا نعرب «هذا» بالضمة في هذا الموضع."}
+            {
+              "id": "sukoon",
+              "text": "على السكون",
+              "feedback": "هذا هو التعبير المعتمد في إعراب اسم الإشارة «هذا»."
+            },
+            {
+              "id": "damma",
+              "text": "على الضم",
+              "feedback": "لا نعرب «هذا» بالضمة في هذا الموضع."
+            }
           ],
           "correctOptionId": "sukoon",
           "explanation": "«هذا» اسم إشارة مبني على السكون."
@@ -556,11 +840,38 @@
           "title": "سبب الحكم",
           "prompt": "لماذا جمع الإعراب بين البناء ومحل الرفع؟",
           "options": [
-            {"id": "built-with-role", "text": "لأنه اسم مبني شغل وظيفة المبتدأ", "feedback": "صحيح؛ البناء يصف آخر الكلمة، والمحل يصف وظيفتها."},
-            {"id": "no-role", "text": "لأن كل مبني لا محل له", "feedback": "قد يكون للاسم المبني محل بحسب وظيفته."}
+            {
+              "id": "built-with-role",
+              "text": "لأنه اسم مبني شغل وظيفة المبتدأ",
+              "feedback": "صحيح؛ البناء يصف آخر الكلمة، والمحل يصف وظيفتها."
+            },
+            {
+              "id": "no-role",
+              "text": "لأن كل مبني لا محل له",
+              "feedback": "قد يكون للاسم المبني محل بحسب وظيفته."
+            }
           ],
           "correctOptionId": "built-with-role",
           "explanation": "نقول: اسم إشارة مبني على السكون في محل رفع مبتدأ."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما الموقع داخل الجملة للكلمة «هذا»؟",
+          "options": [
+            {
+              "id": "correct",
+              "text": "الركن الأول في الجملة الاسمية",
+              "feedback": "صحيح؛ يوافق التحليل الكامل في السياق."
+            },
+            {
+              "id": "wrong",
+              "text": "خارج تركيب الجملة",
+              "feedback": "راجع سياق الجملة والعامل قبل الاختيار."
+            }
+          ],
+          "correctOptionId": "correct",
+          "explanation": "الموقع داخل الجملة: الركن الأول في الجملة الاسمية."
         }
       ],
       "parsedWords": [
@@ -595,11 +906,16 @@
       ],
       "summary": "هذا: اسم إشارة مبني على السكون في محل رفع مبتدأ؛ طالب: خبر مرفوع بالضمة الظاهرة.",
       "alternatives": [
-        {"title": "البناء والمحل", "explanation": "البناء يصف ثبات آخر الكلمة، والمحل يبين وظيفتها في الجملة."}
+        {
+          "title": "البناء والمحل",
+          "explanation": "البناء يصف ثبات آخر الكلمة، والمحل يبين وظيفتها في الجملة."
+        }
       ],
       "relatedLessonId": "inflection-building-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -618,8 +934,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «الفتى»؟",
           "options": [
-            {"id": "maqsur-noun", "text": "اسم معرب مقصور", "feedback": "صحيح؛ آخره ألف لازمة قبلها فتحة."},
-            {"id": "built-noun", "text": "اسم مبني", "feedback": "عدم ظهور الحركة لا يعني أن الاسم مبني."}
+            {
+              "id": "maqsur-noun",
+              "text": "اسم معرب مقصور",
+              "feedback": "صحيح؛ آخره ألف لازمة قبلها فتحة."
+            },
+            {
+              "id": "built-noun",
+              "text": "اسم مبني",
+              "feedback": "عدم ظهور الحركة لا يعني أن الاسم مبني."
+            }
           ],
           "correctOptionId": "maqsur-noun",
           "explanation": "«الفتى» اسم مقصور معرب؛ تنتهي صورته بألف لازمة."
@@ -629,8 +953,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «الفتى»؟",
           "options": [
-            {"id": "subject", "text": "فاعل", "feedback": "هو الذي أسند إليه فعل المجيء."},
-            {"id": "object", "text": "مفعول به", "feedback": "الفعل «جاء» لازم، و«الفتى» هو القائم بالفعل."}
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "هو الذي أسند إليه فعل المجيء."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "الفعل «جاء» لازم، و«الفتى» هو القائم بالفعل."
+            }
           ],
           "correctOptionId": "subject",
           "explanation": "وقع «الفتى» فاعلًا للفعل «جاء»."
@@ -640,8 +972,16 @@
           "title": "العامل",
           "prompt": "ما العامل في رفع «الفتى»؟",
           "options": [
-            {"id": "verb", "text": "الفعل «جاء»", "feedback": "صحيح؛ الفعل يرفع فاعله."},
-            {"id": "alif", "text": "الألف في آخر الكلمة", "feedback": "الألف شكل صرفي وليست عاملًا نحويًا."}
+            {
+              "id": "verb",
+              "text": "الفعل «جاء»",
+              "feedback": "صحيح؛ الفعل يرفع فاعله."
+            },
+            {
+              "id": "alif",
+              "text": "الألف في آخر الكلمة",
+              "feedback": "الألف شكل صرفي وليست عاملًا نحويًا."
+            }
           ],
           "correctOptionId": "verb",
           "explanation": "العامل هو الفعل «جاء» الذي طلب فاعلًا مرفوعًا."
@@ -651,8 +991,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «الفتى»؟",
           "options": [
-            {"id": "nominative", "text": "مرفوع", "feedback": "صحيح؛ الفاعل مرفوع."},
-            {"id": "accusative", "text": "منصوب", "feedback": "النصب للمفعول به، وليس للفاعل هنا."}
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "صحيح؛ الفاعل مرفوع."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "النصب للمفعول به، وليس للفاعل هنا."
+            }
           ],
           "correctOptionId": "nominative",
           "explanation": "الفاعل مرفوع."
@@ -662,8 +1010,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة رفع «الفتى»؟",
           "options": [
-            {"id": "estimated-damma", "text": "الضمة المقدّرة على الألف", "feedback": "صحيح؛ ثبتت الضمة حكمًا ولم تظهر."},
-            {"id": "visible-damma", "text": "الضمة الظاهرة", "feedback": "الألف لا تقبل ظهور الضمة عليها."}
+            {
+              "id": "estimated-damma",
+              "text": "الضمة المقدّرة على الألف",
+              "feedback": "صحيح؛ ثبتت الضمة حكمًا ولم تظهر."
+            },
+            {
+              "id": "visible-damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "الألف لا تقبل ظهور الضمة عليها."
+            }
           ],
           "correctOptionId": "estimated-damma",
           "explanation": "علامة الرفع ضمة مقدّرة على الألف."
@@ -673,8 +1029,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا لم تظهر الضمة؟",
           "options": [
-            {"id": "impossibility", "text": "للتعذر", "feedback": "صحيح؛ يتعذر نطق الحركة على الألف."},
-            {"id": "heaviness", "text": "للثقل", "feedback": "الثقل يستعمل مع الضمة والكسرة على ياء المنقوص."}
+            {
+              "id": "impossibility",
+              "text": "للتعذر",
+              "feedback": "صحيح؛ يتعذر نطق الحركة على الألف."
+            },
+            {
+              "id": "heaviness",
+              "text": "للثقل",
+              "feedback": "الثقل يستعمل مع الضمة والكسرة على ياء المنقوص."
+            }
           ],
           "correctOptionId": "impossibility",
           "explanation": "منع من ظهور الضمة التعذر؛ لأن الألف لا تتحرك."
@@ -684,8 +1048,16 @@
           "title": "الموقع داخل الجملة",
           "prompt": "أين تقع الكلمة في بناء الجملة؟",
           "options": [
-            {"id": "verbal-subject", "text": "فاعل داخل جملة فعلية", "feedback": "صحيح؛ الكلمة جزء مرفوع من الجملة الفعلية."},
-            {"id": "independent-clause", "text": "جملة مستقلة لها محل", "feedback": "«الفتى» كلمة مفردة وليست جملة."}
+            {
+              "id": "verbal-subject",
+              "text": "فاعل داخل جملة فعلية",
+              "feedback": "صحيح؛ الكلمة جزء مرفوع من الجملة الفعلية."
+            },
+            {
+              "id": "independent-clause",
+              "text": "جملة مستقلة لها محل",
+              "feedback": "«الفتى» كلمة مفردة وليست جملة."
+            }
           ],
           "correctOptionId": "verbal-subject",
           "explanation": "«الفتى» فاعل مفرد داخل الجملة الفعلية."
@@ -723,11 +1095,16 @@
       ],
       "summary": "جاء: فعل ماض مبني على الفتح؛ الفتى: فاعل مرفوع بضمة مقدّرة على الألف منع من ظهورها التعذر.",
       "alternatives": [
-        {"title": "لا تخلط التقدير بالبناء", "explanation": "«الفتى» معرب؛ الذي اختفى هو العلامة فقط، لا الحالة الإعرابية."}
+        {
+          "title": "لا تخلط التقدير بالبناء",
+          "explanation": "«الفتى» معرب؛ الذي اختفى هو العلامة فقط، لا الحالة الإعرابية."
+        }
       ],
       "relatedLessonId": "inflection-forms-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -746,8 +1123,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «القاضي» من حيث آخره؟",
           "options": [
-            {"id": "manqus", "text": "اسم منقوص", "feedback": "صحيح؛ آخره ياء لازمة مكسور ما قبلها."},
-            {"id": "maqsur", "text": "اسم مقصور", "feedback": "المقصور ينتهي بألف لازمة لا بياء."}
+            {
+              "id": "manqus",
+              "text": "اسم منقوص",
+              "feedback": "صحيح؛ آخره ياء لازمة مكسور ما قبلها."
+            },
+            {
+              "id": "maqsur",
+              "text": "اسم مقصور",
+              "feedback": "المقصور ينتهي بألف لازمة لا بياء."
+            }
           ],
           "correctOptionId": "manqus",
           "explanation": "«القاضي» اسم منقوص معرب."
@@ -757,8 +1142,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «القاضي»؟",
           "options": [
-            {"id": "object", "text": "مفعول به", "feedback": "وقع عليه فعل الرؤية."},
-            {"id": "subject", "text": "فاعل", "feedback": "الفاعل هو تاء المتكلم في «رأيت»."}
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "وقع عليه فعل الرؤية."
+            },
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "الفاعل هو تاء المتكلم في «رأيت»."
+            }
           ],
           "correctOptionId": "object",
           "explanation": "«القاضي» مفعول به للفعل المتعدي «رأيت»."
@@ -768,8 +1161,16 @@
           "title": "العامل",
           "prompt": "ما العامل في نصب «القاضي»؟",
           "options": [
-            {"id": "transitive-verb", "text": "الفعل المتعدي «رأيت»", "feedback": "صحيح؛ الفعل المتعدي ينصب مفعوله."},
-            {"id": "subject-pronoun", "text": "تاء الفاعل وحدها", "feedback": "التاء فاعل، والعامل في المفعول هو الفعل."}
+            {
+              "id": "transitive-verb",
+              "text": "الفعل المتعدي «رأيت»",
+              "feedback": "صحيح؛ الفعل المتعدي ينصب مفعوله."
+            },
+            {
+              "id": "subject-pronoun",
+              "text": "تاء الفاعل وحدها",
+              "feedback": "التاء فاعل، والعامل في المفعول هو الفعل."
+            }
           ],
           "correctOptionId": "transitive-verb",
           "explanation": "الفعل المتعدي «رأيت» هو العامل في نصب المفعول به."
@@ -779,8 +1180,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «القاضي»؟",
           "options": [
-            {"id": "accusative", "text": "منصوب", "feedback": "صحيح؛ لأنه مفعول به."},
-            {"id": "nominative", "text": "مرفوع", "feedback": "المفعول به لا يرفع في هذا التركيب."}
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "صحيح؛ لأنه مفعول به."
+            },
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "المفعول به لا يرفع في هذا التركيب."
+            }
           ],
           "correctOptionId": "accusative",
           "explanation": "المفعول به منصوب."
@@ -790,8 +1199,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة النصب؟",
           "options": [
-            {"id": "visible-fatha", "text": "الفتحة الظاهرة على الياء", "feedback": "صحيح؛ تظهر الفتحة لخفتها."},
-            {"id": "estimated-fatha", "text": "الفتحة المقدّرة", "feedback": "لا تقدّر الفتحة على الاسم المنقوص."}
+            {
+              "id": "visible-fatha",
+              "text": "الفتحة الظاهرة على الياء",
+              "feedback": "صحيح؛ تظهر الفتحة لخفتها."
+            },
+            {
+              "id": "estimated-fatha",
+              "text": "الفتحة المقدّرة",
+              "feedback": "لا تقدّر الفتحة على الاسم المنقوص."
+            }
           ],
           "correctOptionId": "visible-fatha",
           "explanation": "علامة نصبه الفتحة الظاهرة على الياء."
@@ -801,8 +1218,16 @@
           "title": "سبب ظهور العلامة",
           "prompt": "لماذا ظهرت الفتحة مع أن الاسم منقوص؟",
           "options": [
-            {"id": "light-fatha", "text": "لخفة الفتحة", "feedback": "صحيح؛ لا تثقل الفتحة على الياء كالضمة والكسرة."},
-            {"id": "became-regular", "text": "لأن الاسم صار صحيح الآخر", "feedback": "يبقى الاسم منقوصًا في حالة النصب."}
+            {
+              "id": "light-fatha",
+              "text": "لخفة الفتحة",
+              "feedback": "صحيح؛ لا تثقل الفتحة على الياء كالضمة والكسرة."
+            },
+            {
+              "id": "became-regular",
+              "text": "لأن الاسم صار صحيح الآخر",
+              "feedback": "يبقى الاسم منقوصًا في حالة النصب."
+            }
           ],
           "correctOptionId": "light-fatha",
           "explanation": "تظهر الفتحة على ياء المنقوص لخفتها."
@@ -812,8 +1237,16 @@
           "title": "الموقع داخل الجملة",
           "prompt": "ما موقع الكلمة في بناء الجملة؟",
           "options": [
-            {"id": "verbal-object", "text": "مفعول به داخل جملة فعلية", "feedback": "صحيح؛ هو الاسم الواقع عليه الفعل."},
-            {"id": "nominal-predicate", "text": "خبر في جملة اسمية", "feedback": "الجملة بدأت بفعل، وليست اسمية."}
+            {
+              "id": "verbal-object",
+              "text": "مفعول به داخل جملة فعلية",
+              "feedback": "صحيح؛ هو الاسم الواقع عليه الفعل."
+            },
+            {
+              "id": "nominal-predicate",
+              "text": "خبر في جملة اسمية",
+              "feedback": "الجملة بدأت بفعل، وليست اسمية."
+            }
           ],
           "correctOptionId": "verbal-object",
           "explanation": "«القاضي» مفعول به مفرد داخل الجملة الفعلية."
@@ -851,11 +1284,16 @@
       ],
       "summary": "رأيت: فعل ماض والتاء فاعل؛ القاضي: مفعول به منصوب بالفتحة الظاهرة على الياء لخفتها.",
       "alternatives": [
-        {"title": "قارن بحالة الرفع", "explanation": "في «جاء القاضي» تقدر الضمة للثقل، أما فتحة النصب فتظهر."}
+        {
+          "title": "قارن بحالة الرفع",
+          "explanation": "في «جاء القاضي» تقدر الضمة للثقل، أما فتحة النصب فتظهر."
+        }
       ],
       "relatedLessonId": "inflection-forms-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -874,8 +1312,16 @@
           "title": "نوع الكلمة",
           "prompt": "ممّ تتكون «كتابي»؟",
           "options": [
-            {"id": "noun-possessive", "text": "اسم معرب مضاف إلى ياء المتكلم", "feedback": "صحيح؛ «كتاب» اسم والياء ضمير مضاف إليه."},
-            {"id": "built-word", "text": "كلمة مبنية كلها", "feedback": "الاسم «كتاب» معرب، وإن كانت الياء ضميرًا مبنيًا."}
+            {
+              "id": "noun-possessive",
+              "text": "اسم معرب مضاف إلى ياء المتكلم",
+              "feedback": "صحيح؛ «كتاب» اسم والياء ضمير مضاف إليه."
+            },
+            {
+              "id": "built-word",
+              "text": "كلمة مبنية كلها",
+              "feedback": "الاسم «كتاب» معرب، وإن كانت الياء ضميرًا مبنيًا."
+            }
           ],
           "correctOptionId": "noun-possessive",
           "explanation": "«كتاب» اسم معرب أضيف إلى ياء المتكلم."
@@ -885,8 +1331,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «كتابي»؟",
           "options": [
-            {"id": "subject", "text": "مبتدأ", "feedback": "هو الاسم المتحدث عنه في أول الجملة."},
-            {"id": "predicate", "text": "خبر", "feedback": "الخبر الذي أتم المعنى هو «مفيد»."}
+            {
+              "id": "subject",
+              "text": "مبتدأ",
+              "feedback": "هو الاسم المتحدث عنه في أول الجملة."
+            },
+            {
+              "id": "predicate",
+              "text": "خبر",
+              "feedback": "الخبر الذي أتم المعنى هو «مفيد»."
+            }
           ],
           "correctOptionId": "subject",
           "explanation": "وقع الاسم المضاف إلى ياء المتكلم مبتدأ."
@@ -896,8 +1350,16 @@
           "title": "العامل",
           "prompt": "ما العامل في رفع «كتاب»؟",
           "options": [
-            {"id": "initial-position", "text": "الابتداء", "feedback": "صحيح؛ الابتداء عامل معنوي يرفع المبتدأ."},
-            {"id": "possessive-ya", "text": "ياء المتكلم", "feedback": "الياء تحدد الإضافة، ولا ترفع المبتدأ."}
+            {
+              "id": "initial-position",
+              "text": "الابتداء",
+              "feedback": "صحيح؛ الابتداء عامل معنوي يرفع المبتدأ."
+            },
+            {
+              "id": "possessive-ya",
+              "text": "ياء المتكلم",
+              "feedback": "الياء تحدد الإضافة، ولا ترفع المبتدأ."
+            }
           ],
           "correctOptionId": "initial-position",
           "explanation": "الابتداء هو العامل المعنوي في رفع المبتدأ."
@@ -907,8 +1369,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «كتاب»؟",
           "options": [
-            {"id": "nominative", "text": "مرفوع", "feedback": "صحيح؛ لأنه مبتدأ."},
-            {"id": "genitive", "text": "مجرور", "feedback": "ياء المتكلم في محل جر، أما «كتاب» نفسه فمبتدأ مرفوع."}
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "صحيح؛ لأنه مبتدأ."
+            },
+            {
+              "id": "genitive",
+              "text": "مجرور",
+              "feedback": "ياء المتكلم في محل جر، أما «كتاب» نفسه فمبتدأ مرفوع."
+            }
           ],
           "correctOptionId": "nominative",
           "explanation": "المبتدأ مرفوع."
@@ -918,8 +1388,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة رفع «كتاب»؟",
           "options": [
-            {"id": "estimated-damma", "text": "ضمة مقدّرة على ما قبل ياء المتكلم", "feedback": "صحيح؛ لم تظهر الضمة على الحرف السابق للياء."},
-            {"id": "visible-kasra", "text": "الكسرة الظاهرة علامة رفع", "feedback": "الكسرة الموجودة للمناسبة وليست علامة الرفع."}
+            {
+              "id": "estimated-damma",
+              "text": "ضمة مقدّرة على ما قبل ياء المتكلم",
+              "feedback": "صحيح؛ لم تظهر الضمة على الحرف السابق للياء."
+            },
+            {
+              "id": "visible-kasra",
+              "text": "الكسرة الظاهرة علامة رفع",
+              "feedback": "الكسرة الموجودة للمناسبة وليست علامة الرفع."
+            }
           ],
           "correctOptionId": "estimated-damma",
           "explanation": "علامة الرفع ضمة مقدّرة على ما قبل ياء المتكلم."
@@ -929,8 +1407,16 @@
           "title": "سبب تقدير العلامة",
           "prompt": "ما الذي منع ظهور الضمة؟",
           "options": [
-            {"id": "occupied-ending", "text": "اشتغال المحل بحركة المناسبة", "feedback": "صحيح؛ الكسرة تناسب ياء المتكلم."},
-            {"id": "impossibility", "text": "التعذر على الألف", "feedback": "الكلمة لا تنتهي بألف مقصورة."}
+            {
+              "id": "occupied-ending",
+              "text": "اشتغال المحل بحركة المناسبة",
+              "feedback": "صحيح؛ الكسرة تناسب ياء المتكلم."
+            },
+            {
+              "id": "impossibility",
+              "text": "التعذر على الألف",
+              "feedback": "الكلمة لا تنتهي بألف مقصورة."
+            }
           ],
           "correctOptionId": "occupied-ending",
           "explanation": "شغل المحل بالكسرة المناسبة لياء المتكلم، فقدرت الضمة."
@@ -940,8 +1426,16 @@
           "title": "الموقع داخل الجملة",
           "prompt": "ما موقع التركيب في الجملة؟",
           "options": [
-            {"id": "nominal-subject", "text": "مبتدأ في جملة اسمية", "feedback": "صحيح؛ «كتابي» المسند إليه و«مفيد» خبره."},
-            {"id": "verbal-object", "text": "مفعول به في جملة فعلية", "feedback": "لا يوجد فعل في الجملة."}
+            {
+              "id": "nominal-subject",
+              "text": "مبتدأ في جملة اسمية",
+              "feedback": "صحيح؛ «كتابي» المسند إليه و«مفيد» خبره."
+            },
+            {
+              "id": "verbal-object",
+              "text": "مفعول به في جملة فعلية",
+              "feedback": "لا يوجد فعل في الجملة."
+            }
           ],
           "correctOptionId": "nominal-subject",
           "explanation": "التركيب الاسمي «كتابي» هو مبتدأ الجملة الاسمية."
@@ -979,11 +1473,16 @@
       ],
       "summary": "كتابي: مبتدأ مرفوع بضمة مقدّرة على ما قبل ياء المتكلم، والياء مضاف إليه؛ مفيد: خبر مرفوع بالضمة الظاهرة.",
       "alternatives": [
-        {"title": "ليست الكسرة علامة الرفع", "explanation": "الكسرة قبل الياء حركة مناسبة، وعلامة الرفع ضمة مقدّرة."}
+        {
+          "title": "ليست الكسرة علامة الرفع",
+          "explanation": "الكسرة قبل الياء حركة مناسبة، وعلامة الرفع ضمة مقدّرة."
+        }
       ],
       "relatedLessonId": "inflection-forms-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1002,8 +1501,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «الدرس»؟",
           "options": [
-            {"id": "noun", "text": "اسم معرب", "feedback": "صحيح؛ يقبل «أل» وتتغير علامة آخره."},
-            {"id": "verb", "text": "فعل", "feedback": "لا تدل الكلمة على حدث مقترن بزمن."}
+            {
+              "id": "noun",
+              "text": "اسم معرب",
+              "feedback": "صحيح؛ يقبل «أل» وتتغير علامة آخره."
+            },
+            {
+              "id": "verb",
+              "text": "فعل",
+              "feedback": "لا تدل الكلمة على حدث مقترن بزمن."
+            }
           ],
           "correctOptionId": "noun",
           "explanation": "«الدرس» اسم معرب معرف بـ«أل»."
@@ -1013,8 +1520,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «الدرس»؟",
           "options": [
-            {"id": "object", "text": "مفعول به", "feedback": "هو الشيء الذي وقع عليه فعل الكتابة."},
-            {"id": "subject", "text": "فاعل", "feedback": "القائم بالكتابة هو «الطالب»."}
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "هو الشيء الذي وقع عليه فعل الكتابة."
+            },
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "القائم بالكتابة هو «الطالب»."
+            }
           ],
           "correctOptionId": "object",
           "explanation": "وقع فعل الكتابة على «الدرس»، فهو مفعول به."
@@ -1024,8 +1539,16 @@
           "title": "العامل",
           "prompt": "ما العامل في نصب «الدرس»؟",
           "options": [
-            {"id": "transitive-verb", "text": "الفعل المتعدي «كتب»", "feedback": "صحيح؛ الفعل المتعدي ينصب مفعوله."},
-            {"id": "subject", "text": "الفاعل «الطالب»", "feedback": "الفاعل معمول للفعل أيضًا، وليس عامل نصب المفعول."}
+            {
+              "id": "transitive-verb",
+              "text": "الفعل المتعدي «كتب»",
+              "feedback": "صحيح؛ الفعل المتعدي ينصب مفعوله."
+            },
+            {
+              "id": "subject",
+              "text": "الفاعل «الطالب»",
+              "feedback": "الفاعل معمول للفعل أيضًا، وليس عامل نصب المفعول."
+            }
           ],
           "correctOptionId": "transitive-verb",
           "explanation": "«كتب» عامل لفظي طلب مفعولًا به منصوبًا."
@@ -1035,8 +1558,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «الدرس»؟",
           "options": [
-            {"id": "accusative", "text": "منصوب", "feedback": "صحيح؛ المفعول به منصوب."},
-            {"id": "nominative", "text": "مرفوع", "feedback": "الرفع للفاعل «الطالب»."}
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "صحيح؛ المفعول به منصوب."
+            },
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "الرفع للفاعل «الطالب»."
+            }
           ],
           "correctOptionId": "accusative",
           "explanation": "المفعول به منصوب."
@@ -1046,8 +1577,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة نصب «الدرس»؟",
           "options": [
-            {"id": "fatha", "text": "الفتحة الظاهرة", "feedback": "صحيح؛ ظهرت الفتحة على آخر الاسم."},
-            {"id": "kasra", "text": "الكسرة", "feedback": "الاسم ليس جمع مؤنث سالمًا ولا مجرورًا هنا."}
+            {
+              "id": "fatha",
+              "text": "الفتحة الظاهرة",
+              "feedback": "صحيح؛ ظهرت الفتحة على آخر الاسم."
+            },
+            {
+              "id": "kasra",
+              "text": "الكسرة",
+              "feedback": "الاسم ليس جمع مؤنث سالمًا ولا مجرورًا هنا."
+            }
           ],
           "correctOptionId": "fatha",
           "explanation": "علامة نصبه الفتحة الظاهرة."
@@ -1057,8 +1596,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة الفتحة؟",
           "options": [
-            {"id": "singular", "text": "لأنه اسم مفرد صحيح الآخر", "feedback": "صحيح؛ ينصب بالفتحة الأصلية."},
-            {"id": "dual", "text": "لأنه مثنى", "feedback": "المثنى ينصب بالياء، والكلمة مفردة."}
+            {
+              "id": "singular",
+              "text": "لأنه اسم مفرد صحيح الآخر",
+              "feedback": "صحيح؛ ينصب بالفتحة الأصلية."
+            },
+            {
+              "id": "dual",
+              "text": "لأنه مثنى",
+              "feedback": "المثنى ينصب بالياء، والكلمة مفردة."
+            }
           ],
           "correctOptionId": "singular",
           "explanation": "الاسم المفرد الصحيح الآخر ينصب بالفتحة."
@@ -1068,8 +1615,16 @@
           "title": "الموقع داخل الجملة",
           "prompt": "أين يقع المعمول في بناء الجملة؟",
           "options": [
-            {"id": "verbal-object", "text": "مفعول به داخل جملة فعلية", "feedback": "صحيح؛ أتم معنى الفعل المتعدي."},
-            {"id": "independent-clause", "text": "جملة مستقلة", "feedback": "«الدرس» كلمة مفردة وليست جملة."}
+            {
+              "id": "verbal-object",
+              "text": "مفعول به داخل جملة فعلية",
+              "feedback": "صحيح؛ أتم معنى الفعل المتعدي."
+            },
+            {
+              "id": "independent-clause",
+              "text": "جملة مستقلة",
+              "feedback": "«الدرس» كلمة مفردة وليست جملة."
+            }
           ],
           "correctOptionId": "verbal-object",
           "explanation": "«الدرس» معمول مفرد للفعل داخل الجملة الفعلية."
@@ -1121,11 +1676,16 @@
       ],
       "summary": "كتب: فعل ماض عامل؛ الطالب: فاعل مرفوع؛ الدرس: مفعول به نصبه الفعل وعلامة نصبه الفتحة.",
       "alternatives": [
-        {"title": "العامل ليس الحركة", "explanation": "الفعل هو العامل، والفتحة علامة الحكم الذي ظهر على معموله."}
+        {
+          "title": "العامل ليس الحركة",
+          "explanation": "الفعل هو العامل، والفتحة علامة الحكم الذي ظهر على معموله."
+        }
       ],
       "relatedLessonId": "grammatical-governance-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1144,8 +1704,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «الحديقة»؟",
           "options": [
-            {"id": "noun", "text": "اسم معرب", "feedback": "صحيح؛ دخل عليه حرف الجر وتغير آخره."},
-            {"id": "particle", "text": "حرف", "feedback": "حرف الجر هو «في»، أما «الحديقة» فاسم."}
+            {
+              "id": "noun",
+              "text": "اسم معرب",
+              "feedback": "صحيح؛ دخل عليه حرف الجر وتغير آخره."
+            },
+            {
+              "id": "particle",
+              "text": "حرف",
+              "feedback": "حرف الجر هو «في»، أما «الحديقة» فاسم."
+            }
           ],
           "correctOptionId": "noun",
           "explanation": "«الحديقة» اسم معرب معرف بـ«أل»."
@@ -1155,8 +1723,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «الحديقة»؟",
           "options": [
-            {"id": "genitive-noun", "text": "اسم مجرور", "feedback": "صحيح؛ سبقه حرف الجر «في»."},
-            {"id": "object", "text": "مفعول به", "feedback": "الاسم داخل شبه جملة، ولم ينصبه الفعل مباشرة."}
+            {
+              "id": "genitive-noun",
+              "text": "اسم مجرور",
+              "feedback": "صحيح؛ سبقه حرف الجر «في»."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "الاسم داخل شبه جملة، ولم ينصبه الفعل مباشرة."
+            }
           ],
           "correctOptionId": "genitive-noun",
           "explanation": "وقع الاسم بعد حرف الجر، فهو اسم مجرور."
@@ -1166,8 +1742,16 @@
           "title": "العامل",
           "prompt": "ما العامل في جر «الحديقة»؟",
           "options": [
-            {"id": "preposition", "text": "حرف الجر «في»", "feedback": "صحيح؛ هو العامل اللفظي المباشر."},
-            {"id": "verb", "text": "الفعل «مررت»", "feedback": "الجر هنا من عمل حرف الجر الظاهر."}
+            {
+              "id": "preposition",
+              "text": "حرف الجر «في»",
+              "feedback": "صحيح؛ هو العامل اللفظي المباشر."
+            },
+            {
+              "id": "verb",
+              "text": "الفعل «مررت»",
+              "feedback": "الجر هنا من عمل حرف الجر الظاهر."
+            }
           ],
           "correctOptionId": "preposition",
           "explanation": "«في» عامل جر و«الحديقة» معموله."
@@ -1177,8 +1761,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «الحديقة»؟",
           "options": [
-            {"id": "genitive", "text": "مجرور", "feedback": "صحيح؛ الاسم بعد حرف الجر مجرور."},
-            {"id": "accusative", "text": "منصوب", "feedback": "لا يوجد عامل نصب في الاسم هنا."}
+            {
+              "id": "genitive",
+              "text": "مجرور",
+              "feedback": "صحيح؛ الاسم بعد حرف الجر مجرور."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "لا يوجد عامل نصب في الاسم هنا."
+            }
           ],
           "correctOptionId": "genitive",
           "explanation": "الاسم مجرور بحرف الجر."
@@ -1188,8 +1780,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة الجر؟",
           "options": [
-            {"id": "kasra", "text": "الكسرة الظاهرة", "feedback": "صحيح؛ ظهرت الكسرة على آخر الاسم."},
-            {"id": "ya", "text": "الياء", "feedback": "الاسم مفرد وليس مثنى أو جمع مذكر سالمًا."}
+            {
+              "id": "kasra",
+              "text": "الكسرة الظاهرة",
+              "feedback": "صحيح؛ ظهرت الكسرة على آخر الاسم."
+            },
+            {
+              "id": "ya",
+              "text": "الياء",
+              "feedback": "الاسم مفرد وليس مثنى أو جمع مذكر سالمًا."
+            }
           ],
           "correctOptionId": "kasra",
           "explanation": "علامة جره الكسرة الظاهرة."
@@ -1199,8 +1799,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة الكسرة؟",
           "options": [
-            {"id": "singular", "text": "لأنه اسم مفرد صحيح الآخر", "feedback": "صحيح؛ يجر بالكسرة الأصلية."},
-            {"id": "five-nouns", "text": "لأنه من الأسماء الخمسة", "feedback": "«الحديقة» ليست من الأسماء الخمسة."}
+            {
+              "id": "singular",
+              "text": "لأنه اسم مفرد صحيح الآخر",
+              "feedback": "صحيح؛ يجر بالكسرة الأصلية."
+            },
+            {
+              "id": "five-nouns",
+              "text": "لأنه من الأسماء الخمسة",
+              "feedback": "«الحديقة» ليست من الأسماء الخمسة."
+            }
           ],
           "correctOptionId": "singular",
           "explanation": "الاسم المفرد الصحيح الآخر يجر بالكسرة."
@@ -1210,8 +1818,16 @@
           "title": "الموقع داخل الجملة",
           "prompt": "ما موقع «في الحديقة»؟",
           "options": [
-            {"id": "prepositional-phrase", "text": "شبه جملة متعلق بالفعل «مررت»", "feedback": "صحيح؛ بيّن مكان المرور."},
-            {"id": "nominal-clause", "text": "جملة اسمية مستقلة", "feedback": "التركيب جار ومجرور وليس جملة مستقلة."}
+            {
+              "id": "prepositional-phrase",
+              "text": "شبه جملة متعلق بالفعل «مررت»",
+              "feedback": "صحيح؛ بيّن مكان المرور."
+            },
+            {
+              "id": "nominal-clause",
+              "text": "جملة اسمية مستقلة",
+              "feedback": "التركيب جار ومجرور وليس جملة مستقلة."
+            }
           ],
           "correctOptionId": "prepositional-phrase",
           "explanation": "الجار والمجرور شبه جملة متعلق بالفعل «مررت»."
@@ -1263,11 +1879,16 @@
       ],
       "summary": "مررت: فعل وفاعل؛ في: حرف جر عامل؛ الحديقة: اسم مجرور بالكسرة، وشبه الجملة متعلق بالفعل.",
       "alternatives": [
-        {"title": "العلاقة قبل القرب", "explanation": "الفعل يرتبط بشبه الجملة، لكن حرف الجر هو العامل المباشر في الاسم."}
+        {
+          "title": "العلاقة قبل القرب",
+          "explanation": "الفعل يرتبط بشبه الجملة، لكن حرف الجر هو العامل المباشر في الاسم."
+        }
       ],
       "relatedLessonId": "grammatical-governance-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1286,8 +1907,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «يهمل»؟",
           "options": [
-            {"id": "present-verb", "text": "فعل مضارع معرب", "feedback": "صحيح؛ يبدأ بحرف المضارعة ويدل على الحال أو الاستقبال."},
-            {"id": "past-verb", "text": "فعل ماض مبني", "feedback": "الفعل مضارع وتدخل عليه أدوات النصب والجزم."}
+            {
+              "id": "present-verb",
+              "text": "فعل مضارع معرب",
+              "feedback": "صحيح؛ يبدأ بحرف المضارعة ويدل على الحال أو الاستقبال."
+            },
+            {
+              "id": "past-verb",
+              "text": "فعل ماض مبني",
+              "feedback": "الفعل مضارع وتدخل عليه أدوات النصب والجزم."
+            }
           ],
           "correctOptionId": "present-verb",
           "explanation": "«يهمل» فعل مضارع معرب في الأصل."
@@ -1297,8 +1926,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «يهمل»؟",
           "options": [
-            {"id": "main-verb", "text": "فعل الجملة بعد أداة نصب", "feedback": "صحيح؛ هو الحدث الرئيس في الجملة."},
-            {"id": "subject", "text": "فاعل", "feedback": "الفاعل هو «الطالب»."}
+            {
+              "id": "main-verb",
+              "text": "فعل الجملة بعد أداة نصب",
+              "feedback": "صحيح؛ هو الحدث الرئيس في الجملة."
+            },
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "الفاعل هو «الطالب»."
+            }
           ],
           "correctOptionId": "main-verb",
           "explanation": "«يهمل» فعل الجملة، و«الطالب» فاعله."
@@ -1308,8 +1945,16 @@
           "title": "العامل",
           "prompt": "ما العامل في نصب «يهمل»؟",
           "options": [
-            {"id": "lan", "text": "حرف النصب «لن»", "feedback": "صحيح؛ دخل على المضارع فنصبه."},
-            {"id": "subject", "text": "الفاعل «الطالب»", "feedback": "الفاعل معمول للفعل ولا ينصبه."}
+            {
+              "id": "lan",
+              "text": "حرف النصب «لن»",
+              "feedback": "صحيح؛ دخل على المضارع فنصبه."
+            },
+            {
+              "id": "subject",
+              "text": "الفاعل «الطالب»",
+              "feedback": "الفاعل معمول للفعل ولا ينصبه."
+            }
           ],
           "correctOptionId": "lan",
           "explanation": "«لن» عامل لفظي نصب الفعل المضارع."
@@ -1319,8 +1964,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «يهمل»؟",
           "options": [
-            {"id": "accusative", "text": "منصوب", "feedback": "صحيح؛ سبقه حرف النصب «لن»."},
-            {"id": "jussive", "text": "مجزوم", "feedback": "الجزم يكون مع أداة مثل «لم»."}
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "صحيح؛ سبقه حرف النصب «لن»."
+            },
+            {
+              "id": "jussive",
+              "text": "مجزوم",
+              "feedback": "الجزم يكون مع أداة مثل «لم»."
+            }
           ],
           "correctOptionId": "accusative",
           "explanation": "الفعل المضارع منصوب بـ«لن»."
@@ -1330,8 +1983,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة نصب «يهمل»؟",
           "options": [
-            {"id": "fatha", "text": "الفتحة الظاهرة", "feedback": "صحيح؛ ظهرت الفتحة على آخر الفعل."},
-            {"id": "delete-nun", "text": "حذف النون", "feedback": "الفعل ليس من الأفعال الخمسة."}
+            {
+              "id": "fatha",
+              "text": "الفتحة الظاهرة",
+              "feedback": "صحيح؛ ظهرت الفتحة على آخر الفعل."
+            },
+            {
+              "id": "delete-nun",
+              "text": "حذف النون",
+              "feedback": "الفعل ليس من الأفعال الخمسة."
+            }
           ],
           "correctOptionId": "fatha",
           "explanation": "علامة نصبه الفتحة الظاهرة."
@@ -1341,8 +2002,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة الفتحة؟",
           "options": [
-            {"id": "regular-ending", "text": "لأنه مضارع صحيح الآخر ليس من الأفعال الخمسة", "feedback": "صحيح؛ ينصب بالفتحة الأصلية."},
-            {"id": "five-verbs", "text": "لأنه من الأفعال الخمسة", "feedback": "لا يتصل بالفعل ألف الاثنين أو واو الجماعة أو ياء المخاطبة."}
+            {
+              "id": "regular-ending",
+              "text": "لأنه مضارع صحيح الآخر ليس من الأفعال الخمسة",
+              "feedback": "صحيح؛ ينصب بالفتحة الأصلية."
+            },
+            {
+              "id": "five-verbs",
+              "text": "لأنه من الأفعال الخمسة",
+              "feedback": "لا يتصل بالفعل ألف الاثنين أو واو الجماعة أو ياء المخاطبة."
+            }
           ],
           "correctOptionId": "regular-ending",
           "explanation": "المضارع الصحيح الآخر ينصب بالفتحة إذا لم يكن من الأفعال الخمسة."
@@ -1352,8 +2021,16 @@
           "title": "الموقع داخل الجملة",
           "prompt": "أين يقع الفعل في بناء الجملة؟",
           "options": [
-            {"id": "verbal-after-particle", "text": "فعل جملة فعلية سبقته أداة نصب", "feedback": "صحيح؛ الأداة غيرت حالته ولم تغير كونه فعل الجملة."},
-            {"id": "nominal-predicate", "text": "خبر جملة اسمية", "feedback": "التركيب فعلي وليس جملة اسمية."}
+            {
+              "id": "verbal-after-particle",
+              "text": "فعل جملة فعلية سبقته أداة نصب",
+              "feedback": "صحيح؛ الأداة غيرت حالته ولم تغير كونه فعل الجملة."
+            },
+            {
+              "id": "nominal-predicate",
+              "text": "خبر جملة اسمية",
+              "feedback": "التركيب فعلي وليس جملة اسمية."
+            }
           ],
           "correctOptionId": "verbal-after-particle",
           "explanation": "الفعل رأس الجملة الفعلية بعد حرف النصب."
@@ -1405,11 +2082,16 @@
       ],
       "summary": "لن: حرف نصب عامل؛ يهمل: مضارع منصوب بالفتحة؛ الطالب: فاعل مرفوع، والفعل عامل في فاعله.",
       "alternatives": [
-        {"title": "عاملان في جملة واحدة", "explanation": "«لن» عملت في الفعل، والفعل «يهمل» عمل في فاعله."}
+        {
+          "title": "عاملان في جملة واحدة",
+          "explanation": "«لن» عملت في الفعل، والفعل «يهمل» عمل في فاعله."
+        }
       ],
       "relatedLessonId": "grammatical-governance-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1428,8 +2110,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «يقرأ»؟",
           "options": [
-            {"id": "present-verb", "text": "فعل مضارع معرب", "feedback": "صحيح؛ يدل على حدث يقع في الحال أو الاستقبال."},
-            {"id": "noun", "text": "اسم", "feedback": "الكلمة تدل على حدث وزمن وتبدأ بحرف المضارعة."}
+            {
+              "id": "present-verb",
+              "text": "فعل مضارع معرب",
+              "feedback": "صحيح؛ يدل على حدث يقع في الحال أو الاستقبال."
+            },
+            {
+              "id": "noun",
+              "text": "اسم",
+              "feedback": "الكلمة تدل على حدث وزمن وتبدأ بحرف المضارعة."
+            }
           ],
           "correctOptionId": "present-verb",
           "explanation": "«يقرأ» فعل مضارع معرب."
@@ -1439,8 +2129,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة الفعل مع فاعله المستتر؟",
           "options": [
-            {"id": "predicate-clause", "text": "جملة فعلية خبر للمبتدأ", "feedback": "صحيح؛ أخبرت عن الطالب بأنه يقرأ."},
-            {"id": "main-independent", "text": "جملة مستقلة لا علاقة لها بالطالب", "feedback": "الفاعل المستتر يعود إلى «الطالب» ويربط الجملة به."}
+            {
+              "id": "predicate-clause",
+              "text": "جملة فعلية خبر للمبتدأ",
+              "feedback": "صحيح؛ أخبرت عن الطالب بأنه يقرأ."
+            },
+            {
+              "id": "main-independent",
+              "text": "جملة مستقلة لا علاقة لها بالطالب",
+              "feedback": "الفاعل المستتر يعود إلى «الطالب» ويربط الجملة به."
+            }
           ],
           "correctOptionId": "predicate-clause",
           "explanation": "الفعل وفاعله المستتر كوّنا جملة فعلية تؤدي وظيفة الخبر."
@@ -1450,8 +2148,16 @@
           "title": "العامل",
           "prompt": "ما العامل في رفع الفعل «يقرأ»؟",
           "options": [
-            {"id": "bare-present", "text": "تجرده من الناصب والجازم", "feedback": "صحيح؛ لم تسبقه أداة تغير حالته."},
-            {"id": "subject-noun", "text": "المبتدأ «الطالب» ينصب الفعل", "feedback": "المبتدأ لا ينصب الفعل، بل الجملة الفعلية كلها خبره."}
+            {
+              "id": "bare-present",
+              "text": "تجرده من الناصب والجازم",
+              "feedback": "صحيح؛ لم تسبقه أداة تغير حالته."
+            },
+            {
+              "id": "subject-noun",
+              "text": "المبتدأ «الطالب» ينصب الفعل",
+              "feedback": "المبتدأ لا ينصب الفعل، بل الجملة الفعلية كلها خبره."
+            }
           ],
           "correctOptionId": "bare-present",
           "explanation": "رفع المضارع لتجرده من الناصب والجازم."
@@ -1461,8 +2167,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة الفعل نفسه؟",
           "options": [
-            {"id": "nominative", "text": "مرفوع", "feedback": "صحيح؛ لم يسبقه ناصب أو جازم."},
-            {"id": "accusative", "text": "منصوب", "feedback": "لا توجد أداة نصب قبله."}
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "صحيح؛ لم يسبقه ناصب أو جازم."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "لا توجد أداة نصب قبله."
+            }
           ],
           "correctOptionId": "nominative",
           "explanation": "«يقرأ» فعل مضارع مرفوع."
@@ -1472,8 +2186,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة رفع «يقرأ»؟",
           "options": [
-            {"id": "damma", "text": "الضمة الظاهرة", "feedback": "صحيح؛ ظهرت على الهمزة في آخر الفعل."},
-            {"id": "nun", "text": "ثبوت النون", "feedback": "الفعل ليس من الأفعال الخمسة."}
+            {
+              "id": "damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "صحيح؛ ظهرت على الهمزة في آخر الفعل."
+            },
+            {
+              "id": "nun",
+              "text": "ثبوت النون",
+              "feedback": "الفعل ليس من الأفعال الخمسة."
+            }
           ],
           "correctOptionId": "damma",
           "explanation": "علامة رفعه الضمة الظاهرة."
@@ -1483,8 +2205,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة الضمة؟",
           "options": [
-            {"id": "regular-ending", "text": "لأنه صحيح الآخر وليس من الأفعال الخمسة", "feedback": "صحيح؛ يرفع بالضمة الأصلية."},
-            {"id": "five-verbs", "text": "لأنه من الأفعال الخمسة", "feedback": "لم يتصل به ألف الاثنين أو واو الجماعة أو ياء المخاطبة."}
+            {
+              "id": "regular-ending",
+              "text": "لأنه صحيح الآخر وليس من الأفعال الخمسة",
+              "feedback": "صحيح؛ يرفع بالضمة الأصلية."
+            },
+            {
+              "id": "five-verbs",
+              "text": "لأنه من الأفعال الخمسة",
+              "feedback": "لم يتصل به ألف الاثنين أو واو الجماعة أو ياء المخاطبة."
+            }
           ],
           "correctOptionId": "regular-ending",
           "explanation": "المضارع الصحيح الآخر يرفع بالضمة."
@@ -1494,8 +2224,16 @@
           "title": "محل الجملة",
           "prompt": "ما محل الجملة الفعلية «يقرأ»؟",
           "options": [
-            {"id": "local-predicate", "text": "في محل رفع خبر", "feedback": "صحيح؛ حلت الجملة محل خبر مفرد."},
-            {"id": "no-position", "text": "لا محل لها", "feedback": "هي مرتبطة بالمبتدأ وتؤدي وظيفة خبره."}
+            {
+              "id": "local-predicate",
+              "text": "في محل رفع خبر",
+              "feedback": "صحيح؛ حلت الجملة محل خبر مفرد."
+            },
+            {
+              "id": "no-position",
+              "text": "لا محل لها",
+              "feedback": "هي مرتبطة بالمبتدأ وتؤدي وظيفة خبره."
+            }
           ],
           "correctOptionId": "local-predicate",
           "explanation": "الجملة الفعلية من الفعل وفاعله المستتر في محل رفع خبر."
@@ -1533,11 +2271,16 @@
       ],
       "summary": "الطالب: مبتدأ مرفوع؛ يقرأ: مضارع مرفوع وفاعله مستتر، والجملة الفعلية في محل رفع خبر.",
       "alternatives": [
-        {"title": "نوعان في تركيب واحد", "explanation": "التركيب الكامل جملة اسمية، وداخله جملة فعلية وقعت خبرًا."}
+        {
+          "title": "نوعان في تركيب واحد",
+          "explanation": "التركيب الكامل جملة اسمية، وداخله جملة فعلية وقعت خبرًا."
+        }
       ],
       "relatedLessonId": "sentence-types-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1556,8 +2299,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «فوق»؟",
           "options": [
-            {"id": "adverb", "text": "ظرف مكان", "feedback": "صحيح؛ يدل على مكان بالنسبة إلى شيء آخر."},
-            {"id": "preposition", "text": "حرف جر", "feedback": "«فوق» اسم ظرف يقبل الإضافة، وليس حرفًا."}
+            {
+              "id": "adverb",
+              "text": "ظرف مكان",
+              "feedback": "صحيح؛ يدل على مكان بالنسبة إلى شيء آخر."
+            },
+            {
+              "id": "preposition",
+              "text": "حرف جر",
+              "feedback": "«فوق» اسم ظرف يقبل الإضافة، وليس حرفًا."
+            }
           ],
           "correctOptionId": "adverb",
           "explanation": "«فوق» ظرف مكان معرب وهو مضاف."
@@ -1567,8 +2318,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة الظرف مع مضافه إليه؟",
           "options": [
-            {"id": "predicate-phrase", "text": "شبه جملة خبر للمبتدأ", "feedback": "صحيح؛ أخبر عن مكان العصفور."},
-            {"id": "object", "text": "مفعول به", "feedback": "لا يوجد فعل متعد وقع على الظرف."}
+            {
+              "id": "predicate-phrase",
+              "text": "شبه جملة خبر للمبتدأ",
+              "feedback": "صحيح؛ أخبر عن مكان العصفور."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "لا يوجد فعل متعد وقع على الظرف."
+            }
           ],
           "correctOptionId": "predicate-phrase",
           "explanation": "شبه الجملة الظرفية متعلق بمحذوف يؤدي وظيفة الخبر."
@@ -1578,8 +2337,16 @@
           "title": "العامل",
           "prompt": "ما العامل في نصب الظرف «فوق»؟",
           "options": [
-            {"id": "omitted-stable", "text": "عامل محذوف تقديره «مستقر»", "feedback": "صحيح؛ تعلق به الظرف في موقع الخبر."},
-            {"id": "tree", "text": "الاسم «الشجرة»", "feedback": "«الشجرة» مضاف إليه وليست عامل نصب الظرف."}
+            {
+              "id": "omitted-stable",
+              "text": "عامل محذوف تقديره «مستقر»",
+              "feedback": "صحيح؛ تعلق به الظرف في موقع الخبر."
+            },
+            {
+              "id": "tree",
+              "text": "الاسم «الشجرة»",
+              "feedback": "«الشجرة» مضاف إليه وليست عامل نصب الظرف."
+            }
           ],
           "correctOptionId": "omitted-stable",
           "explanation": "الظرف متعلق بمحذوف تقديره «مستقر» أو «كائن»."
@@ -1589,8 +2356,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «فوق»؟",
           "options": [
-            {"id": "accusative", "text": "منصوب", "feedback": "صحيح؛ الظرف منصوب."},
-            {"id": "genitive", "text": "مجرور", "feedback": "المجرور بالإضافة هو «الشجرة»."}
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "صحيح؛ الظرف منصوب."
+            },
+            {
+              "id": "genitive",
+              "text": "مجرور",
+              "feedback": "المجرور بالإضافة هو «الشجرة»."
+            }
           ],
           "correctOptionId": "accusative",
           "explanation": "«فوق» ظرف مكان منصوب."
@@ -1600,8 +2375,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة نصب «فوق»؟",
           "options": [
-            {"id": "fatha", "text": "الفتحة الظاهرة", "feedback": "صحيح؛ ظهرت على آخر الظرف."},
-            {"id": "kasra", "text": "الكسرة", "feedback": "الكسرة على «الشجرة» لا على الظرف."}
+            {
+              "id": "fatha",
+              "text": "الفتحة الظاهرة",
+              "feedback": "صحيح؛ ظهرت على آخر الظرف."
+            },
+            {
+              "id": "kasra",
+              "text": "الكسرة",
+              "feedback": "الكسرة على «الشجرة» لا على الظرف."
+            }
           ],
           "correctOptionId": "fatha",
           "explanation": "علامة نصبه الفتحة الظاهرة."
@@ -1611,8 +2394,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة الفتحة؟",
           "options": [
-            {"id": "single-adverb", "text": "لأنه ظرف مفرد صحيح الآخر", "feedback": "صحيح؛ ينصب بالفتحة الأصلية."},
-            {"id": "dual", "text": "لأنه مثنى", "feedback": "الكلمة مفردة وليست مثنى."}
+            {
+              "id": "single-adverb",
+              "text": "لأنه ظرف مفرد صحيح الآخر",
+              "feedback": "صحيح؛ ينصب بالفتحة الأصلية."
+            },
+            {
+              "id": "dual",
+              "text": "لأنه مثنى",
+              "feedback": "الكلمة مفردة وليست مثنى."
+            }
           ],
           "correctOptionId": "single-adverb",
           "explanation": "الظرف المفرد الصحيح الآخر منصوب بالفتحة."
@@ -1622,8 +2413,16 @@
           "title": "محل شبه الجملة",
           "prompt": "ما محل «فوق الشجرة»؟",
           "options": [
-            {"id": "local-predicate", "text": "في محل رفع خبر", "feedback": "صحيح؛ أتم المعنى مع المبتدأ."},
-            {"id": "independent-clause", "text": "جملة مستقلة", "feedback": "شبه الجملة لا يحتوي إسنادًا كاملًا وحده."}
+            {
+              "id": "local-predicate",
+              "text": "في محل رفع خبر",
+              "feedback": "صحيح؛ أتم المعنى مع المبتدأ."
+            },
+            {
+              "id": "independent-clause",
+              "text": "جملة مستقلة",
+              "feedback": "شبه الجملة لا يحتوي إسنادًا كاملًا وحده."
+            }
           ],
           "correctOptionId": "local-predicate",
           "explanation": "شبه الجملة الظرفية متعلق بمحذوف في محل رفع خبر."
@@ -1675,11 +2474,16 @@
       ],
       "summary": "العصفور: مبتدأ؛ فوق: ظرف منصوب متعلق بمحذوف؛ الشجرة: مضاف إليه، وشبه الجملة في محل رفع خبر.",
       "alternatives": [
-        {"title": "شبه الجملة", "explanation": "الظرف ومضافه إليه يؤديان وظيفة الخبر، لكنهما لا يكونان جملة إسنادية مستقلة."}
+        {
+          "title": "شبه الجملة",
+          "explanation": "الظرف ومضافه إليه يؤديان وظيفة الخبر، لكنهما لا يكونان جملة إسنادية مستقلة."
+        }
       ],
       "relatedLessonId": "sentence-types-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1698,8 +2502,16 @@
           "title": "نوع التركيب",
           "prompt": "ما نوع «أزهارها جميلة»؟",
           "options": [
-            {"id": "nominal-clause", "text": "جملة اسمية", "feedback": "صحيح؛ «أزهارها» مبتدأ و«جميلة» خبر."},
-            {"id": "phrase", "text": "شبه جملة", "feedback": "التركيب يحتوي إسنادًا كاملًا بين مبتدأ وخبر."}
+            {
+              "id": "nominal-clause",
+              "text": "جملة اسمية",
+              "feedback": "صحيح؛ «أزهارها» مبتدأ و«جميلة» خبر."
+            },
+            {
+              "id": "phrase",
+              "text": "شبه جملة",
+              "feedback": "التركيب يحتوي إسنادًا كاملًا بين مبتدأ وخبر."
+            }
           ],
           "correctOptionId": "nominal-clause",
           "explanation": "التركيب جملة اسمية صغرى مكتملة الركنين."
@@ -1709,8 +2521,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة الجملة الصغرى؟",
           "options": [
-            {"id": "predicate", "text": "خبر للمبتدأ الأول «الحديقة»", "feedback": "صحيح؛ أخبرت عن الحديقة بجمال أزهارها."},
-            {"id": "object", "text": "مفعول به", "feedback": "لا يوجد فعل متعد يحتاج مفعولًا."}
+            {
+              "id": "predicate",
+              "text": "خبر للمبتدأ الأول «الحديقة»",
+              "feedback": "صحيح؛ أخبرت عن الحديقة بجمال أزهارها."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "لا يوجد فعل متعد يحتاج مفعولًا."
+            }
           ],
           "correctOptionId": "predicate",
           "explanation": "«أزهارها جميلة» جملة وقعت خبرًا للمبتدأ الأول."
@@ -1720,8 +2540,16 @@
           "title": "العامل والرابط",
           "prompt": "ما الذي ربط الجملة الصغرى بالمبتدأ الأول؟",
           "options": [
-            {"id": "pronoun", "text": "الهاء في «أزهارها»", "feedback": "صحيح؛ تعود إلى «الحديقة»."},
-            {"id": "article", "text": "أل في «الحديقة»", "feedback": "أل للتعريف وليست رابط جملة الخبر."}
+            {
+              "id": "pronoun",
+              "text": "الهاء في «أزهارها»",
+              "feedback": "صحيح؛ تعود إلى «الحديقة»."
+            },
+            {
+              "id": "article",
+              "text": "أل في «الحديقة»",
+              "feedback": "أل للتعريف وليست رابط جملة الخبر."
+            }
           ],
           "correctOptionId": "pronoun",
           "explanation": "الضمير العائد حقق ارتباط جملة الخبر بالمبتدأ."
@@ -1731,8 +2559,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حكم الجملة الصغرى بوصفها خبرًا؟",
           "options": [
-            {"id": "local-nominative", "text": "في محل رفع", "feedback": "صحيح؛ الخبر مرفوع والجملة حلت محله."},
-            {"id": "accusative", "text": "في محل نصب", "feedback": "لا يوجد ناسخ ينصب الخبر هنا."}
+            {
+              "id": "local-nominative",
+              "text": "في محل رفع",
+              "feedback": "صحيح؛ الخبر مرفوع والجملة حلت محله."
+            },
+            {
+              "id": "accusative",
+              "text": "في محل نصب",
+              "feedback": "لا يوجد ناسخ ينصب الخبر هنا."
+            }
           ],
           "correctOptionId": "local-nominative",
           "explanation": "الجملة الاسمية الصغرى في محل رفع خبر."
@@ -1742,8 +2578,16 @@
           "title": "علامة الحكم",
           "prompt": "كيف نعبر عن رفع الجملة كلها؟",
           "options": [
-            {"id": "local", "text": "رفع محلي بلا حركة على الجملة", "feedback": "صحيح؛ الجملة لها محل ولا تحمل حركة واحدة."},
-            {"id": "final-damma", "text": "الضمة على «جميلة» علامة رفع الجملة كلها", "feedback": "الضمة تخص خبر الجملة الصغرى، أما الجملة كلها فرفعها محلي."}
+            {
+              "id": "local",
+              "text": "رفع محلي بلا حركة على الجملة",
+              "feedback": "صحيح؛ الجملة لها محل ولا تحمل حركة واحدة."
+            },
+            {
+              "id": "final-damma",
+              "text": "الضمة على «جميلة» علامة رفع الجملة كلها",
+              "feedback": "الضمة تخص خبر الجملة الصغرى، أما الجملة كلها فرفعها محلي."
+            }
           ],
           "correctOptionId": "local",
           "explanation": "نقول: الجملة في محل رفع خبر، ولا ننسب إليها حركة واحدة."
@@ -1753,8 +2597,16 @@
           "title": "سبب المحل",
           "prompt": "لماذا كان للجملة محل رفع؟",
           "options": [
-            {"id": "replaces-predicate", "text": "لأنها وقعت موقع الخبر المفرد", "feedback": "صحيح؛ يمكن تقريب معناها بخبر مثل «مزدهرة»."},
-            {"id": "starts-with-noun", "text": "لمجرد أنها بدأت باسم", "feedback": "البدء باسم يحدد نوعها الداخلي، لا سبب محلها في الكبرى."}
+            {
+              "id": "replaces-predicate",
+              "text": "لأنها وقعت موقع الخبر المفرد",
+              "feedback": "صحيح؛ يمكن تقريب معناها بخبر مثل «مزدهرة»."
+            },
+            {
+              "id": "starts-with-noun",
+              "text": "لمجرد أنها بدأت باسم",
+              "feedback": "البدء باسم يحدد نوعها الداخلي، لا سبب محلها في الكبرى."
+            }
           ],
           "correctOptionId": "replaces-predicate",
           "explanation": "أخذت الجملة محل الخبر لأنها أدت وظيفته."
@@ -1764,8 +2616,16 @@
           "title": "موقعها في البناء",
           "prompt": "ما العلاقة بين الجملتين؟",
           "options": [
-            {"id": "minor-in-major", "text": "جملة صغرى خبر داخل جملة كبرى", "feedback": "صحيح؛ الكبرى تبدأ بـ«الحديقة»."},
-            {"id": "two-independent", "text": "جملتان مستقلتان بلا رابط", "feedback": "الهاء تربط الصغرى بالمبتدأ الأول."}
+            {
+              "id": "minor-in-major",
+              "text": "جملة صغرى خبر داخل جملة كبرى",
+              "feedback": "صحيح؛ الكبرى تبدأ بـ«الحديقة»."
+            },
+            {
+              "id": "two-independent",
+              "text": "جملتان مستقلتان بلا رابط",
+              "feedback": "الهاء تربط الصغرى بالمبتدأ الأول."
+            }
           ],
           "correctOptionId": "minor-in-major",
           "explanation": "الجملة الكبرى «الحديقة أزهارها جميلة»، والصغرى خبرها «أزهارها جميلة»."
@@ -1817,11 +2677,16 @@
       ],
       "summary": "الحديقة: مبتدأ أول؛ أزهارها: مبتدأ ثان والهاء رابط؛ جميلة: خبر ثان، والجملة الصغرى في محل رفع خبر للمبتدأ الأول.",
       "alternatives": [
-        {"title": "محل الجملة", "explanation": "الحركات تخص كلمات الجملة الداخلية، أما الجملة كلها فتوصف بأنها في محل رفع."}
+        {
+          "title": "محل الجملة",
+          "explanation": "الحركات تخص كلمات الجملة الداخلية، أما الجملة كلها فتوصف بأنها في محل رفع."
+        }
       ],
       "relatedLessonId": "sentence-types-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1840,8 +2705,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «اكتب»؟",
           "options": [
-            {"id": "imperative", "text": "فعل أمر", "feedback": "صحيح؛ يدل على طلب حدوث الكتابة."},
-            {"id": "noun", "text": "اسم", "feedback": "الكلمة تدل على حدث وطلب، ولا تقبل علامات الاسم."}
+            {
+              "id": "imperative",
+              "text": "فعل أمر",
+              "feedback": "صحيح؛ يدل على طلب حدوث الكتابة."
+            },
+            {
+              "id": "noun",
+              "text": "اسم",
+              "feedback": "الكلمة تدل على حدث وطلب، ولا تقبل علامات الاسم."
+            }
           ],
           "correctOptionId": "imperative",
           "explanation": "«اكتب» فعل أمر موجه إلى مخاطب."
@@ -1851,8 +2724,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "أين فاعل فعل الأمر؟",
           "options": [
-            {"id": "hidden-you", "text": "ضمير مستتر وجوبًا تقديره أنت", "feedback": "صحيح؛ المخاطب هو المطلوب منه الكتابة."},
-            {"id": "no-subject", "text": "لا فاعل له", "feedback": "كل فعل تام يحتاج من أسند إليه، والفاعل هنا مستتر."}
+            {
+              "id": "hidden-you",
+              "text": "ضمير مستتر وجوبًا تقديره أنت",
+              "feedback": "صحيح؛ المخاطب هو المطلوب منه الكتابة."
+            },
+            {
+              "id": "no-subject",
+              "text": "لا فاعل له",
+              "feedback": "كل فعل تام يحتاج من أسند إليه، والفاعل هنا مستتر."
+            }
           ],
           "correctOptionId": "hidden-you",
           "explanation": "فاعل الأمر ضمير مستتر وجوبًا تقديره «أنت»."
@@ -1862,8 +2743,16 @@
           "title": "العامل",
           "prompt": "ما الأصل في حكم فعل الأمر؟",
           "options": [
-            {"id": "built", "text": "البناء أصل في فعل الأمر", "feedback": "صحيح؛ لا نصفه بالرفع أو النصب أو الجزم."},
-            {"id": "nominative", "text": "يرفعه التجرد من الناصب والجازم", "feedback": "هذا حكم المضارع المعرب لا فعل الأمر."}
+            {
+              "id": "built",
+              "text": "البناء أصل في فعل الأمر",
+              "feedback": "صحيح؛ لا نصفه بالرفع أو النصب أو الجزم."
+            },
+            {
+              "id": "nominative",
+              "text": "يرفعه التجرد من الناصب والجازم",
+              "feedback": "هذا حكم المضارع المعرب لا فعل الأمر."
+            }
           ],
           "correctOptionId": "built",
           "explanation": "فعل الأمر مبني، وعلامة بنائه تتحدد بحسب آخره واتصاله."
@@ -1873,8 +2762,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «اكتب»؟",
           "options": [
-            {"id": "built-no-position", "text": "مبني لا محل له", "feedback": "صحيح؛ الفعل نفسه لا محل له."},
-            {"id": "jussive", "text": "مجزوم", "feedback": "السكون هنا علامة بناء لا علامة جزم."}
+            {
+              "id": "built-no-position",
+              "text": "مبني لا محل له",
+              "feedback": "صحيح؛ الفعل نفسه لا محل له."
+            },
+            {
+              "id": "jussive",
+              "text": "مجزوم",
+              "feedback": "السكون هنا علامة بناء لا علامة جزم."
+            }
           ],
           "correctOptionId": "built-no-position",
           "explanation": "«اكتب» فعل أمر مبني لا محل له من الإعراب."
@@ -1884,8 +2781,16 @@
           "title": "علامة البناء",
           "prompt": "على ماذا بني «اكتب»؟",
           "options": [
-            {"id": "sukoon", "text": "على السكون", "feedback": "صحيح؛ ظهر السكون على آخر الفعل."},
-            {"id": "fatha", "text": "على الفتح", "feedback": "لم تظهر الفتحة على آخره في هذا المثال."}
+            {
+              "id": "sukoon",
+              "text": "على السكون",
+              "feedback": "صحيح؛ ظهر السكون على آخر الفعل."
+            },
+            {
+              "id": "fatha",
+              "text": "على الفتح",
+              "feedback": "لم تظهر الفتحة على آخره في هذا المثال."
+            }
           ],
           "correctOptionId": "sukoon",
           "explanation": "فعل أمر مبني على السكون."
@@ -1895,8 +2800,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا بني على السكون؟",
           "options": [
-            {"id": "regular-ending", "text": "لأنه صحيح الآخر ولم يتصل به شيء", "feedback": "صحيح؛ هذه صورته الأساسية."},
-            {"id": "five-verbs", "text": "لأنه من الأفعال الخمسة", "feedback": "الأفعال الخمسة أفعال مضارعة، لا أفعال أمر بهذه الصورة."}
+            {
+              "id": "regular-ending",
+              "text": "لأنه صحيح الآخر ولم يتصل به شيء",
+              "feedback": "صحيح؛ هذه صورته الأساسية."
+            },
+            {
+              "id": "five-verbs",
+              "text": "لأنه من الأفعال الخمسة",
+              "feedback": "الأفعال الخمسة أفعال مضارعة، لا أفعال أمر بهذه الصورة."
+            }
           ],
           "correctOptionId": "regular-ending",
           "explanation": "يبنى الأمر الصحيح الآخر على السكون إذا لم يتصل به ما يغير علامة بنائه."
@@ -1906,8 +2819,16 @@
           "title": "تمام الجملة",
           "prompt": "لماذا يعد «اكتب» كلامًا مفيدًا؟",
           "options": [
-            {"id": "complete-command", "text": "لأن الفعل أسند إلى فاعل مستتر معلوم", "feedback": "صحيح؛ تم الطلب وعرف المخاطب."},
-            {"id": "one-word", "text": "لأن كل كلمة منفردة كلام", "feedback": "الكلمة المنفردة لا تكون كلامًا إلا إذا تم بها الإسناد والمعنى."}
+            {
+              "id": "complete-command",
+              "text": "لأن الفعل أسند إلى فاعل مستتر معلوم",
+              "feedback": "صحيح؛ تم الطلب وعرف المخاطب."
+            },
+            {
+              "id": "one-word",
+              "text": "لأن كل كلمة منفردة كلام",
+              "feedback": "الكلمة المنفردة لا تكون كلامًا إلا إذا تم بها الإسناد والمعنى."
+            }
           ],
           "correctOptionId": "complete-command",
           "explanation": "الفعل مع فاعله المستتر كوّنا جملة فعلية طلبية تامة."
@@ -1931,11 +2852,16 @@
       ],
       "summary": "اكتب: فعل أمر مبني على السكون، وفاعله ضمير مستتر وجوبًا تقديره أنت؛ لذلك تم الإسناد والمعنى.",
       "alternatives": [
-        {"title": "الكلمة والكلام", "explanation": "هو كلمة من جهة الصورة المكتوبة، وكلام من جهة اكتمال الجملة بفعل وفاعل مستتر."}
+        {
+          "title": "الكلمة والكلام",
+          "explanation": "هو كلمة من جهة الصورة المكتوبة، وكلام من جهة اكتمال الجملة بفعل وفاعل مستتر."
+        }
       ],
       "relatedLessonId": "speech-expression-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1954,8 +2880,16 @@
           "title": "نوع الكلمة",
           "prompt": "ما نوع «ينجح»؟",
           "options": [
-            {"id": "present-verb", "text": "فعل مضارع معرب", "feedback": "صحيح؛ يدل على حدث محتمل في الاستقبال."},
-            {"id": "noun", "text": "اسم", "feedback": "الكلمة تدل على حدث وزمن وتدخل عليها أداة الجزم."}
+            {
+              "id": "present-verb",
+              "text": "فعل مضارع معرب",
+              "feedback": "صحيح؛ يدل على حدث محتمل في الاستقبال."
+            },
+            {
+              "id": "noun",
+              "text": "اسم",
+              "feedback": "الكلمة تدل على حدث وزمن وتدخل عليها أداة الجزم."
+            }
           ],
           "correctOptionId": "present-verb",
           "explanation": "«ينجح» فعل مضارع معرب."
@@ -1965,8 +2899,16 @@
           "title": "الموقع الإعرابي",
           "prompt": "ما وظيفة «ينجح»؟",
           "options": [
-            {"id": "condition-verb", "text": "فعل الشرط", "feedback": "صحيح؛ وقع بعد أداة الشرط «إن»."},
-            {"id": "condition-answer", "text": "جواب الشرط", "feedback": "الجواب لم يذكر بعد في هذا التركيب."}
+            {
+              "id": "condition-verb",
+              "text": "فعل الشرط",
+              "feedback": "صحيح؛ وقع بعد أداة الشرط «إن»."
+            },
+            {
+              "id": "condition-answer",
+              "text": "جواب الشرط",
+              "feedback": "الجواب لم يذكر بعد في هذا التركيب."
+            }
           ],
           "correctOptionId": "condition-verb",
           "explanation": "الفعل هو فعل الشرط، ويحتاج التركيب بعده إلى جواب."
@@ -1976,8 +2918,16 @@
           "title": "العامل",
           "prompt": "ما العامل في جزم «ينجح»؟",
           "options": [
-            {"id": "conditional-in", "text": "أداة الشرط الجازمة «إن»", "feedback": "صحيح؛ تجزم فعل الشرط وجوابه."},
-            {"id": "subject", "text": "الفاعل «الطالب»", "feedback": "الفاعل مرفوع بالفعل ولا يجزم فعله."}
+            {
+              "id": "conditional-in",
+              "text": "أداة الشرط الجازمة «إن»",
+              "feedback": "صحيح؛ تجزم فعل الشرط وجوابه."
+            },
+            {
+              "id": "subject",
+              "text": "الفاعل «الطالب»",
+              "feedback": "الفاعل مرفوع بالفعل ولا يجزم فعله."
+            }
           ],
           "correctOptionId": "conditional-in",
           "explanation": "«إن» حرف شرط جازم عمل في الفعل بعده."
@@ -1987,8 +2937,16 @@
           "title": "الحالة الإعرابية",
           "prompt": "ما حالة «ينجح»؟",
           "options": [
-            {"id": "jussive", "text": "مجزوم", "feedback": "صحيح؛ لأنه فعل الشرط بعد «إن»."},
-            {"id": "nominative", "text": "مرفوع", "feedback": "سبقه جازم فانتقل من الرفع إلى الجزم."}
+            {
+              "id": "jussive",
+              "text": "مجزوم",
+              "feedback": "صحيح؛ لأنه فعل الشرط بعد «إن»."
+            },
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "سبقه جازم فانتقل من الرفع إلى الجزم."
+            }
           ],
           "correctOptionId": "jussive",
           "explanation": "فعل الشرط مضارع مجزوم."
@@ -1998,8 +2956,16 @@
           "title": "علامة الإعراب",
           "prompt": "ما علامة جزم «ينجح»؟",
           "options": [
-            {"id": "sukoon", "text": "السكون الظاهر", "feedback": "صحيح؛ ظهر على آخر الفعل الصحيح."},
-            {"id": "delete-nun", "text": "حذف النون", "feedback": "الفعل ليس من الأفعال الخمسة."}
+            {
+              "id": "sukoon",
+              "text": "السكون الظاهر",
+              "feedback": "صحيح؛ ظهر على آخر الفعل الصحيح."
+            },
+            {
+              "id": "delete-nun",
+              "text": "حذف النون",
+              "feedback": "الفعل ليس من الأفعال الخمسة."
+            }
           ],
           "correctOptionId": "sukoon",
           "explanation": "علامة جزمه السكون الظاهر."
@@ -2009,8 +2975,16 @@
           "title": "سبب العلامة",
           "prompt": "لماذا كانت العلامة السكون؟",
           "options": [
-            {"id": "regular-ending", "text": "لأنه مضارع صحيح الآخر", "feedback": "صحيح؛ يجزم بالسكون الأصلي."},
-            {"id": "weak-ending", "text": "لأنه معتل الآخر", "feedback": "آخر الفعل حاء صحيحة وليس حرف علة."}
+            {
+              "id": "regular-ending",
+              "text": "لأنه مضارع صحيح الآخر",
+              "feedback": "صحيح؛ يجزم بالسكون الأصلي."
+            },
+            {
+              "id": "weak-ending",
+              "text": "لأنه معتل الآخر",
+              "feedback": "آخر الفعل حاء صحيحة وليس حرف علة."
+            }
           ],
           "correctOptionId": "regular-ending",
           "explanation": "المضارع الصحيح الآخر يجزم بالسكون."
@@ -2020,8 +2994,16 @@
           "title": "تمام التركيب",
           "prompt": "لماذا لا يعد التركيب كلامًا تامًا بعد؟",
           "options": [
-            {"id": "missing-answer", "text": "لأن جواب الشرط لم يذكر", "feedback": "صحيح؛ السامع ينتظر نتيجة النجاح."},
-            {"id": "three-words", "text": "لأنه ثلاث كلمات", "feedback": "ثلاث الكلمات تجعله كلمًا، لكنها لا تضمن تمام المعنى."}
+            {
+              "id": "missing-answer",
+              "text": "لأن جواب الشرط لم يذكر",
+              "feedback": "صحيح؛ السامع ينتظر نتيجة النجاح."
+            },
+            {
+              "id": "three-words",
+              "text": "لأنه ثلاث كلمات",
+              "feedback": "ثلاث الكلمات تجعله كلمًا، لكنها لا تضمن تمام المعنى."
+            }
           ],
           "correctOptionId": "missing-answer",
           "explanation": "التركيب كلم وقول، لكنه ينتظر جواب الشرط ليتم الكلام."
@@ -2073,11 +3055,16 @@
       ],
       "summary": "إن: حرف شرط جازم؛ ينجح: فعل الشرط مجزوم بالسكون؛ الطالب: فاعل، والتركيب ينتظر جواب الشرط ليتم معناه.",
       "alternatives": [
-        {"title": "العدد والفائدة", "explanation": "هو كلم لأنه ثلاث كلمات، وليس كلامًا تامًا قبل ذكر جواب الشرط."}
+        {
+          "title": "العدد والفائدة",
+          "explanation": "هو كلم لأنه ثلاث كلمات، وليس كلامًا تامًا قبل ذكر جواب الشرط."
+        }
       ],
       "relatedLessonId": "speech-expression-v1",
-      "referenceIds": ["ref-general-foundations-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-foundations-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2091,23 +3078,182 @@
       "fullyDiacritizedSentence": "حَضَرَ الطَّالِبُ",
       "targetText": "الطالب",
       "steps": [
-        {"id": "word-type", "title": "نوع الكلمة", "prompt": "ما نوع «الطالب»؟", "options": [{"id": "noun", "text": "اسم معرب", "feedback": "صحيح؛ يقبل أل وتتغير علامة آخره."}, {"id": "verb", "text": "فعل", "feedback": "لا يدل على حدث وزمن."}], "correctOptionId": "noun", "explanation": "«الطالب» اسم معرب معرف بأل."},
-        {"id": "role", "title": "الموقع الإعرابي", "prompt": "ما وظيفة «الطالب»؟", "options": [{"id": "subject", "text": "فاعل", "feedback": "هو القائم بفعل الحضور."}, {"id": "object", "text": "مفعول به", "feedback": "الفعل لازم والطالب هو الذي حضر."}], "correctOptionId": "subject", "explanation": "وقع الاسم فاعلًا للفعل «حضر»."},
-        {"id": "agent", "title": "العامل", "prompt": "ما العامل في رفعه؟", "options": [{"id": "verb", "text": "الفعل «حضر»", "feedback": "صحيح؛ الفعل يرفع فاعله."}, {"id": "article", "text": "أل التعريف", "feedback": "أل تعرف الاسم ولا ترفعه."}], "correctOptionId": "verb", "explanation": "الفعل «حضر» عامل الرفع في فاعله."},
-        {"id": "state", "title": "الحالة الإعرابية", "prompt": "ما حالة الفاعل؟", "options": [{"id": "nominative", "text": "مرفوع", "feedback": "صحيح؛ الفاعل مرفوع."}, {"id": "accusative", "text": "منصوب", "feedback": "النصب ليس حكم الفاعل هنا."}], "correctOptionId": "nominative", "explanation": "الفاعل مرفوع."},
-        {"id": "sign", "title": "علامة الإعراب", "prompt": "ما علامة الرفع؟", "options": [{"id": "damma", "text": "الضمة الظاهرة", "feedback": "صحيح؛ ظهرت على آخر الاسم."}, {"id": "alif", "text": "الألف", "feedback": "الألف علامة فرعية للمثنى."}], "correctOptionId": "damma", "explanation": "علامة رفعه الضمة الظاهرة."},
-        {"id": "reason", "title": "سبب العلامة", "prompt": "لماذا كانت الضمة؟", "options": [{"id": "singular", "text": "لأنه اسم مفرد صحيح الآخر", "feedback": "صحيح؛ يرفع بالضمة الأصلية."}, {"id": "dual", "text": "لأنه مثنى", "feedback": "الكلمة مفردة."}], "correctOptionId": "singular", "explanation": "الاسم المفرد الصحيح يرفع بالضمة."},
-        {"id": "sentence-position", "title": "الموقع داخل الجملة", "prompt": "أين يقع الاسم؟", "options": [{"id": "verbal-subject", "text": "فاعل داخل جملة فعلية", "feedback": "صحيح؛ أسند إليه فعل الحضور."}, {"id": "nominal-predicate", "text": "خبر في جملة اسمية", "feedback": "الجملة بدأت بفعل."}], "correctOptionId": "verbal-subject", "explanation": "الطالب فاعل مفرد داخل الجملة الفعلية."}
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «الطالب»؟",
+          "options": [
+            {
+              "id": "noun",
+              "text": "اسم معرب",
+              "feedback": "صحيح؛ يقبل أل وتتغير علامة آخره."
+            },
+            {
+              "id": "verb",
+              "text": "فعل",
+              "feedback": "لا يدل على حدث وزمن."
+            }
+          ],
+          "correctOptionId": "noun",
+          "explanation": "«الطالب» اسم معرب معرف بأل."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفة «الطالب»؟",
+          "options": [
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "هو القائم بفعل الحضور."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "الفعل لازم والطالب هو الذي حضر."
+            }
+          ],
+          "correctOptionId": "subject",
+          "explanation": "وقع الاسم فاعلًا للفعل «حضر»."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل في رفعه؟",
+          "options": [
+            {
+              "id": "verb",
+              "text": "الفعل «حضر»",
+              "feedback": "صحيح؛ الفعل يرفع فاعله."
+            },
+            {
+              "id": "article",
+              "text": "أل التعريف",
+              "feedback": "أل تعرف الاسم ولا ترفعه."
+            }
+          ],
+          "correctOptionId": "verb",
+          "explanation": "الفعل «حضر» عامل الرفع في فاعله."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة الفاعل؟",
+          "options": [
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "صحيح؛ الفاعل مرفوع."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "النصب ليس حكم الفاعل هنا."
+            }
+          ],
+          "correctOptionId": "nominative",
+          "explanation": "الفاعل مرفوع."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة الرفع؟",
+          "options": [
+            {
+              "id": "damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "صحيح؛ ظهرت على آخر الاسم."
+            },
+            {
+              "id": "alif",
+              "text": "الألف",
+              "feedback": "الألف علامة فرعية للمثنى."
+            }
+          ],
+          "correctOptionId": "damma",
+          "explanation": "علامة رفعه الضمة الظاهرة."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا كانت الضمة؟",
+          "options": [
+            {
+              "id": "singular",
+              "text": "لأنه اسم مفرد صحيح الآخر",
+              "feedback": "صحيح؛ يرفع بالضمة الأصلية."
+            },
+            {
+              "id": "dual",
+              "text": "لأنه مثنى",
+              "feedback": "الكلمة مفردة."
+            }
+          ],
+          "correctOptionId": "singular",
+          "explanation": "الاسم المفرد الصحيح يرفع بالضمة."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "أين يقع الاسم؟",
+          "options": [
+            {
+              "id": "verbal-subject",
+              "text": "فاعل داخل جملة فعلية",
+              "feedback": "صحيح؛ أسند إليه فعل الحضور."
+            },
+            {
+              "id": "nominal-predicate",
+              "text": "خبر في جملة اسمية",
+              "feedback": "الجملة بدأت بفعل."
+            }
+          ],
+          "correctOptionId": "verbal-subject",
+          "explanation": "الطالب فاعل مفرد داخل الجملة الفعلية."
+        }
       ],
       "parsedWords": [
-        {"word": "حضر", "normalizedWord": "حضر", "wordType": "فعل ماض", "grammaticalRole": "فعل الجملة", "grammaticalState": "مبني لا محل له", "grammaticalSign": "مبني على الفتح", "signReason": "فعل ماض", "grammaticalAgent": "البناء أصل في الماضي", "sentencePosition": "صدر الجملة الفعلية", "explanation": "فعل ماض مبني على الفتح.", "startIndex": 0, "endIndex": 3},
-        {"word": "الطالب", "normalizedWord": "الطالب", "wordType": "اسم معرب", "grammaticalRole": "فاعل", "grammaticalState": "مرفوع", "grammaticalSign": "الضمة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "الفعل «حضر»", "sentencePosition": "فاعل الجملة الفعلية", "explanation": "فاعل مرفوع بالضمة الأصلية.", "startIndex": 4, "endIndex": 10}
+        {
+          "word": "حضر",
+          "normalizedWord": "حضر",
+          "wordType": "فعل ماض",
+          "grammaticalRole": "فعل الجملة",
+          "grammaticalState": "مبني لا محل له",
+          "grammaticalSign": "مبني على الفتح",
+          "signReason": "فعل ماض",
+          "grammaticalAgent": "البناء أصل في الماضي",
+          "sentencePosition": "صدر الجملة الفعلية",
+          "explanation": "فعل ماض مبني على الفتح.",
+          "startIndex": 0,
+          "endIndex": 3
+        },
+        {
+          "word": "الطالب",
+          "normalizedWord": "الطالب",
+          "wordType": "اسم معرب",
+          "grammaticalRole": "فاعل",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الضمة الظاهرة",
+          "signReason": "اسم مفرد صحيح الآخر",
+          "grammaticalAgent": "الفعل «حضر»",
+          "sentencePosition": "فاعل الجملة الفعلية",
+          "explanation": "فاعل مرفوع بالضمة الأصلية.",
+          "startIndex": 4,
+          "endIndex": 10
+        }
       ],
       "summary": "حضر: فعل ماض؛ الطالب: فاعل مرفوع بالضمة الظاهرة لأنها العلامة الأصلية للاسم المفرد.",
-      "alternatives": [{"title": "الحكم والعلامة", "explanation": "الفاعل مرفوع حكمًا، والضمة هي علامة هذا الحكم."}],
+      "alternatives": [
+        {
+          "title": "الحكم والعلامة",
+          "explanation": "الفاعل مرفوع حكمًا، والضمة هي علامة هذا الحكم."
+        }
+      ],
       "relatedLessonId": "original-signs-v1",
-      "referenceIds": ["ref-general-signs-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-signs-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2121,24 +3267,196 @@
       "fullyDiacritizedSentence": "مَرَرْتُ فِي الفَصْلِ",
       "targetText": "الفصل",
       "steps": [
-        {"id": "word-type", "title": "نوع الكلمة", "prompt": "ما نوع «الفصل»؟", "options": [{"id": "noun", "text": "اسم معرب", "feedback": "صحيح؛ دخل عليه حرف الجر."}, {"id": "particle", "text": "حرف", "feedback": "الحرف هو «في»."}], "correctOptionId": "noun", "explanation": "«الفصل» اسم معرب."},
-        {"id": "role", "title": "الموقع الإعرابي", "prompt": "ما وظيفته؟", "options": [{"id": "genitive-noun", "text": "اسم مجرور", "feedback": "صحيح؛ جاء بعد «في»."}, {"id": "object", "text": "مفعول به", "feedback": "الاسم داخل شبه جملة."}], "correctOptionId": "genitive-noun", "explanation": "وقع الاسم بعد حرف جر."},
-        {"id": "agent", "title": "العامل", "prompt": "ما العامل في جره؟", "options": [{"id": "preposition", "text": "حرف الجر «في»", "feedback": "صحيح؛ هو العامل المباشر."}, {"id": "verb", "text": "الفعل «مررت»", "feedback": "الجر الظاهر عمل حرف الجر."}], "correctOptionId": "preposition", "explanation": "«في» عامل الجر."},
-        {"id": "state", "title": "الحالة الإعرابية", "prompt": "ما حالة الاسم؟", "options": [{"id": "genitive", "text": "مجرور", "feedback": "صحيح؛ سبقه حرف جر."}, {"id": "accusative", "text": "منصوب", "feedback": "لا يوجد عامل نصب."}], "correctOptionId": "genitive", "explanation": "الاسم مجرور."},
-        {"id": "sign", "title": "علامة الإعراب", "prompt": "ما علامة الجر؟", "options": [{"id": "kasra", "text": "الكسرة الظاهرة", "feedback": "صحيح؛ ظهرت على آخره."}, {"id": "ya", "text": "الياء", "feedback": "الياء علامة فرعية في أنواع أخرى."}], "correctOptionId": "kasra", "explanation": "علامة جره الكسرة الظاهرة."},
-        {"id": "reason", "title": "سبب العلامة", "prompt": "لماذا كانت الكسرة؟", "options": [{"id": "singular", "text": "لأنه اسم مفرد صحيح الآخر", "feedback": "صحيح؛ يجر بالكسرة الأصلية."}, {"id": "dual", "text": "لأنه مثنى", "feedback": "الكلمة مفردة."}], "correctOptionId": "singular", "explanation": "الاسم المفرد يجر بالكسرة."},
-        {"id": "sentence-position", "title": "الموقع داخل الجملة", "prompt": "ما موقع «في الفصل»؟", "options": [{"id": "phrase", "text": "شبه جملة متعلق بالفعل", "feedback": "صحيح؛ بين مكان المرور."}, {"id": "independent", "text": "جملة مستقلة", "feedback": "الجار والمجرور ليسا إسنادًا مستقلًا."}], "correctOptionId": "phrase", "explanation": "الجار والمجرور متعلقان بالفعل «مررت»."}
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «الفصل»؟",
+          "options": [
+            {
+              "id": "noun",
+              "text": "اسم معرب",
+              "feedback": "صحيح؛ دخل عليه حرف الجر."
+            },
+            {
+              "id": "particle",
+              "text": "حرف",
+              "feedback": "الحرف هو «في»."
+            }
+          ],
+          "correctOptionId": "noun",
+          "explanation": "«الفصل» اسم معرب."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفته؟",
+          "options": [
+            {
+              "id": "genitive-noun",
+              "text": "اسم مجرور",
+              "feedback": "صحيح؛ جاء بعد «في»."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "الاسم داخل شبه جملة."
+            }
+          ],
+          "correctOptionId": "genitive-noun",
+          "explanation": "وقع الاسم بعد حرف جر."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل في جره؟",
+          "options": [
+            {
+              "id": "preposition",
+              "text": "حرف الجر «في»",
+              "feedback": "صحيح؛ هو العامل المباشر."
+            },
+            {
+              "id": "verb",
+              "text": "الفعل «مررت»",
+              "feedback": "الجر الظاهر عمل حرف الجر."
+            }
+          ],
+          "correctOptionId": "preposition",
+          "explanation": "«في» عامل الجر."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة الاسم؟",
+          "options": [
+            {
+              "id": "genitive",
+              "text": "مجرور",
+              "feedback": "صحيح؛ سبقه حرف جر."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "لا يوجد عامل نصب."
+            }
+          ],
+          "correctOptionId": "genitive",
+          "explanation": "الاسم مجرور."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة الجر؟",
+          "options": [
+            {
+              "id": "kasra",
+              "text": "الكسرة الظاهرة",
+              "feedback": "صحيح؛ ظهرت على آخره."
+            },
+            {
+              "id": "ya",
+              "text": "الياء",
+              "feedback": "الياء علامة فرعية في أنواع أخرى."
+            }
+          ],
+          "correctOptionId": "kasra",
+          "explanation": "علامة جره الكسرة الظاهرة."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا كانت الكسرة؟",
+          "options": [
+            {
+              "id": "singular",
+              "text": "لأنه اسم مفرد صحيح الآخر",
+              "feedback": "صحيح؛ يجر بالكسرة الأصلية."
+            },
+            {
+              "id": "dual",
+              "text": "لأنه مثنى",
+              "feedback": "الكلمة مفردة."
+            }
+          ],
+          "correctOptionId": "singular",
+          "explanation": "الاسم المفرد يجر بالكسرة."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما موقع «في الفصل»؟",
+          "options": [
+            {
+              "id": "phrase",
+              "text": "شبه جملة متعلق بالفعل",
+              "feedback": "صحيح؛ بين مكان المرور."
+            },
+            {
+              "id": "independent",
+              "text": "جملة مستقلة",
+              "feedback": "الجار والمجرور ليسا إسنادًا مستقلًا."
+            }
+          ],
+          "correctOptionId": "phrase",
+          "explanation": "الجار والمجرور متعلقان بالفعل «مررت»."
+        }
       ],
       "parsedWords": [
-        {"word": "مررت", "normalizedWord": "مررت", "wordType": "فعل ماض متصل بتاء الفاعل", "grammaticalRole": "فعل وفاعل", "grammaticalState": "الفعل مبني والتاء في محل رفع", "grammaticalSign": "مبني على السكون", "signReason": "اتصاله بتاء الفاعل", "grammaticalAgent": "البناء أصل في الماضي", "sentencePosition": "فعل الجملة وفاعله", "explanation": "فعل ماض والتاء فاعل.", "startIndex": 0, "endIndex": 4},
-        {"word": "في", "normalizedWord": "في", "wordType": "حرف جر", "grammaticalRole": "عامل الجر", "grammaticalState": "مبني لا محل له", "grammaticalSign": "مبني على السكون", "signReason": "الحروف مبنية", "grammaticalAgent": "البناء أصل في الحروف", "sentencePosition": "رأس شبه الجملة", "explanation": "حرف جر.", "startIndex": 5, "endIndex": 7},
-        {"word": "الفصل", "normalizedWord": "الفصل", "wordType": "اسم معرب", "grammaticalRole": "اسم مجرور", "grammaticalState": "مجرور", "grammaticalSign": "الكسرة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "حرف الجر «في»", "sentencePosition": "داخل شبه الجملة", "explanation": "اسم مجرور بالكسرة الأصلية.", "startIndex": 8, "endIndex": 13}
+        {
+          "word": "مررت",
+          "normalizedWord": "مررت",
+          "wordType": "فعل ماض متصل بتاء الفاعل",
+          "grammaticalRole": "فعل وفاعل",
+          "grammaticalState": "الفعل مبني والتاء في محل رفع",
+          "grammaticalSign": "مبني على السكون",
+          "signReason": "اتصاله بتاء الفاعل",
+          "grammaticalAgent": "البناء أصل في الماضي",
+          "sentencePosition": "فعل الجملة وفاعله",
+          "explanation": "فعل ماض والتاء فاعل.",
+          "startIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "word": "في",
+          "normalizedWord": "في",
+          "wordType": "حرف جر",
+          "grammaticalRole": "عامل الجر",
+          "grammaticalState": "مبني لا محل له",
+          "grammaticalSign": "مبني على السكون",
+          "signReason": "الحروف مبنية",
+          "grammaticalAgent": "البناء أصل في الحروف",
+          "sentencePosition": "رأس شبه الجملة",
+          "explanation": "حرف جر.",
+          "startIndex": 5,
+          "endIndex": 7
+        },
+        {
+          "word": "الفصل",
+          "normalizedWord": "الفصل",
+          "wordType": "اسم معرب",
+          "grammaticalRole": "اسم مجرور",
+          "grammaticalState": "مجرور",
+          "grammaticalSign": "الكسرة الظاهرة",
+          "signReason": "اسم مفرد صحيح الآخر",
+          "grammaticalAgent": "حرف الجر «في»",
+          "sentencePosition": "داخل شبه الجملة",
+          "explanation": "اسم مجرور بالكسرة الأصلية.",
+          "startIndex": 8,
+          "endIndex": 13
+        }
       ],
       "summary": "مررت: فعل وفاعل؛ في: حرف جر؛ الفصل: اسم مجرور بالكسرة الظاهرة.",
-      "alternatives": [{"title": "العلامة الأصلية", "explanation": "الكسرة أصل الجر في الاسم المفرد."}],
+      "alternatives": [
+        {
+          "title": "العلامة الأصلية",
+          "explanation": "الكسرة أصل الجر في الاسم المفرد."
+        }
+      ],
       "relatedLessonId": "original-signs-v1",
-      "referenceIds": ["ref-general-signs-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-signs-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2152,24 +3470,763 @@
       "fullyDiacritizedSentence": "لَمْ يُهْمِلْ الطَّالِبُ",
       "targetText": "يهمل",
       "steps": [
-        {"id": "word-type", "title": "نوع الكلمة", "prompt": "ما نوع «يهمل»؟", "options": [{"id": "present", "text": "فعل مضارع معرب", "feedback": "صحيح؛ تدخل عليه أدوات النصب والجزم."}, {"id": "imperative", "text": "فعل أمر", "feedback": "لا يدل على طلب مباشر."}], "correctOptionId": "present", "explanation": "«يهمل» فعل مضارع معرب."},
-        {"id": "role", "title": "الموقع الإعرابي", "prompt": "ما وظيفته؟", "options": [{"id": "main-verb", "text": "فعل الجملة بعد جازم", "feedback": "صحيح؛ هو الحدث الرئيس."}, {"id": "subject", "text": "فاعل", "feedback": "الفاعل هو «الطالب»."}], "correctOptionId": "main-verb", "explanation": "الفعل رأس الجملة الفعلية."},
-        {"id": "agent", "title": "العامل", "prompt": "ما العامل في جزمه؟", "options": [{"id": "lam", "text": "حرف الجزم «لم»", "feedback": "صحيح؛ دخل على المضارع فجزمه."}, {"id": "subject", "text": "الفاعل «الطالب»", "feedback": "الفاعل لا يجزم فعله."}], "correctOptionId": "lam", "explanation": "«لم» عامل الجزم."},
-        {"id": "state", "title": "الحالة الإعرابية", "prompt": "ما حالة الفعل؟", "options": [{"id": "jussive", "text": "مجزوم", "feedback": "صحيح؛ سبقه جازم."}, {"id": "built", "text": "مبني", "feedback": "المضارع هنا معرب ولم يتصل بما يبنيه."}], "correctOptionId": "jussive", "explanation": "الفعل مضارع مجزوم."},
-        {"id": "sign", "title": "علامة الإعراب", "prompt": "ما علامة الجزم؟", "options": [{"id": "sukoon", "text": "السكون الظاهر", "feedback": "صحيح؛ ظهر على آخر الفعل."}, {"id": "fatha", "text": "الفتحة", "feedback": "الفتحة علامة النصب الأصلية."}], "correctOptionId": "sukoon", "explanation": "علامة جزمه السكون."},
-        {"id": "reason", "title": "سبب العلامة", "prompt": "لماذا كان السكون؟", "options": [{"id": "regular-ending", "text": "لأنه مضارع صحيح الآخر", "feedback": "صحيح؛ يجزم بالسكون الأصلي."}, {"id": "weak-ending", "text": "لأنه معتل الآخر", "feedback": "آخر الفعل لام صحيحة."}], "correctOptionId": "regular-ending", "explanation": "المضارع الصحيح الآخر يجزم بالسكون."},
-        {"id": "sentence-position", "title": "الموقع داخل الجملة", "prompt": "ما الفرق عن «اكتبْ»؟", "options": [{"id": "jussive-not-built", "text": "سكون «يهمل» إعراب، وسكون «اكتب» بناء", "feedback": "صحيح؛ اختلف نوع الفعل."}, {"id": "both-jussive", "text": "كلاهما مجزوم", "feedback": "الأمر مبني ولا يجزم."}], "correctOptionId": "jussive-not-built", "explanation": "السكون هنا علامة جزم لا علامة بناء."}
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «يهمل»؟",
+          "options": [
+            {
+              "id": "present",
+              "text": "فعل مضارع معرب",
+              "feedback": "صحيح؛ تدخل عليه أدوات النصب والجزم."
+            },
+            {
+              "id": "imperative",
+              "text": "فعل أمر",
+              "feedback": "لا يدل على طلب مباشر."
+            }
+          ],
+          "correctOptionId": "present",
+          "explanation": "«يهمل» فعل مضارع معرب."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفته؟",
+          "options": [
+            {
+              "id": "main-verb",
+              "text": "فعل الجملة بعد جازم",
+              "feedback": "صحيح؛ هو الحدث الرئيس."
+            },
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "الفاعل هو «الطالب»."
+            }
+          ],
+          "correctOptionId": "main-verb",
+          "explanation": "الفعل رأس الجملة الفعلية."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل في جزمه؟",
+          "options": [
+            {
+              "id": "lam",
+              "text": "حرف الجزم «لم»",
+              "feedback": "صحيح؛ دخل على المضارع فجزمه."
+            },
+            {
+              "id": "subject",
+              "text": "الفاعل «الطالب»",
+              "feedback": "الفاعل لا يجزم فعله."
+            }
+          ],
+          "correctOptionId": "lam",
+          "explanation": "«لم» عامل الجزم."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة الفعل؟",
+          "options": [
+            {
+              "id": "jussive",
+              "text": "مجزوم",
+              "feedback": "صحيح؛ سبقه جازم."
+            },
+            {
+              "id": "built",
+              "text": "مبني",
+              "feedback": "المضارع هنا معرب ولم يتصل بما يبنيه."
+            }
+          ],
+          "correctOptionId": "jussive",
+          "explanation": "الفعل مضارع مجزوم."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة الجزم؟",
+          "options": [
+            {
+              "id": "sukoon",
+              "text": "السكون الظاهر",
+              "feedback": "صحيح؛ ظهر على آخر الفعل."
+            },
+            {
+              "id": "fatha",
+              "text": "الفتحة",
+              "feedback": "الفتحة علامة النصب الأصلية."
+            }
+          ],
+          "correctOptionId": "sukoon",
+          "explanation": "علامة جزمه السكون."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا كان السكون؟",
+          "options": [
+            {
+              "id": "regular-ending",
+              "text": "لأنه مضارع صحيح الآخر",
+              "feedback": "صحيح؛ يجزم بالسكون الأصلي."
+            },
+            {
+              "id": "weak-ending",
+              "text": "لأنه معتل الآخر",
+              "feedback": "آخر الفعل لام صحيحة."
+            }
+          ],
+          "correctOptionId": "regular-ending",
+          "explanation": "المضارع الصحيح الآخر يجزم بالسكون."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما الفرق عن «اكتبْ»؟",
+          "options": [
+            {
+              "id": "jussive-not-built",
+              "text": "سكون «يهمل» إعراب، وسكون «اكتب» بناء",
+              "feedback": "صحيح؛ اختلف نوع الفعل."
+            },
+            {
+              "id": "both-jussive",
+              "text": "كلاهما مجزوم",
+              "feedback": "الأمر مبني ولا يجزم."
+            }
+          ],
+          "correctOptionId": "jussive-not-built",
+          "explanation": "السكون هنا علامة جزم لا علامة بناء."
+        }
       ],
       "parsedWords": [
-        {"word": "لم", "normalizedWord": "لم", "wordType": "حرف جزم", "grammaticalRole": "عامل الجزم", "grammaticalState": "مبني لا محل له", "grammaticalSign": "مبني على السكون", "signReason": "الحروف مبنية", "grammaticalAgent": "البناء أصل في الحروف", "sentencePosition": "أداة قبل المضارع", "explanation": "حرف جزم.", "startIndex": 0, "endIndex": 2},
-        {"word": "يهمل", "normalizedWord": "يهمل", "wordType": "فعل مضارع معرب", "grammaticalRole": "فعل الجملة", "grammaticalState": "مجزوم", "grammaticalSign": "السكون الظاهر", "signReason": "مضارع صحيح الآخر", "grammaticalAgent": "حرف الجزم «لم»", "sentencePosition": "فعل بعد أداة جزم", "explanation": "مضارع مجزوم بالسكون الأصلي.", "startIndex": 3, "endIndex": 7},
-        {"word": "الطالب", "normalizedWord": "الطالب", "wordType": "اسم معرب", "grammaticalRole": "فاعل", "grammaticalState": "مرفوع", "grammaticalSign": "الضمة الظاهرة", "signReason": "اسم مفرد صحيح الآخر", "grammaticalAgent": "الفعل «يهمل»", "sentencePosition": "فاعل الجملة", "explanation": "فاعل مرفوع بالضمة.", "startIndex": 8, "endIndex": 14}
+        {
+          "word": "لم",
+          "normalizedWord": "لم",
+          "wordType": "حرف جزم",
+          "grammaticalRole": "عامل الجزم",
+          "grammaticalState": "مبني لا محل له",
+          "grammaticalSign": "مبني على السكون",
+          "signReason": "الحروف مبنية",
+          "grammaticalAgent": "البناء أصل في الحروف",
+          "sentencePosition": "أداة قبل المضارع",
+          "explanation": "حرف جزم.",
+          "startIndex": 0,
+          "endIndex": 2
+        },
+        {
+          "word": "يهمل",
+          "normalizedWord": "يهمل",
+          "wordType": "فعل مضارع معرب",
+          "grammaticalRole": "فعل الجملة",
+          "grammaticalState": "مجزوم",
+          "grammaticalSign": "السكون الظاهر",
+          "signReason": "مضارع صحيح الآخر",
+          "grammaticalAgent": "حرف الجزم «لم»",
+          "sentencePosition": "فعل بعد أداة جزم",
+          "explanation": "مضارع مجزوم بالسكون الأصلي.",
+          "startIndex": 3,
+          "endIndex": 7
+        },
+        {
+          "word": "الطالب",
+          "normalizedWord": "الطالب",
+          "wordType": "اسم معرب",
+          "grammaticalRole": "فاعل",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الضمة الظاهرة",
+          "signReason": "اسم مفرد صحيح الآخر",
+          "grammaticalAgent": "الفعل «يهمل»",
+          "sentencePosition": "فاعل الجملة",
+          "explanation": "فاعل مرفوع بالضمة.",
+          "startIndex": 8,
+          "endIndex": 14
+        }
       ],
       "summary": "لم: حرف جزم؛ يهمل: مضارع مجزوم بالسكون؛ الطالب: فاعل مرفوع.",
-      "alternatives": [{"title": "جزم لا بناء", "explanation": "السكون علامة إعراب لأن الفعل مضارع معرب سبقه جازم."}],
+      "alternatives": [
+        {
+          "title": "جزم لا بناء",
+          "explanation": "السكون علامة إعراب لأن الفعل مضارع معرب سبقه جازم."
+        }
+      ],
       "relatedLessonId": "original-signs-v1",
-      "referenceIds": ["ref-general-signs-v1"],
-      "contentVersion": "1.0.0",
+      "referenceIds": [
+        "ref-general-signs-v1"
+      ],
+      "contentVersion": "1.7.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "parse-secondary-alif-dual",
+      "trackId": "signs",
+      "difficulty": 1,
+      "order": 20,
+      "sentence": "حضر الطالبان",
+      "fullyDiacritizedSentence": "حَضَرَ الطَّالِبَانِ",
+      "targetText": "الطالبان",
+      "steps": [
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «الطالبان»؟",
+          "options": [
+            {
+              "id": "dual-noun",
+              "text": "اسم مثنى معرب",
+              "feedback": "صحيح؛ يدل على اثنين بزيادة ألف ونون."
+            },
+            {
+              "id": "sound-plural",
+              "text": "جمع مذكر سالم",
+              "feedback": "الصيغة تدل على اثنين لا على جماعة."
+            }
+          ],
+          "correctOptionId": "dual-noun",
+          "explanation": "«الطالبان» مثنى مرفوع الصورة."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفة «الطالبان»؟",
+          "options": [
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "صحيح؛ هما اللذان حضرا."
+            },
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "الفعل «حضر» لازم والاسم قام بالفعل."
+            }
+          ],
+          "correctOptionId": "subject",
+          "explanation": "وقع المثنى فاعلًا للفعل «حضر»."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل في رفعه؟",
+          "options": [
+            {
+              "id": "verb",
+              "text": "الفعل «حضر»",
+              "feedback": "صحيح؛ الفعل يرفع فاعله."
+            },
+            {
+              "id": "dual-ending",
+              "text": "ألف المثنى",
+              "feedback": "الألف علامة وليست عاملًا."
+            }
+          ],
+          "correctOptionId": "verb",
+          "explanation": "الفعل هو عامل الرفع في فاعله."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة الفاعل؟",
+          "options": [
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "صحيح؛ الفاعل مرفوع."
+            },
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "لا يوجد عامل نصب للاسم."
+            }
+          ],
+          "correctOptionId": "nominative",
+          "explanation": "حكم الفاعل الرفع."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة الرفع؟",
+          "options": [
+            {
+              "id": "alif",
+              "text": "الألف نيابة عن الضمة",
+              "feedback": "صحيح؛ هذه علامة رفع المثنى."
+            },
+            {
+              "id": "damma",
+              "text": "الضمة الظاهرة",
+              "feedback": "الضمة أصل الرفع، لكن المثنى يرفع بالألف."
+            }
+          ],
+          "correctOptionId": "alif",
+          "explanation": "علامة رفعه الألف نيابة عن الضمة."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا اختيرت الألف؟",
+          "options": [
+            {
+              "id": "dual",
+              "text": "لأن الاسم مثنى",
+              "feedback": "صحيح؛ نوع الاسم هو سبب العلامة الفرعية."
+            },
+            {
+              "id": "subject",
+              "text": "لأنه فاعل فقط",
+              "feedback": "الفاعلية تحدد الرفع، أما التثنية فتحدد الألف."
+            }
+          ],
+          "correctOptionId": "dual",
+          "explanation": "الموقع حدد الرفع، والتثنية حددت علامته."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "أين يقع المثنى؟",
+          "options": [
+            {
+              "id": "verbal-subject",
+              "text": "فاعل في جملة فعلية",
+              "feedback": "صحيح؛ جاء بعد الفعل وأسند إليه."
+            },
+            {
+              "id": "nominal-subject",
+              "text": "مبتدأ في جملة اسمية",
+              "feedback": "الجملة بدأت بفعل."
+            }
+          ],
+          "correctOptionId": "verbal-subject",
+          "explanation": "الطالبان فاعل مثنى في الجملة الفعلية."
+        }
+      ],
+      "parsedWords": [
+        {
+          "word": "حضر",
+          "normalizedWord": "حضر",
+          "wordType": "فعل ماض",
+          "grammaticalRole": "فعل الجملة",
+          "grammaticalState": "مبني لا محل له",
+          "grammaticalSign": "مبني على الفتح",
+          "signReason": "فعل ماض",
+          "grammaticalAgent": "البناء أصل في الماضي",
+          "sentencePosition": "صدر الجملة الفعلية",
+          "explanation": "فعل ماض مبني على الفتح.",
+          "startIndex": 0,
+          "endIndex": 3
+        },
+        {
+          "word": "الطالبان",
+          "normalizedWord": "الطالبان",
+          "wordType": "اسم مثنى معرب",
+          "grammaticalRole": "فاعل",
+          "grammaticalState": "مرفوع",
+          "grammaticalSign": "الألف نيابة عن الضمة",
+          "signReason": "لأنه مثنى",
+          "grammaticalAgent": "الفعل «حضر»",
+          "sentencePosition": "فاعل الجملة الفعلية",
+          "explanation": "فاعل مرفوع بالألف لأنه مثنى.",
+          "startIndex": 4,
+          "endIndex": 12
+        }
+      ],
+      "summary": "حضر: فعل ماض؛ الطالبان: فاعل مرفوع بالألف نيابة عن الضمة لأنه مثنى.",
+      "alternatives": [
+        {
+          "title": "الحالة والعلامة",
+          "explanation": "الفاعلية سببت الرفع، والتثنية جعلت الألف علامة هذا الرفع."
+        }
+      ],
+      "relatedLessonId": "secondary-signs-v1",
+      "referenceIds": [
+        "ref-general-signs-v1"
+      ],
+      "contentVersion": "1.7.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "parse-secondary-kasra-feminine",
+      "trackId": "signs",
+      "difficulty": 2,
+      "order": 21,
+      "sentence": "شاهدت الطالبات",
+      "fullyDiacritizedSentence": "شَاهَدْتُ الطَّالِبَاتِ",
+      "targetText": "الطالبات",
+      "steps": [
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «الطالبات»؟",
+          "options": [
+            {
+              "id": "feminine-plural",
+              "text": "جمع مؤنث سالم معرب",
+              "feedback": "صحيح؛ ختم بألف وتاء زائدتين."
+            },
+            {
+              "id": "sound-masculine",
+              "text": "جمع مذكر سالم",
+              "feedback": "علامة هذا الجمع واو ونون أو ياء ونون."
+            }
+          ],
+          "correctOptionId": "feminine-plural",
+          "explanation": "«الطالبات» جمع مؤنث سالم."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفة «الطالبات»؟",
+          "options": [
+            {
+              "id": "object",
+              "text": "مفعول به",
+              "feedback": "صحيح؛ وقع عليهن فعل المشاهدة."
+            },
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "الفاعل تاء المتكلم في «شاهدت»."
+            }
+          ],
+          "correctOptionId": "object",
+          "explanation": "الاسم مفعول به للفعل المتعدي."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل في نصبه؟",
+          "options": [
+            {
+              "id": "transitive-verb",
+              "text": "الفعل المتعدي «شاهدت»",
+              "feedback": "صحيح؛ نصب مفعوله به."
+            },
+            {
+              "id": "feminine-ending",
+              "text": "ألف وتاء الجمع",
+              "feedback": "صيغة الجمع تحدد العلامة ولا تعمل النصب."
+            }
+          ],
+          "correctOptionId": "transitive-verb",
+          "explanation": "الفعل «شاهدت» عامل النصب."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة المفعول به؟",
+          "options": [
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "صحيح؛ المفعول به منصوب."
+            },
+            {
+              "id": "genitive",
+              "text": "مجرور",
+              "feedback": "لا يسبقه حرف جر أو مضاف."
+            }
+          ],
+          "correctOptionId": "accusative",
+          "explanation": "حكم المفعول به النصب."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة النصب؟",
+          "options": [
+            {
+              "id": "kasra",
+              "text": "الكسرة نيابة عن الفتحة",
+              "feedback": "صحيح؛ هذه علامة نصب جمع المؤنث السالم."
+            },
+            {
+              "id": "fatha",
+              "text": "الفتحة الأصلية",
+              "feedback": "تنوب الكسرة عنها في هذا الباب."
+            }
+          ],
+          "correctOptionId": "kasra",
+          "explanation": "علامة نصبه الكسرة نيابة عن الفتحة."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا نابت الكسرة؟",
+          "options": [
+            {
+              "id": "feminine-plural",
+              "text": "لأن الاسم جمع مؤنث سالم",
+              "feedback": "صحيح؛ نوع الاسم حدد العلامة."
+            },
+            {
+              "id": "object",
+              "text": "لأنه مفعول به فقط",
+              "feedback": "المفعولية تحدد النصب، لا صورة العلامة."
+            }
+          ],
+          "correctOptionId": "feminine-plural",
+          "explanation": "الجمع السالم المؤنث ينصب بالكسرة."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما موقع الاسم داخل الجملة؟",
+          "options": [
+            {
+              "id": "verbal-object",
+              "text": "مفعول به في جملة فعلية",
+              "feedback": "صحيح؛ أكمل معنى الفعل المتعدي."
+            },
+            {
+              "id": "prepositional",
+              "text": "اسم داخل شبه جملة",
+              "feedback": "لا يوجد حرف جر."
+            }
+          ],
+          "correctOptionId": "verbal-object",
+          "explanation": "الطالبات مفعول به جمع مؤنث سالم."
+        }
+      ],
+      "parsedWords": [
+        {
+          "word": "شاهدت",
+          "normalizedWord": "شاهدت",
+          "wordType": "فعل ماض متصل بتاء الفاعل",
+          "grammaticalRole": "فعل وفاعل",
+          "grammaticalState": "الفعل مبني والتاء في محل رفع",
+          "grammaticalSign": "مبني على السكون لاتصاله بالتاء",
+          "signReason": "اتصاله بضمير رفع متحرك",
+          "grammaticalAgent": "البناء أصل في الماضي",
+          "sentencePosition": "فعل الجملة وفاعله",
+          "explanation": "فعل ماض والتاء فاعل.",
+          "startIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "word": "الطالبات",
+          "normalizedWord": "الطالبات",
+          "wordType": "جمع مؤنث سالم معرب",
+          "grammaticalRole": "مفعول به",
+          "grammaticalState": "منصوب",
+          "grammaticalSign": "الكسرة نيابة عن الفتحة",
+          "signReason": "لأنه جمع مؤنث سالم",
+          "grammaticalAgent": "الفعل المتعدي «شاهدت»",
+          "sentencePosition": "مفعول به",
+          "explanation": "مفعول به منصوب بالكسرة لأنه جمع مؤنث سالم.",
+          "startIndex": 6,
+          "endIndex": 14
+        }
+      ],
+      "summary": "شاهدت: فعل وفاعل؛ الطالبات: مفعول به منصوب بالكسرة نيابة عن الفتحة لأنه جمع مؤنث سالم.",
+      "alternatives": [
+        {
+          "title": "كسرة نصب",
+          "explanation": "ليست الكسرة دليل جر هنا؛ الموقع مفعول به، وباب جمع المؤنث السالم جعلها علامة نصب."
+        }
+      ],
+      "relatedLessonId": "secondary-signs-v1",
+      "referenceIds": [
+        "ref-general-signs-v1"
+      ],
+      "contentVersion": "1.7.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "parse-secondary-nun-deletion",
+      "trackId": "signs",
+      "difficulty": 2,
+      "order": 22,
+      "sentence": "لن يهملوا",
+      "fullyDiacritizedSentence": "لَنْ يُهْمِلُوا",
+      "targetText": "يهملوا",
+      "steps": [
+        {
+          "id": "word-type",
+          "title": "نوع الكلمة",
+          "prompt": "ما نوع «يهملوا»؟",
+          "options": [
+            {
+              "id": "five-verbs",
+              "text": "فعل مضارع من الأفعال الخمسة",
+              "feedback": "صحيح؛ اتصل بواو الجماعة."
+            },
+            {
+              "id": "imperative",
+              "text": "فعل أمر",
+              "feedback": "سبقته «لن» وهو يدل على الاستقبال."
+            }
+          ],
+          "correctOptionId": "five-verbs",
+          "explanation": "أصل الصورة «يهملون»، وهي من الأفعال الخمسة."
+        },
+        {
+          "id": "role",
+          "title": "الموقع الإعرابي",
+          "prompt": "ما وظيفة الفعل؟",
+          "options": [
+            {
+              "id": "main-verb",
+              "text": "فعل الجملة بعد ناصب",
+              "feedback": "صحيح؛ هو الحدث الرئيس."
+            },
+            {
+              "id": "subject",
+              "text": "فاعل",
+              "feedback": "الفاعل واو الجماعة المتصلة بالفعل."
+            }
+          ],
+          "correctOptionId": "main-verb",
+          "explanation": "الفعل رأس الجملة الفعلية بعد «لن»."
+        },
+        {
+          "id": "agent",
+          "title": "العامل",
+          "prompt": "ما العامل في نصبه؟",
+          "options": [
+            {
+              "id": "lan",
+              "text": "حرف النصب «لن»",
+              "feedback": "صحيح؛ دخل على المضارع فنصبه."
+            },
+            {
+              "id": "waw",
+              "text": "واو الجماعة",
+              "feedback": "الواو فاعل وليست عامل نصب."
+            }
+          ],
+          "correctOptionId": "lan",
+          "explanation": "«لن» عامل النصب في المضارع."
+        },
+        {
+          "id": "state",
+          "title": "الحالة الإعرابية",
+          "prompt": "ما حالة الفعل؟",
+          "options": [
+            {
+              "id": "accusative",
+              "text": "منصوب",
+              "feedback": "صحيح؛ سبقه حرف نصب."
+            },
+            {
+              "id": "nominative",
+              "text": "مرفوع",
+              "feedback": "وجود «لن» يمنع الرفع."
+            }
+          ],
+          "correctOptionId": "accusative",
+          "explanation": "الفعل مضارع منصوب."
+        },
+        {
+          "id": "sign",
+          "title": "علامة الإعراب",
+          "prompt": "ما علامة النصب؟",
+          "options": [
+            {
+              "id": "nun-deletion",
+              "text": "حذف النون نيابة عن الفتحة",
+              "feedback": "صحيح؛ حذفت نون «يهملون»."
+            },
+            {
+              "id": "waw",
+              "text": "واو الجماعة",
+              "feedback": "الواو ضمير فاعل باق بعد الحذف."
+            }
+          ],
+          "correctOptionId": "nun-deletion",
+          "explanation": "علامة نصبه حذف النون."
+        },
+        {
+          "id": "reason",
+          "title": "سبب العلامة",
+          "prompt": "لماذا حذفت النون؟",
+          "options": [
+            {
+              "id": "five-verbs",
+              "text": "لأنه من الأفعال الخمسة",
+              "feedback": "صحيح؛ تنصب وتجزم بحذف النون."
+            },
+            {
+              "id": "weak-ending",
+              "text": "لأنه معتل الآخر",
+              "feedback": "الحذف هنا لنون الإعراب لا لحرف علة."
+            }
+          ],
+          "correctOptionId": "five-verbs",
+          "explanation": "باب الأفعال الخمسة هو سبب علامة الحذف."
+        },
+        {
+          "id": "sentence-position",
+          "title": "الموقع داخل الجملة",
+          "prompt": "ما وظيفة الواو والألف في آخر «يهملوا»؟",
+          "options": [
+            {
+              "id": "waw-subject",
+              "text": "الواو فاعل، والألف فارقة في الرسم",
+              "feedback": "صحيح؛ لا واحدة منهما علامة النصب."
+            },
+            {
+              "id": "both-sign",
+              "text": "كلاهما علامة نصب",
+              "feedback": "علامة النصب حذف النون وحده."
+            }
+          ],
+          "correctOptionId": "waw-subject",
+          "explanation": "واو الجماعة ضمير في محل رفع فاعل، والألف الفارقة لا محل لها."
+        }
+      ],
+      "parsedWords": [
+        {
+          "word": "لن",
+          "normalizedWord": "لن",
+          "wordType": "حرف نصب",
+          "grammaticalRole": "عامل نصب المضارع",
+          "grammaticalState": "مبني لا محل له",
+          "grammaticalSign": "مبني على السكون",
+          "signReason": "الحروف مبنية",
+          "grammaticalAgent": "البناء أصل في الحروف",
+          "sentencePosition": "أداة قبل المضارع",
+          "explanation": "حرف نفي ونصب واستقبال.",
+          "startIndex": 0,
+          "endIndex": 2
+        },
+        {
+          "word": "يهملوا",
+          "normalizedWord": "يهملوا",
+          "wordType": "فعل مضارع من الأفعال الخمسة",
+          "grammaticalRole": "فعل الجملة",
+          "grammaticalState": "منصوب",
+          "grammaticalSign": "حذف النون نيابة عن الفتحة",
+          "signReason": "لأنه من الأفعال الخمسة",
+          "grammaticalAgent": "حرف النصب «لن»",
+          "sentencePosition": "فعل بعد ناصب",
+          "explanation": "مضارع منصوب بحذف النون، والواو فاعل والألف فارقة.",
+          "startIndex": 3,
+          "endIndex": 9
+        }
+      ],
+      "summary": "لن: حرف نصب؛ يهملوا: مضارع منصوب بحذف النون، والواو فاعل والألف فارقة.",
+      "alternatives": [
+        {
+          "title": "المحذوف والباقي",
+          "explanation": "المحذوف نون الإعراب، أما واو الجماعة فبقيت لأنها الفاعل."
+        }
+      ],
+      "relatedLessonId": "secondary-signs-v1",
+      "referenceIds": [
+        "ref-general-signs-v1"
+      ],
+      "contentVersion": "1.7.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null

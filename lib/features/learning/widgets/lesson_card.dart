@@ -33,12 +33,12 @@ class LessonCard extends StatelessWidget {
               width: 52,
               height: 52,
               decoration: BoxDecoration(
-                color: E3rabBrandColors.sky,
+                color: E3rabBrandColors.primaryContainer,
                 borderRadius: BorderRadius.circular(E3rabRadii.medium),
               ),
               child: const Icon(
                 Icons.auto_stories_outlined,
-                color: E3rabBrandColors.primaryBlue,
+                color: E3rabBrandColors.primary,
               ),
             ),
             const SizedBox(width: E3rabSpacing.medium),

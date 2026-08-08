@@ -39,7 +39,7 @@ class OnboardingPageContent extends StatelessWidget {
             children: [
               DecoratedBox(
                 decoration: const BoxDecoration(
-                  color: E3rabBrandColors.softOrange,
+                  color: E3rabBrandColors.primaryContainer,
                   shape: BoxShape.circle,
                 ),
                 child: Padding(
@@ -47,7 +47,7 @@ class OnboardingPageContent extends StatelessWidget {
                   child: Icon(
                     icon,
                     size: 72,
-                    color: E3rabBrandColors.primaryOrange,
+                    color: E3rabBrandColors.primary,
                     semanticLabel: title,
                   ),
                 ),

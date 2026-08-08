@@ -60,7 +60,25 @@ class ContentValidationService {
       _validateApprovedLesson(lesson, exerciseIds, referenceIds, issues);
       _rejectHtml(lesson, 'title', 'lessons', issues);
     }
-    _validatePrerequisiteGraph(lessons, lessonIds, issues);
+    final externalPrerequisiteIds = _stringList(
+      manifest['externalPrerequisiteIds'],
+    ).toSet();
+    if (manifest.containsKey('externalPrerequisiteIds') &&
+        manifest['externalPrerequisiteIds'] is! List) {
+      issues.add(
+        const ValidationIssue(
+          code: 'invalid_external_prerequisites',
+          message: 'externalPrerequisiteIds must be a list.',
+          path: 'manifest.externalPrerequisiteIds',
+        ),
+      );
+    }
+    _validatePrerequisiteGraph(
+      lessons,
+      lessonIds,
+      externalPrerequisiteIds,
+      issues,
+    );
     for (final exercise in exercises) {
       _requireReference(exercise, 'lessonId', lessonIds, 'exercises', issues);
       _validateReviewStatus(exercise, 'exercises', issues);

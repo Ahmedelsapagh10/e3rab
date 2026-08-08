@@ -1,0 +1,5643 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-nawasekh-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-nawasekh-module-v1",
+      "nawasekh-kana-unit",
+      "nawasekh-kana",
+      "nawasekh-kana-ex-1",
+      "nawasekh-kana-ex-2",
+      "nawasekh-kana-ex-3",
+      "nawasekh-kana-ex-4",
+      "nawasekh-kana-ex-5",
+      "nawasekh-kana-ex-6",
+      "nawasekh-kana-ex-7",
+      "nawasekh-kana-ex-8",
+      "nawasekh-kana-ex-9",
+      "nawasekh-kana-ex-10",
+      "nawasekh-kada-unit",
+      "nawasekh-kada",
+      "nawasekh-kada-ex-1",
+      "nawasekh-kada-ex-2",
+      "nawasekh-kada-ex-3",
+      "nawasekh-kada-ex-4",
+      "nawasekh-kada-ex-5",
+      "nawasekh-kada-ex-6",
+      "nawasekh-kada-ex-7",
+      "nawasekh-kada-ex-8",
+      "nawasekh-kada-ex-9",
+      "nawasekh-kada-ex-10",
+      "nawasekh-inna-unit",
+      "nawasekh-inna",
+      "nawasekh-inna-ex-1",
+      "nawasekh-inna-ex-2",
+      "nawasekh-inna-ex-3",
+      "nawasekh-inna-ex-4",
+      "nawasekh-inna-ex-5",
+      "nawasekh-inna-ex-6",
+      "nawasekh-inna-ex-7",
+      "nawasekh-inna-ex-8",
+      "nawasekh-inna-ex-9",
+      "nawasekh-inna-ex-10",
+      "nawasekh-la-gender-negation-unit",
+      "nawasekh-la-gender-negation",
+      "nawasekh-la-gender-negation-ex-1",
+      "nawasekh-la-gender-negation-ex-2",
+      "nawasekh-la-gender-negation-ex-3",
+      "nawasekh-la-gender-negation-ex-4",
+      "nawasekh-la-gender-negation-ex-5",
+      "nawasekh-la-gender-negation-ex-6",
+      "nawasekh-la-gender-negation-ex-7",
+      "nawasekh-la-gender-negation-ex-8",
+      "nawasekh-la-gender-negation-ex-9",
+      "nawasekh-la-gender-negation-ex-10",
+      "nawasekh-zanna-unit",
+      "nawasekh-zanna",
+      "nawasekh-zanna-ex-1",
+      "nawasekh-zanna-ex-2",
+      "nawasekh-zanna-ex-3",
+      "nawasekh-zanna-ex-4",
+      "nawasekh-zanna-ex-5",
+      "nawasekh-zanna-ex-6",
+      "nawasekh-zanna-ex-7",
+      "nawasekh-zanna-ex-8",
+      "nawasekh-zanna-ex-9",
+      "nawasekh-zanna-ex-10",
+      "nawasekh-transformation-verbs-unit",
+      "nawasekh-transformation-verbs",
+      "nawasekh-transformation-verbs-ex-1",
+      "nawasekh-transformation-verbs-ex-2",
+      "nawasekh-transformation-verbs-ex-3",
+      "nawasekh-transformation-verbs-ex-4",
+      "nawasekh-transformation-verbs-ex-5",
+      "nawasekh-transformation-verbs-ex-6",
+      "nawasekh-transformation-verbs-ex-7",
+      "nawasekh-transformation-verbs-ex-8",
+      "nawasekh-transformation-verbs-ex-9",
+      "nawasekh-transformation-verbs-ex-10",
+      "nawasekh-ma-la-lata-unit",
+      "nawasekh-ma-la-lata",
+      "nawasekh-ma-la-lata-ex-1",
+      "nawasekh-ma-la-lata-ex-2",
+      "nawasekh-ma-la-lata-ex-3",
+      "nawasekh-ma-la-lata-ex-4",
+      "nawasekh-ma-la-lata-ex-5",
+      "nawasekh-ma-la-lata-ex-6",
+      "nawasekh-ma-la-lata-ex-7",
+      "nawasekh-ma-la-lata-ex-8",
+      "nawasekh-ma-la-lata-ex-9",
+      "nawasekh-ma-la-lata-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "verbal-hidden-subject"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-nawasekh-module-v1",
+      "slug": "general-nawasekh-v1",
+      "title": "النواسخ",
+      "unitIds": [
+        "nawasekh-kana-unit",
+        "nawasekh-kada-unit",
+        "nawasekh-inna-unit",
+        "nawasekh-la-gender-negation-unit",
+        "nawasekh-zanna-unit",
+        "nawasekh-transformation-verbs-unit",
+        "nawasekh-ma-la-lata-unit"
+      ],
+      "order": 5
+    }
+  ],
+  "units": [
+    {
+      "id": "nawasekh-kana-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-kana-unit",
+      "title": "كان وأخواتها",
+      "lessonIds": [
+        "nawasekh-kana"
+      ],
+      "order": 400
+    },
+    {
+      "id": "nawasekh-kada-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-kada-unit",
+      "title": "كاد وأخواتها",
+      "lessonIds": [
+        "nawasekh-kada"
+      ],
+      "order": 410
+    },
+    {
+      "id": "nawasekh-inna-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-inna-unit",
+      "title": "إن وأخواتها",
+      "lessonIds": [
+        "nawasekh-inna"
+      ],
+      "order": 420
+    },
+    {
+      "id": "nawasekh-la-gender-negation-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-la-gender-negation-unit",
+      "title": "لا النافية للجنس",
+      "lessonIds": [
+        "nawasekh-la-gender-negation"
+      ],
+      "order": 430
+    },
+    {
+      "id": "nawasekh-zanna-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-zanna-unit",
+      "title": "ظن وأخواتها",
+      "lessonIds": [
+        "nawasekh-zanna"
+      ],
+      "order": 440
+    },
+    {
+      "id": "nawasekh-transformation-verbs-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-transformation-verbs-unit",
+      "title": "أفعال التحويل",
+      "lessonIds": [
+        "nawasekh-transformation-verbs"
+      ],
+      "order": 450
+    },
+    {
+      "id": "nawasekh-ma-la-lata-unit",
+      "moduleId": "general-nawasekh-module-v1",
+      "slug": "nawasekh-ma-la-lata-unit",
+      "title": "ما ولا ولات المشبهات بليس",
+      "lessonIds": [
+        "nawasekh-ma-la-lata"
+      ],
+      "order": 460
+    }
+  ],
+  "lessons": [
+    {
+      "id": "nawasekh-kana",
+      "topicId": "nawasekh.kana",
+      "order": 400,
+      "unitId": "nawasekh-kana-unit",
+      "slug": "nawasekh-kana",
+      "title": "كان وأخواتها",
+      "shortTitle": "رفع الاسم ونصب الخبر",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز كان وأخواتها.",
+        "تحديد اسم الناسخ وخبره.",
+        "اختيار علامة كل ركن."
+      ],
+      "prerequisiteIds": [
+        "verbal-hidden-subject"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-kana-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تدخل كان وأخواتها على الجملة الاسمية فتغير حكم الخبر مع بقاء أصل الإسناد.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "أفعال ناقصة ترفع المبتدأ اسمًا لها وتنصب الخبر خبرًا لها، وتضيف معنى الزمن أو التحول أو الاستمرار أو النفي.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "اسم كان مرفوع وخبرها منصوب، وقد يأتي الخبر مفردًا أو جملة أو شبه جملة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدد الناسخ ومعناه، ثم المحكوم عليه اسمًا له، وبعده الجزء المتمم خبرًا.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "من أخواتها أصبح وأمسى وظل وبات وصار وليس وما زال، ولكل منها معنى وشرط استعمال.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الناسخ ← اسمه ← خبره وصورته ← الحالة ← العلامة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تنصب اسم كان، ولا تعامل الخبر الجملة كخبر مفرد منصوب لفظًا.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الجو معتدل» لا ناسخ؛ الجو مبتدأ ومعتدل خبر مرفوع.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "كان وأخواتها أفعال ناقصة: الاسم مرفوع والخبر منصوب أو في محل نصب.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-kana-example-1",
+          "sentence": "كان الجو معتدلا",
+          "fullyDiacritizedSentence": "كان الجو معتدلا",
+          "parsedWords": [
+            {
+              "word": "كان",
+              "normalizedWord": "كان",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل ماض ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل ماض ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الجو",
+              "normalizedWord": "الجو",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم كان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كان",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم كان؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "معتدلا",
+              "normalizedWord": "معتدلا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر كان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كان",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر كان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "الجو اسم كان ومعتدلا خبرها.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-example-2",
+          "sentence": "أصبح الطالب نشيطا",
+          "fullyDiacritizedSentence": "أصبح الطالب نشيطا",
+          "parsedWords": [
+            {
+              "word": "أصبح",
+              "normalizedWord": "أصبح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل ماض ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل ماض ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم أصبح",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "أصبح",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم أصبح؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "نشيطا",
+              "normalizedWord": "نشيطا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر أصبح",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "أصبح",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر أصبح؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "أصبح تفيد الدخول في الصباح.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-example-3",
+          "sentence": "ليس الكسل محمودا",
+          "fullyDiacritizedSentence": "ليس الكسل محمودا",
+          "parsedWords": [
+            {
+              "word": "ليس",
+              "normalizedWord": "ليس",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل ماض ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل ماض ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الكسل",
+              "normalizedWord": "الكسل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم ليس",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ليس",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم ليس؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "محمودا",
+              "normalizedWord": "محمودا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر ليس",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ليس",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر ليس؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "ليس تنفي الخبر عن الاسم.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kana-example-4",
+          "sentence": "صار الماء ثلجا",
+          "fullyDiacritizedSentence": "صار الماء ثلجا",
+          "parsedWords": [
+            {
+              "word": "صار",
+              "normalizedWord": "صار",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل ماض ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل ماض ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الماء",
+              "normalizedWord": "الماء",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم صار",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "صار",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم صار؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "ثلجا",
+              "normalizedWord": "ثلجا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر صار",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "صار",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر صار؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "صار تفيد التحول.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-kana-ex-1",
+        "nawasekh-kana-ex-2",
+        "nawasekh-kana-ex-3",
+        "nawasekh-kana-ex-4",
+        "nawasekh-kana-ex-5",
+        "nawasekh-kana-ex-6",
+        "nawasekh-kana-ex-7",
+        "nawasekh-kana-ex-8",
+        "nawasekh-kana-ex-9",
+        "nawasekh-kana-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-kana-ex-2",
+        "nawasekh-kana-ex-4",
+        "nawasekh-kana-ex-6",
+        "nawasekh-kana-ex-8",
+        "nawasekh-kana-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "كان",
+        "اسم كان",
+        "خبر كان"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nawasekh-kada",
+      "topicId": "nawasekh.kada",
+      "order": 410,
+      "unitId": "nawasekh-kada-unit",
+      "slug": "nawasekh-kada",
+      "title": "كاد وأخواتها",
+      "shortTitle": "أفعال المقاربة والرجاء والشروع",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تصنيف أفعال الباب.",
+        "تمييز خبرها الفعلي.",
+        "معرفة حكم اقتران الخبر بأن."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-kana"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-kada-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تصف هذه الأفعال قرب الحدث أو رجاءه أو بدءه، وتحتاج اسمًا وخبرًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "أفعال ناقصة تعمل عمل كان، وتنقسم إلى المقاربة والرجاء والشروع.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "ترفع الاسم ويكون خبرها غالبًا جملة فعلية مضارعية في محل نصب، ويختلف اقترانه بأن بحسب المجموعة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "تعرف معنى المقاربة أو الرجاء أو الشروع، ثم ابحث عن الاسم والمضارع الذي يتم المعنى.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "يكثر اقتران خبر عسى وأوشك بأن، ويمنع غالبًا مع أفعال الشروع، ويقل مع كاد.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "نوع الفعل ← معناه ← اسمه ← جملة الخبر ← حكم أن.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تنصب المضارع لمجرد كونه خبر كاد؛ الجملة كلها في محل نصب، ويبقى إعراب المضارع بحسب عامله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «بدأ الدرس» بدأ فعل تام؛ أما «بدأ الطالب يكتب» فقد تستعمل للشروع بحسب السياق.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "كاد وأخواتها ترفع الاسم وخبرها مضارع في محل نصب غالبًا.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-kada-example-1",
+          "sentence": "كاد المطر يهطل",
+          "fullyDiacritizedSentence": "كاد المطر يهطل",
+          "parsedWords": [
+            {
+              "word": "كاد",
+              "normalizedWord": "كاد",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل مقاربة ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل مقاربة ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "المطر",
+              "normalizedWord": "المطر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم كاد",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كاد",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم كاد؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "يهطل",
+              "normalizedWord": "يهطل",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل وفاعله مستتر؛ والجملة خبر كاد",
+              "grammaticalState": "مرفوع والجملة في محل نصب",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرد من الناصب والجازم",
+              "grammaticalAgent": "التجرد",
+              "sentencePosition": "خبر كاد",
+              "explanation": "فعل وفاعله مستتر؛ والجملة خبر كاد؛ مرفوع والجملة في محل نصب، وعلامته الضمة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "جملة يهطل في محل نصب خبر كاد.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-example-2",
+          "sentence": "أوشك القطار أن يصل",
+          "fullyDiacritizedSentence": "أوشك القطار أن يصل",
+          "parsedWords": [
+            {
+              "word": "أوشك",
+              "normalizedWord": "أوشك",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل مقاربة ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل مقاربة ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "القطار",
+              "normalizedWord": "القطار",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم أوشك",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "أوشك",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم أوشك؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "أن",
+              "normalizedWord": "أن",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف مصدري ونصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف مصدري ونصب؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 12,
+              "endIndex": 14
+            },
+            {
+              "word": "يصل",
+              "normalizedWord": "يصل",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل المصدر المؤول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "سبق بأن",
+              "grammaticalAgent": "أن",
+              "sentencePosition": "داخل خبر أوشك",
+              "explanation": "فعل المصدر المؤول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 15,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "خبر أوشك مصدر مؤول من أن والفعل.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-example-3",
+          "sentence": "عسى الطفل أن ينجح",
+          "fullyDiacritizedSentence": "عسى الطفل أن ينجح",
+          "parsedWords": [
+            {
+              "word": "عسى",
+              "normalizedWord": "عسى",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل رجاء ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل رجاء ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطفل",
+              "normalizedWord": "الطفل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم عسى",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "عسى",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم عسى؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "أن",
+              "normalizedWord": "أن",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف مصدري ونصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف مصدري ونصب؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 10,
+              "endIndex": 12
+            },
+            {
+              "word": "ينجح",
+              "normalizedWord": "ينجح",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل المصدر المؤول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "سبق بأن",
+              "grammaticalAgent": "أن",
+              "sentencePosition": "داخل خبر عسى",
+              "explanation": "فعل المصدر المؤول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 13,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "عسى للرجاء وخبرها مقترن بأن.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-kada-example-4",
+          "sentence": "بدأ الطالب يكتب",
+          "fullyDiacritizedSentence": "بدأ الطالب يكتب",
+          "parsedWords": [
+            {
+              "word": "بدأ",
+              "normalizedWord": "بدأ",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل شروع ناقص",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل شروع ناقص؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم بدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "بدأ",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم بدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل وفاعله مستتر؛ والجملة خبر بدأ",
+              "grammaticalState": "مرفوع والجملة في محل نصب",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرد من الناصب والجازم",
+              "grammaticalAgent": "التجرد",
+              "sentencePosition": "خبر بدأ",
+              "explanation": "فعل وفاعله مستتر؛ والجملة خبر بدأ؛ مرفوع والجملة في محل نصب، وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "بدأ للشروع وخبرها جملة فعلية.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-kada-ex-1",
+        "nawasekh-kada-ex-2",
+        "nawasekh-kada-ex-3",
+        "nawasekh-kada-ex-4",
+        "nawasekh-kada-ex-5",
+        "nawasekh-kada-ex-6",
+        "nawasekh-kada-ex-7",
+        "nawasekh-kada-ex-8",
+        "nawasekh-kada-ex-9",
+        "nawasekh-kada-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-kada-ex-2",
+        "nawasekh-kada-ex-4",
+        "nawasekh-kada-ex-6",
+        "nawasekh-kada-ex-8",
+        "nawasekh-kada-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "كاد",
+        "عسى",
+        "أفعال الشروع"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nawasekh-inna",
+      "topicId": "nawasekh.inna",
+      "order": 420,
+      "unitId": "nawasekh-inna-unit",
+      "slug": "nawasekh-inna",
+      "title": "إن وأخواتها",
+      "shortTitle": "نصب الاسم ورفع الخبر",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الحروف الناسخة ومعانيها.",
+        "إعراب الاسم والخبر.",
+        "تمييز صور الخبر."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-kada"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-inna-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تدخل إن وأخواتها على الجملة الاسمية لتوكيد أو تشبيه أو استدراك أو تمن أو ترج.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "حروف ناسخة تنصب المبتدأ اسمًا لها وترفع الخبر خبرًا لها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "اسم إن منصوب وخبرها مرفوع، أو يكون الخبر جملة أو شبه جملة في محل رفع.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدد الحرف الناسخ ومعناه، ثم الاسم المنصوب بعده والخبر الذي يتم به المعنى.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "إن وأن للتوكيد، وكأن للتشبيه، ولكن للاستدراك، وليت للتمني، ولعل للترجي أو الإشفاق.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الحرف ← معناه ← الاسم ← الخبر وصورته ← العلامتان.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا ترفع اسم إن، ولا تنصب خبرها المفرد، ولا تخلط لكن الناسخة بلكن العاطفة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «العلم نور» لا حرف ناسخ؛ الركنان مرفوعان.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "إن وأخواتها تنصب الاسم وترفع الخبر، مع مراعاة صورة الخبر.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-inna-example-1",
+          "sentence": "إن العلم نور",
+          "fullyDiacritizedSentence": "إن العلم نور",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "إن",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف توكيد ونصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف توكيد ونصب؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم إن",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "إن",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم إن؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر إن",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "إن",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر إن؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "إن للتوكيد.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-example-2",
+          "sentence": "لعل الفرج قريب",
+          "fullyDiacritizedSentence": "لعل الفرج قريب",
+          "parsedWords": [
+            {
+              "word": "لعل",
+              "normalizedWord": "لعل",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف ترج ونصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف ترج ونصب؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الفرج",
+              "normalizedWord": "الفرج",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لعل",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لعل",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم لعل؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "قريب",
+              "normalizedWord": "قريب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لعل",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر لعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "لعل للترجي.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-example-3",
+          "sentence": "كأن القمر مصباح",
+          "fullyDiacritizedSentence": "كأن القمر مصباح",
+          "parsedWords": [
+            {
+              "word": "كأن",
+              "normalizedWord": "كأن",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف تشبيه ونصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف تشبيه ونصب؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "القمر",
+              "normalizedWord": "القمر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم كأن",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كأن",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم كأن؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "مصباح",
+              "normalizedWord": "مصباح",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر كأن",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كأن",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر كأن؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "كأن للتشبيه.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-inna-example-4",
+          "sentence": "لكن الطريق طويل",
+          "fullyDiacritizedSentence": "لكن الطريق طويل",
+          "parsedWords": [
+            {
+              "word": "لكن",
+              "normalizedWord": "لكن",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف استدراك ونصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف استدراك ونصب؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطريق",
+              "normalizedWord": "الطريق",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لكن",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لكن",
+              "sentencePosition": "بعد الناسخ",
+              "explanation": "اسم لكن؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "طويل",
+              "normalizedWord": "طويل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لكن",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لكن",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر لكن؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "لكن للاستدراك.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-inna-ex-1",
+        "nawasekh-inna-ex-2",
+        "nawasekh-inna-ex-3",
+        "nawasekh-inna-ex-4",
+        "nawasekh-inna-ex-5",
+        "nawasekh-inna-ex-6",
+        "nawasekh-inna-ex-7",
+        "nawasekh-inna-ex-8",
+        "nawasekh-inna-ex-9",
+        "nawasekh-inna-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-inna-ex-2",
+        "nawasekh-inna-ex-4",
+        "nawasekh-inna-ex-6",
+        "nawasekh-inna-ex-8",
+        "nawasekh-inna-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "إن",
+        "اسم إن",
+        "خبر إن"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nawasekh-la-gender-negation",
+      "topicId": "nawasekh.la-gender-negation",
+      "order": 430,
+      "unitId": "nawasekh-la-gender-negation-unit",
+      "slug": "nawasekh-la-gender-negation",
+      "title": "لا النافية للجنس",
+      "shortTitle": "نفي الجنس كله",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز لا العاملة من المهملة.",
+        "إعراب صور اسم لا.",
+        "تحديد خبرها."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-inna"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-la-gender-negation-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تنفي لا النافية للجنس الحكم عن جميع أفراد الاسم الذي يليها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "حرف ناسخ يعمل عمل إن بشرط أن يكون اسمها وخبرها نكرتين وألا يفصل بينها وبين اسمها فاصل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "اسمها المفرد يبنى على ما ينصب به في محل نصب، والمضاف والشبيه بالمضاف منصوبان، وخبرها مرفوع أو في محل رفع.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "اختبر معنى الاستغراق، ونكرة الاسم، واتصاله بلا، ثم حدد صورة الاسم والخبر.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "إذا دخلت على معرفة أو فصل بينها وبين اسمها وجب إهمالها وتكرارها في بعض الأساليب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "معنى النفي ← شروط العمل ← صورة الاسم ← محل أو علامة النصب ← الخبر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تقل إن الاسم المفرد منصوب لفظًا؛ هو مبني في محل نصب، ولا تعمل لا مع المعرفة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «لا الطالب حاضر ولا المعلم» لا مهملة لدخولها على معرفة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "لا النافية للجنس تنصب الاسم وترفع الخبر مع شروط وصور محددة للاسم.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-la-gender-negation-example-1",
+          "sentence": "لا طالب مهمل",
+          "fullyDiacritizedSentence": "لا طالب مهمل",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "نافية للجنس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "نافية للجنس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لا",
+              "grammaticalState": "مبني في محل نصب",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "مفرد",
+              "grammaticalAgent": "لا النافية للجنس",
+              "sentencePosition": "بعد لا",
+              "explanation": "اسم لا؛ مبني في محل نصب، وعلامته مبني على الفتح.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "مهمل",
+              "normalizedWord": "مهمل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر لا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "طالب اسم لا مفرد مبني في محل نصب.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-example-2",
+          "sentence": "لا طلاب مهملون",
+          "fullyDiacritizedSentence": "لا طلاب مهملون",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "نافية للجنس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "نافية للجنس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "طلاب",
+              "normalizedWord": "طلاب",
+              "wordType": "جمع تكسير",
+              "grammaticalRole": "اسم لا",
+              "grammaticalState": "مبني في محل نصب",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "غير مضاف",
+              "grammaticalAgent": "لا النافية للجنس",
+              "sentencePosition": "بعد لا",
+              "explanation": "اسم لا؛ مبني في محل نصب، وعلامته مبني على الفتح.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "مهملون",
+              "normalizedWord": "مهملون",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو نيابة عن الضمة",
+              "signReason": "جمع مذكر سالم",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر لا؛ مرفوع، وعلامته الواو نيابة عن الضمة.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "جمع التكسير اسم لا مفرد في الباب.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-example-3",
+          "sentence": "لا طالب علم مقصر",
+          "fullyDiacritizedSentence": "لا طالب علم مقصر",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "نافية للجنس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "نافية للجنس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لا مضاف",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد لا",
+              "explanation": "اسم لا مضاف؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "علم",
+              "normalizedWord": "علم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 11
+            },
+            {
+              "word": "مقصر",
+              "normalizedWord": "مقصر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر لا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "اسم لا مضاف منصوب.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-la-gender-negation-example-4",
+          "sentence": "لا راغبا في الشر نادم",
+          "fullyDiacritizedSentence": "لا راغبا في الشر نادم",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "نافية للجنس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "نافية للجنس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "راغبا",
+              "normalizedWord": "راغبا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لا شبيه بالمضاف",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد لا",
+              "explanation": "اسم لا شبيه بالمضاف؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف",
+              "grammaticalAgent": "البناء",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "عامل الجر؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 9,
+              "endIndex": 11
+            },
+            {
+              "word": "الشر",
+              "normalizedWord": "الشر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "في",
+              "sentencePosition": "داخل المتعلق",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 16
+            },
+            {
+              "word": "نادم",
+              "normalizedWord": "نادم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر لا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 17,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "اسم لا شبيه بالمضاف منصوب.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-la-gender-negation-ex-1",
+        "nawasekh-la-gender-negation-ex-2",
+        "nawasekh-la-gender-negation-ex-3",
+        "nawasekh-la-gender-negation-ex-4",
+        "nawasekh-la-gender-negation-ex-5",
+        "nawasekh-la-gender-negation-ex-6",
+        "nawasekh-la-gender-negation-ex-7",
+        "nawasekh-la-gender-negation-ex-8",
+        "nawasekh-la-gender-negation-ex-9",
+        "nawasekh-la-gender-negation-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-la-gender-negation-ex-2",
+        "nawasekh-la-gender-negation-ex-4",
+        "nawasekh-la-gender-negation-ex-6",
+        "nawasekh-la-gender-negation-ex-8",
+        "nawasekh-la-gender-negation-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "لا النافية للجنس",
+        "اسم لا",
+        "خبر لا"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nawasekh-zanna",
+      "topicId": "nawasekh.zanna",
+      "order": 440,
+      "unitId": "nawasekh-zanna-unit",
+      "slug": "nawasekh-zanna",
+      "title": "ظن وأخواتها",
+      "shortTitle": "مفعولان أصلهما مبتدأ وخبر",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز أفعال القلوب.",
+        "تحديد المفعولين.",
+        "استعادة أصل الجملة الاسمية."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-la-gender-negation"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-zanna-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تنقل ظن وأخواتها حكمًا ذهنيًا على جملة اسمية فتنصب ركنيها مفعولين.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "أفعال تدخل على المبتدأ والخبر بعد استيفاء فاعلها، فتنصبهما مفعولًا أول وثانيًا.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "المفعول الأول أصله المبتدأ، والثاني أصله الخبر، وتشمل أفعال الرجحان واليقين.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدد الفعل وفاعله، ثم جرّب إعادة الاسمين إلى جملة اسمية مستقلة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد تعلق هذه الأفعال عن العمل أو تلغى في مواضع، وتأتي بعض ألفاظها قلبية أو بصرية بحسب المعنى.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الفعل القلبي ← الفاعل ← أصل الإسناد ← المفعول الأول ← الثاني.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل الاسم الأول فاعلًا بعد أن استوفى الفعل فاعله، ولا تعامل رأى البصرية معاملة رأى العلمية.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «رأى الطفل القمر» رأى بصرية تنصب مفعولًا واحدًا.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "ظن وأخواتها تنصب مفعولين أصلهما مبتدأ وخبر.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-zanna-example-1",
+          "sentence": "ظن الطالب الامتحان سهلا",
+          "fullyDiacritizedSentence": "ظن الطالب الامتحان سهلا",
+          "parsedWords": [
+            {
+              "word": "ظن",
+              "normalizedWord": "ظن",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل قلبي",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل قلبي؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ظن",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 9
+            },
+            {
+              "word": "الامتحان",
+              "normalizedWord": "الامتحان",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ظن",
+              "sentencePosition": "بعد الفاعل",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 18
+            },
+            {
+              "word": "سهلا",
+              "normalizedWord": "سهلا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ظن",
+              "sentencePosition": "بعد الأول",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 19,
+              "endIndex": 23
+            }
+          ],
+          "explanation": "المفعولان أصلهما الامتحان سهل.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-example-2",
+          "sentence": "حسبت الصدق نجاة",
+          "fullyDiacritizedSentence": "حسبت الصدق نجاة",
+          "parsedWords": [
+            {
+              "word": "حسبت",
+              "normalizedWord": "حسبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل قلبي وفاعله التاء",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل قلبي وفاعله التاء؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الصدق",
+              "normalizedWord": "الصدق",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حسب",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "نجاة",
+              "normalizedWord": "نجاة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حسب",
+              "sentencePosition": "بعد الأول",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "التاء فاعل والاسمان مفعولان.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-example-3",
+          "sentence": "علم المعلم الطالب مجتهدا",
+          "fullyDiacritizedSentence": "علم المعلم الطالب مجتهدا",
+          "parsedWords": [
+            {
+              "word": "علم",
+              "normalizedWord": "علم",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل يقين",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل يقين؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "المعلم",
+              "normalizedWord": "المعلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "علم",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "علم",
+              "sentencePosition": "بعد الفاعل",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 17
+            },
+            {
+              "word": "مجتهدا",
+              "normalizedWord": "مجتهدا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "علم",
+              "sentencePosition": "بعد الأول",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 18,
+              "endIndex": 24
+            }
+          ],
+          "explanation": "علم اليقينية تنصب مفعولين.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-zanna-example-4",
+          "sentence": "رأى العالم البحث مفيدا",
+          "fullyDiacritizedSentence": "رأى العالم البحث مفيدا",
+          "parsedWords": [
+            {
+              "word": "رأى",
+              "normalizedWord": "رأى",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل يقين",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل يقين؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "العالم",
+              "normalizedWord": "العالم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رأى",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "البحث",
+              "normalizedWord": "البحث",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رأى العلمية",
+              "sentencePosition": "بعد الفاعل",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            },
+            {
+              "word": "مفيدا",
+              "normalizedWord": "مفيدا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رأى العلمية",
+              "sentencePosition": "بعد الأول",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 17,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "رأى هنا علمية لا بصرية.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-zanna-ex-1",
+        "nawasekh-zanna-ex-2",
+        "nawasekh-zanna-ex-3",
+        "nawasekh-zanna-ex-4",
+        "nawasekh-zanna-ex-5",
+        "nawasekh-zanna-ex-6",
+        "nawasekh-zanna-ex-7",
+        "nawasekh-zanna-ex-8",
+        "nawasekh-zanna-ex-9",
+        "nawasekh-zanna-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-zanna-ex-2",
+        "nawasekh-zanna-ex-4",
+        "nawasekh-zanna-ex-6",
+        "nawasekh-zanna-ex-8",
+        "nawasekh-zanna-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "ظن",
+        "أفعال القلوب",
+        "المفعولان"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nawasekh-transformation-verbs",
+      "topicId": "nawasekh.transformation-verbs",
+      "order": 450,
+      "unitId": "nawasekh-transformation-verbs-unit",
+      "slug": "nawasekh-transformation-verbs",
+      "title": "أفعال التحويل",
+      "shortTitle": "صيّر الشيء شيئًا آخر",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز معنى التحويل.",
+        "تحديد المفعولين.",
+        "التفريق من أفعال القلوب."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-zanna"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-transformation-verbs-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تدل أفعال التحويل على نقل شيء من حال إلى حال، ولذلك تحتاج مفعولين.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "أفعال مثل جعل وصير واتخذ ورد وترك إذا دلت على التحويل، وتنصب مفعولين أصلهما مبتدأ وخبر.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "الأول هو الشيء المحول، والثاني الحالة أو الصورة التي صار إليها.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "اسأل: ما الشيء الذي تغير؟ وإلى ماذا تحول؟ ثم اختبر أصل الجملة الاسمية.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد تستعمل بعض هذه الأفعال بمعان أخرى فلا تنصب مفعولين؛ يحدد السياق عملها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "معنى التحويل ← الفاعل ← الشيء المحول ← النتيجة ← علامتا النصب.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل كل «جعل» ناسخة لمفعولين؛ فقد تأتي بمعنى خلق أو بدأ.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «جعل الطفل يضحك» جعل من أفعال الشروع وخبرها جملة فعلية.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "أفعال التحويل تنصب مفعولين: المتحول والنتيجة، إذا تحقق معنى التصيير.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-transformation-verbs-example-1",
+          "sentence": "جعل النجار الخشب بابا",
+          "fullyDiacritizedSentence": "جعل النجار الخشب بابا",
+          "parsedWords": [
+            {
+              "word": "جعل",
+              "normalizedWord": "جعل",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل تحويل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل تحويل؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "النجار",
+              "normalizedWord": "النجار",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جعل",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "الخشب",
+              "normalizedWord": "الخشب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جعل",
+              "sentencePosition": "المتحول",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            },
+            {
+              "word": "بابا",
+              "normalizedWord": "بابا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جعل",
+              "sentencePosition": "نتيجة التحويل",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 17,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "حوّل النجار الخشب إلى باب.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-example-2",
+          "sentence": "اتخذ الطالب الكتاب صديقا",
+          "fullyDiacritizedSentence": "اتخذ الطالب الكتاب صديقا",
+          "parsedWords": [
+            {
+              "word": "اتخذ",
+              "normalizedWord": "اتخذ",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل تحويل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل تحويل؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتخذ",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتخذ",
+              "sentencePosition": "المتحول",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 18
+            },
+            {
+              "word": "صديقا",
+              "normalizedWord": "صديقا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتخذ",
+              "sentencePosition": "نتيجة التحويل",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 19,
+              "endIndex": 24
+            }
+          ],
+          "explanation": "الكتاب متخذ والصديق حالته الجديدة.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-example-3",
+          "sentence": "صير الحر النار رمادا",
+          "fullyDiacritizedSentence": "صير الحر النار رمادا",
+          "parsedWords": [
+            {
+              "word": "صير",
+              "normalizedWord": "صير",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل تحويل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل تحويل؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الحر",
+              "normalizedWord": "الحر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "صير",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "النار",
+              "normalizedWord": "النار",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "صير",
+              "sentencePosition": "المتحول",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 14
+            },
+            {
+              "word": "رمادا",
+              "normalizedWord": "رمادا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "صير",
+              "sentencePosition": "نتيجة التحويل",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 15,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "النار صارت رمادًا.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-transformation-verbs-example-4",
+          "sentence": "رد التدريب الصعب سهلا",
+          "fullyDiacritizedSentence": "رد التدريب الصعب سهلا",
+          "parsedWords": [
+            {
+              "word": "رد",
+              "normalizedWord": "رد",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل تحويل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل تحويل؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "التدريب",
+              "normalizedWord": "التدريب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رد",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 10
+            },
+            {
+              "word": "الصعب",
+              "normalizedWord": "الصعب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول أول",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رد",
+              "sentencePosition": "المتحول",
+              "explanation": "مفعول أول؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            },
+            {
+              "word": "سهلا",
+              "normalizedWord": "سهلا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول ثان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رد",
+              "sentencePosition": "نتيجة التحويل",
+              "explanation": "مفعول ثان؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 17,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "الصعب مفعول أول وسهلًا ثان.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-transformation-verbs-ex-1",
+        "nawasekh-transformation-verbs-ex-2",
+        "nawasekh-transformation-verbs-ex-3",
+        "nawasekh-transformation-verbs-ex-4",
+        "nawasekh-transformation-verbs-ex-5",
+        "nawasekh-transformation-verbs-ex-6",
+        "nawasekh-transformation-verbs-ex-7",
+        "nawasekh-transformation-verbs-ex-8",
+        "nawasekh-transformation-verbs-ex-9",
+        "nawasekh-transformation-verbs-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-transformation-verbs-ex-2",
+        "nawasekh-transformation-verbs-ex-4",
+        "nawasekh-transformation-verbs-ex-6",
+        "nawasekh-transformation-verbs-ex-8",
+        "nawasekh-transformation-verbs-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "أفعال التحويل",
+        "جعل",
+        "صيّر"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nawasekh-ma-la-lata",
+      "topicId": "nawasekh.ma-la-lata",
+      "order": 460,
+      "unitId": "nawasekh-ma-la-lata-unit",
+      "slug": "nawasekh-ma-la-lata",
+      "title": "ما ولا ولات المشبهات بليس",
+      "shortTitle": "حروف نفي تعمل عمل ليس",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الحروف العاملة عمل ليس.",
+        "تحديد شروط العمل.",
+        "إعراب الاسم والخبر."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-transformation-verbs"
+      ],
+      "sections": [
+        {
+          "id": "nawasekh-ma-la-lata-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "قد تعمل بعض حروف النفي عمل ليس فترفع الاسم وتنصب الخبر بشروط.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "ما الحجازية ولا ولات حروف نفي تشبه ليس في رفع الاسم ونصب الخبر، ولكل منها قيود.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "تعمل ما بشرط بقاء النفي وترتيب معموليها في الأشهر، وتعمل لا بشروط، وتختص لات غالبًا بألفاظ الزمان ويحذف أحد معموليها.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدد معنى النفي، وافحص الشروط، ثم ميز الاسم المرفوع والخبر المنصوب أو المحذوف.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد تزاد الباء في خبر ما فيجر لفظًا ويبقى في محل نصب، وإذا بطل شرط العمل عاد المبتدأ والخبر مرفوعين.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "أداة النفي ← تحقق الشرط ← الاسم ← الخبر ← اللفظ والمحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعمل كل ما ولا عمل ليس، ولا تعرب المجرور بالباء خبرًا مجرور المحل.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «ما إن الطالب مهمل» قد يبطل عمل ما لوجود إن الزائدة وفق التحليل المعتمد.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "هذه الحروف تعمل عمل ليس بقيود: الاسم مرفوع والخبر منصوب أو في محل نصب.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nawasekh-ma-la-lata-example-1",
+          "sentence": "ما الطالب مهملا",
+          "fullyDiacritizedSentence": "ما الطالب مهملا",
+          "parsedWords": [
+            {
+              "word": "ما",
+              "normalizedWord": "ما",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف نفي يعمل عمل ليس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف نفي يعمل عمل ليس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم ما",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ما",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم ما؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 9
+            },
+            {
+              "word": "مهملا",
+              "normalizedWord": "مهملا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر ما",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "ما",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر ما؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "ما الحجازية رفعت الاسم ونصبت الخبر.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-example-2",
+          "sentence": "ما هذا بشرا",
+          "fullyDiacritizedSentence": "ما هذا بشرا",
+          "parsedWords": [
+            {
+              "word": "ما",
+              "normalizedWord": "ما",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف نفي يعمل عمل ليس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف نفي يعمل عمل ليس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "اسم إشارة",
+              "grammaticalRole": "اسم ما",
+              "grammaticalState": "مبني في محل رفع",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم مبني",
+              "grammaticalAgent": "ما",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم ما؛ مبني في محل رفع، وعلامته مبني على السكون.",
+              "startIndex": 3,
+              "endIndex": 6
+            },
+            {
+              "word": "بشرا",
+              "normalizedWord": "بشرا",
+              "wordType": "اسم معرب دخلت عليه الباء الزائدة",
+              "grammaticalRole": "خبر ما",
+              "grammaticalState": "مجرور لفظا منصوب محلا",
+              "grammaticalSign": "الكسرة المقدرة منع ظهورها الفتحة",
+              "signReason": "دخول الباء الزائدة",
+              "grammaticalAgent": "ما",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر ما؛ مجرور لفظا منصوب محلا، وعلامته الكسرة المقدرة منع ظهورها الفتحة.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "هذا اسم ما والباء زائدة في خبرها.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-example-3",
+          "sentence": "لا رجل حاضرا",
+          "fullyDiacritizedSentence": "لا رجل حاضرا",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف نفي يعمل عمل ليس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف نفي يعمل عمل ليس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "رجل",
+              "normalizedWord": "رجل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم لا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 6
+            },
+            {
+              "word": "حاضرا",
+              "normalizedWord": "حاضرا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لا",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لا",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "خبر لا؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "لا المشبهة بليس رفعت الاسم ونصبت الخبر.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        },
+        {
+          "id": "nawasekh-ma-la-lata-example-4",
+          "sentence": "لات وقت ندامة",
+          "fullyDiacritizedSentence": "لات وقت ندامة",
+          "parsedWords": [
+            {
+              "word": "لات",
+              "normalizedWord": "لات",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "حرف نفي يعمل عمل ليس",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "النسخ",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف نفي يعمل عمل ليس؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "وقت",
+              "normalizedWord": "وقت",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لات",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "لات",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم لات؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 7
+            },
+            {
+              "word": "ندامة",
+              "normalizedWord": "ندامة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد الاسم",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "لات تختص بالزمان وحذف خبرها مقدر.",
+          "referenceIds": [
+            "ref-general-nawasekh-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nawasekh-ma-la-lata-ex-1",
+        "nawasekh-ma-la-lata-ex-2",
+        "nawasekh-ma-la-lata-ex-3",
+        "nawasekh-ma-la-lata-ex-4",
+        "nawasekh-ma-la-lata-ex-5",
+        "nawasekh-ma-la-lata-ex-6",
+        "nawasekh-ma-la-lata-ex-7",
+        "nawasekh-ma-la-lata-ex-8",
+        "nawasekh-ma-la-lata-ex-9",
+        "nawasekh-ma-la-lata-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nawasekh-ma-la-lata-ex-2",
+        "nawasekh-ma-la-lata-ex-4",
+        "nawasekh-ma-la-lata-ex-6",
+        "nawasekh-ma-la-lata-ex-8",
+        "nawasekh-ma-la-lata-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "tags": [
+        "ما الحجازية",
+        "لا المشبهة بليس",
+        "لات"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "nawasekh-kana-ex-1",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اسم كان؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم كان: مرفوع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-2",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر كان المفرد؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "منصوب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر كان المفرد: منصوب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-3",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: صار؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تفيد التحول",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "صار: تفيد التحول.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-4",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ليس؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تفيد النفي",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ليس: تفيد النفي.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-5",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر كان الجملة؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "في محل نصب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر كان الجملة: في محل نصب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-6",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كان وأخواتها؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "أفعال ناقصة",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كان وأخواتها: أفعال ناقصة.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-7",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الجو في كان الجو معتدلا؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم كان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الجو في كان الجو معتدلا: اسم كان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-8",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: معتدلا؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر كان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "معتدلا: خبر كان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-9",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ما زال؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تفيد الاستمرار",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ما زال: تفيد الاستمرار.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kana-ex-10",
+      "lessonId": "nawasekh-kana",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: قبل العلامة؟",
+      "skillIds": [
+        "nawasekh.kana"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نحدد صورة الخبر",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "قبل العلامة: نحدد صورة الخبر.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-1",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اسم كاد؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم كاد: مرفوع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-2",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر كاد؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جملة مضارعية غالبا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر كاد: جملة مضارعية غالبا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-3",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: عسى؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للرجاء",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عسى: للرجاء.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-4",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كاد؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للمقاربة",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كاد: للمقاربة.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-5",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: بدأ في الاستعمال الناقص؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "للشروع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بدأ في الاستعمال الناقص: للشروع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-6",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر عسى؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكثر اقترانه بأن",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر عسى: يكثر اقترانه بأن.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-7",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر الشروع؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يمتنع اقترانه بأن غالبا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر الشروع: يمتنع اقترانه بأن غالبا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-8",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: جملة الخبر؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "في محل نصب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جملة الخبر: في محل نصب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-9",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضارع داخل الخبر؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يعرب حسب عامله",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضارع داخل الخبر: يعرب حسب عامله.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-kada-ex-10",
+      "lessonId": "nawasekh-kada",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: أوشك؟",
+      "skillIds": [
+        "nawasekh.kada"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "للمقاربة",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أوشك: للمقاربة.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-1",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اسم إن؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "منصوب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم إن: منصوب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-2",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر إن؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر إن: مرفوع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-3",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كأن؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للتشبيه",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كأن: للتشبيه.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-4",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: لكن؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للاستدراك",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لكن: للاستدراك.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-5",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: لعل؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "للترجي",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لعل: للترجي.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-6",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ليت؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "للتمني",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ليت: للتمني.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-7",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: إن؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "للتوكيد",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن: للتوكيد.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-8",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر إن الجملة؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "في محل رفع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر إن الجملة: في محل رفع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-9",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: العلم في إن العلم نور؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم إن",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العلم في إن العلم نور: اسم إن.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-inna-ex-10",
+      "lessonId": "nawasekh-inna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: نور؟",
+      "skillIds": [
+        "nawasekh.inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر إن",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نور: خبر إن.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-1",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: معنى لا النافية للجنس؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "استغراق النفي",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "معنى لا النافية للجنس: استغراق النفي.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-2",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اسمها المفرد؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني في محل نصب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسمها المفرد: مبني في محل نصب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-3",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اسمها المضاف؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "منصوب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسمها المضاف: منصوب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-4",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبرها؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبرها: مرفوع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-5",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: شرط اسمها؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "أن يكون نكرة",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "شرط اسمها: أن يكون نكرة.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-6",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الفصل بينها وبين الاسم؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يبطل العمل",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الفصل بينها وبين الاسم: يبطل العمل.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-7",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: طالب في لا طالب مهمل؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم لا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "طالب في لا طالب مهمل: اسم لا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-8",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: مهمل؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر لا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "مهمل: خبر لا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-9",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المضاف إليه؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المضاف إليه: مجرور.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-la-gender-negation-ex-10",
+      "lessonId": "nawasekh-la-gender-negation",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: مع المعرفة؟",
+      "skillIds": [
+        "nawasekh.la-gender-negation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تهمل لا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "مع المعرفة: تهمل لا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-1",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: مفعولا ظن؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أصلهما مبتدأ وخبر",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "مفعولا ظن: أصلهما مبتدأ وخبر.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-2",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المفعول الأول؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أصله المبتدأ",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المفعول الأول: أصله المبتدأ.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-3",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المفعول الثاني؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أصله الخبر",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المفعول الثاني: أصله الخبر.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-4",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ظن؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للرجحان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ظن: للرجحان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-5",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: علم القلبية؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لليقين",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "علم القلبية: لليقين.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-6",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: رأى البصرية؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تنصب مفعولا واحدا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "رأى البصرية: تنصب مفعولا واحدا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-7",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: قبل المفعولين؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نحدد الفاعل",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "قبل المفعولين: نحدد الفاعل.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-8",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: سهلا في المثال؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفعول ثان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "سهلا في المثال: مفعول ثان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-9",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الامتحان؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفعول أول",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الامتحان: مفعول أول.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-zanna-ex-10",
+      "lessonId": "nawasekh-zanna",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المفعولان؟",
+      "skillIds": [
+        "nawasekh.zanna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "منصوبان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المفعولان: منصوبان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-1",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: جعل التحويلية؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تنصب مفعولين",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جعل التحويلية: تنصب مفعولين.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-2",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المفعول الأول؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الشيء المتحول",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المفعول الأول: الشيء المتحول.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-3",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المفعول الثاني؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "النتيجة",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المفعول الثاني: النتيجة.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-4",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: صير؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "فعل تحويل",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "صير: فعل تحويل.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-5",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اتخذ؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "قد يدل على التحويل",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اتخذ: قد يدل على التحويل.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-6",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: السياق؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد العمل",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "السياق: يحدد العمل.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-7",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الخشب في المثال؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفعول أول",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الخشب في المثال: مفعول أول.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-8",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: بابا؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفعول ثان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بابا: مفعول ثان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-9",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: أصل المفعولين؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبتدأ وخبر",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أصل المفعولين: مبتدأ وخبر.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-transformation-verbs-ex-10",
+      "lessonId": "nawasekh-transformation-verbs",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: جعل الشروع؟",
+      "skillIds": [
+        "nawasekh.transformation-verbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبرها جملة",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جعل الشروع: خبرها جملة.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-1",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ما الحجازية؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعمل عمل ليس",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ما الحجازية: تعمل عمل ليس.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-2",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: اسم ما؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم ما: مرفوع.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-3",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خبر ما؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "منصوب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خبر ما: منصوب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-4",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الباء في خبر ما؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "زائدة وقد تجره لفظا",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الباء في خبر ما: زائدة وقد تجره لفظا.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-5",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المحل مع الباء؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "النصب",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المحل مع الباء: النصب.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-6",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: لات؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تختص غالبا بالزمان",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لات: تختص غالبا بالزمان.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-7",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: لا المشبهة بليس؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ترفع الاسم وتنصب الخبر",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا المشبهة بليس: ترفع الاسم وتنصب الخبر.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-8",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: العمل؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مقيد بشروط",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العمل: مقيد بشروط.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-9",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: إذا بطل الشرط؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يرتفع المبتدأ والخبر",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا بطل الشرط: يرتفع المبتدأ والخبر.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nawasekh-ma-la-lata-ex-10",
+      "lessonId": "nawasekh-ma-la-lata",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: مهملا في المثال؟",
+      "skillIds": [
+        "nawasekh.ma-la-lata"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر ما",
+          "feedback": "صحيح؛ يوافق عمل الناسخ."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق عليه هذا الحكم",
+          "feedback": "راجع معنى الناسخ وعمله في الركنين."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "مهملا في المثال: خبر ما.",
+      "hint": "حدد الناسخ ثم اسمه وخبره أو مفعوليه.",
+      "referenceIds": [
+        "ref-general-nawasekh-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-nawasekh-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

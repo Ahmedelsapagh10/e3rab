@@ -81,17 +81,9 @@ class _CompletionView extends StatelessWidget {
                   ? state.score >= .8
                         ? 'أحسنت، أتقنت الدرس: ${state.correctCount} من ${state.exercises.length}'
                         : 'أجبت ${state.correctCount} من ${state.exercises.length}. راجع الأمثلة ثم حاول مرة أخرى.'
-                  : 'الإجابات الصحيحة ${(state.score * 100).round()}٪',
+                  : 'أكملت التدريب. يمكنك الآن الانتقال إلى اختبار الإتقان.',
               textAlign: TextAlign.center,
             ),
-            if (!isExam) ...[
-              Text('الدرجة الموزونة ${(state.weightedScore * 100).round()}٪'),
-              const SizedBox(height: 8),
-              const Text(
-                'تراعي الدرجة الموزونة التلميحات والمحاولات السابقة وكشف الإجابة.',
-                textAlign: TextAlign.center,
-              ),
-            ],
             const SizedBox(height: 24),
             FilledButton(
               onPressed: onClose,

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 abstract final class E3rabBrandColors {
-  static const navy = Color(0xFF173B34);
-  static const primaryBlue = Color(0xFF0F5C4D);
-  static const sky = Color(0xFFE7F0EB);
+  static const heading = Color(0xFF173B34);
+  static const primary = Color(0xFF0F5C4D);
+  static const primaryContainer = Color(0xFFE7F0EB);
   static const gold = Color(0xFFC9973E);
   static const background = Color(0xFFFAF7F0);
   static const surface = Color(0xFFFFFFFF);
@@ -14,17 +14,6 @@ abstract final class E3rabBrandColors {
   static const error = Color(0xFFB4453F);
   static const darkBackground = Color(0xFF101B18);
   static const darkSurface = Color(0xFF182824);
-
-  // Transitional aliases for feature widgets that still use the old names.
-  static const primaryOrange = primaryBlue;
-  static const supportingYellow = gold;
-  static const darkInk = ink;
-  static const warmBackground = background;
-  static const warmSurface = surface;
-  static const softOrange = sky;
-  static const softYellow = Color(0xFFF5EBD7);
-  static const warmDarkBackground = darkBackground;
-  static const warmDarkSurface = darkSurface;
 }
 
 abstract final class E3rabBreakpoints {

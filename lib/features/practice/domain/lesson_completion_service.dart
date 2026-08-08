@@ -22,6 +22,8 @@ class LessonCompletionService {
       ...?existing?.completedPhases,
       LearningPhaseType.independentPractice,
     };
+    final alreadyMastered =
+        existing?.masteryStatus == LessonMasteryStatus.mastered;
     final nextPhase = LearningPhaseType.values.firstWhere(
       (phase) => !completed.contains(phase),
       orElse: () => LearningPhaseType.masteryCheck,
@@ -33,11 +35,22 @@ class LessonCompletionService {
         existing: existing,
         now: now,
         completedPhases: completed,
-        currentPhase: nextPhase,
-        masteryStatus: LessonMasteryStatus.learning,
+        currentPhase: alreadyMastered
+            ? LearningPhaseType.masteryCheck
+            : nextPhase,
+        masteryStatus: alreadyMastered
+            ? LessonMasteryStatus.mastered
+            : LessonMasteryStatus.learning,
+        status: alreadyMastered
+            ? LessonProgressStatus.completed
+            : LessonProgressStatus.inProgress,
         attemptCount: (existing?.attemptCount ?? 0) + exerciseCount,
         bestScore: _best(existing?.bestScore ?? 0, score),
         masteryScore: exerciseCount == 0 ? 0 : earnedWeight / exerciseCount,
+        checkpointScore: existing?.checkpointScore,
+        missedSkillIds: existing?.missedSkillIds,
+        masteredAt: existing?.masteredAt,
+        completedAt: existing?.completedAt,
       ),
     );
   }
@@ -53,7 +66,9 @@ class LessonCompletionService {
   }) async {
     final existing = await _progress(repository, owner, lesson.id);
     final score = exerciseCount == 0 ? 0.0 : correctCount / exerciseCount;
-    final mastered = score >= masteryThreshold;
+    final previouslyMastered =
+        existing?.masteryStatus == LessonMasteryStatus.mastered;
+    final mastered = previouslyMastered || score >= masteryThreshold;
     final completed = {...?existing?.completedPhases};
     if (mastered) completed.add(LearningPhaseType.masteryCheck);
     await repository.saveLessonProgress(
@@ -72,10 +87,12 @@ class LessonCompletionService {
         status: mastered
             ? LessonProgressStatus.completed
             : LessonProgressStatus.inProgress,
-        checkpointScore: score,
+        checkpointScore: previouslyMastered
+            ? _best(existing?.checkpointScore ?? 0, score)
+            : score,
         missedSkillIds: mastered ? const [] : missedSkillIds,
-        masteredAt: mastered ? now : null,
-        completedAt: mastered ? now : null,
+        masteredAt: mastered ? existing?.masteredAt ?? now : null,
+        completedAt: mastered ? existing?.completedAt ?? now : null,
         bestScore: _best(existing?.bestScore ?? 0, score),
       ),
     );
@@ -103,8 +120,8 @@ class LessonCompletionService {
     int? attemptCount,
     double? bestScore,
     double? masteryScore,
-    double checkpointScore = 0,
-    List<String> missedSkillIds = const [],
+    double? checkpointScore,
+    List<String>? missedSkillIds,
     DateTime? masteredAt,
     DateTime? completedAt,
   }) {
@@ -122,8 +139,8 @@ class LessonCompletionService {
       currentPhase: currentPhase,
       completedPhases: completedPhases.toList(),
       masteryStatus: masteryStatus,
-      checkpointScore: checkpointScore,
-      missedSkillIds: missedSkillIds,
+      checkpointScore: checkpointScore ?? existing?.checkpointScore ?? 0,
+      missedSkillIds: missedSkillIds ?? existing?.missedSkillIds ?? const [],
       masteredAt: masteredAt ?? existing?.masteredAt,
       updatedAt: now,
       schemaVersion: 3,

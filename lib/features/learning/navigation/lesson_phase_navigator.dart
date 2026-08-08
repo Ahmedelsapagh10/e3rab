@@ -10,6 +10,7 @@ import '../../progress/data/progress_repository.dart';
 import '../cubit/exercise_cubit.dart';
 import '../cubit/learning_cubit.dart';
 import '../cubit/learning_state.dart';
+import '../domain/remediation_exercise_selector.dart';
 import '../screens/exercise_screen.dart';
 import '../screens/guided_parsing_screen.dart';
 import '../screens/lesson_detection_screen.dart';
@@ -67,12 +68,22 @@ abstract final class LessonPhaseNavigator {
     required bool exam,
   }) {
     final exercises = state.exercises[lesson.id] ?? const [];
+    final progress = state.progressFor(lesson.id);
+    final practiceExercises =
+        !exam && progress?.masteryStatus == LessonMasteryStatus.needsRemediation
+        ? const RemediationExerciseSelector().select(
+            exercises: exercises,
+            missedSkillIds: progress?.missedSkillIds ?? const [],
+          )
+        : exercises;
     return BlocProvider(
       create: (_) => ExerciseCubit(
         progressRepository: serviceLocator<ProgressRepository>(),
         owner: learning.owner,
         lesson: lesson,
-        exercises: exam ? _masteryExercises(lesson, exercises) : exercises,
+        exercises: exam
+            ? _masteryExercises(lesson, exercises)
+            : practiceExercises,
         config: exam
             ? const PracticeSessionConfig.lessonExam()
             : const PracticeSessionConfig.lesson(),

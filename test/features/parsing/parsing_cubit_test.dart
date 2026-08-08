@@ -82,6 +82,36 @@ void main() {
       'parse-imperative-complete-speech',
     ]);
   });
+
+  test('signs filter exposes ordered beginner sign samples', () async {
+    final fixture = await _fixture(allowDraftPreview: true);
+    addTearDown(fixture.dispose);
+
+    await fixture.cubit.load();
+    await fixture.cubit.selectTrack('signs');
+    await fixture.cubit.selectDifficulty(1);
+
+    expect(fixture.cubit.state.samples.map((sample) => sample.id), [
+      'parse-original-damma-subject',
+      'parse-original-kasra-genitive',
+      'parse-secondary-alif-dual',
+    ]);
+  });
+
+  test('signs filter exposes intermediate secondary-sign samples', () async {
+    final fixture = await _fixture(allowDraftPreview: true);
+    addTearDown(fixture.dispose);
+
+    await fixture.cubit.load();
+    await fixture.cubit.selectTrack('signs');
+    await fixture.cubit.selectDifficulty(2);
+
+    expect(fixture.cubit.state.samples.map((sample) => sample.id), [
+      'parse-original-sukoon-jussive',
+      'parse-secondary-kasra-feminine',
+      'parse-secondary-nun-deletion',
+    ]);
+  });
 }
 
 Future<_ParsingFixture> _fixture({required bool allowDraftPreview}) async {

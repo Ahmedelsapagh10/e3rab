@@ -4,6 +4,7 @@ import 'package:new_strucuture/features/curriculum/data/model/content_review_sta
 import 'package:new_strucuture/features/curriculum/data/model/lesson_model.dart';
 import 'package:new_strucuture/features/learning/screens/lesson_examples_screen.dart';
 import 'package:new_strucuture/features/learning/screens/lesson_explanation_screen.dart';
+import 'package:new_strucuture/features/learning/screens/guided_parsing_screen.dart';
 
 void main() {
   testWidgets('explanation is a focused readable phase', (tester) async {
@@ -39,6 +40,36 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('شرح المثال'), findsOneWidget);
     expect(find.text('السبب: اسم مفرد'), findsOneWidget);
+  });
+
+  testWidgets('guided parsing reveals the seven decisions progressively', (
+    tester,
+  ) async {
+    var completed = false;
+    await tester.pumpWidget(
+      MaterialApp(
+        home: GuidedParsingScreen(
+          lesson: _lesson,
+          onCompleted: () async => completed = true,
+        ),
+      ),
+    );
+
+    expect(find.text('ما نوع هذه الكلمة؟'), findsOneWidget);
+    expect(find.text('اسم'), findsNothing);
+    for (var decision = 0; decision < 7; decision++) {
+      await tester.tap(find.text('اكشف الإجابة'));
+      await tester.pump();
+      if (decision < 6) {
+        await tester.tap(find.text('القرار التالي'));
+        await tester.pump();
+      }
+    }
+    expect(find.text('أكملت الإعراب الموجّه'), findsOneWidget);
+    expect(completed, isFalse);
+    await tester.tap(find.text('أكملت الإعراب الموجّه'));
+    await tester.pumpAndSettle();
+    expect(completed, isTrue);
   });
 }
 

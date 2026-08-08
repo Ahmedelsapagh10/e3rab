@@ -37,7 +37,7 @@ class LearningPreferencesScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: E3rabSpacing.small),
                     const Text(
-                      'ستتغير توصيات الرئيسية دون فقدان أي تقدم سابق.',
+                      'هذه اختيارات تنظيمية؛ ترتيب إتقان الدروس ثابت ولا يتجاوز الأساسيات.',
                     ),
                     const SizedBox(height: E3rabSpacing.large),
                     const ProfileFormFields(),

@@ -46,9 +46,35 @@ extension _ContentItemValidator on ContentValidationService {
     }
     _validateIdList(lesson, 'exerciseIds', exerciseIds, issues);
     _validateIdList(lesson, 'referenceIds', referenceIds, issues);
+    _validateLearningMetadata(lesson, issues);
     _validateLearnerReadyLesson(lesson, exerciseIds, referenceIds, issues);
     _validatePrerequisiteShape(lesson, issues);
     _validateLessonSteps(lesson, referenceIds, issues);
+  }
+
+  void _validateLearningMetadata(
+    Map<String, dynamic> lesson,
+    List<ValidationIssue> issues,
+  ) {
+    if ((lesson['topicId'] as String?)?.trim().isEmpty != false) {
+      issues.add(
+        ValidationIssue(
+          code: 'missing_topic_id',
+          message: 'Reviewed lessons require a stable grammar topic ID.',
+          path: 'lessons.${lesson['id']}.topicId',
+        ),
+      );
+    }
+    final order = lesson['order'];
+    if (order is! int || order < 0) {
+      issues.add(
+        ValidationIssue(
+          code: 'invalid_lesson_order',
+          message: 'Reviewed lessons require a non-negative integer order.',
+          path: 'lessons.${lesson['id']}.order',
+        ),
+      );
+    }
   }
 
   void _validatePrerequisiteShape(

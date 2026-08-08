@@ -6,6 +6,7 @@ import '../cubit/learning_cubit.dart';
 import '../cubit/learning_state.dart';
 import 'curriculum_track_list.dart';
 import 'learning_status_view.dart';
+import 'lesson_search_results.dart';
 
 class LearningHubView extends StatefulWidget {
   const LearningHubView({super.key});
@@ -34,7 +35,9 @@ class _LearningHubViewState extends State<LearningHubView> {
           children: [
             Center(
               child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 820),
+                constraints: const BoxConstraints(
+                  maxWidth: E3rabReadingMetrics.maxContentWidth,
+                ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -51,15 +54,27 @@ class _LearningHubViewState extends State<LearningHubView> {
                     const SizedBox(height: E3rabSpacing.large),
                     TextField(
                       controller: _searchController,
-                      onChanged: (value) =>
-                          setState(() => _query = value.trim().toLowerCase()),
+                      onChanged: (value) {
+                        final query = value.trim();
+                        setState(() => _query = query);
+                        context.read<LearningCubit>().search(query);
+                      },
                       decoration: const InputDecoration(
                         labelText: 'ابحث: مفعول به، نعت، مبتدأ وخبر…',
                         prefixIcon: Icon(Icons.search_rounded),
                       ),
                     ),
                     const SizedBox(height: E3rabSpacing.xLarge),
-                    CurriculumTrackList(state: state, query: _query),
+                    if (_query.isNotEmpty &&
+                        state.searchResults.isNotEmpty) ...[
+                      LessonSearchResults(results: state.searchResults),
+                      const SizedBox(height: E3rabSpacing.large),
+                    ],
+                    CurriculumTrackList(
+                      state: state,
+                      query: _query,
+                      showEmptyMessage: state.searchResults.isEmpty,
+                    ),
                   ],
                 ),
               ),

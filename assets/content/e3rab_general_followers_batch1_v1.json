@@ -1,0 +1,3996 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-followers-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-followers-module-v1",
+      "followers-adjective-unit",
+      "followers-adjective",
+      "followers-adjective-ex-1",
+      "followers-adjective-ex-2",
+      "followers-adjective-ex-3",
+      "followers-adjective-ex-4",
+      "followers-adjective-ex-5",
+      "followers-adjective-ex-6",
+      "followers-adjective-ex-7",
+      "followers-adjective-ex-8",
+      "followers-adjective-ex-9",
+      "followers-adjective-ex-10",
+      "followers-conjunction-unit",
+      "followers-conjunction",
+      "followers-conjunction-ex-1",
+      "followers-conjunction-ex-2",
+      "followers-conjunction-ex-3",
+      "followers-conjunction-ex-4",
+      "followers-conjunction-ex-5",
+      "followers-conjunction-ex-6",
+      "followers-conjunction-ex-7",
+      "followers-conjunction-ex-8",
+      "followers-conjunction-ex-9",
+      "followers-conjunction-ex-10",
+      "followers-explanatory-apposition-unit",
+      "followers-explanatory-apposition",
+      "followers-explanatory-apposition-ex-1",
+      "followers-explanatory-apposition-ex-2",
+      "followers-explanatory-apposition-ex-3",
+      "followers-explanatory-apposition-ex-4",
+      "followers-explanatory-apposition-ex-5",
+      "followers-explanatory-apposition-ex-6",
+      "followers-explanatory-apposition-ex-7",
+      "followers-explanatory-apposition-ex-8",
+      "followers-explanatory-apposition-ex-9",
+      "followers-explanatory-apposition-ex-10",
+      "followers-emphasis-unit",
+      "followers-emphasis",
+      "followers-emphasis-ex-1",
+      "followers-emphasis-ex-2",
+      "followers-emphasis-ex-3",
+      "followers-emphasis-ex-4",
+      "followers-emphasis-ex-5",
+      "followers-emphasis-ex-6",
+      "followers-emphasis-ex-7",
+      "followers-emphasis-ex-8",
+      "followers-emphasis-ex-9",
+      "followers-emphasis-ex-10",
+      "followers-apposition-unit",
+      "followers-apposition",
+      "followers-apposition-ex-1",
+      "followers-apposition-ex-2",
+      "followers-apposition-ex-3",
+      "followers-apposition-ex-4",
+      "followers-apposition-ex-5",
+      "followers-apposition-ex-6",
+      "followers-apposition-ex-7",
+      "followers-apposition-ex-8",
+      "followers-apposition-ex-9",
+      "followers-apposition-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "majzoumat-condition-oath"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-followers-module-v1",
+      "slug": "general-followers-v1",
+      "title": "التوابع",
+      "unitIds": [
+        "followers-adjective-unit",
+        "followers-conjunction-unit",
+        "followers-explanatory-apposition-unit",
+        "followers-emphasis-unit",
+        "followers-apposition-unit"
+      ],
+      "order": 10
+    }
+  ],
+  "units": [
+    {
+      "id": "followers-adjective-unit",
+      "moduleId": "general-followers-module-v1",
+      "slug": "followers-adjective-unit",
+      "title": "النعت الحقيقي والسببي",
+      "lessonIds": [
+        "followers-adjective"
+      ],
+      "order": 900
+    },
+    {
+      "id": "followers-conjunction-unit",
+      "moduleId": "general-followers-module-v1",
+      "slug": "followers-conjunction-unit",
+      "title": "العطف بالحروف",
+      "lessonIds": [
+        "followers-conjunction"
+      ],
+      "order": 910
+    },
+    {
+      "id": "followers-explanatory-apposition-unit",
+      "moduleId": "general-followers-module-v1",
+      "slug": "followers-explanatory-apposition-unit",
+      "title": "عطف البيان",
+      "lessonIds": [
+        "followers-explanatory-apposition"
+      ],
+      "order": 920
+    },
+    {
+      "id": "followers-emphasis-unit",
+      "moduleId": "general-followers-module-v1",
+      "slug": "followers-emphasis-unit",
+      "title": "التوكيد اللفظي والمعنوي",
+      "lessonIds": [
+        "followers-emphasis"
+      ],
+      "order": 930
+    },
+    {
+      "id": "followers-apposition-unit",
+      "moduleId": "general-followers-module-v1",
+      "slug": "followers-apposition-unit",
+      "title": "البدل وأنواعه",
+      "lessonIds": [
+        "followers-apposition"
+      ],
+      "order": 940
+    }
+  ],
+  "lessons": [
+    {
+      "id": "followers-adjective",
+      "topicId": "followers.adjective",
+      "order": 900,
+      "unitId": "followers-adjective-unit",
+      "slug": "followers-adjective",
+      "title": "النعت الحقيقي والسببي",
+      "shortTitle": "وصف الاسم وما يتصل به",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز النعت الحقيقي والسببي.",
+        "تطبيق المطابقة.",
+        "إعراب مرفوع النعت السببي."
+      ],
+      "prerequisiteIds": [
+        "majzoumat-condition-oath"
+      ],
+      "sections": [
+        {
+          "id": "followers-adjective-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "النعت تابع يوضح صفة في متبوعه أو في اسم مرتبط به.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "الحقيقي يصف المنعوت نفسه، والسببي يصف اسمًا بعده له صلة بالمنعوت.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يتبع النعت منعوته في الإعراب والتعريف والتنكير، والحقيقي يطابقه أيضًا في الجنس والعدد، أما السببي فيفرد ويطابق ما بعده في الجنس.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-4",
+          "type": "detection",
+          "title": "علامات الاكتشاف",
+          "body": "اسأل هل الصفة للاسم السابق نفسه أم لاسم مرفوع بعدها، ثم افحص المطابقة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-5",
+          "type": "details",
+          "title": "العلامة والسبب",
+          "body": "يكتسب النعت حالته من المنعوت، لكن علامته تتحدد ببنيته؛ فقد يجر جمع المذكر بالياء.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "المنعوت ← نوع الوصف ← المطابقة ← الحالة التابعة ← العلامة والسبب.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل كل اسم بعد اسم نعتًا؛ فقد يكون مضافًا إليه أو خبرًا أو بدلًا.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «كتاب الطالب» الطالب مضاف إليه لا نعت لأنه لا يصف الكتاب.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "النعت تابع وصفي، وحقيقته أو سببيته تحدد حدود المطابقة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "followers-adjective-example-1",
+          "sentence": "جاء الطالب المجتهد",
+          "fullyDiacritizedSentence": "جاء الطالب المجتهد",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جاء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "المجتهد",
+              "normalizedWord": "المجتهد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نعت حقيقي",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطالب",
+              "sentencePosition": "بعد المنعوت",
+              "explanation": "نعت حقيقي؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "المجتهد نعت حقيقي مرفوع.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-example-2",
+          "sentence": "رأيت الطالبة المجتهدة",
+          "fullyDiacritizedSentence": "رأيت الطالبة المجتهدة",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالبة",
+              "normalizedWord": "الطالبة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رأى",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 12
+            },
+            {
+              "word": "المجتهدة",
+              "normalizedWord": "المجتهدة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نعت حقيقي",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطالبة",
+              "sentencePosition": "بعد المنعوت",
+              "explanation": "نعت حقيقي؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 13,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "النعت تابع منصوب.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-example-3",
+          "sentence": "مررت بطلاب مجتهدين",
+          "fullyDiacritizedSentence": "مررت بطلاب مجتهدين",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بطلاب",
+              "normalizedWord": "بطلاب",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "اسم مجرور بالباء",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "جمع تكسير",
+              "grammaticalAgent": "الباء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم مجرور بالباء؛ مجرور وعلامته الكسرة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "مجتهدين",
+              "normalizedWord": "مجتهدين",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نعت حقيقي",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الياء نيابة عن الكسرة",
+              "signReason": "جمع مذكر سالم",
+              "grammaticalAgent": "اتباع طلاب",
+              "sentencePosition": "بعد المنعوت",
+              "explanation": "نعت حقيقي؛ مجرور وعلامته الياء نيابة عن الكسرة.",
+              "startIndex": 11,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "النعت جمع مذكر مجرور بالياء.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-adjective-example-4",
+          "sentence": "جاءت فتاة حسن خلقها",
+          "fullyDiacritizedSentence": "جاءت فتاة حسن خلقها",
+          "parsedWords": [
+            {
+              "word": "جاءت",
+              "normalizedWord": "جاءت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "فتاة",
+              "normalizedWord": "فتاة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جاءت",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "حسن",
+              "normalizedWord": "حسن",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نعت سببي",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع فتاة",
+              "sentencePosition": "بعد المنعوت",
+              "explanation": "نعت سببي؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 13
+            },
+            {
+              "word": "خلقها",
+              "normalizedWord": "خلقها",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل للوصف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الصفة حسن",
+              "sentencePosition": "بعد النعت",
+              "explanation": "فاعل للوصف؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 14,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "حسن نعت سببي وخلقها فاعله.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "followers-adjective-ex-1",
+        "followers-adjective-ex-2",
+        "followers-adjective-ex-3",
+        "followers-adjective-ex-4",
+        "followers-adjective-ex-5",
+        "followers-adjective-ex-6",
+        "followers-adjective-ex-7",
+        "followers-adjective-ex-8",
+        "followers-adjective-ex-9",
+        "followers-adjective-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "followers-adjective-ex-2",
+        "followers-adjective-ex-4",
+        "followers-adjective-ex-6",
+        "followers-adjective-ex-8",
+        "followers-adjective-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "tags": [
+        "النعت",
+        "النعت الحقيقي",
+        "النعت السببي"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "followers-conjunction",
+      "topicId": "followers.conjunction",
+      "order": 910,
+      "unitId": "followers-conjunction-unit",
+      "slug": "followers-conjunction",
+      "title": "العطف بالحروف",
+      "shortTitle": "المعطوف وحرف العطف",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز حروف العطف.",
+        "إعراب المعطوف.",
+        "فهم معنى كل حرف."
+      ],
+      "prerequisiteIds": [
+        "followers-adjective"
+      ],
+      "sections": [
+        {
+          "id": "followers-conjunction-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "يربط حرف العطف بين تابع ومتبوع ويمنح العلاقة معنى كالاشتراك أو الترتيب.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "عطف النسق تابع يتوسط بينه وبين متبوعه حرف عطف.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يتبع المعطوف المعطوف عليه في الحالة الإعرابية، وتحدد بنيته علامته الخاصة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-4",
+          "type": "detection",
+          "title": "علامات الاكتشاف",
+          "body": "حدد حرف العطف، ثم المعطوف عليه قبله والمعطوف بعده، ولا تهمل معنى الحرف.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-5",
+          "type": "details",
+          "title": "العلامة والسبب",
+          "body": "الواو للجمع دون ترتيب، والفاء للترتيب والتعقيب، وثم للترتيب مع التراخي، وأو لمعان منها التخيير.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "المعطوف عليه ← حرف العطف ومعناه ← المعطوف ← الحالة ← العلامة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل الواو علامة رفع، ولا تفترض أن كل واو للعطف قبل فحص السياق.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الواو في «والله» واو قسم وليست حرف عطف.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المعطوف يتبع ما قبله بواسطة حرف يحمل معنى محددًا.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "followers-conjunction-example-1",
+          "sentence": "جاء محمد وعلي",
+          "fullyDiacritizedSentence": "جاء محمد وعلي",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جاء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "وعلي",
+              "normalizedWord": "وعلي",
+              "wordType": "واو عطف واسم",
+              "grammaticalRole": "معطوف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة المقدرة",
+              "signReason": "اسم مقصور",
+              "grammaticalAgent": "العطف على محمد",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "معطوف؛ مرفوع وعلامته الضمة المقدرة.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "علي معطوف مرفوع.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-example-2",
+          "sentence": "رأيت محمدا وعليا",
+          "fullyDiacritizedSentence": "رأيت محمدا وعليا",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "محمدا",
+              "normalizedWord": "محمدا",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "رأى",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "وعليا",
+              "normalizedWord": "وعليا",
+              "wordType": "واو عطف واسم",
+              "grammaticalRole": "معطوف",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "العطف على محمدا",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "معطوف؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "المعطوف منصوب.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-example-3",
+          "sentence": "مررت بمحمد وعلي",
+          "fullyDiacritizedSentence": "مررت بمحمد وعلي",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بمحمد",
+              "normalizedWord": "بمحمد",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "اسم مجرور بالباء",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الباء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم مجرور بالباء؛ مجرور وعلامته الكسرة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "وعلي",
+              "normalizedWord": "وعلي",
+              "wordType": "واو عطف واسم",
+              "grammaticalRole": "معطوف",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة المقدرة",
+              "signReason": "اسم مقصور",
+              "grammaticalAgent": "العطف على محمد",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "معطوف؛ مجرور وعلامته الكسرة المقدرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "المعطوف مجرور.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-conjunction-example-4",
+          "sentence": "دخل الطالب ثم المعلم",
+          "fullyDiacritizedSentence": "دخل الطالب ثم المعلم",
+          "parsedWords": [
+            {
+              "word": "دخل",
+              "normalizedWord": "دخل",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "دخل",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "ثم",
+              "normalizedWord": "ثم",
+              "wordType": "حرف عطف",
+              "grammaticalRole": "رابط العطف",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "حرف",
+              "grammaticalAgent": "البناء",
+              "sentencePosition": "بين المتعاطفين",
+              "explanation": "رابط العطف؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 11,
+              "endIndex": 13
+            },
+            {
+              "word": "المعلم",
+              "normalizedWord": "المعلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "معطوف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "العطف على الطالب",
+              "sentencePosition": "بعد ثم",
+              "explanation": "معطوف؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 14,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "ثم تفيد الترتيب مع التراخي.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "followers-conjunction-ex-1",
+        "followers-conjunction-ex-2",
+        "followers-conjunction-ex-3",
+        "followers-conjunction-ex-4",
+        "followers-conjunction-ex-5",
+        "followers-conjunction-ex-6",
+        "followers-conjunction-ex-7",
+        "followers-conjunction-ex-8",
+        "followers-conjunction-ex-9",
+        "followers-conjunction-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "followers-conjunction-ex-2",
+        "followers-conjunction-ex-4",
+        "followers-conjunction-ex-6",
+        "followers-conjunction-ex-8",
+        "followers-conjunction-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "tags": [
+        "العطف",
+        "الواو",
+        "الفاء",
+        "ثم"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "followers-explanatory-apposition",
+      "topicId": "followers.explanatory-apposition",
+      "order": 920,
+      "unitId": "followers-explanatory-apposition-unit",
+      "slug": "followers-explanatory-apposition",
+      "title": "عطف البيان",
+      "shortTitle": "اسم يوضح ما قبله",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز عطف البيان.",
+        "إعرابه تابعًا.",
+        "التفريق بينه وبين البدل والنعت."
+      ],
+      "prerequisiteIds": [
+        "followers-conjunction"
+      ],
+      "sections": [
+        {
+          "id": "followers-explanatory-apposition-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "قد يأتي اسم جامد بعد اسم قبله ليكشف المقصود منه ويوضحه.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "عطف البيان تابع جامد يوضح متبوعه أو يخصصه، ويشبه النعت في الوظيفة والبدل في الصورة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يتبع عطف البيان متبوعه في الإعراب والتعريف والتنكير والجنس والعدد بحسب التركيب.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-4",
+          "type": "detection",
+          "title": "علامات الاكتشاف",
+          "body": "ابحث عن اسمين يشير الثاني فيهما إلى ذات الأول ويوضحه، من غير حرف عطف.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-5",
+          "type": "details",
+          "title": "العلامة والسبب",
+          "body": "يكثر في اللقب بعد الاسم والعلم بعد الوظيفة أو القرابة، ويجوز في مواضع إعرابه بدلًا مع اختلاف دقيق في القصد.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "المتبوع المبهم نسبيًا ← الاسم الموضح ← إمكان الإحلال ← الحالة والعلامة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعد الاسم الثاني نعتًا إن كان جامدًا يراد به ذات الأول لا صفته.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الطالب المجتهد» المجتهد نعت مشتق، وليس عطف بيان.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "عطف البيان اسم موضح يتبع ما قبله في الإعراب بلا حرف عطف.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "followers-explanatory-apposition-example-1",
+          "sentence": "جاء الخليفة عمر",
+          "fullyDiacritizedSentence": "جاء الخليفة عمر",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الخليفة",
+              "normalizedWord": "الخليفة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جاء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 11
+            },
+            {
+              "word": "عمر",
+              "normalizedWord": "عمر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "عطف بيان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الخليفة",
+              "sentencePosition": "بعد المتبوع",
+              "explanation": "عطف بيان؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "عمر عطف بيان يوضح الخليفة.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-example-2",
+          "sentence": "زارنا الشاعر المتنبي",
+          "fullyDiacritizedSentence": "زارنا الشاعر المتنبي",
+          "parsedWords": [
+            {
+              "word": "زارنا",
+              "normalizedWord": "زارنا",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "الشاعر",
+              "normalizedWord": "الشاعر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "زار",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 12
+            },
+            {
+              "word": "المتنبي",
+              "normalizedWord": "المتنبي",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "عطف بيان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الشاعر",
+              "sentencePosition": "بعد المتبوع",
+              "explanation": "عطف بيان؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 13,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "المتنبي يوضح الشاعر.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-example-3",
+          "sentence": "قرأت شعر الشاعر شوقي",
+          "fullyDiacritizedSentence": "قرأت شعر الشاعر شوقي",
+          "parsedWords": [
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرأت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "شعر",
+              "normalizedWord": "شعر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به وهو مضاف",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "قرأ",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به وهو مضاف؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "الشاعر",
+              "normalizedWord": "الشاعر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "بعد المضاف",
+              "explanation": "مضاف إليه؛ مجرور وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 15
+            },
+            {
+              "word": "شوقي",
+              "normalizedWord": "شوقي",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "عطف بيان",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة المقدرة",
+              "signReason": "اسم مقصور",
+              "grammaticalAgent": "اتباع الشاعر",
+              "sentencePosition": "بعد المتبوع",
+              "explanation": "عطف بيان؛ مجرور وعلامته الكسرة المقدرة.",
+              "startIndex": 16,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "شوقي عطف بيان مجرور.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-explanatory-apposition-example-4",
+          "sentence": "سلمت على صديقك خالد",
+          "fullyDiacritizedSentence": "سلمت على صديقك خالد",
+          "parsedWords": [
+            {
+              "word": "سلمت",
+              "normalizedWord": "سلمت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "حرف جر",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف",
+              "grammaticalAgent": "البناء",
+              "sentencePosition": "قبل الاسم",
+              "explanation": "عامل الجر؛ مبني لا محل له وعلامته مبني على السكون.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "صديقك",
+              "normalizedWord": "صديقك",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "على",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم مجرور؛ مجرور وعلامته الكسرة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 14
+            },
+            {
+              "word": "خالد",
+              "normalizedWord": "خالد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "عطف بيان",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع صديقك",
+              "sentencePosition": "بعد المتبوع",
+              "explanation": "عطف بيان؛ مجرور وعلامته الكسرة الظاهرة.",
+              "startIndex": 15,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "خالد يوضح الصديق.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "followers-explanatory-apposition-ex-1",
+        "followers-explanatory-apposition-ex-2",
+        "followers-explanatory-apposition-ex-3",
+        "followers-explanatory-apposition-ex-4",
+        "followers-explanatory-apposition-ex-5",
+        "followers-explanatory-apposition-ex-6",
+        "followers-explanatory-apposition-ex-7",
+        "followers-explanatory-apposition-ex-8",
+        "followers-explanatory-apposition-ex-9",
+        "followers-explanatory-apposition-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "followers-explanatory-apposition-ex-2",
+        "followers-explanatory-apposition-ex-4",
+        "followers-explanatory-apposition-ex-6",
+        "followers-explanatory-apposition-ex-8",
+        "followers-explanatory-apposition-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "tags": [
+        "عطف البيان",
+        "التوضيح",
+        "التابع الجامد"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "followers-emphasis",
+      "topicId": "followers.emphasis",
+      "order": 930,
+      "unitId": "followers-emphasis-unit",
+      "slug": "followers-emphasis",
+      "title": "التوكيد اللفظي والمعنوي",
+      "shortTitle": "تقوية المعنى ورفع الشك",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز نوعي التوكيد.",
+        "معرفة ألفاظ التوكيد المعنوي.",
+        "إعراب المؤكد."
+      ],
+      "prerequisiteIds": [
+        "followers-explanatory-apposition"
+      ],
+      "sections": [
+        {
+          "id": "followers-emphasis-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "يكرر المتكلم اللفظ أو يأتي بألفاظ مخصوصة لتثبيت المعنى ودفع احتمال السهو أو التجزئة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "اللفظي تكرار اللفظ أو مرادفه، والمعنوي يكون بألفاظ مثل نفس وعين وكل وجميع وكلا وكلتا متصلة بضمير.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يتبع التوكيد المؤكد في الإعراب، ويجب في المعنوي أن يتصل اللفظ بضمير يعود إلى المؤكد.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-4",
+          "type": "detection",
+          "title": "علامات الاكتشاف",
+          "body": "ابحث عن تكرار مقصود أو لفظ توكيد مضاف إلى ضمير مطابق، ثم حدد المؤكد.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-5",
+          "type": "details",
+          "title": "العلامة والسبب",
+          "body": "كلا وكلتا تعربان إعراب المثنى إذا أضيفتا إلى ضمير، وإلا لزمتا الإعراب المقدر كالمقصور.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "المؤكد ← أداة التقوية ← نوع التوكيد ← الحالة ← العلامة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل كل تكرار خطأ، ولا تعرب كلّ توكيدًا إذا لم تضف إلى ضمير يعود على المؤكد.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «قرأت كل كتاب» كل ليست توكيدًا لأن ما بعدها نكرة ولم تعد على اسم قبلها.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "التوكيد تابع يقوي المعنى، لفظي بالتكرار أو معنوي بألفاظ مخصوصة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "followers-emphasis-example-1",
+          "sentence": "جاء الطالب نفسه",
+          "fullyDiacritizedSentence": "جاء الطالب نفسه",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جاء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "نفسه",
+              "normalizedWord": "نفسه",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "توكيد معنوي",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطالب",
+              "sentencePosition": "بعد المؤكد",
+              "explanation": "توكيد معنوي؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "نفسه توكيد معنوي مرفوع.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-example-2",
+          "sentence": "حضر الطلاب كلهم",
+          "fullyDiacritizedSentence": "حضر الطلاب كلهم",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطلاب",
+              "normalizedWord": "الطلاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حضر",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "كلهم",
+              "normalizedWord": "كلهم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "توكيد معنوي",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطلاب",
+              "sentencePosition": "بعد المؤكد",
+              "explanation": "توكيد معنوي؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "كلهم توكيد معنوي.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-example-3",
+          "sentence": "جاء جاء المعلم",
+          "fullyDiacritizedSentence": "جاء جاء المعلم",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض مكرر",
+              "grammaticalRole": "توكيد لفظي",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "توكيد الفعل الأول",
+              "sentencePosition": "بعد المؤكد",
+              "explanation": "توكيد لفظي؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 4,
+              "endIndex": 7
+            },
+            {
+              "word": "المعلم",
+              "normalizedWord": "المعلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "جاء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "تكرار الفعل توكيد لفظي.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-emphasis-example-4",
+          "sentence": "لا لا أهمل واجبي",
+          "fullyDiacritizedSentence": "لا لا أهمل واجبي",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف نفي",
+              "grammaticalRole": "حرف مؤكد",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف",
+              "grammaticalAgent": "البناء",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف مؤكد؛ مبني لا محل له وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف نفي مكرر",
+              "grammaticalRole": "توكيد لفظي",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف",
+              "grammaticalAgent": "توكيد لا الأولى",
+              "sentencePosition": "بعد المؤكد",
+              "explanation": "توكيد لفظي؛ مبني لا محل له وعلامته مبني على السكون.",
+              "startIndex": 3,
+              "endIndex": 5
+            },
+            {
+              "word": "أهمل",
+              "normalizedWord": "أهمل",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرد من الناصب والجازم",
+              "grammaticalAgent": "التجرد",
+              "sentencePosition": "بعد النفي",
+              "explanation": "فعل وفاعله مستتر؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 10
+            },
+            {
+              "word": "واجبي",
+              "normalizedWord": "واجبي",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة المقدرة",
+              "signReason": "مضاف إلى ياء المتكلم",
+              "grammaticalAgent": "أهمل",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب وعلامته الفتحة المقدرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "تكرار الحرف توكيد لفظي.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "followers-emphasis-ex-1",
+        "followers-emphasis-ex-2",
+        "followers-emphasis-ex-3",
+        "followers-emphasis-ex-4",
+        "followers-emphasis-ex-5",
+        "followers-emphasis-ex-6",
+        "followers-emphasis-ex-7",
+        "followers-emphasis-ex-8",
+        "followers-emphasis-ex-9",
+        "followers-emphasis-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "followers-emphasis-ex-2",
+        "followers-emphasis-ex-4",
+        "followers-emphasis-ex-6",
+        "followers-emphasis-ex-8",
+        "followers-emphasis-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "tags": [
+        "التوكيد",
+        "نفس",
+        "كل",
+        "التكرار"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "followers-apposition",
+      "topicId": "followers.apposition",
+      "order": 940,
+      "unitId": "followers-apposition-unit",
+      "slug": "followers-apposition",
+      "title": "البدل وأنواعه",
+      "shortTitle": "المقصود بالحكم بعد متبوع",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز أنواع البدل.",
+        "إعراب البدل.",
+        "اكتشاف الضمير الرابط."
+      ],
+      "prerequisiteIds": [
+        "followers-emphasis"
+      ],
+      "sections": [
+        {
+          "id": "followers-apposition-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "في البدل يكون التابع هو المقصود بالحكم، ويأتي المتبوع تمهيدًا له.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "البدل تابع مقصود بالحكم، ومنه بدل الكل من الكل وبعض من كل والاشتمال والمباين.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يتبع البدل المبدل منه في الإعراب، ويحتاج بدل البعض والاشتمال إلى ضمير يربطه بالمبدل منه.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-4",
+          "type": "detection",
+          "title": "علامات الاكتشاف",
+          "body": "اختبر هل الحكم مقصود للثاني، ثم افحص التطابق الكلي أو الجزئية أو المعنى الملازم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-5",
+          "type": "details",
+          "title": "العلامة والسبب",
+          "body": "بدل الكل يساوي متبوعه، والبعض جزء حقيقي منه، والاشتمال معنى يتعلق به وليس جزءًا ماديًا.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "المبدل منه ← المقصود بالحكم ← العلاقة ← الرابط ← الحالة والعلامة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تخلط بدل الاشتمال بالنعت؛ البدل اسم معنى مقصود بالحكم لا صفة مطابقة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «جاء الطالب المجتهد» المجتهد نعت لأن المقصود وصف الطالب لا استبداله.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "البدل تابع مقصود بالحكم، ونوع العلاقة يحدد قسمه والرابط اللازم.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "followers-apposition-example-1",
+          "sentence": "جاء أخوك محمد",
+          "fullyDiacritizedSentence": "جاء أخوك محمد",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "أخوك",
+              "normalizedWord": "أخوك",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو نيابة عن الضمة",
+              "signReason": "من الأسماء الخمسة",
+              "grammaticalAgent": "جاء",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الواو نيابة عن الضمة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "بدل كل من كل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع أخوك",
+              "sentencePosition": "بعد المبدل منه",
+              "explanation": "بدل كل من كل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "محمد بدل كل مرفوع.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-example-2",
+          "sentence": "أكلت الرغيف نصفه",
+          "fullyDiacritizedSentence": "أكلت الرغيف نصفه",
+          "parsedWords": [
+            {
+              "word": "أكلت",
+              "normalizedWord": "أكلت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الرغيف",
+              "normalizedWord": "الرغيف",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "أكل",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "نصفه",
+              "normalizedWord": "نصفه",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "بدل بعض من كل",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الرغيف",
+              "sentencePosition": "بعد المبدل منه",
+              "explanation": "بدل بعض من كل؛ منصوب وعلامته الفتحة الظاهرة.",
+              "startIndex": 12,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "نصفه بدل بعض منصوب.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-example-3",
+          "sentence": "أعجبني الطالب خلقه",
+          "fullyDiacritizedSentence": "أعجبني الطالب خلقه",
+          "parsedWords": [
+            {
+              "word": "أعجبني",
+              "normalizedWord": "أعجبني",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "أعجب",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 13
+            },
+            {
+              "word": "خلقه",
+              "normalizedWord": "خلقه",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "بدل اشتمال",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطالب",
+              "sentencePosition": "بعد المبدل منه",
+              "explanation": "بدل اشتمال؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 14,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "خلقه بدل اشتمال مرفوع.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        },
+        {
+          "id": "followers-apposition-example-4",
+          "sentence": "نجح الطلاب أكثرهم",
+          "fullyDiacritizedSentence": "نجح الطلاب أكثرهم",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطلاب",
+              "normalizedWord": "الطلاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "نجح",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "أكثرهم",
+              "normalizedWord": "أكثرهم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "بدل بعض من كل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اتباع الطلاب",
+              "sentencePosition": "بعد المبدل منه",
+              "explanation": "بدل بعض من كل؛ مرفوع وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "أكثرهم بدل بعض مرفوع.",
+          "referenceIds": [
+            "ref-general-followers-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "followers-apposition-ex-1",
+        "followers-apposition-ex-2",
+        "followers-apposition-ex-3",
+        "followers-apposition-ex-4",
+        "followers-apposition-ex-5",
+        "followers-apposition-ex-6",
+        "followers-apposition-ex-7",
+        "followers-apposition-ex-8",
+        "followers-apposition-ex-9",
+        "followers-apposition-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "followers-apposition-ex-2",
+        "followers-apposition-ex-4",
+        "followers-apposition-ex-6",
+        "followers-apposition-ex-8",
+        "followers-apposition-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "tags": [
+        "البدل",
+        "بدل الكل",
+        "بدل البعض",
+        "بدل الاشتمال"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "followers-adjective-ex-1",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: النعت؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تابع وصفي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "النعت: تابع وصفي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-2",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الحقيقي؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يصف المنعوت",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحقيقي: يصف المنعوت.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-3",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: السببي؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يصف اسما بعده",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "السببي: يصف اسما بعده.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-4",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: حالة النعت؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تتبع المنعوت",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "حالة النعت: تتبع المنعوت.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-5",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: مجتهدين؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور بالياء",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "مجتهدين: مجرور بالياء.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-6",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: النعت الحقيقي؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يطابق الجنس والعدد",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "النعت الحقيقي: يطابق الجنس والعدد.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-7",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: السببي؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يفرد غالبا",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "السببي: يفرد غالبا.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-8",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: حسن في المثال؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعت سببي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "حسن في المثال: نعت سببي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-9",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خلقها؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "فاعل للوصف",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خلقها: فاعل للوصف.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-adjective-ex-10",
+      "lessonId": "followers-adjective",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كتاب الطالب؟",
+      "skillIds": [
+        "followers.adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليس نعتا",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كتاب الطالب: ليس نعتا.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-1",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المعطوف؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يتبع المعطوف عليه",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المعطوف: يتبع المعطوف عليه.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-2",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الواو؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للجمع دون ترتيب",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الواو: للجمع دون ترتيب.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-3",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الفاء؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للترتيب والتعقيب",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الفاء: للترتيب والتعقيب.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-4",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ثم؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "للترتيب والتراخي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ثم: للترتيب والتراخي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-5",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: أو؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "قد تفيد التخيير",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أو: قد تفيد التخيير.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-6",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: علي في جاء محمد وعلي؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "معطوف مرفوع",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "علي في جاء محمد وعلي: معطوف مرفوع.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-7",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: حرف العطف؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليس علامة إعراب",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "حرف العطف: ليس علامة إعراب.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-8",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: واو القسم؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليست للعطف",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "واو القسم: ليست للعطف.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-9",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: علامة المعطوف؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحددها بنيته",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "علامة المعطوف: تحددها بنيته.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-conjunction-ex-10",
+      "lessonId": "followers-conjunction",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: أول خطوة؟",
+      "skillIds": [
+        "followers.conjunction"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد المتبوع",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أول خطوة: تحديد المتبوع.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-1",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: عطف البيان؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تابع موضح",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عطف البيان: تابع موضح.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-2",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: يأتي بلا؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "حرف عطف",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يأتي بلا: حرف عطف.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-3",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: عمر بعد الخليفة؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "عطف بيان",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عمر بعد الخليفة: عطف بيان.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-4",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المتنبي؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يوضح الشاعر",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المتنبي: يوضح الشاعر.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-5",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: حالة عطف البيان؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تتبع المتبوع",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "حالة عطف البيان: تتبع المتبوع.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-6",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: غالبا يكون؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسما جامدا",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "غالبا يكون: اسما جامدا.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-7",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المجتهد بعد الطالب؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعت",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المجتهد بعد الطالب: نعت.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-8",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: قد يشبه؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "البدل",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "قد يشبه: البدل.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-9",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: وظيفته؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إزالة الإبهام",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "وظيفته: إزالة الإبهام.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-explanatory-apposition-ex-10",
+      "lessonId": "followers-explanatory-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: شوقي في المثال؟",
+      "skillIds": [
+        "followers.explanatory-apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "شوقي في المثال: مجرور.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-1",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: التوكيد اللفظي؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تكرار اللفظ",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "التوكيد اللفظي: تكرار اللفظ.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-2",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: التوكيد المعنوي؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "بألفاظ مخصوصة",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "التوكيد المعنوي: بألفاظ مخصوصة.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-3",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: نفسه؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "توكيد معنوي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نفسه: توكيد معنوي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-4",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كلهم؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "توكيد معنوي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كلهم: توكيد معنوي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-5",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: ضمير التوكيد؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يعود على المؤكد",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ضمير التوكيد: يعود على المؤكد.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-6",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: حالة التوكيد؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تتبع المؤكد",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "حالة التوكيد: تتبع المؤكد.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-7",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: تكرار الفعل؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "توكيد لفظي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تكرار الفعل: توكيد لفظي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-8",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كل كتاب؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ليست توكيدا هنا",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كل كتاب: ليست توكيدا هنا.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-9",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: كلا مع الضمير؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب إعراب المثنى",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كلا مع الضمير: تعرب إعراب المثنى.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-emphasis-ex-10",
+      "lessonId": "followers-emphasis",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: غرض التوكيد؟",
+      "skillIds": [
+        "followers.emphasis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تقوية المعنى",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "غرض التوكيد: تقوية المعنى.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-1",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: البدل؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مقصود بالحكم",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البدل: مقصود بالحكم.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-2",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: بدل الكل؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يساوي متبوعه",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بدل الكل: يساوي متبوعه.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-3",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: بدل البعض؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جزء حقيقي",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بدل البعض: جزء حقيقي.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-4",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: بدل الاشتمال؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "معنى متعلق",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بدل الاشتمال: معنى متعلق.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-5",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: نصفه؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بدل بعض",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نصفه: بدل بعض.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-6",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: خلقه؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بدل اشتمال",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "خلقه: بدل اشتمال.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-7",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: الرابط؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمير يعود للمتبوع",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الرابط: ضمير يعود للمتبوع.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-8",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: حالة البدل؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تتبع المبدل منه",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "حالة البدل: تتبع المبدل منه.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-9",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: محمد بعد أخوك؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "بدل كل",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "محمد بعد أخوك: بدل كل.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "followers-apposition-ex-10",
+      "lessonId": "followers-apposition",
+      "type": "multipleChoice",
+      "prompt": "ما الحكم الصحيح: المجتهد الوصفي؟",
+      "skillIds": [
+        "followers.apposition"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعت لا بدل",
+          "feedback": "صحيح؛ يوافق علاقة التابع بمتبوعه."
+        },
+        {
+          "id": "b",
+          "text": "لا ينطبق هذا الحكم",
+          "feedback": "راجع نوع التابع والعامل والحالة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "المجتهد الوصفي: نعت لا بدل.",
+      "hint": "حدد المتبوع ثم نوع التابع وعلامته.",
+      "referenceIds": [
+        "ref-general-followers-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-followers-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

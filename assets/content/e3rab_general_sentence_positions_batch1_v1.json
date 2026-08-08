@@ -1,0 +1,5545 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-sentence-positions-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-sentence-positions-module-v1",
+      "sentence-positions-without-position-unit",
+      "sentence-positions-without-position",
+      "sentence-positions-without-position-ex-1",
+      "sentence-positions-without-position-ex-2",
+      "sentence-positions-without-position-ex-3",
+      "sentence-positions-without-position-ex-4",
+      "sentence-positions-without-position-ex-5",
+      "sentence-positions-without-position-ex-6",
+      "sentence-positions-without-position-ex-7",
+      "sentence-positions-without-position-ex-8",
+      "sentence-positions-without-position-ex-9",
+      "sentence-positions-without-position-ex-10",
+      "sentence-positions-predicate-clause-unit",
+      "sentence-positions-predicate-clause",
+      "sentence-positions-predicate-clause-ex-1",
+      "sentence-positions-predicate-clause-ex-2",
+      "sentence-positions-predicate-clause-ex-3",
+      "sentence-positions-predicate-clause-ex-4",
+      "sentence-positions-predicate-clause-ex-5",
+      "sentence-positions-predicate-clause-ex-6",
+      "sentence-positions-predicate-clause-ex-7",
+      "sentence-positions-predicate-clause-ex-8",
+      "sentence-positions-predicate-clause-ex-9",
+      "sentence-positions-predicate-clause-ex-10",
+      "sentence-positions-circumstantial-clause-unit",
+      "sentence-positions-circumstantial-clause",
+      "sentence-positions-circumstantial-clause-ex-1",
+      "sentence-positions-circumstantial-clause-ex-2",
+      "sentence-positions-circumstantial-clause-ex-3",
+      "sentence-positions-circumstantial-clause-ex-4",
+      "sentence-positions-circumstantial-clause-ex-5",
+      "sentence-positions-circumstantial-clause-ex-6",
+      "sentence-positions-circumstantial-clause-ex-7",
+      "sentence-positions-circumstantial-clause-ex-8",
+      "sentence-positions-circumstantial-clause-ex-9",
+      "sentence-positions-circumstantial-clause-ex-10",
+      "sentence-positions-adjective-clause-unit",
+      "sentence-positions-adjective-clause",
+      "sentence-positions-adjective-clause-ex-1",
+      "sentence-positions-adjective-clause-ex-2",
+      "sentence-positions-adjective-clause-ex-3",
+      "sentence-positions-adjective-clause-ex-4",
+      "sentence-positions-adjective-clause-ex-5",
+      "sentence-positions-adjective-clause-ex-6",
+      "sentence-positions-adjective-clause-ex-7",
+      "sentence-positions-adjective-clause-ex-8",
+      "sentence-positions-adjective-clause-ex-9",
+      "sentence-positions-adjective-clause-ex-10",
+      "sentence-positions-genitive-clause-unit",
+      "sentence-positions-genitive-clause",
+      "sentence-positions-genitive-clause-ex-1",
+      "sentence-positions-genitive-clause-ex-2",
+      "sentence-positions-genitive-clause-ex-3",
+      "sentence-positions-genitive-clause-ex-4",
+      "sentence-positions-genitive-clause-ex-5",
+      "sentence-positions-genitive-clause-ex-6",
+      "sentence-positions-genitive-clause-ex-7",
+      "sentence-positions-genitive-clause-ex-8",
+      "sentence-positions-genitive-clause-ex-9",
+      "sentence-positions-genitive-clause-ex-10",
+      "sentence-positions-conditional-answer-unit",
+      "sentence-positions-conditional-answer",
+      "sentence-positions-conditional-answer-ex-1",
+      "sentence-positions-conditional-answer-ex-2",
+      "sentence-positions-conditional-answer-ex-3",
+      "sentence-positions-conditional-answer-ex-4",
+      "sentence-positions-conditional-answer-ex-5",
+      "sentence-positions-conditional-answer-ex-6",
+      "sentence-positions-conditional-answer-ex-7",
+      "sentence-positions-conditional-answer-ex-8",
+      "sentence-positions-conditional-answer-ex-9",
+      "sentence-positions-conditional-answer-ex-10",
+      "sentence-positions-subordinate-clause-unit",
+      "sentence-positions-subordinate-clause",
+      "sentence-positions-subordinate-clause-ex-1",
+      "sentence-positions-subordinate-clause-ex-2",
+      "sentence-positions-subordinate-clause-ex-3",
+      "sentence-positions-subordinate-clause-ex-4",
+      "sentence-positions-subordinate-clause-ex-5",
+      "sentence-positions-subordinate-clause-ex-6",
+      "sentence-positions-subordinate-clause-ex-7",
+      "sentence-positions-subordinate-clause-ex-8",
+      "sentence-positions-subordinate-clause-ex-9",
+      "sentence-positions-subordinate-clause-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "sentences-with-syntactic-position"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-sentence-positions-module-v1",
+      "slug": "general-sentence-positions-v1",
+      "title": "الجمل ومحلها الإعرابي",
+      "unitIds": [
+        "sentence-positions-without-position-unit",
+        "sentence-positions-predicate-clause-unit",
+        "sentence-positions-circumstantial-clause-unit",
+        "sentence-positions-adjective-clause-unit",
+        "sentence-positions-genitive-clause-unit",
+        "sentence-positions-conditional-answer-unit",
+        "sentence-positions-subordinate-clause-unit"
+      ],
+      "order": 13
+    }
+  ],
+  "units": [
+    {
+      "id": "sentence-positions-without-position-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-without-position-unit",
+      "title": "الجمل التي لا محل لها",
+      "lessonIds": [
+        "sentence-positions-without-position"
+      ],
+      "order": 1210
+    },
+    {
+      "id": "sentence-positions-predicate-clause-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-predicate-clause-unit",
+      "title": "الجملة الخبرية",
+      "lessonIds": [
+        "sentence-positions-predicate-clause"
+      ],
+      "order": 1220
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-circumstantial-clause-unit",
+      "title": "جملة الحال",
+      "lessonIds": [
+        "sentence-positions-circumstantial-clause"
+      ],
+      "order": 1230
+    },
+    {
+      "id": "sentence-positions-adjective-clause-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-adjective-clause-unit",
+      "title": "جملة الصفة",
+      "lessonIds": [
+        "sentence-positions-adjective-clause"
+      ],
+      "order": 1240
+    },
+    {
+      "id": "sentence-positions-genitive-clause-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-genitive-clause-unit",
+      "title": "جملة المضاف إليه",
+      "lessonIds": [
+        "sentence-positions-genitive-clause"
+      ],
+      "order": 1250
+    },
+    {
+      "id": "sentence-positions-conditional-answer-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-conditional-answer-unit",
+      "title": "جواب الشرط",
+      "lessonIds": [
+        "sentence-positions-conditional-answer"
+      ],
+      "order": 1260
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-unit",
+      "moduleId": "general-sentence-positions-module-v1",
+      "slug": "sentence-positions-subordinate-clause-unit",
+      "title": "الجملة التابعة",
+      "lessonIds": [
+        "sentence-positions-subordinate-clause"
+      ],
+      "order": 1270
+    }
+  ],
+  "lessons": [
+    {
+      "id": "sentence-positions-without-position",
+      "topicId": "sentence-positions.without-position",
+      "order": 1210,
+      "unitId": "sentence-positions-without-position-unit",
+      "slug": "sentence-positions-without-position",
+      "title": "الجمل التي لا محل لها",
+      "shortTitle": "الجمل التي لا محل لها",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود الجمل التي لا محل لها.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentences-with-syntactic-position"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-without-position-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات الجمل التي لا محل لها منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "الجمل التي لا محل لها باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الجملة الابتدائية والاستئنافية والاعتراضية والتفسيرية وصلة الموصول وجواب القسم والشرط غير المقترن لا يحل مجموعها محل مفرد.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل الجمل التي لا محل لها، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل الجمل التي لا محل لها لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: الجملة الابتدائية والاستئنافية والاعتراضية والتفسيرية وصلة الموصول وجواب القسم والشرط غير المقترن لا يحل مجموعها محل مفرد.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-without-position-example-1",
+          "sentence": "العلم نور",
+          "fullyDiacritizedSentence": "العلم نور",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر جملة ابتدائية",
+              "explanation": "مبتدأ، وموقعه: صدر جملة ابتدائية.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة ابتدائية لا محل لها",
+              "explanation": "خبر، وموقعه: جملة ابتدائية لا محل لها.",
+              "startIndex": 6,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "جملة ابتدائية لا محل لها",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-example-2",
+          "sentence": "جاء الذي نجح",
+          "fullyDiacritizedSentence": "جاء الذي نجح",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الذي",
+              "normalizedWord": "الذي",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل واسم موصول",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الصلة",
+              "explanation": "فاعل واسم موصول، وموقعه: قبل الصلة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صلة الموصول لا محل لها",
+              "explanation": "فعل وفاعله مستتر، وموقعه: صلة الموصول لا محل لها.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "صلة الموصول لا محل لها",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-example-3",
+          "sentence": "والله لأصدقن",
+          "fullyDiacritizedSentence": "والله لأصدقن",
+          "parsedWords": [
+            {
+              "word": "والله",
+              "normalizedWord": "والله",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "قسم",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر أسلوب القسم",
+              "explanation": "قسم، وموقعه: صدر أسلوب القسم.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "لأصدقن",
+              "normalizedWord": "لأصدقن",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جواب القسم",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة لا محل لها",
+              "explanation": "جواب القسم، وموقعه: جملة لا محل لها.",
+              "startIndex": 6,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "جواب القسم لا محل له",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-without-position-example-4",
+          "sentence": "اجتهد تنجح",
+          "fullyDiacritizedSentence": "اجتهد تنجح",
+          "parsedWords": [
+            {
+              "word": "اجتهد",
+              "normalizedWord": "اجتهد",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل أمر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة الطلب",
+              "explanation": "فعل أمر، وموقعه: جملة الطلب.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جواب الطلب",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة لا محل لها هنا",
+              "explanation": "جواب الطلب، وموقعه: جملة لا محل لها هنا.",
+              "startIndex": 6,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "جواب شرط غير جازم معنوي لا محل له",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-without-position-ex-1",
+        "sentence-positions-without-position-ex-2",
+        "sentence-positions-without-position-ex-3",
+        "sentence-positions-without-position-ex-4",
+        "sentence-positions-without-position-ex-5",
+        "sentence-positions-without-position-ex-6",
+        "sentence-positions-without-position-ex-7",
+        "sentence-positions-without-position-ex-8",
+        "sentence-positions-without-position-ex-9",
+        "sentence-positions-without-position-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-without-position-ex-2",
+        "sentence-positions-without-position-ex-4",
+        "sentence-positions-without-position-ex-6",
+        "sentence-positions-without-position-ex-8",
+        "sentence-positions-without-position-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "الجمل التي لا محل لها",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-positions-predicate-clause",
+      "topicId": "sentence-positions.predicate-clause",
+      "order": 1220,
+      "unitId": "sentence-positions-predicate-clause-unit",
+      "slug": "sentence-positions-predicate-clause",
+      "title": "الجملة الخبرية",
+      "shortTitle": "الجملة الخبرية",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود الجملة الخبرية.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-without-position"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-predicate-clause-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات الجملة الخبرية منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "الجملة الخبرية باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "تقع الجملة الاسمية أو الفعلية خبرًا في محل رفع أو نصب بحسب الناسخ، وتحتاج إلى رابط يعود على الاسم.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل الجملة الخبرية، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل الجملة الخبرية لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: تقع الجملة الاسمية أو الفعلية خبرًا في محل رفع أو نصب بحسب الناسخ، وتحتاج إلى رابط يعود على الاسم.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-predicate-clause-example-1",
+          "sentence": "الطالب يكتب",
+          "fullyDiacritizedSentence": "الطالب يكتب",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل جملة الخبر",
+              "explanation": "مبتدأ، وموقعه: قبل جملة الخبر.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة فعلية في محل رفع خبر",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة فعلية في محل رفع خبر.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "جملة يكتب في محل رفع خبر",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-example-2",
+          "sentence": "الحديقة أزهارها جميلة",
+          "fullyDiacritizedSentence": "الحديقة أزهارها جميلة",
+          "parsedWords": [
+            {
+              "word": "الحديقة",
+              "normalizedWord": "الحديقة",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ أول",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الخبر",
+              "explanation": "مبتدأ أول، وموقعه: قبل الخبر.",
+              "startIndex": 0,
+              "endIndex": 7
+            },
+            {
+              "word": "أزهارها",
+              "normalizedWord": "أزهارها",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ ثان ورابط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر جملة الخبر",
+              "explanation": "مبتدأ ثان ورابط، وموقعه: صدر جملة الخبر.",
+              "startIndex": 8,
+              "endIndex": 15
+            },
+            {
+              "word": "جميلة",
+              "normalizedWord": "جميلة",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "خبر ثان",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الاسمية في محل رفع خبر",
+              "explanation": "خبر ثان، وموقعه: الجملة الاسمية في محل رفع خبر.",
+              "startIndex": 16,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "الجملة الاسمية في محل رفع خبر",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-example-3",
+          "sentence": "كان الطالب يقرأ",
+          "fullyDiacritizedSentence": "كان الطالب يقرأ",
+          "parsedWords": [
+            {
+              "word": "كان",
+              "normalizedWord": "كان",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "ناسخ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل اسمه وخبره",
+              "explanation": "ناسخ، وموقعه: قبل اسمه وخبره.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "اسم كان",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل جملة الخبر",
+              "explanation": "اسم كان، وموقعه: قبل جملة الخبر.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرأ",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب خبر كان",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل نصب خبر كان.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "جملة يقرأ في محل نصب خبر كان",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-predicate-clause-example-4",
+          "sentence": "إن الطفل يلعب",
+          "fullyDiacritizedSentence": "إن الطفل يلعب",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "إن",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "حرف ناسخ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف ناسخ، وموقعه: صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "الطفل",
+              "normalizedWord": "الطفل",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "اسم إن",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل جملة الخبر",
+              "explanation": "اسم إن، وموقعه: قبل جملة الخبر.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "يلعب",
+              "normalizedWord": "يلعب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل رفع خبر إن",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل رفع خبر إن.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "جملة يلعب في محل رفع خبر إن",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-predicate-clause-ex-1",
+        "sentence-positions-predicate-clause-ex-2",
+        "sentence-positions-predicate-clause-ex-3",
+        "sentence-positions-predicate-clause-ex-4",
+        "sentence-positions-predicate-clause-ex-5",
+        "sentence-positions-predicate-clause-ex-6",
+        "sentence-positions-predicate-clause-ex-7",
+        "sentence-positions-predicate-clause-ex-8",
+        "sentence-positions-predicate-clause-ex-9",
+        "sentence-positions-predicate-clause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-predicate-clause-ex-2",
+        "sentence-positions-predicate-clause-ex-4",
+        "sentence-positions-predicate-clause-ex-6",
+        "sentence-positions-predicate-clause-ex-8",
+        "sentence-positions-predicate-clause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "الجملة الخبرية",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause",
+      "topicId": "sentence-positions.circumstantial-clause",
+      "order": 1230,
+      "unitId": "sentence-positions-circumstantial-clause-unit",
+      "slug": "sentence-positions-circumstantial-clause",
+      "title": "جملة الحال",
+      "shortTitle": "جملة الحال",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود جملة الحال.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-predicate-clause"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات جملة الحال منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "جملة الحال باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "جملة الحال تبين هيئة معرفة قبلها، وتكون في محل نصب وترتبط بصاحبها بضمير أو واو الحال أو بهما.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل جملة الحال، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل جملة الحال لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: جملة الحال تبين هيئة معرفة قبلها، وتكون في محل نصب وترتبط بصاحبها بضمير أو واو الحال أو بهما.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-circumstantial-clause-example-1",
+          "sentence": "جاء الطالب يبتسم",
+          "fullyDiacritizedSentence": "جاء الطالب يبتسم",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل وصاحب الحال",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الحال",
+              "explanation": "فاعل وصاحب الحال، وموقعه: قبل الحال.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "يبتسم",
+              "normalizedWord": "يبتسم",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب حال",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل نصب حال.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "يبتسم في محل نصب حال",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-example-2",
+          "sentence": "دخل الطفل وهو سعيد",
+          "fullyDiacritizedSentence": "دخل الطفل وهو سعيد",
+          "parsedWords": [
+            {
+              "word": "دخل",
+              "normalizedWord": "دخل",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطفل",
+              "normalizedWord": "الطفل",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل وصاحب الحال",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الحال",
+              "explanation": "فاعل وصاحب الحال، وموقعه: قبل الحال.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "وهو",
+              "normalizedWord": "وهو",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "واو الحال ومبتدأ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "رابط الحال",
+              "explanation": "واو الحال ومبتدأ، وموقعه: رابط الحال.",
+              "startIndex": 10,
+              "endIndex": 13
+            },
+            {
+              "word": "سعيد",
+              "normalizedWord": "سعيد",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب حال",
+              "explanation": "خبر، وموقعه: جملة في محل نصب حال.",
+              "startIndex": 14,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "الجملة بعد واو الحال في محل نصب",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-example-3",
+          "sentence": "عاد الجنود ينتصرون",
+          "fullyDiacritizedSentence": "عاد الجنود ينتصرون",
+          "parsedWords": [
+            {
+              "word": "عاد",
+              "normalizedWord": "عاد",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الجنود",
+              "normalizedWord": "الجنود",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل وصاحب الحال",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الحال",
+              "explanation": "فاعل وصاحب الحال، وموقعه: قبل الحال.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "ينتصرون",
+              "normalizedWord": "ينتصرون",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب حال",
+              "explanation": "فعل وفاعل، وموقعه: جملة في محل نصب حال.",
+              "startIndex": 11,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "ينتصرون جملة حالية",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-circumstantial-clause-example-4",
+          "sentence": "رأيت القمر يضيء",
+          "fullyDiacritizedSentence": "رأيت القمر يضيء",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "القمر",
+              "normalizedWord": "القمر",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مفعول وصاحب الحال",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الحال",
+              "explanation": "مفعول وصاحب الحال، وموقعه: قبل الحال.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "يضيء",
+              "normalizedWord": "يضيء",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب حال",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل نصب حال.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يضيء حال من القمر",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-circumstantial-clause-ex-1",
+        "sentence-positions-circumstantial-clause-ex-2",
+        "sentence-positions-circumstantial-clause-ex-3",
+        "sentence-positions-circumstantial-clause-ex-4",
+        "sentence-positions-circumstantial-clause-ex-5",
+        "sentence-positions-circumstantial-clause-ex-6",
+        "sentence-positions-circumstantial-clause-ex-7",
+        "sentence-positions-circumstantial-clause-ex-8",
+        "sentence-positions-circumstantial-clause-ex-9",
+        "sentence-positions-circumstantial-clause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-circumstantial-clause-ex-2",
+        "sentence-positions-circumstantial-clause-ex-4",
+        "sentence-positions-circumstantial-clause-ex-6",
+        "sentence-positions-circumstantial-clause-ex-8",
+        "sentence-positions-circumstantial-clause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "جملة الحال",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-positions-adjective-clause",
+      "topicId": "sentence-positions.adjective-clause",
+      "order": 1240,
+      "unitId": "sentence-positions-adjective-clause-unit",
+      "slug": "sentence-positions-adjective-clause",
+      "title": "جملة الصفة",
+      "shortTitle": "جملة الصفة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود جملة الصفة.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-circumstantial-clause"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-adjective-clause-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات جملة الصفة منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "جملة الصفة باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الجملة بعد النكرة صفة تتبعها في محلها، وتحتاج إلى رابط يعود على الموصوف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل جملة الصفة، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل جملة الصفة لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: الجملة بعد النكرة صفة تتبعها في محلها، وتحتاج إلى رابط يعود على الموصوف.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-adjective-clause-example-1",
+          "sentence": "جاء طالب يبتسم",
+          "fullyDiacritizedSentence": "جاء طالب يبتسم",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل نكرة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "موصوف",
+              "explanation": "فاعل نكرة، وموقعه: موصوف.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "يبتسم",
+              "normalizedWord": "يبتسم",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل رفع صفة",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل رفع صفة.",
+              "startIndex": 9,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يبتسم صفة لطالب في محل رفع",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-example-2",
+          "sentence": "رأيت طالبا يقرأ",
+          "fullyDiacritizedSentence": "رأيت طالبا يقرأ",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مفعول نكرة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "موصوف",
+              "explanation": "مفعول نكرة، وموقعه: موصوف.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرأ",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب صفة",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل نصب صفة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يقرأ في محل نصب صفة",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-example-3",
+          "sentence": "مررت بطفل يلعب",
+          "fullyDiacritizedSentence": "مررت بطفل يلعب",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بطفل",
+              "normalizedWord": "بطفل",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جار ومجرور نكرة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "موصوف",
+              "explanation": "جار ومجرور نكرة، وموقعه: موصوف.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "يلعب",
+              "normalizedWord": "يلعب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل جر صفة",
+              "explanation": "فعل وفاعله مستتر، وموقعه: جملة في محل جر صفة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "يلعب في محل جر صفة",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-adjective-clause-example-4",
+          "sentence": "قرأت قصة أحداثها ممتعة",
+          "fullyDiacritizedSentence": "قرأت قصة أحداثها ممتعة",
+          "parsedWords": [
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرأت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "قصة",
+              "normalizedWord": "قصة",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مفعول نكرة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "موصوف",
+              "explanation": "مفعول نكرة، وموقعه: موصوف.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "أحداثها",
+              "normalizedWord": "أحداثها",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ ورابط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر جملة الصفة",
+              "explanation": "مبتدأ ورابط، وموقعه: صدر جملة الصفة.",
+              "startIndex": 9,
+              "endIndex": 16
+            },
+            {
+              "word": "ممتعة",
+              "normalizedWord": "ممتعة",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل نصب صفة",
+              "explanation": "خبر، وموقعه: جملة في محل نصب صفة.",
+              "startIndex": 17,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "الجملة الاسمية صفة لقصة",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-adjective-clause-ex-1",
+        "sentence-positions-adjective-clause-ex-2",
+        "sentence-positions-adjective-clause-ex-3",
+        "sentence-positions-adjective-clause-ex-4",
+        "sentence-positions-adjective-clause-ex-5",
+        "sentence-positions-adjective-clause-ex-6",
+        "sentence-positions-adjective-clause-ex-7",
+        "sentence-positions-adjective-clause-ex-8",
+        "sentence-positions-adjective-clause-ex-9",
+        "sentence-positions-adjective-clause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-adjective-clause-ex-2",
+        "sentence-positions-adjective-clause-ex-4",
+        "sentence-positions-adjective-clause-ex-6",
+        "sentence-positions-adjective-clause-ex-8",
+        "sentence-positions-adjective-clause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "جملة الصفة",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-positions-genitive-clause",
+      "topicId": "sentence-positions.genitive-clause",
+      "order": 1250,
+      "unitId": "sentence-positions-genitive-clause-unit",
+      "slug": "sentence-positions-genitive-clause",
+      "title": "جملة المضاف إليه",
+      "shortTitle": "جملة المضاف إليه",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود جملة المضاف إليه.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-adjective-clause"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-genitive-clause-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات جملة المضاف إليه منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "جملة المضاف إليه باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "تقع الجملة في محل جر مضاف إليه بعد ظروف وأسماء تضاف إلى الجمل مثل حين ويوم وإذا.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل جملة المضاف إليه، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل جملة المضاف إليه لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: تقع الجملة في محل جر مضاف إليه بعد ظروف وأسماء تضاف إلى الجمل مثل حين ويوم وإذا.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-genitive-clause-example-1",
+          "sentence": "فرحت حين نجحت",
+          "fullyDiacritizedSentence": "فرحت حين نجحت",
+          "parsedWords": [
+            {
+              "word": "فرحت",
+              "normalizedWord": "فرحت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "حين",
+              "normalizedWord": "حين",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "ظرف مضاف",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الجملة",
+              "explanation": "ظرف مضاف، وموقعه: قبل الجملة.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "نجحت",
+              "normalizedWord": "نجحت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل جر مضاف إليه",
+              "explanation": "فعل وفاعل، وموقعه: جملة في محل جر مضاف إليه.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "نجحت في محل جر بالإضافة",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-example-2",
+          "sentence": "أزورك يوم تعود",
+          "fullyDiacritizedSentence": "أزورك يوم تعود",
+          "parsedWords": [
+            {
+              "word": "أزورك",
+              "normalizedWord": "أزورك",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل ومفعول",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل ومفعول، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "يوم",
+              "normalizedWord": "يوم",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "ظرف مضاف",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الجملة",
+              "explanation": "ظرف مضاف، وموقعه: قبل الجملة.",
+              "startIndex": 6,
+              "endIndex": 9
+            },
+            {
+              "word": "تعود",
+              "normalizedWord": "تعود",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة في محل جر مضاف إليه",
+              "explanation": "فعل وفاعل مستتر، وموقعه: جملة في محل جر مضاف إليه.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "تعود مضاف إليه بعد يوم",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-example-3",
+          "sentence": "اذكر إذ كنت صغيرا",
+          "fullyDiacritizedSentence": "اذكر إذ كنت صغيرا",
+          "parsedWords": [
+            {
+              "word": "اذكر",
+              "normalizedWord": "اذكر",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل أمر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل أمر، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "إذ",
+              "normalizedWord": "إذ",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "ظرف مضاف",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الجملة",
+              "explanation": "ظرف مضاف، وموقعه: قبل الجملة.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "كنت",
+              "normalizedWord": "كنت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل ناسخ واسمه",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة مضاف إليه",
+              "explanation": "فعل ناسخ واسمه، وموقعه: جملة مضاف إليه.",
+              "startIndex": 8,
+              "endIndex": 11
+            },
+            {
+              "word": "صغيرا",
+              "normalizedWord": "صغيرا",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "خبر كان",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "داخل الجملة المضافة",
+              "explanation": "خبر كان، وموقعه: داخل الجملة المضافة.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "كنت في محل جر بعد إذ",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-genitive-clause-example-4",
+          "sentence": "انتظرت إلى أن حضر",
+          "fullyDiacritizedSentence": "انتظرت إلى أن حضر",
+          "parsedWords": [
+            {
+              "word": "انتظرت",
+              "normalizedWord": "انتظرت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "إلى",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "حرف جر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل المصدر",
+              "explanation": "حرف جر، وموقعه: قبل المصدر.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "أن",
+              "normalizedWord": "أن",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "حرف مصدري",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر المصدر المؤول",
+              "explanation": "حرف مصدري، وموقعه: صدر المصدر المؤول.",
+              "startIndex": 11,
+              "endIndex": 13
+            },
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "داخل المصدر المؤول",
+              "explanation": "فعل وفاعله مستتر، وموقعه: داخل المصدر المؤول.",
+              "startIndex": 14,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "المصدر المؤول متعلق بالغاية",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-genitive-clause-ex-1",
+        "sentence-positions-genitive-clause-ex-2",
+        "sentence-positions-genitive-clause-ex-3",
+        "sentence-positions-genitive-clause-ex-4",
+        "sentence-positions-genitive-clause-ex-5",
+        "sentence-positions-genitive-clause-ex-6",
+        "sentence-positions-genitive-clause-ex-7",
+        "sentence-positions-genitive-clause-ex-8",
+        "sentence-positions-genitive-clause-ex-9",
+        "sentence-positions-genitive-clause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-genitive-clause-ex-2",
+        "sentence-positions-genitive-clause-ex-4",
+        "sentence-positions-genitive-clause-ex-6",
+        "sentence-positions-genitive-clause-ex-8",
+        "sentence-positions-genitive-clause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "جملة المضاف إليه",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-positions-conditional-answer",
+      "topicId": "sentence-positions.conditional-answer",
+      "order": 1260,
+      "unitId": "sentence-positions-conditional-answer-unit",
+      "slug": "sentence-positions-conditional-answer",
+      "title": "جواب الشرط",
+      "shortTitle": "جواب الشرط",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود جواب الشرط.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-genitive-clause"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-conditional-answer-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات جواب الشرط منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "جواب الشرط باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "جواب الشرط الجازم المقترن بالفاء أو إذا الفجائية في محل جزم، وغيره لا محل له في التحليل المدرسي.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل جواب الشرط، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل جواب الشرط لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: جواب الشرط الجازم المقترن بالفاء أو إذا الفجائية في محل جزم، وغيره لا محل له في التحليل المدرسي.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-conditional-answer-example-1",
+          "sentence": "إن تجتهد تنجح",
+          "fullyDiacritizedSentence": "إن تجتهد تنجح",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "إن",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "أداة شرط، وموقعه: صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تجتهد",
+              "normalizedWord": "تجتهد",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة الشرط",
+              "explanation": "فعل الشرط، وموقعه: جملة الشرط.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة لا محل لها",
+              "explanation": "جواب الشرط، وموقعه: جملة لا محل لها.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "الجواب غير المقترن لا محل له",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-example-2",
+          "sentence": "إن تجتهد فأنت ناجح",
+          "fullyDiacritizedSentence": "إن تجتهد فأنت ناجح",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "إن",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "أداة شرط، وموقعه: صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تجتهد",
+              "normalizedWord": "تجتهد",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة الشرط",
+              "explanation": "فعل الشرط، وموقعه: جملة الشرط.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "فأنت",
+              "normalizedWord": "فأنت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاء رابطة ومبتدأ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر جواب في محل جزم",
+              "explanation": "فاء رابطة ومبتدأ، وموقعه: صدر جواب في محل جزم.",
+              "startIndex": 9,
+              "endIndex": 13
+            },
+            {
+              "word": "ناجح",
+              "normalizedWord": "ناجح",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "داخل جواب الشرط",
+              "explanation": "خبر، وموقعه: داخل جواب الشرط.",
+              "startIndex": 14,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "الجواب المقترن بالفاء في محل جزم",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-example-3",
+          "sentence": "من يصدق فله أجر",
+          "fullyDiacritizedSentence": "من يصدق فله أجر",
+          "parsedWords": [
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "اسم شرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "اسم شرط، وموقعه: صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يصدق",
+              "normalizedWord": "يصدق",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة الشرط",
+              "explanation": "فعل الشرط، وموقعه: جملة الشرط.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "فله",
+              "normalizedWord": "فله",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاء ورابط وشبه جملة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر جواب في محل جزم",
+              "explanation": "فاء ورابط وشبه جملة، وموقعه: صدر جواب في محل جزم.",
+              "startIndex": 8,
+              "endIndex": 11
+            },
+            {
+              "word": "أجر",
+              "normalizedWord": "أجر",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "داخل الجواب",
+              "explanation": "مبتدأ مؤخر، وموقعه: داخل الجواب.",
+              "startIndex": 12,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "جواب الشرط في محل جزم",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-conditional-answer-example-4",
+          "sentence": "إذا درست نجحت",
+          "fullyDiacritizedSentence": "إذا درست نجحت",
+          "parsedWords": [
+            {
+              "word": "إذا",
+              "normalizedWord": "إذا",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "ظرف شرط غير جازم",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "ظرف شرط غير جازم، وموقعه: صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "درست",
+              "normalizedWord": "درست",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة مضافة إلى إذا",
+              "explanation": "فعل الشرط، وموقعه: جملة مضافة إلى إذا.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "نجحت",
+              "normalizedWord": "نجحت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة لا محل لها",
+              "explanation": "جواب الشرط، وموقعه: جملة لا محل لها.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "إذا غير جازمة وجوابها لا محل له",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-conditional-answer-ex-1",
+        "sentence-positions-conditional-answer-ex-2",
+        "sentence-positions-conditional-answer-ex-3",
+        "sentence-positions-conditional-answer-ex-4",
+        "sentence-positions-conditional-answer-ex-5",
+        "sentence-positions-conditional-answer-ex-6",
+        "sentence-positions-conditional-answer-ex-7",
+        "sentence-positions-conditional-answer-ex-8",
+        "sentence-positions-conditional-answer-ex-9",
+        "sentence-positions-conditional-answer-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-conditional-answer-ex-2",
+        "sentence-positions-conditional-answer-ex-4",
+        "sentence-positions-conditional-answer-ex-6",
+        "sentence-positions-conditional-answer-ex-8",
+        "sentence-positions-conditional-answer-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "جواب الشرط",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "sentence-positions-subordinate-clause",
+      "topicId": "sentence-positions.subordinate-clause",
+      "order": 1270,
+      "unitId": "sentence-positions-subordinate-clause-unit",
+      "slug": "sentence-positions-subordinate-clause",
+      "title": "الجملة التابعة",
+      "shortTitle": "الجملة التابعة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد حدود الجملة التابعة.",
+        "معرفة العامل والمحل أو انعدامه.",
+        "إعراب كلمات الجملة مع بيان sentencePosition."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-conditional-answer"
+      ],
+      "sections": [
+        {
+          "id": "sentence-positions-subordinate-clause-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "لا نعرب كلمات الجملة التابعة منفصلة فقط؛ بل نحدد وظيفة الجملة كلها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "الجملة التابعة باب يربط تركيب الجملة بالمفرد الذي يمكن أن يحل محلها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الجملة المعطوفة أو التابعة لجملة ذات محل تأخذ محلها، أما التابعة لجملة لا محل لها فلا محل لها.",
+          "order": 3,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد حدود الجملة وأداة الربط وما قبلها، ثم اختبر إحلال مفرد مكانها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "العامل يحدد محل الجملة التابعة، أما الكلمات داخلها فلكل منها عاملها وعلامتها.",
+          "order": 5,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-6",
+          "type": "reasoning",
+          "title": "خطوات القرار",
+          "body": "نوع الرابط ← حدود الجملة ← العامل الخارجي ← المحل أو انعدامه ← إعراب الكلمات.",
+          "order": 6,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعطاء الجملة حركة ظاهرة أو الحكم من الكلمة السابقة وحدها.",
+          "order": 7,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "الجملة المستقلة لا تأخذ محل الجملة التابعة لمجرد تشابه المعنى؛ لا بد من عامل ورابط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الخلاصة: الجملة المعطوفة أو التابعة لجملة ذات محل تأخذ محلها، أما التابعة لجملة لا محل لها فلا محل لها.",
+          "order": 9,
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "sentence-positions-subordinate-clause-example-1",
+          "sentence": "الطالب يقرأ ويكتب",
+          "fullyDiacritizedSentence": "الطالب يقرأ ويكتب",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الخبر",
+              "explanation": "مبتدأ، وموقعه: قبل الخبر.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرأ",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جملة خبر",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "في محل رفع",
+              "explanation": "جملة خبر، وموقعه: في محل رفع.",
+              "startIndex": 7,
+              "endIndex": 11
+            },
+            {
+              "word": "ويكتب",
+              "normalizedWord": "ويكتب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جملة معطوفة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "في محل رفع",
+              "explanation": "جملة معطوفة، وموقعه: في محل رفع.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يكتب معطوفة على خبر ذي محل",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-example-2",
+          "sentence": "رأيت طالبا يقرأ ويكتب",
+          "fullyDiacritizedSentence": "رأيت طالبا يقرأ ويكتب",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل وفاعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طالبا",
+              "normalizedWord": "طالبا",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "مفعول وموصوف",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الصفة",
+              "explanation": "مفعول وموصوف، وموقعه: قبل الصفة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرأ",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جملة صفة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "في محل نصب",
+              "explanation": "جملة صفة، وموقعه: في محل نصب.",
+              "startIndex": 11,
+              "endIndex": 15
+            },
+            {
+              "word": "ويكتب",
+              "normalizedWord": "ويكتب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جملة معطوفة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "في محل نصب",
+              "explanation": "جملة معطوفة، وموقعه: في محل نصب.",
+              "startIndex": 16,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "الجملتان صفتان في محل نصب",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-example-3",
+          "sentence": "جاء الطالب يضحك ويلعب",
+          "fullyDiacritizedSentence": "جاء الطالب يضحك ويلعب",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "الجملة الأصلية",
+              "explanation": "فعل، وموقعه: الجملة الأصلية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل وصاحب الحال",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "قبل الحال",
+              "explanation": "فاعل وصاحب الحال، وموقعه: قبل الحال.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "يضحك",
+              "normalizedWord": "يضحك",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جملة حال",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "في محل نصب",
+              "explanation": "جملة حال، وموقعه: في محل نصب.",
+              "startIndex": 11,
+              "endIndex": 15
+            },
+            {
+              "word": "ويلعب",
+              "normalizedWord": "ويلعب",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "جملة معطوفة",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "في محل نصب",
+              "explanation": "جملة معطوفة، وموقعه: في محل نصب.",
+              "startIndex": 16,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "التابعة لجملة الحال في محل نصب",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        },
+        {
+          "id": "sentence-positions-subordinate-clause-example-4",
+          "sentence": "طلع الفجر وأشرقت الشمس",
+          "fullyDiacritizedSentence": "طلع الفجر وأشرقت الشمس",
+          "parsedWords": [
+            {
+              "word": "طلع",
+              "normalizedWord": "طلع",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة ابتدائية",
+              "explanation": "فعل، وموقعه: جملة ابتدائية.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الفجر",
+              "normalizedWord": "الفجر",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "داخل الابتدائية",
+              "explanation": "فاعل، وموقعه: داخل الابتدائية.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "وأشرقت",
+              "normalizedWord": "وأشرقت",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "واو عطف وفعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "جملة معطوفة لا محل لها",
+              "explanation": "واو عطف وفعل، وموقعه: جملة معطوفة لا محل لها.",
+              "startIndex": 10,
+              "endIndex": 16
+            },
+            {
+              "word": "الشمس",
+              "normalizedWord": "الشمس",
+              "wordType": "كلمة عربية",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مبني أو معرب بحسب نوعه",
+              "grammaticalSign": "علامته بحسب نوعه",
+              "signReason": "تحددها بنية الكلمة وعاملها",
+              "grammaticalAgent": "العامل المذكور في التحليل",
+              "sentencePosition": "داخل المعطوفة",
+              "explanation": "فاعل، وموقعه: داخل المعطوفة.",
+              "startIndex": 17,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "معطوفة على ابتدائية فلا محل لها",
+          "referenceIds": [
+            "ref-sentence-positions-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "sentence-positions-subordinate-clause-ex-1",
+        "sentence-positions-subordinate-clause-ex-2",
+        "sentence-positions-subordinate-clause-ex-3",
+        "sentence-positions-subordinate-clause-ex-4",
+        "sentence-positions-subordinate-clause-ex-5",
+        "sentence-positions-subordinate-clause-ex-6",
+        "sentence-positions-subordinate-clause-ex-7",
+        "sentence-positions-subordinate-clause-ex-8",
+        "sentence-positions-subordinate-clause-ex-9",
+        "sentence-positions-subordinate-clause-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "sentence-positions-subordinate-clause-ex-2",
+        "sentence-positions-subordinate-clause-ex-4",
+        "sentence-positions-subordinate-clause-ex-6",
+        "sentence-positions-subordinate-clause-ex-8",
+        "sentence-positions-subordinate-clause-ex-10"
+      ],
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "tags": [
+        "الجملة التابعة",
+        "محل الجملة",
+        "الرابط"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sentence-positions-without-position-ex-1",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جملة ابتدائية لا محل لها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جملة ابتدائية لا محل لها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-2",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-3",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-4",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-5",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-6",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-7",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-8",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-9",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-without-position-ex-10",
+      "lessonId": "sentence-positions-without-position",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.without-position"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الجملة الابتدائية والاستئنافية والاعتراضية والتفسيرية وصلة الموصول وجواب القسم والشرط غير المقترن لا يحل مجموعها محل مفرد.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الجملة الابتدائية والاستئنافية والاعتراضية والتفسيرية وصلة الموصول وجواب القسم والشرط غير المقترن لا يحل مجموعها محل مفرد.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-1",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جملة يكتب في محل رفع خبر",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جملة يكتب في محل رفع خبر",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-2",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-3",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-4",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-5",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-6",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-7",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-8",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-9",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-predicate-clause-ex-10",
+      "lessonId": "sentence-positions-predicate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.predicate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تقع الجملة الاسمية أو الفعلية خبرًا في محل رفع أو نصب بحسب الناسخ، وتحتاج إلى رابط يعود على الاسم.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تقع الجملة الاسمية أو الفعلية خبرًا في محل رفع أو نصب بحسب الناسخ، وتحتاج إلى رابط يعود على الاسم.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-1",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يبتسم في محل نصب حال",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يبتسم في محل نصب حال",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-2",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-3",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-4",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-5",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-6",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-7",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-8",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-9",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-circumstantial-clause-ex-10",
+      "lessonId": "sentence-positions-circumstantial-clause",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.circumstantial-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "جملة الحال تبين هيئة معرفة قبلها، وتكون في محل نصب وترتبط بصاحبها بضمير أو واو الحال أو بهما.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جملة الحال تبين هيئة معرفة قبلها، وتكون في محل نصب وترتبط بصاحبها بضمير أو واو الحال أو بهما.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-1",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يبتسم صفة لطالب في محل رفع",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يبتسم صفة لطالب في محل رفع",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-2",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-3",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-4",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-5",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-6",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-7",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-8",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-9",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-adjective-clause-ex-10",
+      "lessonId": "sentence-positions-adjective-clause",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.adjective-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الجملة بعد النكرة صفة تتبعها في محلها، وتحتاج إلى رابط يعود على الموصوف.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الجملة بعد النكرة صفة تتبعها في محلها، وتحتاج إلى رابط يعود على الموصوف.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-1",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "نجحت في محل جر بالإضافة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نجحت في محل جر بالإضافة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-2",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-3",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-4",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-5",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-6",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-7",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-8",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-9",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-genitive-clause-ex-10",
+      "lessonId": "sentence-positions-genitive-clause",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.genitive-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تقع الجملة في محل جر مضاف إليه بعد ظروف وأسماء تضاف إلى الجمل مثل حين ويوم وإذا.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تقع الجملة في محل جر مضاف إليه بعد ظروف وأسماء تضاف إلى الجمل مثل حين ويوم وإذا.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-1",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الجواب غير المقترن لا محل له",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الجواب غير المقترن لا محل له",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-2",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-3",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-4",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-5",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-6",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-7",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-8",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-9",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-conditional-answer-ex-10",
+      "lessonId": "sentence-positions-conditional-answer",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.conditional-answer"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "جواب الشرط الجازم المقترن بالفاء أو إذا الفجائية في محل جزم، وغيره لا محل له في التحليل المدرسي.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "جواب الشرط الجازم المقترن بالفاء أو إذا الفجائية في محل جزم، وغيره لا محل له في التحليل المدرسي.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-1",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما موقع الجملة في المثال الأول؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكتب معطوفة على خبر ذي محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكتب معطوفة على خبر ذي محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-2",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدود الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد حدود الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-3",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما دور الرابط؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ربطها بما قبلها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "ربطها بما قبلها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-4",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "هل للجملة حركة ظاهرة؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ لها محل أو لا محل",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا؛ لها محل أو لا محل",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-5",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل الخارجي",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل الخارجي",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-6",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "هل نعرب الكلمات داخلها؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم؛ لكل كلمة إعرابها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم؛ لكل كلمة إعرابها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-7",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحكم من المجاورة وحدها",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الحكم من المجاورة وحدها",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-8",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما فائدة إحلال المفرد؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يكشف وظيفة الجملة",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يكشف وظيفة الجملة",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-9",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "متى تنتفي المحلية؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "عند غياب عامل يجعلها في موضع مفرد",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "عند غياب عامل يجعلها في موضع مفرد",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "sentence-positions-subordinate-clause-ex-10",
+      "lessonId": "sentence-positions-subordinate-clause",
+      "type": "multipleChoice",
+      "prompt": "ما خلاصة القاعدة؟",
+      "skillIds": [
+        "sentence-positions.subordinate-clause"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الجملة المعطوفة أو التابعة لجملة ذات محل تأخذ محلها، أما التابعة لجملة لا محل لها فلا محل لها.",
+          "feedback": "صحيح؛ يوافق العامل والرابط."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها السياق أو العامل",
+          "feedback": "راجع حدود الجملة والعامل الخارجي."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الجملة المعطوفة أو التابعة لجملة ذات محل تأخذ محلها، أما التابعة لجملة لا محل لها فلا محل لها.",
+      "hint": "حدد حدود الجملة وما قبلها والرابط.",
+      "referenceIds": [
+        "ref-sentence-positions-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-sentence-positions-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

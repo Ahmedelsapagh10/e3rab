@@ -66,7 +66,63 @@ class AssetCurriculumDataSource implements LocalCurriculumDataSource {
         }
       }
     }
+    final lessons = (combined['lessons'] as List).cast<Map<String, dynamic>>();
+    _validateCombinedIdentity(lessons);
+    _validateCombinedPrerequisites(lessons);
     _pack = combined;
+  }
+
+  void _validateCombinedIdentity(List<Map<String, dynamic>> lessons) {
+    final topicIds = <String>{};
+    final orders = <int>{};
+    for (final lesson in lessons) {
+      final topicId = lesson['topicId'];
+      final order = lesson['order'];
+      if (topicId is! String ||
+          topicId.trim().isEmpty ||
+          !topicIds.add(topicId) ||
+          order is! int ||
+          !orders.add(order)) {
+        throw FormatException(
+          'Duplicate or missing lesson topic/order: ${lesson['id']}.',
+        );
+      }
+    }
+  }
+
+  void _validateCombinedPrerequisites(List<Map<String, dynamic>> lessons) {
+    final ids = lessons
+        .map((lesson) => lesson['id'])
+        .whereType<String>()
+        .toSet();
+    final graph = <String, List<String>>{};
+    for (final lesson in lessons) {
+      final id = lesson['id'] as String;
+      final dependencies = List<String>.from(
+        lesson['prerequisiteIds'] as List? ?? const [],
+      );
+      if (!ids.containsAll(dependencies)) {
+        throw FormatException('Unknown cross-pack prerequisite for $id.');
+      }
+      graph[id] = dependencies;
+    }
+    final visiting = <String>{};
+    final visited = <String>{};
+    bool visit(String id) {
+      if (visiting.contains(id)) return false;
+      if (visited.contains(id)) return true;
+      visiting.add(id);
+      for (final dependency in graph[id] ?? const []) {
+        if (!visit(dependency)) return false;
+      }
+      visiting.remove(id);
+      visited.add(id);
+      return true;
+    }
+
+    if (graph.keys.any((id) => !visit(id))) {
+      throw const FormatException('Cyclic cross-pack lesson prerequisites.');
+    }
   }
 
   @override

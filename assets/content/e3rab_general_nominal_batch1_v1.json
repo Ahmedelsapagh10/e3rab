@@ -1,0 +1,4509 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-nominal-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-nominal-module-v1",
+      "nominal-subject-forms-unit",
+      "nominal-subject-forms",
+      "nominal-subject-forms-ex-1",
+      "nominal-subject-forms-ex-2",
+      "nominal-subject-forms-ex-3",
+      "nominal-subject-forms-ex-4",
+      "nominal-subject-forms-ex-5",
+      "nominal-subject-forms-ex-6",
+      "nominal-subject-forms-ex-7",
+      "nominal-subject-forms-ex-8",
+      "nominal-subject-forms-ex-9",
+      "nominal-subject-forms-ex-10",
+      "nominal-predicate-forms-unit",
+      "nominal-predicate-forms",
+      "nominal-predicate-forms-ex-1",
+      "nominal-predicate-forms-ex-2",
+      "nominal-predicate-forms-ex-3",
+      "nominal-predicate-forms-ex-4",
+      "nominal-predicate-forms-ex-5",
+      "nominal-predicate-forms-ex-6",
+      "nominal-predicate-forms-ex-7",
+      "nominal-predicate-forms-ex-8",
+      "nominal-predicate-forms-ex-9",
+      "nominal-predicate-forms-ex-10",
+      "nominal-predicate-order-unit",
+      "nominal-predicate-order",
+      "nominal-predicate-order-ex-1",
+      "nominal-predicate-order-ex-2",
+      "nominal-predicate-order-ex-3",
+      "nominal-predicate-order-ex-4",
+      "nominal-predicate-order-ex-5",
+      "nominal-predicate-order-ex-6",
+      "nominal-predicate-order-ex-7",
+      "nominal-predicate-order-ex-8",
+      "nominal-predicate-order-ex-9",
+      "nominal-predicate-order-ex-10",
+      "nominal-subject-predicate-ellipsis-unit",
+      "nominal-subject-predicate-ellipsis",
+      "nominal-subject-predicate-ellipsis-ex-1",
+      "nominal-subject-predicate-ellipsis-ex-2",
+      "nominal-subject-predicate-ellipsis-ex-3",
+      "nominal-subject-predicate-ellipsis-ex-4",
+      "nominal-subject-predicate-ellipsis-ex-5",
+      "nominal-subject-predicate-ellipsis-ex-6",
+      "nominal-subject-predicate-ellipsis-ex-7",
+      "nominal-subject-predicate-ellipsis-ex-8",
+      "nominal-subject-predicate-ellipsis-ex-9",
+      "nominal-subject-predicate-ellipsis-ex-10",
+      "nominal-multiple-predicates-unit",
+      "nominal-multiple-predicates",
+      "nominal-multiple-predicates-ex-1",
+      "nominal-multiple-predicates-ex-2",
+      "nominal-multiple-predicates-ex-3",
+      "nominal-multiple-predicates-ex-4",
+      "nominal-multiple-predicates-ex-5",
+      "nominal-multiple-predicates-ex-6",
+      "nominal-multiple-predicates-ex-7",
+      "nominal-multiple-predicates-ex-8",
+      "nominal-multiple-predicates-ex-9",
+      "nominal-multiple-predicates-ex-10",
+      "nominal-descriptive-subject-unit",
+      "nominal-descriptive-subject",
+      "nominal-descriptive-subject-ex-1",
+      "nominal-descriptive-subject-ex-2",
+      "nominal-descriptive-subject-ex-3",
+      "nominal-descriptive-subject-ex-4",
+      "nominal-descriptive-subject-ex-5",
+      "nominal-descriptive-subject-ex-6",
+      "nominal-descriptive-subject-ex-7",
+      "nominal-descriptive-subject-ex-8",
+      "nominal-descriptive-subject-ex-9",
+      "nominal-descriptive-subject-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "nominal-sentence"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-nominal-module-v1",
+      "slug": "general-nominal-v1",
+      "title": "الجملة الاسمية",
+      "unitIds": [
+        "nominal-subject-forms-unit",
+        "nominal-predicate-forms-unit",
+        "nominal-predicate-order-unit",
+        "nominal-subject-predicate-ellipsis-unit",
+        "nominal-multiple-predicates-unit",
+        "nominal-descriptive-subject-unit"
+      ],
+      "order": 3
+    }
+  ],
+  "units": [
+    {
+      "id": "nominal-subject-forms-unit",
+      "moduleId": "general-nominal-module-v1",
+      "slug": "nominal-subject-forms-unit",
+      "title": "صور المبتدأ",
+      "lessonIds": [
+        "nominal-subject-forms"
+      ],
+      "order": 210
+    },
+    {
+      "id": "nominal-predicate-forms-unit",
+      "moduleId": "general-nominal-module-v1",
+      "slug": "nominal-predicate-forms-unit",
+      "title": "صور الخبر",
+      "lessonIds": [
+        "nominal-predicate-forms"
+      ],
+      "order": 220
+    },
+    {
+      "id": "nominal-predicate-order-unit",
+      "moduleId": "general-nominal-module-v1",
+      "slug": "nominal-predicate-order-unit",
+      "title": "تقديم الخبر وتأخيره",
+      "lessonIds": [
+        "nominal-predicate-order"
+      ],
+      "order": 230
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-unit",
+      "moduleId": "general-nominal-module-v1",
+      "slug": "nominal-subject-predicate-ellipsis-unit",
+      "title": "حذف المبتدأ والخبر",
+      "lessonIds": [
+        "nominal-subject-predicate-ellipsis"
+      ],
+      "order": 240
+    },
+    {
+      "id": "nominal-multiple-predicates-unit",
+      "moduleId": "general-nominal-module-v1",
+      "slug": "nominal-multiple-predicates-unit",
+      "title": "تعدد الخبر",
+      "lessonIds": [
+        "nominal-multiple-predicates"
+      ],
+      "order": 250
+    },
+    {
+      "id": "nominal-descriptive-subject-unit",
+      "moduleId": "general-nominal-module-v1",
+      "slug": "nominal-descriptive-subject-unit",
+      "title": "المبتدأ الوصف",
+      "lessonIds": [
+        "nominal-descriptive-subject"
+      ],
+      "order": 260
+    }
+  ],
+  "lessons": [
+    {
+      "id": "nominal-subject-forms",
+      "topicId": "nominal.subject-forms",
+      "order": 210,
+      "unitId": "nominal-subject-forms-unit",
+      "slug": "nominal-subject-forms",
+      "title": "صور المبتدأ",
+      "shortTitle": "كيف يأتي المبتدأ؟",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز صور المبتدأ الصريح والمبني.",
+        "إعراب الضمير واسم الإشارة والاسم الموصول مبتدأ.",
+        "ربط صورة المبتدأ بعلامته أو محله."
+      ],
+      "prerequisiteIds": [
+        "nominal-sentence"
+      ],
+      "sections": [
+        {
+          "id": "nominal-subject-forms-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "المبتدأ هو الاسم الذي نبدأ به الحكم في الجملة الاسمية، لكنه لا يأتي في صورة واحدة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "يأتي المبتدأ اسمًا ظاهرًا أو ضميرًا منفصلًا أو اسم إشارة أو اسمًا موصولًا، وقد يأتي مصدرًا مؤولًا.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يرفع المبتدأ بالابتداء؛ فإن كان معربًا ظهرت أو قدرت علامة الرفع، وإن كان مبنيًا قلنا: في محل رفع مبتدأ.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "ابحث عمّن نتحدث عنه، ثم اسأل: هل هو اسم ظاهر أم ضمير أم إشارة أم موصول؟ وبعد ذلك حدّد الإعراب أو المحل.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "المصدر المؤول من أن والفعل قد يسد مسد الاسم الصريح، والاسم الموصول يحتاج إلى صلة وعائد.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-6",
+          "type": "reasoning",
+          "title": "رتّب قرار الإعراب",
+          "body": "نوع الكلمة ← صورة المبتدأ ← عامل الابتداء ← الرفع أو محل الرفع ← العلامة أو البناء.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تقل إن اسم الإشارة مرفوع بالضمة؛ فهو مبني في محل رفع. ولا تجعل كل اسم في أول الجملة مبتدأ قبل فحص السياق.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «في البيت ضيف» لا يكون «البيت» مبتدأ؛ لأنه اسم مجرور داخل خبر مقدم، و«ضيف» هو المبتدأ المؤخر.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المبتدأ محكوم عليه مرفوع أو في محل رفع، وصورته تحدد طريقة صياغة إعرابه.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-subject-forms-example-1",
+          "sentence": "محمد حاضر",
+          "fullyDiacritizedSentence": "محمد حاضر",
+          "parsedWords": [
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "حاضر",
+              "normalizedWord": "حاضر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «محمد»",
+              "sentencePosition": "خبر مفرد",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "جاء المبتدأ اسم علم ظاهرًا.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-example-2",
+          "sentence": "أنا طالب",
+          "fullyDiacritizedSentence": "أنا طالب",
+          "parsedWords": [
+            {
+              "word": "أنا",
+              "normalizedWord": "أنا",
+              "wordType": "ضمير منفصل",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني في محل رفع",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "من الأسماء المبنية",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مبني في محل رفع، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «أنا»",
+              "sentencePosition": "خبر مفرد",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "الضمير المنفصل مبني في محل رفع مبتدأ.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-example-3",
+          "sentence": "هذا كتاب",
+          "fullyDiacritizedSentence": "هذا كتاب",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "اسم إشارة",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني في محل رفع",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "من الأسماء المبنية",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مبني في محل رفع، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «هذا»",
+              "sentencePosition": "خبر مفرد",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "اسم الإشارة مبني في محل رفع مبتدأ.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-forms-example-4",
+          "sentence": "الذي نجح محبوب",
+          "fullyDiacritizedSentence": "الذي نجح محبوب",
+          "parsedWords": [
+            {
+              "word": "الذي",
+              "normalizedWord": "الذي",
+              "wordType": "اسم موصول",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني في محل رفع",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "من الأسماء المبنية",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مبني في محل رفع، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل صلة الموصول وفاعله ضمير مستتر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صلة الموصول لا محل لها",
+              "explanation": "فعل صلة الموصول وفاعله ضمير مستتر؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "محبوب",
+              "normalizedWord": "محبوب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ الموصول",
+              "sentencePosition": "خبر مفرد",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "الاسم الموصول مبني في محل رفع، وصلته لا محل لها.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nominal-subject-forms-ex-1",
+        "nominal-subject-forms-ex-2",
+        "nominal-subject-forms-ex-3",
+        "nominal-subject-forms-ex-4",
+        "nominal-subject-forms-ex-5",
+        "nominal-subject-forms-ex-6",
+        "nominal-subject-forms-ex-7",
+        "nominal-subject-forms-ex-8",
+        "nominal-subject-forms-ex-9",
+        "nominal-subject-forms-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nominal-subject-forms-ex-2",
+        "nominal-subject-forms-ex-4",
+        "nominal-subject-forms-ex-6",
+        "nominal-subject-forms-ex-8",
+        "nominal-subject-forms-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "tags": [
+        "المبتدأ",
+        "الضمير",
+        "اسم الإشارة",
+        "الاسم الموصول"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nominal-predicate-forms",
+      "topicId": "nominal.predicate-forms",
+      "order": 220,
+      "unitId": "nominal-predicate-forms-unit",
+      "slug": "nominal-predicate-forms",
+      "title": "صور الخبر",
+      "shortTitle": "مفرد وجملة وشبه جملة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الخبر المفرد والجملة وشبه الجملة.",
+        "تحديد محل جملة الخبر.",
+        "البحث عن الرابط في الخبر الجملة."
+      ],
+      "prerequisiteIds": [
+        "nominal-subject-forms"
+      ],
+      "sections": [
+        {
+          "id": "nominal-predicate-forms-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "الخبر هو الحكم الذي نتم به معنى المبتدأ، وقد يكون كلمة أو جملة أو شبه جملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "الخبر المفرد ما ليس جملة ولا شبه جملة ولو كان مثنى أو جمعًا، والخبر الجملة اسمية أو فعلية، وشبه الجملة ظرف أو جار ومجرور.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "الخبر المفرد مرفوع، وجملة الخبر في محل رفع وتحتاج غالبًا إلى رابط بالمبتدأ، وشبه الجملة يتعلق بمحذوف تقديره كائن أو مستقر.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "بعد تحديد المبتدأ، حدّد الجزء الذي أتم المعنى: كلمة واحدة، جملة لها إسناد، أم ظرف أو جار ومجرور.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد يكون الرابط ضميرًا ظاهرًا أو مستترًا، ولا يشترط في الخبر المفرد أن يكون مفرد العدد.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-6",
+          "type": "reasoning",
+          "title": "رتّب قرار الإعراب",
+          "body": "حدّد المبتدأ ثم حدود الخبر وصورته، وبعدها اذكر الرفع للخبر المفرد أو محل الرفع للجملة وشبه الجملة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعرب فعل جملة الخبر خبرًا مفردًا، ولا تعرب الاسم داخل الجار والمجرور خبرًا وحده.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الطلاب مجتهدون» الخبر «مجتهدون» مفرد من حيث التركيب رغم أنه جمع.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "صورة الخبر تحدد صياغة الإعراب: مرفوع، أو جملة في محل رفع، أو شبه جملة متعلق بمحذوف خبر.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-predicate-forms-example-1",
+          "sentence": "العلم نافع",
+          "fullyDiacritizedSentence": "العلم نافع",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نافع",
+              "normalizedWord": "نافع",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر مفرد",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «العلم»",
+              "sentencePosition": "خبر الجملة",
+              "explanation": "خبر مفرد؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "«نافع» خبر مفرد مرفوع.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-example-2",
+          "sentence": "الطالب يكتب",
+          "fullyDiacritizedSentence": "الطالب يكتب",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "فعل وفاعله ضمير مستتر",
+              "grammaticalState": "مرفوع؛ والجملة في محل رفع خبر",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "جملة فعلية خبر",
+              "explanation": "فعل وفاعله ضمير مستتر؛ مرفوع؛ والجملة في محل رفع خبر، وعلامته الضمة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "الجملة الفعلية خبر، وفاعلها المستتر رابط.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-example-3",
+          "sentence": "الحديقة أزهارها جميلة",
+          "fullyDiacritizedSentence": "الحديقة أزهارها جميلة",
+          "parsedWords": [
+            {
+              "word": "الحديقة",
+              "normalizedWord": "الحديقة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ أول",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ أول؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 7
+            },
+            {
+              "word": "أزهارها",
+              "normalizedWord": "أزهارها",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ ثان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء داخل جملة الخبر",
+              "sentencePosition": "بداية جملة الخبر",
+              "explanation": "مبتدأ ثان؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 15
+            },
+            {
+              "word": "جميلة",
+              "normalizedWord": "جميلة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر المبتدأ الثاني",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «أزهارها»",
+              "sentencePosition": "داخل جملة الخبر",
+              "explanation": "خبر المبتدأ الثاني؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 16,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "الجملة الاسمية «أزهارها جميلة» في محل رفع خبر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-forms-example-4",
+          "sentence": "الكتاب فوق المكتب",
+          "fullyDiacritizedSentence": "الكتاب فوق المكتب",
+          "parsedWords": [
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة الاسمية",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "فوق",
+              "normalizedWord": "فوق",
+              "wordType": "ظرف مكان منصوب",
+              "grammaticalRole": "خبر شبه جملة",
+              "grammaticalState": "منصوب متعلق بمحذوف في محل رفع خبر",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "ظرف مفرد",
+              "grammaticalAgent": "التعلق بمحذوف تقديره مستقر",
+              "sentencePosition": "صدر شبه الجملة",
+              "explanation": "خبر شبه جملة؛ منصوب متعلق بمحذوف في محل رفع خبر، وعلامته الفتحة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "المكتب",
+              "normalizedWord": "المكتب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مضاف إليه",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الإضافة",
+              "sentencePosition": "داخل شبه الجملة",
+              "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "الظرف مع مضافه إليه شبه جملة خبر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nominal-predicate-forms-ex-1",
+        "nominal-predicate-forms-ex-2",
+        "nominal-predicate-forms-ex-3",
+        "nominal-predicate-forms-ex-4",
+        "nominal-predicate-forms-ex-5",
+        "nominal-predicate-forms-ex-6",
+        "nominal-predicate-forms-ex-7",
+        "nominal-predicate-forms-ex-8",
+        "nominal-predicate-forms-ex-9",
+        "nominal-predicate-forms-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nominal-predicate-forms-ex-2",
+        "nominal-predicate-forms-ex-4",
+        "nominal-predicate-forms-ex-6",
+        "nominal-predicate-forms-ex-8",
+        "nominal-predicate-forms-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "tags": [
+        "الخبر",
+        "الخبر المفرد",
+        "الجملة الخبرية",
+        "شبه الجملة"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nominal-predicate-order",
+      "topicId": "nominal.predicate-order",
+      "order": 230,
+      "unitId": "nominal-predicate-order-unit",
+      "slug": "nominal-predicate-order",
+      "title": "تقديم الخبر وتأخيره",
+      "shortTitle": "متى يتقدم الخبر؟",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الخبر المقدم والمبتدأ المؤخر.",
+        "فهم مواضع وجوب التقديم.",
+        "منع الحكم بالموقع الخطي وحده."
+      ],
+      "prerequisiteIds": [
+        "nominal-predicate-forms"
+      ],
+      "sections": [
+        {
+          "id": "nominal-predicate-order-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "الأصل أن يتقدم المبتدأ، لكن العربية قد تقدم الخبر لغرض أو لقاعدة تلزم بذلك.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "التقديم تغيير في ترتيب الركنين لا في وظيفتهما؛ فقد يأتي شبه الجملة أولًا ثم المبتدأ.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يجب تقديم الخبر في مواضع، منها أن يكون له صدر الكلام كاسم الاستفهام، أو أن يكون المبتدأ نكرة لا مسوغ لها إلا الخبر المتقدم.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "لا تجعل أول عنصر مبتدأ تلقائيًا؛ اختبر الإسناد، وابحث عن شبه جملة متقدم واسم نكرة يتم به المعنى.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "يجوز التقديم إذا أمن اللبس، ويمنع إذا أدى إلى التباس المبتدأ بالفاعل أو ضياع رابط يعود عليه.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-6",
+          "type": "reasoning",
+          "title": "رتّب قرار الإعراب",
+          "body": "حدّد طرفي الإسناد ثم معنى الجملة ونوع كل طرف، وبعد ذلك احكم بالتقديم أو التأخير واذكر سببه.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب الاسم المجرور داخل الخبر المتقدم مبتدأ، أو اعتبار كل تقديم واجبًا.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «العلم نافع» لا يوجد تقديم؛ «العلم» مبتدأ و«نافع» خبر على الأصل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الرتبة قرينة وليست الحكم كله؛ المعنى والبنية والمسوغ هي التي تكشف الخبر المقدم.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-predicate-order-example-1",
+          "sentence": "العلم نافع",
+          "fullyDiacritizedSentence": "العلم نافع",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نافع",
+              "normalizedWord": "نافع",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «العلم»",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الترتيب الأصلي: مبتدأ ثم خبر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-example-2",
+          "sentence": "في البيت ضيف",
+          "fullyDiacritizedSentence": "في البيت ضيف",
+          "parsedWords": [
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف مبني",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر الخبر المقدم",
+              "explanation": "عامل الجر؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "البيت",
+              "normalizedWord": "البيت",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حرف الجر «في»",
+              "sentencePosition": "داخل الخبر المقدم",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "ضيف",
+              "normalizedWord": "ضيف",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "بعد الخبر المقدم",
+              "explanation": "مبتدأ مؤخر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "شبه الجملة خبر مقدم والنكرة مبتدأ مؤخر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-example-3",
+          "sentence": "للطالب كتاب",
+          "fullyDiacritizedSentence": "للطالب كتاب",
+          "parsedWords": [
+            {
+              "word": "للطالب",
+              "normalizedWord": "للطالب",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "خبر مقدم",
+              "grammaticalState": "في محل رفع",
+              "grammaticalSign": "الكسرة على الاسم",
+              "signReason": "سبق الاسم بحرف الجر",
+              "grammaticalAgent": "التعلق بمحذوف تقديره كائن",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "خبر مقدم؛ في محل رفع، وعلامته الكسرة على الاسم.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "بعد الخبر المقدم",
+              "explanation": "مبتدأ مؤخر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "الجار والمجرور خبر مقدم و«كتاب» مبتدأ مؤخر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-predicate-order-example-4",
+          "sentence": "أين الكتاب",
+          "fullyDiacritizedSentence": "أين الكتاب",
+          "parsedWords": [
+            {
+              "word": "أين",
+              "normalizedWord": "أين",
+              "wordType": "اسم استفهام وظرف مكان",
+              "grammaticalRole": "خبر مقدم",
+              "grammaticalState": "مبني في محل رفع",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "من الأسماء المبنية",
+              "grammaticalAgent": "الاستفهام",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "خبر مقدم؛ مبني في محل رفع، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "بعد الخبر المقدم",
+              "explanation": "مبتدأ مؤخر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "اسم الاستفهام خبر مقدم له صدر الكلام.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nominal-predicate-order-ex-1",
+        "nominal-predicate-order-ex-2",
+        "nominal-predicate-order-ex-3",
+        "nominal-predicate-order-ex-4",
+        "nominal-predicate-order-ex-5",
+        "nominal-predicate-order-ex-6",
+        "nominal-predicate-order-ex-7",
+        "nominal-predicate-order-ex-8",
+        "nominal-predicate-order-ex-9",
+        "nominal-predicate-order-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nominal-predicate-order-ex-2",
+        "nominal-predicate-order-ex-4",
+        "nominal-predicate-order-ex-6",
+        "nominal-predicate-order-ex-8",
+        "nominal-predicate-order-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "tags": [
+        "الخبر المقدم",
+        "المبتدأ المؤخر",
+        "الرتبة",
+        "شبه الجملة"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis",
+      "topicId": "nominal.subject-predicate-ellipsis",
+      "order": 240,
+      "unitId": "nominal-subject-predicate-ellipsis-unit",
+      "slug": "nominal-subject-predicate-ellipsis",
+      "title": "حذف المبتدأ والخبر",
+      "shortTitle": "المحذوف الذي يدل عليه السياق",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تقدير الركن المحذوف من السياق.",
+        "تمييز الحذف الجائز والواجب في أشهر مواضعه.",
+        "عدم افتراض الحذف بلا قرينة."
+      ],
+      "prerequisiteIds": [
+        "nominal-predicate-order"
+      ],
+      "sections": [
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "قد يفهم أحد ركني الجملة الاسمية من المقام فيحذف، لكن الإعراب يذكر تقديره ودليل الحذف.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "الحذف إسقاط لفظ المبتدأ أو الخبر مع بقاء معناه مفهومًا من سؤال أو سياق أو تركيب مخصوص.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يجوز الحذف إذا دل دليل، ويجب في تراكيب مشهورة؛ فمنها حذف خبر المبتدأ بعد «لولا» إذا دل على الوجود العام.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "اسأل: هل اكتمل الإسناد لفظًا؟ إن غاب طرف فابحث عن قرينة صريحة، ثم قدّر أقل لفظ يكتمل به المعنى.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد يحذف المبتدأ في جواب السؤال، وقد يحذف الخبر إذا دل عليه المقام. لا بد أن يلائم التقدير المعنى والإعراب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-6",
+          "type": "reasoning",
+          "title": "رتّب قرار الإعراب",
+          "body": "أثبت القرينة أولًا، ثم عيّن الركن الظاهر، وقدّر الركن المحذوف، واذكر هل الحذف جائز أم واجب.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل كل جملة قصيرة ناقصة، ولا تضع تقديرًا يغير المعنى أو يستغني عنه اللفظ الموجود.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «في الدار رجل» الركنان موجودان: شبه الجملة خبر مقدم و«رجل» مبتدأ مؤخر، فلا حذف.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "لا حذف بلا دليل؛ والتقدير وسيلة لإظهار الإسناد المفهوم لا لإضافة معنى جديد.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-subject-predicate-ellipsis-example-1",
+          "sentence": "لولا العلم لهلكنا",
+          "fullyDiacritizedSentence": "لولا العلم لهلكنا",
+          "parsedWords": [
+            {
+              "word": "لولا",
+              "normalizedWord": "لولا",
+              "wordType": "حرف امتناع لوجود",
+              "grammaticalRole": "أداة شرط غير جازمة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف مبني",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر التركيب",
+              "explanation": "أداة شرط غير جازمة؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ خبره محذوف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء بعد لولا",
+              "sentencePosition": "بعد لولا",
+              "explanation": "مبتدأ خبره محذوف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "لهلكنا",
+              "normalizedWord": "لهلكنا",
+              "wordType": "فعل ماض اتصل بضمير",
+              "grammaticalRole": "جواب لولا",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اتصاله بضمير رفع متحرك",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "جواب لولا",
+              "explanation": "جواب لولا؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "«العلم» مبتدأ خبره محذوف وجوبًا تقديره موجود.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-example-2",
+          "sentence": "محمد",
+          "fullyDiacritizedSentence": "محمد",
+          "parsedWords": [
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ خبره محذوف جوازًا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "جواب السؤال",
+              "explanation": "مبتدأ خبره محذوف جوازًا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            }
+          ],
+          "explanation": "في جواب «من حاضر؟»: مبتدأ خبره محذوف تقديره حاضر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-example-3",
+          "sentence": "مجتهد",
+          "fullyDiacritizedSentence": "مجتهد",
+          "parsedWords": [
+            {
+              "word": "مجتهد",
+              "normalizedWord": "مجتهد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر لمبتدأ محذوف جوازًا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ المقدر",
+              "sentencePosition": "جواب السؤال",
+              "explanation": "خبر لمبتدأ محذوف جوازًا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            }
+          ],
+          "explanation": "في جواب «كيف الطالب؟»: خبر لمبتدأ محذوف تقديره هو.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-subject-predicate-ellipsis-example-4",
+          "sentence": "في الدار رجل",
+          "fullyDiacritizedSentence": "في الدار رجل",
+          "parsedWords": [
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "عامل الجر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف مبني",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر الخبر المقدم",
+              "explanation": "عامل الجر؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "الدار",
+              "normalizedWord": "الدار",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم مجرور",
+              "grammaticalState": "مجرور",
+              "grammaticalSign": "الكسرة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "حرف الجر «في»",
+              "sentencePosition": "داخل الخبر المقدم",
+              "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "رجل",
+              "normalizedWord": "رجل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "بعد الخبر المقدم",
+              "explanation": "مبتدأ مؤخر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "مثال مضاد: الخبر والمبتدأ موجودان ولا حذف.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nominal-subject-predicate-ellipsis-ex-1",
+        "nominal-subject-predicate-ellipsis-ex-2",
+        "nominal-subject-predicate-ellipsis-ex-3",
+        "nominal-subject-predicate-ellipsis-ex-4",
+        "nominal-subject-predicate-ellipsis-ex-5",
+        "nominal-subject-predicate-ellipsis-ex-6",
+        "nominal-subject-predicate-ellipsis-ex-7",
+        "nominal-subject-predicate-ellipsis-ex-8",
+        "nominal-subject-predicate-ellipsis-ex-9",
+        "nominal-subject-predicate-ellipsis-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nominal-subject-predicate-ellipsis-ex-2",
+        "nominal-subject-predicate-ellipsis-ex-4",
+        "nominal-subject-predicate-ellipsis-ex-6",
+        "nominal-subject-predicate-ellipsis-ex-8",
+        "nominal-subject-predicate-ellipsis-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "tags": [
+        "حذف المبتدأ",
+        "حذف الخبر",
+        "التقدير",
+        "لولا"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nominal-multiple-predicates",
+      "topicId": "nominal.multiple-predicates",
+      "order": 250,
+      "unitId": "nominal-multiple-predicates-unit",
+      "slug": "nominal-multiple-predicates",
+      "title": "تعدد الخبر",
+      "shortTitle": "أكثر من حكم لمبتدأ واحد",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز تعدد الخبر من العطف والنعت.",
+        "إعراب الأخبار المتعددة.",
+        "فهم استقلال كل خبر في المعنى."
+      ],
+      "prerequisiteIds": [
+        "nominal-subject-predicate-ellipsis"
+      ],
+      "sections": [
+        {
+          "id": "nominal-multiple-predicates-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "قد نحكم على مبتدأ واحد بأكثر من خبر، فيضيف كل خبر معنى مستقلًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "تعدد الخبر أن يكون للمبتدأ خبران أو أكثر من غير أن يكون الثاني تابعًا للأول.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "كل خبر من الأخبار المتعددة مرفوع أو في محل رفع بحسب صورته، ويصح غالبًا الإخبار بكل واحد عن المبتدأ.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "جرّب وصل كل وصف بالمبتدأ منفردًا، وافحص غياب حرف العطف ودلالة النعت على تخصيص اسم قبله.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد تتعدد الأخبار المفردة، وقد يجتمع خبر مفرد مع جملة أو شبه جملة بحسب المعنى.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-6",
+          "type": "reasoning",
+          "title": "رتّب قرار الإعراب",
+          "body": "حدّد المبتدأ، ثم اختبر استقلال كل جزء في إتمام معنى جديد، وبعدها أعرب كل خبر بعلامته أو محله.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعدّ الخبر الثاني نعتًا لمجرد مجاورته الأول، ولا تجعل المعطوف بلا حرف عطف خبرًا تلقائيًا قبل فحص المعنى.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «جاء الطالب المجتهد» كلمة «المجتهد» نعت للفاعل، وليست خبرًا؛ لأن الجملة فعلية ولا إسناد اسمي هنا.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "تعدد الخبر يعني أحكامًا مستقلة تشترك في مبتدأ واحد، ولكل خبر إعرابه.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-multiple-predicates-example-1",
+          "sentence": "العلم نافع ممتع",
+          "fullyDiacritizedSentence": "العلم نافع ممتع",
+          "parsedWords": [
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "نافع",
+              "normalizedWord": "نافع",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر أول",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «العلم»",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر أول؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 10
+            },
+            {
+              "word": "ممتع",
+              "normalizedWord": "ممتع",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر ثان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «العلم»",
+              "sentencePosition": "بعد الخبر الأول",
+              "explanation": "خبر ثان؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "للمبتدأ خبران مستقلان.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-example-2",
+          "sentence": "الطالب ذكي مجتهد",
+          "fullyDiacritizedSentence": "الطالب ذكي مجتهد",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "ذكي",
+              "normalizedWord": "ذكي",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر أول",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الطالب»",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر أول؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "مجتهد",
+              "normalizedWord": "مجتهد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر ثان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الطالب»",
+              "sentencePosition": "بعد الخبر الأول",
+              "explanation": "خبر ثان؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "«ذكي» و«مجتهد» خبران للمبتدأ.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-example-3",
+          "sentence": "الحديقة واسعة جميلة",
+          "fullyDiacritizedSentence": "الحديقة واسعة جميلة",
+          "parsedWords": [
+            {
+              "word": "الحديقة",
+              "normalizedWord": "الحديقة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 7
+            },
+            {
+              "word": "واسعة",
+              "normalizedWord": "واسعة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر أول",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الحديقة»",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر أول؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 13
+            },
+            {
+              "word": "جميلة",
+              "normalizedWord": "جميلة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر ثان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الحديقة»",
+              "sentencePosition": "بعد الخبر الأول",
+              "explanation": "خبر ثان؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 14,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "كل خبر يضيف حكمًا مستقلًا.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-multiple-predicates-example-4",
+          "sentence": "الماء عذب بارد",
+          "fullyDiacritizedSentence": "الماء عذب بارد",
+          "parsedWords": [
+            {
+              "word": "الماء",
+              "normalizedWord": "الماء",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "عذب",
+              "normalizedWord": "عذب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر أول",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الماء»",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر أول؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 9
+            },
+            {
+              "word": "بارد",
+              "normalizedWord": "بارد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر ثان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "المبتدأ «الماء»",
+              "sentencePosition": "بعد الخبر الأول",
+              "explanation": "خبر ثان؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "تعدد الخبر مع مبتدأ واحد.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nominal-multiple-predicates-ex-1",
+        "nominal-multiple-predicates-ex-2",
+        "nominal-multiple-predicates-ex-3",
+        "nominal-multiple-predicates-ex-4",
+        "nominal-multiple-predicates-ex-5",
+        "nominal-multiple-predicates-ex-6",
+        "nominal-multiple-predicates-ex-7",
+        "nominal-multiple-predicates-ex-8",
+        "nominal-multiple-predicates-ex-9",
+        "nominal-multiple-predicates-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nominal-multiple-predicates-ex-2",
+        "nominal-multiple-predicates-ex-4",
+        "nominal-multiple-predicates-ex-6",
+        "nominal-multiple-predicates-ex-8",
+        "nominal-multiple-predicates-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "tags": [
+        "تعدد الخبر",
+        "الخبر الثاني",
+        "النعت",
+        "العطف"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "nominal-descriptive-subject",
+      "topicId": "nominal.descriptive-subject",
+      "order": 260,
+      "unitId": "nominal-descriptive-subject-unit",
+      "slug": "nominal-descriptive-subject",
+      "title": "المبتدأ الوصف",
+      "shortTitle": "وصف يرفع فاعلًا يسد مسد الخبر",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم عمل الوصف الواقع مبتدأ.",
+        "إعراب المرفوع بعد الوصف فاعلًا أو نائب فاعل.",
+        "تمييزه من المبتدأ والخبر المعتادين."
+      ],
+      "prerequisiteIds": [
+        "nominal-multiple-predicates"
+      ],
+      "sections": [
+        {
+          "id": "nominal-descriptive-subject-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "قد يكون المبتدأ وصفًا مشتقًا يعتمد على استفهام أو نفي، ثم يرفع اسمًا يغني عن الخبر.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "المبتدأ الوصف اسم فاعل أو اسم مفعول ونحوهما، يعتمد غالبًا على استفهام أو نفي، ويعمل عمل فعله.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "إذا استوفى الوصف شروط العمل رفع فاعلًا أو نائب فاعل سد مسد الخبر، ولا نبحث بعده عن خبر آخر.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "ابحث عن استفهام أو نفي، ثم وصف مشتق، ثم اسم مرفوع يتم به المعنى ويمكن تحويل التركيب إلى فعل وفاعل.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "يطابق الوصف ما بعده في أشهر الاستعمالات، ويكون المرفوع فاعلًا مع اسم الفاعل ونائب فاعل مع اسم المفعول.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-6",
+          "type": "reasoning",
+          "title": "رتّب قرار الإعراب",
+          "body": "أداة الاعتماد ← الوصف المشتق ← عمله ← المرفوع بعده ← كونه سادًا مسد الخبر.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعرب الاسم بعد الوصف خبرًا، ولا تطبق الباب على كل صفة بلا استفهام أو نفي أو اعتماد معتبر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الطالب مجتهد» «الطالب» مبتدأ و«مجتهد» خبر؛ لأن الوصف هنا لم يتصدر معتمدًا ليرفع فاعلًا.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المبتدأ الوصف يعمل عمل فعله، والمرفوع بعده فاعل أو نائب فاعل يسد مسد الخبر.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "nominal-descriptive-subject-example-1",
+          "sentence": "أقائم الطالبان",
+          "fullyDiacritizedSentence": "أقائم الطالبان",
+          "parsedWords": [
+            {
+              "word": "أقائم",
+              "normalizedWord": "أقائم",
+              "wordType": "همزة استفهام واسم فاعل",
+              "grammaticalRole": "مبتدأ وصف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم فاعل مفرد",
+              "grammaticalAgent": "الابتداء مع الاعتماد على الاستفهام",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "مبتدأ وصف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "الطالبان",
+              "normalizedWord": "الطالبان",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل سد مسد الخبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف نيابة عن الضمة",
+              "signReason": "مثنى",
+              "grammaticalAgent": "اسم الفاعل «قائم»",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "فاعل سد مسد الخبر؛ مرفوع، وعلامته الألف نيابة عن الضمة.",
+              "startIndex": 6,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "الوصف مبتدأ والاسم بعده فاعل سد مسد الخبر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-example-2",
+          "sentence": "أمجتهد الطالب",
+          "fullyDiacritizedSentence": "أمجتهد الطالب",
+          "parsedWords": [
+            {
+              "word": "أمجتهد",
+              "normalizedWord": "أمجتهد",
+              "wordType": "همزة استفهام واسم فاعل",
+              "grammaticalRole": "مبتدأ وصف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم فاعل مفرد",
+              "grammaticalAgent": "الابتداء مع الاعتماد على الاستفهام",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "مبتدأ وصف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل سد مسد الخبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اسم الفاعل «مجتهد»",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "فاعل سد مسد الخبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "اسم الفاعل المعتمد على الاستفهام رفع فاعلًا.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-example-3",
+          "sentence": "ما حاضر الغائبون",
+          "fullyDiacritizedSentence": "ما حاضر الغائبون",
+          "parsedWords": [
+            {
+              "word": "ما",
+              "normalizedWord": "ما",
+              "wordType": "حرف نفي",
+              "grammaticalRole": "أداة اعتماد",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف مبني",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "أداة اعتماد؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "حاضر",
+              "normalizedWord": "حاضر",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ وصف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء مع الاعتماد على النفي",
+              "sentencePosition": "بعد أداة النفي",
+              "explanation": "مبتدأ وصف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "الغائبون",
+              "normalizedWord": "الغائبون",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل سد مسد الخبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو نيابة عن الضمة",
+              "signReason": "جمع مذكر سالم",
+              "grammaticalAgent": "اسم الفاعل «حاضر»",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "فاعل سد مسد الخبر؛ مرفوع، وعلامته الواو نيابة عن الضمة.",
+              "startIndex": 8,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "الوصف المعتمد على النفي رفع فاعلًا.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        },
+        {
+          "id": "nominal-descriptive-subject-example-4",
+          "sentence": "ما محبوب الكسول",
+          "fullyDiacritizedSentence": "ما محبوب الكسول",
+          "parsedWords": [
+            {
+              "word": "ما",
+              "normalizedWord": "ما",
+              "wordType": "حرف نفي",
+              "grammaticalRole": "أداة اعتماد",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف مبني",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "أداة اعتماد؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "محبوب",
+              "normalizedWord": "محبوب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ وصف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء مع الاعتماد على النفي",
+              "sentencePosition": "بعد أداة النفي",
+              "explanation": "مبتدأ وصف؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "الكسول",
+              "normalizedWord": "الكسول",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نائب فاعل سد مسد الخبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "اسم المفعول «محبوب»",
+              "sentencePosition": "بعد الوصف",
+              "explanation": "نائب فاعل سد مسد الخبر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 9,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "اسم المفعول رفع نائب فاعل سد مسد الخبر.",
+          "referenceIds": [
+            "ref-general-nominal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "nominal-descriptive-subject-ex-1",
+        "nominal-descriptive-subject-ex-2",
+        "nominal-descriptive-subject-ex-3",
+        "nominal-descriptive-subject-ex-4",
+        "nominal-descriptive-subject-ex-5",
+        "nominal-descriptive-subject-ex-6",
+        "nominal-descriptive-subject-ex-7",
+        "nominal-descriptive-subject-ex-8",
+        "nominal-descriptive-subject-ex-9",
+        "nominal-descriptive-subject-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "nominal-descriptive-subject-ex-2",
+        "nominal-descriptive-subject-ex-4",
+        "nominal-descriptive-subject-ex-6",
+        "nominal-descriptive-subject-ex-8",
+        "nominal-descriptive-subject-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "tags": [
+        "المبتدأ الوصف",
+        "اسم الفاعل",
+        "فاعل سد مسد الخبر",
+        "الاستفهام"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "nominal-subject-forms-ex-1",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "ما المبتدأ في «محمد حاضر»؟",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "محمد",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حاضر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: محمد.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-2",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "إعراب «أنا» في «أنا طالب»؟",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمير مبني في محل رفع مبتدأ",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسم مرفوع بالضمة",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضمير مبني في محل رفع مبتدأ.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-3",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "ما صورة المبتدأ في «هذا كتاب»؟",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم إشارة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسم موصول",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: اسم إشارة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-4",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "ما محل «الذي» في «الذي نجح محبوب»؟",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "في محل رفع مبتدأ",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "في محل نصب",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: في محل رفع مبتدأ.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-5",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "عامل رفع المبتدأ هو:",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الابتداء",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرف الجر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الابتداء.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-6",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "أي صورة تكون مبنية؟",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمير المنفصل",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الاسم المفرد المعرب دائمًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الضمير المنفصل.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-7",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "صلة الموصول:",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا محل لها من الإعراب",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "خبر مرفوع",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا محل لها من الإعراب.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-8",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "عند إعراب اسم الإشارة مبتدأ نقول:",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني في محل رفع",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مرفوع بالفتحة",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني في محل رفع.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-9",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "المبتدأ هو:",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "المحكوم عليه",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "عامل الجر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: المحكوم عليه.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-forms-ex-10",
+      "lessonId": "nominal-subject-forms",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "nominal.subject-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد صورة الاسم",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اختيار الحركة عشوائيًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: تحديد صورة الاسم.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-1",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "الخبر في «العلم نافع» صورته:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفرد",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "جملة فعلية",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مفرد.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-2",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "الخبر في «الطالب يكتب»:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جملة فعلية",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "فعل مفرد فقط",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: جملة فعلية.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-3",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "محل جملة الخبر:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الرفع",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الجر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الرفع.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-4",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "الخبر في «الكتاب فوق المكتب»:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "شبه جملة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسم مفرد",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: شبه جملة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-5",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "الخبر الجملة يحتاج غالبًا إلى:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "رابط بالمبتدأ",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرف نصب",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: رابط بالمبتدأ.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-6",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "معنى الخبر المفرد:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ما ليس جملة ولا شبه جملة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "المفرد في العدد فقط",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ما ليس جملة ولا شبه جملة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-7",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "«أزهارها جميلة» في المثال:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "جملة اسمية خبر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نعت مفرد",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: جملة اسمية خبر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-8",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "شبه الجملة يتعلق بـ:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "محذوف تقديره مستقر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "المبتدأ بصفته حرفًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: محذوف تقديره مستقر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-9",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "علامة الخبر المفرد الأصلية:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الكسرة",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الضمة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-forms-ex-10",
+      "lessonId": "nominal-predicate-forms",
+      "type": "multipleChoice",
+      "prompt": "نحدد صورة الخبر بعد:",
+      "skillIds": [
+        "nominal.predicate-forms"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد حدوده",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "عد الحروف",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: تحديد حدوده.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-1",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "في «في البيت ضيف» الخبر:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "في البيت",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "ضيف",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: في البيت.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-2",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "«ضيف» في المثال السابق:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبتدأ مؤخر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسم مجرور",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبتدأ مؤخر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-3",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "في «أين الكتاب» أين:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر مقدم",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مبتدأ مؤخر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: خبر مقدم.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-4",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "سبب تقدم «أين»:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لها صدر الكلام",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لأنها فعل",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لها صدر الكلام.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-5",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "الأصل في الترتيب:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "المبتدأ ثم الخبر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الخبر ثم الفعل",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: المبتدأ ثم الخبر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-6",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "الاسم داخل الجار والمجرور:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجرور",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مبتدأ",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مجرور.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-7",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "تقديم الخبر جائز إذا:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "أمن اللبس",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "ضاع المعنى",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: أمن اللبس.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-8",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "النكرة في «في البيت ضيف» سوغها:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تقدم شبه الجملة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرف العطف",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: تقدم شبه الجملة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-9",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "هل أول عنصر مبتدأ دائمًا؟",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نعم",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-predicate-order-ex-10",
+      "lessonId": "nominal-predicate-order",
+      "type": "multipleChoice",
+      "prompt": "نكشف الترتيب بواسطة:",
+      "skillIds": [
+        "nominal.predicate-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الإسناد والمعنى",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الموقع الخطي وحده",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الإسناد والمعنى.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-1",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "خبر «العلم» بعد لولا:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "محذوف وجوبًا",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مذكور",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: محذوف وجوبًا.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-2",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "تقدير الخبر بعد «لولا العلم»:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "موجود",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "قرأ",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: موجود.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-3",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "في جواب «من حاضر؟ محمد»: المحذوف:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الخبر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرف الجر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الخبر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-4",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "في جواب «كيف الطالب؟ مجتهد»: المحذوف:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "المبتدأ",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الخبر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: المبتدأ.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-5",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "شرط الحذف:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "وجود دليل",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "طول الجملة",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: وجود دليل.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-6",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "في «في الدار رجل»:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا حذف",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حذف واجب",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا حذف.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-7",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "التقدير الصحيح يجب أن:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يلائم السياق",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "يضيف معنى بعيدًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: يلائم السياق.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-8",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "قد يدل على المحذوف:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "السؤال السابق",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لون الخط",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: السؤال السابق.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-9",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "الحذف هو:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إسقاط لفظ مع فهم معناه",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حذف الإعراب كله",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: إسقاط لفظ مع فهم معناه.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-subject-predicate-ellipsis-ex-10",
+      "lessonId": "nominal-subject-predicate-ellipsis",
+      "type": "multipleChoice",
+      "prompt": "قبل تقدير المحذوف:",
+      "skillIds": [
+        "nominal.subject-predicate-ellipsis"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نثبت القرينة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نختار أي كلمة",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نثبت القرينة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-1",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "في «العلم نافع ممتع» عدد الأخبار:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "اثنان",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "واحد",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: اثنان.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-2",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "«ممتع» في المثال:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر ثان",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مفعول به",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: خبر ثان.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-3",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "علامة الخبر الثاني المفرد:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "السكون",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الضمة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-4",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "تعدد الخبر يعني:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أحكامًا مستقلة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "تكرار المبتدأ",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: أحكامًا مستقلة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-5",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "نختبر استقلال الخبر بأن:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نخبر به عن المبتدأ منفردًا",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نحذفه دائمًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نخبر به عن المبتدأ منفردًا.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-6",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "في «الطالب ذكي مجتهد» المبتدأ:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الطالب",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "ذكي",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الطالب.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-7",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "هل يلزم حرف عطف بين الأخبار؟",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نعم دائمًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-8",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "قد يكون الخبر المتعدد:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفردًا أو جملة أو شبه جملة",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "فعل أمر فقط",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مفردًا أو جملة أو شبه جملة.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-9",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "«المجتهد» في «جاء الطالب المجتهد»:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعت",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "خبر ثان",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نعت.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-multiple-predicates-ex-10",
+      "lessonId": "nominal-multiple-predicates",
+      "type": "multipleChoice",
+      "prompt": "كل خبر متعدد:",
+      "skillIds": [
+        "nominal.multiple-predicates"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "له إعرابه",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مبني دائمًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: له إعرابه.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-1",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "في «أقائم الطالبان» المبتدأ:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "قائم",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الطالبان",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: قائم.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-2",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "«الطالبان» في المثال:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "فاعل سد مسد الخبر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "خبر مفرد",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فاعل سد مسد الخبر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-3",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "يعتمد الوصف غالبًا على:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "استفهام أو نفي",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرف جر فقط",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: استفهام أو نفي.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-4",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "اسم المفعول يرفع:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "نائب فاعل",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مفعولًا به",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نائب فاعل.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-5",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "اسم الفاعل يرفع:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "فاعلًا",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مضافًا إليه",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فاعلًا.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-6",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "المرفوع بعد الوصف:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يسد مسد الخبر",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "يحتاج خبرًا ثانيًا دائمًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: يسد مسد الخبر.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-7",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "في «ما محبوب الكسول» الكسول:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نائب فاعل",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "خبر",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نائب فاعل.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-8",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "الوصف المقصود يكون:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مشتقًا عاملًا",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرفًا جامدًا",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مشتقًا عاملًا.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-9",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "المثال المضاد العادي:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الطالب مجتهد",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "أقائم الطالبان",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الطالب مجتهد.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "nominal-descriptive-subject-ex-10",
+      "lessonId": "nominal-descriptive-subject",
+      "type": "multipleChoice",
+      "prompt": "نكشف الباب بتحويله إلى:",
+      "skillIds": [
+        "nominal.descriptive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "فعل وفاعل أو نائب فاعل",
+          "feedback": "صحيح؛ يطابق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "جار ومجرور",
+          "feedback": "راجع موقع الكلمة والعامل وصورة الركن."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فعل وفاعل أو نائب فاعل.",
+      "hint": "حدّد نوع الكلمة وموقعها والعامل قبل اختيار الإجابة.",
+      "referenceIds": [
+        "ref-general-nominal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-nominal-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية للمرحلة الابتدائية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

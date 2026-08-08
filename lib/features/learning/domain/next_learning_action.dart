@@ -39,7 +39,11 @@ class NextLearningActionResolver {
         return NextLearningAction(
           type: NextLearningActionType.remediation,
           lesson: lesson,
-          phase: LearningPhaseType.workedExamples,
+          phase: switch (lessonProgress?.currentPhase) {
+            LearningPhaseType.independentPractice =>
+              LearningPhaseType.independentPractice,
+            _ => LearningPhaseType.workedExamples,
+          },
         );
       }
       final completed = lessonProgress?.completedPhases.toSet() ?? {};

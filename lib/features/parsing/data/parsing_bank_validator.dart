@@ -1,6 +1,16 @@
 class ParsingBankValidator {
   const ParsingBankValidator();
 
+  static const _decisionStepIds = [
+    'word-type',
+    'role',
+    'agent',
+    'state',
+    'sign',
+    'reason',
+    'sentence-position',
+  ];
+
   bool isValid(Map<String, dynamic> bank) {
     final samples = bank['samples'];
     if (bank['schemaVersion'] is! int || samples is! List || samples.isEmpty) {
@@ -27,7 +37,15 @@ class ParsingBankValidator {
         sample['order'] is! int) {
       return false;
     }
-    if (steps is! List || steps.isEmpty || !steps.every(_validStep)) {
+    if (steps is! List ||
+        steps.length != _decisionStepIds.length ||
+        !Iterable<int>.generate(steps.length).every(
+          (index) =>
+              steps[index] is Map<String, dynamic> &&
+              (steps[index] as Map<String, dynamic>)['id'] ==
+                  _decisionStepIds[index],
+        ) ||
+        !steps.every(_validStep)) {
       return false;
     }
     if (!const {
@@ -106,9 +124,14 @@ class ParsingBankValidator {
       'grammaticalState',
       'grammaticalSign',
       'signReason',
+      'grammaticalAgent',
+      'sentencePosition',
       'explanation',
     ].every((key) => _hasText(value[key]));
-    return hasText && value['startIndex'] is int && value['endIndex'] is int;
+    return hasText &&
+        value['startIndex'] is int &&
+        value['endIndex'] is int &&
+        (value['endIndex'] as int) > (value['startIndex'] as int);
   }
 
   bool _validAlternative(Object? value) =>

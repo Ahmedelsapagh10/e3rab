@@ -4,6 +4,7 @@ import 'package:new_strucuture/features/curriculum/data/model/content_review_sta
 import 'package:new_strucuture/features/curriculum/data/model/lesson_model.dart';
 import 'package:new_strucuture/features/learning/cubit/learning_state.dart';
 import 'package:new_strucuture/features/shell/widgets/home_hero_card.dart';
+import 'package:new_strucuture/features/progress/data/model/learning_progress_models.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -44,9 +45,54 @@ void main() {
       expect(tester.takeException(), isNull);
     });
   }
+
+  testWidgets('home safely explains when no lessons are available', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      const MaterialApp(
+        home: Scaffold(body: HomeHeroCard(state: LearningState())),
+      ),
+    );
+
+    expect(find.text('المحتوى قيد التجهيز'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('home explains completed course without reopening first lesson', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(body: HomeHeroCard(state: _completedState)),
+      ),
+    );
+
+    expect(find.text('أكملت المسار المتاح'), findsOneWidget);
+    expect(find.text('متابعة الدرس'), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
 }
 
 const _state = LearningState(lessons: [_lesson]);
+
+final _completedState = LearningState(
+  lessons: const [_lesson],
+  progress: [
+    LessonProgressModel(
+      lessonId: _lesson.id,
+      contentVersion: _lesson.contentVersion,
+      status: LessonProgressStatus.completed,
+      completedSectionIds: const [],
+      attemptCount: 5,
+      bestScore: 1,
+      masteryScore: 1,
+      updatedAt: DateTime.utc(2026),
+      schemaVersion: 3,
+      masteryStatus: LessonMasteryStatus.mastered,
+    ),
+  ],
+);
 
 const _lesson = LessonModel(
   id: 'parts-of-speech',

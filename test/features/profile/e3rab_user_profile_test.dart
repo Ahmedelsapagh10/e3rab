@@ -26,4 +26,16 @@ void main() {
 
     expect(decoded, profile);
   });
+
+  test('legacy profile uses neutral defaults for missing user type', () {
+    final decoded = E3rabUserProfile.fromLocalJson({
+      'uid': 'legacy-user',
+      'learningRole': 'unsupported-old-role',
+    });
+
+    expect(decoded.learningRole, LearningRole.independentLearner);
+    expect(decoded.countryCode, 'GLOBAL');
+    expect(decoded.preferredLocale, 'ar');
+    expect(decoded.onboardingCompleted, isFalse);
+  });
 }

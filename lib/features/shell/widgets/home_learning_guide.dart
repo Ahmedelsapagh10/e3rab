@@ -71,8 +71,8 @@ class _GuideStep extends StatelessWidget {
         Column(
           children: [
             CircleAvatar(
-              backgroundColor: E3rabBrandColors.sky,
-              child: Icon(icon, color: E3rabBrandColors.primaryBlue),
+              backgroundColor: E3rabBrandColors.primaryContainer,
+              child: Icon(icon, color: E3rabBrandColors.primary),
             ),
             if (showLine)
               Expanded(

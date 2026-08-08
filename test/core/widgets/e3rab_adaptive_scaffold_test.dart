@@ -14,6 +14,16 @@ void main() {
       icon: Icon(Icons.school_outlined),
       selectedIcon: Icon(Icons.school),
     ),
+    E3rabNavigationDestination(
+      label: 'أعرب',
+      icon: Icon(Icons.edit_note_outlined),
+      selectedIcon: Icon(Icons.edit_note),
+    ),
+    E3rabNavigationDestination(
+      label: 'حسابي',
+      icon: Icon(Icons.person_outline),
+      selectedIcon: Icon(Icons.person),
+    ),
   ];
 
   testWidgets('uses bottom navigation on compact layouts', (tester) async {
@@ -21,14 +31,26 @@ void main() {
 
     expect(find.byType(NavigationBar), findsOneWidget);
     expect(find.byType(NavigationRail), findsNothing);
+    expect(
+      tester.widget<NavigationBar>(find.byType(NavigationBar)).destinations,
+      hasLength(4),
+    );
   });
 
-  testWidgets('uses navigation rail on expanded layouts', (tester) async {
-    await _pumpAtWidth(tester, 1200, destinations);
+  for (final width in [600.0, 1024.0]) {
+    testWidgets('uses four-item navigation rail at ${width.toInt()}px', (
+      tester,
+    ) async {
+      await _pumpAtWidth(tester, width, destinations);
 
-    expect(find.byType(NavigationRail), findsOneWidget);
-    expect(find.byType(NavigationBar), findsNothing);
-  });
+      expect(find.byType(NavigationRail), findsOneWidget);
+      expect(find.byType(NavigationBar), findsNothing);
+      expect(
+        tester.widget<NavigationRail>(find.byType(NavigationRail)).destinations,
+        hasLength(4),
+      );
+    });
+  }
 }
 
 Future<void> _pumpAtWidth(

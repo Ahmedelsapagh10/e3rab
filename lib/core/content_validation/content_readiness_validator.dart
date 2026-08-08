@@ -120,6 +120,8 @@ extension _ContentReadinessValidator on ContentValidationService {
       'grammaticalState',
       'grammaticalSign',
       'signReason',
+      'grammaticalAgent',
+      'sentencePosition',
       'explanation',
     };
     return fields.every(

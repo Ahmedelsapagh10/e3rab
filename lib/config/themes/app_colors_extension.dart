@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_strucuture/core/utils/app_colors.dart';
+
+import '../../core/design_system/e3rab_design_tokens.dart';
 
 /// A custom ThemeExtension to hold app-specific color definitions.
 @immutable
@@ -118,10 +119,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
 
   /// Light theme colors
   static const AppColorsExtension light = AppColorsExtension(
-    primary: AppColors.primary,
-    secondary: AppColors.secondPrimary, //0xFF98A2B3
+    primary: E3rabBrandColors.primary,
+    secondary: E3rabBrandColors.gold,
     background: Color(0xFFFAF7F0),
-    backgroundAppBar: AppColors.primary,
+    backgroundAppBar: E3rabBrandColors.primary,
     background2: Color(0xFFF4F0E7),
     surface: Color(0xFFFFFFFF),
     cardColor: Color(0xFFFFFFFF),
@@ -131,7 +132,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     success: Color(0xFF2E7D5B),
     warning: Color(0xFFA56A1E),
     error: Color(0xFFB4453F),
-    grey85: AppColors.secondPrimary,
+    grey85: E3rabBrandColors.gold,
     white: Color(0xFFFFFFFF),
     black: Color(0xFF000000),
     grey: Color(0xFF9E9E9E),
@@ -150,22 +151,22 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     greyF3: Color(0xFFEDF1F3),
     greyF4: Color(0xFFF1F2F4),
     greyBB: Color(0xFFACB5BB),
-    primaryBackground: AppColors.primary,
+    primaryBackground: E3rabBrandColors.primary,
     // Same as primary in light mode
     onPrimaryBackground: Color(0xFFFFFFFF),
     // White text on primary background
-    fixedPrimary: AppColors.primary,
+    fixedPrimary: E3rabBrandColors.primary,
 
     // Fixed primary color
     greenStatus: Color(0xFF40DD7F),
     redStatus: Color(0xFFFF6262),
     yellowStatus: Color(0xFFFFB800),
-    completeStatus: AppColors.primary,
+    completeStatus: E3rabBrandColors.primary,
     holdStatus: Color(0xFFb0c8c2),
     greenTextStatus: Color(0xFF1AB759),
     redTextStatus: Color(0xFFE93C3C),
     yellowTextStatus: Color(0xFFF49A47),
-    completeTextStatus: AppColors.primary,
+    completeTextStatus: E3rabBrandColors.primary,
     holdTextStatus: Color(0xFFb0c8c2),
     lightGray: Color(0xFFEFF1F4),
     text242: Color(0xFF404242),
@@ -227,7 +228,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     // Darker version of primary for dark mode
     onPrimaryBackground: Color(0xFFECEFF1),
     // Light text on dark primary background
-    fixedPrimary: AppColors.primary,
+    fixedPrimary: E3rabBrandColors.primary,
 
     // Same fixed primary color in dark mode
     greenStatus: Color(0xFF6DE89F),

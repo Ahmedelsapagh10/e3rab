@@ -33,12 +33,12 @@ class StudentAccountView extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       radius: 38,
-                      backgroundColor: E3rabBrandColors.sky,
+                      backgroundColor: E3rabBrandColors.primaryContainer,
                       child: Text(
                         _initial(name),
                         style: Theme.of(context).textTheme.headlineMedium
                             ?.copyWith(
-                              color: E3rabBrandColors.navy,
+                              color: E3rabBrandColors.heading,
                               fontWeight: FontWeight.w800,
                             ),
                       ),

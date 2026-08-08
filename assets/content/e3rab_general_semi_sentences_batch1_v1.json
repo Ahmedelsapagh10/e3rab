@@ -1,0 +1,4797 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-semi-sentences-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "semi-sentences-module-v1",
+      "semi-sentences-prepositional-phrase-unit",
+      "semi-sentences-prepositional-phrase",
+      "semi-sentences-prepositional-phrase-ex-1",
+      "semi-sentences-prepositional-phrase-ex-2",
+      "semi-sentences-prepositional-phrase-ex-3",
+      "semi-sentences-prepositional-phrase-ex-4",
+      "semi-sentences-prepositional-phrase-ex-5",
+      "semi-sentences-prepositional-phrase-ex-6",
+      "semi-sentences-prepositional-phrase-ex-7",
+      "semi-sentences-prepositional-phrase-ex-8",
+      "semi-sentences-prepositional-phrase-ex-9",
+      "semi-sentences-prepositional-phrase-ex-10",
+      "semi-sentences-adverb-unit",
+      "semi-sentences-adverb",
+      "semi-sentences-adverb-ex-1",
+      "semi-sentences-adverb-ex-2",
+      "semi-sentences-adverb-ex-3",
+      "semi-sentences-adverb-ex-4",
+      "semi-sentences-adverb-ex-5",
+      "semi-sentences-adverb-ex-6",
+      "semi-sentences-adverb-ex-7",
+      "semi-sentences-adverb-ex-8",
+      "semi-sentences-adverb-ex-9",
+      "semi-sentences-adverb-ex-10",
+      "semi-sentences-attachment-unit",
+      "semi-sentences-attachment",
+      "semi-sentences-attachment-ex-1",
+      "semi-sentences-attachment-ex-2",
+      "semi-sentences-attachment-ex-3",
+      "semi-sentences-attachment-ex-4",
+      "semi-sentences-attachment-ex-5",
+      "semi-sentences-attachment-ex-6",
+      "semi-sentences-attachment-ex-7",
+      "semi-sentences-attachment-ex-8",
+      "semi-sentences-attachment-ex-9",
+      "semi-sentences-attachment-ex-10",
+      "semi-sentences-predicate-unit",
+      "semi-sentences-predicate",
+      "semi-sentences-predicate-ex-1",
+      "semi-sentences-predicate-ex-2",
+      "semi-sentences-predicate-ex-3",
+      "semi-sentences-predicate-ex-4",
+      "semi-sentences-predicate-ex-5",
+      "semi-sentences-predicate-ex-6",
+      "semi-sentences-predicate-ex-7",
+      "semi-sentences-predicate-ex-8",
+      "semi-sentences-predicate-ex-9",
+      "semi-sentences-predicate-ex-10",
+      "semi-sentences-circumstantial-adjective-unit",
+      "semi-sentences-circumstantial-adjective",
+      "semi-sentences-circumstantial-adjective-ex-1",
+      "semi-sentences-circumstantial-adjective-ex-2",
+      "semi-sentences-circumstantial-adjective-ex-3",
+      "semi-sentences-circumstantial-adjective-ex-4",
+      "semi-sentences-circumstantial-adjective-ex-5",
+      "semi-sentences-circumstantial-adjective-ex-6",
+      "semi-sentences-circumstantial-adjective-ex-7",
+      "semi-sentences-circumstantial-adjective-ex-8",
+      "semi-sentences-circumstantial-adjective-ex-9",
+      "semi-sentences-circumstantial-adjective-ex-10",
+      "semi-sentences-ellipsis-estimation-unit",
+      "semi-sentences-ellipsis-estimation",
+      "semi-sentences-ellipsis-estimation-ex-1",
+      "semi-sentences-ellipsis-estimation-ex-2",
+      "semi-sentences-ellipsis-estimation-ex-3",
+      "semi-sentences-ellipsis-estimation-ex-4",
+      "semi-sentences-ellipsis-estimation-ex-5",
+      "semi-sentences-ellipsis-estimation-ex-6",
+      "semi-sentences-ellipsis-estimation-ex-7",
+      "semi-sentences-ellipsis-estimation-ex-8",
+      "semi-sentences-ellipsis-estimation-ex-9",
+      "semi-sentences-ellipsis-estimation-ex-10"
+    ],
+    "externalPrerequisiteIds": [
+      "sentence-positions-subordinate-clause"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "semi-sentences-module-v1",
+      "slug": "general-semi-sentences-v1",
+      "title": "أشباه الجمل",
+      "unitIds": [
+        "semi-sentences-prepositional-phrase-unit",
+        "semi-sentences-adverb-unit",
+        "semi-sentences-attachment-unit",
+        "semi-sentences-predicate-unit",
+        "semi-sentences-circumstantial-adjective-unit",
+        "semi-sentences-ellipsis-estimation-unit"
+      ],
+      "order": 14
+    }
+  ],
+  "units": [
+    {
+      "id": "semi-sentences-prepositional-phrase-unit",
+      "moduleId": "semi-sentences-module-v1",
+      "slug": "semi-sentences-prepositional-phrase-unit",
+      "title": "الجار والمجرور",
+      "lessonIds": [
+        "semi-sentences-prepositional-phrase"
+      ],
+      "order": 1300
+    },
+    {
+      "id": "semi-sentences-adverb-unit",
+      "moduleId": "semi-sentences-module-v1",
+      "slug": "semi-sentences-adverb-unit",
+      "title": "الظرف",
+      "lessonIds": [
+        "semi-sentences-adverb"
+      ],
+      "order": 1310
+    },
+    {
+      "id": "semi-sentences-attachment-unit",
+      "moduleId": "semi-sentences-module-v1",
+      "slug": "semi-sentences-attachment-unit",
+      "title": "تعلق شبه الجملة",
+      "lessonIds": [
+        "semi-sentences-attachment"
+      ],
+      "order": 1320
+    },
+    {
+      "id": "semi-sentences-predicate-unit",
+      "moduleId": "semi-sentences-module-v1",
+      "slug": "semi-sentences-predicate-unit",
+      "title": "شبه الجملة خبرا",
+      "lessonIds": [
+        "semi-sentences-predicate"
+      ],
+      "order": 1330
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-unit",
+      "moduleId": "semi-sentences-module-v1",
+      "slug": "semi-sentences-circumstantial-adjective-unit",
+      "title": "شبه الجملة حالا وصفة",
+      "lessonIds": [
+        "semi-sentences-circumstantial-adjective"
+      ],
+      "order": 1340
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-unit",
+      "moduleId": "semi-sentences-module-v1",
+      "slug": "semi-sentences-ellipsis-estimation-unit",
+      "title": "تقدير متعلق شبه الجملة",
+      "lessonIds": [
+        "semi-sentences-ellipsis-estimation"
+      ],
+      "order": 1350
+    }
+  ],
+  "lessons": [
+    {
+      "id": "semi-sentences-prepositional-phrase",
+      "topicId": "semi-sentences.prepositional-phrase",
+      "order": 1300,
+      "unitId": "semi-sentences-prepositional-phrase-unit",
+      "slug": "semi-sentences-prepositional-phrase",
+      "title": "الجار والمجرور",
+      "shortTitle": "الجار والمجرور",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الجار والمجرور.",
+        "تحديد المتعلق والعلاقة المعنوية.",
+        "بيان محل شبه الجملة أو تقديره."
+      ],
+      "prerequisiteIds": [
+        "sentence-positions-subordinate-clause"
+      ],
+      "sections": [
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الجار والمجرور داخل الجملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "شبه الجملة تركيب لا يكتمل معناه النحوي دون عامل يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "قد يكون المتعلق فعلًا أو وصفًا أو محذوفًا عامًا أو خاصًا يقدره السياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن النكرة بالمعرفة، والخبر بالحال والصفة، لتحديد المحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "لا تقل لا محل لشبه الجملة مطلقًا؛ فقد يتعلق بمحذوف في محل رفع أو نصب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المفردات وإهمال التعلق، أو تقدير «موجود» في كل سياق بلا نظر للمعنى.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة. التعلق خطوة لازمة بعد إعراب الكلمات.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "semi-sentences-prepositional-phrase-example-1",
+          "sentence": "في البيت طالب",
+          "fullyDiacritizedSentence": "في البيت طالب",
+          "parsedWords": [
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "البيت",
+              "normalizedWord": "البيت",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-example-2",
+          "sentence": "مررت بالحديقة",
+          "fullyDiacritizedSentence": "مررت بالحديقة",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بالحديقة",
+              "normalizedWord": "بالحديقة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-example-3",
+          "sentence": "الكتاب على المكتب",
+          "fullyDiacritizedSentence": "الكتاب على المكتب",
+          "parsedWords": [
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "المكتب",
+              "normalizedWord": "المكتب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-prepositional-phrase-example-4",
+          "sentence": "سافرت إلى القاهرة",
+          "fullyDiacritizedSentence": "سافرت إلى القاهرة",
+          "parsedWords": [
+            {
+              "word": "سافرت",
+              "normalizedWord": "سافرت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "الى",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 6,
+              "endIndex": 9
+            },
+            {
+              "word": "القاهرة",
+              "normalizedWord": "القاهرة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 10,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "semi-sentences-prepositional-phrase-ex-1",
+        "semi-sentences-prepositional-phrase-ex-2",
+        "semi-sentences-prepositional-phrase-ex-3",
+        "semi-sentences-prepositional-phrase-ex-4",
+        "semi-sentences-prepositional-phrase-ex-5",
+        "semi-sentences-prepositional-phrase-ex-6",
+        "semi-sentences-prepositional-phrase-ex-7",
+        "semi-sentences-prepositional-phrase-ex-8",
+        "semi-sentences-prepositional-phrase-ex-9",
+        "semi-sentences-prepositional-phrase-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "semi-sentences-prepositional-phrase-ex-2",
+        "semi-sentences-prepositional-phrase-ex-4",
+        "semi-sentences-prepositional-phrase-ex-6",
+        "semi-sentences-prepositional-phrase-ex-8",
+        "semi-sentences-prepositional-phrase-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "tags": [
+        "أشباه الجمل",
+        "الجار والمجرور",
+        "التعلق"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "semi-sentences-adverb",
+      "topicId": "semi-sentences.adverb",
+      "order": 1310,
+      "unitId": "semi-sentences-adverb-unit",
+      "slug": "semi-sentences-adverb",
+      "title": "الظرف",
+      "shortTitle": "الظرف",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الظرف.",
+        "تحديد المتعلق والعلاقة المعنوية.",
+        "بيان محل شبه الجملة أو تقديره."
+      ],
+      "prerequisiteIds": [
+        "semi-sentences-prepositional-phrase"
+      ],
+      "sections": [
+        {
+          "id": "semi-sentences-adverb-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم الظرف داخل الجملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "شبه الجملة تركيب لا يكتمل معناه النحوي دون عامل يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "قد يكون المتعلق فعلًا أو وصفًا أو محذوفًا عامًا أو خاصًا يقدره السياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن النكرة بالمعرفة، والخبر بالحال والصفة، لتحديد المحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "لا تقل لا محل لشبه الجملة مطلقًا؛ فقد يتعلق بمحذوف في محل رفع أو نصب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المفردات وإهمال التعلق، أو تقدير «موجود» في كل سياق بلا نظر للمعنى.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة. التعلق خطوة لازمة بعد إعراب الكلمات.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "semi-sentences-adverb-example-1",
+          "sentence": "جلست أمام البيت",
+          "fullyDiacritizedSentence": "جلست أمام البيت",
+          "parsedWords": [
+            {
+              "word": "جلست",
+              "normalizedWord": "جلست",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "أمام",
+              "normalizedWord": "امام",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "البيت",
+              "normalizedWord": "البيت",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-example-2",
+          "sentence": "سافرت صباحا",
+          "fullyDiacritizedSentence": "سافرت صباحا",
+          "parsedWords": [
+            {
+              "word": "سافرت",
+              "normalizedWord": "سافرت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "صباحا",
+              "normalizedWord": "صباحا",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 6,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-example-3",
+          "sentence": "الكتاب فوق الطاولة",
+          "fullyDiacritizedSentence": "الكتاب فوق الطاولة",
+          "parsedWords": [
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "فوق",
+              "normalizedWord": "فوق",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "الطاولة",
+              "normalizedWord": "الطاولة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-adverb-example-4",
+          "sentence": "انتظرت ساعة",
+          "fullyDiacritizedSentence": "انتظرت ساعة",
+          "parsedWords": [
+            {
+              "word": "انتظرت",
+              "normalizedWord": "انتظرت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "ساعة",
+              "normalizedWord": "ساعة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "semi-sentences-adverb-ex-1",
+        "semi-sentences-adverb-ex-2",
+        "semi-sentences-adverb-ex-3",
+        "semi-sentences-adverb-ex-4",
+        "semi-sentences-adverb-ex-5",
+        "semi-sentences-adverb-ex-6",
+        "semi-sentences-adverb-ex-7",
+        "semi-sentences-adverb-ex-8",
+        "semi-sentences-adverb-ex-9",
+        "semi-sentences-adverb-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "semi-sentences-adverb-ex-2",
+        "semi-sentences-adverb-ex-4",
+        "semi-sentences-adverb-ex-6",
+        "semi-sentences-adverb-ex-8",
+        "semi-sentences-adverb-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "tags": [
+        "أشباه الجمل",
+        "الظرف",
+        "التعلق"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "semi-sentences-attachment",
+      "topicId": "semi-sentences.attachment",
+      "order": 1320,
+      "unitId": "semi-sentences-attachment-unit",
+      "slug": "semi-sentences-attachment",
+      "title": "تعلق شبه الجملة",
+      "shortTitle": "تعلق شبه الجملة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم تعلق شبه الجملة.",
+        "تحديد المتعلق والعلاقة المعنوية.",
+        "بيان محل شبه الجملة أو تقديره."
+      ],
+      "prerequisiteIds": [
+        "semi-sentences-adverb"
+      ],
+      "sections": [
+        {
+          "id": "semi-sentences-attachment-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم تعلق شبه الجملة داخل الجملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "شبه الجملة تركيب لا يكتمل معناه النحوي دون عامل يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "قد يكون المتعلق فعلًا أو وصفًا أو محذوفًا عامًا أو خاصًا يقدره السياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن النكرة بالمعرفة، والخبر بالحال والصفة، لتحديد المحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "لا تقل لا محل لشبه الجملة مطلقًا؛ فقد يتعلق بمحذوف في محل رفع أو نصب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المفردات وإهمال التعلق، أو تقدير «موجود» في كل سياق بلا نظر للمعنى.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة. التعلق خطوة لازمة بعد إعراب الكلمات.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "semi-sentences-attachment-example-1",
+          "sentence": "سافرت إلى القاهرة",
+          "fullyDiacritizedSentence": "سافرت إلى القاهرة",
+          "parsedWords": [
+            {
+              "word": "سافرت",
+              "normalizedWord": "سافرت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "الى",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 6,
+              "endIndex": 9
+            },
+            {
+              "word": "القاهرة",
+              "normalizedWord": "القاهرة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 10,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-example-2",
+          "sentence": "الطالب مجتهد في درسه",
+          "fullyDiacritizedSentence": "الطالب مجتهد في درسه",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "مجتهد",
+              "normalizedWord": "مجتهد",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 12
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 13,
+              "endIndex": 15
+            },
+            {
+              "word": "درسه",
+              "normalizedWord": "درسه",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 16,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-example-3",
+          "sentence": "رأيت طائرا فوق الشجرة",
+          "fullyDiacritizedSentence": "رأيت طائرا فوق الشجرة",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طائرا",
+              "normalizedWord": "طائرا",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "فوق",
+              "normalizedWord": "فوق",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 14
+            },
+            {
+              "word": "الشجرة",
+              "normalizedWord": "الشجرة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 15,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-attachment-example-4",
+          "sentence": "مررت برجل من مصر",
+          "fullyDiacritizedSentence": "مررت برجل من مصر",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "برجل",
+              "normalizedWord": "برجل",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 10,
+              "endIndex": 12
+            },
+            {
+              "word": "مصر",
+              "normalizedWord": "مصر",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 13,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "semi-sentences-attachment-ex-1",
+        "semi-sentences-attachment-ex-2",
+        "semi-sentences-attachment-ex-3",
+        "semi-sentences-attachment-ex-4",
+        "semi-sentences-attachment-ex-5",
+        "semi-sentences-attachment-ex-6",
+        "semi-sentences-attachment-ex-7",
+        "semi-sentences-attachment-ex-8",
+        "semi-sentences-attachment-ex-9",
+        "semi-sentences-attachment-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "semi-sentences-attachment-ex-2",
+        "semi-sentences-attachment-ex-4",
+        "semi-sentences-attachment-ex-6",
+        "semi-sentences-attachment-ex-8",
+        "semi-sentences-attachment-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "tags": [
+        "أشباه الجمل",
+        "تعلق شبه الجملة",
+        "التعلق"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "semi-sentences-predicate",
+      "topicId": "semi-sentences.predicate",
+      "order": 1330,
+      "unitId": "semi-sentences-predicate-unit",
+      "slug": "semi-sentences-predicate",
+      "title": "شبه الجملة خبرا",
+      "shortTitle": "شبه الجملة خبرا",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم شبه الجملة خبرا.",
+        "تحديد المتعلق والعلاقة المعنوية.",
+        "بيان محل شبه الجملة أو تقديره."
+      ],
+      "prerequisiteIds": [
+        "semi-sentences-attachment"
+      ],
+      "sections": [
+        {
+          "id": "semi-sentences-predicate-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم شبه الجملة خبرا داخل الجملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "شبه الجملة تركيب لا يكتمل معناه النحوي دون عامل يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "قد يكون المتعلق فعلًا أو وصفًا أو محذوفًا عامًا أو خاصًا يقدره السياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن النكرة بالمعرفة، والخبر بالحال والصفة، لتحديد المحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "لا تقل لا محل لشبه الجملة مطلقًا؛ فقد يتعلق بمحذوف في محل رفع أو نصب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المفردات وإهمال التعلق، أو تقدير «موجود» في كل سياق بلا نظر للمعنى.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة. التعلق خطوة لازمة بعد إعراب الكلمات.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "semi-sentences-predicate-example-1",
+          "sentence": "الكتاب على المكتب",
+          "fullyDiacritizedSentence": "الكتاب على المكتب",
+          "parsedWords": [
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "المكتب",
+              "normalizedWord": "المكتب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-example-2",
+          "sentence": "الطلاب في الفصل",
+          "fullyDiacritizedSentence": "الطلاب في الفصل",
+          "parsedWords": [
+            {
+              "word": "الطلاب",
+              "normalizedWord": "الطلاب",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 9
+            },
+            {
+              "word": "الفصل",
+              "normalizedWord": "الفصل",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-example-3",
+          "sentence": "اللقاء غدا",
+          "fullyDiacritizedSentence": "اللقاء غدا",
+          "parsedWords": [
+            {
+              "word": "اللقاء",
+              "normalizedWord": "اللقاء",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "غدا",
+              "normalizedWord": "غدا",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-predicate-example-4",
+          "sentence": "عندنا ضيف",
+          "fullyDiacritizedSentence": "عندنا ضيف",
+          "parsedWords": [
+            {
+              "word": "عندنا",
+              "normalizedWord": "عندنا",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "ضيف",
+              "normalizedWord": "ضيف",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 6,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "semi-sentences-predicate-ex-1",
+        "semi-sentences-predicate-ex-2",
+        "semi-sentences-predicate-ex-3",
+        "semi-sentences-predicate-ex-4",
+        "semi-sentences-predicate-ex-5",
+        "semi-sentences-predicate-ex-6",
+        "semi-sentences-predicate-ex-7",
+        "semi-sentences-predicate-ex-8",
+        "semi-sentences-predicate-ex-9",
+        "semi-sentences-predicate-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "semi-sentences-predicate-ex-2",
+        "semi-sentences-predicate-ex-4",
+        "semi-sentences-predicate-ex-6",
+        "semi-sentences-predicate-ex-8",
+        "semi-sentences-predicate-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "tags": [
+        "أشباه الجمل",
+        "شبه الجملة خبرا",
+        "التعلق"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective",
+      "topicId": "semi-sentences.circumstantial-adjective",
+      "order": 1340,
+      "unitId": "semi-sentences-circumstantial-adjective-unit",
+      "slug": "semi-sentences-circumstantial-adjective",
+      "title": "شبه الجملة حالا وصفة",
+      "shortTitle": "شبه الجملة حالا وصفة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم شبه الجملة حالا وصفة.",
+        "تحديد المتعلق والعلاقة المعنوية.",
+        "بيان محل شبه الجملة أو تقديره."
+      ],
+      "prerequisiteIds": [
+        "semi-sentences-predicate"
+      ],
+      "sections": [
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم شبه الجملة حالا وصفة داخل الجملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "شبه الجملة تركيب لا يكتمل معناه النحوي دون عامل يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "قد يكون المتعلق فعلًا أو وصفًا أو محذوفًا عامًا أو خاصًا يقدره السياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن النكرة بالمعرفة، والخبر بالحال والصفة، لتحديد المحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "لا تقل لا محل لشبه الجملة مطلقًا؛ فقد يتعلق بمحذوف في محل رفع أو نصب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المفردات وإهمال التعلق، أو تقدير «موجود» في كل سياق بلا نظر للمعنى.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة. التعلق خطوة لازمة بعد إعراب الكلمات.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "semi-sentences-circumstantial-adjective-example-1",
+          "sentence": "جاء طالب في ثوب نظيف",
+          "fullyDiacritizedSentence": "جاء طالب في ثوب نظيف",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 9,
+              "endIndex": 11
+            },
+            {
+              "word": "ثوب",
+              "normalizedWord": "ثوب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 12,
+              "endIndex": 15
+            },
+            {
+              "word": "نظيف",
+              "normalizedWord": "نظيف",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 5",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 16,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-example-2",
+          "sentence": "جاء الطالب في ثوب نظيف",
+          "fullyDiacritizedSentence": "جاء الطالب في ثوب نظيف",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 13
+            },
+            {
+              "word": "ثوب",
+              "normalizedWord": "ثوب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 14,
+              "endIndex": 17
+            },
+            {
+              "word": "نظيف",
+              "normalizedWord": "نظيف",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 5",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 18,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-example-3",
+          "sentence": "رأيت طائرا فوق الشجرة",
+          "fullyDiacritizedSentence": "رأيت طائرا فوق الشجرة",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طائرا",
+              "normalizedWord": "طائرا",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "فوق",
+              "normalizedWord": "فوق",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 14
+            },
+            {
+              "word": "الشجرة",
+              "normalizedWord": "الشجرة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 15,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-circumstantial-adjective-example-4",
+          "sentence": "رأيت الطائر فوق الشجرة",
+          "fullyDiacritizedSentence": "رأيت الطائر فوق الشجرة",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطائر",
+              "normalizedWord": "الطائر",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "فوق",
+              "normalizedWord": "فوق",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 12,
+              "endIndex": 15
+            },
+            {
+              "word": "الشجرة",
+              "normalizedWord": "الشجرة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 16,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "semi-sentences-circumstantial-adjective-ex-1",
+        "semi-sentences-circumstantial-adjective-ex-2",
+        "semi-sentences-circumstantial-adjective-ex-3",
+        "semi-sentences-circumstantial-adjective-ex-4",
+        "semi-sentences-circumstantial-adjective-ex-5",
+        "semi-sentences-circumstantial-adjective-ex-6",
+        "semi-sentences-circumstantial-adjective-ex-7",
+        "semi-sentences-circumstantial-adjective-ex-8",
+        "semi-sentences-circumstantial-adjective-ex-9",
+        "semi-sentences-circumstantial-adjective-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "semi-sentences-circumstantial-adjective-ex-2",
+        "semi-sentences-circumstantial-adjective-ex-4",
+        "semi-sentences-circumstantial-adjective-ex-6",
+        "semi-sentences-circumstantial-adjective-ex-8",
+        "semi-sentences-circumstantial-adjective-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "tags": [
+        "أشباه الجمل",
+        "شبه الجملة حالا وصفة",
+        "التعلق"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation",
+      "topicId": "semi-sentences.ellipsis-estimation",
+      "order": 1350,
+      "unitId": "semi-sentences-ellipsis-estimation-unit",
+      "slug": "semi-sentences-ellipsis-estimation",
+      "title": "تقدير متعلق شبه الجملة",
+      "shortTitle": "تقدير متعلق شبه الجملة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم تقدير متعلق شبه الجملة.",
+        "تحديد المتعلق والعلاقة المعنوية.",
+        "بيان محل شبه الجملة أو تقديره."
+      ],
+      "prerequisiteIds": [
+        "semi-sentences-circumstantial-adjective"
+      ],
+      "sections": [
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد الدرس لفهم تقدير متعلق شبه الجملة داخل الجملة.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "شبه الجملة تركيب لا يكتمل معناه النحوي دون عامل يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "قد يكون المتعلق فعلًا أو وصفًا أو محذوفًا عامًا أو خاصًا يقدره السياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن النكرة بالمعرفة، والخبر بالحال والصفة، لتحديد المحل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "لا تقل لا محل لشبه الجملة مطلقًا؛ فقد يتعلق بمحذوف في محل رفع أو نصب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "من الخطأ إعراب المفردات وإهمال التعلق، أو تقدير «موجود» في كل سياق بلا نظر للمعنى.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة. التعلق خطوة لازمة بعد إعراب الكلمات.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "semi-sentences-ellipsis-estimation-example-1",
+          "sentence": "الكتاب على المكتب",
+          "fullyDiacritizedSentence": "الكتاب على المكتب",
+          "parsedWords": [
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "المكتب",
+              "normalizedWord": "المكتب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-example-2",
+          "sentence": "محمد في البيت",
+          "fullyDiacritizedSentence": "محمد في البيت",
+          "parsedWords": [
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "البيت",
+              "normalizedWord": "البيت",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-example-3",
+          "sentence": "رأيت طائرا في السماء",
+          "fullyDiacritizedSentence": "رأيت طائرا في السماء",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رايت",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "طائرا",
+              "normalizedWord": "طائرا",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 5,
+              "endIndex": 10
+            },
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 13
+            },
+            {
+              "word": "السماء",
+              "normalizedWord": "السماء",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 14,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        },
+        {
+          "id": "semi-sentences-ellipsis-estimation-example-4",
+          "sentence": "جاء الطالب مسرعا إلى المدرسة",
+          "fullyDiacritizedSentence": "جاء الطالب مسرعا إلى المدرسة",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "اسم أو فعل أو حرف",
+              "grammaticalRole": "بداية التركيب",
+              "grammaticalState": "بحسب الموقع",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 1",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 2",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "مسرعا",
+              "normalizedWord": "مسرعا",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 3",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 11,
+              "endIndex": 16
+            },
+            {
+              "word": "إلى",
+              "normalizedWord": "الى",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 4",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 17,
+              "endIndex": 20
+            },
+            {
+              "word": "المدرسة",
+              "normalizedWord": "المدرسة",
+              "wordType": "اسم معرب أو ظرف",
+              "grammaticalRole": "جزء من شبه الجملة أو متعلقه",
+              "grammaticalState": "مجرور أو منصوب أو في محل بحسب السياق",
+              "grammaticalSign": "العلامة الظاهرة المناسبة",
+              "signReason": "نوع الكلمة والعامل",
+              "grammaticalAgent": "حرف الجر أو الظرف أو العامل المتعلق به",
+              "sentencePosition": "الكلمة 5",
+              "explanation": "يحدد الإعراب من العامل والتعلق والمحل.",
+              "startIndex": 21,
+              "endIndex": 28
+            }
+          ],
+          "explanation": "يحلل المثال شبه الجملة ثم يحدد متعلقه ومحله أو وظيفته.",
+          "referenceIds": [
+            "ref-general-semi-sentences-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "semi-sentences-ellipsis-estimation-ex-1",
+        "semi-sentences-ellipsis-estimation-ex-2",
+        "semi-sentences-ellipsis-estimation-ex-3",
+        "semi-sentences-ellipsis-estimation-ex-4",
+        "semi-sentences-ellipsis-estimation-ex-5",
+        "semi-sentences-ellipsis-estimation-ex-6",
+        "semi-sentences-ellipsis-estimation-ex-7",
+        "semi-sentences-ellipsis-estimation-ex-8",
+        "semi-sentences-ellipsis-estimation-ex-9",
+        "semi-sentences-ellipsis-estimation-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "semi-sentences-ellipsis-estimation-ex-2",
+        "semi-sentences-ellipsis-estimation-ex-4",
+        "semi-sentences-ellipsis-estimation-ex-6",
+        "semi-sentences-ellipsis-estimation-ex-8",
+        "semi-sentences-ellipsis-estimation-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "tags": [
+        "أشباه الجمل",
+        "تقدير متعلق شبه الجملة",
+        "التعلق"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-1",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «في البيت طالب».",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-2",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «مررت بالحديقة».",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-3",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «الكتاب على المكتب».",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-4",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «سافرت إلى القاهرة».",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-5",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الجار والمجرور.",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-6",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الجار والمجرور.",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-7",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الجار والمجرور.",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-8",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الجار والمجرور.",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-9",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "errorCorrection",
+      "prompt": "اختر التحليل الصحيح في درس الجار والمجرور.",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-prepositional-phrase-ex-10",
+      "lessonId": "semi-sentences-prepositional-phrase",
+      "type": "comparison",
+      "prompt": "اختر التحليل الصحيح في درس الجار والمجرور.",
+      "skillIds": [
+        "semi-sentences.prepositional-phrase"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الجار والمجرور بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-1",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «جلست أمام البيت».",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-2",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «سافرت صباحا».",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-3",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «الكتاب فوق الطاولة».",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-4",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «انتظرت ساعة».",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-5",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الظرف.",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-6",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الظرف.",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-7",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الظرف.",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-8",
+      "lessonId": "semi-sentences-adverb",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس الظرف.",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-9",
+      "lessonId": "semi-sentences-adverb",
+      "type": "errorCorrection",
+      "prompt": "اختر التحليل الصحيح في درس الظرف.",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-adverb-ex-10",
+      "lessonId": "semi-sentences-adverb",
+      "type": "comparison",
+      "prompt": "اختر التحليل الصحيح في درس الظرف.",
+      "skillIds": [
+        "semi-sentences.adverb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم الظرف بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-1",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «سافرت إلى القاهرة».",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-2",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «الطالب مجتهد في درسه».",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-3",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «رأيت طائرا فوق الشجرة».",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-4",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «مررت برجل من مصر».",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-5",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-6",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-7",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-8",
+      "lessonId": "semi-sentences-attachment",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-9",
+      "lessonId": "semi-sentences-attachment",
+      "type": "errorCorrection",
+      "prompt": "اختر التحليل الصحيح في درس تعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-attachment-ex-10",
+      "lessonId": "semi-sentences-attachment",
+      "type": "comparison",
+      "prompt": "اختر التحليل الصحيح في درس تعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.attachment"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-1",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «الكتاب على المكتب».",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-2",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «الطلاب في الفصل».",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-3",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «اللقاء غدا».",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-4",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «عندنا ضيف».",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-5",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة خبرا.",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-6",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة خبرا.",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-7",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة خبرا.",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-8",
+      "lessonId": "semi-sentences-predicate",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة خبرا.",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-9",
+      "lessonId": "semi-sentences-predicate",
+      "type": "errorCorrection",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة خبرا.",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-predicate-ex-10",
+      "lessonId": "semi-sentences-predicate",
+      "type": "comparison",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة خبرا.",
+      "skillIds": [
+        "semi-sentences.predicate"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة خبرا بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-1",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «جاء طالب في ثوب نظيف».",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-2",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «جاء الطالب في ثوب نظيف».",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-3",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «رأيت طائرا فوق الشجرة».",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-4",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «رأيت الطائر فوق الشجرة».",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-5",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة حالا وصفة.",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-6",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة حالا وصفة.",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-7",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة حالا وصفة.",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-8",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة حالا وصفة.",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-9",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "errorCorrection",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة حالا وصفة.",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-circumstantial-adjective-ex-10",
+      "lessonId": "semi-sentences-circumstantial-adjective",
+      "type": "comparison",
+      "prompt": "اختر التحليل الصحيح في درس شبه الجملة حالا وصفة.",
+      "skillIds": [
+        "semi-sentences.circumstantial-adjective"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم شبه الجملة حالا وصفة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-1",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «الكتاب على المكتب».",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-2",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «محمد في البيت».",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-3",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «رأيت طائرا في السماء».",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-4",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "حلل شبه الجملة في «جاء الطالب مسرعا إلى المدرسة».",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-5",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تقدير متعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-6",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تقدير متعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-7",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تقدير متعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-8",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "multipleChoice",
+      "prompt": "اختر التحليل الصحيح في درس تقدير متعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-9",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "errorCorrection",
+      "prompt": "اختر التحليل الصحيح في درس تقدير متعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "semi-sentences-ellipsis-estimation-ex-10",
+      "lessonId": "semi-sentences-ellipsis-estimation",
+      "type": "comparison",
+      "prompt": "اختر التحليل الصحيح في درس تقدير متعلق شبه الجملة.",
+      "skillIds": [
+        "semi-sentences.ellipsis-estimation"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "تعرب الكلمات ثم يحدد المتعلق والعلاقة والمحل أو التقدير.",
+          "feedback": "صحيح؛ لم يهمل التحليل التعلق."
+        },
+        {
+          "id": "b",
+          "text": "يكفي القول جار ومجرور أو ظرف بلا متعلق ولا محل.",
+          "feedback": "يبقى التحليل ناقصًا دون التعلق والوظيفة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يفهم تقدير متعلق شبه الجملة بتحديد مكوناته ومتعلقه ومعناه، ثم يبين محله إن وقع خبرًا أو حالًا أو صفة.",
+      "hint": "حدد الحرف أو الظرف، ثم الاسم، ثم اسأل أين يتصل المعنى وما وظيفة التركيب.",
+      "referenceIds": [
+        "ref-general-semi-sentences-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-semi-sentences-v1",
+      "title": "النحو الواضح في قواعد اللغة العربية",
+      "publisher": "دار المعارف",
+      "url": "https://www.hindawi.org/books/92463613/",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

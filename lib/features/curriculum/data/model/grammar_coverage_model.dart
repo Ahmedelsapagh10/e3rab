@@ -6,13 +6,15 @@ class GrammarCoverageTrack extends Equatable {
     required this.title,
     required this.order,
     required this.topics,
+    required this.topicIds,
   });
 
   final String id;
   final String title;
   final int order;
   final List<String> topics;
+  final List<String> topicIds;
 
   @override
-  List<Object?> get props => [id, title, order, topics];
+  List<Object?> get props => [id, title, order, topics, topicIds];
 }

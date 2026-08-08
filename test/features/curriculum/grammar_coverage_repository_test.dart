@@ -12,13 +12,18 @@ void main() {
 
       final tracks = await repository.getTracks();
       final topics = tracks.expand((track) => track.topics).toList();
+      final topicIds = tracks.expand((track) => track.topicIds).toList();
 
       expect(tracks, hasLength(18));
       expect(topics.length, greaterThanOrEqualTo(120));
+      expect(topicIds, hasLength(topics.length));
+      expect(topicIds.toSet(), hasLength(125));
       expect(tracks.map((track) => track.id).toSet(), hasLength(tracks.length));
       expect(
         tracks.every(
-          (track) => track.topics.toSet().length == track.topics.length,
+          (track) =>
+              track.topics.toSet().length == track.topics.length &&
+              track.topicIds.length == track.topics.length,
         ),
         isTrue,
       );

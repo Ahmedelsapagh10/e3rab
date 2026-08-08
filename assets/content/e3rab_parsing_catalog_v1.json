@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2.0.0",
+  "banks": [
+    {
+      "id": "e3rab-parsing-core-v1",
+      "assetPath": "assets/content/e3rab_parsing_bank_v1.json",
+      "contentVersion": "1.7.0",
+      "trackIds": ["foundations", "signs", "nominal", "majzoumat", "sentence_positions"]
+    },
+    {
+      "id": "e3rab-parsing-chapters-2-7-v1",
+      "assetPath": "assets/content/e3rab_parsing_bank_chapters_2_7_v1.json",
+      "contentVersion": "1.1.0",
+      "trackIds": ["signs", "nominal", "verbal", "nawasekh", "marfouat", "mansoubat"]
+    },
+    {
+      "id": "e3rab-parsing-chapters-8-13-v1",
+      "assetPath": "assets/content/e3rab_parsing_bank_chapters_8_13_v1.json",
+      "contentVersion": "1.0.0",
+      "trackIds": ["majrourat", "majzoumat", "followers", "working_derivatives", "styles", "sentence_positions"]
+    },
+    {
+      "id": "e3rab-parsing-chapters-14-18-v1",
+      "assetPath": "assets/content/e3rab_parsing_bank_chapters_14_18_v1.json",
+      "contentVersion": "1.0.0",
+      "trackIds": ["semi_sentences", "diptotes", "numbers", "special_nouns", "applied_parsing"]
+    }
+  ]
+}

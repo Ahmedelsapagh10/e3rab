@@ -82,7 +82,7 @@ class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
     'photoUrl': user.photoUrl,
     'authProviders': user.providerIds,
     'learningRole': LearningRole.independentLearner.name,
-    'countryCode': 'EG',
+    'countryCode': 'GLOBAL',
     'preferredLocale': 'ar',
     'onboardingCompleted': true,
     'profileSchemaVersion': 1,
@@ -106,7 +106,9 @@ class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
       'learningRole': role is String && roles.contains(role)
           ? role
           : LearningRole.independentLearner.name,
-      'countryCode': data['countryCode'] is String ? data['countryCode'] : 'EG',
+      'countryCode': data['countryCode'] is String
+          ? data['countryCode']
+          : 'GLOBAL',
       'preferredLocale': data['preferredLocale'] is String
           ? data['preferredLocale']
           : 'ar',
@@ -169,18 +171,19 @@ class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
       displayName: data['displayName'] as String?,
       photoUrl: data['photoUrl'] as String?,
       authProviders: List<String>.from(data['authProviders'] as List? ?? []),
-      learningRole: LearningRole.values.byName(data['learningRole'] as String),
-      countryCode: data['countryCode'] as String,
+      learningRole: learningRoleFromStored(data['learningRole']),
+      countryCode: data['countryCode'] as String? ?? 'GLOBAL',
       curriculumId: data['curriculumId'] as String?,
       curriculumVersionId: data['curriculumVersionId'] as String?,
       stageId: data['stageId'] as String?,
       gradeId: data['gradeId'] as String?,
       grammarLevel: data['grammarLevel'] as String?,
       learningGoal: data['learningGoal'] as String?,
-      dailyGoalMinutes: data['dailyGoalMinutes'] as int?,
-      preferredLocale: data['preferredLocale'] as String,
-      onboardingCompleted: data['onboardingCompleted'] as bool,
-      profileSchemaVersion: data['profileSchemaVersion'] as int,
+      dailyGoalMinutes: (data['dailyGoalMinutes'] as num?)?.toInt(),
+      preferredLocale: data['preferredLocale'] as String? ?? 'ar',
+      onboardingCompleted: data['onboardingCompleted'] as bool? ?? false,
+      profileSchemaVersion:
+          (data['profileSchemaVersion'] as num?)?.toInt() ?? 1,
       createdAt: _date(data['createdAt']),
       updatedAt: _date(data['updatedAt']),
     );

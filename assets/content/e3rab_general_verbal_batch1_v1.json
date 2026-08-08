@@ -1,0 +1,5874 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-verbal-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-verbal-module-v1",
+      "verbal-past-verb-unit",
+      "verbal-past-verb",
+      "verbal-past-verb-ex-1",
+      "verbal-past-verb-ex-2",
+      "verbal-past-verb-ex-3",
+      "verbal-past-verb-ex-4",
+      "verbal-past-verb-ex-5",
+      "verbal-past-verb-ex-6",
+      "verbal-past-verb-ex-7",
+      "verbal-past-verb-ex-8",
+      "verbal-past-verb-ex-9",
+      "verbal-past-verb-ex-10",
+      "verbal-present-verb-unit",
+      "verbal-present-verb",
+      "verbal-present-verb-ex-1",
+      "verbal-present-verb-ex-2",
+      "verbal-present-verb-ex-3",
+      "verbal-present-verb-ex-4",
+      "verbal-present-verb-ex-5",
+      "verbal-present-verb-ex-6",
+      "verbal-present-verb-ex-7",
+      "verbal-present-verb-ex-8",
+      "verbal-present-verb-ex-9",
+      "verbal-present-verb-ex-10",
+      "verbal-imperative-verb-unit",
+      "verbal-imperative-verb",
+      "verbal-imperative-verb-ex-1",
+      "verbal-imperative-verb-ex-2",
+      "verbal-imperative-verb-ex-3",
+      "verbal-imperative-verb-ex-4",
+      "verbal-imperative-verb-ex-5",
+      "verbal-imperative-verb-ex-6",
+      "verbal-imperative-verb-ex-7",
+      "verbal-imperative-verb-ex-8",
+      "verbal-imperative-verb-ex-9",
+      "verbal-imperative-verb-ex-10",
+      "verbal-subject-unit",
+      "verbal-subject",
+      "verbal-subject-ex-1",
+      "verbal-subject-ex-2",
+      "verbal-subject-ex-3",
+      "verbal-subject-ex-4",
+      "verbal-subject-ex-5",
+      "verbal-subject-ex-6",
+      "verbal-subject-ex-7",
+      "verbal-subject-ex-8",
+      "verbal-subject-ex-9",
+      "verbal-subject-ex-10",
+      "verbal-passive-subject-unit",
+      "verbal-passive-subject",
+      "verbal-passive-subject-ex-1",
+      "verbal-passive-subject-ex-2",
+      "verbal-passive-subject-ex-3",
+      "verbal-passive-subject-ex-4",
+      "verbal-passive-subject-ex-5",
+      "verbal-passive-subject-ex-6",
+      "verbal-passive-subject-ex-7",
+      "verbal-passive-subject-ex-8",
+      "verbal-passive-subject-ex-9",
+      "verbal-passive-subject-ex-10",
+      "verbal-gender-agreement-unit",
+      "verbal-gender-agreement",
+      "verbal-gender-agreement-ex-1",
+      "verbal-gender-agreement-ex-2",
+      "verbal-gender-agreement-ex-3",
+      "verbal-gender-agreement-ex-4",
+      "verbal-gender-agreement-ex-5",
+      "verbal-gender-agreement-ex-6",
+      "verbal-gender-agreement-ex-7",
+      "verbal-gender-agreement-ex-8",
+      "verbal-gender-agreement-ex-9",
+      "verbal-gender-agreement-ex-10",
+      "verbal-subject-order-unit",
+      "verbal-subject-order",
+      "verbal-subject-order-ex-1",
+      "verbal-subject-order-ex-2",
+      "verbal-subject-order-ex-3",
+      "verbal-subject-order-ex-4",
+      "verbal-subject-order-ex-5",
+      "verbal-subject-order-ex-6",
+      "verbal-subject-order-ex-7",
+      "verbal-subject-order-ex-8",
+      "verbal-subject-order-ex-9",
+      "verbal-subject-order-ex-10",
+      "verbal-hidden-subject-unit",
+      "verbal-hidden-subject",
+      "verbal-hidden-subject-ex-1",
+      "verbal-hidden-subject-ex-2",
+      "verbal-hidden-subject-ex-3",
+      "verbal-hidden-subject-ex-4",
+      "verbal-hidden-subject-ex-5",
+      "verbal-hidden-subject-ex-6",
+      "verbal-hidden-subject-ex-7",
+      "verbal-hidden-subject-ex-8",
+      "verbal-hidden-subject-ex-9",
+      "verbal-hidden-subject-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "nominal-descriptive-subject"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-verbal-module-v1",
+      "slug": "general-verbal-v1",
+      "title": "الجملة الفعلية",
+      "unitIds": [
+        "verbal-past-verb-unit",
+        "verbal-present-verb-unit",
+        "verbal-imperative-verb-unit",
+        "verbal-subject-unit",
+        "verbal-passive-subject-unit",
+        "verbal-gender-agreement-unit",
+        "verbal-subject-order-unit",
+        "verbal-hidden-subject-unit"
+      ],
+      "order": 4
+    }
+  ],
+  "units": [
+    {
+      "id": "verbal-past-verb-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-past-verb-unit",
+      "title": "الفعل الماضي",
+      "lessonIds": [
+        "verbal-past-verb"
+      ],
+      "order": 300
+    },
+    {
+      "id": "verbal-present-verb-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-present-verb-unit",
+      "title": "الفعل المضارع",
+      "lessonIds": [
+        "verbal-present-verb"
+      ],
+      "order": 310
+    },
+    {
+      "id": "verbal-imperative-verb-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-imperative-verb-unit",
+      "title": "فعل الأمر",
+      "lessonIds": [
+        "verbal-imperative-verb"
+      ],
+      "order": 320
+    },
+    {
+      "id": "verbal-subject-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-subject-unit",
+      "title": "الفاعل",
+      "lessonIds": [
+        "verbal-subject"
+      ],
+      "order": 330
+    },
+    {
+      "id": "verbal-passive-subject-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-passive-subject-unit",
+      "title": "نائب الفاعل",
+      "lessonIds": [
+        "verbal-passive-subject"
+      ],
+      "order": 340
+    },
+    {
+      "id": "verbal-gender-agreement-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-gender-agreement-unit",
+      "title": "تأنيث الفعل",
+      "lessonIds": [
+        "verbal-gender-agreement"
+      ],
+      "order": 350
+    },
+    {
+      "id": "verbal-subject-order-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-subject-order-unit",
+      "title": "تقديم الفاعل وتأخيره",
+      "lessonIds": [
+        "verbal-subject-order"
+      ],
+      "order": 360
+    },
+    {
+      "id": "verbal-hidden-subject-unit",
+      "moduleId": "general-verbal-module-v1",
+      "slug": "verbal-hidden-subject-unit",
+      "title": "الفاعل المستتر",
+      "lessonIds": [
+        "verbal-hidden-subject"
+      ],
+      "order": 370
+    }
+  ],
+  "lessons": [
+    {
+      "id": "verbal-past-verb",
+      "topicId": "verbal.past-verb",
+      "order": 300,
+      "unitId": "verbal-past-verb-unit",
+      "slug": "verbal-past-verb",
+      "title": "الفعل الماضي",
+      "shortTitle": "بناء الماضي وصوره",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الفعل الماضي من دلالته وعلاماته.",
+        "تحديد علامة بناء الماضي.",
+        "إعراب الضمائر المتصلة بالماضي."
+      ],
+      "prerequisiteIds": [
+        "nominal-descriptive-subject"
+      ],
+      "sections": [
+        {
+          "id": "verbal-past-verb-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "الماضي يدل في الأصل على حدث وقع قبل زمن الكلام، وهو مبني لا تتغير حركة آخره بسبب الموقع.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "الفعل الماضي ما دل على حدث وقع في الزمن الماضي، ومن علاماته قبول تاء التأنيث الساكنة وتاء الفاعل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يبنى الماضي على الفتح أصلًا، وعلى السكون إذا اتصل بضمير رفع متحرك، وعلى الضم إذا اتصلت به واو الجماعة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "اختبر دلالة الزمن وقبول تاء التأنيث أو تاء الفاعل، ثم افحص الضمير المتصل لتحديد صورة البناء.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "تاء التأنيث حرف لا محل له، أما تاء الفاعل ونا الفاعلين وواو الجماعة فهي ضمائر في محل رفع فاعل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "نوع الفعل ← الضمير المتصل ← علامة البناء ← الفاعل الظاهر أو الضمير.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تقل إن الماضي مرفوع أو منصوب، ولا تخلط تاء التأنيث بتاء الفاعل.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "«يكتب» ليس ماضيًا؛ تدل الياء على المضارعة ويتغير آخره بالعوامل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الماضي مبني: فتح أصلًا، وسكون مع ضمير الرفع المتحرك، وضم مع واو الجماعة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-past-verb-example-1",
+          "sentence": "كتب الطالب",
+          "fullyDiacritizedSentence": "كتب الطالب",
+          "parsedWords": [
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «كتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الماضي مجرد من الضمائر فبني على الفتح.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-example-2",
+          "sentence": "كتبت الطالبة",
+          "fullyDiacritizedSentence": "كتبت الطالبة",
+          "parsedWords": [
+            {
+              "word": "كتبت",
+              "normalizedWord": "كتبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالبة",
+              "normalizedWord": "الطالبة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «كتبت»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "تاء التأنيث حرف والماضي مبني على الفتح.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-example-3",
+          "sentence": "كتبت الدرس",
+          "fullyDiacritizedSentence": "كتبت الدرس",
+          "parsedWords": [
+            {
+              "word": "كتبت",
+              "normalizedWord": "كتبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل اتصل بتاء الفاعل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل اتصل بتاء الفاعل؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «كتبت»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "التاء فاعل؛ لذلك بني الماضي على السكون.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-past-verb-example-4",
+          "sentence": "كتبوا الدرس",
+          "fullyDiacritizedSentence": "كتبوا الدرس",
+          "parsedWords": [
+            {
+              "word": "كتبوا",
+              "normalizedWord": "كتبوا",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل وواو الجماعة فاعل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الضم",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل وواو الجماعة فاعل؛ مبني لا محل له، وعلامته مبني على الضم.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «كتبوا»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "بني الماضي على الضم لاتصاله بواو الجماعة.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-past-verb-ex-1",
+        "verbal-past-verb-ex-2",
+        "verbal-past-verb-ex-3",
+        "verbal-past-verb-ex-4",
+        "verbal-past-verb-ex-5",
+        "verbal-past-verb-ex-6",
+        "verbal-past-verb-ex-7",
+        "verbal-past-verb-ex-8",
+        "verbal-past-verb-ex-9",
+        "verbal-past-verb-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-past-verb-ex-2",
+        "verbal-past-verb-ex-4",
+        "verbal-past-verb-ex-6",
+        "verbal-past-verb-ex-8",
+        "verbal-past-verb-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "الفعل الماضي",
+        "بناء الماضي",
+        "تاء الفاعل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-present-verb",
+      "topicId": "verbal.present-verb",
+      "order": 310,
+      "unitId": "verbal-present-verb-unit",
+      "slug": "verbal-present-verb",
+      "title": "الفعل المضارع",
+      "shortTitle": "رفع المضارع ونصبه وجزمه",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز المضارع بأحرفه.",
+        "ربط العامل بحالة المضارع.",
+        "اختيار علامة الإعراب المناسبة."
+      ],
+      "prerequisiteIds": [
+        "verbal-past-verb"
+      ],
+      "sections": [
+        {
+          "id": "verbal-present-verb-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "المضارع يدل على الحال أو الاستقبال، وهو معرب في الأصل فتتغير نهايته مع الناصب والجازم.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "يبدأ المضارع بأحد أحرف «أنيت»، ويدل على حدث متجدد، ويعرب ما لم تتصل به نون النسوة أو نون التوكيد اتصالًا مباشرًا.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يرفع إذا تجرد من الناصب والجازم، وينصب بأدوات مثل لن، ويجزم بأدوات مثل لم؛ وتختلف العلامة باختلاف نوع آخره.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدّد حرف المضارعة، ثم ابحث قبله عن عامل نصب أو جزم، ثم افحص هل هو صحيح الآخر أو من الأفعال الخمسة أو معتل الآخر.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "يبنى المضارع على السكون مع نون النسوة وعلى الفتح مع نون التوكيد المباشرة، فلا نصفه حينئذ بالرفع أو النصب أو الجزم.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "مضارع ← العامل السابق ← الحالة ← نوع الآخر ← العلامة وسببها.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل حرف المضارعة عامل رفع، ولا تحكم بالحركة قبل التعرف على الأفعال الخمسة والمعتل الآخر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "«كتب» ماض مبني، فلا يدخله ناصب ولا جازم ولا يوصف بأنه مضارع لمجرد معنى الحدث.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "المضارع معرب غالبًا؛ العامل يحدد حالته ونوع الفعل يحدد علامته.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-present-verb-example-1",
+          "sentence": "يكتب الطالب",
+          "fullyDiacritizedSentence": "يكتب الطالب",
+          "parsedWords": [
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يكتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "مضارع مرفوع لتجرده من الناصب والجازم.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-example-2",
+          "sentence": "لن يهمل الطالب",
+          "fullyDiacritizedSentence": "لن يهمل الطالب",
+          "parsedWords": [
+            {
+              "word": "لن",
+              "normalizedWord": "لن",
+              "wordType": "حرف",
+              "grammaticalRole": "حرف نصب",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل معموله",
+              "explanation": "حرف نصب؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يهمل",
+              "normalizedWord": "يهمل",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "حرف النصب «لن»",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يهمل»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "نصب «لن» المضارع بالفتحة.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-example-3",
+          "sentence": "لم يهمل الطالب",
+          "fullyDiacritizedSentence": "لم يهمل الطالب",
+          "parsedWords": [
+            {
+              "word": "لم",
+              "normalizedWord": "لم",
+              "wordType": "حرف",
+              "grammaticalRole": "حرف جزم",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل معموله",
+              "explanation": "حرف جزم؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يهمل",
+              "normalizedWord": "يهمل",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "حرف الجزم «لم»",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مجزوم، وعلامته السكون الظاهر.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «يهمل»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 8,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "جزم «لم» المضارع بالسكون.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-present-verb-example-4",
+          "sentence": "الطلاب يكتبون",
+          "fullyDiacritizedSentence": "الطلاب يكتبون",
+          "parsedWords": [
+            {
+              "word": "الطلاب",
+              "normalizedWord": "الطلاب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "يكتبون",
+              "normalizedWord": "يكتبون",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل وواو الجماعة فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "ثبوت النون",
+              "signReason": "من الأفعال الخمسة",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل وواو الجماعة فاعل؛ مرفوع، وعلامته ثبوت النون.",
+              "startIndex": 7,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "الفعل من الأفعال الخمسة مرفوع بثبوت النون.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-present-verb-ex-1",
+        "verbal-present-verb-ex-2",
+        "verbal-present-verb-ex-3",
+        "verbal-present-verb-ex-4",
+        "verbal-present-verb-ex-5",
+        "verbal-present-verb-ex-6",
+        "verbal-present-verb-ex-7",
+        "verbal-present-verb-ex-8",
+        "verbal-present-verb-ex-9",
+        "verbal-present-verb-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-present-verb-ex-2",
+        "verbal-present-verb-ex-4",
+        "verbal-present-verb-ex-6",
+        "verbal-present-verb-ex-8",
+        "verbal-present-verb-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "الفعل المضارع",
+        "الرفع",
+        "النصب",
+        "الجزم"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-imperative-verb",
+      "topicId": "verbal.imperative-verb",
+      "order": 320,
+      "unitId": "verbal-imperative-verb-unit",
+      "slug": "verbal-imperative-verb",
+      "title": "فعل الأمر",
+      "shortTitle": "بناء الأمر على صورة الجزم",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الأمر بمعناه وعلامته.",
+        "تحديد علامة بناء الأمر.",
+        "اكتشاف فاعله المستتر أو المتصل."
+      ],
+      "prerequisiteIds": [
+        "verbal-present-verb"
+      ],
+      "sections": [
+        {
+          "id": "verbal-imperative-verb-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "الأمر يطلب حصول الفعل بعد زمن الكلام، وهو مبني دائمًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "فعل الأمر ما دل على طلب وقوع الحدث وقبل ياء المخاطبة في الاستعمال المناسب.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يبنى الأمر على ما يجزم به مضارعه: السكون للصحيح، وحذف النون مع ألف الاثنين وواو الجماعة وياء المخاطبة، وحذف حرف العلة للمعتل الآخر.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حوّل الأمر إلى مضارعه المجزوم، وافحص آخره والضمير المتصل، ثم اختر صورة البناء.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "فاعل الأمر ضمير مستتر وجوبًا تقديره أنت إذا لم يتصل به ضمير، وقد يكون ألف الاثنين أو واو الجماعة أو ياء المخاطبة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "معنى الطلب ← المضارع المقابل ← علامة الجزم ← بناء الأمر ← الفاعل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تصف الأمر بأنه مجزوم؛ هو مبني على علامة تماثل جزم مضارعه.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "«لتكتب» مضارع مجزوم بلام الأمر، وليس فعل أمر من حيث الصيغة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الأمر مبني على السكون أو الحذف، وفاعله مستتر أو ضمير متصل.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-imperative-verb-example-1",
+          "sentence": "اكتب الدرس",
+          "fullyDiacritizedSentence": "اكتب الدرس",
+          "parsedWords": [
+            {
+              "word": "اكتب",
+              "normalizedWord": "اكتب",
+              "wordType": "فعل أمر",
+              "grammaticalRole": "فعل وفاعله مستتر تقديره أنت",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "مضارعه صحيح الآخر",
+              "grammaticalAgent": "البناء على ما يجزم به المضارع",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعله مستتر تقديره أنت؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «اكتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "أمر مبني على السكون وفاعله مستتر.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-example-2",
+          "sentence": "اكتبا الدرس",
+          "fullyDiacritizedSentence": "اكتبا الدرس",
+          "parsedWords": [
+            {
+              "word": "اكتبا",
+              "normalizedWord": "اكتبا",
+              "wordType": "فعل أمر",
+              "grammaticalRole": "فعل وألف الاثنين فاعل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على حذف النون",
+              "signReason": "من صيغ الأفعال الخمسة",
+              "grammaticalAgent": "البناء على ما يجزم به المضارع",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وألف الاثنين فاعل؛ مبني لا محل له، وعلامته مبني على حذف النون.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «اكتبا»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "أمر مبني على حذف النون وألف الاثنين فاعل.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-example-3",
+          "sentence": "اكتبوا الدرس",
+          "fullyDiacritizedSentence": "اكتبوا الدرس",
+          "parsedWords": [
+            {
+              "word": "اكتبوا",
+              "normalizedWord": "اكتبوا",
+              "wordType": "فعل أمر",
+              "grammaticalRole": "فعل وواو الجماعة فاعل",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على حذف النون",
+              "signReason": "من صيغ الأفعال الخمسة",
+              "grammaticalAgent": "البناء على ما يجزم به المضارع",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وواو الجماعة فاعل؛ مبني لا محل له، وعلامته مبني على حذف النون.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «اكتبوا»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "أمر مبني على حذف النون وواو الجماعة فاعل.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-imperative-verb-example-4",
+          "sentence": "اسع للخير",
+          "fullyDiacritizedSentence": "اسع للخير",
+          "parsedWords": [
+            {
+              "word": "اسع",
+              "normalizedWord": "اسع",
+              "wordType": "فعل أمر",
+              "grammaticalRole": "فعل وفاعله مستتر تقديره أنت",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على حذف حرف العلة",
+              "signReason": "مضارعه معتل الآخر",
+              "grammaticalAgent": "البناء على ما يجزم به المضارع",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعله مستتر تقديره أنت؛ مبني لا محل له، وعلامته مبني على حذف حرف العلة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "للخير",
+              "normalizedWord": "للخير",
+              "wordType": "جار ومجرور",
+              "grammaticalRole": "متعلق بالفعل",
+              "grammaticalState": "في محل نصب متعلق بالفعل",
+              "grammaticalSign": "الكسرة على الاسم",
+              "signReason": "سبق الاسم بلام الجر",
+              "grammaticalAgent": "حرف الجر",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "متعلق بالفعل؛ في محل نصب متعلق بالفعل، وعلامته الكسرة على الاسم.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "أمر معتل الآخر مبني على حذف حرف العلة.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-imperative-verb-ex-1",
+        "verbal-imperative-verb-ex-2",
+        "verbal-imperative-verb-ex-3",
+        "verbal-imperative-verb-ex-4",
+        "verbal-imperative-verb-ex-5",
+        "verbal-imperative-verb-ex-6",
+        "verbal-imperative-verb-ex-7",
+        "verbal-imperative-verb-ex-8",
+        "verbal-imperative-verb-ex-9",
+        "verbal-imperative-verb-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-imperative-verb-ex-2",
+        "verbal-imperative-verb-ex-4",
+        "verbal-imperative-verb-ex-6",
+        "verbal-imperative-verb-ex-8",
+        "verbal-imperative-verb-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "فعل الأمر",
+        "بناء الأمر",
+        "حذف النون"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-subject",
+      "topicId": "verbal.subject",
+      "order": 330,
+      "unitId": "verbal-subject-unit",
+      "slug": "verbal-subject",
+      "title": "الفاعل",
+      "shortTitle": "من قام بالفعل؟",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد الفاعل بعد الفعل.",
+        "إعراب صور الفاعل الظاهر والمتصل.",
+        "اختيار علامة رفعه."
+      ],
+      "prerequisiteIds": [
+        "verbal-imperative-verb"
+      ],
+      "sections": [
+        {
+          "id": "verbal-subject-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "الفاعل هو المسند إليه الذي قام بالفعل أو اتصف به، وهو مرفوع دائمًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "يأتي الفاعل اسمًا ظاهرًا أو ضميرًا متصلًا أو مستترًا بعد فعل مبني للمعلوم.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يرفع الفاعل بالضمة أو العلامة الفرعية المناسبة، ولا يتقدم على فعله مع بقائه فاعلًا في التحليل المدرسي.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدّد الفعل المبني للمعلوم، ثم اسأل من الذي فعل أو اتصف، وافحص ضمير الفعل قبل البحث عن اسم ظاهر.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد يتأخر الفاعل ويفصل بينه وبين الفعل ظرف أو جار ومجرور، ولا يجوز أن يكون للفعل فاعلان.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الفعل ← بناؤه للمعلوم ← من أسند إليه ← صورة الفاعل ← علامة الرفع.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل المفعول فاعلًا بسبب ترتيبه، ولا تضف فاعلًا ظاهرًا إلى فعل استوفى فاعله بضمير متصل.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الطالب كتب الدرس» الطالب مبتدأ، وفاعل «كتب» ضمير مستتر يعود عليه.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الفاعل مرفوع، وصورته اسم ظاهر أو ضمير متصل أو مستتر.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-subject-example-1",
+          "sentence": "نجح الطالب",
+          "fullyDiacritizedSentence": "نجح الطالب",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «نجح»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الفاعل اسم مفرد مرفوع بالضمة.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-example-2",
+          "sentence": "نجح الطالبان",
+          "fullyDiacritizedSentence": "نجح الطالبان",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالبان",
+              "normalizedWord": "الطالبان",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف نيابة عن الضمة",
+              "signReason": "مثنى",
+              "grammaticalAgent": "الفعل «نجح»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الألف نيابة عن الضمة.",
+              "startIndex": 4,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الفاعل مثنى مرفوع بالألف.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-example-3",
+          "sentence": "نجح المعلمون",
+          "fullyDiacritizedSentence": "نجح المعلمون",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "المعلمون",
+              "normalizedWord": "المعلمون",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو نيابة عن الضمة",
+              "signReason": "جمع مذكر سالم",
+              "grammaticalAgent": "الفعل «نجح»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الواو نيابة عن الضمة.",
+              "startIndex": 4,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الفاعل جمع مذكر سالم مرفوع بالواو.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-example-4",
+          "sentence": "كتبت الطالبة",
+          "fullyDiacritizedSentence": "كتبت الطالبة",
+          "parsedWords": [
+            {
+              "word": "كتبت",
+              "normalizedWord": "كتبت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالبة",
+              "normalizedWord": "الطالبة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «كتبت»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الطالبة فاعل ظاهر والتاء للتأنيث.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-subject-ex-1",
+        "verbal-subject-ex-2",
+        "verbal-subject-ex-3",
+        "verbal-subject-ex-4",
+        "verbal-subject-ex-5",
+        "verbal-subject-ex-6",
+        "verbal-subject-ex-7",
+        "verbal-subject-ex-8",
+        "verbal-subject-ex-9",
+        "verbal-subject-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-subject-ex-2",
+        "verbal-subject-ex-4",
+        "verbal-subject-ex-6",
+        "verbal-subject-ex-8",
+        "verbal-subject-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "الفاعل",
+        "المرفوعات",
+        "فاعل ظاهر"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-passive-subject",
+      "topicId": "verbal.passive-subject",
+      "order": 340,
+      "unitId": "verbal-passive-subject-unit",
+      "slug": "verbal-passive-subject",
+      "title": "نائب الفاعل",
+      "shortTitle": "المرفوع بعد المبني للمجهول",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الفعل المبني للمجهول.",
+        "تحديد نائب الفاعل.",
+        "تحويل الجملة من المعلوم إلى المجهول."
+      ],
+      "prerequisiteIds": [
+        "verbal-subject"
+      ],
+      "sections": [
+        {
+          "id": "verbal-passive-subject-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "عند حذف الفاعل وبناء الفعل للمجهول، يقوم اسم آخر مقامه ويسمى نائب الفاعل.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "نائب الفاعل اسم مرفوع أسند إليه فعل مبني للمجهول بعد حذف الفاعل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يضم أول الماضي ويكسر ما قبل آخره، ويضم أول المضارع ويفتح ما قبل آخره، ويرفع نائب الفاعل بعلامته المناسبة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "افحص ضبط الفعل ومعناه، وتأكد من غياب الفاعل، ثم عيّن الاسم المرفوع الذي وقع عليه الحدث.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "قد يكون نائب الفاعل ضميرًا، وقد ينوب غير المفعول به عند غيابه وفق القيود النحوية.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "صيغة المبني للمجهول ← حذف الفاعل ← الاسم المسند إليه ← الرفع وعلامته.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تسم الاسم بعد المبني للمجهول فاعلًا، ولا تفترض أن كل فعل بلا فاعل ظاهر مبني للمجهول.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «فتح الحارس الباب» الفعل معلوم و«الحارس» فاعل، فلا نائب فاعل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "نائب الفاعل مرفوع، ولا يظهر إلا مع فعل مبني للمجهول بعد حذف الفاعل.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-passive-subject-example-1",
+          "sentence": "كسر الزجاج",
+          "fullyDiacritizedSentence": "كُسِرَ الزُّجَاجُ",
+          "parsedWords": [
+            {
+              "word": "كسر",
+              "normalizedWord": "كسر",
+              "wordType": "فعل ماض مبني للمجهول",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء للمجهول",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الزجاج",
+              "normalizedWord": "الزجاج",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نائب فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل المبني للمجهول «كسر»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "نائب فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الفعل مبني للمجهول والزجاج نائب فاعل.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-example-2",
+          "sentence": "فتح الباب",
+          "fullyDiacritizedSentence": "فُتِحَ البَابُ",
+          "parsedWords": [
+            {
+              "word": "فتح",
+              "normalizedWord": "فتح",
+              "wordType": "فعل ماض مبني للمجهول",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء للمجهول",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الباب",
+              "normalizedWord": "الباب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نائب فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل المبني للمجهول «فتح»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "نائب فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "الباب نائب فاعل مرفوع.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-example-3",
+          "sentence": "تكتب الرسالة",
+          "fullyDiacritizedSentence": "تُكْتَبُ الرِّسَالَةُ",
+          "parsedWords": [
+            {
+              "word": "تكتب",
+              "normalizedWord": "تكتب",
+              "wordType": "فعل مضارع مبني للمجهول",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الرسالة",
+              "normalizedWord": "الرسالة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نائب فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل المبني للمجهول «تكتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "نائب فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "مضارع مبني للمجهول والرسالة نائب فاعل.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-passive-subject-example-4",
+          "sentence": "كرم الفائزون",
+          "fullyDiacritizedSentence": "كُرِّمَ الفَائِزُونَ",
+          "parsedWords": [
+            {
+              "word": "كرم",
+              "normalizedWord": "كرم",
+              "wordType": "فعل ماض مبني للمجهول",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء للمجهول",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الفائزون",
+              "normalizedWord": "الفائزون",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نائب فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو نيابة عن الضمة",
+              "signReason": "جمع مذكر سالم",
+              "grammaticalAgent": "الفعل المبني للمجهول «كرم»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "نائب فاعل؛ مرفوع، وعلامته الواو نيابة عن الضمة.",
+              "startIndex": 4,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "جمع المذكر السالم نائب فاعل مرفوع بالواو.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-passive-subject-ex-1",
+        "verbal-passive-subject-ex-2",
+        "verbal-passive-subject-ex-3",
+        "verbal-passive-subject-ex-4",
+        "verbal-passive-subject-ex-5",
+        "verbal-passive-subject-ex-6",
+        "verbal-passive-subject-ex-7",
+        "verbal-passive-subject-ex-8",
+        "verbal-passive-subject-ex-9",
+        "verbal-passive-subject-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-passive-subject-ex-2",
+        "verbal-passive-subject-ex-4",
+        "verbal-passive-subject-ex-6",
+        "verbal-passive-subject-ex-8",
+        "verbal-passive-subject-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "نائب الفاعل",
+        "المبني للمجهول",
+        "المرفوعات"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-gender-agreement",
+      "topicId": "verbal.gender-agreement",
+      "order": 350,
+      "unitId": "verbal-gender-agreement-unit",
+      "slug": "verbal-gender-agreement",
+      "title": "تأنيث الفعل",
+      "shortTitle": "مطابقة الفعل لفاعله",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "معرفة مواضع وجوب التأنيث.",
+        "تمييز التأنيث الحقيقي والمجازي.",
+        "اختيار صورة الفعل مع الجمع."
+      ],
+      "prerequisiteIds": [
+        "verbal-passive-subject"
+      ],
+      "sections": [
+        {
+          "id": "verbal-gender-agreement-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "تظهر تاء التأنيث في الماضي أو تاء المضارعة بحسب نوع الفاعل وموضعه.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "تأنيث الفعل علامة توافق بين الفعل وفاعله المؤنث، وقد يكون واجبًا أو جائزًا بحسب الفصل ونوع التأنيث.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يؤنث الفعل إذا كان فاعله مؤنثًا حقيقيًا ظاهرًا متصلًا به، ويجوز في مواضع منها الفصل أو التأنيث المجازي، ويعامل جمع غير العاقل معاملة المفردة المؤنثة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "حدّد الفاعل ونوع تأنيثه، وافحص هل هو ظاهر أو ضمير وهل فصل عن الفعل فاصل.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "تاء الماضي ساكنة لا محل لها، وتاء المضارعة حرف مضارعة من بنية الفعل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "الفاعل ← جنسه وحقيقته ← ظهوره واتصاله ← وجوب التأنيث أو جوازه.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل تاء التأنيث فاعلًا، ولا تطابق الفعل المتقدم مع جمع الفاعل في العدد في الفصحى القياسية.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «حضر الرجال» لا يؤنث الفعل؛ لأن الفاعل جمع عاقل مذكر.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "حكم التأنيث يتبع نوع الفاعل وقربه، لا شكل الاسم وحده.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-gender-agreement-example-1",
+          "sentence": "حضرت فاطمة",
+          "fullyDiacritizedSentence": "حضرت فاطمة",
+          "parsedWords": [
+            {
+              "word": "حضرت",
+              "normalizedWord": "حضرت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "فاطمة",
+              "normalizedWord": "فاطمة",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضرت»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "وجب التأنيث لاتصال الفعل بفاعل مؤنث حقيقي.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-example-2",
+          "sentence": "نمت الأشجار",
+          "fullyDiacritizedSentence": "نمت الأشجار",
+          "parsedWords": [
+            {
+              "word": "نمت",
+              "normalizedWord": "نمت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الأشجار",
+              "normalizedWord": "الأشجار",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «نمت»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "جمع غير العاقل يعامل معاملة المفردة المؤنثة.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-example-3",
+          "sentence": "حضرت الطالبات",
+          "fullyDiacritizedSentence": "حضرت الطالبات",
+          "parsedWords": [
+            {
+              "word": "حضرت",
+              "normalizedWord": "حضرت",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالبات",
+              "normalizedWord": "الطالبات",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "جمع مؤنث سالم",
+              "grammaticalAgent": "الفعل «حضرت»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "الفعل المتقدم مفرد مؤنث مع جمع الإناث.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-gender-agreement-example-4",
+          "sentence": "حضر الرجال",
+          "fullyDiacritizedSentence": "حضر الرجال",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الرجال",
+              "normalizedWord": "الرجال",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "جمع تكسير للعاقل",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "لا يؤنث الفعل مع جمع عاقل مذكر.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-gender-agreement-ex-1",
+        "verbal-gender-agreement-ex-2",
+        "verbal-gender-agreement-ex-3",
+        "verbal-gender-agreement-ex-4",
+        "verbal-gender-agreement-ex-5",
+        "verbal-gender-agreement-ex-6",
+        "verbal-gender-agreement-ex-7",
+        "verbal-gender-agreement-ex-8",
+        "verbal-gender-agreement-ex-9",
+        "verbal-gender-agreement-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-gender-agreement-ex-2",
+        "verbal-gender-agreement-ex-4",
+        "verbal-gender-agreement-ex-6",
+        "verbal-gender-agreement-ex-8",
+        "verbal-gender-agreement-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "تأنيث الفعل",
+        "المطابقة",
+        "تاء التأنيث"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-subject-order",
+      "topicId": "verbal.subject-order",
+      "order": 360,
+      "unitId": "verbal-subject-order-unit",
+      "slug": "verbal-subject-order",
+      "title": "تقديم الفاعل وتأخيره",
+      "shortTitle": "رتبة الفعل والفاعل",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم الرتبة الأصلية للفعل والفاعل.",
+        "تمييز الاسم المتقدم من الفاعل.",
+        "تحليل الفصل بين الفعل والفاعل."
+      ],
+      "prerequisiteIds": [
+        "verbal-gender-agreement"
+      ],
+      "sections": [
+        {
+          "id": "verbal-subject-order-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "الأصل في الجملة الفعلية أن يبدأ الفعل ثم يأتي فاعله، وقد يتأخر الفاعل عن متعلقات أخرى.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "رتبة الفاعل موقعه بعد الفعل في التحليل، أما الاسم المتقدم على الفعل فيعرب غالبًا مبتدأ ويكون داخل الجملة ضمير فاعل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يتأخر الفاعل عن فعله، وقد يجب تأخيره لوجود ضمير مفعول يعود عليه أو للحصر، ويجوز الفصل بظرف أو جار ومجرور.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "ابدأ بالفعل وحدد فاعله المتصل أو المستتر، ثم لا تنقل وظيفة الفاعل إلى اسم متقدم قبل فحص الجملة الاسمية.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "في أسلوب الحصر بإلا يتأخر المحصور، وقد تتغير الرتبة لأغراض المعنى مع بقاء علامات الوظائف.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "نوع الجملة ← الفعل ← ضميره ← الاسم الظاهر ← سبب الرتبة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعرب الاسم قبل الفعل فاعلًا آليًا، ولا تجعل الظرف الفاصل فاعلًا.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «الطالب حضر» الطالب مبتدأ، وفعل «حضر» فاعله ضمير مستتر يعود على الطالب.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الفاعل تابع لفعله في التحليل، والرتبة الظاهرة لا تكفي دون فحص الضمير والإسناد.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-subject-order-example-1",
+          "sentence": "حضر الطالب",
+          "fullyDiacritizedSentence": "حضر الطالب",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الترتيب الأصلي فعل ثم فاعل.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-example-2",
+          "sentence": "الطالب حضر",
+          "fullyDiacritizedSentence": "الطالب حضر",
+          "parsedWords": [
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل وفاعله ضمير مستتر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل وفاعله ضمير مستتر؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 7,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الاسم المتقدم مبتدأ وفاعل الفعل ضمير مستتر.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-example-3",
+          "sentence": "ما حضر إلا الطالب",
+          "fullyDiacritizedSentence": "ما حضر إلا الطالب",
+          "parsedWords": [
+            {
+              "word": "ما",
+              "normalizedWord": "ما",
+              "wordType": "حرف",
+              "grammaticalRole": "حرف نفي",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل معموله",
+              "explanation": "حرف نفي؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 3,
+              "endIndex": 6
+            },
+            {
+              "word": "إلا",
+              "normalizedWord": "إلا",
+              "wordType": "حرف",
+              "grammaticalRole": "أداة حصر",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "قبل معموله",
+              "explanation": "أداة حصر؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل مؤخر محصور",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "بعد أداة الحصر",
+              "explanation": "فاعل مؤخر محصور؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "تأخر الفاعل بسبب الحصر.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-subject-order-example-4",
+          "sentence": "حضر اليوم الطالب",
+          "fullyDiacritizedSentence": "حضر اليوم الطالب",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الفعل الماضي مبني",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل الجملة؛ مبني لا محل له، وعلامته مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "اليوم",
+              "normalizedWord": "اليوم",
+              "wordType": "ظرف زمان",
+              "grammaticalRole": "متعلق بالفعل",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "ظرف مفرد",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "بين الفعل والفاعل",
+              "explanation": "متعلق بالفعل؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل مؤخر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «حضر»",
+              "sentencePosition": "بعد الظرف",
+              "explanation": "فاعل مؤخر؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 10,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "فصل الظرف بين الفعل والفاعل.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-subject-order-ex-1",
+        "verbal-subject-order-ex-2",
+        "verbal-subject-order-ex-3",
+        "verbal-subject-order-ex-4",
+        "verbal-subject-order-ex-5",
+        "verbal-subject-order-ex-6",
+        "verbal-subject-order-ex-7",
+        "verbal-subject-order-ex-8",
+        "verbal-subject-order-ex-9",
+        "verbal-subject-order-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-subject-order-ex-2",
+        "verbal-subject-order-ex-4",
+        "verbal-subject-order-ex-6",
+        "verbal-subject-order-ex-8",
+        "verbal-subject-order-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "رتبة الفاعل",
+        "تأخير الفاعل",
+        "الحصر"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "verbal-hidden-subject",
+      "topicId": "verbal.hidden-subject",
+      "order": 370,
+      "unitId": "verbal-hidden-subject-unit",
+      "slug": "verbal-hidden-subject",
+      "title": "الفاعل المستتر",
+      "shortTitle": "ضمير نفهمه من الفعل",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "استخراج الضمير المستتر.",
+        "تمييز الاستتار الجائز والواجب.",
+        "ربط حرف المضارعة بتقدير الفاعل."
+      ],
+      "prerequisiteIds": [
+        "verbal-subject-order"
+      ],
+      "sections": [
+        {
+          "id": "verbal-hidden-subject-sec-1",
+          "type": "opening",
+          "title": "ابدأ بالمعنى",
+          "body": "قد لا ينطق الفاعل كلمة مستقلة، لكن صيغة الفعل تدل على ضمير يؤدي وظيفته.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-2",
+          "type": "explanation",
+          "title": "التعريف ببساطة",
+          "body": "الفاعل المستتر ضمير مقدر في الفعل يفهم من الصيغة أو السياق، ويكون استتاره واجبًا أو جائزًا.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-3",
+          "type": "rule",
+          "title": "القاعدة والعامل",
+          "body": "يستتر وجوبًا غالبًا مع أمر المفرد المخاطب ومضارع المتكلم، ويجوز مع فعل الغائب إذا دل عليه اسم سابق أو السياق.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-4",
+          "type": "detection",
+          "title": "كيف تكتشفه؟",
+          "body": "افحص الفعل: إن لم يتصل به ضمير رفع ولم يأت بعده فاعل ظاهر، استخرج الشخص والعدد من الصيغة والسياق.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-5",
+          "type": "details",
+          "title": "الحالات والاستثناءات",
+          "body": "تقدير الضمير أنا أو نحن أو أنت أو هو أو هي، ولا يجوز جمع فاعل مستتر وفاعل ظاهر للفعل نفسه.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "صيغة الفعل ← غياب الظاهر والمتصل ← المتكلم أو المخاطب أو الغائب ← تقدير الضمير.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تترك الفعل بلا فاعل، ولا تجعل ياء المضارعة نفسها ضميرًا؛ هي حرف يدل مع السياق على الغائب.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "في «كتبوا» الواو فاعل متصل ظاهر في اللفظ، فلا نصف الفاعل بالمستتر.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الفاعل المستتر حاضر في البنية وإن غاب لفظه، ويقدر من الصيغة والسياق.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "verbal-hidden-subject-example-1",
+          "sentence": "أكتب الدرس",
+          "fullyDiacritizedSentence": "أكتب الدرس",
+          "parsedWords": [
+            {
+              "word": "أكتب",
+              "normalizedWord": "أكتب",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل وفاعله مستتر تقديره أنا",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل وفاعله مستتر تقديره أنا؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «أكتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "فاعل المضارع مستتر وجوبًا تقديره أنا.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-example-2",
+          "sentence": "نكتب الدرس",
+          "fullyDiacritizedSentence": "نكتب الدرس",
+          "parsedWords": [
+            {
+              "word": "نكتب",
+              "normalizedWord": "نكتب",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل وفاعله مستتر تقديره نحن",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل وفاعله مستتر تقديره نحن؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «نكتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "الفاعل مستتر وجوبًا تقديره نحن.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-example-3",
+          "sentence": "اكتب الدرس",
+          "fullyDiacritizedSentence": "اكتب الدرس",
+          "parsedWords": [
+            {
+              "word": "اكتب",
+              "normalizedWord": "اكتب",
+              "wordType": "فعل أمر",
+              "grammaticalRole": "فعل وفاعله مستتر تقديره أنت",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "البناء على ما يجزم به المضارع",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعله مستتر تقديره أنت؛ مبني لا محل له، وعلامته مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الفعل «اكتب»",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "فاعل الأمر مستتر وجوبًا تقديره أنت.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        },
+        {
+          "id": "verbal-hidden-subject-example-4",
+          "sentence": "محمد يكتب",
+          "fullyDiacritizedSentence": "محمد يكتب",
+          "parsedWords": [
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "فعل مضارع معرب",
+              "grammaticalRole": "فعل وفاعله مستتر تقديره هو",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "grammaticalAgent": "التجرد من الناصب والجازم",
+              "sentencePosition": "صدر الجملة الفعلية",
+              "explanation": "فعل وفاعله مستتر تقديره هو؛ مرفوع، وعلامته الضمة الظاهرة.",
+              "startIndex": 5,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "فاعل المضارع مستتر جوازًا تقديره هو يعود على المبتدأ.",
+          "referenceIds": [
+            "ref-general-verbal-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "verbal-hidden-subject-ex-1",
+        "verbal-hidden-subject-ex-2",
+        "verbal-hidden-subject-ex-3",
+        "verbal-hidden-subject-ex-4",
+        "verbal-hidden-subject-ex-5",
+        "verbal-hidden-subject-ex-6",
+        "verbal-hidden-subject-ex-7",
+        "verbal-hidden-subject-ex-8",
+        "verbal-hidden-subject-ex-9",
+        "verbal-hidden-subject-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "verbal-hidden-subject-ex-2",
+        "verbal-hidden-subject-ex-4",
+        "verbal-hidden-subject-ex-6",
+        "verbal-hidden-subject-ex-8",
+        "verbal-hidden-subject-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "tags": [
+        "الفاعل المستتر",
+        "الضمير المستتر",
+        "الاستتار الواجب"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "verbal-past-verb-ex-1",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "الماضي في الأصل:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "معرب دائمًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-2",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "علامة بناء «كتب»:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الفتح",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الجر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الفتح.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-3",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "«كتبت» مع تاء الفاعل مبني على:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "السكون",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الضم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: السكون.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-4",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "«كتبوا» مبني على:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضم",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الكسر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الضم.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-5",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "تاء التأنيث:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "حرف لا محل له",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: حرف لا محل له.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-6",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "تاء الفاعل:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمير في محل رفع",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حرف نصب",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضمير في محل رفع.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-7",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "هل يوصف الماضي بالمجزوم؟",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "نعم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-8",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "علامة تمييز الماضي:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "قبول تاء التأنيث",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "قبول لن",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: قبول تاء التأنيث.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-9",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "نا الفاعلين تجعل البناء على:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "السكون",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الفتحة دائمًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: السكون.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-past-verb-ex-10",
+      "lessonId": "verbal-past-verb",
+      "type": "multipleChoice",
+      "prompt": "قبل الإعراب نفحص:",
+      "skillIds": [
+        "verbal.past-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمير المتصل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "عدد الحروف فقط",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الضمير المتصل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-1",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "حروف المضارعة تجمعها:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أنيت",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "سألتمونيها",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: أنيت.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-2",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "المضارع المجرد من العوامل:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مجرور",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-3",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "«لن» تجعل المضارع:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "منصوبًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مجزومًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: منصوبًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-4",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "«لم» تجعل المضارع:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مجزومًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مرفوعًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مجزومًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-5",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "عامل رفع المضارع:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "التجرد من الناصب والجازم",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حرف المضارعة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: التجرد من الناصب والجازم.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-6",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "المضارع مع نون النسوة:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني على السكون",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مرفوع بالضمة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني على السكون.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-7",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "المضارع مع نون التوكيد المباشرة:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني على الفتح",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مجرور",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني على الفتح.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-8",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "علامة رفع الأفعال الخمسة:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ثبوت النون",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الفتحة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ثبوت النون.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-9",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "قبل اختيار العلامة نفحص:",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نوع آخر الفعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "طول الجملة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نوع آخر الفعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-present-verb-ex-10",
+      "lessonId": "verbal-present-verb",
+      "type": "multipleChoice",
+      "prompt": "هل المضارع معرب دائمًا؟",
+      "skillIds": [
+        "verbal.present-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "نعم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-1",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "فعل الأمر:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني دائمًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "معرب دائمًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني دائمًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-2",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "«اكتب» مبني على:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "السكون",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الضمة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: السكون.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-3",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "«اكتبوا» مبني على:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "حذف النون",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "ثبوت النون",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: حذف النون.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-4",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "«اسع» مبني على:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "حذف حرف العلة",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الكسرة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: حذف حرف العلة.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-5",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "فاعل «اكتب»:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مستتر تقديره أنت",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الدرس",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مستتر تقديره أنت.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-6",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "ألف «اكتبا»:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "علامة نصب",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فاعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-7",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "يبنى الأمر على:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ما يجزم به مضارعه",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "ما يرفع به الاسم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ما يجزم به مضارعه.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-8",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "«لتكتب» هو:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضارع مجزوم بلام الأمر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فعل أمر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مضارع مجزوم بلام الأمر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-9",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "واو «اكتبوا»:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حرف جر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فاعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-imperative-verb-ex-10",
+      "lessonId": "verbal-imperative-verb",
+      "type": "multipleChoice",
+      "prompt": "معنى الأمر:",
+      "skillIds": [
+        "verbal.imperative-verb"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "طلب وقوع الحدث",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حدث ماض",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: طلب وقوع الحدث.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-1",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "الفاعل:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "منصوب دائمًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-2",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "في «نجح الطالب» الفاعل:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الطالب",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "نجح",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الطالب.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-3",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "علامة رفع المثنى:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الألف",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الياء",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الألف.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-4",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "علامة رفع جمع المذكر:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الواو",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الفتحة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الواو.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-5",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "قد يأتي الفاعل:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضميرًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حرف جر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضميرًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-6",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "نكتشفه بالسؤال:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "من قام بالفعل؟",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "متى وقع؟ فقط",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: من قام بالفعل؟.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-7",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "فعل استوفى فاعله بواو الجماعة:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا يأخذ فاعلًا ظاهرًا آخر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "يحتاج فاعلين",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا يأخذ فاعلًا ظاهرًا آخر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-8",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "في «الطالب كتب» الطالب:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبتدأ",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل متقدم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبتدأ.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-9",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "عامل رفع الفاعل:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الفعل المسند إليه",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الابتداء",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الفعل المسند إليه.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-ex-10",
+      "lessonId": "verbal-subject",
+      "type": "multipleChoice",
+      "prompt": "يأتي الفاعل مع فعل:",
+      "skillIds": [
+        "verbal.subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني للمعلوم",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مبني للمجهول فقط",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني للمعلوم.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-1",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "نائب الفاعل:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مجرور",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-2",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "يأتي بعد فعل:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبني للمجهول",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "أمر فقط",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبني للمجهول.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-3",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "في «كسر الزجاج» للمجهول النائب:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الزجاج",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "كسر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الزجاج.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-4",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "فاعل الجملة المبنية للمجهول:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "محذوف",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مذكور وجوبًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: محذوف.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-5",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "أول الماضي المبني للمجهول:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضموم",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مكسور",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مضموم.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-6",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "ما قبل آخر الماضي للمجهول:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مكسور",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مضموم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مكسور.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-7",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "أول المضارع للمجهول:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضموم",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مفتوح",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مضموم.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-8",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "الاسم بعد المبني للمجهول يسمى:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نائب فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نائب فاعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-9",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "قد يكون نائب الفاعل:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضميرًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حرفًا ناسخًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضميرًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-passive-subject-ex-10",
+      "lessonId": "verbal-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "قبل تعيين النائب نفحص:",
+      "skillIds": [
+        "verbal.passive-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "صيغة الفعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "ترتيب الأبجدية",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: صيغة الفعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-1",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "مع فاعل مؤنث حقيقي متصل:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب التأنيث",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "يمنع التأنيث",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: يجب التأنيث.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-2",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "تاء الماضي في «حضرت»:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تاء تأنيث لا محل لها",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: تاء تأنيث لا محل لها.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-3",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "جمع غير العاقل يعامل كـ:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مفردة مؤنثة",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مثنى مذكر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مفردة مؤنثة.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-4",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "في «حضر الرجال» الفعل:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مذكر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مؤنث",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مذكر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-5",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "الفعل المتقدم على جمع الإناث:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يفرد ويؤنث",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "يجمع وجوبًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: يفرد ويؤنث.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-6",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "حكم التأنيث يتبع:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نوع الفاعل وقربه",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "عدد الحروف",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نوع الفاعل وقربه.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-7",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "تاء المضارعة:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "من بنية الفعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: من بنية الفعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-8",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "قد يجوز التأنيث مع:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "التأنيث المجازي",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "المذكر الحقيقي المتصل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: التأنيث المجازي.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-9",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "في «نمت الأشجار» السبب:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "جمع غير عاقل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل مذكر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: جمع غير عاقل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-gender-agreement-ex-10",
+      "lessonId": "verbal-gender-agreement",
+      "type": "multipleChoice",
+      "prompt": "قبل الحكم نحدد:",
+      "skillIds": [
+        "verbal.gender-agreement"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الفاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "المفعول فقط",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الفاعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-1",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "الأصل في الجملة الفعلية:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "فعل ثم فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل ثم فعل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فعل ثم فاعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-2",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "في «الطالب حضر» الطالب:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبتدأ",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل متقدم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبتدأ.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-3",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "فاعل «حضر» في المثال السابق:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمير مستتر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الطالب لفظًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضمير مستتر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-4",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "قد يفصل بين الفعل والفاعل:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ظرف",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مبتدأ ناسخ",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ظرف.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-5",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "في الحصر بإلا يتأخر:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الفاعل المحصور",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الفعل دائمًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الفاعل المحصور.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-6",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "هل أول اسم فاعل دائمًا؟",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "نعم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-7",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "نكشف الرتبة بعد فحص:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمير الفعل",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "لون النص",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضمير الفعل.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-8",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "في «حضر اليوم الطالب» اليوم:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ظرف",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ظرف.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-9",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "الفاعل مرتبط بـ:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "فعله",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "حرف الجر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: فعله.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-subject-order-ex-10",
+      "lessonId": "verbal-subject-order",
+      "type": "multipleChoice",
+      "prompt": "الرتبة وحدها:",
+      "skillIds": [
+        "verbal.subject-order"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا تكفي للحكم",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "تكفي دائمًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا تكفي للحكم.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-1",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "الفاعل المستتر:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمير مقدر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "اسم مجرور",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضمير مقدر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-2",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "فاعل «أكتب»:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أنا مستتر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "أنت ظاهر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: أنا مستتر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-3",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "فاعل «نكتب»:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "نحن مستتر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "هم متصل",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نحن مستتر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-4",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "فاعل أمر المفرد:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أنت مستتر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "واو الجماعة",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: أنت مستتر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-5",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "في «محمد يكتب» فاعل يكتب:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "هو مستتر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "محمد فاعل متقدم",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: هو مستتر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-6",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "ياء المضارعة:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "حرف وليست ضميرًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "فاعل ظاهر",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: حرف وليست ضميرًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-7",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "إذا وجد فاعل ظاهر للفعل:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا نقدر مستترًا آخر",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "نقدر فاعلين",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا نقدر مستترًا آخر.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-8",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "الاستتار مع المتكلم غالبًا:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "واجب",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "ممنوع",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: واجب.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-9",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "الاستتار مع الغائب قد يكون:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "جائزًا",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "مجرورًا",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: جائزًا.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "verbal-hidden-subject-ex-10",
+      "lessonId": "verbal-hidden-subject",
+      "type": "multipleChoice",
+      "prompt": "نقدر الضمير من:",
+      "skillIds": [
+        "verbal.hidden-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الصيغة والسياق",
+          "feedback": "صحيح؛ يوافق القاعدة والتحليل."
+        },
+        {
+          "id": "b",
+          "text": "الحركة فقط",
+          "feedback": "راجع نوع الفعل والعامل والمسند إليه."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الصيغة والسياق.",
+      "hint": "حدّد نوع الفعل والعامل والفاعل قبل الاختيار.",
+      "referenceIds": [
+        "ref-general-verbal-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-verbal-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية للمرحلة الابتدائية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

@@ -31,6 +31,21 @@ void main() {
     expect(action.phase, LearningPhaseType.workedExamples);
   });
 
+  test('remediation continues to independent practice after examples', () {
+    final action = resolver.resolve(
+      lessons: const [_lesson],
+      progress: [
+        _progress(
+          masteryStatus: LessonMasteryStatus.needsRemediation,
+          currentPhase: LearningPhaseType.independentPractice,
+        ),
+      ],
+    );
+
+    expect(action.type, NextLearningActionType.remediation);
+    expect(action.phase, LearningPhaseType.independentPractice);
+  });
+
   test('opens the next lesson only after prerequisite mastery', () {
     final action = resolver.resolve(
       lessons: const [_lesson, _advancedLesson],
@@ -54,6 +69,7 @@ void main() {
 LessonProgressModel _progress({
   List<LearningPhaseType> completed = const [],
   LessonMasteryStatus masteryStatus = LessonMasteryStatus.learning,
+  LearningPhaseType currentPhase = LearningPhaseType.understand,
 }) => LessonProgressModel(
   lessonId: 'lesson',
   contentVersion: '1',
@@ -66,6 +82,7 @@ LessonProgressModel _progress({
   schemaVersion: 3,
   completedPhases: completed,
   masteryStatus: masteryStatus,
+  currentPhase: currentPhase,
 );
 
 const _lesson = LessonModel(

@@ -45,6 +45,8 @@ void main() {
     }
     lesson.addAll({
       'reviewStatus': 'sourceDocumented',
+      'topicId': 'foundations.parts-of-speech',
+      'order': 1,
       'objectives': ['تمييز أقسام الكلمة.'],
       'sections': _documentedSections,
       'examples': List.generate(4, _documentedExample),
@@ -66,6 +68,27 @@ void main() {
     expect(report.isValid, isTrue, reason: report.errors.toString());
   });
 
+  test('reviewed content requires stable topic identity and order', () {
+    final pack = _validPack();
+    final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
+    lesson.addAll({
+      'reviewStatus': 'inReview',
+      'objectives': ['تمييز أقسام الكلمة.'],
+      'sections': _documentedSections,
+      'examples': List.generate(4, _documentedExample),
+      'exerciseIds': List.filled(10, 'exercise-1'),
+      'masteryExerciseIds': List.filled(5, 'exercise-1'),
+      'referenceIds': ['reference-1'],
+      'prerequisiteIds': <String>[],
+    });
+
+    final report = validator.validate(pack);
+    final codes = report.errors.map((issue) => issue.code);
+
+    expect(codes, contains('missing_topic_id'));
+    expect(codes, contains('invalid_lesson_order'));
+  });
+
   test('rejects cyclic lesson prerequisites', () {
     final pack = _validPack();
     final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
@@ -76,6 +99,31 @@ void main() {
     expect(
       report.errors.map((issue) => issue.code),
       contains('cyclic_prerequisite'),
+    );
+  });
+
+  test('accepts a declared cross-pack prerequisite', () {
+    final pack = _validPack();
+    final manifest = pack['manifest'] as Map<String, dynamic>;
+    final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
+    manifest['externalPrerequisiteIds'] = ['published-lesson'];
+    lesson['prerequisiteIds'] = ['published-lesson'];
+
+    final report = validator.validate(pack);
+
+    expect(report.errors, isEmpty);
+  });
+
+  test('rejects an undeclared cross-pack prerequisite', () {
+    final pack = _validPack();
+    final lesson = (pack['lessons'] as List).first as Map<String, dynamic>;
+    lesson['prerequisiteIds'] = ['missing-lesson'];
+
+    final report = validator.validate(pack);
+
+    expect(
+      report.errors.map((issue) => issue.code),
+      contains('unknown_prerequisite'),
     );
   });
 }
@@ -102,6 +150,8 @@ Map<String, dynamic> _documentedExample(int index) => {
       'grammaticalState': 'مرفوع',
       'grammaticalSign': 'الضمة',
       'signReason': 'مفرد',
+      'grammaticalAgent': 'الابتداء',
+      'sentencePosition': 'طرف الإسناد الأول',
       'explanation': 'مبتدأ مرفوع.',
       'startIndex': 0,
       'endIndex': 5,

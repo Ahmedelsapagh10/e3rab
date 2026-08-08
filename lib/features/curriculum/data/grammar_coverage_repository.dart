@@ -28,8 +28,11 @@ class LocalGrammarCoverageRepository implements GrammarCoverageRepository {
       final item = Map<String, dynamic>.from(value as Map);
       final id = item['id'] as String;
       final topics = List<String>.from(item['topics'] as List);
+      final topicIds = List<String>.from(item['topicIds'] as List);
       if (!ids.add(id) ||
           topics.isEmpty ||
+          topics.length != topicIds.length ||
+          topicIds.any((topicId) => !topicId.contains('.')) ||
           topics.toSet().length != topics.length) {
         throw FormatException('Invalid or duplicate grammar track: $id');
       }
@@ -38,6 +41,7 @@ class LocalGrammarCoverageRepository implements GrammarCoverageRepository {
         title: item['title'] as String,
         order: item['order'] as int,
         topics: topics,
+        topicIds: topicIds,
       );
     }).toList();
     tracks.sort((a, b) => a.order.compareTo(b.order));

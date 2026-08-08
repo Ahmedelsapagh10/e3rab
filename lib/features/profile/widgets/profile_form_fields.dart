@@ -16,7 +16,7 @@ class ProfileFormFields extends StatelessWidget {
           children: [
             _Dropdown<String>(
               label: 'مستواك الآن',
-              helper: 'لا تقلق، سنضبطه بعد اختبار قصير.',
+              helper: 'اختيار اختياري؛ مسار التعلّم يبدأ بالأساس للجميع.',
               value: state.grammarLevel,
               values: const {
                 'beginner': 'أبدأ من الأساس',

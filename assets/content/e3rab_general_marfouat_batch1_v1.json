@@ -1,0 +1,3077 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-marfouat-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.1.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "marfouat-module-v1",
+      "marfouat-kana-inna-unit",
+      "marfouat-kana-name-inna-predicate",
+      "marfouat-kana-name-inna-predicate-ex-1",
+      "marfouat-kana-name-inna-predicate-ex-2",
+      "marfouat-kana-name-inna-predicate-ex-3",
+      "marfouat-kana-name-inna-predicate-ex-4",
+      "marfouat-kana-name-inna-predicate-ex-5",
+      "marfouat-kana-name-inna-predicate-ex-6",
+      "marfouat-kana-name-inna-predicate-ex-7",
+      "marfouat-kana-name-inna-predicate-ex-8",
+      "marfouat-kana-name-inna-predicate-ex-9",
+      "marfouat-kana-name-inna-predicate-ex-10",
+      "marfouat-subject-unit",
+      "marfouat-subject-passive-subject",
+      "marfouat-subject-passive-subject-ex-1",
+      "marfouat-subject-passive-subject-ex-2",
+      "marfouat-subject-passive-subject-ex-3",
+      "marfouat-subject-passive-subject-ex-4",
+      "marfouat-subject-passive-subject-ex-5",
+      "marfouat-subject-passive-subject-ex-6",
+      "marfouat-subject-passive-subject-ex-7",
+      "marfouat-subject-passive-subject-ex-8",
+      "marfouat-subject-passive-subject-ex-9",
+      "marfouat-subject-passive-subject-ex-10",
+      "marfouat-follower-unit",
+      "marfouat-nominative-follower",
+      "marfouat-nominative-follower-ex-1",
+      "marfouat-nominative-follower-ex-2",
+      "marfouat-nominative-follower-ex-3",
+      "marfouat-nominative-follower-ex-4",
+      "marfouat-nominative-follower-ex-5",
+      "marfouat-nominative-follower-ex-6",
+      "marfouat-nominative-follower-ex-7",
+      "marfouat-nominative-follower-ex-8",
+      "marfouat-nominative-follower-ex-9",
+      "marfouat-nominative-follower-ex-10",
+      "marfouat-present-unit",
+      "marfouat-present-nominative-positions",
+      "marfouat-present-nominative-positions-ex-1",
+      "marfouat-present-nominative-positions-ex-2",
+      "marfouat-present-nominative-positions-ex-3",
+      "marfouat-present-nominative-positions-ex-4",
+      "marfouat-present-nominative-positions-ex-5",
+      "marfouat-present-nominative-positions-ex-6",
+      "marfouat-present-nominative-positions-ex-7",
+      "marfouat-present-nominative-positions-ex-8",
+      "marfouat-present-nominative-positions-ex-9",
+      "marfouat-present-nominative-positions-ex-10"
+    ],
+    "externalPrerequisiteIds": [
+      "nawasekh-ma-la-lata"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "marfouat-module-v1",
+      "slug": "general-marfouat-v1",
+      "title": "المرفوعات",
+      "unitIds": [
+        "marfouat-kana-inna-unit",
+        "marfouat-subject-unit",
+        "marfouat-follower-unit",
+        "marfouat-present-unit"
+      ],
+      "order": 6
+    }
+  ],
+  "units": [
+    {
+      "id": "marfouat-kana-inna-unit",
+      "moduleId": "marfouat-module-v1",
+      "slug": "marfouat-kana-inna-unit",
+      "title": "اسم كان وخبر إن",
+      "lessonIds": [
+        "marfouat-kana-name-inna-predicate"
+      ],
+      "order": 510
+    },
+    {
+      "id": "marfouat-subject-unit",
+      "moduleId": "marfouat-module-v1",
+      "slug": "marfouat-subject-unit",
+      "title": "الفاعل ونائب الفاعل",
+      "lessonIds": [
+        "marfouat-subject-passive-subject"
+      ],
+      "order": 520
+    },
+    {
+      "id": "marfouat-follower-unit",
+      "moduleId": "marfouat-module-v1",
+      "slug": "marfouat-follower-unit",
+      "title": "التابع للمرفوع",
+      "lessonIds": [
+        "marfouat-nominative-follower"
+      ],
+      "order": 530
+    },
+    {
+      "id": "marfouat-present-unit",
+      "moduleId": "marfouat-module-v1",
+      "slug": "marfouat-present-unit",
+      "title": "مواضع رفع المضارع",
+      "lessonIds": [
+        "marfouat-present-nominative-positions"
+      ],
+      "order": 540
+    }
+  ],
+  "lessons": [
+    {
+      "id": "marfouat-kana-name-inna-predicate",
+      "topicId": "marfouat.kana-name-inna-predicate",
+      "order": 510,
+      "unitId": "marfouat-kana-inna-unit",
+      "slug": "marfouat-kana-name-inna-predicate",
+      "title": "اسم كان وخبر إن المرفوعان",
+      "shortTitle": "اسم كان وخبر إن",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز اسم كان المرفوع من خبرها المنصوب.",
+        "تمييز خبر إن المرفوع من اسمها المنصوب.",
+        "بناء إعراب يذكر الناسخ والحالة والعلامة."
+      ],
+      "prerequisiteIds": [
+        "nawasekh-ma-la-lata"
+      ],
+      "sections": [
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-1",
+          "type": "opening",
+          "title": "مرفوعان في باب النواسخ",
+          "body": "تغير النواسخ حكم طرفي الجملة الاسمية، لكن يبقى اسم كان وخبر إن من المرفوعات.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-2",
+          "type": "explanation",
+          "title": "اسم كان",
+          "body": "تدخل كان وأخواتها على الجملة الاسمية فترفع المبتدأ ويسمى اسمها وتنصب الخبر ويسمى خبرها.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-3",
+          "type": "explanation",
+          "title": "خبر إن",
+          "body": "تدخل إن وأخواتها فتنصب المبتدأ ويسمى اسمها وترفع الخبر ويسمى خبرها.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-4",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "اسم كان وأخواتها مرفوع، وخبر إن وأخواتها مرفوع، وتختار علامة الرفع بحسب نوع الكلمة.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الناسخ ونوعه، ثم عيّن الطرف الذي أبقاه مرفوعًا، وحدد صورته مفردًا أو مثنى أو جمعًا قبل العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-6",
+          "type": "comparison",
+          "title": "قارن العملين",
+          "body": "كان: اسم مرفوع وخبر منصوب. إن: اسم منصوب وخبر مرفوع. لا تعكس الاسمين بسبب تشابه أصل الجملة.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-7",
+          "type": "warning",
+          "title": "صور الخبر",
+          "body": "قد يكون خبر إن جملة أو شبه جملة في محل رفع، فلا تبحث دائمًا عن ضمة ظاهرة.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "ليس كل اسم بعد كان اسمها، وقد يتقدم الخبر. ابدأ بتحليل المعنى وعلاقة الإسناد لا بالترتيب وحده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "ابحث عن الناسخ، ثم الطرف المرفوع: اسم كان أو خبر إن، وبعد ذلك اختر علامة رفعه.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "marfouat-kana-name-inna-predicate-example-1",
+          "sentence": "كان الجو معتدلا",
+          "fullyDiacritizedSentence": "كَانَ الجَوُّ مُعْتَدِلًا",
+          "parsedWords": [
+            {
+              "word": "كان",
+              "normalizedWord": "كان",
+              "wordType": "فعل ماض ناقص",
+              "grammaticalRole": "ناسخ",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل ماض ناقص.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الجو",
+              "normalizedWord": "الجو",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم كان",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كان",
+              "sentencePosition": "اسم الناسخ",
+              "explanation": "اسم كان مرفوع.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "معتدلا",
+              "normalizedWord": "معتدلا",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "خبر كان",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد صحيح الآخر",
+              "grammaticalAgent": "كان",
+              "sentencePosition": "خبر الناسخ",
+              "explanation": "خبر كان منصوب.",
+              "startIndex": 9,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "رفعت كان اسمها ونصبت خبرها.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-example-2",
+          "sentence": "إن العلم نور",
+          "fullyDiacritizedSentence": "إِنَّ العِلْمَ نُورٌ",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "ناسخ",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف توكيد ونصب.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "العلم",
+              "normalizedWord": "العلم",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم إن",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "إن",
+              "sentencePosition": "اسم الناسخ",
+              "explanation": "اسم إن منصوب.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "نور",
+              "normalizedWord": "نور",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "خبر إن",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "إن",
+              "sentencePosition": "خبر الناسخ",
+              "explanation": "خبر إن مرفوع.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "رفعت إن خبرها بعد نصب اسمها.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-example-3",
+          "sentence": "أصبح الطالب نشيطا",
+          "fullyDiacritizedSentence": "أَصْبَحَ الطَّالِبُ نَشِيطًا",
+          "parsedWords": [
+            {
+              "word": "أصبح",
+              "normalizedWord": "اصبح",
+              "wordType": "فعل ماض ناقص",
+              "grammaticalRole": "ناسخ",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل ناقص.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم أصبح",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "أصبح",
+              "sentencePosition": "اسم الناسخ",
+              "explanation": "اسم أصبح مرفوع.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "نشيطا",
+              "normalizedWord": "نشيطا",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "خبر أصبح",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "أصبح",
+              "sentencePosition": "خبر الناسخ",
+              "explanation": "خبر أصبح منصوب.",
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "أصبح من أخوات كان.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-kana-name-inna-predicate-example-4",
+          "sentence": "لعل النجاح قريب",
+          "fullyDiacritizedSentence": "لَعَلَّ النَّجَاحَ قَرِيبٌ",
+          "parsedWords": [
+            {
+              "word": "لعل",
+              "normalizedWord": "لعل",
+              "wordType": "حرف ناسخ",
+              "grammaticalRole": "ناسخ",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "البناء أصل في الحروف",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "حرف ترج ونصب.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "النجاح",
+              "normalizedWord": "النجاح",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "اسم لعل",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "لعل",
+              "sentencePosition": "اسم الناسخ",
+              "explanation": "اسم لعل منصوب.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "قريب",
+              "normalizedWord": "قريب",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "خبر لعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "لعل",
+              "sentencePosition": "خبر الناسخ",
+              "explanation": "خبر لعل مرفوع.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "لعل من أخوات إن فخبرها مرفوع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "marfouat-kana-name-inna-predicate-ex-1",
+        "marfouat-kana-name-inna-predicate-ex-2",
+        "marfouat-kana-name-inna-predicate-ex-3",
+        "marfouat-kana-name-inna-predicate-ex-4",
+        "marfouat-kana-name-inna-predicate-ex-5",
+        "marfouat-kana-name-inna-predicate-ex-6",
+        "marfouat-kana-name-inna-predicate-ex-7",
+        "marfouat-kana-name-inna-predicate-ex-8",
+        "marfouat-kana-name-inna-predicate-ex-9",
+        "marfouat-kana-name-inna-predicate-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "marfouat-kana-name-inna-predicate-ex-2",
+        "marfouat-kana-name-inna-predicate-ex-4",
+        "marfouat-kana-name-inna-predicate-ex-6",
+        "marfouat-kana-name-inna-predicate-ex-8",
+        "marfouat-kana-name-inna-predicate-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "tags": [
+        "اسم كان",
+        "خبر إن",
+        "المرفوعات"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "marfouat-subject-passive-subject",
+      "topicId": "marfouat.subject-passive-subject",
+      "order": 520,
+      "unitId": "marfouat-subject-unit",
+      "slug": "marfouat-subject-passive-subject",
+      "title": "الفاعل ونائب الفاعل",
+      "shortTitle": "الفاعل ونائبه",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تعرف الفاعل بعد الفعل المبني للمعلوم.",
+        "تعرف نائب الفاعل بعد بناء الفعل للمجهول.",
+        "اختيار علامة الرفع بحسب نوع الاسم."
+      ],
+      "prerequisiteIds": [
+        "marfouat-kana-name-inna-predicate"
+      ],
+      "sections": [
+        {
+          "id": "marfouat-subject-passive-subject-sec-1",
+          "type": "opening",
+          "title": "من فعل ومن وقع عليه الفعل؟",
+          "body": "الفاعل مسند إليه قام بالفعل، ونائب الفاعل مسند إليه حل محله بعد حذف الفاعل وبناء الفعل للمجهول.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-2",
+          "type": "explanation",
+          "title": "الفاعل",
+          "body": "اسم مرفوع يأتي بعد فعل معلوم ويدل على من فعل أو اتصف بالفعل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-3",
+          "type": "explanation",
+          "title": "نائب الفاعل",
+          "body": "اسم مرفوع يأتي بعد فعل مبني للمجهول، وغالبًا كان مفعولًا به قبل حذف الفاعل.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-4",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الفاعل ونائب الفاعل مرفوعان، ويطابق الفعل كل باب في أحكامه، وتتنوع علامة الرفع مع نوع الاسم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "حدد الفعل وصيغته للمعلوم أو المجهول، ثم اسأل عمن أسند إليه، وافحص هل قبله فاعل ظاهر آخر.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-6",
+          "type": "comparison",
+          "title": "تحويل الجملة",
+          "body": "كتب الطالب الدرس: الطالب فاعل والدرس مفعول. كُتب الدرس: حذف الفاعل وصار الدرس نائب فاعل.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-7",
+          "type": "warning",
+          "title": "تقدم الاسم",
+          "body": "الأصل أن الفاعل يتأخر عن فعله؛ فالاسم المتقدم في «الطالب كتب» مبتدأ، والفاعل ضمير مستتر.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "ليس أول اسم بعد الفعل فاعلًا دائمًا؛ قد يكون نائب فاعل إذا تغير بناء الفعل، وقد يكون الفاعل ضميرًا.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "صيغة الفعل تكشف الباب: معلوم ثم فاعل، أو مجهول ثم نائب فاعل، وكلاهما مرفوع.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "marfouat-subject-passive-subject-example-1",
+          "sentence": "كتب الطالب الدرس",
+          "fullyDiacritizedSentence": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+          "parsedWords": [
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "فعل ماض معلوم",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل معلوم.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الفعل كتب",
+              "sentencePosition": "فاعل الجملة",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 4,
+              "endIndex": 10
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الفعل كتب",
+              "sentencePosition": "مفعول به",
+              "explanation": "مفعول به منصوب.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "الفعل معلوم فالطالب فاعله.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-example-2",
+          "sentence": "كتب الدرس",
+          "fullyDiacritizedSentence": "كُتِبَ الدَّرْسُ",
+          "parsedWords": [
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "فعل ماض مبني للمجهول",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "صيغة البناء للمجهول",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "ضم أوله وكسر ما قبل آخره.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "نائب فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الفعل المبني للمجهول كتب",
+              "sentencePosition": "نائب فاعل",
+              "explanation": "نائب فاعل مرفوع.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "حذف الفاعل فناب المفعول عنه.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-example-3",
+          "sentence": "نجح المجتهد",
+          "fullyDiacritizedSentence": "نَجَحَ المُجْتَهِدُ",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض معلوم",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "grammaticalAgent": "البناء أصل في الماضي",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل معلوم.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "المجتهد",
+              "normalizedWord": "المجتهد",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الفعل نجح",
+              "sentencePosition": "فاعل الجملة",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 4,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "المجتهد من اتصف بالنجاح.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-subject-passive-subject-example-4",
+          "sentence": "يكرم الفائز",
+          "fullyDiacritizedSentence": "يُكْرَمُ الفَائِزُ",
+          "parsedWords": [
+            {
+              "word": "يكرم",
+              "normalizedWord": "يكرم",
+              "wordType": "فعل مضارع مبني للمجهول",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرد من الناصب والجازم",
+              "grammaticalAgent": "صيغة البناء للمجهول",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "مضارع مرفوع مبني للمجهول.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الفائز",
+              "normalizedWord": "الفائز",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "نائب فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "الفعل المبني للمجهول يكرم",
+              "sentencePosition": "نائب فاعل",
+              "explanation": "نائب فاعل مرفوع.",
+              "startIndex": 5,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "صيغة المضارع المجهول جعلت الفائز نائب فاعل.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "marfouat-subject-passive-subject-ex-1",
+        "marfouat-subject-passive-subject-ex-2",
+        "marfouat-subject-passive-subject-ex-3",
+        "marfouat-subject-passive-subject-ex-4",
+        "marfouat-subject-passive-subject-ex-5",
+        "marfouat-subject-passive-subject-ex-6",
+        "marfouat-subject-passive-subject-ex-7",
+        "marfouat-subject-passive-subject-ex-8",
+        "marfouat-subject-passive-subject-ex-9",
+        "marfouat-subject-passive-subject-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "marfouat-subject-passive-subject-ex-2",
+        "marfouat-subject-passive-subject-ex-4",
+        "marfouat-subject-passive-subject-ex-6",
+        "marfouat-subject-passive-subject-ex-8",
+        "marfouat-subject-passive-subject-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "tags": [
+        "الفاعل",
+        "نائب الفاعل",
+        "المبني للمجهول"
+      ],
+      "estimatedMinutes": 31,
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "marfouat-nominative-follower",
+      "topicId": "marfouat.nominative-follower",
+      "order": 530,
+      "unitId": "marfouat-follower-unit",
+      "slug": "marfouat-nominative-follower",
+      "title": "التابع للمرفوع",
+      "shortTitle": "التابع المرفوع",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تعرف النعت والعطف والتوكيد والبدل التابعة للمرفوع.",
+        "تحديد المتبوع قبل إعراب التابع.",
+        "تطبيق علامة الرفع المناسبة على التابع."
+      ],
+      "prerequisiteIds": [
+        "marfouat-subject-passive-subject"
+      ],
+      "sections": [
+        {
+          "id": "marfouat-nominative-follower-sec-1",
+          "type": "opening",
+          "title": "لماذا يرتفع التابع؟",
+          "body": "التابع لا يستقل بحكمه بل يشارك متبوعه في الإعراب؛ فإن كان المتبوع مرفوعًا رفع التابع.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-2",
+          "type": "explanation",
+          "title": "النعت",
+          "body": "وصف يتبع منعوته في الإعراب ويبين صفة فيه أو فيما يتعلق به.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-3",
+          "type": "explanation",
+          "title": "العطف والتوكيد والبدل",
+          "body": "المعطوف يتبع بواسطة حرف، والتوكيد يقوي المعنى، والبدل هو المقصود بالحكم غالبًا.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-4",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "النعت والمعطوف والتوكيد والبدل تتبع ما قبلها في الرفع والنصب والجر، وعلامتها بحسب نوعها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "عين الكلمة السابقة وموقعها، ثم حدد العلاقة: وصف أو حرف عطف أو تقوية أو إحلال، وبعدها انقل الحالة لا العلامة آليًا.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-6",
+          "type": "comparison",
+          "title": "الحالة واحدة والعلامة قد تختلف",
+          "body": "جاء أبوك والمعلمون: كلاهما مرفوع، لكن أبوك بالواو للأسماء الخمسة والمعلمون بالواو لجمع المذكر السالم بسببين مختلفين.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-7",
+          "type": "warning",
+          "title": "لا تنقل العلامة",
+          "body": "يتبع التابع المتبوع في الحالة لا بالضرورة في صورة العلامة؛ فقد يختلف نوع الكلمتين.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "ليس كل اسم بعد اسم نعتًا؛ قد يكون خبرًا أو مضافًا إليه. أثبت العلاقة المعنوية قبل تسمية التابع.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "حدد المتبوع وحالته ثم نوع التابع، واجعل التابع مرفوعًا إن كان متبوعه مرفوعًا مع علامته الخاصة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "marfouat-nominative-follower-example-1",
+          "sentence": "حضر الطالب المجتهد",
+          "fullyDiacritizedSentence": "حَضَرَ الطَّالِبُ المُجْتَهِدُ",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "explanation": "فعل ماض.",
+              "startIndex": 0,
+              "endIndex": 3,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 4,
+              "endIndex": 10,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            },
+            {
+              "word": "المجتهد",
+              "normalizedWord": "المجتهد",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "نعت",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تابع لفاعل مرفوع",
+              "explanation": "نعت مرفوع.",
+              "startIndex": 11,
+              "endIndex": 18,
+              "grammaticalAgent": "المتبوع السابق",
+              "sentencePosition": "تابع للاسم السابق في التركيب"
+            }
+          ],
+          "explanation": "تبع النعت الفاعل في الرفع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-example-2",
+          "sentence": "جاء محمد وعلي",
+          "fullyDiacritizedSentence": "جَاءَ مُحَمَّدٌ وَعَلِيٌّ",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "explanation": "فعل ماض.",
+              "startIndex": 0,
+              "endIndex": 3,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "محمد",
+              "normalizedWord": "محمد",
+              "wordType": "اسم علم",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 4,
+              "endIndex": 8,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            },
+            {
+              "word": "وعلي",
+              "normalizedWord": "وعلي",
+              "wordType": "حرف عطف واسم علم",
+              "grammaticalRole": "معطوف",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "معطوف على فاعل مرفوع",
+              "explanation": "الواو عاطفة وعلي معطوف مرفوع.",
+              "startIndex": 9,
+              "endIndex": 13,
+              "grammaticalAgent": "المتبوع السابق",
+              "sentencePosition": "تابع للاسم السابق في التركيب"
+            }
+          ],
+          "explanation": "رفع المعطوف تبعًا للفاعل.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-example-3",
+          "sentence": "نجح الطالب نفسه",
+          "fullyDiacritizedSentence": "نَجَحَ الطَّالِبُ نَفْسُهُ",
+          "parsedWords": [
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "explanation": "فعل ماض.",
+              "startIndex": 0,
+              "endIndex": 3,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 4,
+              "endIndex": 10,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            },
+            {
+              "word": "نفسه",
+              "normalizedWord": "نفسه",
+              "wordType": "اسم توكيد",
+              "grammaticalRole": "توكيد معنوي",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تابع لفاعل مرفوع",
+              "explanation": "توكيد مرفوع والهاء مضاف إليه.",
+              "startIndex": 11,
+              "endIndex": 15,
+              "grammaticalAgent": "المتبوع السابق",
+              "sentencePosition": "تابع للاسم السابق في التركيب"
+            }
+          ],
+          "explanation": "نفسه أكد الطالب وتبعه في الرفع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-nominative-follower-example-4",
+          "sentence": "حضر أخوك خالد",
+          "fullyDiacritizedSentence": "حَضَرَ أَخُوكَ خَالِدٌ",
+          "parsedWords": [
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "فعل ماض",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "فعل ماض",
+              "explanation": "فعل ماض.",
+              "startIndex": 0,
+              "endIndex": 3,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "أخوك",
+              "normalizedWord": "اخوك",
+              "wordType": "اسم من الأسماء الخمسة",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الواو نيابة عن الضمة",
+              "signReason": "من الأسماء الخمسة",
+              "explanation": "فاعل مرفوع بالواو.",
+              "startIndex": 4,
+              "endIndex": 8,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            },
+            {
+              "word": "خالد",
+              "normalizedWord": "خالد",
+              "wordType": "اسم علم",
+              "grammaticalRole": "بدل مطابق",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تابع لفاعل مرفوع وهو اسم مفرد",
+              "explanation": "بدل مرفوع بالضمة.",
+              "startIndex": 9,
+              "endIndex": 13,
+              "grammaticalAgent": "المتبوع السابق",
+              "sentencePosition": "تابع للاسم السابق في التركيب"
+            }
+          ],
+          "explanation": "اتحدت الحالة واختلفت علامة الرفع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "marfouat-nominative-follower-ex-1",
+        "marfouat-nominative-follower-ex-2",
+        "marfouat-nominative-follower-ex-3",
+        "marfouat-nominative-follower-ex-4",
+        "marfouat-nominative-follower-ex-5",
+        "marfouat-nominative-follower-ex-6",
+        "marfouat-nominative-follower-ex-7",
+        "marfouat-nominative-follower-ex-8",
+        "marfouat-nominative-follower-ex-9",
+        "marfouat-nominative-follower-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "marfouat-nominative-follower-ex-2",
+        "marfouat-nominative-follower-ex-4",
+        "marfouat-nominative-follower-ex-6",
+        "marfouat-nominative-follower-ex-8",
+        "marfouat-nominative-follower-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "tags": [
+        "النعت",
+        "العطف",
+        "التوكيد",
+        "البدل"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "marfouat-present-nominative-positions",
+      "topicId": "marfouat.present-nominative-positions",
+      "order": 540,
+      "unitId": "marfouat-present-unit",
+      "slug": "marfouat-present-nominative-positions",
+      "title": "مواضع رفع الفعل المضارع",
+      "shortTitle": "رفع المضارع",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تحديد رفع المضارع عند تجرده من الناصب والجازم.",
+        "تمييز أدوات لا تغير رفعه مثل السين وسوف ولا النافية.",
+        "اختيار الضمة أو ثبوت النون أو العلامة المقدرة."
+      ],
+      "prerequisiteIds": [
+        "marfouat-nominative-follower"
+      ],
+      "sections": [
+        {
+          "id": "marfouat-present-nominative-positions-sec-1",
+          "type": "opening",
+          "title": "الأصل في المضارع",
+          "body": "الأصل في المضارع المعرب الرفع حتى يدخل عليه ناصب أو جازم.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-2",
+          "type": "explanation",
+          "title": "التجرد من العامل",
+          "body": "إذا لم تسبق المضارع أداة نصب أو جزم بقي مرفوعًا، سواء بدأ الجملة أو جاء خبرًا أو صلة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-3",
+          "type": "details",
+          "title": "أدوات لا تنصب ولا تجزم",
+          "body": "السين وسوف وحروف الاستفهام ولا النافية غير الجازمة قد تسبق المضارع ولا تخرجه من الرفع.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-4",
+          "type": "rule",
+          "title": "علامات الرفع",
+          "body": "يرفع الصحيح بالضمة الظاهرة، والمعتل بضمة مقدرة، والأفعال الخمسة بثبوت النون.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-5",
+          "type": "detection",
+          "title": "خطوات الاكتشاف",
+          "body": "تأكد أن الفعل مضارع معرب، وافحص ما قبله بحثًا عن ناصب أو جازم، ثم حدد نوع آخره وصيغته لاختيار العلامة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-6",
+          "type": "comparison",
+          "title": "لا النافية ولا الناهية",
+          "body": "لا يهملُ الطالب: لا نافية والفعل مرفوع. لا تهملْ: لا ناهية والفعل مجزوم.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-7",
+          "type": "warning",
+          "title": "المضارع المبني",
+          "body": "المضارع المتصل بنون النسوة أو نون التوكيد يبنى، فلا نصفه بالرفع اللفظي وإن كان في موقع لا ناصب فيه ولا جازم.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "وجود حرف قبل الفعل لا يعني وجود عامل؛ صنف الأداة، ولا تجعل السين أو سوف أو لا النافية ناصبة.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "مضارع معرب بلا ناصب ولا جازم يرفع، وعلامته تتبع الصحيح والمعتل والأفعال الخمسة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "marfouat-present-nominative-positions-example-1",
+          "sentence": "يقرأ الطفل",
+          "fullyDiacritizedSentence": "يَقْرَأُ الطِّفْلُ",
+          "parsedWords": [
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرا",
+              "wordType": "فعل مضارع صحيح الآخر",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرد من الناصب والجازم",
+              "explanation": "مضارع مرفوع.",
+              "startIndex": 0,
+              "endIndex": 4,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "الطفل",
+              "normalizedWord": "الطفل",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 5,
+              "endIndex": 10,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            }
+          ],
+          "explanation": "بدأ المضارع بلا عامل فرفع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-example-2",
+          "sentence": "سوف ينجح المجتهد",
+          "fullyDiacritizedSentence": "سَوْفَ يَنْجَحُ المُجْتَهِدُ",
+          "parsedWords": [
+            {
+              "word": "سوف",
+              "normalizedWord": "سوف",
+              "wordType": "حرف استقبال",
+              "grammaticalRole": "دال على الاستقبال",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "الحروف مبنية",
+              "explanation": "لا ينصب ولا يجزم.",
+              "startIndex": 0,
+              "endIndex": 3,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع دال على الاستقبال في الجملة"
+            },
+            {
+              "word": "ينجح",
+              "normalizedWord": "ينجح",
+              "wordType": "فعل مضارع صحيح الآخر",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "تجرد من الناصب والجازم",
+              "explanation": "مضارع مرفوع بعد سوف.",
+              "startIndex": 4,
+              "endIndex": 8,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "المجتهد",
+              "normalizedWord": "المجتهد",
+              "wordType": "اسم مشتق",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 9,
+              "endIndex": 16,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            }
+          ],
+          "explanation": "سوف للاستقبال ولا تغير الرفع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-example-3",
+          "sentence": "لا يهمل الطالب",
+          "fullyDiacritizedSentence": "لَا يُهْمِلُ الطَّالِبُ",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف نفي",
+              "grammaticalRole": "نافية غير عاملة",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "explanation": "لا نافية غير جازمة.",
+              "startIndex": 0,
+              "endIndex": 2,
+              "grammaticalAgent": "البناء أصل في هذا النوع",
+              "sentencePosition": "موقع نافية غير عاملة في الجملة"
+            },
+            {
+              "word": "يهمل",
+              "normalizedWord": "يهمل",
+              "wordType": "فعل مضارع صحيح الآخر",
+              "grammaticalRole": "فعل الجملة",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "لم يسبقه ناصب أو جازم",
+              "explanation": "مضارع مرفوع.",
+              "startIndex": 3,
+              "endIndex": 7,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "موقع فعل الجملة في الجملة"
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "explanation": "فاعل مرفوع.",
+              "startIndex": 8,
+              "endIndex": 14,
+              "grammaticalAgent": "الفعل السابق",
+              "sentencePosition": "المسند إليه في الجملة الفعلية"
+            }
+          ],
+          "explanation": "لا النافية لم تجزم المضارع.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        },
+        {
+          "id": "marfouat-present-nominative-positions-example-4",
+          "sentence": "الطالبان يكتبان",
+          "fullyDiacritizedSentence": "الطَّالِبَانِ يَكْتُبَانِ",
+          "parsedWords": [
+            {
+              "word": "الطالبان",
+              "normalizedWord": "الطالبان",
+              "wordType": "اسم مثنى",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف نيابة عن الضمة",
+              "signReason": "لأنه مثنى",
+              "explanation": "مبتدأ مرفوع.",
+              "startIndex": 0,
+              "endIndex": 8,
+              "grammaticalAgent": "الابتداء",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية"
+            },
+            {
+              "word": "يكتبان",
+              "normalizedWord": "يكتبان",
+              "wordType": "فعل مضارع من الأفعال الخمسة",
+              "grammaticalRole": "فعل جملة الخبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "ثبوت النون نيابة عن الضمة",
+              "signReason": "تجرد من الناصب والجازم",
+              "explanation": "مضارع مرفوع وألف الاثنين فاعل.",
+              "startIndex": 9,
+              "endIndex": 15,
+              "grammaticalAgent": "العامل النحوي الذي يقتضيه الموقع",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية"
+            }
+          ],
+          "explanation": "رفعت الأفعال الخمسة بثبوت النون.",
+          "referenceIds": [
+            "ref-general-marfouat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "marfouat-present-nominative-positions-ex-1",
+        "marfouat-present-nominative-positions-ex-2",
+        "marfouat-present-nominative-positions-ex-3",
+        "marfouat-present-nominative-positions-ex-4",
+        "marfouat-present-nominative-positions-ex-5",
+        "marfouat-present-nominative-positions-ex-6",
+        "marfouat-present-nominative-positions-ex-7",
+        "marfouat-present-nominative-positions-ex-8",
+        "marfouat-present-nominative-positions-ex-9",
+        "marfouat-present-nominative-positions-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "marfouat-present-nominative-positions-ex-2",
+        "marfouat-present-nominative-positions-ex-4",
+        "marfouat-present-nominative-positions-ex-6",
+        "marfouat-present-nominative-positions-ex-8",
+        "marfouat-present-nominative-positions-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "tags": [
+        "الفعل المضارع",
+        "الرفع",
+        "ثبوت النون",
+        "الإعراب المقدر"
+      ],
+      "estimatedMinutes": 30,
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-1",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "ما المرفوع بعد «كان»؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسمها",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "خبرها",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: اسمها.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-2",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "ما إعراب «الجو» في «كان الجو معتدلًا»؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم كان مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "خبر كان منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: اسم كان مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-3",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "ما المرفوع بعد «إن»؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبرها",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسمها",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: خبرها.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-4",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "ما إعراب «نور» في «إن العلم نور»؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر إن مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسم إن منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: خبر إن مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-5",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "أي ناسخ يرفع الاسم وينصب الخبر؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "كان وأخواتها",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "إن وأخواتها",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: كان وأخواتها.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-6",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "أي ناسخ ينصب الاسم ويرفع الخبر؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وأخواتها",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "كان وأخواتها",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: إن وأخواتها.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-7",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "ما علامة رفع اسم كان المثنى؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الألف",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الضمة الظاهرة",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الألف.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-8",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "multipleChoice",
+      "prompt": "ما علامة رفع خبر إن إذا كان جمع مذكر سالمًا؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الواو",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الياء",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الواو.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-9",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "errorCorrection",
+      "prompt": "صحح: «خبر إن منصوب».",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر إن مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "العبارة صحيحة",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: خبر إن مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-kana-name-inna-predicate-ex-10",
+      "lessonId": "marfouat-kana-name-inna-predicate",
+      "type": "comparison",
+      "prompt": "أي تحليل صحيح لـ«قريب» في «لعل النجاح قريب»؟",
+      "skillIds": [
+        "marfouat-kana-inna"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "خبر لعل مرفوع بالضمة",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "اسم لعل منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: خبر لعل مرفوع بالضمة.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-1",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "ما حكم الفاعل؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-2",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "ما حكم نائب الفاعل؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مجرور",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-3",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "من الفاعل في «كتب الطالب الدرس»؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الطالب",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الدرس",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الطالب.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-4",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "ما موقع «الدرس» في «كُتب الدرس»؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نائب فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مفعول به",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نائب فاعل.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-5",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "كيف نميز نائب الفاعل؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يسبقه فعل مبني للمجهول",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "يسبقه حرف جر",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: يسبقه فعل مبني للمجهول.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-6",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "ما الذي حذف عند بناء الجملة للمجهول؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الفاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نائب الفاعل",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الفاعل.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-7",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "ما علامة رفع «المعلمون» فاعلًا؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "الواو",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الياء",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الواو.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-8",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "multipleChoice",
+      "prompt": "في «الطالب كتب» ما موقع الطالب؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مبتدأ",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "فاعل متقدم",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مبتدأ.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-9",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "errorCorrection",
+      "prompt": "صحح: «كل اسم بعد فعل مفعول به».",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "قد يكون فاعلًا أو نائب فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "العبارة صحيحة",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: قد يكون فاعلًا أو نائب فاعل.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-subject-passive-subject-ex-10",
+      "lessonId": "marfouat-subject-passive-subject",
+      "type": "comparison",
+      "prompt": "أي تحليل صحيح لـ«الفائز» في «يُكرم الفائز»؟",
+      "skillIds": [
+        "marfouat-subject"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نائب فاعل مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مفعول به منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نائب فاعل مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-1",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "ما حكم النعت بعد اسم مرفوع؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "منصوب دائمًا",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-2",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "ما موقع «المجتهد» في «حضر الطالب المجتهد»؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعت مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مفعول به",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نعت مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-3",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "ما حكم المعطوف على مرفوع؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مجرور",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-4",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "ما موقع «علي» في «جاء محمد وعلي»؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "معطوف مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "فاعل منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: معطوف مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-5",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "أي لفظ يستعمل للتوكيد المعنوي؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "نفس",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "إلى",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: نفس.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-6",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "ما موقع «نفسه» في «نجح الطالب نفسه»؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "توكيد مرفوع",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حال منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: توكيد مرفوع.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-7",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "ما وظيفة البدل؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "تابع هو المقصود بالحكم غالبًا",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حرف يجر الاسم",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: تابع هو المقصود بالحكم غالبًا.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-8",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "multipleChoice",
+      "prompt": "هل يلزم اتحاد علامة التابع والمتبوع؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا؛ يتحدان في الحالة وقد تختلف العلامة",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نعم دائمًا",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا؛ يتحدان في الحالة وقد تختلف العلامة.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-9",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "errorCorrection",
+      "prompt": "صحح: «كل اسم بعد اسم نعت».",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يحدد نوع العلاقة قبل الحكم",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "العبارة صحيحة",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: يحدد نوع العلاقة قبل الحكم.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-nominative-follower-ex-10",
+      "lessonId": "marfouat-nominative-follower",
+      "type": "comparison",
+      "prompt": "أي تحليل صحيح لـ«خالد» في «حضر أخوك خالد»؟",
+      "skillIds": [
+        "marfouat-follower"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "بدل مرفوع بالضمة",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مضاف إليه مجرور",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: بدل مرفوع بالضمة.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-1",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "متى يرفع المضارع المعرب؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا تجرد من الناصب والجازم",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "إذا سبقته لن",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: إذا تجرد من الناصب والجازم.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-2",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "ما علامة رفع «يقرأ»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمة الظاهرة",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "حذف النون",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الضمة الظاهرة.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-3",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "هل «سوف» تنصب المضارع؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا، يبقى مرفوعًا",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "نعم، تنصبه",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا، يبقى مرفوعًا.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-4",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "ما إعراب «ينجح» بعد «سوف»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضارع مرفوع بالضمة",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مضارع منصوب",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مضارع مرفوع بالضمة.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-5",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "ما عمل «لا» النافية في «لا يهمل الطالب»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا تنصب ولا تجزم",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "تجزم المضارع",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا تنصب ولا تجزم.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-6",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "ما علامة رفع «يكتبان»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ثبوت النون",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "الألف",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ثبوت النون.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-7",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "ما علامة رفع «يسعى»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "ضمة مقدرة",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "فتحة ظاهرة",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: ضمة مقدرة.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-8",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين «لا يهملُ» و«لا تهملْ»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الأولى نافية مرفوع بعدها والثانية ناهية مجزوم بعدها",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "كلاهما مجزوم",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: الأولى نافية مرفوع بعدها والثانية ناهية مجزوم بعدها.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-9",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "errorCorrection",
+      "prompt": "صحح: «كل حرف قبل المضارع يغير إعرابه».",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا بد من تحديد عمل الحرف",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "العبارة صحيحة",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: لا بد من تحديد عمل الحرف.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "marfouat-present-nominative-positions-ex-10",
+      "lessonId": "marfouat-present-nominative-positions",
+      "type": "comparison",
+      "prompt": "أي تحليل صحيح لـ«يكتبان» في «الطالبان يكتبان»؟",
+      "skillIds": [
+        "marfouat-present"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "مضارع مرفوع بثبوت النون وألف الاثنين فاعل",
+          "feedback": "صحيح؛ يوافق القاعدة والسياق."
+        },
+        {
+          "id": "b",
+          "text": "مضارع مرفوع بالألف",
+          "feedback": "راجع العامل والموقع والحالة قبل اختيار العلامة."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الإجابة الصحيحة: مضارع مرفوع بثبوت النون وألف الاثنين فاعل.",
+      "hint": "ابدأ بتحديد نوع الكلمة والعامل.",
+      "referenceIds": [
+        "ref-general-marfouat-v1"
+      ],
+      "contentVersion": "1.1.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-marfouat-v1",
+      "title": "النحو الواضح في قواعد اللغة العربية",
+      "publisher": "دار المعارف",
+      "url": "https://www.hindawi.org/books/92463613/",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

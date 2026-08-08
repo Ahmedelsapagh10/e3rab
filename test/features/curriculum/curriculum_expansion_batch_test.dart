@@ -58,7 +58,7 @@ void main() {
         () => throw StateError('Expected a valid content catalog.'),
       );
 
-      expect(catalog.packs.map((pack) => pack.packId).toSet(), hasLength(3));
+      expect(catalog.packs.map((pack) => pack.packId), contains(batchPackId));
       final batch = catalog.packs.singleWhere(
         (pack) => pack.packId == batchPackId,
       );
@@ -106,6 +106,16 @@ void main() {
     expect(lesson['reviewedBy'], isNull);
     expect(lesson['reviewedAt'], isNull);
     expect((lesson['examples'] as List), hasLength(4));
+    expect(
+      (lesson['examples'] as List).every(
+        (example) => ((example as Map)['parsedWords'] as List).every(
+          (word) =>
+              ((word as Map)['grammaticalAgent'] as String).isNotEmpty &&
+              (word['sentencePosition'] as String).isNotEmpty,
+        ),
+      ),
+      isTrue,
+    );
     expect((lesson['masteryExerciseIds'] as List), hasLength(5));
     expect(lesson['topicId'], 'majzoumat.answer-to-request');
     expect(

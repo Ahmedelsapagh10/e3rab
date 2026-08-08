@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../core/design_system/e3rab_design_tokens.dart';
+import '../../../core/search/arabic_search_normalizer.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 import '../cubit/learning_cubit.dart';
 import '../cubit/learning_state.dart';
@@ -12,19 +13,29 @@ class CurriculumTrackList extends StatelessWidget {
     super.key,
     required this.state,
     required this.query,
+    this.showEmptyMessage = true,
   });
 
   final LearningState state;
   final String query;
+  final bool showEmptyMessage;
 
   @override
   Widget build(BuildContext context) {
+    final normalizedQuery = ArabicSearchNormalizer.normalize(query);
     final tracks = state.coverageTracks.where((track) {
-      return query.isEmpty ||
-          track.title.toLowerCase().contains(query) ||
-          track.topics.any((topic) => topic.toLowerCase().contains(query));
+      return normalizedQuery.isEmpty ||
+          ArabicSearchNormalizer.normalize(
+            track.title,
+          ).contains(normalizedQuery) ||
+          track.topics.any(
+            (topic) => ArabicSearchNormalizer.normalize(
+              topic,
+            ).contains(normalizedQuery),
+          );
     });
     if (tracks.isEmpty) {
+      if (!showEmptyMessage) return const SizedBox.shrink();
       return const Padding(
         padding: EdgeInsets.symmetric(vertical: E3rabSpacing.xxLarge),
         child: Center(child: Text('لا توجد نتيجة مطابقة في أبواب النحو.')),
@@ -45,13 +56,20 @@ class CurriculumTrackList extends StatelessWidget {
               ),
               subtitle: Text('${track.topics.length} موضوعات'),
               children: [
-                for (final topic in track.topics)
-                  if (query.isEmpty ||
-                      track.title.toLowerCase().contains(query) ||
-                      topic.toLowerCase().contains(query))
+                for (final entry in track.topics.indexed)
+                  if (normalizedQuery.isEmpty ||
+                      ArabicSearchNormalizer.normalize(
+                        track.title,
+                      ).contains(normalizedQuery) ||
+                      ArabicSearchNormalizer.normalize(
+                        entry.$2,
+                      ).contains(normalizedQuery))
                     _TopicRow(
-                      topic: topic,
-                      lesson: _lessonFor(topic, state.lessons),
+                      topic: entry.$2,
+                      lesson: _lessonFor(
+                        track.topicIds[entry.$1],
+                        state.lessons,
+                      ),
                     ),
               ],
             ),
@@ -60,19 +78,8 @@ class CurriculumTrackList extends StatelessWidget {
     );
   }
 
-  LessonModel? _lessonFor(String topic, List<LessonModel> lessons) {
-    const aliases = {
-      'الاسم والفعل والحرف وعلاماتها': 'أقسام الكلمة',
-      'الجمل التي لها محل': 'الجمل التي لها محل من الإعراب',
-    };
-    final target = aliases[topic] ?? topic;
-    return lessons
-        .where(
-          (lesson) =>
-              lesson.title.contains(target) || target.contains(lesson.title),
-        )
-        .firstOrNull;
-  }
+  LessonModel? _lessonFor(String topicId, List<LessonModel> lessons) =>
+      lessons.where((lesson) => lesson.topicId == topicId).firstOrNull;
 }
 
 class _TopicRow extends StatelessWidget {

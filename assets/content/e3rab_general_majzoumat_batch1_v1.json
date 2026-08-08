@@ -1,0 +1,3919 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-majzoumat-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "majzoumat-module-v1",
+      "majzoumat-single-jussive-unit",
+      "majzoumat-single-jussive",
+      "majzoumat-single-jussive-ex-1",
+      "majzoumat-single-jussive-ex-2",
+      "majzoumat-single-jussive-ex-3",
+      "majzoumat-single-jussive-ex-4",
+      "majzoumat-single-jussive-ex-5",
+      "majzoumat-single-jussive-ex-6",
+      "majzoumat-single-jussive-ex-7",
+      "majzoumat-single-jussive-ex-8",
+      "majzoumat-single-jussive-ex-9",
+      "majzoumat-single-jussive-ex-10",
+      "majzoumat-double-jussive-unit",
+      "majzoumat-double-jussive",
+      "majzoumat-double-jussive-ex-1",
+      "majzoumat-double-jussive-ex-2",
+      "majzoumat-double-jussive-ex-3",
+      "majzoumat-double-jussive-ex-4",
+      "majzoumat-double-jussive-ex-5",
+      "majzoumat-double-jussive-ex-6",
+      "majzoumat-double-jussive-ex-7",
+      "majzoumat-double-jussive-ex-8",
+      "majzoumat-double-jussive-ex-9",
+      "majzoumat-double-jussive-ex-10",
+      "majzoumat-conditional-tools-unit",
+      "majzoumat-conditional-tools",
+      "majzoumat-conditional-tools-ex-1",
+      "majzoumat-conditional-tools-ex-2",
+      "majzoumat-conditional-tools-ex-3",
+      "majzoumat-conditional-tools-ex-4",
+      "majzoumat-conditional-tools-ex-5",
+      "majzoumat-conditional-tools-ex-6",
+      "majzoumat-conditional-tools-ex-7",
+      "majzoumat-conditional-tools-ex-8",
+      "majzoumat-conditional-tools-ex-9",
+      "majzoumat-conditional-tools-ex-10",
+      "majzoumat-conditional-answer-fa-unit",
+      "majzoumat-conditional-answer-fa",
+      "majzoumat-conditional-answer-fa-ex-1",
+      "majzoumat-conditional-answer-fa-ex-2",
+      "majzoumat-conditional-answer-fa-ex-3",
+      "majzoumat-conditional-answer-fa-ex-4",
+      "majzoumat-conditional-answer-fa-ex-5",
+      "majzoumat-conditional-answer-fa-ex-6",
+      "majzoumat-conditional-answer-fa-ex-7",
+      "majzoumat-conditional-answer-fa-ex-8",
+      "majzoumat-conditional-answer-fa-ex-9",
+      "majzoumat-conditional-answer-fa-ex-10",
+      "majzoumat-condition-oath-unit",
+      "majzoumat-condition-oath",
+      "majzoumat-condition-oath-ex-1",
+      "majzoumat-condition-oath-ex-2",
+      "majzoumat-condition-oath-ex-3",
+      "majzoumat-condition-oath-ex-4",
+      "majzoumat-condition-oath-ex-5",
+      "majzoumat-condition-oath-ex-6",
+      "majzoumat-condition-oath-ex-7",
+      "majzoumat-condition-oath-ex-8",
+      "majzoumat-condition-oath-ex-9",
+      "majzoumat-condition-oath-ex-10"
+    ],
+    "externalPrerequisiteIds": [
+      "majrourat-genitive-types",
+      "jussive-answer-request-v1"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview"
+  },
+  "modules": [
+    {
+      "id": "majzoumat-module-v1",
+      "slug": "general-majzoumat-v1",
+      "title": "الجزم والشرط",
+      "unitIds": [
+        "majzoumat-single-jussive-unit",
+        "majzoumat-double-jussive-unit",
+        "majzoumat-conditional-tools-unit",
+        "majzoumat-conditional-answer-fa-unit",
+        "majzoumat-condition-oath-unit"
+      ],
+      "order": 9
+    }
+  ],
+  "units": [
+    {
+      "id": "majzoumat-single-jussive-unit",
+      "moduleId": "majzoumat-module-v1",
+      "slug": "majzoumat-single-jussive-unit",
+      "title": "جوازم الفعل المضارع الواحد",
+      "lessonIds": [
+        "majzoumat-single-jussive"
+      ],
+      "order": 800
+    },
+    {
+      "id": "majzoumat-double-jussive-unit",
+      "moduleId": "majzoumat-module-v1",
+      "slug": "majzoumat-double-jussive-unit",
+      "title": "جوازم فعلين وبناء الشرط",
+      "lessonIds": [
+        "majzoumat-double-jussive"
+      ],
+      "order": 810
+    },
+    {
+      "id": "majzoumat-conditional-tools-unit",
+      "moduleId": "majzoumat-module-v1",
+      "slug": "majzoumat-conditional-tools-unit",
+      "title": "أدوات الشرط ومعانيها ومواقعها",
+      "lessonIds": [
+        "majzoumat-conditional-tools"
+      ],
+      "order": 820
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-unit",
+      "moduleId": "majzoumat-module-v1",
+      "slug": "majzoumat-conditional-answer-fa-unit",
+      "title": "اقتران جواب الشرط بالفاء",
+      "lessonIds": [
+        "majzoumat-conditional-answer-fa"
+      ],
+      "order": 830
+    },
+    {
+      "id": "majzoumat-condition-oath-unit",
+      "moduleId": "majzoumat-module-v1",
+      "slug": "majzoumat-condition-oath-unit",
+      "title": "اجتماع الشرط والقسم",
+      "lessonIds": [
+        "majzoumat-condition-oath"
+      ],
+      "order": 850
+    }
+  ],
+  "lessons": [
+    {
+      "id": "majzoumat-single-jussive",
+      "topicId": "majzoumat.single-jussive",
+      "order": 800,
+      "unitId": "majzoumat-single-jussive-unit",
+      "slug": "majzoumat-single-jussive",
+      "title": "جوازم الفعل المضارع الواحد",
+      "shortTitle": "جوازم الفعل المضارع الواحد",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم القاعدة ومعناها.",
+        "اكتشاف العامل وبناء الإعراب.",
+        "تجنب الأخطاء الشائعة."
+      ],
+      "prerequisiteIds": [
+        "majrourat-genitive-types"
+      ],
+      "sections": [
+        {
+          "id": "majzoumat-single-jussive-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد هذا الدرس لفهم جوازم الفعل المضارع الواحد.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "تتغير العلامة بحسب نوع الفعل وصيغته مع بقاء العامل أساس الحكم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-5",
+          "type": "detection",
+          "title": "كيف تكتشف؟",
+          "body": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن العامل والحالة والعلامة في الأمثلة قبل إصدار الحكم.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد تكون العلامة حذفًا أو سكونًا أو تكون الجملة في محل جزم.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا النافية لا تجزم، ولام التعليل تنصب بأن مضمرة؛ فلا تحكم من شكل الأداة وحده.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون. حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majzoumat-single-jussive-example-1",
+          "sentence": "لم يكتب",
+          "fullyDiacritizedSentence": "لم يكتب",
+          "parsedWords": [
+            {
+              "word": "لم",
+              "normalizedWord": "لم",
+              "wordType": "حرف جزم",
+              "grammaticalRole": "حرف جزم",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "حرف جزم مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يكتب",
+              "normalizedWord": "يكتب",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل مضارع",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل مضارع مجزوم السكون الظاهر.",
+              "startIndex": 3,
+              "endIndex": 7
+            }
+          ],
+          "explanation": "جزم لم المضارع الصحيح بالسكون.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-example-2",
+          "sentence": "لا تهمل",
+          "fullyDiacritizedSentence": "لا تهمل",
+          "parsedWords": [
+            {
+              "word": "لا",
+              "normalizedWord": "لا",
+              "wordType": "حرف نهي وجزم",
+              "grammaticalRole": "لا الناهية",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "لا الناهية مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تهمل",
+              "normalizedWord": "تهمل",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل النهي",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل النهي مجزوم السكون الظاهر.",
+              "startIndex": 3,
+              "endIndex": 7
+            }
+          ],
+          "explanation": "لا الناهية تطلب الكف وتجزم.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-example-3",
+          "sentence": "لما يصل",
+          "fullyDiacritizedSentence": "لما يصل",
+          "parsedWords": [
+            {
+              "word": "لما",
+              "normalizedWord": "لما",
+              "wordType": "حرف نفي وجزم",
+              "grammaticalRole": "حرف جزم",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "الحروف مبنية",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "حرف جزم مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "يصل",
+              "normalizedWord": "يصل",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل مضارع",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل مضارع مجزوم السكون الظاهر.",
+              "startIndex": 4,
+              "endIndex": 7
+            }
+          ],
+          "explanation": "لما تنفي وقوع الفعل إلى زمن الكلام.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-single-jussive-example-4",
+          "sentence": "ليكتب الطالب",
+          "fullyDiacritizedSentence": "ليكتب الطالب",
+          "parsedWords": [
+            {
+              "word": "ليكتب",
+              "normalizedWord": "ليكتب",
+              "wordType": "لام أمر وفعل مضارع",
+              "grammaticalRole": "فعل مضارع بعد لام الأمر",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل مضارع بعد لام الأمر مجزوم السكون الظاهر.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "الطالب",
+              "normalizedWord": "الطالب",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة الظاهرة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فاعل مرفوع الضمة الظاهرة.",
+              "startIndex": 6,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "لام الأمر جازمة والطالب فاعل.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majzoumat-single-jussive-ex-1",
+        "majzoumat-single-jussive-ex-2",
+        "majzoumat-single-jussive-ex-3",
+        "majzoumat-single-jussive-ex-4",
+        "majzoumat-single-jussive-ex-5",
+        "majzoumat-single-jussive-ex-6",
+        "majzoumat-single-jussive-ex-7",
+        "majzoumat-single-jussive-ex-8",
+        "majzoumat-single-jussive-ex-9",
+        "majzoumat-single-jussive-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majzoumat-single-jussive-ex-2",
+        "majzoumat-single-jussive-ex-4",
+        "majzoumat-single-jussive-ex-6",
+        "majzoumat-single-jussive-ex-8",
+        "majzoumat-single-jussive-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "tags": [
+        "الجزم",
+        "الشرط",
+        "جوازم الفعل المضارع الواحد"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majzoumat-double-jussive",
+      "topicId": "majzoumat.double-jussive",
+      "order": 810,
+      "unitId": "majzoumat-double-jussive-unit",
+      "slug": "majzoumat-double-jussive",
+      "title": "جوازم فعلين وبناء الشرط",
+      "shortTitle": "جوازم فعلين وبناء الشرط",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم القاعدة ومعناها.",
+        "اكتشاف العامل وبناء الإعراب.",
+        "تجنب الأخطاء الشائعة."
+      ],
+      "prerequisiteIds": [
+        "majzoumat-single-jussive"
+      ],
+      "sections": [
+        {
+          "id": "majzoumat-double-jussive-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد هذا الدرس لفهم جوازم فعلين وبناء الشرط.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "تتغير العلامة بحسب نوع الفعل وصيغته مع بقاء العامل أساس الحكم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-5",
+          "type": "detection",
+          "title": "كيف تكتشف؟",
+          "body": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن العامل والحالة والعلامة في الأمثلة قبل إصدار الحكم.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد تكون العلامة حذفًا أو سكونًا أو تكون الجملة في محل جزم.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل كل فعلين بعد أداة شرط مجزومين لفظًا؛ قد يقترن الجواب بالفاء أو يكون ماضيًا مبنيًا.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط. حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majzoumat-double-jussive-example-1",
+          "sentence": "إن تجتهد تنجح",
+          "fullyDiacritizedSentence": "إن تجتهد تنجح",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف شرط جازم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تجتهد",
+              "normalizedWord": "تجتهد",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "جزم إن فعلين صحيحين.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-example-2",
+          "sentence": "من يصدق يحترم",
+          "fullyDiacritizedSentence": "من يصدق يحترم",
+          "parsedWords": [
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط",
+              "grammaticalState": "مبني في محل بحسب السياق",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم شرط جازم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط مبني في محل بحسب السياق مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يصدق",
+              "normalizedWord": "يصدق",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "يحترم",
+              "normalizedWord": "يحترم",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "من شرط للعاقل.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-example-3",
+          "sentence": "مهما تفعل تحاسب",
+          "fullyDiacritizedSentence": "مهما تفعل تحاسب",
+          "parsedWords": [
+            {
+              "word": "مهما",
+              "normalizedWord": "مهما",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط",
+              "grammaticalState": "مبني لا محل لفظي له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم شرط جازم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط مبني لا محل لفظي له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "تفعل",
+              "normalizedWord": "تفعل",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "تحاسب",
+              "normalizedWord": "تحاسب",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "مهما لغير العاقل.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-double-jussive-example-4",
+          "sentence": "متى تسافر أرافقك",
+          "fullyDiacritizedSentence": "متى تسافر أرافقك",
+          "parsedWords": [
+            {
+              "word": "متى",
+              "normalizedWord": "متى",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط",
+              "grammaticalState": "مبني في محل نصب ظرف زمان",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم شرط زمان",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط مبني في محل نصب ظرف زمان مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "تسافر",
+              "normalizedWord": "تسافر",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 4,
+              "endIndex": 9
+            },
+            {
+              "word": "أرافقك",
+              "normalizedWord": "ارافقك",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 10,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "متى تدل على زمان الشرط.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majzoumat-double-jussive-ex-1",
+        "majzoumat-double-jussive-ex-2",
+        "majzoumat-double-jussive-ex-3",
+        "majzoumat-double-jussive-ex-4",
+        "majzoumat-double-jussive-ex-5",
+        "majzoumat-double-jussive-ex-6",
+        "majzoumat-double-jussive-ex-7",
+        "majzoumat-double-jussive-ex-8",
+        "majzoumat-double-jussive-ex-9",
+        "majzoumat-double-jussive-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majzoumat-double-jussive-ex-2",
+        "majzoumat-double-jussive-ex-4",
+        "majzoumat-double-jussive-ex-6",
+        "majzoumat-double-jussive-ex-8",
+        "majzoumat-double-jussive-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "tags": [
+        "الجزم",
+        "الشرط",
+        "جوازم فعلين وبناء الشرط"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majzoumat-conditional-tools",
+      "topicId": "majzoumat.conditional-tools",
+      "order": 820,
+      "unitId": "majzoumat-conditional-tools-unit",
+      "slug": "majzoumat-conditional-tools",
+      "title": "أدوات الشرط ومعانيها ومواقعها",
+      "shortTitle": "أدوات الشرط ومعانيها ومواقعها",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم القاعدة ومعناها.",
+        "اكتشاف العامل وبناء الإعراب.",
+        "تجنب الأخطاء الشائعة."
+      ],
+      "prerequisiteIds": [
+        "majzoumat-double-jussive"
+      ],
+      "sections": [
+        {
+          "id": "majzoumat-conditional-tools-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد هذا الدرس لفهم أدوات الشرط ومعانيها ومواقعها.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "تتغير العلامة بحسب نوع الفعل وصيغته مع بقاء العامل أساس الحكم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-5",
+          "type": "detection",
+          "title": "كيف تكتشف؟",
+          "body": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن العامل والحالة والعلامة في الأمثلة قبل إصدار الحكم.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد تكون العلامة حذفًا أو سكونًا أو تكون الجملة في محل جزم.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "اشتراك الأدوات في الجزم لا يعني اتحاد معناها أو محلها الإعرابي.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل. صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majzoumat-conditional-tools-example-1",
+          "sentence": "من يعمل ينجح",
+          "fullyDiacritizedSentence": "من يعمل ينجح",
+          "parsedWords": [
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط للعاقل",
+              "grammaticalState": "مبني في محل رفع مبتدأ",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط للعاقل مبني في محل رفع مبتدأ مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يعمل",
+              "normalizedWord": "يعمل",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "ينجح",
+              "normalizedWord": "ينجح",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 8,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "من للعاقل.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-example-2",
+          "sentence": "ما تزرع تحصد",
+          "fullyDiacritizedSentence": "ما تزرع تحصد",
+          "parsedWords": [
+            {
+              "word": "ما",
+              "normalizedWord": "ما",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط لغير العاقل",
+              "grammaticalState": "مبني في محل نصب مفعول به",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "اسم شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط لغير العاقل مبني في محل نصب مفعول به مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تزرع",
+              "normalizedWord": "تزرع",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "تحصد",
+              "normalizedWord": "تحصد",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 8,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "ما لغير العاقل.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-example-3",
+          "sentence": "أين تسكن أزرك",
+          "fullyDiacritizedSentence": "أين تسكن أزرك",
+          "parsedWords": [
+            {
+              "word": "أين",
+              "normalizedWord": "اين",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط للمكان",
+              "grammaticalState": "مبني في محل نصب ظرف مكان",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "اسم شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط للمكان مبني في محل نصب ظرف مكان مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "تسكن",
+              "normalizedWord": "تسكن",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "أزرك",
+              "normalizedWord": "ازرك",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "أين للمكان.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-tools-example-4",
+          "sentence": "كيفما تعامل أعاملك",
+          "fullyDiacritizedSentence": "كيفما تعامل أعاملك",
+          "parsedWords": [
+            {
+              "word": "كيفما",
+              "normalizedWord": "كيفما",
+              "wordType": "اسم شرط",
+              "grammaticalRole": "اسم شرط للحال",
+              "grammaticalState": "مبني في محل نصب حال",
+              "grammaticalSign": "مبني على الفتح",
+              "signReason": "اسم شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "اسم شرط للحال مبني في محل نصب حال مبني على الفتح.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "تعامل",
+              "normalizedWord": "تعامل",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 6,
+              "endIndex": 11
+            },
+            {
+              "word": "أعاملك",
+              "normalizedWord": "اعاملك",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "كيفما للحال.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majzoumat-conditional-tools-ex-1",
+        "majzoumat-conditional-tools-ex-2",
+        "majzoumat-conditional-tools-ex-3",
+        "majzoumat-conditional-tools-ex-4",
+        "majzoumat-conditional-tools-ex-5",
+        "majzoumat-conditional-tools-ex-6",
+        "majzoumat-conditional-tools-ex-7",
+        "majzoumat-conditional-tools-ex-8",
+        "majzoumat-conditional-tools-ex-9",
+        "majzoumat-conditional-tools-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majzoumat-conditional-tools-ex-2",
+        "majzoumat-conditional-tools-ex-4",
+        "majzoumat-conditional-tools-ex-6",
+        "majzoumat-conditional-tools-ex-8",
+        "majzoumat-conditional-tools-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "tags": [
+        "الجزم",
+        "الشرط",
+        "أدوات الشرط ومعانيها ومواقعها"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa",
+      "topicId": "majzoumat.conditional-answer-fa",
+      "order": 830,
+      "unitId": "majzoumat-conditional-answer-fa-unit",
+      "slug": "majzoumat-conditional-answer-fa",
+      "title": "اقتران جواب الشرط بالفاء",
+      "shortTitle": "اقتران جواب الشرط بالفاء",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم القاعدة ومعناها.",
+        "اكتشاف العامل وبناء الإعراب.",
+        "تجنب الأخطاء الشائعة."
+      ],
+      "prerequisiteIds": [
+        "majzoumat-conditional-tools"
+      ],
+      "sections": [
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد هذا الدرس لفهم اقتران جواب الشرط بالفاء.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "تتغير العلامة بحسب نوع الفعل وصيغته مع بقاء العامل أساس الحكم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-5",
+          "type": "detection",
+          "title": "كيف تكتشف؟",
+          "body": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن العامل والحالة والعلامة في الأمثلة قبل إصدار الحكم.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد تكون العلامة حذفًا أو سكونًا أو تكون الجملة في محل جزم.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "الفاء رابطة وليست هي التي تجزم، والجملة بعدها تكون في محل جزم جواب الشرط.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف. افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majzoumat-conditional-answer-fa-example-1",
+          "sentence": "إن تجتهد فستنجح",
+          "fullyDiacritizedSentence": "إن تجتهد فستنجح",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تجتهد",
+              "normalizedWord": "تجتهد",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "فستنجح",
+              "normalizedWord": "فستنجح",
+              "wordType": "تركيب رابط",
+              "grammaticalRole": "فاء رابطة وجواب",
+              "grammaticalState": "في محل جزم جواب الشرط",
+              "grammaticalSign": "الفعل مرفوع",
+              "signReason": "سبق الجواب بالسين",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فاء رابطة وجواب في محل جزم جواب الشرط الفعل مرفوع.",
+              "startIndex": 9,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "اقترن الجواب بالفاء لبدئه بالسين.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-example-2",
+          "sentence": "إن تزره فهو كريم",
+          "fullyDiacritizedSentence": "إن تزره فهو كريم",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تزره",
+              "normalizedWord": "تزره",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "فهو",
+              "normalizedWord": "فهو",
+              "wordType": "تركيب رابط",
+              "grammaticalRole": "فاء رابطة ومبتدأ",
+              "grammaticalState": "في محل جزم جواب الشرط",
+              "grammaticalSign": "الضمير مبني",
+              "signReason": "الجواب جملة اسمية",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فاء رابطة ومبتدأ في محل جزم جواب الشرط الضمير مبني.",
+              "startIndex": 8,
+              "endIndex": 11
+            },
+            {
+              "word": "كريم",
+              "normalizedWord": "كريم",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "خبر مرفوع الضمة.",
+              "startIndex": 12,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "الجملة الاسمية تحتاج الفاء.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-example-3",
+          "sentence": "إن تسع فلن تندم",
+          "fullyDiacritizedSentence": "إن تسع فلن تندم",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تسع",
+              "normalizedWord": "تسع",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "حذف حرف العلة",
+              "signReason": "معتل الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم حذف حرف العلة.",
+              "startIndex": 3,
+              "endIndex": 6
+            },
+            {
+              "word": "فلن",
+              "normalizedWord": "فلن",
+              "wordType": "تركيب رابط",
+              "grammaticalRole": "فاء رابطة وحرف نصب",
+              "grammaticalState": "في محل جزم جواب الشرط",
+              "grammaticalSign": "مبني",
+              "signReason": "الجواب مصدر بلن",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فاء رابطة وحرف نصب في محل جزم جواب الشرط مبني.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "تندم",
+              "normalizedWord": "تندم",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل بعد لن",
+              "grammaticalState": "منصوب",
+              "grammaticalSign": "الفتحة",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل بعد لن منصوب الفتحة.",
+              "startIndex": 11,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "الجواب المصدر بلن يرتبط بالفاء.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-conditional-answer-fa-example-4",
+          "sentence": "إن تعلم فاعمل",
+          "fullyDiacritizedSentence": "إن تعلم فاعمل",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "مبني على السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني لا محل له مبني على السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تعلم",
+              "normalizedWord": "تعلم",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "فاعمل",
+              "normalizedWord": "فاعمل",
+              "wordType": "تركيب رابط",
+              "grammaticalRole": "فاء رابطة وفعل أمر",
+              "grammaticalState": "في محل جزم جواب الشرط",
+              "grammaticalSign": "فعل الأمر مبني",
+              "signReason": "الجواب طلبي",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فاء رابطة وفعل أمر في محل جزم جواب الشرط فعل الأمر مبني.",
+              "startIndex": 8,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "جواب الطلب يقترن بالفاء.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majzoumat-conditional-answer-fa-ex-1",
+        "majzoumat-conditional-answer-fa-ex-2",
+        "majzoumat-conditional-answer-fa-ex-3",
+        "majzoumat-conditional-answer-fa-ex-4",
+        "majzoumat-conditional-answer-fa-ex-5",
+        "majzoumat-conditional-answer-fa-ex-6",
+        "majzoumat-conditional-answer-fa-ex-7",
+        "majzoumat-conditional-answer-fa-ex-8",
+        "majzoumat-conditional-answer-fa-ex-9",
+        "majzoumat-conditional-answer-fa-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majzoumat-conditional-answer-fa-ex-2",
+        "majzoumat-conditional-answer-fa-ex-4",
+        "majzoumat-conditional-answer-fa-ex-6",
+        "majzoumat-conditional-answer-fa-ex-8",
+        "majzoumat-conditional-answer-fa-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "tags": [
+        "الجزم",
+        "الشرط",
+        "اقتران جواب الشرط بالفاء"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "majzoumat-condition-oath",
+      "topicId": "majzoumat.condition-oath",
+      "order": 850,
+      "unitId": "majzoumat-condition-oath-unit",
+      "slug": "majzoumat-condition-oath",
+      "title": "اجتماع الشرط والقسم",
+      "shortTitle": "اجتماع الشرط والقسم",
+      "stageIds": [
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "فهم القاعدة ومعناها.",
+        "اكتشاف العامل وبناء الإعراب.",
+        "تجنب الأخطاء الشائعة."
+      ],
+      "prerequisiteIds": [
+        "jussive-answer-request-v1"
+      ],
+      "sections": [
+        {
+          "id": "majzoumat-condition-oath-sec-1",
+          "type": "opening",
+          "title": "مدخل",
+          "body": "يمهد هذا الدرس لفهم اجتماع الشرط والقسم.",
+          "order": 1,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-2",
+          "type": "explanation",
+          "title": "المعنى",
+          "body": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "order": 2,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "order": 3,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-4",
+          "type": "details",
+          "title": "التفاصيل",
+          "body": "تتغير العلامة بحسب نوع الفعل وصيغته مع بقاء العامل أساس الحكم.",
+          "order": 4,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-5",
+          "type": "detection",
+          "title": "كيف تكتشف؟",
+          "body": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+          "order": 5,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-6",
+          "type": "comparison",
+          "title": "قارن",
+          "body": "قارن العامل والحالة والعلامة في الأمثلة قبل إصدار الحكم.",
+          "order": 6,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-7",
+          "type": "warning",
+          "title": "تنبيه",
+          "body": "قد تكون العلامة حذفًا أو سكونًا أو تكون الجملة في محل جزم.",
+          "order": 7,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-8",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تجعل للجملة جوابين ظاهرين بلا حاجة، ولا تعد اللام جازمة؛ هي لام جواب القسم.",
+          "order": 8,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق. حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+          "order": 9,
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "majzoumat-condition-oath-example-1",
+          "sentence": "والله إن تجتهد لتنجحن",
+          "fullyDiacritizedSentence": "والله إن تجتهد لتنجحن",
+          "parsedWords": [
+            {
+              "word": "والله",
+              "normalizedWord": "والله",
+              "wordType": "قسم",
+              "grammaticalRole": "واو قسم ومقسم به",
+              "grammaticalState": "مجرور لفظًا",
+              "grammaticalSign": "الكسرة",
+              "signReason": "سبق بحرف القسم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "واو قسم ومقسم به مجرور لفظًا الكسرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني",
+              "grammaticalSign": "السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني السكون.",
+              "startIndex": 6,
+              "endIndex": 8
+            },
+            {
+              "word": "تجتهد",
+              "normalizedWord": "تجتهد",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 9,
+              "endIndex": 14
+            },
+            {
+              "word": "لتنجحن",
+              "normalizedWord": "لتنجحن",
+              "wordType": "لام جواب",
+              "grammaticalRole": "جواب القسم",
+              "grammaticalState": "مبني لاتصاله بنون التوكيد",
+              "grammaticalSign": "الفتح",
+              "signReason": "سبق القسم الشرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب القسم مبني لاتصاله بنون التوكيد الفتح.",
+              "startIndex": 15,
+              "endIndex": 21
+            }
+          ],
+          "explanation": "سبق القسم فجاء الجواب له.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-example-2",
+          "sentence": "إن تجتهد والله تنجح",
+          "fullyDiacritizedSentence": "إن تجتهد والله تنجح",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني",
+              "grammaticalSign": "السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تجتهد",
+              "normalizedWord": "تجتهد",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "والله",
+              "normalizedWord": "والله",
+              "wordType": "قسم",
+              "grammaticalRole": "قسم معترض",
+              "grammaticalState": "مجرور لفظًا",
+              "grammaticalSign": "الكسرة",
+              "signReason": "حرف القسم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "قسم معترض مجرور لفظًا الكسرة.",
+              "startIndex": 9,
+              "endIndex": 14
+            },
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "سبق الشرط القسم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 15,
+              "endIndex": 19
+            }
+          ],
+          "explanation": "سبق الشرط فجاء الجواب مجزومًا.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-example-3",
+          "sentence": "والله ليفوزن المجتهد",
+          "fullyDiacritizedSentence": "والله ليفوزن المجتهد",
+          "parsedWords": [
+            {
+              "word": "والله",
+              "normalizedWord": "والله",
+              "wordType": "قسم",
+              "grammaticalRole": "قسم",
+              "grammaticalState": "مجرور لفظًا",
+              "grammaticalSign": "الكسرة",
+              "signReason": "حرف القسم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "قسم مجرور لفظًا الكسرة.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "ليفوزن",
+              "normalizedWord": "ليفوزن",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب القسم",
+              "grammaticalState": "مبني على الفتح",
+              "grammaticalSign": "نون التوكيد",
+              "signReason": "لام جواب القسم",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب القسم مبني على الفتح نون التوكيد.",
+              "startIndex": 6,
+              "endIndex": 12
+            },
+            {
+              "word": "المجتهد",
+              "normalizedWord": "المجتهد",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فاعل",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الضمة",
+              "signReason": "اسم مفرد",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فاعل مرفوع الضمة.",
+              "startIndex": 13,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "لام الجواب ونون التوكيد تكشفان القسم.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        },
+        {
+          "id": "majzoumat-condition-oath-example-4",
+          "sentence": "إن تصدق تفز",
+          "fullyDiacritizedSentence": "إن تصدق تفز",
+          "parsedWords": [
+            {
+              "word": "إن",
+              "normalizedWord": "ان",
+              "wordType": "حرف شرط",
+              "grammaticalRole": "أداة شرط",
+              "grammaticalState": "مبني",
+              "grammaticalSign": "السكون",
+              "signReason": "حرف شرط",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "أداة شرط مبني السكون.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "تصدق",
+              "normalizedWord": "تصدق",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "فعل الشرط مجزوم السكون.",
+              "startIndex": 3,
+              "endIndex": 7
+            },
+            {
+              "word": "تفز",
+              "normalizedWord": "تفز",
+              "wordType": "اسم أو فعل معرب",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون",
+              "signReason": "صحيح الآخر",
+              "grammaticalAgent": "العامل المذكور في السياق",
+              "sentencePosition": "داخل التركيب",
+              "explanation": "جواب الشرط مجزوم السكون.",
+              "startIndex": 8,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "شرط بلا قسم وجوابه مجزوم.",
+          "referenceIds": [
+            "ref-general-majzoumat-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "majzoumat-condition-oath-ex-1",
+        "majzoumat-condition-oath-ex-2",
+        "majzoumat-condition-oath-ex-3",
+        "majzoumat-condition-oath-ex-4",
+        "majzoumat-condition-oath-ex-5",
+        "majzoumat-condition-oath-ex-6",
+        "majzoumat-condition-oath-ex-7",
+        "majzoumat-condition-oath-ex-8",
+        "majzoumat-condition-oath-ex-9",
+        "majzoumat-condition-oath-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "majzoumat-condition-oath-ex-2",
+        "majzoumat-condition-oath-ex-4",
+        "majzoumat-condition-oath-ex-6",
+        "majzoumat-condition-oath-ex-8",
+        "majzoumat-condition-oath-ex-10"
+      ],
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "tags": [
+        "الجزم",
+        "الشرط",
+        "اجتماع الشرط والقسم"
+      ],
+      "estimatedMinutes": 32,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "majzoumat-single-jussive-ex-1",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 1 في درس «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جزم لم المضارع الصحيح بالسكون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-2",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 2 في درس «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا الناهية تطلب الكف وتجزم.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-3",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 3 في درس «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لما تنفي وقوع الفعل إلى زمن الكلام.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-4",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 4 في درس «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لام الأمر جازمة والطالب فاعل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-5",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-6",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-7",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-8",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-9",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "errorCorrection",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-single-jussive-ex-10",
+      "lessonId": "majzoumat-single-jussive",
+      "type": "comparison",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم الفعل المضارع الواحد».",
+      "skillIds": [
+        "majzoumat.single-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجزم المضارع بعد لم ولما ولا الناهية ولام الأمر، وتكون علامته السكون أو حذف حرف العلة أو حذف النون.",
+      "hint": "حدد الأداة ومعناها، ثم الفعل المضارع ونوع آخره وصيغته قبل اختيار علامة الجزم.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-1",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 1 في درس «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "جزم إن فعلين صحيحين.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-2",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 2 في درس «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "من شرط للعاقل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-3",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 3 في درس «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "مهما لغير العاقل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-4",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 4 في درس «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متى تدل على زمان الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-5",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-6",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-7",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-8",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-9",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "errorCorrection",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-double-jussive-ex-10",
+      "lessonId": "majzoumat-double-jussive",
+      "type": "comparison",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «جوازم فعلين وبناء الشرط».",
+      "skillIds": [
+        "majzoumat.double-jussive"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أدوات الشرط الجازمة تجزم فعل الشرط وجوابه، ويرتبط تحقق الجواب بتحقق الشرط.",
+      "hint": "حدد الأداة ثم فعل الشرط وجواب الشرط، وافحص علامة كل فعل على حدة.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-1",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 1 في درس «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "من للعاقل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-2",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 2 في درس «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ما لغير العاقل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-3",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 3 في درس «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أين للمكان.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-4",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 4 في درس «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "كيفما للحال.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-5",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-6",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-7",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-8",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-9",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "errorCorrection",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-tools-ex-10",
+      "lessonId": "majzoumat-conditional-tools",
+      "type": "comparison",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «أدوات الشرط ومعانيها ومواقعها».",
+      "skillIds": [
+        "majzoumat.conditional-tools"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إن وإذما حرفان، ومن وما ومهما وأي ومتى وأيان وأين وأنى وحيثما وكيفما أسماء شرط، ولكل اسم دلالة ومحل.",
+      "hint": "صنف الأداة حرفًا أو اسمًا، وحدد دلالتها على عاقل أو غير عاقل أو زمان أو مكان أو حال.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-1",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 1 في درس «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "اقترن الجواب بالفاء لبدئه بالسين.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-2",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 2 في درس «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الجملة الاسمية تحتاج الفاء.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-3",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 3 في درس «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الجواب المصدر بلن يرتبط بالفاء.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-4",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 4 في درس «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "جواب الطلب يقترن بالفاء.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-5",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-6",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-7",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-8",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-9",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "errorCorrection",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-conditional-answer-fa-ex-10",
+      "lessonId": "majzoumat-conditional-answer-fa",
+      "type": "comparison",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اقتران جواب الشرط بالفاء».",
+      "skillIds": [
+        "majzoumat.conditional-answer-fa"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "يجب ربط الجواب بالفاء إذا لم يصلح أن يكون فعل شرط، كالجملة الاسمية والطلبية وما صدر بقد أو لن أو ما أو لا أو السين وسوف.",
+      "hint": "افحص أول الجواب ونوعه؛ إن كان جملة اسمية أو طلبًا أو مسبوقًا بأداة تمنع الجزم فأت بالفاء.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-1",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 1 في درس «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "سبق القسم فجاء الجواب له.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-2",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 2 في درس «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "سبق الشرط فجاء الجواب مجزومًا.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-3",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 3 في درس «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "لام الجواب ونون التوكيد تكشفان القسم.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-4",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "حلل المثال 4 في درس «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "شرط بلا قسم وجوابه مجزوم.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-5",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-6",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-7",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-8",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "multipleChoice",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-9",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "errorCorrection",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "majzoumat-condition-oath-ex-10",
+      "lessonId": "majzoumat-condition-oath",
+      "type": "comparison",
+      "prompt": "اختر العبارة الصحيحة في قاعدة «اجتماع الشرط والقسم».",
+      "skillIds": [
+        "majzoumat.condition-oath"
+      ],
+      "stageIds": [
+        "preparatory"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+          "feedback": "صحيح؛ يوافق العامل والسياق."
+        },
+        {
+          "id": "b",
+          "text": "لا يؤثر العامل في إعراب الفعل أو الجواب.",
+          "feedback": "العامل هو نقطة البدء في تحديد الحكم."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إذا اجتمع شرط وقسم فالجواب للسابق منهما غالبًا، ويستدل بلام جواب القسم أو فاء جواب الشرط وبنية السياق.",
+      "hint": "حدد السابق، وابحث عن لام القسم ونون التوكيد أو فاء الربط، ثم عيّن لأي الأسلوبين جاء الجواب.",
+      "referenceIds": [
+        "ref-general-majzoumat-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-general-majzoumat-v1",
+      "title": "النحو الواضح في قواعد اللغة العربية",
+      "publisher": "دار المعارف",
+      "url": "https://www.hindawi.org/books/92463613/",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

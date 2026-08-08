@@ -8,6 +8,7 @@ import '../../learning/cubit/learning_state.dart';
 import '../../learning/domain/next_learning_action.dart';
 import '../../learning/navigation/lesson_phase_navigator.dart';
 import '../../learning/screens/lesson_screen.dart';
+import 'home_hero_support.dart';
 
 class HomeHeroCard extends StatelessWidget {
   const HomeHeroCard({super.key, required this.state});
@@ -20,7 +21,21 @@ class HomeHeroCard extends StatelessWidget {
       lessons: state.lessons,
       progress: state.progress,
     );
-    final lesson = action.lesson ?? state.lessons.first;
+    if (state.lessons.isEmpty) {
+      return const HomeCourseStatusCard(
+        icon: Icons.hourglass_empty_rounded,
+        title: 'المحتوى قيد التجهيز',
+        message: 'لا يوجد محتوى معتمد متاح على هذا الجهاز حاليًا.',
+      );
+    }
+    if (action.type == NextLearningActionType.courseComplete) {
+      return const HomeCourseStatusCard(
+        icon: Icons.workspace_premium_outlined,
+        title: 'أكملت المسار المتاح',
+        message: 'أحسنت. يمكنك مراجعة أي درس أو الانتقال إلى معمل الإعراب.',
+      );
+    }
+    final lesson = action.lesson!;
     final started = state.progressFor(lesson.id) != null;
     return Card(
       margin: EdgeInsets.zero,
@@ -36,7 +51,7 @@ class HomeHeroCard extends StatelessWidget {
             phaseLabel: _phaseLabel(action),
             onPressed: () => _openAction(context, lesson, action),
           );
-          const illustration = _HeroIllustration();
+          const illustration = HomeHeroIllustration();
           return compact
               ? Column(
                   children: [
@@ -126,7 +141,7 @@ class _HeroContent extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _HeroBadge(started: started),
+            HomeHeroBadge(started: started),
             const SizedBox(height: E3rabSpacing.medium),
             Text(
               'خطوة صغيرة اليوم،\nفرق كبير غدًا',
@@ -157,49 +172,4 @@ class _HeroContent extends StatelessWidget {
       ),
     );
   }
-}
-
-class _HeroBadge extends StatelessWidget {
-  const _HeroBadge({required this.started});
-
-  final bool started;
-
-  @override
-  Widget build(BuildContext context) => DecoratedBox(
-    decoration: BoxDecoration(
-      color: E3rabBrandColors.sky,
-      borderRadius: BorderRadius.circular(E3rabRadii.large),
-    ),
-    child: Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
-      child: Text(
-        started ? 'جاهز للمتابعة' : 'درس اليوم',
-        style: const TextStyle(
-          color: E3rabBrandColors.navy,
-          fontWeight: FontWeight.w700,
-        ),
-      ),
-    ),
-  );
-}
-
-class _HeroIllustration extends StatelessWidget {
-  const _HeroIllustration();
-
-  @override
-  Widget build(BuildContext context) => Semantics(
-    image: true,
-    label: 'متعلم يدرس النحو بخطوات بسيطة',
-    child: ConstrainedBox(
-      constraints: const BoxConstraints(minHeight: 190),
-      child: Image.asset(
-        'assets/images/grammar_learning_hero_v1.png',
-        width: double.infinity,
-        height: double.infinity,
-        fit: BoxFit.cover,
-        alignment: Alignment.centerLeft,
-        excludeFromSemantics: true,
-      ),
-    ),
-  );
 }

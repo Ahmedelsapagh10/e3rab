@@ -1,0 +1,5363 @@
+{
+  "manifest": {
+    "packId": "e3rab-general-special-nouns-batch1-ar-v1",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "curriculumVersion": "e3rab-general-arabic-v1",
+    "locale": "ar",
+    "entityIds": [
+      "general-special-nouns-module-v1",
+      "special-nouns-relative-unit",
+      "special-nouns-relative",
+      "special-nouns-relative-ex-1",
+      "special-nouns-relative-ex-2",
+      "special-nouns-relative-ex-3",
+      "special-nouns-relative-ex-4",
+      "special-nouns-relative-ex-5",
+      "special-nouns-relative-ex-6",
+      "special-nouns-relative-ex-7",
+      "special-nouns-relative-ex-8",
+      "special-nouns-relative-ex-9",
+      "special-nouns-relative-ex-10",
+      "special-nouns-demonstrative-unit",
+      "special-nouns-demonstrative",
+      "special-nouns-demonstrative-ex-1",
+      "special-nouns-demonstrative-ex-2",
+      "special-nouns-demonstrative-ex-3",
+      "special-nouns-demonstrative-ex-4",
+      "special-nouns-demonstrative-ex-5",
+      "special-nouns-demonstrative-ex-6",
+      "special-nouns-demonstrative-ex-7",
+      "special-nouns-demonstrative-ex-8",
+      "special-nouns-demonstrative-ex-9",
+      "special-nouns-demonstrative-ex-10",
+      "special-nouns-pronouns-unit",
+      "special-nouns-pronouns",
+      "special-nouns-pronouns-ex-1",
+      "special-nouns-pronouns-ex-2",
+      "special-nouns-pronouns-ex-3",
+      "special-nouns-pronouns-ex-4",
+      "special-nouns-pronouns-ex-5",
+      "special-nouns-pronouns-ex-6",
+      "special-nouns-pronouns-ex-7",
+      "special-nouns-pronouns-ex-8",
+      "special-nouns-pronouns-ex-9",
+      "special-nouns-pronouns-ex-10",
+      "special-nouns-conditional-unit",
+      "special-nouns-conditional",
+      "special-nouns-conditional-ex-1",
+      "special-nouns-conditional-ex-2",
+      "special-nouns-conditional-ex-3",
+      "special-nouns-conditional-ex-4",
+      "special-nouns-conditional-ex-5",
+      "special-nouns-conditional-ex-6",
+      "special-nouns-conditional-ex-7",
+      "special-nouns-conditional-ex-8",
+      "special-nouns-conditional-ex-9",
+      "special-nouns-conditional-ex-10",
+      "special-nouns-interrogative-unit",
+      "special-nouns-interrogative",
+      "special-nouns-interrogative-ex-1",
+      "special-nouns-interrogative-ex-2",
+      "special-nouns-interrogative-ex-3",
+      "special-nouns-interrogative-ex-4",
+      "special-nouns-interrogative-ex-5",
+      "special-nouns-interrogative-ex-6",
+      "special-nouns-interrogative-ex-7",
+      "special-nouns-interrogative-ex-8",
+      "special-nouns-interrogative-ex-9",
+      "special-nouns-interrogative-ex-10",
+      "special-nouns-built-adverbs-unit",
+      "special-nouns-built-adverbs",
+      "special-nouns-built-adverbs-ex-1",
+      "special-nouns-built-adverbs-ex-2",
+      "special-nouns-built-adverbs-ex-3",
+      "special-nouns-built-adverbs-ex-4",
+      "special-nouns-built-adverbs-ex-5",
+      "special-nouns-built-adverbs-ex-6",
+      "special-nouns-built-adverbs-ex-7",
+      "special-nouns-built-adverbs-ex-8",
+      "special-nouns-built-adverbs-ex-9",
+      "special-nouns-built-adverbs-ex-10",
+      "special-nouns-kam-kayyin-kadha-unit",
+      "special-nouns-kam-kayyin-kadha",
+      "special-nouns-kam-kayyin-kadha-ex-1",
+      "special-nouns-kam-kayyin-kadha-ex-2",
+      "special-nouns-kam-kayyin-kadha-ex-3",
+      "special-nouns-kam-kayyin-kadha-ex-4",
+      "special-nouns-kam-kayyin-kadha-ex-5",
+      "special-nouns-kam-kayyin-kadha-ex-6",
+      "special-nouns-kam-kayyin-kadha-ex-7",
+      "special-nouns-kam-kayyin-kadha-ex-8",
+      "special-nouns-kam-kayyin-kadha-ex-9",
+      "special-nouns-kam-kayyin-kadha-ex-10"
+    ],
+    "checksum": "pending-specialist-review-v1",
+    "minimumAppVersion": "1.0.0",
+    "reviewStatus": "inReview",
+    "externalPrerequisiteIds": [
+      "numbers-euphemisms"
+    ]
+  },
+  "modules": [
+    {
+      "id": "general-special-nouns-module-v1",
+      "slug": "general-special-nouns-v1",
+      "title": "الأسماء والأدوات الخاصة",
+      "unitIds": [
+        "special-nouns-relative-unit",
+        "special-nouns-demonstrative-unit",
+        "special-nouns-pronouns-unit",
+        "special-nouns-conditional-unit",
+        "special-nouns-interrogative-unit",
+        "special-nouns-built-adverbs-unit",
+        "special-nouns-kam-kayyin-kadha-unit"
+      ],
+      "order": 17
+    }
+  ],
+  "units": [
+    {
+      "id": "special-nouns-relative-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-relative-unit",
+      "title": "الأسماء الموصولة",
+      "lessonIds": [
+        "special-nouns-relative"
+      ],
+      "order": 1600
+    },
+    {
+      "id": "special-nouns-demonstrative-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-demonstrative-unit",
+      "title": "أسماء الإشارة",
+      "lessonIds": [
+        "special-nouns-demonstrative"
+      ],
+      "order": 1610
+    },
+    {
+      "id": "special-nouns-pronouns-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-pronouns-unit",
+      "title": "الضمائر",
+      "lessonIds": [
+        "special-nouns-pronouns"
+      ],
+      "order": 1620
+    },
+    {
+      "id": "special-nouns-conditional-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-conditional-unit",
+      "title": "أسماء الشرط",
+      "lessonIds": [
+        "special-nouns-conditional"
+      ],
+      "order": 1630
+    },
+    {
+      "id": "special-nouns-interrogative-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-interrogative-unit",
+      "title": "أسماء الاستفهام",
+      "lessonIds": [
+        "special-nouns-interrogative"
+      ],
+      "order": 1640
+    },
+    {
+      "id": "special-nouns-built-adverbs-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-built-adverbs-unit",
+      "title": "الظروف المبنية",
+      "lessonIds": [
+        "special-nouns-built-adverbs"
+      ],
+      "order": 1650
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-unit",
+      "moduleId": "general-special-nouns-module-v1",
+      "slug": "special-nouns-kam-kayyin-kadha-unit",
+      "title": "كم وكأين وكذا",
+      "lessonIds": [
+        "special-nouns-kam-kayyin-kadha"
+      ],
+      "order": 1660
+    }
+  ],
+  "lessons": [
+    {
+      "id": "special-nouns-relative",
+      "topicId": "special-nouns.relative",
+      "order": 1600,
+      "unitId": "special-nouns-relative-unit",
+      "slug": "special-nouns-relative",
+      "title": "الأسماء الموصولة",
+      "shortTitle": "الأسماء الموصولة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الأسماء الموصولة.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "numbers-euphemisms"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-relative-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة الأسماء الموصولة مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم الأسماء الموصولة من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الاسم الموصول مبني غالبًا ويحتاج صلة بعده وعائدًا يربط الصلة به، وصلة الموصول لا محل لها.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه الأسماء الموصولة لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الاسم الموصول مبني غالبًا ويحتاج صلة بعده وعائدًا يربط الصلة به، وصلة الموصول لا محل لها.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-relative-example-1",
+          "sentence": "جاء الذي نجح",
+          "fullyDiacritizedSentence": "جاء الذي نجح",
+          "parsedWords": [
+            {
+              "word": "جاء",
+              "normalizedWord": "جاء",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الذي",
+              "normalizedWord": "الذي",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم موصول في محل رفع فاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم موصول في محل رفع فاعل؛ بعد الفعل.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "نجح",
+              "normalizedWord": "نجح",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "صلة الموصول وفاعلها مستتر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "جملة لا محل لها",
+              "explanation": "صلة الموصول وفاعلها مستتر؛ جملة لا محل لها.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الذي فاعل وصلته لا محل لها",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-example-2",
+          "sentence": "رأيت التي فازت",
+          "fullyDiacritizedSentence": "رأيت التي فازت",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "التي",
+              "normalizedWord": "التي",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم موصول في محل نصب مفعول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم موصول في محل نصب مفعول؛ بعد الفعل.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "فازت",
+              "normalizedWord": "فازت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "صلة الموصول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "لا محل لها",
+              "explanation": "صلة الموصول؛ لا محل لها.",
+              "startIndex": 10,
+              "endIndex": 14
+            }
+          ],
+          "explanation": "التي في محل نصب مفعول",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-example-3",
+          "sentence": "سلمت على اللذين نجحا",
+          "fullyDiacritizedSentence": "سلمت على اللذين نجحا",
+          "parsedWords": [
+            {
+              "word": "سلمت",
+              "normalizedWord": "سلمت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "على",
+              "normalizedWord": "على",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "حرف جر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "قبل الاسم",
+              "explanation": "حرف جر؛ قبل الاسم.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "اللذين",
+              "normalizedWord": "اللذين",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم موصول في محل جر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الحرف",
+              "explanation": "اسم موصول في محل جر؛ بعد الحرف.",
+              "startIndex": 9,
+              "endIndex": 15
+            },
+            {
+              "word": "نجحا",
+              "normalizedWord": "نجحا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "صلة الموصول وألفها فاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "لا محل لها",
+              "explanation": "صلة الموصول وألفها فاعل؛ لا محل لها.",
+              "startIndex": 16,
+              "endIndex": 20
+            }
+          ],
+          "explanation": "اللذين اسم موصول مجرور بالياء",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-relative-example-4",
+          "sentence": "الطالبان اللذان اجتهدا ناجحان",
+          "fullyDiacritizedSentence": "الطالبان اللذان اجتهدا ناجحان",
+          "parsedWords": [
+            {
+              "word": "الطالبان",
+              "normalizedWord": "الطالبان",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ أول الجملة.",
+              "startIndex": 0,
+              "endIndex": 8
+            },
+            {
+              "word": "اللذان",
+              "normalizedWord": "اللذان",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم موصول نعت مرفوع",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد المنعوت",
+              "explanation": "اسم موصول نعت مرفوع؛ بعد المنعوت.",
+              "startIndex": 9,
+              "endIndex": 15
+            },
+            {
+              "word": "اجتهدا",
+              "normalizedWord": "اجتهدا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "صلة الموصول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "لا محل لها",
+              "explanation": "صلة الموصول؛ لا محل لها.",
+              "startIndex": 16,
+              "endIndex": 22
+            },
+            {
+              "word": "ناجحان",
+              "normalizedWord": "ناجحان",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "خبر؛ آخر الجملة.",
+              "startIndex": 23,
+              "endIndex": 29
+            }
+          ],
+          "explanation": "الموصول نعت مرفوع بالألف",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-relative-ex-1",
+        "special-nouns-relative-ex-2",
+        "special-nouns-relative-ex-3",
+        "special-nouns-relative-ex-4",
+        "special-nouns-relative-ex-5",
+        "special-nouns-relative-ex-6",
+        "special-nouns-relative-ex-7",
+        "special-nouns-relative-ex-8",
+        "special-nouns-relative-ex-9",
+        "special-nouns-relative-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-relative-ex-2",
+        "special-nouns-relative-ex-4",
+        "special-nouns-relative-ex-6",
+        "special-nouns-relative-ex-8",
+        "special-nouns-relative-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "الأسماء الموصولة",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "special-nouns-demonstrative",
+      "topicId": "special-nouns.demonstrative",
+      "order": 1610,
+      "unitId": "special-nouns-demonstrative-unit",
+      "slug": "special-nouns-demonstrative",
+      "title": "أسماء الإشارة",
+      "shortTitle": "أسماء الإشارة",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز أسماء الإشارة.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "special-nouns-relative"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-demonstrative-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة أسماء الإشارة مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم أسماء الإشارة من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "اسم الإشارة مبني غالبًا ويعرب بحسب محله، أما هذان وهاتان فيعربان إعراب المثنى.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه أسماء الإشارة لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "اسم الإشارة مبني غالبًا ويعرب بحسب محله، أما هذان وهاتان فيعربان إعراب المثنى.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-demonstrative-example-1",
+          "sentence": "هذا كتاب",
+          "fullyDiacritizedSentence": "هذا كتاب",
+          "parsedWords": [
+            {
+              "word": "هذا",
+              "normalizedWord": "هذا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم إشارة في محل رفع مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "أول الجملة",
+              "explanation": "اسم إشارة في محل رفع مبتدأ؛ أول الجملة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "كتاب",
+              "normalizedWord": "كتاب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر؛ بعد المبتدأ.",
+              "startIndex": 4,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "هذا في محل رفع مبتدأ",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-example-2",
+          "sentence": "هذه مدرسة",
+          "fullyDiacritizedSentence": "هذه مدرسة",
+          "parsedWords": [
+            {
+              "word": "هذه",
+              "normalizedWord": "هذه",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم إشارة في محل رفع مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "أول الجملة",
+              "explanation": "اسم إشارة في محل رفع مبتدأ؛ أول الجملة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "مدرسة",
+              "normalizedWord": "مدرسة",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر؛ بعد المبتدأ.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "هذه اسم إشارة للمفردة",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-example-3",
+          "sentence": "رأيت هذين الطالبين",
+          "fullyDiacritizedSentence": "رأيت هذين الطالبين",
+          "parsedWords": [
+            {
+              "word": "رأيت",
+              "normalizedWord": "رأيت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "هذين",
+              "normalizedWord": "هذين",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم إشارة في محل نصب مفعول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "اسم إشارة في محل نصب مفعول؛ بعد الفعل.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "الطالبين",
+              "normalizedWord": "الطالبين",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "بدل أو عطف بيان",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد اسم الإشارة",
+              "explanation": "بدل أو عطف بيان؛ بعد اسم الإشارة.",
+              "startIndex": 10,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "هذين مفعول به بالياء",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-demonstrative-example-4",
+          "sentence": "مررت بهؤلاء الطلاب",
+          "fullyDiacritizedSentence": "مررت بهؤلاء الطلاب",
+          "parsedWords": [
+            {
+              "word": "مررت",
+              "normalizedWord": "مررت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "بهؤلاء",
+              "normalizedWord": "بهؤلاء",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "باء واسم إشارة في محل جر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "باء واسم إشارة في محل جر؛ بعد الفعل.",
+              "startIndex": 5,
+              "endIndex": 11
+            },
+            {
+              "word": "الطلاب",
+              "normalizedWord": "الطلاب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "بدل أو عطف بيان",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد اسم الإشارة",
+              "explanation": "بدل أو عطف بيان؛ بعد اسم الإشارة.",
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "هؤلاء في محل جر بالباء",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-demonstrative-ex-1",
+        "special-nouns-demonstrative-ex-2",
+        "special-nouns-demonstrative-ex-3",
+        "special-nouns-demonstrative-ex-4",
+        "special-nouns-demonstrative-ex-5",
+        "special-nouns-demonstrative-ex-6",
+        "special-nouns-demonstrative-ex-7",
+        "special-nouns-demonstrative-ex-8",
+        "special-nouns-demonstrative-ex-9",
+        "special-nouns-demonstrative-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-demonstrative-ex-2",
+        "special-nouns-demonstrative-ex-4",
+        "special-nouns-demonstrative-ex-6",
+        "special-nouns-demonstrative-ex-8",
+        "special-nouns-demonstrative-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "أسماء الإشارة",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "special-nouns-pronouns",
+      "topicId": "special-nouns.pronouns",
+      "order": 1620,
+      "unitId": "special-nouns-pronouns-unit",
+      "slug": "special-nouns-pronouns",
+      "title": "الضمائر",
+      "shortTitle": "الضمائر",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الضمائر.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "special-nouns-demonstrative"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-pronouns-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة الضمائر مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم الضمائر من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "الضمير اسم معرفة مبني، ويكون منفصلًا أو متصلًا أو مستترًا، ويحدد عامله محله.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه الضمائر لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "الضمير اسم معرفة مبني، ويكون منفصلًا أو متصلًا أو مستترًا، ويحدد عامله محله.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-pronouns-example-1",
+          "sentence": "أنا طالب",
+          "fullyDiacritizedSentence": "أنا طالب",
+          "parsedWords": [
+            {
+              "word": "أنا",
+              "normalizedWord": "أنا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "ضمير منفصل في محل رفع مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "أول الجملة",
+              "explanation": "ضمير منفصل في محل رفع مبتدأ؛ أول الجملة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "طالب",
+              "normalizedWord": "طالب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر؛ بعد المبتدأ.",
+              "startIndex": 4,
+              "endIndex": 8
+            }
+          ],
+          "explanation": "أنا ضمير في محل رفع مبتدأ",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-example-2",
+          "sentence": "نحن مجتهدون",
+          "fullyDiacritizedSentence": "نحن مجتهدون",
+          "parsedWords": [
+            {
+              "word": "نحن",
+              "normalizedWord": "نحن",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "ضمير منفصل في محل رفع مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "أول الجملة",
+              "explanation": "ضمير منفصل في محل رفع مبتدأ؛ أول الجملة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "مجتهدون",
+              "normalizedWord": "مجتهدون",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد المبتدأ",
+              "explanation": "خبر؛ بعد المبتدأ.",
+              "startIndex": 4,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "نحن في محل رفع مبتدأ",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-example-3",
+          "sentence": "كتبت الدرس",
+          "fullyDiacritizedSentence": "كتبت الدرس",
+          "parsedWords": [
+            {
+              "word": "كتبت",
+              "normalizedWord": "كتبت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وتاء الفاعل في محل رفع",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وتاء الفاعل في محل رفع؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الدرس",
+              "normalizedWord": "الدرس",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "مفعول به؛ بعد الفعل.",
+              "startIndex": 5,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "التاء ضمير فاعل داخل الفعل",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-pronouns-example-4",
+          "sentence": "الطلاب كتبوا",
+          "fullyDiacritizedSentence": "الطلاب كتبوا",
+          "parsedWords": [
+            {
+              "word": "الطلاب",
+              "normalizedWord": "الطلاب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "أول الجملة",
+              "explanation": "مبتدأ؛ أول الجملة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "كتبوا",
+              "normalizedWord": "كتبوا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وواو الجماعة فاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "جملة في محل رفع خبر",
+              "explanation": "فعل وواو الجماعة فاعل؛ جملة في محل رفع خبر.",
+              "startIndex": 7,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "الواو ضمير فاعل والجملة خبر",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-pronouns-ex-1",
+        "special-nouns-pronouns-ex-2",
+        "special-nouns-pronouns-ex-3",
+        "special-nouns-pronouns-ex-4",
+        "special-nouns-pronouns-ex-5",
+        "special-nouns-pronouns-ex-6",
+        "special-nouns-pronouns-ex-7",
+        "special-nouns-pronouns-ex-8",
+        "special-nouns-pronouns-ex-9",
+        "special-nouns-pronouns-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-pronouns-ex-2",
+        "special-nouns-pronouns-ex-4",
+        "special-nouns-pronouns-ex-6",
+        "special-nouns-pronouns-ex-8",
+        "special-nouns-pronouns-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "الضمائر",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "special-nouns-conditional",
+      "topicId": "special-nouns.conditional",
+      "order": 1630,
+      "unitId": "special-nouns-conditional-unit",
+      "slug": "special-nouns-conditional",
+      "title": "أسماء الشرط",
+      "shortTitle": "أسماء الشرط",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز أسماء الشرط.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "special-nouns-pronouns"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-conditional-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة أسماء الشرط مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم أسماء الشرط من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "اسم الشرط المبني يجزم فعلين غالبًا، وله محل يحدده معناه وصلته بفعل الشرط.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه أسماء الشرط لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "اسم الشرط المبني يجزم فعلين غالبًا، وله محل يحدده معناه وصلته بفعل الشرط.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-conditional-example-1",
+          "sentence": "من يجتهد ينجح",
+          "fullyDiacritizedSentence": "من يجتهد ينجح",
+          "parsedWords": [
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم شرط في محل رفع مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "اسم شرط في محل رفع مبتدأ؛ صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "يجتهد",
+              "normalizedWord": "يجتهد",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل الشرط مجزوم",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "فعل الشرط مجزوم؛ بعد الأداة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "ينجح",
+              "normalizedWord": "ينجح",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "جواب الشرط مجزوم",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد فعل الشرط",
+              "explanation": "جواب الشرط مجزوم؛ بعد فعل الشرط.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "من اسم شرط جازم",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-example-2",
+          "sentence": "مهما تفعل تحاسب",
+          "fullyDiacritizedSentence": "مهما تفعل تحاسب",
+          "parsedWords": [
+            {
+              "word": "مهما",
+              "normalizedWord": "مهما",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم شرط في محل نصب مفعول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "اسم شرط في محل نصب مفعول؛ صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "تفعل",
+              "normalizedWord": "تفعل",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "فعل الشرط؛ بعد الأداة.",
+              "startIndex": 5,
+              "endIndex": 9
+            },
+            {
+              "word": "تحاسب",
+              "normalizedWord": "تحاسب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الشرط",
+              "explanation": "جواب الشرط؛ بعد الشرط.",
+              "startIndex": 10,
+              "endIndex": 15
+            }
+          ],
+          "explanation": "مهما اسم شرط للمبهم",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-example-3",
+          "sentence": "أينما تذهب أرافقك",
+          "fullyDiacritizedSentence": "أينما تذهب أرافقك",
+          "parsedWords": [
+            {
+              "word": "أينما",
+              "normalizedWord": "أينما",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم شرط في محل نصب ظرف",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "اسم شرط في محل نصب ظرف؛ صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 5
+            },
+            {
+              "word": "تذهب",
+              "normalizedWord": "تذهب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "فعل الشرط؛ بعد الأداة.",
+              "startIndex": 6,
+              "endIndex": 10
+            },
+            {
+              "word": "أرافقك",
+              "normalizedWord": "أرافقك",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الشرط",
+              "explanation": "جواب الشرط؛ بعد الشرط.",
+              "startIndex": 11,
+              "endIndex": 17
+            }
+          ],
+          "explanation": "أينما اسم شرط ظرف مكان",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-conditional-example-4",
+          "sentence": "متى تدرس تنجح",
+          "fullyDiacritizedSentence": "متى تدرس تنجح",
+          "parsedWords": [
+            {
+              "word": "متى",
+              "normalizedWord": "متى",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم شرط في محل نصب ظرف زمان",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الشرط",
+              "explanation": "اسم شرط في محل نصب ظرف زمان؛ صدر الشرط.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "تدرس",
+              "normalizedWord": "تدرس",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل الشرط",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "فعل الشرط؛ بعد الأداة.",
+              "startIndex": 4,
+              "endIndex": 8
+            },
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "جواب الشرط",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الشرط",
+              "explanation": "جواب الشرط؛ بعد الشرط.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "متى ظرف شرط زمان",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-conditional-ex-1",
+        "special-nouns-conditional-ex-2",
+        "special-nouns-conditional-ex-3",
+        "special-nouns-conditional-ex-4",
+        "special-nouns-conditional-ex-5",
+        "special-nouns-conditional-ex-6",
+        "special-nouns-conditional-ex-7",
+        "special-nouns-conditional-ex-8",
+        "special-nouns-conditional-ex-9",
+        "special-nouns-conditional-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-conditional-ex-2",
+        "special-nouns-conditional-ex-4",
+        "special-nouns-conditional-ex-6",
+        "special-nouns-conditional-ex-8",
+        "special-nouns-conditional-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "أسماء الشرط",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "special-nouns-interrogative",
+      "topicId": "special-nouns.interrogative",
+      "order": 1640,
+      "unitId": "special-nouns-interrogative-unit",
+      "slug": "special-nouns-interrogative",
+      "title": "أسماء الاستفهام",
+      "shortTitle": "أسماء الاستفهام",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز أسماء الاستفهام.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "special-nouns-conditional"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-interrogative-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة أسماء الاستفهام مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم أسماء الاستفهام من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "اسم الاستفهام له صدر الكلام، ويبنى غالبًا ويحدد جوابه ووظيفته محله الإعرابي.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه أسماء الاستفهام لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "اسم الاستفهام له صدر الكلام، ويبنى غالبًا ويحدد جوابه ووظيفته محله الإعرابي.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-interrogative-example-1",
+          "sentence": "من حضر",
+          "fullyDiacritizedSentence": "من حضر",
+          "parsedWords": [
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم استفهام في محل رفع مبتدأ",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر السؤال",
+              "explanation": "اسم استفهام في محل رفع مبتدأ؛ صدر السؤال.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "حضر",
+              "normalizedWord": "حضر",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعله مستتر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "خبر في المعنى",
+              "explanation": "فعل وفاعله مستتر؛ خبر في المعنى.",
+              "startIndex": 3,
+              "endIndex": 6
+            }
+          ],
+          "explanation": "من اسم استفهام عن العاقل",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-example-2",
+          "sentence": "ماذا قرأت",
+          "fullyDiacritizedSentence": "ماذا قرأت",
+          "parsedWords": [
+            {
+              "word": "ماذا",
+              "normalizedWord": "ماذا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم استفهام في محل نصب مفعول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر السؤال",
+              "explanation": "اسم استفهام في محل نصب مفعول؛ صدر السؤال.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرأت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الاستفهام",
+              "explanation": "فعل وفاعل؛ بعد الاستفهام.",
+              "startIndex": 5,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "ماذا في محل نصب مفعول",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-example-3",
+          "sentence": "أين الكتاب",
+          "fullyDiacritizedSentence": "أين الكتاب",
+          "parsedWords": [
+            {
+              "word": "أين",
+              "normalizedWord": "أين",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم استفهام في محل نصب ظرف وخبر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر السؤال",
+              "explanation": "اسم استفهام في محل نصب ظرف وخبر؛ صدر السؤال.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "الكتاب",
+              "normalizedWord": "الكتاب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الاستفهام",
+              "explanation": "مبتدأ مؤخر؛ بعد الاستفهام.",
+              "startIndex": 4,
+              "endIndex": 10
+            }
+          ],
+          "explanation": "أين خبر مقدم",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-interrogative-example-4",
+          "sentence": "متى السفر",
+          "fullyDiacritizedSentence": "متى السفر",
+          "parsedWords": [
+            {
+              "word": "متى",
+              "normalizedWord": "متى",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم استفهام في محل نصب ظرف",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر السؤال",
+              "explanation": "اسم استفهام في محل نصب ظرف؛ صدر السؤال.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "السفر",
+              "normalizedWord": "السفر",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مبتدأ مؤخر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الاستفهام",
+              "explanation": "مبتدأ مؤخر؛ بعد الاستفهام.",
+              "startIndex": 4,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "متى ظرف وخبر مقدم",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-interrogative-ex-1",
+        "special-nouns-interrogative-ex-2",
+        "special-nouns-interrogative-ex-3",
+        "special-nouns-interrogative-ex-4",
+        "special-nouns-interrogative-ex-5",
+        "special-nouns-interrogative-ex-6",
+        "special-nouns-interrogative-ex-7",
+        "special-nouns-interrogative-ex-8",
+        "special-nouns-interrogative-ex-9",
+        "special-nouns-interrogative-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-interrogative-ex-2",
+        "special-nouns-interrogative-ex-4",
+        "special-nouns-interrogative-ex-6",
+        "special-nouns-interrogative-ex-8",
+        "special-nouns-interrogative-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "أسماء الاستفهام",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "special-nouns-built-adverbs",
+      "topicId": "special-nouns.built-adverbs",
+      "order": 1650,
+      "unitId": "special-nouns-built-adverbs-unit",
+      "slug": "special-nouns-built-adverbs",
+      "title": "الظروف المبنية",
+      "shortTitle": "الظروف المبنية",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز الظروف المبنية.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "special-nouns-interrogative"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-built-adverbs-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة الظروف المبنية مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم الظروف المبنية من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "بعض الظروف مبني في محل نصب، ويتعلق بفعل أو وصف ويضاف إلى مفرد أو جملة.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه الظروف المبنية لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "بعض الظروف مبني في محل نصب، ويتعلق بفعل أو وصف ويضاف إلى مفرد أو جملة.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-built-adverbs-example-1",
+          "sentence": "جلست حيث الظل",
+          "fullyDiacritizedSentence": "جلست حيث الظل",
+          "parsedWords": [
+            {
+              "word": "جلست",
+              "normalizedWord": "جلست",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "حيث",
+              "normalizedWord": "حيث",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "ظرف مكان مبني في محل نصب",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "متعلق بالفعل",
+              "explanation": "ظرف مكان مبني في محل نصب؛ متعلق بالفعل.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "الظل",
+              "normalizedWord": "الظل",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مبتدأ لجملة مضافة مقدرة",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الظرف",
+              "explanation": "مبتدأ لجملة مضافة مقدرة؛ بعد الظرف.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "حيث ظرف مبني مضاف إلى جملة مقدرة",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-example-2",
+          "sentence": "جئت أمس",
+          "fullyDiacritizedSentence": "جئت أمس",
+          "parsedWords": [
+            {
+              "word": "جئت",
+              "normalizedWord": "جئت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 3
+            },
+            {
+              "word": "أمس",
+              "normalizedWord": "أمس",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "ظرف زمان مبني في محل نصب",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "متعلق بالفعل",
+              "explanation": "ظرف زمان مبني في محل نصب؛ متعلق بالفعل.",
+              "startIndex": 4,
+              "endIndex": 7
+            }
+          ],
+          "explanation": "أمس ظرف زمان مبني في استعماله",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-example-3",
+          "sentence": "ابدأ الآن",
+          "fullyDiacritizedSentence": "ابدأ الآن",
+          "parsedWords": [
+            {
+              "word": "ابدأ",
+              "normalizedWord": "ابدأ",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل أمر وفاعل مستتر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل أمر وفاعل مستتر؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "الآن",
+              "normalizedWord": "الآن",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "ظرف زمان مبني في محل نصب",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "متعلق بالفعل",
+              "explanation": "ظرف زمان مبني في محل نصب؛ متعلق بالفعل.",
+              "startIndex": 5,
+              "endIndex": 9
+            }
+          ],
+          "explanation": "الآن ظرف مبني في محل نصب",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-built-adverbs-example-4",
+          "sentence": "اذهب أنى شئت",
+          "fullyDiacritizedSentence": "اذهب أنى شئت",
+          "parsedWords": [
+            {
+              "word": "اذهب",
+              "normalizedWord": "اذهب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل أمر وفاعل مستتر",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل أمر وفاعل مستتر؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "أنى",
+              "normalizedWord": "أنى",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "ظرف مبني في محل نصب",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "متعلق بالفعل",
+              "explanation": "ظرف مبني في محل نصب؛ متعلق بالفعل.",
+              "startIndex": 5,
+              "endIndex": 8
+            },
+            {
+              "word": "شئت",
+              "normalizedWord": "شئت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "جملة مضافة للظرف",
+              "explanation": "فعل وفاعل؛ جملة مضافة للظرف.",
+              "startIndex": 9,
+              "endIndex": 12
+            }
+          ],
+          "explanation": "أنى ظرف مبهم مبني",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-built-adverbs-ex-1",
+        "special-nouns-built-adverbs-ex-2",
+        "special-nouns-built-adverbs-ex-3",
+        "special-nouns-built-adverbs-ex-4",
+        "special-nouns-built-adverbs-ex-5",
+        "special-nouns-built-adverbs-ex-6",
+        "special-nouns-built-adverbs-ex-7",
+        "special-nouns-built-adverbs-ex-8",
+        "special-nouns-built-adverbs-ex-9",
+        "special-nouns-built-adverbs-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-built-adverbs-ex-2",
+        "special-nouns-built-adverbs-ex-4",
+        "special-nouns-built-adverbs-ex-6",
+        "special-nouns-built-adverbs-ex-8",
+        "special-nouns-built-adverbs-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "الظروف المبنية",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha",
+      "topicId": "special-nouns.kam-kayyin-kadha",
+      "order": 1660,
+      "unitId": "special-nouns-kam-kayyin-kadha-unit",
+      "slug": "special-nouns-kam-kayyin-kadha",
+      "title": "كم وكأين وكذا",
+      "shortTitle": "كم وكأين وكذا",
+      "stageIds": [
+        "foundation",
+        "preparatory",
+        "secondary"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "objectives": [
+        "تمييز كم وكأين وكذا.",
+        "تحديد العامل والمحل.",
+        "التفريق بين البناء والإعراب."
+      ],
+      "prerequisiteIds": [
+        "special-nouns-built-adverbs"
+      ],
+      "sections": [
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-1",
+          "type": "opening",
+          "title": "المدخل",
+          "body": "تتغير وظيفة كم وكأين وكذا مع بقاء كثير من ألفاظها مبنيًا.",
+          "order": 1,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-2",
+          "type": "explanation",
+          "title": "التعريف",
+          "body": "نتعلم كم وكأين وكذا من معناها وعلاماتها واستعمالها داخل الجملة.",
+          "order": 2,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-3",
+          "type": "rule",
+          "title": "القاعدة",
+          "body": "كم الاستفهامية والخبرية وكأين وكذا كنايات تحتاج تمييزًا، ويختلف إعراب التمييز بحسب الأداة والاستعمال.",
+          "order": 3,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-4",
+          "type": "detection",
+          "title": "الاكتشاف",
+          "body": "حدد نوع الأداة ومعناها ثم الكلمة أو الجملة التي تتصل بها.",
+          "order": 4,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-5",
+          "type": "details",
+          "title": "العامل والعلامة",
+          "body": "فرّق بين علامة البناء الثابتة والمحل الذي يطلبه العامل.",
+          "order": 5,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-6",
+          "type": "reasoning",
+          "title": "خطوات الإعراب",
+          "body": "النوع ← المعنى ← العامل ← الوظيفة ← المحل أو العلامة ← المتعلق.",
+          "order": 6,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-7",
+          "type": "misconceptions",
+          "title": "أخطاء شائعة",
+          "body": "لا تعط الاسم المبني ضمة أو فتحة ظاهرة، ولا تهمل محله.",
+          "order": 7,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-8",
+          "type": "counterexample",
+          "title": "مثال مضاد",
+          "body": "وجود لفظ يشبه كم وكأين وكذا لا يكفي؛ لا بد من تحقق المعنى والعمل.",
+          "order": 8,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-sec-9",
+          "type": "summary",
+          "title": "الخلاصة",
+          "body": "كم الاستفهامية والخبرية وكأين وكذا كنايات تحتاج تمييزًا، ويختلف إعراب التمييز بحسب الأداة والاستعمال.",
+          "order": 9,
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "special-nouns-kam-kayyin-kadha-example-1",
+          "sentence": "كم كتابا قرأت",
+          "fullyDiacritizedSentence": "كم كتابا قرأت",
+          "parsedWords": [
+            {
+              "word": "كم",
+              "normalizedWord": "كم",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "اسم استفهام في محل نصب مفعول",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر السؤال",
+              "explanation": "اسم استفهام في محل نصب مفعول؛ صدر السؤال.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "كتابا",
+              "normalizedWord": "كتابا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "تمييز كم الاستفهامية",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "تمييز كم الاستفهامية؛ بعد الأداة.",
+              "startIndex": 3,
+              "endIndex": 8
+            },
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرأت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد التمييز",
+              "explanation": "فعل وفاعل؛ بعد التمييز.",
+              "startIndex": 9,
+              "endIndex": 13
+            }
+          ],
+          "explanation": "كم استفهامية وتمييزها منصوب",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-example-2",
+          "sentence": "كم كتب قرأت",
+          "fullyDiacritizedSentence": "كم كتب قرأت",
+          "parsedWords": [
+            {
+              "word": "كم",
+              "normalizedWord": "كم",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "كم خبرية مبنية ولها محل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "كم خبرية مبنية ولها محل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 2
+            },
+            {
+              "word": "كتب",
+              "normalizedWord": "كتب",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "تمييز كم الخبرية مجرور",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "تمييز كم الخبرية مجرور؛ بعد الأداة.",
+              "startIndex": 3,
+              "endIndex": 6
+            },
+            {
+              "word": "قرأت",
+              "normalizedWord": "قرأت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد التمييز",
+              "explanation": "فعل وفاعل؛ بعد التمييز.",
+              "startIndex": 7,
+              "endIndex": 11
+            }
+          ],
+          "explanation": "كم خبرية وتمييزها مجرور",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-example-3",
+          "sentence": "كأين من عالم خدم الناس",
+          "fullyDiacritizedSentence": "كأين من عالم خدم الناس",
+          "parsedWords": [
+            {
+              "word": "كأين",
+              "normalizedWord": "كأين",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "كناية عدد خبرية",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "كناية عدد خبرية؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "word": "من",
+              "normalizedWord": "من",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "حرف جر للتمييز",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الأداة",
+              "explanation": "حرف جر للتمييز؛ بعد الأداة.",
+              "startIndex": 5,
+              "endIndex": 7
+            },
+            {
+              "word": "عالم",
+              "normalizedWord": "عالم",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "تمييز مجرور",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد من",
+              "explanation": "تمييز مجرور؛ بعد من.",
+              "startIndex": 8,
+              "endIndex": 12
+            },
+            {
+              "word": "خدم",
+              "normalizedWord": "خدم",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد التمييز",
+              "explanation": "فعل؛ بعد التمييز.",
+              "startIndex": 13,
+              "endIndex": 16
+            },
+            {
+              "word": "الناس",
+              "normalizedWord": "الناس",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "مفعول به",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "آخر الجملة",
+              "explanation": "مفعول به؛ آخر الجملة.",
+              "startIndex": 17,
+              "endIndex": 22
+            }
+          ],
+          "explanation": "كأين خبرية وتمييزها مجرور بمن",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        },
+        {
+          "id": "special-nouns-kam-kayyin-kadha-example-4",
+          "sentence": "اشتريت كذا كتابا",
+          "fullyDiacritizedSentence": "اشتريت كذا كتابا",
+          "parsedWords": [
+            {
+              "word": "اشتريت",
+              "normalizedWord": "اشتريت",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "فعل وفاعل",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "صدر الجملة",
+              "explanation": "فعل وفاعل؛ صدر الجملة.",
+              "startIndex": 0,
+              "endIndex": 6
+            },
+            {
+              "word": "كذا",
+              "normalizedWord": "كذا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "كناية عدد في محل نصب",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الفعل",
+              "explanation": "كناية عدد في محل نصب؛ بعد الفعل.",
+              "startIndex": 7,
+              "endIndex": 10
+            },
+            {
+              "word": "كتابا",
+              "normalizedWord": "كتابا",
+              "wordType": "اسم مبني",
+              "grammaticalRole": "تمييز منصوب",
+              "grammaticalState": "مبني وله محل بحسب موقعه",
+              "grammaticalSign": "علامة بناء ثابتة",
+              "signReason": "البناء أو الإعراب بحسب نوع الكلمة",
+              "grammaticalAgent": "العامل والسياق",
+              "sentencePosition": "بعد الكناية",
+              "explanation": "تمييز منصوب؛ بعد الكناية.",
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "كذا كناية وتمييزها منصوب",
+          "referenceIds": [
+            "ref-special-nouns-v1"
+          ]
+        }
+      ],
+      "exerciseIds": [
+        "special-nouns-kam-kayyin-kadha-ex-1",
+        "special-nouns-kam-kayyin-kadha-ex-2",
+        "special-nouns-kam-kayyin-kadha-ex-3",
+        "special-nouns-kam-kayyin-kadha-ex-4",
+        "special-nouns-kam-kayyin-kadha-ex-5",
+        "special-nouns-kam-kayyin-kadha-ex-6",
+        "special-nouns-kam-kayyin-kadha-ex-7",
+        "special-nouns-kam-kayyin-kadha-ex-8",
+        "special-nouns-kam-kayyin-kadha-ex-9",
+        "special-nouns-kam-kayyin-kadha-ex-10"
+      ],
+      "masteryExerciseIds": [
+        "special-nouns-kam-kayyin-kadha-ex-2",
+        "special-nouns-kam-kayyin-kadha-ex-4",
+        "special-nouns-kam-kayyin-kadha-ex-6",
+        "special-nouns-kam-kayyin-kadha-ex-8",
+        "special-nouns-kam-kayyin-kadha-ex-10"
+      ],
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "tags": [
+        "كم وكأين وكذا",
+        "الأسماء المبنية",
+        "المحل"
+      ],
+      "estimatedMinutes": 28,
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "special-nouns-relative-ex-1",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الأسماء الموصولة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الأسماء الموصولة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-2",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-3",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-4",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-5",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-6",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-7",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-8",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-9",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-relative-ex-10",
+      "lessonId": "special-nouns-relative",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.relative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الاسم الموصول مبني غالبًا ويحتاج صلة بعده وعائدًا يربط الصلة به، وصلة الموصول لا محل لها.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الاسم الموصول مبني غالبًا ويحتاج صلة بعده وعائدًا يربط الصلة به، وصلة الموصول لا محل لها.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-1",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أسماء الإشارة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أسماء الإشارة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-2",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-3",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-4",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-5",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-6",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-7",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-8",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-9",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-demonstrative-ex-10",
+      "lessonId": "special-nouns-demonstrative",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.demonstrative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم الإشارة مبني غالبًا ويعرب بحسب محله، أما هذان وهاتان فيعربان إعراب المثنى.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم الإشارة مبني غالبًا ويعرب بحسب محله، أما هذان وهاتان فيعربان إعراب المثنى.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-1",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمائر",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الضمائر",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-2",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-3",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-4",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-5",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-6",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-7",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-8",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-9",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-pronouns-ex-10",
+      "lessonId": "special-nouns-pronouns",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.pronouns"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "الضمير اسم معرفة مبني، ويكون منفصلًا أو متصلًا أو مستترًا، ويحدد عامله محله.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الضمير اسم معرفة مبني، ويكون منفصلًا أو متصلًا أو مستترًا، ويحدد عامله محله.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-1",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أسماء الشرط",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أسماء الشرط",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-2",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-3",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-4",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-5",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-6",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-7",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-8",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-9",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-conditional-ex-10",
+      "lessonId": "special-nouns-conditional",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.conditional"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم الشرط المبني يجزم فعلين غالبًا، وله محل يحدده معناه وصلته بفعل الشرط.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم الشرط المبني يجزم فعلين غالبًا، وله محل يحدده معناه وصلته بفعل الشرط.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-1",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "أسماء الاستفهام",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "أسماء الاستفهام",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-2",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-3",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-4",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-5",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-6",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-7",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-8",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-9",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-interrogative-ex-10",
+      "lessonId": "special-nouns-interrogative",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.interrogative"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "اسم الاستفهام له صدر الكلام، ويبنى غالبًا ويحدد جوابه ووظيفته محله الإعرابي.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "اسم الاستفهام له صدر الكلام، ويبنى غالبًا ويحدد جوابه ووظيفته محله الإعرابي.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-1",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "الظروف المبنية",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "الظروف المبنية",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-2",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-3",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-4",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-5",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-6",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-7",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-8",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-9",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-built-adverbs-ex-10",
+      "lessonId": "special-nouns-built-adverbs",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.built-adverbs"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "بعض الظروف مبني في محل نصب، ويتعلق بفعل أو وصف ويضاف إلى مفرد أو جملة.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بعض الظروف مبني في محل نصب، ويتعلق بفعل أو وصف ويضاف إلى مفرد أو جملة.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-1",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "ما موضوع الدرس؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "كم وكأين وكذا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كم وكأين وكذا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-2",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "ما الخطوة الأولى؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "تحديد النوع والمعنى",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "تحديد النوع والمعنى",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-3",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "ما الفرق بين البناء والمحل؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "البناء ثابت والمحل يتغير",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "البناء ثابت والمحل يتغير",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-4",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "من يحدد المحل؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "العامل والوظيفة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "العامل والوظيفة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-5",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "هل المبني بلا محل دائما؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "لا",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "لا",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-6",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "كيف نختار العلامة؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "بحسب نوع الكلمة",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "بحسب نوع الكلمة",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-7",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "ما الخطأ الشائع؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "إهمال محل المبني",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "إهمال محل المبني",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-8",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "ماذا نفحص بعد الأداة؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "متعلقها أو صلتها",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "متعلقها أو صلتها",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-9",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "هل السياق مهم؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "نعم",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    },
+    {
+      "id": "special-nouns-kam-kayyin-kadha-ex-10",
+      "lessonId": "special-nouns-kam-kayyin-kadha",
+      "type": "multipleChoice",
+      "prompt": "ما القاعدة؟",
+      "skillIds": [
+        "special-nouns.kam-kayyin-kadha"
+      ],
+      "stageIds": [
+        "foundation"
+      ],
+      "gradeIds": [
+        "general"
+      ],
+      "difficulty": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "كم الاستفهامية والخبرية وكأين وكذا كنايات تحتاج تمييزًا، ويختلف إعراب التمييز بحسب الأداة والاستعمال.",
+          "feedback": "صحيح؛ يوافق النوع والعامل."
+        },
+        {
+          "id": "b",
+          "text": "لا يحددها العامل أو السياق",
+          "feedback": "راجع النوع والمعنى والمحل."
+        }
+      ],
+      "correctAnswerIds": [
+        "a"
+      ],
+      "explanation": "كم الاستفهامية والخبرية وكأين وكذا كنايات تحتاج تمييزًا، ويختلف إعراب التمييز بحسب الأداة والاستعمال.",
+      "hint": "حدد نوع الاسم ومعناه والعامل.",
+      "referenceIds": [
+        "ref-special-nouns-v1"
+      ],
+      "contentVersion": "1.0.0",
+      "reviewStatus": "inReview",
+      "schemaVersion": 1
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-special-nouns-v1",
+      "title": "كتاب النحو الواضح في قواعد اللغة العربية",
+      "publisher": "علي الجارم ومصطفى أمين",
+      "url": "https://archive.org/details/nahw-wadih",
+      "checkedAt": "2026-08-09"
+    }
+  ]
+}

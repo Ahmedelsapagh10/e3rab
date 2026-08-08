@@ -35,7 +35,9 @@ class LessonPhaseTile extends StatelessWidget {
                 width: 52,
                 height: 52,
                 decoration: BoxDecoration(
-                  color: recommended ? scheme.primary : E3rabBrandColors.sky,
+                  color: recommended
+                      ? scheme.primary
+                      : E3rabBrandColors.primaryContainer,
                   borderRadius: BorderRadius.circular(E3rabRadii.medium),
                 ),
                 child: Icon(
