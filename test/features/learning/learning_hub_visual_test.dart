@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:new_strucuture/features/curriculum/data/model/content_review_status.dart';
 import 'package:new_strucuture/features/curriculum/data/model/lesson_model.dart';
-import 'package:new_strucuture/features/learning/widgets/learning_hub_header.dart';
 import 'package:new_strucuture/features/learning/widgets/lesson_card.dart';
 
 void main() {
@@ -28,27 +27,16 @@ void main() {
         home: Scaffold(
           body: SingleChildScrollView(
             padding: const EdgeInsets.all(16),
-            child: Column(
-              children: [
-                LearningHubHeader(
-                  onOpenReference: () {},
-                  onOpenParsingLab: () {},
-                ),
-                const SizedBox(height: 16),
-                SizedBox(
-                  height: 660,
-                  child: LessonCard(lesson: _lesson, onOpen: _noOp),
-                ),
-              ],
-            ),
+            child: LessonCard(lesson: _lesson, onOpen: _noOp),
           ),
         ),
       ),
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('مسارك في النحو واضح'), findsOneWidget);
-    expect(find.text('موثّق بالمراجع'), findsOneWidget);
+    expect(find.text('أقسام الكلمة في اللغة العربية'), findsOneWidget);
+    expect(find.text('10 دقيقة'), findsOneWidget);
+    expect(find.textContaining('٪'), findsNothing);
     expect(tester.takeException(), isNull);
   });
 }

@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../cubit/exercise_cubit.dart';
 import '../cubit/exercise_state.dart';
 import '../widgets/exercise_question_view.dart';
+import '../../practice/domain/practice_session_config.dart';
 
 class ExerciseScreen extends StatelessWidget {
   const ExerciseScreen({super.key, required this.onFinished});
@@ -51,38 +52,51 @@ class _CompletionView extends StatelessWidget {
   final VoidCallback onClose;
 
   @override
-  Widget build(BuildContext context) => Center(
-    child: SingleChildScrollView(
-      padding: const EdgeInsets.all(24),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(
-            state.timedOut
-                ? Icons.timer_off_outlined
-                : Icons.emoji_events_outlined,
-            size: 72,
-          ),
-          const SizedBox(height: 16),
-          Text(
-            state.timedOut ? 'انتهى الوقت' : 'أكملت التدريب',
-            style: Theme.of(context).textTheme.headlineSmall,
-          ),
-          const SizedBox(height: 8),
-          Text('الإجابات الصحيحة ${(state.score * 100).round()}٪'),
-          Text('الدرجة الموزونة ${(state.weightedScore * 100).round()}٪'),
-          const SizedBox(height: 8),
-          const Text(
-            'تراعي الدرجة الموزونة التلميحات والمحاولات السابقة وكشف الإجابة.',
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 24),
-          FilledButton(
-            onPressed: onClose,
-            child: const Text('العودة إلى التعلّم'),
-          ),
-        ],
+  Widget build(BuildContext context) {
+    final isExam = state.config.mode == PracticeMode.lessonExam;
+    return Center(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              state.timedOut
+                  ? Icons.timer_off_outlined
+                  : Icons.emoji_events_outlined,
+              size: 72,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              state.timedOut
+                  ? 'انتهى الوقت'
+                  : isExam
+                  ? 'أكملت الاختبار'
+                  : 'أكملت التدريب',
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
+            const SizedBox(height: 8),
+            Text(
+              isExam
+                  ? 'نتيجتك ${(state.score * 100).round()}٪'
+                  : 'الإجابات الصحيحة ${(state.score * 100).round()}٪',
+            ),
+            if (!isExam) ...[
+              Text('الدرجة الموزونة ${(state.weightedScore * 100).round()}٪'),
+              const SizedBox(height: 8),
+              const Text(
+                'تراعي الدرجة الموزونة التلميحات والمحاولات السابقة وكشف الإجابة.',
+                textAlign: TextAlign.center,
+              ),
+            ],
+            const SizedBox(height: 24),
+            FilledButton(
+              onPressed: onClose,
+              child: const Text('العودة إلى التعلّم'),
+            ),
+          ],
+        ),
       ),
-    ),
-  );
+    );
+  }
 }

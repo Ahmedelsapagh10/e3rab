@@ -87,6 +87,36 @@ void main() {
     expect(local.getAttempts(owner).single.selectedAnswer, 'timeout');
     expect(local.getAttempts(owner).single.isCorrect, isFalse);
   });
+
+  test(
+    'lesson exam stores answers without hints or completing lesson',
+    () async {
+      SharedPreferences.setMockInitialValues({});
+      final local = LocalLearningDataSource(
+        await SharedPreferences.getInstance(),
+      );
+      final owner = LearningDataOwner.guest('guest');
+      final cubit = ExerciseCubit(
+        progressRepository: LocalFirstProgressRepository(local),
+        owner: owner,
+        lesson: _lesson,
+        exercises: const [_exercise],
+        config: const PracticeSessionConfig.lessonExam(),
+      );
+      addTearDown(cubit.close);
+      addTearDown(local.dispose);
+
+      cubit.showHint();
+      cubit.selectAnswer('correct');
+      await cubit.submit();
+      await cubit.next();
+
+      expect(cubit.state.hintUsed, isFalse);
+      expect(cubit.state.completed, isTrue);
+      expect(local.getAttempts(owner), hasLength(1));
+      expect(local.getProgress(owner), isEmpty);
+    },
+  );
 }
 
 const _lesson = LessonModel(

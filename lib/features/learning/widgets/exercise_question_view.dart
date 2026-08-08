@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/design_system/e3rab_design_tokens.dart';
+import '../../practice/domain/practice_session_config.dart';
 import '../cubit/exercise_state.dart';
 import 'exercise_renderer.dart';
 
@@ -50,7 +51,8 @@ class ExerciseQuestionView extends StatelessWidget {
               child: Text('تلميح: ${exercise.hint}'),
             ),
           ),
-        if (state.submitted) _Feedback(state: state),
+        if (state.submitted && state.config.showImmediateFeedback)
+          _Feedback(state: state),
         const SizedBox(height: E3rabSpacing.medium),
         if (!state.submitted)
           Wrap(
@@ -58,11 +60,12 @@ class ExerciseQuestionView extends StatelessWidget {
             spacing: E3rabSpacing.small,
             runSpacing: E3rabSpacing.small,
             children: [
-              TextButton.icon(
-                onPressed: state.hintUsed ? null : onHint,
-                icon: const Icon(Icons.lightbulb_outline),
-                label: const Text('تلميح'),
-              ),
+              if (state.config.allowHint)
+                TextButton.icon(
+                  onPressed: state.hintUsed ? null : onHint,
+                  icon: const Icon(Icons.lightbulb_outline),
+                  label: const Text('تلميح'),
+                ),
               if (state.config.allowReveal)
                 TextButton.icon(
                   onPressed: state.saving ? null : onReveal,
@@ -86,7 +89,13 @@ class ExerciseQuestionView extends StatelessWidget {
           FilledButton.icon(
             onPressed: onNext,
             icon: Icon(state.isLast ? Icons.flag_outlined : Icons.arrow_back),
-            label: Text(state.isLast ? 'إنهاء التدريب' : 'السؤال التالي'),
+            label: Text(
+              state.isLast
+                  ? state.config.mode == PracticeMode.lessonExam
+                        ? 'إنهاء الاختبار'
+                        : 'إنهاء التدريب'
+                  : 'السؤال التالي',
+            ),
           ),
       ],
     );

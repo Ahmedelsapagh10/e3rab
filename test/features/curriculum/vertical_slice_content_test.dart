@@ -29,6 +29,10 @@ void main() {
         isTrue,
       );
       expect(
+        lessons.every((lesson) => (lesson['examples'] as List).length >= 3),
+        isTrue,
+      );
+      expect(
         lessons.every((lesson) => lesson['reviewStatus'] == 'sourceDocumented'),
         isTrue,
       );

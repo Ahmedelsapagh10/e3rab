@@ -4,14 +4,20 @@ import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../curriculum/data/model/lesson_model.dart';
 
 class ParsedExampleCard extends StatelessWidget {
-  const ParsedExampleCard({super.key, required this.example});
+  const ParsedExampleCard({
+    super.key,
+    required this.example,
+    this.initiallyExpanded = false,
+  });
 
   final GrammarExampleModel example;
+  final bool initiallyExpanded;
 
   @override
   Widget build(BuildContext context) {
     return Card(
       child: ExpansionTile(
+        initiallyExpanded: initiallyExpanded,
         title: Text(
           example.fullyDiacritizedSentence,
           style: Theme.of(context).textTheme.titleMedium?.copyWith(height: 2),

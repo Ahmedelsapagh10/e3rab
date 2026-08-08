@@ -53,7 +53,9 @@ class ExerciseCubit extends Cubit<ExerciseState> {
   }
 
   void showHint() {
-    if (!state.submitted) emit(state.copyWith(hintUsed: true));
+    if (config.allowHint && !state.submitted) {
+      emit(state.copyWith(hintUsed: true));
+    }
   }
 
   Future<void> revealAnswer() async {

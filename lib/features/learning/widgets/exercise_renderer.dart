@@ -73,6 +73,7 @@ class _OptionsRenderer extends StatelessWidget {
               submitted: state.submitted,
               correct: exercise.correctAnswerIds.contains(option.id),
               revealed: state.revealed,
+              showResult: state.config.showImmediateFeedback,
               onSelected: () => onSelect(option.id),
             ),
           ),

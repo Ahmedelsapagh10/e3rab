@@ -53,6 +53,25 @@ void main() {
     expect(find.text('00:30'), findsOneWidget);
     expect(find.text('اكشف الإجابة'), findsNothing);
   });
+
+  testWidgets('lesson exam hides help and immediate correctness feedback', (
+    tester,
+  ) async {
+    const state = ExerciseState(
+      exercises: [_exercise],
+      config: PracticeSessionConfig.lessonExam(),
+      selectedOptionId: 'correct',
+      submitted: true,
+      correctCount: 1,
+    );
+
+    await tester.pumpWidget(MaterialApp(home: Scaffold(body: _view(state))));
+
+    expect(find.text('تلميح'), findsNothing);
+    expect(find.text('اكشف الإجابة'), findsNothing);
+    expect(find.text('إجابة صحيحة'), findsNothing);
+    expect(find.text('إنهاء الاختبار'), findsOneWidget);
+  });
 }
 
 Widget _view(ExerciseState state) {

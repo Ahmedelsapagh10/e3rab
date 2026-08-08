@@ -12,9 +12,6 @@ import '../../on_boarding/cubit/onboarding_cubit.dart';
 import '../../on_boarding/screen/onboarding_screen.dart';
 import '../../parsing/cubit/parsing_cubit.dart';
 import '../../parsing/data/grammar_analysis_service.dart';
-import '../../profile/cubit/profile_cubit.dart';
-import '../../profile/data/user_profile_repository.dart';
-import '../../profile/screens/learning_profile_screen.dart';
 import '../../progress/data/model/learning_progress_models.dart';
 import '../../progress/data/progress_repository.dart';
 import '../../reference/cubit/reference_cubit.dart';
@@ -23,8 +20,6 @@ import '../../shell/screens/e3rab_shell_screen.dart';
 import '../../sync/cubit/sync_cubit.dart';
 import '../../sync/data/sync_repository.dart';
 import '../../sync/widgets/guest_merge_listener.dart';
-import '../../teacher/cubit/teacher_cubit.dart';
-import '../../teacher/data/teacher_workspace_repository.dart';
 import '../cubit/auth_cubit.dart';
 import '../cubit/auth_state.dart';
 
@@ -37,22 +32,12 @@ class AuthGate extends StatelessWidget {
       builder: (context, state) {
         return switch (state) {
           AuthInitial() || AuthRestoring() => const _LaunchView(),
-          AuthAuthenticated authenticated => _authenticated(authenticated),
+          AuthAuthenticated authenticated => _learningShell(
+            uid: authenticated.user.uid,
+          ),
           _ => _signedOut(),
         };
       },
-    );
-  }
-
-  Widget _authenticated(AuthAuthenticated state) {
-    if (!state.needsOnboarding) {
-      return _learningShell(uid: state.user.uid);
-    }
-    return BlocProvider(
-      key: ValueKey(state.user.uid),
-      create: (_) =>
-          ProfileCubit(serviceLocator<UserProfileRepository>(), state.profile),
-      child: const LearningProfileScreen(),
     );
   }
 
@@ -82,13 +67,6 @@ class AuthGate extends StatelessWidget {
           create: (_) => ReferenceCubit(
             serviceLocator<GrammarReferenceRepository>(),
             serviceLocator<ProgressRepository>(),
-            owner,
-          )..load(),
-        ),
-        BlocProvider(
-          create: (_) => TeacherCubit(
-            serviceLocator<CurriculumRepository>(),
-            serviceLocator<TeacherWorkspaceRepository>(),
             owner,
           )..load(),
         ),

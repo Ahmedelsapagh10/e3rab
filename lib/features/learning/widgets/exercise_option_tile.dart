@@ -10,6 +10,7 @@ class ExerciseOptionTile extends StatelessWidget {
     required this.submitted,
     required this.correct,
     required this.revealed,
+    required this.showResult,
     required this.onSelected,
   });
 
@@ -18,12 +19,13 @@ class ExerciseOptionTile extends StatelessWidget {
   final bool submitted;
   final bool correct;
   final bool revealed;
+  final bool showResult;
   final VoidCallback onSelected;
 
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    final color = !submitted
+    final color = !submitted || !showResult
         ? selected
               ? scheme.primaryContainer
               : scheme.surface
@@ -42,10 +44,10 @@ class ExerciseOptionTile extends StatelessWidget {
           semanticLabel: selected ? 'محدد' : 'غير محدد',
         ),
         title: Text(option.text),
-        subtitle: submitted && (selected || correct || revealed)
+        subtitle: submitted && showResult && (selected || correct || revealed)
             ? Text(option.feedback)
             : null,
-        trailing: submitted
+        trailing: submitted && showResult
             ? Icon(
                 correct
                     ? Icons.check_circle

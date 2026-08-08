@@ -43,28 +43,35 @@ class OnBoardingScreen extends StatelessWidget {
               ),
               SafeArea(
                 top: false,
-                minimum: const EdgeInsets.all(E3rabSpacing.large),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Center(
-                      child: SmoothPageIndicator(
-                        controller: cubit.pageController,
-                        count: OnboardingCubit.numPages,
-                        effect: const WormEffect(
-                          activeDotColor: E3rabBrandColors.primaryOrange,
-                          dotColor: E3rabBrandColors.softOrange,
-                          dotHeight: 8,
-                          dotWidth: 8,
-                        ),
+                child: Padding(
+                  padding: const EdgeInsets.all(E3rabSpacing.large),
+                  child: Center(
+                    child: ConstrainedBox(
+                      constraints: const BoxConstraints(maxWidth: 580),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Center(
+                            child: SmoothPageIndicator(
+                              controller: cubit.pageController,
+                              count: OnboardingCubit.numPages,
+                              effect: const WormEffect(
+                                activeDotColor: E3rabBrandColors.primaryOrange,
+                                dotColor: E3rabBrandColors.softOrange,
+                                dotHeight: 8,
+                                dotWidth: 8,
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: E3rabSpacing.large),
+                          FilledButton(
+                            onPressed: () => _next(context, cubit, isLastPage),
+                            child: Text(isLastPage ? 'ابدأ الآن' : 'متابعة'),
+                          ),
+                        ],
                       ),
                     ),
-                    const SizedBox(height: E3rabSpacing.large),
-                    FilledButton(
-                      onPressed: () => _next(context, cubit, isLastPage),
-                      child: Text(isLastPage ? 'ابدأ الآن' : 'متابعة'),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ],

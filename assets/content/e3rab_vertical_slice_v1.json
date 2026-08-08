@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "e3rab-vertical-slice-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.0.0",
+    "contentVersion": "1.1.0",
     "curriculumVersion": "egypt-2025-2026-draft-mapping-v1",
     "locale": "ar",
     "entityIds": [
@@ -274,6 +274,27 @@
           ],
           "explanation": "دل «يكتب» على حدث يقع في الزمن الحاضر أو المستقبل؛ فهو فعل مضارع.",
           "referenceIds": []
+        },
+        {
+          "id": "parts-of-speech-example-3",
+          "sentence": "في المدرسة مكتبة",
+          "fullyDiacritizedSentence": "فِي المَدْرَسَةِ مَكْتَبَةٌ",
+          "parsedWords": [
+            {
+              "word": "في",
+              "normalizedWord": "في",
+              "wordType": "حرف جر",
+              "grammaticalRole": "حرف يربط المعنى",
+              "grammaticalState": "مبني لا محل له",
+              "grammaticalSign": "البناء",
+              "signReason": "الحروف مبنية",
+              "explanation": "«في» لا تدل على معنى كامل وحدها، بل تربط المكتبة بالمدرسة؛ فهي حرف جر.",
+              "startIndex": 0,
+              "endIndex": 2
+            }
+          ],
+          "explanation": "«في» حرف جر يظهر معناه مع غيره، ويجر الاسم بعده.",
+          "referenceIds": ["ref-moe-primary6"]
         }
       ],
       "exerciseIds": [
@@ -294,7 +315,7 @@
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "sourceDocumented"
     },
     {
@@ -459,6 +480,39 @@
           ],
           "explanation": "شبه الجملة «في الفصل» خبر مقدم، و«طلاب» مبتدأ مؤخر مرفوع.",
           "referenceIds": []
+        },
+        {
+          "id": "nominal-sentence-example-3",
+          "sentence": "الطالبان مجتهدان",
+          "fullyDiacritizedSentence": "الطَّالِبَانِ مُجْتَهِدَانِ",
+          "parsedWords": [
+            {
+              "word": "الطالبان",
+              "normalizedWord": "الطالبان",
+              "wordType": "اسم مثنى",
+              "grammaticalRole": "مبتدأ",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف",
+              "signReason": "لأنه مثنى",
+              "explanation": "«الطالبان» مبتدأ مرفوع، وعلامة رفعه الألف لأنه مثنى.",
+              "startIndex": 0,
+              "endIndex": 8
+            },
+            {
+              "word": "مجتهدان",
+              "normalizedWord": "مجتهدان",
+              "wordType": "اسم مثنى",
+              "grammaticalRole": "خبر",
+              "grammaticalState": "مرفوع",
+              "grammaticalSign": "الألف",
+              "signReason": "لأنه مثنى",
+              "explanation": "«مجتهدان» خبر مرفوع أتم المعنى، وعلامة رفعه الألف.",
+              "startIndex": 9,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "المبتدأ والخبر مثنيان مرفوعان بالألف.",
+          "referenceIds": ["ref-moe-primary6"]
         }
       ],
       "exerciseIds": [
@@ -479,7 +533,7 @@
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "sourceDocumented"
     },
     {
@@ -644,6 +698,27 @@
           ],
           "explanation": "الجملة الفعلية «يبتسم» في محل نصب حال، وصاحب الحال «الطالب».",
           "referenceIds": []
+        },
+        {
+          "id": "sentences-with-syntactic-position-example-3",
+          "sentence": "رأيت طالبًا يقرأ",
+          "fullyDiacritizedSentence": "رَأَيْتُ طَالِبًا يَقْرَأُ",
+          "parsedWords": [
+            {
+              "word": "يقرأ",
+              "normalizedWord": "يقرا",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "بداية جملة فعلية صفة",
+              "grammaticalState": "في محل نصب",
+              "grammaticalSign": "محل الجملة",
+              "signReason": "وقعت الجملة بعد نكرة منصوبة ووصفتها",
+              "explanation": "الجملة الفعلية «يقرأ» في محل نصب صفة لـ«طالبًا».",
+              "startIndex": 12,
+              "endIndex": 16
+            }
+          ],
+          "explanation": "جملة «يقرأ» وصفت اسمًا نكرة منصوبًا؛ لذلك هي في محل نصب صفة.",
+          "referenceIds": ["ref-moe-secondary-model"]
         }
       ],
       "exerciseIds": [
@@ -664,7 +739,7 @@
         "ref-jami-durus"
       ],
       "estimatedMinutes": 18,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "sourceDocumented"
     }
   ],

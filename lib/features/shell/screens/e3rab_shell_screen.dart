@@ -11,7 +11,6 @@ import '../../auth/cubit/auth_state.dart';
 import '../../learning/cubit/learning_cubit.dart';
 import '../../learning/widgets/learning_hub_view.dart';
 import '../../learning/widgets/reference_search_view.dart';
-import '../../learning/widgets/review_center_view.dart';
 import '../../parsing/cubit/parsing_cubit.dart';
 import '../../parsing/widgets/parsing_lab_view.dart';
 import '../../progress/data/model/learning_progress_models.dart';
@@ -25,33 +24,28 @@ import '../widgets/shell_app_bar.dart';
 import '../widgets/shell_body_transition.dart';
 import '../widgets/student_account_view.dart';
 
+const e3rabShellDestinations = [
+  E3rabNavigationDestination(
+    label: 'الرئيسية',
+    icon: Icon(Icons.home_outlined),
+    selectedIcon: Icon(Icons.home_rounded),
+  ),
+  E3rabNavigationDestination(
+    label: 'الدروس',
+    icon: Icon(Icons.school_outlined),
+    selectedIcon: Icon(Icons.school_rounded),
+  ),
+  E3rabNavigationDestination(
+    label: 'حسابي',
+    icon: Icon(Icons.person_outline_rounded),
+    selectedIcon: Icon(Icons.person_rounded),
+  ),
+];
+
 class E3rabShellScreen extends StatelessWidget {
   const E3rabShellScreen({super.key, required this.uid});
 
   final String uid;
-
-  static const _destinations = [
-    E3rabNavigationDestination(
-      label: 'الرئيسية',
-      icon: Icon(Icons.home_outlined),
-      selectedIcon: Icon(Icons.home_rounded),
-    ),
-    E3rabNavigationDestination(
-      label: 'تعلّم',
-      icon: Icon(Icons.school_outlined),
-      selectedIcon: Icon(Icons.school_rounded),
-    ),
-    E3rabNavigationDestination(
-      label: 'تدرّب',
-      icon: Icon(Icons.edit_note_outlined),
-      selectedIcon: Icon(Icons.edit_note_rounded),
-    ),
-    E3rabNavigationDestination(
-      label: 'حسابي',
-      icon: Icon(Icons.person_outline_rounded),
-      selectedIcon: Icon(Icons.person_rounded),
-    ),
-  ];
 
   @override
   Widget build(BuildContext context) {
@@ -61,12 +55,12 @@ class E3rabShellScreen extends StatelessWidget {
         builder: (context, selectedIndex) {
           return E3rabAdaptiveScaffold(
             selectedIndex: selectedIndex,
-            destinations: _destinations,
+            destinations: e3rabShellDestinations,
             onDestinationSelected: context.read<ShellCubit>().selectDestination,
             appBar: ShellAppBar(
               selectedIndex: selectedIndex,
               onAccountTap: () => context.read<ShellCubit>().selectDestination(
-                _destinations.length - 1,
+                e3rabShellDestinations.length - 1,
               ),
             ),
             body: ShellBodyTransition(
@@ -80,12 +74,12 @@ class E3rabShellScreen extends StatelessWidget {
   }
 
   Widget _body(BuildContext context, int index) => switch (index) {
-    0 => const E3rabHomeView(),
-    1 => LearningHubView(
+    0 => E3rabHomeView(
+      onOpenLessons: () => context.read<ShellCubit>().selectDestination(1),
       onOpenReference: () => _openReference(context),
       onOpenParsingLab: () => _openParsingLab(context),
     ),
-    2 => const ReviewCenterView(),
+    1 => const LearningHubView(),
     _ => StudentAccountView(
       onOpenSettings: () => _openSettings(context),
       onOpenLearningPreferences: () => _openLearningPreferences(context),

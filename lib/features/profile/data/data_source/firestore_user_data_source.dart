@@ -81,10 +81,10 @@ class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
     'displayName': user.displayName,
     'photoUrl': user.photoUrl,
     'authProviders': user.providerIds,
-    'learningRole': LearningRole.student.name,
+    'learningRole': LearningRole.independentLearner.name,
     'countryCode': 'EG',
     'preferredLocale': 'ar',
-    'onboardingCompleted': false,
+    'onboardingCompleted': true,
     'profileSchemaVersion': 1,
     'createdAt': FieldValue.serverTimestamp(),
     'updatedAt': FieldValue.serverTimestamp(),
@@ -105,7 +105,7 @@ class FirestoreUserDataSourceImpl implements FirestoreUserDataSource {
       'authProviders': user.providerIds,
       'learningRole': role is String && roles.contains(role)
           ? role
-          : LearningRole.student.name,
+          : LearningRole.independentLearner.name,
       'countryCode': data['countryCode'] is String ? data['countryCode'] : 'EG',
       'preferredLocale': data['preferredLocale'] is String
           ? data['preferredLocale']

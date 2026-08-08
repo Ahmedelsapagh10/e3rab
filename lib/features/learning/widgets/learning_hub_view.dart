@@ -7,113 +7,60 @@ import '../cubit/learning_state.dart';
 import '../screens/lesson_screen.dart';
 import 'learning_status_view.dart';
 import 'lesson_card.dart';
-import 'grammar_coverage_view.dart';
-import 'learning_hub_header.dart';
 
 class LearningHubView extends StatelessWidget {
-  const LearningHubView({
-    super.key,
-    required this.onOpenReference,
-    required this.onOpenParsingLab,
-  });
-
-  final VoidCallback onOpenReference;
-  final VoidCallback onOpenParsingLab;
+  const LearningHubView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<LearningCubit, LearningState>(
       builder: (context, state) => LearningStatusView(
         state: state,
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            final largeText = MediaQuery.textScalerOf(context).scale(1) > 1.35;
-            final columns = constraints.maxWidth >= 1024
-                ? 3
-                : constraints.maxWidth >= 680
-                ? 2
-                : 1;
-            final horizontalPadding = constraints.maxWidth > 1028
-                ? (constraints.maxWidth - 980) / 2
-                : E3rabSpacing.large;
-            return CustomScrollView(
-              slivers: [
-                SliverPadding(
-                  padding: EdgeInsets.fromLTRB(
-                    horizontalPadding,
-                    E3rabSpacing.large,
-                    horizontalPadding,
-                    E3rabSpacing.medium,
-                  ),
-                  sliver: SliverToBoxAdapter(
-                    child: Center(
-                      child: ConstrainedBox(
-                        constraints: const BoxConstraints(maxWidth: 980),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            LearningHubHeader(
-                              onOpenReference: onOpenReference,
-                              onOpenParsingLab: onOpenParsingLab,
-                            ),
-                            const SizedBox(height: E3rabSpacing.xLarge),
-                            Text(
-                              'الدروس المتاحة',
-                              style: Theme.of(context).textTheme.titleLarge,
-                            ),
-                          ],
+        child: ListView(
+          padding: const EdgeInsets.all(E3rabSpacing.large),
+          children: [
+            Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 820),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      'الدروس',
+                      style: Theme.of(context).textTheme.headlineMedium
+                          ?.copyWith(fontWeight: FontWeight.w800),
+                    ),
+                    const SizedBox(height: E3rabSpacing.small),
+                    const Text(
+                      'اختر الدرس، ثم تنقّل بوضوح بين الشرح والأمثلة والتطبيق.',
+                      style: TextStyle(height: 1.7),
+                    ),
+                    const SizedBox(height: E3rabSpacing.xLarge),
+                    ...state.lessons.map(
+                      (lesson) => Padding(
+                        padding: const EdgeInsets.only(
+                          bottom: E3rabSpacing.medium,
                         ),
-                      ),
-                    ),
-                  ),
-                ),
-                SliverPadding(
-                  padding: EdgeInsets.fromLTRB(
-                    horizontalPadding,
-                    E3rabSpacing.small,
-                    horizontalPadding,
-                    E3rabSpacing.xLarge,
-                  ),
-                  sliver: SliverGrid.builder(
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: largeText ? 1 : columns,
-                      crossAxisSpacing: E3rabSpacing.medium,
-                      mainAxisSpacing: E3rabSpacing.medium,
-                      mainAxisExtent: largeText ? 660 : 300,
-                    ),
-                    itemCount: state.lessons.length,
-                    itemBuilder: (context, index) {
-                      final lesson = state.lessons[index];
-                      return LessonCard(
-                        lesson: lesson,
-                        progress: state.progressFor(lesson.id),
-                        bookmarked: state.isBookmarked(lesson.id),
-                        onOpen: () => Navigator.of(context).push(
-                          MaterialPageRoute<void>(
-                            builder: (_) => BlocProvider.value(
-                              value: context.read<LearningCubit>(),
-                              child: LessonScreen(lesson: lesson),
+                        child: LessonCard(
+                          lesson: lesson,
+                          progress: state.progressFor(lesson.id),
+                          bookmarked: state.isBookmarked(lesson.id),
+                          onOpen: () => Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => BlocProvider.value(
+                                value: context.read<LearningCubit>(),
+                                child: LessonScreen(lesson: lesson),
+                              ),
                             ),
                           ),
                         ),
-                      );
-                    },
-                  ),
+                      ),
+                    ),
+                  ],
                 ),
-                SliverPadding(
-                  padding: EdgeInsets.fromLTRB(
-                    horizontalPadding,
-                    0,
-                    horizontalPadding,
-                    40,
-                  ),
-                  sliver: SliverToBoxAdapter(
-                    child: GrammarCoverageView(tracks: state.coverageTracks),
-                  ),
-                ),
-              ],
-            );
-          },
+              ),
+            ),
+          ],
         ),
       ),
     );

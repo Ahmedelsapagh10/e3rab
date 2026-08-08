@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "egypt-secondary2-term1-batch1-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.0.0",
+    "contentVersion": "1.1.0",
     "curriculumVersion": "egypt-national-2025-2026",
     "locale": "ar",
     "entityIds": [
@@ -166,6 +166,27 @@
           ],
           "explanation": "صح معنى الشرط: إن تسعَ في الخير ترقَ.",
           "referenceIds": []
+        },
+        {
+          "id": "jussive-answer-request-v1-example-3",
+          "sentence": "لا تهمل واجبك تنجح",
+          "fullyDiacritizedSentence": "لَا تُهْمِلْ وَاجِبَكَ تَنْجَحْ",
+          "parsedWords": [
+            {
+              "word": "تنجح",
+              "normalizedWord": "تنجح",
+              "wordType": "فعل مضارع",
+              "grammaticalRole": "جواب الطلب",
+              "grammaticalState": "مجزوم",
+              "grammaticalSign": "السكون الظاهر",
+              "signReason": "فعل مضارع صحيح الآخر وقع جوابًا للنهي",
+              "explanation": "النجاح نتيجة عدم إهمال الواجب، ويصح المعنى: إن لا تهملْ واجبك تنجحْ.",
+              "startIndex": 14,
+              "endIndex": 18
+            }
+          ],
+          "explanation": "«تنجحْ» جواب للنهي «لا تهملْ»، وهو نتيجة مترتبة على الامتثال للطلب.",
+          "referenceIds": ["ref-moe-secondary2-week6-2025-2026"]
         }
       ],
       "exerciseIds": [
@@ -183,7 +204,7 @@
       "referenceIds": ["ref-moe-secondary2-week6-2025-2026"],
       "tags": ["جواب الطلب", "جزم المضارع", "الأمر", "النهي", "علامات الجزم"],
       "estimatedMinutes": 20,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "aiAssistedDraft",
       "reviewedBy": null,
       "reviewedAt": null

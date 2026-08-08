@@ -107,6 +107,7 @@ void main() {
       expect(lesson['reviewStatus'], 'aiAssistedDraft');
       expect(lesson['reviewedBy'], isNull);
       expect(lesson['reviewedAt'], isNull);
+      expect((lesson['examples'] as List), hasLength(3));
       expect(
         exercises.every(
           (exercise) => exercise['reviewStatus'] == 'aiAssistedDraft',
