@@ -15,10 +15,16 @@ class LightTheme {
     primaryColor: AppColorsExtension.light.primary,
     colorScheme: ColorScheme.light(
       primary: AppColorsExtension.light.primary,
+      onPrimary: Colors.white,
+      primaryContainer: E3rabBrandColors.primaryContainer,
+      onPrimaryContainer: E3rabBrandColors.heading,
       secondary: AppColorsExtension.light.secondary,
       surface: AppColorsExtension.light.surface,
-
+      onSurface: AppColorsExtension.light.textPrimary,
+      onSurfaceVariant: AppColorsExtension.light.textSecondary,
+      outline: AppColorsExtension.light.borderColor,
       error: AppColorsExtension.light.error,
+      onError: Colors.white,
     ),
 
     // Background colors
@@ -71,11 +77,11 @@ class LightTheme {
     textTheme: TextTheme(
       titleLarge: TextStyle(
         color: AppColorsExtension.light.textPrimary,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w600,
       ),
       titleMedium: TextStyle(
         color: AppColorsExtension.light.textPrimary,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w600,
       ),
       titleSmall: TextStyle(
         color: AppColorsExtension.light.textPrimary,

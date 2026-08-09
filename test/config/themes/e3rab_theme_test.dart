@@ -31,6 +31,20 @@ void main() {
     expect(_contrast(dark.textPrimary, dark.surface), greaterThan(4.5));
   });
 
+  test('learning containers keep readable contrast in both themes', () {
+    final light = LightTheme.theme.colorScheme;
+    final dark = DarkTheme.theme.colorScheme;
+
+    expect(
+      _contrast(light.onPrimaryContainer, light.primaryContainer),
+      greaterThan(4.5),
+    );
+    expect(
+      _contrast(dark.onPrimaryContainer, dark.primaryContainer),
+      greaterThan(4.5),
+    );
+  });
+
   test('reading and interaction tokens stay accessible', () {
     expect(E3rabReadingMetrics.maxContentWidth, inInclusiveRange(680, 720));
     expect(E3rabReadingMetrics.minimumTapTarget, greaterThanOrEqualTo(48));

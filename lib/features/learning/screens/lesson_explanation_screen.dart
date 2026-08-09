@@ -18,7 +18,12 @@ class LessonExplanationScreen extends StatelessWidget {
     final sections = [...lesson.sections]
       ..sort((a, b) => a.order.compareTo(b.order));
     return Scaffold(
-      appBar: AppBar(title: const Text('الشرح')),
+      appBar: AppBar(
+        title: const Text(
+          'الشرح',
+          style: TextStyle(fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SelectionArea(
         child: ListView(
           padding: const EdgeInsets.all(E3rabSpacing.large),
@@ -33,8 +38,8 @@ class LessonExplanationScreen extends StatelessWidget {
                   children: [
                     Text(
                       lesson.title,
-                      style: Theme.of(context).textTheme.headlineMedium
-                          ?.copyWith(fontWeight: FontWeight.w800, height: 1.4),
+                      style: Theme.of(context).textTheme.headlineSmall
+                          ?.copyWith(fontWeight: FontWeight.w600, height: 1.5),
                     ),
                     const SizedBox(height: E3rabSpacing.large),
                     _ObjectivesCard(objectives: lesson.objectives),
@@ -65,25 +70,41 @@ class _ObjectivesCard extends StatelessWidget {
   final List<String> objectives;
 
   @override
-  Widget build(BuildContext context) => Card(
-    color: Theme.of(context).colorScheme.primaryContainer,
-    child: Padding(
-      padding: const EdgeInsets.all(E3rabSpacing.large),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text('ماذا ستتعلم؟', style: Theme.of(context).textTheme.titleLarge),
-          const SizedBox(height: E3rabSpacing.small),
-          ...objectives.map(
-            (item) => Padding(
-              padding: const EdgeInsets.only(bottom: E3rabSpacing.small),
-              child: Text('• $item', style: const TextStyle(height: 1.7)),
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      color: scheme.primaryContainer,
+      child: Padding(
+        padding: const EdgeInsets.all(E3rabSpacing.large),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'ماذا ستتعلم؟',
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                color: scheme.onPrimaryContainer,
+                fontWeight: FontWeight.w600,
+              ),
             ),
-          ),
-        ],
+            const SizedBox(height: E3rabSpacing.small),
+            ...objectives.map(
+              (item) => Padding(
+                padding: const EdgeInsets.only(bottom: E3rabSpacing.small),
+                child: Text(
+                  '• $item',
+                  style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    color: scheme.onPrimaryContainer,
+                    fontWeight: FontWeight.w400,
+                    height: E3rabReadingMetrics.paragraphHeight,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
-    ),
-  );
+    );
+  }
 }
 
 class _ExplanationSection extends StatelessWidget {
@@ -97,9 +118,20 @@ class _ExplanationSection extends StatelessWidget {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(section.title, style: Theme.of(context).textTheme.titleLarge),
+        Text(
+          section.title,
+          style: Theme.of(
+            context,
+          ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+        ),
         const SizedBox(height: E3rabSpacing.small),
-        Text(section.body, style: const TextStyle(height: 1.85)),
+        Text(
+          section.body,
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+            fontWeight: FontWeight.w400,
+            height: E3rabReadingMetrics.paragraphHeight,
+          ),
+        ),
       ],
     ),
   );

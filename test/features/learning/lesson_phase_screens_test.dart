@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:new_strucuture/config/themes/light_theme.dart';
+import 'package:new_strucuture/core/design_system/e3rab_design_tokens.dart';
 import 'package:new_strucuture/features/curriculum/data/model/content_review_status.dart';
 import 'package:new_strucuture/features/curriculum/data/model/lesson_model.dart';
 import 'package:new_strucuture/features/learning/screens/lesson_examples_screen.dart';
@@ -11,6 +13,7 @@ void main() {
     var completed = false;
     await tester.pumpWidget(
       MaterialApp(
+        theme: LightTheme.theme,
         home: LessonExplanationScreen(
           lesson: _lesson,
           onCompleted: () async => completed = true,
@@ -20,6 +23,11 @@ void main() {
 
     expect(find.text('الشرح'), findsOneWidget);
     expect(find.text('ماذا ستتعلم؟'), findsOneWidget);
+    final objectivesCard = tester.widget<Card>(find.byType(Card));
+    final objectivesTitle = tester.widget<Text>(find.text('ماذا ستتعلم؟'));
+    expect(objectivesCard.color, E3rabBrandColors.primaryContainer);
+    expect(objectivesTitle.style?.color, E3rabBrandColors.heading);
+    expect(objectivesTitle.style?.fontWeight, FontWeight.w600);
     expect(find.text('اختر إجابة'), findsNothing);
     await tester.tap(find.text('فهمت الشرح'));
     await tester.pumpAndSettle();

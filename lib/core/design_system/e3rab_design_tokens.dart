@@ -14,6 +14,8 @@ abstract final class E3rabBrandColors {
   static const error = Color(0xFFB4453F);
   static const darkBackground = Color(0xFF101B18);
   static const darkSurface = Color(0xFF182824);
+  static const darkPrimaryContainer = Color(0xFF24473E);
+  static const darkOnPrimaryContainer = Color(0xFFE7F0EB);
 }
 
 abstract final class E3rabBreakpoints {

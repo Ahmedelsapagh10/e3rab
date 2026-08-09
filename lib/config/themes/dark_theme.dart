@@ -17,10 +17,16 @@ class DarkTheme {
     primaryColor: AppColorsExtension.dark.primary,
     colorScheme: ColorScheme.dark(
       primary: AppColorsExtension.dark.primary,
+      onPrimary: E3rabBrandColors.darkBackground,
+      primaryContainer: E3rabBrandColors.darkPrimaryContainer,
+      onPrimaryContainer: E3rabBrandColors.darkOnPrimaryContainer,
       secondary: AppColorsExtension.dark.secondary,
       surface: AppColorsExtension.dark.surface,
-
+      onSurface: AppColorsExtension.dark.textPrimary,
+      onSurfaceVariant: AppColorsExtension.dark.textSecondary,
+      outline: AppColorsExtension.dark.borderColor,
       error: AppColorsExtension.dark.error,
+      onError: E3rabBrandColors.darkBackground,
     ),
 
     // Background colors
@@ -73,11 +79,11 @@ class DarkTheme {
     textTheme: TextTheme(
       titleLarge: TextStyle(
         color: AppColorsExtension.dark.textPrimary,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w600,
       ),
       titleMedium: TextStyle(
         color: AppColorsExtension.dark.textPrimary,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w600,
       ),
       titleSmall: TextStyle(
         color: AppColorsExtension.dark.textPrimary,
