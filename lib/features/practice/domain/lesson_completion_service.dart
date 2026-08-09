@@ -6,6 +6,8 @@ class LessonCompletionService {
   const LessonCompletionService();
 
   static const masteryThreshold = .8;
+  static const masteryQuestionCount = 5;
+  static const masteryCorrectAnswerCount = 4;
 
   Future<void> completePractice({
     required ProgressRepository repository,
@@ -68,7 +70,10 @@ class LessonCompletionService {
     final score = exerciseCount == 0 ? 0.0 : correctCount / exerciseCount;
     final previouslyMastered =
         existing?.masteryStatus == LessonMasteryStatus.mastered;
-    final mastered = previouslyMastered || score >= masteryThreshold;
+    final passedCurrentCheck =
+        exerciseCount == masteryQuestionCount &&
+        correctCount >= masteryCorrectAnswerCount;
+    final mastered = previouslyMastered || passedCurrentCheck;
     final completed = {...?existing?.completedPhases};
     if (mastered) completed.add(LearningPhaseType.masteryCheck);
     await repository.saveLessonProgress(

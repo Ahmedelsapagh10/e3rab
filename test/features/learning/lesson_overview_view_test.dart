@@ -8,13 +8,14 @@ void main() {
   testWidgets('lesson overview exposes six open phases and recommendation', (
     tester,
   ) async {
+    final selectedPhases = <int>[];
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
           body: LessonOverviewView(
             lesson: _lesson,
             suggestedPhase: 1,
-            onPhaseSelected: (_) {},
+            onPhaseSelected: selectedPhases.add,
           ),
         ),
       ),
@@ -28,6 +29,12 @@ void main() {
     expect(find.text('٦. اختبر إتقانك'), findsOneWidget);
     expect(find.text('الخطوة المقترحة'), findsOneWidget);
     expect(find.byType(InkWell), findsNWidgets(6));
+    for (var index = 0; index < 6; index++) {
+      await tester.ensureVisible(find.byType(InkWell).at(index));
+      await tester.tap(find.byType(InkWell).at(index));
+      await tester.pump();
+    }
+    expect(selectedPhases, [0, 1, 2, 3, 4, 5]);
   });
 
   testWidgets('lesson overview supports narrow RTL layout and large text', (

@@ -176,7 +176,7 @@
     {
       "packId": "e3rab-general-applied-parsing-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_applied_parsing_batch1_v1.json",
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
       "reviewStatus": "inReview",
       "seedEnabled": true,

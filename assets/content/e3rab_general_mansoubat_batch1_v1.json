@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "e3rab-general-mansoubat-batch1-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.0.0",
+    "contentVersion": "1.1.0",
     "curriculumVersion": "e3rab-general-arabic-v1",
     "locale": "ar",
     "entityIds": [
@@ -389,7 +389,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -403,7 +403,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 10
@@ -417,7 +417,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل «كتب»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 11,
               "endIndex": 16
@@ -442,7 +442,7 @@
               "grammaticalSign": "السكون لاتصاله بتاء الفاعل",
               "signReason": "فعل ماض اتصل به فاعله",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون لاتصاله بتاء الفاعل.",
               "startIndex": 0,
               "endIndex": 5
@@ -456,7 +456,7 @@
               "grammaticalSign": "الياء",
               "signReason": "جمع مذكر سالم",
               "grammaticalAgent": "الفعل «أكرمت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الياء.",
               "startIndex": 6,
               "endIndex": 14
@@ -481,7 +481,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 4
@@ -495,7 +495,7 @@
               "grammaticalSign": "الياء",
               "signReason": "مثنى",
               "grammaticalAgent": "الفعل «حفظت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الياء.",
               "startIndex": 5,
               "endIndex": 14
@@ -520,7 +520,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بنا الفاعلين",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 5
@@ -534,7 +534,7 @@
               "grammaticalSign": "الكسرة نيابة عن الفتحة",
               "signReason": "جمع مؤنث سالم",
               "grammaticalAgent": "الفعل «شكرنا»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الكسرة نيابة عن الفتحة.",
               "startIndex": 6,
               "endIndex": 14
@@ -576,7 +576,7 @@
         "mansoubat.object"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -712,7 +712,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 4
@@ -726,7 +726,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل «شكرت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 5,
               "endIndex": 11
@@ -740,7 +740,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "مصدر من لفظ الفعل",
               "grammaticalAgent": "الفعل «شكرت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول مطلق مؤكد؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 12,
               "endIndex": 16
@@ -765,7 +765,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 5
@@ -779,7 +779,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 6,
               "endIndex": 11
@@ -793,7 +793,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "وصفه يبين نوعه",
               "grammaticalAgent": "الفعل «انتصر»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول مطلق مبين للنوع؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 12,
               "endIndex": 19
@@ -807,7 +807,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "تابع لمنصوب",
               "grammaticalAgent": "المفعول المطلق «انتصارا»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "نعت للمفعول المطلق؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 20,
               "endIndex": 25
@@ -832,7 +832,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 2
@@ -846,7 +846,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 3,
               "endIndex": 8
@@ -860,7 +860,7 @@
               "grammaticalSign": "الياء",
               "signReason": "مثنى",
               "grammaticalAgent": "الفعل «دق»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول مطلق مبين للعدد؛ منصوب، وعلامته الياء.",
               "startIndex": 9,
               "endIndex": 14
@@ -885,7 +885,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -899,7 +899,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 11
@@ -913,7 +913,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "مصدر من لفظ الفعل",
               "grammaticalAgent": "الفعل «سار»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول مطلق مبين للنوع؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 12,
               "endIndex": 16
@@ -927,7 +927,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "تابع للمفعول المطلق",
               "grammaticalAgent": "المفعول المطلق «سيرا»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع نعت في التركيب",
               "explanation": "نعت؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 17,
               "endIndex": 22
@@ -969,7 +969,7 @@
         "mansoubat.absolute-object"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1105,7 +1105,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 6
@@ -1119,7 +1119,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "بيّن سبب الاجتهاد",
               "grammaticalAgent": "الفعل «اجتهدت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول لأجله؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 7,
               "endIndex": 11
@@ -1133,7 +1133,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف جر في التركيب",
               "explanation": "حرف جر؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 12,
               "endIndex": 14
@@ -1147,7 +1147,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "حرف الجر قبله",
-              "sentencePosition": "",
+              "sentencePosition": "داخل شبه الجملة أو الإضافة",
               "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 15,
               "endIndex": 21
@@ -1172,7 +1172,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 4
@@ -1186,7 +1186,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "سبب الوقوف",
               "grammaticalAgent": "الفعل «وقفت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول لأجله؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 5,
               "endIndex": 12
@@ -1200,7 +1200,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بحرف الجر اللام",
               "grammaticalAgent": "المصدر «احتراما»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع متعلق بالمصدر في التركيب",
               "explanation": "متعلق بالمصدر؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 13,
               "endIndex": 19
@@ -1225,7 +1225,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 5
@@ -1239,7 +1239,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "سبب السفر",
               "grammaticalAgent": "الفعل «سافرت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول لأجله؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 6,
               "endIndex": 10
@@ -1253,7 +1253,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بحرف الجر",
               "grammaticalAgent": "المصدر «طلبا»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع متعلق بالمصدر في التركيب",
               "explanation": "متعلق بالمصدر؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 11,
               "endIndex": 16
@@ -1278,7 +1278,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 5
@@ -1292,7 +1292,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "سبب التصدق",
               "grammaticalAgent": "الفعل «تصدقت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول لأجله؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 6,
               "endIndex": 12
@@ -1306,7 +1306,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بمضاف",
               "grammaticalAgent": "المصدر «ابتغاء»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع مضاف إليه في التركيب",
               "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 13,
               "endIndex": 18
@@ -1348,7 +1348,7 @@
         "mansoubat.causal-object"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1484,7 +1484,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 5
@@ -1498,7 +1498,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "تضمن معنى في",
               "grammaticalAgent": "الفعل «سافرت»",
-              "sentencePosition": "",
+              "sentencePosition": "شبه جملة ظرفية متعلقة بالعامل",
               "explanation": "ظرف زمان؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 6,
               "endIndex": 11
@@ -1523,7 +1523,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 4
@@ -1537,7 +1537,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "مكان مبهم متضمن معنى في",
               "grammaticalAgent": "الفعل «جلست»",
-              "sentencePosition": "",
+              "sentencePosition": "شبه جملة ظرفية متعلقة بالعامل",
               "explanation": "ظرف مكان؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 5,
               "endIndex": 9
@@ -1551,7 +1551,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بمضاف",
               "grammaticalAgent": "الظرف «أمام»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع مضاف إليه في التركيب",
               "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 10,
               "endIndex": 16
@@ -1576,7 +1576,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 6
@@ -1590,7 +1590,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "مدة وقع فيها الانتظار",
               "grammaticalAgent": "الفعل «انتظرت»",
-              "sentencePosition": "",
+              "sentencePosition": "شبه جملة ظرفية متعلقة بالعامل",
               "explanation": "ظرف زمان؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 7,
               "endIndex": 11
@@ -1615,7 +1615,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 3
@@ -1629,7 +1629,7 @@
               "grammaticalSign": "الياء",
               "signReason": "مثنى",
               "grammaticalAgent": "الفعل «سرت»",
-              "sentencePosition": "",
+              "sentencePosition": "شبه جملة ظرفية متعلقة بالعامل",
               "explanation": "ظرف زمان؛ منصوب، وعلامته الياء.",
               "startIndex": 4,
               "endIndex": 9
@@ -1671,7 +1671,7 @@
         "mansoubat.adverbial-object"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1807,7 +1807,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 3
@@ -1821,7 +1821,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "الواو بمعنى مع",
               "grammaticalAgent": "الفعل «سرت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "واو المعية ومفعول معه؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 4,
               "endIndex": 10
@@ -1846,7 +1846,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 5
@@ -1860,7 +1860,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 6,
               "endIndex": 11
@@ -1874,7 +1874,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "تعذر عطف الخشبة فاعلًا",
               "grammaticalAgent": "الفعل «استوى»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "واو المعية ومفعول معه؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 12,
               "endIndex": 19
@@ -1899,7 +1899,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 3
@@ -1913,7 +1913,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "المصاحبة لا المشاركة",
               "grammaticalAgent": "الفعل «سرت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "واو المعية ومفعول معه؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 4,
               "endIndex": 11
@@ -1938,7 +1938,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 3
@@ -1952,7 +1952,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "تعذر عطف الجبل فاعلًا",
               "grammaticalAgent": "الفعل «سرت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "واو المعية ومفعول معه؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 4,
               "endIndex": 10
@@ -1994,7 +1994,7 @@
         "mansoubat.accompaniment-object"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2130,7 +2130,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -2144,7 +2144,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 9
@@ -2183,7 +2183,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -2197,7 +2197,7 @@
               "grammaticalSign": "الألف",
               "signReason": "مثنى",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الألف.",
               "startIndex": 4,
               "endIndex": 12
@@ -2236,7 +2236,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -2250,7 +2250,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 10
@@ -2289,7 +2289,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 5
@@ -2303,7 +2303,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل «شاهدت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به وصاحب الحال؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 6,
               "endIndex": 12
@@ -2359,7 +2359,7 @@
         "mansoubat.circumstantial"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2495,7 +2495,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 5
@@ -2509,7 +2509,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 6,
               "endIndex": 12
@@ -2523,7 +2523,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "فسر جهة الازدياد",
               "grammaticalAgent": "الفعل «ازداد»",
-              "sentencePosition": "",
+              "sentencePosition": "مفسر للإبهام في التركيب",
               "explanation": "تمييز نسبة؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 13,
               "endIndex": 17
@@ -2548,7 +2548,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 6
@@ -2562,7 +2562,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل «اشتريت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 7,
               "endIndex": 11
@@ -2576,7 +2576,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "فسر المقصود باللتر",
               "grammaticalAgent": "اسم المقدار «لترا»",
-              "sentencePosition": "",
+              "sentencePosition": "مفسر للإبهام في التركيب",
               "explanation": "تمييز مقدار؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 12,
               "endIndex": 17
@@ -2601,7 +2601,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 0,
               "endIndex": 4
@@ -2615,7 +2615,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "المبتدأ «محمد»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 5,
               "endIndex": 9
@@ -2629,7 +2629,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "فسر جهة التفضيل",
               "grammaticalAgent": "اسم التفضيل «أكثر»",
-              "sentencePosition": "",
+              "sentencePosition": "مفسر للإبهام في التركيب",
               "explanation": "تمييز؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 10,
               "endIndex": 14
@@ -2654,7 +2654,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 5
@@ -2668,7 +2668,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 6,
               "endIndex": 11
@@ -2682,7 +2682,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "فسر الامتلاء",
               "grammaticalAgent": "الفعل «امتلأ»",
-              "sentencePosition": "",
+              "sentencePosition": "مفسر للإبهام في التركيب",
               "explanation": "تمييز نسبة؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 12,
               "endIndex": 15
@@ -2724,7 +2724,7 @@
         "mansoubat.specification"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2860,7 +2860,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -2874,7 +2874,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 10
@@ -2888,7 +2888,7 @@
               "grammaticalSign": "البناء",
               "signReason": "حرف",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع أداة استثناء في التركيب",
               "explanation": "أداة استثناء؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 11,
               "endIndex": 14
@@ -2902,7 +2902,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "استثناء تام مثبت",
               "grammaticalAgent": "أداة الاستثناء «إلا»",
-              "sentencePosition": "",
+              "sentencePosition": "ركن الاستثناء بعد أداته",
               "explanation": "مستثنى؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 15,
               "endIndex": 20
@@ -2927,7 +2927,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون.",
               "startIndex": 0,
               "endIndex": 4
@@ -2941,7 +2941,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "جمع تكسير",
               "grammaticalAgent": "الفعل «قرأت»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 5,
               "endIndex": 10
@@ -2955,7 +2955,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "استثناء تام مثبت",
               "grammaticalAgent": "الفعل «قرأت»",
-              "sentencePosition": "",
+              "sentencePosition": "ركن الاستثناء بعد أداته",
               "explanation": "مستثنى؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 11,
               "endIndex": 14
@@ -2969,7 +2969,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بمضاف",
               "grammaticalAgent": "الاسم «غير»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع مضاف إليه في التركيب",
               "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 15,
               "endIndex": 19
@@ -2994,7 +2994,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 0,
               "endIndex": 3
@@ -3008,7 +3008,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 9
@@ -3022,7 +3022,7 @@
               "grammaticalSign": "الفتحة المقدرة",
               "signReason": "اسم مقصور",
               "grammaticalAgent": "الفعل «نجح»",
-              "sentencePosition": "",
+              "sentencePosition": "ركن الاستثناء بعد أداته",
               "explanation": "مستثنى؛ منصوب، وعلامته الفتحة المقدرة.",
               "startIndex": 10,
               "endIndex": 13
@@ -3036,7 +3036,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بمضاف",
               "grammaticalAgent": "الاسم «سوى»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع مضاف إليه في التركيب",
               "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 14,
               "endIndex": 18
@@ -3061,7 +3061,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نفي في التركيب",
               "explanation": "حرف نفي؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 2
@@ -3075,7 +3075,7 @@
               "grammaticalSign": "الفتح أو السكون بحسب الصيغة",
               "signReason": "الفعل الماضي مبني",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح أو السكون بحسب الصيغة.",
               "startIndex": 3,
               "endIndex": 6
@@ -3089,7 +3089,7 @@
               "grammaticalSign": "البناء",
               "signReason": "حرف",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع أداة حصر في الاستثناء المفرغ في التركيب",
               "explanation": "أداة حصر في الاستثناء المفرغ؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 7,
               "endIndex": 10
@@ -3103,7 +3103,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 11,
               "endIndex": 15
@@ -3145,7 +3145,7 @@
         "mansoubat.exception"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -3281,7 +3281,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نداء في التركيب",
               "explanation": "حرف نداء؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 2
@@ -3295,7 +3295,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "نكرة غير معينة",
               "grammaticalAgent": "حرف النداء «يا»",
-              "sentencePosition": "",
+              "sentencePosition": "المخاطب بعد أداة النداء",
               "explanation": "منادى نكرة غير مقصودة؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 3,
               "endIndex": 8
@@ -3309,7 +3309,7 @@
               "grammaticalSign": "السكون",
               "signReason": "فعل أمر صحيح الآخر",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعله مستتر؛ مبني، وعلامته السكون.",
               "startIndex": 9,
               "endIndex": 14
@@ -3334,7 +3334,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نداء في التركيب",
               "explanation": "حرف نداء؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 2
@@ -3348,7 +3348,7 @@
               "grammaticalSign": "الضم",
               "signReason": "علم مفرد",
               "grammaticalAgent": "حرف النداء «يا»",
-              "sentencePosition": "",
+              "sentencePosition": "المخاطب بعد أداة النداء",
               "explanation": "منادى علم مفرد؛ مبني في محل نصب، وعلامته الضم.",
               "startIndex": 3,
               "endIndex": 7
@@ -3362,7 +3362,7 @@
               "grammaticalSign": "السكون",
               "signReason": "فعل أمر",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعله مستتر؛ مبني، وعلامته السكون.",
               "startIndex": 8,
               "endIndex": 13
@@ -3387,7 +3387,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نداء في التركيب",
               "explanation": "حرف نداء؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 2
@@ -3401,7 +3401,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "منادى مضاف",
               "grammaticalAgent": "حرف النداء «يا»",
-              "sentencePosition": "",
+              "sentencePosition": "المخاطب بعد أداة النداء",
               "explanation": "منادى مضاف؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 3,
               "endIndex": 7
@@ -3415,7 +3415,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بمضاف",
               "grammaticalAgent": "المنادى «طالب»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع مضاف إليه في التركيب",
               "explanation": "مضاف إليه؛ مجرور، وعلامته الكسرة الظاهرة.",
               "startIndex": 8,
               "endIndex": 13
@@ -3429,7 +3429,7 @@
               "grammaticalSign": "السكون",
               "signReason": "فعل أمر",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعله مستتر؛ مبني، وعلامته السكون.",
               "startIndex": 14,
               "endIndex": 19
@@ -3454,7 +3454,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نداء في التركيب",
               "explanation": "حرف نداء؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 2
@@ -3468,7 +3468,7 @@
               "grammaticalSign": "الضم",
               "signReason": "أي منادى مقصود",
               "grammaticalAgent": "حرف النداء «يا»",
-              "sentencePosition": "",
+              "sentencePosition": "المخاطب بعد أداة النداء",
               "explanation": "منادى مبني وها للتنبيه؛ مبني في محل نصب، وعلامته الضم.",
               "startIndex": 3,
               "endIndex": 7
@@ -3482,7 +3482,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "تابع لمنادى مبني لفظه مرفوع",
               "grammaticalAgent": "الاسم «أي»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع نعت لأي في التركيب",
               "explanation": "نعت لأي؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 8,
               "endIndex": 14
@@ -3496,7 +3496,7 @@
               "grammaticalSign": "السكون",
               "signReason": "فعل أمر",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعله مستتر؛ مبني، وعلامته السكون.",
               "startIndex": 15,
               "endIndex": 20
@@ -3538,7 +3538,7 @@
         "mansoubat.vocative"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -3674,7 +3674,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف توكيد ونصب في التركيب",
               "explanation": "حرف توكيد ونصب؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 2
@@ -3688,7 +3688,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الحرف الناسخ «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم إن في التركيب",
               "explanation": "اسم إن؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 3,
               "endIndex": 8
@@ -3702,7 +3702,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "الحرف الناسخ «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر إن؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 9,
               "endIndex": 12
@@ -3727,7 +3727,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف ترج ونصب في التركيب",
               "explanation": "حرف ترج ونصب؛ مبني لا محل له، وعلامته البناء.",
               "startIndex": 0,
               "endIndex": 3
@@ -3741,7 +3741,7 @@
               "grammaticalSign": "الياء",
               "signReason": "مثنى",
               "grammaticalAgent": "الحرف الناسخ «لعل»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم لعل في التركيب",
               "explanation": "اسم لعل؛ منصوب، وعلامته الياء.",
               "startIndex": 4,
               "endIndex": 12
@@ -3755,7 +3755,7 @@
               "grammaticalSign": "الألف",
               "signReason": "مثنى",
               "grammaticalAgent": "الحرف الناسخ «لعل»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر لعل؛ مرفوع، وعلامته الألف.",
               "startIndex": 13,
               "endIndex": 19
@@ -3780,7 +3780,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل ماض ناقص في التركيب",
               "explanation": "فعل ماض ناقص؛ مبني، وعلامته الفتح.",
               "startIndex": 0,
               "endIndex": 3
@@ -3794,7 +3794,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل الناسخ «كان»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم كان في التركيب",
               "explanation": "اسم كان؛ مرفوع، وعلامته الضمة الظاهرة.",
               "startIndex": 4,
               "endIndex": 8
@@ -3808,7 +3808,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "الفعل الناسخ «كان»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر كان؛ منصوب، وعلامته الفتحة الظاهرة.",
               "startIndex": 9,
               "endIndex": 15
@@ -3833,7 +3833,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل ماض ناقص في التركيب",
               "explanation": "فعل ماض ناقص؛ مبني، وعلامته الفتح.",
               "startIndex": 0,
               "endIndex": 4
@@ -3847,7 +3847,7 @@
               "grammaticalSign": "الواو",
               "signReason": "جمع مذكر سالم",
               "grammaticalAgent": "الفعل الناسخ «أصبح»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم أصبح في التركيب",
               "explanation": "اسم أصبح؛ مرفوع، وعلامته الواو.",
               "startIndex": 5,
               "endIndex": 13
@@ -3861,7 +3861,7 @@
               "grammaticalSign": "الياء",
               "signReason": "جمع مذكر سالم",
               "grammaticalAgent": "الفعل الناسخ «أصبح»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر أصبح؛ منصوب، وعلامته الياء.",
               "startIndex": 14,
               "endIndex": 20
@@ -3903,7 +3903,7 @@
         "mansoubat.inna-name-kana-predicate"
       ],
       "estimatedMinutes": 24,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -3947,7 +3947,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3988,7 +3988,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4029,7 +4029,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4070,7 +4070,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4111,7 +4111,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4152,7 +4152,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4193,7 +4193,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4234,7 +4234,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4275,7 +4275,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4316,7 +4316,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4357,7 +4357,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4398,7 +4398,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4439,7 +4439,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4480,7 +4480,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4521,7 +4521,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4562,7 +4562,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4603,7 +4603,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4644,7 +4644,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4685,7 +4685,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4726,7 +4726,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4767,7 +4767,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4808,7 +4808,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4849,7 +4849,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4890,7 +4890,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4931,7 +4931,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4972,7 +4972,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5013,7 +5013,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5054,7 +5054,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5095,7 +5095,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5136,7 +5136,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5177,7 +5177,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5218,7 +5218,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5259,7 +5259,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5300,7 +5300,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5341,7 +5341,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5382,7 +5382,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5423,7 +5423,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5464,7 +5464,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5505,7 +5505,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5546,7 +5546,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5587,7 +5587,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5628,7 +5628,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5669,7 +5669,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5710,7 +5710,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5751,7 +5751,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5792,7 +5792,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5833,7 +5833,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5874,7 +5874,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5915,7 +5915,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5956,7 +5956,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5997,7 +5997,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6038,7 +6038,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6079,7 +6079,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6120,7 +6120,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6161,7 +6161,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6202,7 +6202,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6243,7 +6243,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6284,7 +6284,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6325,7 +6325,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6366,7 +6366,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6407,7 +6407,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6448,7 +6448,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6489,7 +6489,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6530,7 +6530,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6571,7 +6571,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6612,7 +6612,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6653,7 +6653,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6694,7 +6694,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6735,7 +6735,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6776,7 +6776,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6817,7 +6817,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6858,7 +6858,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6899,7 +6899,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6940,7 +6940,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6981,7 +6981,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7022,7 +7022,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7063,7 +7063,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7104,7 +7104,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7145,7 +7145,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7186,7 +7186,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7227,7 +7227,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7268,7 +7268,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7309,7 +7309,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7350,7 +7350,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7391,7 +7391,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7432,7 +7432,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7473,7 +7473,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7514,7 +7514,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7555,7 +7555,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7596,7 +7596,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7637,7 +7637,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7678,7 +7678,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7719,7 +7719,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7760,7 +7760,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7801,7 +7801,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7842,7 +7842,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7883,7 +7883,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7924,7 +7924,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -7965,7 +7965,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -8006,7 +8006,7 @@
       "referenceIds": [
         "ref-general-mansoubat-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     }

@@ -104,20 +104,22 @@ void main() {
         progressRepository: LocalFirstProgressRepository(local),
         owner: owner,
         lesson: _lesson,
-        exercises: const [_exercise],
+        exercises: List.generate(5, _examExercise),
         config: const PracticeSessionConfig.lessonExam(),
       );
       addTearDown(cubit.close);
       addTearDown(local.dispose);
 
-      cubit.showHint();
-      cubit.selectAnswer('correct');
-      await cubit.submit();
-      await cubit.next();
+      for (var index = 0; index < 5; index++) {
+        cubit.showHint();
+        cubit.selectAnswer('correct');
+        await cubit.submit();
+        await cubit.next();
+      }
 
       expect(cubit.state.hintUsed, isFalse);
       expect(cubit.state.completed, isTrue);
-      expect(local.getAttempts(owner), hasLength(1));
+      expect(local.getAttempts(owner), hasLength(5));
       expect(
         local.getProgress(owner).single.status,
         LessonProgressStatus.completed,
@@ -176,6 +178,28 @@ const _exercise = ExerciseModel(
   explanation: 'تفسير',
   hint: 'تلميح',
   referenceIds: [],
+  contentVersion: '1.0.0',
+  reviewStatus: ContentReviewStatus.aiAssistedDraft,
+  schemaVersion: 1,
+);
+
+ExerciseModel _examExercise(int index) => ExerciseModel(
+  id: 'exam-$index',
+  lessonId: 'lesson',
+  type: ExerciseType.multipleChoice,
+  prompt: 'اختر',
+  skillIds: const ['skill'],
+  stageIds: const ['foundation'],
+  gradeIds: const ['foundation'],
+  difficulty: 1,
+  options: const [
+    ExerciseOptionModel(id: 'correct', text: 'صحيح', feedback: 'أحسنت'),
+    ExerciseOptionModel(id: 'wrong', text: 'خطأ', feedback: 'راجع القاعدة'),
+  ],
+  correctAnswerIds: const ['correct'],
+  explanation: 'تفسير',
+  hint: 'تلميح',
+  referenceIds: const [],
   contentVersion: '1.0.0',
   reviewStatus: ContentReviewStatus.aiAssistedDraft,
   schemaVersion: 1,

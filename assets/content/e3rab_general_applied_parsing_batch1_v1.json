@@ -2,7 +2,7 @@
   "manifest": {
     "packId": "e3rab-general-applied-parsing-batch1-ar-v1",
     "schemaVersion": 1,
-    "contentVersion": "1.0.0",
+    "contentVersion": "1.1.0",
     "curriculumVersion": "e3rab-general-arabic-v1",
     "locale": "ar",
     "entityIds": [
@@ -352,7 +352,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -366,7 +366,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 4,
               "endIndex": 10
@@ -380,7 +380,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 11,
               "endIndex": 16
@@ -406,7 +406,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف جر في التركيب",
               "explanation": "حرف جر؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -420,7 +420,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "حرف الجر «في»",
-              "sentencePosition": "",
+              "sentencePosition": "داخل شبه الجملة أو الإضافة",
               "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة؛ اسم مفرد.",
               "startIndex": 3,
               "endIndex": 8
@@ -434,7 +434,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ مؤخر؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 9,
               "endIndex": 12
@@ -460,7 +460,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نصب ونفي واستقبال في التركيب",
               "explanation": "حرف نصب ونفي واستقبال؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -474,7 +474,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "سبق بناصب",
               "grammaticalAgent": "الحرف «لن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل مضارع في التركيب",
               "explanation": "فعل مضارع؛ منصوب، وعلامته الفتحة الظاهرة؛ سبق بناصب.",
               "startIndex": 3,
               "endIndex": 7
@@ -488,7 +488,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 8,
               "endIndex": 15
@@ -514,7 +514,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اسم مبني",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ؛ مبني في محل رفع، وعلامته السكون؛ اسم مبني.",
               "startIndex": 0,
               "endIndex": 3
@@ -528,7 +528,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "المبتدأ «هذا»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 4,
               "endIndex": 8
@@ -542,7 +542,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "تابع لمرفوع",
               "grammaticalAgent": "المنعوت «كتاب»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع نعت في التركيب",
               "explanation": "نعت؛ مرفوع، وعلامته الضمة الظاهرة؛ تابع لمرفوع.",
               "startIndex": 9,
               "endIndex": 13
@@ -587,7 +587,7 @@
         "applied-parsing.word-type"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -732,7 +732,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -746,7 +746,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 4,
               "endIndex": 10
@@ -760,7 +760,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 11,
               "endIndex": 16
@@ -786,7 +786,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 0,
               "endIndex": 5
@@ -800,7 +800,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "المبتدأ «العلم»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة؛ خبر مفرد.",
               "startIndex": 6,
               "endIndex": 10
@@ -826,7 +826,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف توكيد ونصب في التركيب",
               "explanation": "حرف توكيد ونصب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -840,7 +840,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الحرف الناسخ «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم إن في التركيب",
               "explanation": "اسم إن؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 3,
               "endIndex": 8
@@ -854,7 +854,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "الحرف الناسخ «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر إن؛ مرفوع، وعلامته الضمة الظاهرة؛ خبر مفرد.",
               "startIndex": 9,
               "endIndex": 13
@@ -880,7 +880,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون؛ اتصاله بتاء الفاعل.",
               "startIndex": 0,
               "endIndex": 4
@@ -894,7 +894,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "اسم مفرد سبق بحرف جر",
               "grammaticalAgent": "حرف الجر الباء",
-              "sentencePosition": "",
+              "sentencePosition": "داخل شبه الجملة أو الإضافة",
               "explanation": "اسم مجرور بالباء؛ مجرور، وعلامته الكسرة الظاهرة؛ اسم مفرد سبق بحرف جر.",
               "startIndex": 5,
               "endIndex": 13
@@ -939,7 +939,7 @@
         "applied-parsing.role-governor"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1084,7 +1084,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -1098,7 +1098,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 4,
               "endIndex": 10
@@ -1124,7 +1124,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون؛ اتصاله بتاء الفاعل.",
               "startIndex": 0,
               "endIndex": 4
@@ -1138,7 +1138,7 @@
               "grammaticalSign": "الياء",
               "signReason": "مثنى",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الياء؛ مثنى.",
               "startIndex": 5,
               "endIndex": 13
@@ -1164,7 +1164,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون؛ اتصاله بتاء الفاعل.",
               "startIndex": 0,
               "endIndex": 4
@@ -1178,7 +1178,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف جر في التركيب",
               "explanation": "حرف جر؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 5,
               "endIndex": 8
@@ -1192,7 +1192,7 @@
               "grammaticalSign": "الياء",
               "signReason": "جمع مذكر سالم",
               "grammaticalAgent": "حرف الجر «على»",
-              "sentencePosition": "",
+              "sentencePosition": "داخل شبه الجملة أو الإضافة",
               "explanation": "اسم مجرور؛ مجرور، وعلامته الياء؛ جمع مذكر سالم.",
               "startIndex": 9,
               "endIndex": 17
@@ -1218,7 +1218,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نفي وجزم وقلب في التركيب",
               "explanation": "حرف نفي وجزم وقلب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -1232,7 +1232,7 @@
               "grammaticalSign": "السكون",
               "signReason": "صحيح الآخر سبق بجازم",
               "grammaticalAgent": "الحرف «لم»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل مضارع في التركيب",
               "explanation": "فعل مضارع؛ مجزوم، وعلامته السكون؛ صحيح الآخر سبق بجازم.",
               "startIndex": 3,
               "endIndex": 7
@@ -1246,7 +1246,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 8,
               "endIndex": 14
@@ -1291,7 +1291,7 @@
         "applied-parsing.state-sign"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1436,7 +1436,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -1450,7 +1450,7 @@
               "grammaticalSign": "الواو",
               "signReason": "من الأسماء الخمسة المستوفية للشروط",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الواو؛ من الأسماء الخمسة المستوفية للشروط.",
               "startIndex": 4,
               "endIndex": 8
@@ -1476,7 +1476,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون؛ اتصاله بتاء الفاعل.",
               "startIndex": 0,
               "endIndex": 4
@@ -1490,7 +1490,7 @@
               "grammaticalSign": "الكسرة نيابة عن الفتحة",
               "signReason": "جمع مؤنث سالم",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الكسرة نيابة عن الفتحة؛ جمع مؤنث سالم.",
               "startIndex": 5,
               "endIndex": 13
@@ -1516,7 +1516,7 @@
               "grammaticalSign": "ثبوت النون",
               "signReason": "من الأفعال الخمسة ولم يسبق بناصب أو جازم",
               "grammaticalAgent": "التجرد من الناصب والجازم",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل واو الجماعة؛ مرفوع، وعلامته ثبوت النون؛ من الأفعال الخمسة ولم يسبق بناصب أو جازم.",
               "startIndex": 0,
               "endIndex": 6
@@ -1530,7 +1530,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 7,
               "endIndex": 12
@@ -1556,7 +1556,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نصب في التركيب",
               "explanation": "حرف نصب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -1570,7 +1570,7 @@
               "grammaticalSign": "حذف النون",
               "signReason": "من الأفعال الخمسة سبق بناصب",
               "grammaticalAgent": "الحرف «لن»",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل واو الجماعة؛ منصوب، وعلامته حذف النون؛ من الأفعال الخمسة سبق بناصب.",
               "startIndex": 3,
               "endIndex": 9
@@ -1584,7 +1584,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 10,
               "endIndex": 16
@@ -1629,7 +1629,7 @@
         "applied-parsing.sign-reason"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -1774,7 +1774,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 0,
               "endIndex": 5
@@ -1788,7 +1788,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "المبتدأ «العلم»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة؛ خبر مفرد.",
               "startIndex": 6,
               "endIndex": 9
@@ -1814,7 +1814,7 @@
               "grammaticalSign": "الألف",
               "signReason": "مثنى",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ؛ مرفوع، وعلامته الألف؛ مثنى.",
               "startIndex": 0,
               "endIndex": 8
@@ -1828,7 +1828,7 @@
               "grammaticalSign": "الألف",
               "signReason": "مثنى",
               "grammaticalAgent": "المبتدأ «الطالبان»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر؛ مرفوع، وعلامته الألف؛ مثنى.",
               "startIndex": 9,
               "endIndex": 16
@@ -1854,7 +1854,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف جر في التركيب",
               "explanation": "حرف جر؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -1868,7 +1868,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "حرف الجر «في»",
-              "sentencePosition": "",
+              "sentencePosition": "داخل شبه الجملة أو الإضافة",
               "explanation": "اسم مجرور؛ مجرور، وعلامته الكسرة الظاهرة؛ اسم مفرد.",
               "startIndex": 3,
               "endIndex": 8
@@ -1882,7 +1882,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ مؤخر؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 9,
               "endIndex": 12
@@ -1908,7 +1908,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف توكيد ونصب في التركيب",
               "explanation": "حرف توكيد ونصب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -1922,7 +1922,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الحرف «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم إن في التركيب",
               "explanation": "اسم إن؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 3,
               "endIndex": 8
@@ -1936,7 +1936,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "الحرف «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر إن؛ مرفوع، وعلامته الضمة الظاهرة؛ خبر مفرد.",
               "startIndex": 9,
               "endIndex": 13
@@ -1981,7 +1981,7 @@
         "applied-parsing.nominal-sentence"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2126,7 +2126,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -2140,7 +2140,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 4,
               "endIndex": 10
@@ -2154,7 +2154,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 11,
               "endIndex": 16
@@ -2180,7 +2180,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نصب في التركيب",
               "explanation": "حرف نصب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -2194,7 +2194,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "سبق بناصب",
               "grammaticalAgent": "الحرف «لن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل مضارع في التركيب",
               "explanation": "فعل مضارع؛ منصوب، وعلامته الفتحة الظاهرة؛ سبق بناصب.",
               "startIndex": 3,
               "endIndex": 7
@@ -2208,7 +2208,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 8,
               "endIndex": 15
@@ -2222,7 +2222,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 16,
               "endIndex": 21
@@ -2248,7 +2248,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -2262,7 +2262,7 @@
               "grammaticalSign": "الواو",
               "signReason": "جمع مذكر سالم",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الواو؛ جمع مذكر سالم.",
               "startIndex": 4,
               "endIndex": 13
@@ -2276,7 +2276,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 14,
               "endIndex": 19
@@ -2302,7 +2302,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 4
@@ -2316,7 +2316,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 5,
               "endIndex": 11
@@ -2330,7 +2330,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 12,
               "endIndex": 18
@@ -2344,7 +2344,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل «أعطى»",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به ثان؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 19,
               "endIndex": 24
@@ -2389,7 +2389,7 @@
         "applied-parsing.verbal-sentence"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -2534,7 +2534,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الابتداء",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد الأول في الجملة الاسمية",
               "explanation": "مبتدأ؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 0,
               "endIndex": 5
@@ -2548,7 +2548,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "المبتدأ «العلم»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر؛ مرفوع، وعلامته الضمة الظاهرة؛ خبر مفرد.",
               "startIndex": 6,
               "endIndex": 9
@@ -2576,7 +2576,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 15,
               "endIndex": 21
@@ -2602,7 +2602,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -2616,7 +2616,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 4,
               "endIndex": 10
@@ -2630,7 +2630,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم زمان متضمن معنى في",
               "grammaticalAgent": "الفعل «خرج»",
-              "sentencePosition": "",
+              "sentencePosition": "شبه جملة ظرفية متعلقة بالعامل",
               "explanation": "ظرف زمان؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم زمان متضمن معنى في.",
               "startIndex": 11,
               "endIndex": 16
@@ -2658,7 +2658,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 22,
               "endIndex": 27
@@ -2684,7 +2684,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف توكيد ونصب في التركيب",
               "explanation": "حرف توكيد ونصب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -2698,7 +2698,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الحرف «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم إن في التركيب",
               "explanation": "اسم إن؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 3,
               "endIndex": 10
@@ -2726,7 +2726,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 16,
               "endIndex": 21
@@ -2740,7 +2740,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بحرف الجر الباء",
               "grammaticalAgent": "الفعل «يدرك»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع متعلق بالفعل في التركيب",
               "explanation": "متعلق بالفعل؛ مجرور، وعلامته الكسرة الظاهرة؛ سبق بحرف الجر الباء.",
               "startIndex": 22,
               "endIndex": 28
@@ -2766,7 +2766,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل ماض ناقص في التركيب",
               "explanation": "فعل ماض ناقص؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -2780,7 +2780,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "جمع تكسير",
               "grammaticalAgent": "الفعل الناسخ «كان»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم كان في التركيب",
               "explanation": "اسم كان؛ مرفوع، وعلامته الضمة الظاهرة؛ جمع تكسير.",
               "startIndex": 4,
               "endIndex": 11
@@ -2808,7 +2808,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 19,
               "endIndex": 26
@@ -2822,7 +2822,7 @@
               "grammaticalSign": "الكسرة الظاهرة",
               "signReason": "سبق بحرف الجر الباء",
               "grammaticalAgent": "الفعل «يطلبون»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع متعلق بالفعل في التركيب",
               "explanation": "متعلق بالفعل؛ مجرور، وعلامته الكسرة الظاهرة؛ سبق بحرف الجر الباء.",
               "startIndex": 27,
               "endIndex": 33
@@ -2867,7 +2867,7 @@
         "applied-parsing.texts"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -3012,7 +3012,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف توكيد ونصب في التركيب",
               "explanation": "حرف توكيد ونصب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -3026,7 +3026,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الحرف «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع اسم إن في التركيب",
               "explanation": "اسم إن؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 3,
               "endIndex": 9
@@ -3040,7 +3040,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "خبر مفرد",
               "grammaticalAgent": "الحرف «إن»",
-              "sentencePosition": "",
+              "sentencePosition": "طرف الإسناد المكمل في الجملة الاسمية",
               "explanation": "خبر إن؛ مرفوع، وعلامته الضمة الظاهرة؛ خبر مفرد.",
               "startIndex": 10,
               "endIndex": 15
@@ -3066,7 +3066,7 @@
               "grammaticalSign": "السكون",
               "signReason": "اتصاله بتاء الفاعل",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فعل وفاعل؛ مبني، وعلامته السكون؛ اتصاله بتاء الفاعل.",
               "startIndex": 0,
               "endIndex": 4
@@ -3080,7 +3080,7 @@
               "grammaticalSign": "الياء",
               "signReason": "جمع مذكر سالم",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الياء؛ جمع مذكر سالم.",
               "startIndex": 5,
               "endIndex": 13
@@ -3106,7 +3106,7 @@
               "grammaticalSign": "البناء",
               "signReason": "الحروف مبنية",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع حرف نفي وجزم وقلب في التركيب",
               "explanation": "حرف نفي وجزم وقلب؛ مبني لا محل له، وعلامته البناء؛ الحروف مبنية.",
               "startIndex": 0,
               "endIndex": 2
@@ -3120,7 +3120,7 @@
               "grammaticalSign": "السكون",
               "signReason": "صحيح الآخر سبق بجازم",
               "grammaticalAgent": "الحرف «لم»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل مضارع في التركيب",
               "explanation": "فعل مضارع؛ مجزوم، وعلامته السكون؛ صحيح الآخر سبق بجازم.",
               "startIndex": 3,
               "endIndex": 7
@@ -3134,7 +3134,7 @@
               "grammaticalSign": "الضمة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الضمة الظاهرة؛ اسم مفرد.",
               "startIndex": 8,
               "endIndex": 14
@@ -3148,7 +3148,7 @@
               "grammaticalSign": "الفتحة الظاهرة",
               "signReason": "اسم مفرد",
               "grammaticalAgent": "الفعل المتعدي قبله",
-              "sentencePosition": "",
+              "sentencePosition": "معمول الفعل أو المصدر في الجملة",
               "explanation": "مفعول به؛ منصوب، وعلامته الفتحة الظاهرة؛ اسم مفرد.",
               "startIndex": 15,
               "endIndex": 20
@@ -3174,7 +3174,7 @@
               "grammaticalSign": "الفتح",
               "signReason": "فعل ماض",
               "grammaticalAgent": "لا عامل عليه",
-              "sentencePosition": "",
+              "sentencePosition": "موقع فعل الجملة في التركيب",
               "explanation": "فعل الجملة؛ مبني، وعلامته الفتح؛ فعل ماض.",
               "startIndex": 0,
               "endIndex": 3
@@ -3188,7 +3188,7 @@
               "grammaticalSign": "الألف",
               "signReason": "مثنى",
               "grammaticalAgent": "الفعل قبله",
-              "sentencePosition": "",
+              "sentencePosition": "المسند إليه في الجملة الفعلية",
               "explanation": "فاعل؛ مرفوع، وعلامته الألف؛ مثنى.",
               "startIndex": 4,
               "endIndex": 12
@@ -3202,7 +3202,7 @@
               "grammaticalSign": "الألف",
               "signReason": "مثنى تابع لمرفوع",
               "grammaticalAgent": "المنعوت «الطالبان»",
-              "sentencePosition": "",
+              "sentencePosition": "موقع نعت في التركيب",
               "explanation": "نعت؛ مرفوع، وعلامته الألف؛ مثنى تابع لمرفوع.",
               "startIndex": 13,
               "endIndex": 22
@@ -3247,7 +3247,7 @@
         "applied-parsing.error-correction"
       ],
       "estimatedMinutes": 26,
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "reviewedBy": null,
       "reviewedAt": null
@@ -3292,7 +3292,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3334,7 +3334,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3376,7 +3376,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3418,7 +3418,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3460,7 +3460,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3502,7 +3502,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3544,7 +3544,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3586,7 +3586,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3628,7 +3628,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3670,7 +3670,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3712,7 +3712,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3754,7 +3754,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3796,7 +3796,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3838,7 +3838,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3880,7 +3880,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3922,7 +3922,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -3964,7 +3964,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4006,7 +4006,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4048,7 +4048,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4090,7 +4090,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4132,7 +4132,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4174,7 +4174,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4216,7 +4216,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4258,7 +4258,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4300,7 +4300,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4342,7 +4342,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4384,7 +4384,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4426,7 +4426,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4468,7 +4468,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4510,7 +4510,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4552,7 +4552,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4594,7 +4594,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4636,7 +4636,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4678,7 +4678,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4720,7 +4720,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4762,7 +4762,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4804,7 +4804,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4846,7 +4846,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4888,7 +4888,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4930,7 +4930,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -4972,7 +4972,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5014,7 +5014,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5056,7 +5056,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5098,7 +5098,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5140,7 +5140,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5182,7 +5182,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5224,7 +5224,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5266,7 +5266,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5308,7 +5308,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5350,7 +5350,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5392,7 +5392,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5434,7 +5434,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5476,7 +5476,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5518,7 +5518,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5560,7 +5560,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5602,7 +5602,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5644,7 +5644,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5686,7 +5686,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5728,7 +5728,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5770,7 +5770,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5812,7 +5812,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5854,7 +5854,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5896,7 +5896,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5938,7 +5938,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -5980,7 +5980,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6022,7 +6022,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6064,7 +6064,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6106,7 +6106,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6148,7 +6148,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6190,7 +6190,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6232,7 +6232,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6274,7 +6274,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6316,7 +6316,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6358,7 +6358,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6400,7 +6400,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6442,7 +6442,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6484,7 +6484,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6526,7 +6526,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6568,7 +6568,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     },
@@ -6610,7 +6610,7 @@
         "ref-applied-parsing-clear-grammar-v1",
         "ref-applied-parsing-lessons-v1"
       ],
-      "contentVersion": "1.0.0",
+      "contentVersion": "1.1.0",
       "reviewStatus": "inReview",
       "schemaVersion": 1
     }

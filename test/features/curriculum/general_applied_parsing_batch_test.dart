@@ -45,6 +45,7 @@ void main() {
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
     expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['contentVersion'], '1.1.0');
     expect(manifest['externalPrerequisiteIds'], [
       'special-nouns-kam-kayyin-kadha',
     ]);
@@ -53,6 +54,7 @@ void main() {
     expect(lessons, hasLength(8));
     expect((pack['exercises'] as List), hasLength(80));
     for (final lesson in lessons) {
+      expect(lesson['contentVersion'], manifest['contentVersion']);
       expect(lesson['reviewStatus'], 'inReview');
       expect(lesson['reviewedBy'], isNull);
       expect((lesson['sections'] as List), hasLength(9));
@@ -108,10 +110,18 @@ void main() {
           'grammaticalState',
           'grammaticalSign',
           'signReason',
+          'sentencePosition',
         ]) {
           expect((parsedWord[field] as String).trim(), isNotEmpty);
         }
       }
     }
+    expect(
+      (pack['exercises'] as List).every(
+        (exercise) =>
+            (exercise as Map)['contentVersion'] == manifest['contentVersion'],
+      ),
+      isTrue,
+    );
   });
 }

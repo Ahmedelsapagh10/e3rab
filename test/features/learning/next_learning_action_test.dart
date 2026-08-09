@@ -46,6 +46,23 @@ void main() {
     expect(action.phase, LearningPhaseType.independentPractice);
   });
 
+  test('completed remediation practice returns to the mastery check', () {
+    final action = resolver.resolve(
+      lessons: const [_lesson],
+      progress: [
+        _progress(
+          completed: LearningPhaseType.values
+              .where((phase) => phase != LearningPhaseType.masteryCheck)
+              .toList(growable: false),
+          currentPhase: LearningPhaseType.masteryCheck,
+        ),
+      ],
+    );
+
+    expect(action.type, NextLearningActionType.phase);
+    expect(action.phase, LearningPhaseType.masteryCheck);
+  });
+
   test('opens the next lesson only after prerequisite mastery', () {
     final action = resolver.resolve(
       lessons: const [_lesson, _advancedLesson],

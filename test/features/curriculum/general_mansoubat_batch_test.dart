@@ -42,6 +42,7 @@ void main() {
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
     expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['contentVersion'], '1.1.0');
     expect(manifest['externalPrerequisiteIds'], [
       'marfouat-present-nominative-positions',
     ]);
@@ -58,6 +59,7 @@ void main() {
       expect(lessons[index]['prerequisiteIds'], [lessons[index - 1]['id']]);
     }
     for (final lesson in lessons) {
+      expect(lesson['contentVersion'], manifest['contentVersion']);
       expect(lesson['reviewStatus'], 'inReview');
       expect(lesson['reviewedBy'], isNull);
       expect((lesson['sections'] as List).length, greaterThanOrEqualTo(9));
@@ -108,8 +110,17 @@ void main() {
         final word = Map<String, dynamic>.from(value as Map);
         final start = word['startIndex'] as int;
         final end = word['endIndex'] as int;
+        expect((word['grammaticalAgent'] as String).trim(), isNotEmpty);
+        expect((word['sentencePosition'] as String).trim(), isNotEmpty);
         expect(sentence.substring(start, end), word['word']);
       }
     }
+    expect(
+      (pack['exercises'] as List).every(
+        (exercise) =>
+            (exercise as Map)['contentVersion'] == manifest['contentVersion'],
+      ),
+      isTrue,
+    );
   });
 }

@@ -69,7 +69,7 @@ void main() {
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    final sample = samples.last;
+    final sample = samples.firstWhere((sample) => sample.trackId == 'signs');
     final state = ParsingState(
       status: ParsingLabStatus.ready,
       samples: [sample],
