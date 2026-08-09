@@ -42,7 +42,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyC2u_2_yR4qupC9G2USLt_tCAE2SEtFDGY',
-    appId: '1:803402655691:android:adb01b443b0a5ef1db784e',
+    appId: '1:803402655691:android:e93d4474775300b9db784e',
     messagingSenderId: '803402655691',
     projectId: 'lmtnaapplication',
     storageBucket: 'lmtnaapplication.firebasestorage.app',

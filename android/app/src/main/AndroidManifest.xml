@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required by Firebase Authentication, Firestore, and remote content. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:label="إعراب"
         android:name="${applicationName}"

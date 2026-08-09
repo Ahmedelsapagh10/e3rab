@@ -7,12 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:803402655691:android:adb01b443b0a5ef1db784e",
+        "mobilesdk_app_id": "1:803402655691:android:e93d4474775300b9db784e",
         "android_client_info": {
-          "package_name": "net.elsapagh.flutter"
+          "package_name": "e3rab.elsapagh.net"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "803402655691-oc9mipep8530fcoppfvpqj0igmhnepcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e3rab.elsapagh.net",
+            "certificate_hash": "7fa8104ae49d2756388c1fe1dfc7b31523409532"
+          }
+        },
         {
           "client_id": "803402655691-qu5nqhstspipmdhm4mdlbm8dto5vihcg.apps.googleusercontent.com",
           "client_type": 3
@@ -43,6 +51,35 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:803402655691:android:adb01b443b0a5ef1db784e",
+        "android_client_info": {
+          "package_name": "net.elsapagh.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803402655691-qu5nqhstspipmdhm4mdlbm8dto5vihcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2u_2_yR4qupC9G2USLt_tCAE2SEtFDGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803402655691-qu5nqhstspipmdhm4mdlbm8dto5vihcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:803402655691:android:0e8de8181aa72f2edb784e",
         "android_client_info": {
           "package_name": "net.elsapagh.vpnx"
@@ -65,13 +102,6 @@
             {
               "client_id": "803402655691-qu5nqhstspipmdhm4mdlbm8dto5vihcg.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "803402655691-5p8jaf04d3g8qddr6o41glcaab1kmmn4.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "net.elsapagh.vpnx"
-              }
             }
           ]
         }
