@@ -70,7 +70,7 @@
     ],
     "checksum": "pending-specialist-review-v1",
     "minimumAppVersion": "1.0.0",
-    "reviewStatus": "inReview"
+    "reviewStatus": "sourceDocumented"
   },
   "modules": [
     {
@@ -531,7 +531,7 @@
       ],
       "estimatedMinutes": 22,
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -772,7 +772,7 @@
       ],
       "estimatedMinutes": 20,
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1159,7 +1159,7 @@
       ],
       "estimatedMinutes": 24,
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1626,7 +1626,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2079,7 +2079,7 @@
       ],
       "estimatedMinutes": 28,
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     }
@@ -2121,7 +2121,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2160,7 +2160,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2199,7 +2199,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2238,7 +2238,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2277,7 +2277,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2316,7 +2316,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2355,7 +2355,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2394,7 +2394,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2433,7 +2433,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2472,7 +2472,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2511,7 +2511,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2551,7 +2551,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2590,7 +2590,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2629,7 +2629,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2669,7 +2669,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2709,7 +2709,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2748,7 +2748,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2788,7 +2788,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2827,7 +2827,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2867,7 +2867,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2906,7 +2906,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2946,7 +2946,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2985,7 +2985,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3025,7 +3025,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3065,7 +3065,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3105,7 +3105,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3145,7 +3145,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3185,7 +3185,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3225,7 +3225,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3265,7 +3265,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3304,7 +3304,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3343,7 +3343,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3382,7 +3382,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3421,7 +3421,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3460,7 +3460,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3500,7 +3500,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3539,7 +3539,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3578,7 +3578,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3618,7 +3618,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3657,7 +3657,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3696,7 +3696,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3736,7 +3736,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3776,7 +3776,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3816,7 +3816,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3856,7 +3856,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3896,7 +3896,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3936,7 +3936,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3976,7 +3976,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4016,7 +4016,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4056,7 +4056,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.4.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     }
   ],

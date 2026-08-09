@@ -38,7 +38,7 @@ void main() {
         .toList(growable: false);
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
-    expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['reviewStatus'], 'sourceDocumented');
     expect(manifest['externalPrerequisiteIds'], [
       'nominal-descriptive-subject',
     ]);
@@ -54,7 +54,7 @@ void main() {
       expect(lessons[index]['prerequisiteIds'], [lessons[index - 1]['id']]);
     }
     for (final lesson in lessons) {
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect(lesson['reviewedBy'], isNull);
       expect((lesson['sections'] as List).length, greaterThanOrEqualTo(9));
       expect((lesson['examples'] as List).length, greaterThanOrEqualTo(4));

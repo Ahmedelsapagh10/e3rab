@@ -37,7 +37,7 @@ void main() {
     expect(bank['schemaVersion'], 1);
     expect(bank['contentVersion'], '1.0.0');
     expect(bank['locale'], 'ar');
-    expect(bank['reviewStatus'], 'inReview');
+    expect(bank['reviewStatus'], 'sourceDocumented');
     expect(samples, hasLength(50));
     for (final entry in expected.entries) {
       final track = samples
@@ -69,13 +69,13 @@ void main() {
         steps.every((step) => '${step['explanation']}'.isNotEmpty),
         isTrue,
       );
-      expect(sample['reviewStatus'], 'inReview');
+      expect(sample['reviewStatus'], 'sourceDocumented');
       expect(sample['reviewedBy'], isNull);
       expect((sample['relatedLessonId'] as String), isNotEmpty);
     }
   });
 
-  test('direct loading keeps metadata complete and content gated', () async {
+  test('direct loading keeps metadata complete and learner ready', () async {
     final samples = await AssetParsingDataSource(
       bundle: rootBundle,
       assetPath: assetPath,
@@ -83,6 +83,7 @@ void main() {
 
     expect(samples, hasLength(50));
     expect(samples.every((sample) => !sample.isApproved), isTrue);
+    expect(samples.every((sample) => sample.isLearnerReady), isTrue);
     for (final sample in samples) {
       for (final word in sample.parsedWords) {
         expect(word.grammaticalAgent, isNotEmpty);

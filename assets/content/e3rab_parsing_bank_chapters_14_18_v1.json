@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "contentVersion": "1.0.0",
   "locale": "ar",
-  "reviewStatus": "inReview",
+  "reviewStatus": "sourceDocumented",
   "samples": [
     {
       "id": "parse-semi-sentences-01",
@@ -198,7 +198,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -396,7 +396,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -594,7 +594,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -792,7 +792,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -990,7 +990,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1188,7 +1188,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1386,7 +1386,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1584,7 +1584,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1782,7 +1782,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1980,7 +1980,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2178,7 +2178,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2390,7 +2390,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2602,7 +2602,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2814,7 +2814,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3026,7 +3026,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3238,7 +3238,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3436,7 +3436,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3634,7 +3634,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3846,7 +3846,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4058,7 +4058,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4256,7 +4256,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4454,7 +4454,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4652,7 +4652,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4850,7 +4850,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -5062,7 +5062,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -5274,7 +5274,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -5472,7 +5472,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -5684,7 +5684,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -5896,7 +5896,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -6094,7 +6094,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -6292,7 +6292,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -6490,7 +6490,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -6688,7 +6688,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -6886,7 +6886,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -7084,7 +7084,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -7282,7 +7282,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -7480,7 +7480,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -7678,7 +7678,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -7890,7 +7890,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -8088,7 +8088,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -8286,7 +8286,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -8498,7 +8498,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -8710,7 +8710,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -8922,7 +8922,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -9134,7 +9134,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -9346,7 +9346,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -9558,7 +9558,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -9756,7 +9756,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -9968,7 +9968,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -10194,7 +10194,7 @@
         "ref-nahw-wadih"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     }

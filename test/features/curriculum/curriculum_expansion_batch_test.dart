@@ -48,41 +48,38 @@ void main() {
     },
   );
 
-  test(
-    'catalog marks the reviewed batch learner-disabled but seed-enabled',
-    () async {
-      final result = await LocalContentPackCatalogRepository(
-        bundle: rootBundle,
-      ).getCatalog();
-      final catalog = result.getOrElse(
-        () => throw StateError('Expected a valid content catalog.'),
-      );
+  test('catalog makes the source-documented batch learner available', () async {
+    final result = await LocalContentPackCatalogRepository(
+      bundle: rootBundle,
+    ).getCatalog();
+    final catalog = result.getOrElse(
+      () => throw StateError('Expected a valid content catalog.'),
+    );
 
-      expect(catalog.packs.map((pack) => pack.packId), contains(batchPackId));
-      final batch = catalog.packs.singleWhere(
-        (pack) => pack.packId == batchPackId,
-      );
-      expect(batch.reviewStatus, ContentReviewStatus.inReview);
-      expect(batch.seedEnabled, isTrue);
-      expect(batch.learnerEnabled, isFalse);
+    expect(catalog.packs.map((pack) => pack.packId), contains(batchPackId));
+    final batch = catalog.packs.singleWhere(
+      (pack) => pack.packId == batchPackId,
+    );
+    expect(batch.reviewStatus, ContentReviewStatus.sourceDocumented);
+    expect(batch.seedEnabled, isTrue);
+    expect(batch.learnerEnabled, isTrue);
 
-      final learnerSource = AssetCurriculumDataSource(
-        bundle: rootBundle,
-        assetPaths: catalog.packs
-            .where((pack) => pack.learnerEnabled)
-            .map((pack) => pack.assetPath)
-            .toList(),
-      );
-      await learnerSource.load();
-      expect(learnerSource.lessons, hasLength(3));
-      expect(
-        learnerSource.lessons.map((lesson) => lesson.id),
-        isNot(contains('jussive-answer-request-v1')),
-      );
-    },
-  );
+    final learnerSource = AssetCurriculumDataSource(
+      bundle: rootBundle,
+      assetPaths: catalog.packs
+          .where((pack) => pack.learnerEnabled)
+          .map((pack) => pack.assetPath)
+          .toList(),
+    );
+    await learnerSource.load();
+    expect(learnerSource.lessons, hasLength(125));
+    expect(
+      learnerSource.lessons.map((lesson) => lesson.id),
+      contains('jussive-answer-request-v1'),
+    );
+  });
 
-  test('secondary batch is structurally ready for specialist review', () async {
+  test('secondary batch is structurally valid and source documented', () async {
     final raw = await rootBundle.loadString(
       'assets/content/e3rab_egypt_secondary2_term1_batch1_v1.json',
     );
@@ -102,7 +99,7 @@ void main() {
         .map((value) => Map<String, dynamic>.from(value as Map))
         .toList();
     expect(exercises, hasLength(10));
-    expect(lesson['reviewStatus'], 'inReview');
+    expect(lesson['reviewStatus'], 'sourceDocumented');
     expect(lesson['reviewedBy'], isNull);
     expect(lesson['reviewedAt'], isNull);
     expect((lesson['examples'] as List), hasLength(4));
@@ -120,7 +117,7 @@ void main() {
     expect(lesson['topicId'], 'majzoumat.answer-to-request');
     expect(
       exercises.every(
-        (exercise) => exercise['reviewStatus'] == 'aiAssistedDraft',
+        (exercise) => exercise['reviewStatus'] == 'sourceDocumented',
       ),
       isTrue,
     );

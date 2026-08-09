@@ -48,7 +48,7 @@ void main() {
       expect((lesson['examples'] as List), hasLength(4));
       expect((lesson['exerciseIds'] as List), hasLength(10));
       expect((lesson['masteryExerciseIds'] as List), hasLength(5));
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
     }
   });
 

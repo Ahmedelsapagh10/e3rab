@@ -58,7 +58,7 @@ void main() {
       expect(lesson['examples'], hasLength(4));
       expect(lesson['exerciseIds'], hasLength(10));
       expect(lesson['masteryExerciseIds'], hasLength(5));
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       for (final raw in lesson['examples'] as List) {
         final e = Map<String, dynamic>.from(raw as Map);
         expect(ids.add(e['id'] as String), isTrue);

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "contentVersion": "1.7.0",
   "locale": "ar",
-  "reviewStatus": "aiAssistedDraft",
+  "reviewStatus": "sourceDocumented",
   "samples": [
     {
       "id": "parse-nominal-science-light",
@@ -189,7 +189,7 @@
         "ref-moe-primary6"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "aiAssistedDraft",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -382,7 +382,7 @@
         "ref-moe-primary6"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "aiAssistedDraft",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -552,7 +552,7 @@
         "ref-moe-secondary-model"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "aiAssistedDraft",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -727,7 +727,7 @@
         "ref-moe-secondary2-week6-2025-2026"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -916,7 +916,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1105,7 +1105,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1294,7 +1294,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1483,7 +1483,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1686,7 +1686,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1889,7 +1889,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2092,7 +2092,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2281,7 +2281,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2484,7 +2484,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2687,7 +2687,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2862,7 +2862,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3065,7 +3065,7 @@
         "ref-general-foundations-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3254,7 +3254,7 @@
         "ref-general-signs-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3457,7 +3457,7 @@
         "ref-general-signs-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3660,7 +3660,7 @@
         "ref-general-signs-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3849,7 +3849,7 @@
         "ref-general-signs-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4038,7 +4038,7 @@
         "ref-general-signs-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -4227,7 +4227,7 @@
         "ref-general-signs-v1"
       ],
       "contentVersion": "1.7.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     }

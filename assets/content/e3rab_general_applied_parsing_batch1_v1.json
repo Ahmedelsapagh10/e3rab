@@ -106,7 +106,7 @@
     ],
     "checksum": "pending-specialist-review-v1",
     "minimumAppVersion": "1.0.0",
-    "reviewStatus": "inReview",
+    "reviewStatus": "sourceDocumented",
     "externalPrerequisiteIds": [
       "special-nouns-kam-kayyin-kadha"
     ]
@@ -588,7 +588,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -940,7 +940,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1292,7 +1292,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1630,7 +1630,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1982,7 +1982,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2390,7 +2390,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2868,7 +2868,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -3248,7 +3248,7 @@
       ],
       "estimatedMinutes": 26,
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     }
@@ -3293,7 +3293,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3335,7 +3335,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3377,7 +3377,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3419,7 +3419,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3461,7 +3461,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3503,7 +3503,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3545,7 +3545,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3587,7 +3587,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3629,7 +3629,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3671,7 +3671,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3713,7 +3713,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3755,7 +3755,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3797,7 +3797,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3839,7 +3839,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3881,7 +3881,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3923,7 +3923,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3965,7 +3965,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4007,7 +4007,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4049,7 +4049,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4091,7 +4091,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4133,7 +4133,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4175,7 +4175,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4217,7 +4217,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4259,7 +4259,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4301,7 +4301,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4343,7 +4343,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4385,7 +4385,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4427,7 +4427,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4469,7 +4469,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4511,7 +4511,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4553,7 +4553,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4595,7 +4595,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4637,7 +4637,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4679,7 +4679,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4721,7 +4721,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4763,7 +4763,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4805,7 +4805,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4847,7 +4847,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4889,7 +4889,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4931,7 +4931,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -4973,7 +4973,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5015,7 +5015,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5057,7 +5057,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5099,7 +5099,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5141,7 +5141,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5183,7 +5183,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5225,7 +5225,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5267,7 +5267,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5309,7 +5309,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5351,7 +5351,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5393,7 +5393,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5435,7 +5435,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5477,7 +5477,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5519,7 +5519,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5561,7 +5561,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5603,7 +5603,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5645,7 +5645,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5687,7 +5687,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5729,7 +5729,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5771,7 +5771,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5813,7 +5813,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5855,7 +5855,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5897,7 +5897,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5939,7 +5939,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -5981,7 +5981,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6023,7 +6023,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6065,7 +6065,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6107,7 +6107,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6149,7 +6149,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6191,7 +6191,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6233,7 +6233,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6275,7 +6275,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6317,7 +6317,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6359,7 +6359,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6401,7 +6401,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6443,7 +6443,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6485,7 +6485,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6527,7 +6527,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6569,7 +6569,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -6611,7 +6611,7 @@
         "ref-applied-parsing-lessons-v1"
       ],
       "contentVersion": "1.1.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     }
   ],

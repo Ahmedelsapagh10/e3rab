@@ -35,7 +35,7 @@ void main() {
     expect(bank['schemaVersion'], 1);
     expect(bank['contentVersion'], '1.0.0');
     expect(bank['locale'], 'ar');
-    expect(bank['reviewStatus'], 'inReview');
+    expect(bank['reviewStatus'], 'sourceDocumented');
     expect(samples, hasLength(58));
     for (final entry in expected.entries) {
       final track = samples
@@ -73,41 +73,39 @@ void main() {
           steps.every((step) => '${step['explanation']}'.isNotEmpty),
           isTrue,
         );
-        expect(sample['reviewStatus'], 'inReview');
+        expect(sample['reviewStatus'], 'sourceDocumented');
         expect(sample['reviewedBy'], isNull);
         expect((sample['relatedLessonId'] as String), isNotEmpty);
       }
     },
   );
 
-  test(
-    'metadata offsets are complete and direct loading remains gated',
-    () async {
-      final samples = await AssetParsingDataSource(
-        bundle: rootBundle,
-        assetPath: assetPath,
-      ).loadSamples();
+  test('metadata offsets are complete and content is learner ready', () async {
+    final samples = await AssetParsingDataSource(
+      bundle: rootBundle,
+      assetPath: assetPath,
+    ).loadSamples();
 
-      expect(samples, hasLength(58));
-      expect(samples.every((sample) => !sample.isApproved), isTrue);
-      for (final sample in samples) {
-        for (final word in sample.parsedWords) {
-          expect(word.grammaticalAgent, isNotEmpty);
-          expect(word.sentencePosition, isNotEmpty);
-          expect(
-            word.startIndex,
-            inInclusiveRange(0, sample.sentence.length - 1),
-          );
-          expect(
-            word.endIndex,
-            inInclusiveRange(word.startIndex + 1, sample.sentence.length),
-          );
-          expect(
-            sample.sentence.substring(word.startIndex, word.endIndex),
-            word.word,
-          );
-        }
+    expect(samples, hasLength(58));
+    expect(samples.every((sample) => !sample.isApproved), isTrue);
+    expect(samples.every((sample) => sample.isLearnerReady), isTrue);
+    for (final sample in samples) {
+      for (final word in sample.parsedWords) {
+        expect(word.grammaticalAgent, isNotEmpty);
+        expect(word.sentencePosition, isNotEmpty);
+        expect(
+          word.startIndex,
+          inInclusiveRange(0, sample.sentence.length - 1),
+        );
+        expect(
+          word.endIndex,
+          inInclusiveRange(word.startIndex + 1, sample.sentence.length),
+        );
+        expect(
+          sample.sentence.substring(word.startIndex, word.endIndex),
+          word.word,
+        );
       }
-    },
-  );
+    }
+  });
 }

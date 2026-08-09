@@ -9,7 +9,7 @@ import 'package:new_strucuture/features/parsing/data/parsing_bank_validator.dart
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('parsing bank contains twenty-two gated guided samples', () async {
+  test('parsing bank contains twenty-two source-documented samples', () async {
     final raw = await rootBundle.loadString(
       'assets/content/e3rab_parsing_bank_v1.json',
     );
@@ -23,6 +23,7 @@ void main() {
     expect(samples, hasLength(22));
     expect(samples.every((sample) => sample.steps.length == 7), isTrue);
     expect(samples.every((sample) => !sample.isApproved), isTrue);
+    expect(samples.every((sample) => sample.isLearnerReady), isTrue);
     expect(samples.every((sample) => sample.parsedWords.isNotEmpty), isTrue);
     expect(samples.every((sample) => sample.trackId.isNotEmpty), isTrue);
     expect(samples.every((sample) => sample.difficulty > 0), isTrue);
@@ -155,7 +156,7 @@ void main() {
     );
   });
 
-  test('student service hides every unapproved parsing sample', () async {
+  test('student service exposes every source-documented sample', () async {
     final service = LocalGrammarAnalysisService(
       AssetParsingDataSource(
         bundle: rootBundle,
@@ -166,7 +167,7 @@ void main() {
     final studentSamples = await service.getSamples();
     final previewSamples = await service.getSamples(includeDrafts: true);
 
-    expect(studentSamples.getOrElse(() => const []), isEmpty);
+    expect(studentSamples.getOrElse(() => const []), hasLength(22));
     expect(previewSamples.getOrElse(() => const []), hasLength(22));
   });
 

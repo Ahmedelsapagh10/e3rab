@@ -53,6 +53,8 @@ class ParsingBankValidator {
       'aiAssistedDraft',
       'inReview',
       'changesRequested',
+      'sourceDocumented',
+      'humanReviewed',
       'approved',
       'archived',
     }.contains(status)) {

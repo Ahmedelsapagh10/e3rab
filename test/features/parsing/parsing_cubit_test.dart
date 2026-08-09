@@ -12,13 +12,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('production parsing cubit exposes no draft samples', () async {
+  test('production parsing cubit exposes source-documented samples', () async {
     final fixture = await _fixture(allowDraftPreview: false);
     addTearDown(fixture.dispose);
 
     await fixture.cubit.load();
 
-    expect(fixture.cubit.state.status, ParsingLabStatus.empty);
+    expect(fixture.cubit.state.status, ParsingLabStatus.ready);
+    expect(fixture.cubit.state.allSamples, hasLength(182));
+    expect(fixture.cubit.state.previewMode, isFalse);
   });
 
   test(

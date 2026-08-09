@@ -47,7 +47,7 @@ void main() {
       expect(lesson['topicId'], expectedTopics[index]);
       expect(lesson['order'], 100 + (index * 10));
       expect(lesson['prerequisiteIds'], expectedPrerequisites[index]);
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect((lesson['sections'] as List).length, greaterThanOrEqualTo(7));
       final examples = (lesson['examples'] as List)
           .map((item) => Map<String, dynamic>.from(item as Map))
@@ -72,7 +72,7 @@ void main() {
     }
   });
 
-  test('signs review pack stays outside learner curriculum', () async {
+  test('source-documented signs pack is available to learners', () async {
     final result = await LocalContentPackCatalogRepository(
       bundle: rootBundle,
     ).getCatalog();
@@ -83,7 +83,7 @@ void main() {
 
     expect(pack.assetPath, assetPath);
     expect(pack.contentVersion, '1.7.0');
-    expect(pack.learnerEnabled, isFalse);
+    expect(pack.learnerEnabled, isTrue);
     expect(pack.seedEnabled, isTrue);
   });
 

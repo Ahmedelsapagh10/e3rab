@@ -34,7 +34,7 @@ void main() {
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
     expect(manifest['externalPrerequisiteIds'], ['verbal-hidden-subject']);
-    expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['reviewStatus'], 'sourceDocumented');
     expect(module['order'], 5);
     expect(lessons, hasLength(7));
     expect(
@@ -47,7 +47,7 @@ void main() {
     }
     for (final lesson in lessons) {
       expect(lesson['id'], startsWith('nawasekh-'));
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect(lesson['reviewedBy'], isNull);
       expect((lesson['sections'] as List).length, greaterThanOrEqualTo(9));
       expect((lesson['examples'] as List), hasLength(4));

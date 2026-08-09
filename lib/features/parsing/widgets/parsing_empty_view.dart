@@ -19,13 +19,10 @@ class ParsingEmptyView extends StatelessWidget {
               children: [
                 Icon(Icons.fact_check_outlined, size: 64),
                 SizedBox(height: E3rabSpacing.medium),
-                Text(
-                  'مختبر الإعراب في انتظار المراجعة المتخصصة',
-                  textAlign: TextAlign.center,
-                ),
+                Text('لا توجد جمل مطابقة حاليًا', textAlign: TextAlign.center),
                 SizedBox(height: E3rabSpacing.small),
                 Text(
-                  'لن نعرض تحليلًا نحويًا للطلاب بوصفه مرجعًا قبل اعتماده من متخصص. بقية تجربة التعلّم تعمل بصورة طبيعية.',
+                  'غيّر الباب أو المستوى، أو أعد المحاولة.',
                   textAlign: TextAlign.center,
                 ),
               ],

@@ -11,7 +11,7 @@ void main() {
   const packId = 'e3rab-general-foundations-batch1-ar-v1';
   const assetPath = 'assets/content/e3rab_general_foundations_batch1_v1.json';
 
-  test('general foundations batch is structurally ready for review', () async {
+  test('general foundations batch is source documented', () async {
     final raw = await rootBundle.loadString(assetPath);
     final pack = Map<String, dynamic>.from(jsonDecode(raw) as Map);
     final report = const ContentValidationService().validate(pack);
@@ -24,7 +24,7 @@ void main() {
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
     expect(lesson['topicId'], 'foundations.inflection-building');
-    expect(lesson['reviewStatus'], 'inReview');
+    expect(lesson['reviewStatus'], 'sourceDocumented');
     expect((lesson['examples'] as List), hasLength(4));
     expect((lesson['exerciseIds'] as List), hasLength(10));
     expect((lesson['masteryExerciseIds'] as List), hasLength(5));
@@ -126,7 +126,7 @@ void main() {
     expect((lesson['masteryExerciseIds'] as List), hasLength(5));
   });
 
-  test('review batch cannot enter the learner curriculum', () async {
+  test('source-documented batch enters the learner curriculum', () async {
     final result = await LocalContentPackCatalogRepository(
       bundle: rootBundle,
     ).getCatalog();
@@ -136,7 +136,7 @@ void main() {
     final pack = catalog.packs.singleWhere((item) => item.packId == packId);
 
     expect(pack.assetPath, assetPath);
-    expect(pack.learnerEnabled, isFalse);
+    expect(pack.learnerEnabled, isTrue);
     expect(pack.seedEnabled, isTrue);
   });
 

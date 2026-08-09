@@ -70,7 +70,7 @@
     ],
     "checksum": "pending-specialist-review-v1",
     "minimumAppVersion": "1.0.0",
-    "reviewStatus": "inReview",
+    "reviewStatus": "sourceDocumented",
     "externalPrerequisiteIds": [
       "majzoumat-condition-oath"
     ]
@@ -516,7 +516,7 @@
       ],
       "estimatedMinutes": 28,
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -894,7 +894,7 @@
       ],
       "estimatedMinutes": 28,
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1285,7 +1285,7 @@
       ],
       "estimatedMinutes": 28,
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -1663,7 +1663,7 @@
       ],
       "estimatedMinutes": 28,
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     },
@@ -2027,7 +2027,7 @@
       ],
       "estimatedMinutes": 28,
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "reviewedBy": null,
       "reviewedAt": null
     }
@@ -2069,7 +2069,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2108,7 +2108,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2147,7 +2147,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2186,7 +2186,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2225,7 +2225,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2264,7 +2264,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2303,7 +2303,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2342,7 +2342,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2381,7 +2381,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2420,7 +2420,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2459,7 +2459,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2498,7 +2498,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2537,7 +2537,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2576,7 +2576,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2615,7 +2615,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2654,7 +2654,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2693,7 +2693,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2732,7 +2732,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2771,7 +2771,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2810,7 +2810,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2849,7 +2849,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2888,7 +2888,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2927,7 +2927,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -2966,7 +2966,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3005,7 +3005,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3044,7 +3044,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3083,7 +3083,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3122,7 +3122,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3161,7 +3161,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3200,7 +3200,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3239,7 +3239,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3278,7 +3278,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3317,7 +3317,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3356,7 +3356,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3395,7 +3395,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3434,7 +3434,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3473,7 +3473,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3512,7 +3512,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3551,7 +3551,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3590,7 +3590,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3629,7 +3629,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3668,7 +3668,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3707,7 +3707,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3746,7 +3746,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3785,7 +3785,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3824,7 +3824,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3863,7 +3863,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3902,7 +3902,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3941,7 +3941,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     },
     {
@@ -3980,7 +3980,7 @@
         "ref-general-followers-v1"
       ],
       "contentVersion": "1.0.0",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "schemaVersion": 1
     }
   ],

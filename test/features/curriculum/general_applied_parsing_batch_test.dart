@@ -44,7 +44,7 @@ void main() {
         .toList(growable: false);
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
-    expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['reviewStatus'], 'sourceDocumented');
     expect(manifest['contentVersion'], '1.1.0');
     expect(manifest['externalPrerequisiteIds'], [
       'special-nouns-kam-kayyin-kadha',
@@ -55,7 +55,7 @@ void main() {
     expect((pack['exercises'] as List), hasLength(80));
     for (final lesson in lessons) {
       expect(lesson['contentVersion'], manifest['contentVersion']);
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect(lesson['reviewedBy'], isNull);
       expect((lesson['sections'] as List), hasLength(9));
       expect((lesson['examples'] as List), hasLength(4));

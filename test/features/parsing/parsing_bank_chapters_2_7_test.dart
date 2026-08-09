@@ -16,7 +16,7 @@ void main() {
     'reason',
     'sentence-position',
   ];
-  test('chapters 2 to 7 bank is valid complete and gated', () async {
+  test('chapters 2 to 7 bank is valid and source documented', () async {
     final bank = Map<String, dynamic>.from(
       jsonDecode(await rootBundle.loadString(path)) as Map,
     );
@@ -24,7 +24,7 @@ void main() {
     expect(bank['schemaVersion'], 1);
     expect(bank['contentVersion'], '1.1.0');
     expect(bank['locale'], 'ar');
-    expect(bank['reviewStatus'], 'inReview');
+    expect(bank['reviewStatus'], 'sourceDocumented');
     final samples = (bank['samples'] as List)
         .map((e) => Map<String, dynamic>.from(e as Map))
         .toList();
@@ -59,7 +59,7 @@ void main() {
       expect(sentences.add(sample['sentence'] as String), isTrue);
       expect(sample['difficulty'], inInclusiveRange(1, 3));
       expect((sample['steps'] as List).map((e) => (e as Map)['id']), sequence);
-      expect(sample['reviewStatus'], 'inReview');
+      expect(sample['reviewStatus'], 'sourceDocumented');
       expect(sample['reviewedBy'], isNull);
       expect(sample['reviewedAt'], isNull);
       final sentence = sample['sentence'] as String;
@@ -83,5 +83,6 @@ void main() {
     ).loadSamples();
     expect(loaded, hasLength(52));
     expect(loaded.every((sample) => !sample.isApproved), isTrue);
+    expect(loaded.every((sample) => sample.isLearnerReady), isTrue);
   });
 }

@@ -32,7 +32,7 @@ void main() {
         jsonDecode(await rootBundle.loadString(path)) as Map,
       );
 
-  test('default parsing catalog exposes the complete gated lab', () async {
+  test('default parsing catalog exposes the source-documented lab', () async {
     final samples = await AssetParsingDataSource(
       bundle: rootBundle,
     ).loadSamples();
@@ -49,6 +49,7 @@ void main() {
       );
     }
     expect(samples.every((sample) => !sample.isApproved), isTrue);
+    expect(samples.every((sample) => sample.isLearnerReady), isTrue);
     expect(
       samples.map((sample) => sample.id).toSet(),
       hasLength(samples.length),

@@ -16,12 +16,10 @@ void main() {
     samples = await AssetParsingDataSource(bundle: rootBundle).loadSamples();
   });
 
-  testWidgets('empty lab explains specialist review gate in RTL', (
-    tester,
-  ) async {
+  testWidgets('empty lab suggests changing filters in RTL', (tester) async {
     await tester.pumpWidget(const _TestApp(child: ParsingEmptyView()));
 
-    expect(find.textContaining('في انتظار المراجعة المتخصصة'), findsOneWidget);
+    expect(find.textContaining('لا توجد جمل مطابقة'), findsOneWidget);
     expect(
       Directionality.of(tester.element(find.byType(Card))),
       TextDirection.rtl,

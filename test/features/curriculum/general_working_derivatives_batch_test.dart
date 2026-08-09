@@ -45,7 +45,7 @@ void main() {
     }
     final exampleIds = <String>{};
     for (final lesson in lessons) {
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect(lesson['sections'], hasLength(9));
       expect(lesson['examples'], hasLength(4));
       expect(lesson['exerciseIds'], hasLength(10));

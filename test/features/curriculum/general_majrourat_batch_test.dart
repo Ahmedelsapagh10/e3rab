@@ -34,7 +34,7 @@ void main() {
     expect(manifest['externalPrerequisiteIds'], [
       'mansoubat-inna-name-kana-predicate',
     ]);
-    expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['reviewStatus'], 'sourceDocumented');
     expect(module['order'], 8);
     expect(lessons, hasLength(5));
     expect(
@@ -49,7 +49,7 @@ void main() {
     }
     for (final lesson in lessons) {
       expect(lesson['id'], startsWith('majrourat-'));
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect(lesson['reviewedBy'], isNull);
       expect((lesson['sections'] as List).length, greaterThanOrEqualTo(9));
       expect((lesson['examples'] as List), hasLength(4));

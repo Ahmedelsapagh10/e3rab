@@ -16,171 +16,171 @@
       "assetPath": "assets/content/e3rab_egypt_secondary2_term1_batch1_v1.json",
       "contentVersion": "1.3.0",
       "curriculumVersion": "egypt-national-2025-2026",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-foundations-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_foundations_batch1_v1.json",
       "contentVersion": "1.4.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-signs-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_signs_batch1_v1.json",
       "contentVersion": "1.7.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-nominal-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_nominal_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-verbal-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_verbal_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-nawasekh-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_nawasekh_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-marfouat-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_marfouat_batch1_v1.json",
       "contentVersion": "1.1.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-mansoubat-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_mansoubat_batch1_v1.json",
       "contentVersion": "1.1.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-majrourat-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_majrourat_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-majzoumat-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_majzoumat_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-followers-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_followers_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-working-derivatives-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_working_derivatives_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-styles-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_styles_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-sentence-positions-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_sentence_positions_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-semi-sentences-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_semi_sentences_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-diptotes-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_diptotes_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-numbers-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_numbers_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-special-nouns-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_special_nouns_batch1_v1.json",
       "contentVersion": "1.0.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     },
     {
       "packId": "e3rab-general-applied-parsing-batch1-ar-v1",
       "assetPath": "assets/content/e3rab_general_applied_parsing_batch1_v1.json",
       "contentVersion": "1.1.0",
       "curriculumVersion": "e3rab-general-arabic-v1",
-      "reviewStatus": "inReview",
+      "reviewStatus": "sourceDocumented",
       "seedEnabled": true,
-      "learnerEnabled": false
+      "learnerEnabled": true
     }
   ]
 }

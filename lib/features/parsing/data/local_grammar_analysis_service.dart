@@ -23,7 +23,7 @@ class LocalGrammarAnalysisService implements GrammarAnalysisService {
               if (sample.reviewStatus == ContentReviewStatus.archived) {
                 return false;
               }
-              return includeDrafts || sample.isApproved;
+              return includeDrafts || sample.isLearnerReady;
             })
             .toList(growable: false),
       );

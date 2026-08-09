@@ -32,7 +32,7 @@ void main() {
 
     expect(report.isValid, isTrue, reason: report.errors.toString());
     expect(manifest['externalPrerequisiteIds'], ['majzoumat-condition-oath']);
-    expect(manifest['reviewStatus'], 'inReview');
+    expect(manifest['reviewStatus'], 'sourceDocumented');
     expect(module['order'], 10);
     expect(lessons, hasLength(5));
     expect(
@@ -45,7 +45,7 @@ void main() {
     }
     for (final lesson in lessons) {
       expect(lesson['id'], startsWith('followers-'));
-      expect(lesson['reviewStatus'], 'inReview');
+      expect(lesson['reviewStatus'], 'sourceDocumented');
       expect((lesson['sections'] as List).length, greaterThanOrEqualTo(9));
       expect((lesson['examples'] as List), hasLength(4));
       expect((lesson['exerciseIds'] as List), hasLength(10));
