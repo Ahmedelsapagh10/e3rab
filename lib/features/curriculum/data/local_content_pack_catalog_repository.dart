@@ -79,11 +79,7 @@ class LocalContentPackCatalogRepository
 
   bool _isSafeForLearners(ContentPackCatalogEntry entry) {
     if (!entry.learnerEnabled) return true;
-    return const {
-      ContentReviewStatus.sourceDocumented,
-      ContentReviewStatus.humanReviewed,
-      ContentReviewStatus.approved,
-    }.contains(entry.reviewStatus);
+    return entry.reviewStatus.isLearnerReady;
   }
 
   bool _hasText(Object? value) => value is String && value.trim().isNotEmpty;

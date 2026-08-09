@@ -7,14 +7,16 @@ import '../../../core/design_system/e3rab_design_tokens.dart';
 import '../../reference/cubit/reference_cubit.dart';
 import '../../reference/cubit/reference_state.dart';
 import '../../reference/data/model/grammar_reference_entry.dart';
+import '../../reference/navigation/reference_lesson_navigator.dart';
 import '../cubit/learning_cubit.dart';
-import '../screens/lesson_screen.dart';
 import '../../reference/widgets/reference_entry_card.dart';
 import '../../reference/widgets/reference_filter_bar.dart';
 import '../../reference/widgets/reference_status_views.dart';
 
 class ReferenceSearchView extends StatelessWidget {
-  const ReferenceSearchView({super.key});
+  const ReferenceSearchView({super.key, required this.learningCubit});
+
+  final LearningCubit learningCubit;
 
   @override
   Widget build(BuildContext context) {
@@ -36,13 +38,10 @@ class ReferenceSearchView extends StatelessWidget {
   }
 
   void _open(BuildContext context, GrammarReferenceEntry entry) {
-    Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (_) => BlocProvider.value(
-          value: context.read<LearningCubit>(),
-          child: LessonScreen(lesson: entry.lesson),
-        ),
-      ),
+    ReferenceLessonNavigator.open(
+      context,
+      learningCubit: learningCubit,
+      lesson: entry.lesson,
     );
   }
 }

@@ -49,7 +49,7 @@ class ReferenceEntryCard extends StatelessWidget {
               runSpacing: E3rabSpacing.xSmall,
               children: [
                 Chip(label: Text(entry.type.label)),
-                if (!entry.isApproved)
+                if (!entry.isLearnerReady)
                   const Chip(
                     avatar: Icon(Icons.rate_review_outlined, size: 18),
                     label: Text('مسودة قيد المراجعة'),

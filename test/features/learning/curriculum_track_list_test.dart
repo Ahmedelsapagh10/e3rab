@@ -34,6 +34,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byIcon(Icons.lock_clock_outlined), findsNothing);
+    expect(find.text('قيد المراجعة النحوية'), findsNothing);
     expect(find.byIcon(Icons.arrow_back_ios_new_rounded), findsOneWidget);
   });
 }

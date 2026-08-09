@@ -30,6 +30,7 @@ import 'features/curriculum/data/firebase_content_seed_repository.dart';
 import 'features/curriculum/data/local_curriculum_repository.dart';
 import 'features/curriculum/data/local_content_pack_catalog_repository.dart';
 import 'features/curriculum/data/local_curriculum_matrix_repository.dart';
+import 'features/curriculum/data/model/content_review_status.dart';
 import 'features/curriculum/services/content_seeder.dart';
 import 'features/on_boarding/cubit/onboarding_cubit.dart';
 import 'features/on_boarding/data/onboarding_repository.dart';
@@ -122,17 +123,19 @@ Future<void> setupRepo() async {
   final contentCatalogRepository = LocalContentPackCatalogRepository(
     bundle: rootBundle,
   );
-  final catalog = await contentCatalogRepository.getCatalog();
-  final learnerAssets = catalog.fold<List<String>>(
-    (_) => const [],
-    (value) => value.packs
-        .where((pack) => pack.learnerEnabled)
-        .map((pack) => pack.assetPath)
-        .toList(growable: false),
+  final catalog = (await contentCatalogRepository.getCatalog()).getOrElse(
+    () => throw StateError('The local curriculum catalog is invalid.'),
   );
+  final learnerAssets = catalog.packs
+      .where((pack) => pack.reviewStatus.isLearnerReady)
+      .map((pack) => pack.assetPath)
+      .toList(growable: false);
+  if (learnerAssets.isEmpty) {
+    throw StateError('The local curriculum has no learner-ready content.');
+  }
   final localCurriculumDataSource = AssetCurriculumDataSource(
     bundle: rootBundle,
-    assetPaths: learnerAssets.isEmpty ? null : learnerAssets,
+    assetPaths: learnerAssets,
   );
   final localParsingDataSource = AssetParsingDataSource(bundle: rootBundle);
   final localLearningDataSource = LocalLearningDataSource(

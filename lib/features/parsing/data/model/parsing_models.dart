@@ -100,11 +100,7 @@ class ParsingSampleModel extends Equatable {
 
   bool get isApproved => reviewStatus == ContentReviewStatus.approved;
 
-  bool get isLearnerReady => const {
-    ContentReviewStatus.sourceDocumented,
-    ContentReviewStatus.humanReviewed,
-    ContentReviewStatus.approved,
-  }.contains(reviewStatus);
+  bool get isLearnerReady => reviewStatus.isLearnerReady;
 
   @override
   List<Object?> get props => [

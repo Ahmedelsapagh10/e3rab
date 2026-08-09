@@ -92,9 +92,9 @@ class _TopicRow extends StatelessWidget {
   Widget build(BuildContext context) => ListTile(
     minTileHeight: E3rabReadingMetrics.minimumTapTarget,
     title: Text(topic),
-    subtitle: lesson == null ? const Text('قيد المراجعة النحوية') : null,
+    subtitle: lesson == null ? const Text('تعذّر تحميل هذا الدرس') : null,
     trailing: lesson == null
-        ? const Icon(Icons.lock_clock_outlined)
+        ? const Icon(Icons.error_outline_rounded)
         : const Icon(Icons.arrow_back_ios_new_rounded, size: 18),
     onTap: lesson == null
         ? null

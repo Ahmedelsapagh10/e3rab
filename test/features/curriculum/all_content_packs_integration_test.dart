@@ -6,6 +6,7 @@ import 'package:new_strucuture/features/curriculum/data/data_source/local_curric
 import 'package:new_strucuture/features/curriculum/data/grammar_coverage_repository.dart';
 import 'package:new_strucuture/features/curriculum/data/local_content_pack_catalog_repository.dart';
 import 'package:new_strucuture/features/curriculum/data/local_curriculum_repository.dart';
+import 'package:new_strucuture/features/curriculum/data/model/content_review_status.dart';
 import 'package:new_strucuture/features/curriculum/services/curriculum_coverage_auditor.dart';
 
 void main() {
@@ -23,7 +24,7 @@ void main() {
       final source = AssetCurriculumDataSource(
         bundle: rootBundle,
         assetPaths: catalog.packs
-            .where((pack) => pack.seedEnabled)
+            .where((pack) => pack.reviewStatus.isLearnerReady)
             .map((pack) => pack.assetPath)
             .toList(growable: false),
       );
@@ -44,6 +45,11 @@ void main() {
       );
 
       expect(report.isComplete, isTrue);
+      expect(catalog.packs, hasLength(20));
+      expect(
+        catalog.packs.every((pack) => pack.reviewStatus.isLearnerReady),
+        isTrue,
+      );
       expect(report.expectedTopicIds, hasLength(125));
       expect(report.coveredTopicIds, hasLength(125));
       expect(lessons, hasLength(125));

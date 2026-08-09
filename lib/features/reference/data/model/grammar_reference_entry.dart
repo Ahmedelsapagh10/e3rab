@@ -34,6 +34,7 @@ class GrammarReferenceEntry extends Equatable {
   String get contentVersion => lesson.contentVersion;
   ContentReviewStatus get reviewStatus => lesson.reviewStatus;
   bool get isApproved => reviewStatus == ContentReviewStatus.approved;
+  bool get isLearnerReady => reviewStatus.isLearnerReady;
 
   @override
   List<Object?> get props => [id, type, title, body, keywords, lesson];

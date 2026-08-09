@@ -92,13 +92,14 @@ class E3rabShellScreen extends StatelessWidget {
   };
 
   void _openReference(BuildContext context) {
+    final learningCubit = context.read<LearningCubit>();
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => BlocProvider.value(
           value: context.read<ReferenceCubit>(),
-          child: const Scaffold(
-            appBar: _SectionAppBar(title: 'المرجع النحوي'),
-            body: ReferenceSearchView(),
+          child: Scaffold(
+            appBar: const _SectionAppBar(title: 'المرجع النحوي'),
+            body: ReferenceSearchView(learningCubit: learningCubit),
           ),
         ),
       ),
